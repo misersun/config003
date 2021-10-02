@@ -1,30 +1,46 @@
 proxies:
-- name: Relay CNHK2844113
-  server: jmnt.fastnetwork.fun
+- name: RelayCNTW4117868
+  server: sh-hk-01-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 12443
+  password: UiLPqefVfielqkDjEwBV
+  skip-cert-verify: true
+  udp: true
+- name: RelayCNJP4118869
+  server: jp-tyo-04-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 889
+  password: UiLPqefVfielqkDjEwBV
+  skip-cert-verify: true
+  udp: true
+- name: RelayHKHK3009168
+  server: can-hkg-cmhk-tr.cdn.savoy.click
+  type: trojan
+  country: HK
+  port: 65002
+  password: UiLPqefVfielqkDjEwBV
+  skip-cert-verify: true
+  udp: true
+- name: RelayHKJP8599912
+  server: tk.shcn2.tkddns.xyz
   type: vmess
-  country: ' CN'
-  port: 50025
-  uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3
-  alterId: 0
+  country: HK
+  port: 22642
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
   cipher: auto
   network: ws
-  ws-path: /v1
-  servername: meeting.speednetwork.xyz
+  ws-path: /
+  servername: zxjp-b.tkong.cc
   ws-headers:
-    HOST: meeting.speednetwork.xyz
+    HOST: zxjp-b.tkong.cc
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: RelayHKUS52152
-  server: azure-f4s-hk.transfer-xray.tk
-  type: trojan
-  country: HK
-  port: 52382
-  password: a54f2aba-20a5-4f0d-bd6e-43767b473c63
-  skip-cert-verify: true
-  udp: true
-- name: ' 香港I02BGZ1531'
+- name: ' 香港I02BGZ1630'
   server: gz.nat.beer.mypeter.top
   port: 60610
   type: vmess
@@ -37,24 +53,7 @@ proxies:
   ws-path: /ss
   ws-headers:
     Host: inkhk02.mypeter.top
-- name: RelayCNHK4088766
-  server: zh.fxyjs.xyz
-  type: vmess
-  country: CN
-  port: 50025
-  uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v1
-  servername: meeting.speednetwork.xyz
-  ws-headers:
-    HOST: meeting.speednetwork.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: ' 日本 03  PCCW1535'
+- name: ' 日本 03  PCCW1634'
   server: mack.dliroom.co
   port: 10007
   type: vmess
@@ -67,7 +66,7 @@ proxies:
   ws-path: /
   ws-headers:
     Host: pqjp01.0894168.xyz
-- name: trojan1390
+- name: trojan1483
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -76,22 +75,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 更新地址reurlccW35gV72241
-  server: azure-f4s-hk.transfer-xray.tk
-  type: vmess
-  port: 53420
-  udp: true
-  uuid: 1b93051f-c9ad-4908-874e-ccb5e8da27ef
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /liuwei
-  ws-headers:
-    Host: usss222.liuwei01.tk
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: RelayUSUS103473
+- name: RelayUSUS102751
   server: www.shunxin.ml
   type: vmess
   country: US
@@ -108,14 +92,64 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: RelayRU33322
+- name: RelayUS88665
+  server: v1.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: RelayRU91089
   server: t6.ssrsub.com
   type: trojan
   port: 8443
-  password: dde769da-8da0-47d8-bda4-192c761f882a
+  password: 683ec608-5af9-4f91-bd5b-ce493307fe56
   sni: t6.ssrsub.com
   udp: true
-- name: RelayUSUS200581139
+- name: RelayUS90685
+  server: t1.ssrsub.com
+  type: trojan
+  port: 8443
+  password: dde769da-8da0-47d8-bda4-192c761f882a
+  sni: t1.ssrsub.com
+  udp: true
+- name: ' 美国自由之梦免费节点严禁倒卖 1818'
+  server: 107.173.157.168
+  port: 443
+  type: vmess
+  uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422
+  alterId: 6
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /b06fde1/
+  ws-headers:
+    Host: www.shunxin.ml
+- name: RelayRU89473
+  server: v6.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v6.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: RelayUSUS5782308
   server: inap.qqnz.com.cn
   type: vmess
   country: US
@@ -129,8 +163,14 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: RelayRU123889
-  server: v6.ssrsub.com
+- name: ' 美国  Los Angeles2453'
+  server: us11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
+  sni: us11.holiganfan.com
+- name: RelayRU88867
+  server: v5.ssrsub.com
   type: vmess
   port: 158
   udp: true
@@ -140,52 +180,78 @@ proxies:
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v6.ssrsub.com
+    Host: v5.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: RelayRU43332
+- name: RelayJPJP54435
+  server: jpjs6o.zhs.company
+  type: trojan
+  country: JP
+  port: 443
+  password: 60665a07-09d5-3505-9bd4-c09d02fe46b8
+  skip-cert-verify: true
+  udp: true
+- name: 18168  245Mb655
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: RelayRU25375
+  server: v3.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v3.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: RelayRU34384
   server: t3.ssrsub.com
   type: trojan
   port: 8443
   password: 683ec608-5af9-4f91-bd5b-ce493307fe56
   sni: t3.ssrsub.com
   udp: true
-- name: RelayUSUS102665
-  server: 198.211.30.163
+- name: US8419US5772298
+  server: 149.248.19.78
   type: vmess
   country: US
   port: 443
-  uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d
-  alterId: 64
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
+  alterId: 60
   cipher: auto
   network: ws
-  ws-path: /path/310910211916
-  servername: www.93289686.xyz
-  ws-headers:
-    HOST: www.93289686.xyz
+  ws-path: /sadfasdf
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: RelayKRUS6818213
-  server: kr1.futi.online
-  type: vmess
-  country: KR
+- name: RelayRU90180
+  server: t5.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  sni: t5.ssrsub.com
+  udp: true
+- name: 18174  248Mb661
+  server: 184.168.127.50
+  type: trojan
+  country: US
   port: 443
-  uuid: f4915434-9461-4f91-8968-7e9f2d520c86
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: kr1.futi.online
-  ws-headers:
-    HOST: kr1.futi.online
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
-- name: US200481129
+  udp: true
+- name: US202111239
   server: 104.251.233.106
   type: vmess
   country: US
@@ -202,24 +268,22 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: RelayCA41330
-  server: t10.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 683ec608-5af9-4f91-bd5b-ce493307fe56
-  sni: t10.ssrsub.com
-  udp: true
-- name: RO8566237
-  server: 185.105.191.92
-  type: trojan
-  country: RO
+- name: RelayUSUS102650
+  server: nn-ssr4.feiclouddd.me
+  type: vmess
+  country: US
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  sni: t.me/vpnhat
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /sadfasdf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-  udp: true
-- name: PoolUS11533265
-  server: 67.21.72.39
+- name: US187023832
+  server: 67.21.72.52
   type: vmess
   country: US
   port: 443
@@ -228,14 +292,43 @@ proxies:
   cipher: auto
   network: ws
   ws-path: /path/310910211916
-  servername: www.17080100.xyz
-  ws-headers:
-    HOST: www.17080100.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: PoolUS200731154
+- name: ' AU255412'
+  server: 1.1.1.100
+  type: vmess
+  country: ' AU'
+  port: 443
+  uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ce04/
+  servername: vir.laoban666.xyz
+  ws-headers:
+    HOST: vir.laoban666.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: RelayCA88261
+  server: v8.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v8.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: PoolUS202321260
   server: 128.14.157.112
   type: vmess
   country: US
@@ -252,35 +345,79 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: HK5799168
-  server: 103.26.121.117
+- name: RelayCA88160
+  server: v10.ssrsub.com
   type: vmess
-  country: HK
-  port: 443
-  uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: Relay USUS9631254
-  server: usa4a-node.3366test.com
-  type: vmess
-  country: ' US'
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ray
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v10.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
+- name: RO4458240
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  sni: t.me/vpnhat
   skip-cert-verify: true
-- name: SG8819245
+  udp: true
+- name: '  268Mb620'
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: RO4455237
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  sni: t.me/vpnhat
+  skip-cert-verify: true
+  udp: true
+- name: RelayRU91392
+  server: t7.ssrsub.com
+  type: trojan
+  port: 8443
+  password: dde769da-8da0-47d8-bda4-192c761f882a
+  sni: t7.ssrsub.com
+  udp: true
+- name: US8428US5828354
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  sni: t.me/vpnhat
+  skip-cert-verify: true
+  udp: true
+- name: '  267Mb600'
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: RelayRU90786
+  server: t4.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  sni: t4.ssrsub.com
+  udp: true
+- name: SG6710SG4621282
   server: 188.166.242.117
   type: trojan
   country: SG
@@ -288,132 +425,44 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: DE3642158
-  server: 5.183.179.138
+- name: HK8597910
+  server: 210.0.158.130
+  type: vmess
+  country: HK
+  port: 443
+  uuid: 92e7a42e-e8a6-31b2-bfd8-68f517bd3266
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /racernet
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: '  292Mb603'
+  server: 185.105.191.92
   type: trojan
-  country: DE
+  country: RO
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
-  sni: t.me/vpnhat
   skip-cert-verify: true
   udp: true
-- name: NL7336217
+- name: '  294Mb592'
   server: 185.171.120.144
   type: trojan
   country: NL
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  sni: t.me/vpnhat
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: SG8818244
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  sni: t.me/vpnhat
-  skip-cert-verify: true
-  udp: true
-- name: US11536268
-  server: ru1.futi.online
-  type: vmess
-  country: US
-  port: 8443
-  uuid: f4915434-9461-4f91-8968-7e9f2d520c86
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: ru1.futi.online
-  ws-headers:
-    HOST: ru1.futi.online
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: RelayAUDE3262783
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: RelayCA38327
+- name: RelayCA90382
   server: t9.ssrsub.com
   type: trojan
   port: 8443
   password: 683ec608-5af9-4f91-bd5b-ce493307fe56
   sni: t9.ssrsub.com
   udp: true
-- name: RelayHKUS52354
-  server: azure-f4s-hk.transfer-xray.tk
-  type: trojan
-  country: HK
-  port: 61370
-  password: 47de76e0-7a40-4410-acbc-a6dd18f9ffcd
-  skip-cert-verify: true
-  udp: true
-- name: RelaySGSG8816242
-  server: sg1.futi.online
-  type: vmess
-  country: SG
-  port: 443
-  uuid: f4915434-9461-4f91-8968-7e9f2d520c86
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: sg1.futi.online
-  ws-headers:
-    HOST: sg1.futi.online
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: RO8554225
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  sni: t.me/vpnhat
-  skip-cert-verify: true
-  udp: true
-- name: RelayCA17306
-  server: v8.ssrsub.com
-  type: vmess
-  port: 158
-  udp: true
-  uuid: dde769da-8da0-47d8-bda4-192c761f882a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v8.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: CA2544108
-  server: 138.197.162.114
-  type: trojan
-  country: CA
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: NL  222Mb585
+- name: NL5747NL3854236
   server: 178.62.201.120
   type: trojan
   country: NL
@@ -421,40 +470,44 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: RelayRU44333
-  server: t7.ssrsub.com
+- name: CA2005CA1596103
+  server: 138.197.162.114
   type: trojan
-  port: 8443
-  password: dde769da-8da0-47d8-bda4-192c761f882a
-  sni: t7.ssrsub.com
+  country: CA
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
   udp: true
-- name: RelayKRUS6817212
-  server: kr2.futi.online
+- name: ' Free 新加坡  022460'
+  server: sg10.holiganfan.com
+  port: 10088
+  type: trojan
+  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
+  sni: sg10.holiganfan.com
+- name: RelayCA89170
+  server: v9.ssrsub.com
   type: vmess
-  country: KR
-  port: 8443
-  uuid: f4915434-9461-4f91-8968-7e9f2d520c86
-  alterId: 1
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /
-  servername: kr2.futi.online
+  ws-path: /ssrsub
   ws-headers:
-    HOST: kr2.futi.online
+    Host: v9.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-  skip-cert-verify: true
-- name: RelayUSUS11570302
-  server: abnode17.makegamegoal.com
+- name: RelayJPJP7101579
+  server: agals01.cloudddns.icu
   type: trojan
-  country: US
-  port: 8443
-  password: 4f4c470e-22e5-4929-bf87-c431538e8f5b
-  sni: abnode17.makegamegoal.com
+  country: JP
+  port: 1123
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
   skip-cert-verify: true
   udp: true
-- name: GB5516161
+- name: '  292Mb564'
   server: 138.68.179.78
   type: trojan
   country: GB
@@ -462,55 +515,11 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: DE3640156
-  server: 139.59.209.152
+- name: 18181  330Mb668
+  server: 139.177.197.51
   type: trojan
-  country: DE
-  port: 4443
+  country: US
+  port: 1443
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: DE3641157
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: ' US3040424'
-  server: v2.coding996.com
-  type: vmess
-  country: ' US'
-  port: 443
-  uuid: 1df29cdc-13c0-11ec-a352-0a9bc535b309
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /LH8AUqOg/
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: RO8556227
-  server: 62.216.92.179
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  sni: t.me/vpnhat
-  skip-cert-verify: true
-  udp: true
-- name: ' 美国自由之梦免费节点严禁倒卖 1818'
-  server: 107.173.157.168
-  port: 443
-  type: vmess
-  uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422
-  alterId: 6
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /b06fde1/
-  ws-headers:
-    Host: www.shunxin.ml
