@@ -1,61 +1,21 @@
 proxies:
-- name: US10338421
-  server: 103.99.178.219
+- name: PoolUS11005394
+  server: 128.14.157.112
   type: vmess
   country: US
-  port: 2087
-  uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8
-  alterId: 0
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /zhs
-  servername: t.me/vpnhat
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
   ws-headers:
-    HOST: t.me/vpnhat
+    HOST: en.tgchannels.org/channel/vpnpool
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: ' mattkaydiarycom美国USUSALas Vegas222368'
-  server: 209.141.35.45
-  port: 80
-  type: vmess
-  uuid: 732ada90-3ad1-45bd-bd37-fb5fe1b9007c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: pull.free.video.10010.com
-- name: RelayUSUS10301384
-  server: usgia.jjyun.ren
-  type: vmess
-  country: US
-  port: 88
-  uuid: 1fbb8679-cd74-46c9-8f9f-8aa2fcc94722
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: RelayUS119394
-  server: t1.ssrsub.com
-  type: trojan
-  port: 8443
-  password: dde769da-8da0-47d8-bda4-192c761f882a
-  sni: t1.ssrsub.com
-  udp: true
-- name: US10365448
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
 - name: 216105168138tcp5
   server: 216.105.168.138
   port: 10964
@@ -64,59 +24,64 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: trojan1396
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: ' US7753347'
-  server: 144.172.118.47
+- name: Relay USUS8424354
+  server: usa4a-node.3366test.com
   type: vmess
   country: ' US'
-  port: 8888
-  uuid: 9e9f0f9b-bcaa-4421-9241-145343e1a465
-  alterId: 233
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: RelaySGUS129081105
-  server: ping.qingcloud.net.cn
-  type: vmess
-  country: SG
-  port: 80
-  uuid: 02246a03-6cdf-3f65-95c8-0685f8284236
-  alterId: 2
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /v2ray
-  servername: m.sc.189.cn
-  ws-headers:
-    HOST: m.sc.189.cn
+  ws-path: /ray
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- port: 80
+- name: RelayUSUS96842
+  server: www.shunxin.ml
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422
+  alterId: 6
+  cipher: auto
+  network: ws
+  ws-path: /b06fde1/
+  servername: www.shunxin.ml
+  ws-headers:
+    HOST: www.shunxin.ml
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- alterId: 2
+  cipher: auto
+  name: 1004oslook55947
+  network: ws
+  port: 80
+  server: ping.qingcloud.net.cn
   tls: false
   type: vmess
   uuid: 02246a03-6cdf-3f65-95c8-0685f8284236
-  server: 143.198.231.33
+  ws-headers:
+    Host: m.sc.189.cn
   ws-path: /v2ray
-  network: ws
-  name: 美国科罗拉多0v2ray14319823133801397
-  cipher: auto
-  alterId: 4
-- name: RelayUSUS10366449
-  server: usa-server-02.selfupay.com
+- name: US11064453
+  server: 72.167.45.6
   type: trojan
   country: US
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 美国科罗拉多0v2ray1431982313380831
+  uuid: 02246a03-6cdf-3f65-95c8-0685f8284236
+  tls: false
+  network: ws
+  server: 143.198.231.33
+  type: vmess
+  ws-path: /v2ray
+  port: 80
+  alterId: 4
+  cipher: auto
