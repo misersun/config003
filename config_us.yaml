@@ -1,87 +1,102 @@
 proxies:
-- name: PoolUS11005394
-  server: 128.14.157.112
+- name: 2.69|4566157195tcp
+  server: 45.66.157.195
+  port: 7596
   type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 216105168138tcp5
-  server: 216.105.168.138
-  port: 10964
-  type: vmess
-  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
   alterId: 0
   cipher: auto
   tls: false
-- name: Relay USUS8424354
-  server: usa4a-node.3366test.com
-  type: vmess
-  country: ' US'
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: RelayUSUS96842
-  server: www.shunxin.ml
-  type: vmess
-  country: US
+- name: 2.28|RelayUS1724
+  server: t2.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  sni: t2.ssrsub.com
+  udp: true
+- name: 2.23| 美国自由之梦免费节点严禁倒卖 18
+  server: 107.173.157.168
   port: 443
+  type: vmess
   uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422
   alterId: 6
   cipher: auto
+  tls: true
+  skip-cert-verify: false
   network: ws
   ws-path: /b06fde1/
-  servername: www.shunxin.ml
   ws-headers:
-    HOST: www.shunxin.ml
+    Host: www.shunxin.ml
+- name: 1.78|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.53| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
+  type: vmess
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.68080962.xyz
+- name: 1.49|US11074
+  server: 18.236.146.125
+  type: vmess
+  country: US
+  port: 8888
+  uuid: 31ff188f-04d6-45fd-a067-80d51072e520
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.44|US11148
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.37|RelayUSUS11084
+  server: morton0.herokuapp.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- alterId: 2
-  cipher: auto
-  name: 1004oslook55947
-  network: ws
-  port: 80
-  server: ping.qingcloud.net.cn
-  tls: false
+- name: 1.25|RelayUSDE4643
+  server: 104.25.175.69
   type: vmess
-  uuid: 02246a03-6cdf-3f65-95c8-0685f8284236
-  ws-headers:
-    Host: m.sc.189.cn
-  ws-path: /v2ray
-- name: US11064453
-  server: 72.167.45.6
-  type: trojan
   country: US
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 美国科罗拉多0v2ray1431982313380831
-  uuid: 02246a03-6cdf-3f65-95c8-0685f8284236
-  tls: false
-  network: ws
-  server: 143.198.231.33
-  type: vmess
-  ws-path: /v2ray
-  port: 80
-  alterId: 4
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
   cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
