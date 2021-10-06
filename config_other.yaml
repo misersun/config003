@@ -1,16 +1,26 @@
 proxies:
-- name: 2.81|  191Mb
-  server: 139.227.21.36
+- name: 4.99|CN NodeTest 6  30476 KB
+  server: 139.227.21.116
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 39796:IgeLVe
+  obfs-param: t.me/vpnhat
+  udp: true
+  speedtest: 312076
+- name: 3.03|RelayCNHK4401
+  server: 58.62.87.156
   type: ssr
   country: CN
-  port: 34000
-  password: Uk92CS
+  port: 10086
+  password: '2333'
   cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 39796:IgeLVe
-  obfs: http_simple
-  obfs-param: t.me/vpnhat
-- name: 2.77|RelayCNIN4453
+  protocol: origin
+  obfs: plain
+- name: 2.41|2.77|RelayCNIN4453
   server: cu.newhost.cc
   type: ssr
   country: CN
@@ -21,3 +31,12 @@ proxies:
   protocol-param: 4647:thd4vu
   obfs: tls1.2_ticket_auth
   obfs-param: .microsoft.com
+- name: 1.41|RelayCNTW284
+  server: p5.22332e.com
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
