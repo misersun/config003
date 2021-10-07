@@ -1,5 +1,100 @@
 proxies:
-- name: 2.44|trojan
+- name: 2.39| 美国  Los Angeles
+  server: us11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
+  sni: us11.holiganfan.com
+- name: 2.18|RelayUSUS11162
+  server: usdll2.jjyun.ren
+  type: vmess
+  country: US
+  port: 80
+  uuid: 1fbb8679-cd74-46c9-8f9f-8aa2fcc94722
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /jjyunml
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.16|RelayUSUS1082
+  server: nn-ssr4.feiclouddd.me
+  type: vmess
+  country: US
+  port: 443
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /sadfasdf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.13|1005oslook38
+  server: v103.v2dns.xyz
+  port: 80
+  type: vmess
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v1032N9rN0yPy
+  ws-headers:
+    Host: gd.189.cn
+- name: 2.09|RelayUSUS11197
+  server: 155.248.203.20
+  type: vmess
+  country: US
+  port: 79
+  uuid: c1af0045-3b56-4150-ab83-ae2b094bf95a
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 155.248.203.20
+  ws-headers:
+    HOST: 155.248.203.20
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.08|Relay USUS8650
+  server: us2.v2ray.run
+  type: vmess
+  country: ' US'
+  port: 8600
+  uuid: a0a4dfc4-bd55-46a7-ba0f-875e757d87d3
+  alterId: 5
+  cipher: auto
+  network: ws
+  ws-path: /use
+  servername: us2.v2ray.run
+  ws-headers:
+    HOST: us2.v2ray.run
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.05|Relay USUS8646
+  server: us5.v2ray.run
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: a0a4dfc4-bd55-46a7-ba0f-875e757d87d3
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /logs
+  servername: us5.v2ray.run
+  ws-headers:
+    HOST: us5.v2ray.run
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.00|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,23 +103,194 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.31|4566157195tcp
-  server: 45.66.157.195
-  port: 7596
-  type: vmess
-  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.09|RelayUS1739
+- name: 1.92|RelayUS1736
   server: t1.ssrsub.com
   type: trojan
   port: 8443
   password: dde769da-8da0-47d8-bda4-192c761f882a
   sni: t1.ssrsub.com
   udp: true
-- name: 2.06|RelayUS1719
-  server: v1.ssrsub.com
+- name: 1.87|RelayUSUS1083
+  server: 96.43.91.59
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /path/310910211916
+  servername: www.45218443.xyz
+  ws-headers:
+    HOST: www.45218443.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.83|US11177
+  server: 150.230.43.190
+  type: vmess
+  country: US
+  port: 80
+  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.43.190
+  ws-headers:
+    HOST: 150.230.43.190
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.79| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
+  type: vmess
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.68080962.xyz
+- name: 1.72|US11149
+  server: 104.251.233.106
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.70|US11176
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.45.118
+  ws-headers:
+    HOST: 150.230.45.118
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.62|Relay USUS8642
+  server: hk1opuy-node.3366test.com
+  type: vmess
+  country: ' US'
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.46|US11213
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.36|RelayUSUS11201
+  server: 45.58.45.93
+  type: vmess
+  country: US
+  port: 8888
+  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  servername: 45.58.45.93
+  ws-headers:
+    HOST: 45.58.45.93
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.33|US1076
+  server: 45.140.88.192
+  type: vmess
+  country: US
+  port: 16389
+  uuid: 9194ba91-fe8d-4557-e7b9-2dad813e899b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.29|US20966
+  server: 149.248.19.78
+  type: vmess
+  country: US
+  port: 443
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /sadfasdf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.27|US11199
+  server: 198.200.51.18
+  type: vmess
+  country: US
+  port: 62096
+  uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.27|Relay USUS8649
+  server: us4.v2ray.run
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: a0a4dfc4-bd55-46a7-ba0f-875e757d87d3
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /logs
+  servername: us4.v2ray.run
+  ws-headers:
+    HOST: us4.v2ray.run
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.23| 美国  圣克拉拉
+  server: us12.holiganfan.com
+  port: 10088
+  type: trojan
+  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
+  sni: us12.holiganfan.com
+- name: 1.21|RelayUS1718
+  server: v2.ssrsub.com
   type: vmess
   port: 158
   udp: true
@@ -34,36 +300,23 @@ proxies:
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v1.ssrsub.com
+    Host: v2.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: 1.72|216105168138tcp
-  server: 216.105.168.138
-  port: 10964
-  type: vmess
-  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.55| httpsgitiov9999 圣何塞 5
-  server: 198.200.51.34
-  port: 17838
-  type: vmess
-  uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.48|RelayUSUS11259
-  server: morton0.herokuapp.com
+- name: 1.02|RelayUSDE4694
+  server: 172.67.209.58
   type: vmess
   country: US
   port: 443
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   alterId: 64
   cipher: auto
   network: ws
   ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
   http-opts: {}
   h2-opts: {}
   tls: true
