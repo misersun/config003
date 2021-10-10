@@ -1,227 +1,19 @@
 proxies:
-- name: 10.97| zr的HK AWS 岛主HK AZ中转 推荐使用
-  server: azure-f4s-hk.transfer-xray.tk
-  port: 22103
+- name: 6.40|RelayCACA365
+  server: c39s4.jamjams.net
   type: vmess
-  uuid: dab33111-2716-11ec-b3d5-1f8ef29a1816
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 6.25|  671Mb
-  server: v2-xgc.cl123.xyz
-  type: vmess
-  country: US
-  port: 80
-  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.76| zr的HK AWS 江门中转 推荐使用
-  server: cmjm.xhbao.me
-  port: 23333
-  type: vmess
-  uuid: edcccf02-2718-11ec-b3d5-1f8ef29a1816
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 5.46|RelayCNJP4407
-  server: jp2.xh.qjnodeip.xyz
-  type: vmess
-  country: CN
-  port: 62869
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
+  country: CA
+  port: 10606
+  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
+  alterId: 8
   cipher: auto
   network: tcp
   ws-path: /
+  servername: c39s4.jamjams.net
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.22|JP2321
-  server: 146.56.187.13
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.66|RelaySGSG2838
-  server: sg1.xh.qjnodeip.xyz
-  type: vmess
-  country: SG
-  port: 20102
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  servername: 13.76.226.184
-  ws-headers:
-    HOST: 13.76.226.184
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.58|台湾01
-  type: vmess
-  server: jike-cccn2.ddns-only.xyz
-  port: 39205
-  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
-  alterId: 2
-  cipher: auto
-  udp: true
-  network: ws
-  ws-path: /jike1
-  ws-headers:
-    Host: jike1-hinet03.ddns-only.xyz
-- name: 4.48|CN1502
-  server: sg3.xh.qjnodeip.xyz
-  type: vmess
-  country: CN
-  port: 58025
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.25|US5442
-  server: 193.123.253.102
-  type: vmess
-  country: US
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.77|  210Mb
-  server: 132.145.127.177
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 24f08007-c3d9-4509-8ab0-020bdba37285
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 132.145.127.177
-  ws-headers:
-    HOST: 132.145.127.177
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.42|
-  server: gy.jjxcloud.xyz
-  type: vmess
-  country: CN
-  port: 51520
-  uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.37| v2ray 马来西亚移动 Netflix
-  server: cm.cheapv2.xyz
-  port: 26610
-  type: vmess
-  uuid: 888215a8-77d4-3f31-8826-960470aa38af
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cm.cheapv2.xyz
-- name: 3.23|RelayJPJP2331
-  server: jp1.xh.qjnodeip.xyz
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.23| v2ray 马来西亚联通 Netflix
-  server: cu.cheapv2.xyz
-  port: 26610
-  type: vmess
-  uuid: 888215a8-77d4-3f31-8826-960470aa38af
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cu.cheapv2.xyz
-- name: 3.21|SE11521  221Mb
-  server: 138.3.220.41
-  type: vmess
-  country: SE
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.73|
-  server: 146.56.110.45
-  type: vmess
-  country: JP
-  port: 80
-  uuid: d8992174-62c3-4eb0-f435-fc1c9ab0f8df
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 146.56.110.45
-  ws-headers:
-    HOST: 146.56.110.45
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.62|RelayUSUS21365
-  server: freeus.rymv2rayssl.xyz
-  type: vmess
-  country: US
-  port: 8888
-  uuid: 86eea995-2733-36e5-ab3f-6a31e82a7efe
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: freeus.rymv2rayssl.xyz
-  ws-headers:
-    HOST: freeus.rymv2rayssl.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.59| 御坂群专属 HK AZ中转 109备用机子别挤
+- name: 2.44| 御坂群专属 HK AZ中转 109备用机子别挤
   server: azure-f4s-hk.transfer-xray.tk
   port: 33314
   type: vmess
@@ -233,112 +25,7 @@ proxies:
   ws-path: /V6EbU1hL/
   ws-headers:
     Host: azure-f4s-hk.transfer-xray.tk
-- name: 2.51| US3149
-  server: c23s3.jamjams.net
-  type: vmess
-  country: ' US'
-  port: 61173
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.48|
-  server: 146.56.118.208
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 1d6e5f77-9af4-4709-dcbc-4fa280b32110
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.39|JP11282
-  server: 54.250.12.125
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 86eea995-2733-36e5-ab3f-6a31e82a7efe
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: 54.250.12.125
-  ws-headers:
-    HOST: 54.250.12.125
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.35|216105168138tcp
-  server: 216.105.168.138
-  port: 10964
-  type: vmess
-  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.35|  231Mb
-  server: 152.67.201.196
-  type: vmess
-  country: US
-  port: 80
-  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.29|US5434
-  server: 150.230.43.190
-  type: vmess
-  country: US
-  port: 80
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 150.230.43.190
-  ws-headers:
-    HOST: 150.230.43.190
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.23|RelayUSUS5440
-  server: usgia.jjyun.ren
-  type: vmess
-  country: US
-  port: 88
-  uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.23|CN1486
-  server: us1.np.qjnodeip.xyz
-  type: vmess
-  country: CN
-  port: 10016
-  uuid: d7f9a821-74af-442a-a3db-aa3facc81560
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.20|  216Mb
+- name: 2.35|  216Mb
   server: 150.230.249.245
   type: vmess
   country: US
@@ -354,10 +41,23 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.16|KR2335
-  server: 52.79.34.179
+- name: 2.29| v2ray 马来西亚移动 Netflix
+  server: cm.cheapv2.xyz
+  port: 26610
   type: vmess
-  country: KR
+  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cm.cheapv2.xyz
+- name: 2.19|US2624
+  server: 193.123.253.102
+  type: vmess
+  country: US
   port: 80
   uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
   alterId: 1
@@ -367,10 +67,83 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.16|Relay CNRU1395
+- name: 1.97| v2ray 马来西亚联通 Netflix
+  server: cu.cheapv2.xyz
+  port: 26610
+  type: vmess
+  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cu.cheapv2.xyz
+- name: 1.80| httpsgitiov9999 莫斯科TTK 2
+  server: 45.144.178.97
+  port: 32231
+  type: vmess
+  uuid: 57a951d4-1c0b-11ec-8be6-365aa404540b
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.69|RelaySGSG1628
+  server: sg2.np.qjnodeip.xyz
+  type: vmess
+  country: SG
+  port: 80
+  uuid: 2b886998-00d9-4b3f-aa03-7068ae6f0961
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /index
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.69|JP1334
+  server: 146.56.187.13
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.65|  235Mb
+  server: 42.157.8.162
+  type: vmess
+  country: CN
+  port: 46006
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.61|RelayCNUS669
+  server: us1.np.qjnodeip.xyz
+  type: vmess
+  country: CN
+  port: 10018
+  uuid: 0472431a-96bc-4a64-ae6a-fccdd75333fc
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.60|RelayCNRU2235
   server: shcn2.meimei1314.xyz
   type: vmess
-  country: ' CN'
+  country: CN
   port: 18080
   uuid: c81f4b4a-9596-3bdf-b3f6-c91c3074fbd9
   alterId: 1
@@ -383,7 +156,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.14|US5437
+- name: 1.32|US2616
   server: 54.193.184.138
   type: vmess
   country: US
@@ -396,152 +169,23 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.14|  219Mb
-  server: 150.230.45.118
+- name: 1.31|RelayJPUS7528
+  server: 146.56.110.45
   type: vmess
-  country: US
+  country: JP
   port: 80
-  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  uuid: d8992174-62c3-4eb0-f435-fc1c9ab0f8df
   alterId: 16
   cipher: auto
   network: ws
   ws-path: /BEN
-  servername: 150.230.45.118
+  servername: 146.56.110.45
   ws-headers:
-    HOST: 150.230.45.118
+    HOST: 146.56.110.45
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.13|259214249tcp
-  server: 2.59.214.249
-  port: 11233
-  type: vmess
-  uuid: aaad4b5a-1f4f-11ec-a856-82b57278959a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.13|US21371
-  server: 198.52.125.218
-  type: vmess
-  country: US
-  port: 8763
-  uuid: 86eea995-2733-36e5-ab3f-6a31e82a7efe
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: 198.52.125.218
-  ws-headers:
-    HOST: 198.52.125.218
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.05|US5432
-  server: 66.42.107.33
-  type: vmess
-  country: US
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.05|4513513516tcp
-  server: 45.135.135.16
-  port: 11223
-  type: vmess
-  uuid: 5958e1e6-10af-11ec-9a8f-1aa60786834b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.97|RelayKRUS2336
-  server: kr2.np.qjnodeip.xyz
-  type: vmess
-  country: KR
-  port: 80
-  uuid: 0d3617ce-225c-4a1f-b02b-690c8630dcb0
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.89|RU13296
-  server: 45.144.3.208
-  type: vmess
-  country: RU
-  port: 59785
-  uuid: 5a4b09d8-168f-4ea7-968f-f5c3b5822ba8
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.89|HK2061
-  server: 18.162.134.138
-  type: vmess
-  country: HK
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.89|US21393
-  server: 18.236.146.125
-  type: vmess
-  country: US
-  port: 8888
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.78| httpsgitiov9999 圣何塞 7
-  server: 107.148.200.229
-  port: 51267
-  type: vmess
-  uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.72|RelayKRUS2337
-  server: kr1.np.qjnodeip.xyz
-  type: vmess
-  country: KR
-  port: 80
-  uuid: 5a3f22f1-01bd-4f8c-8fb8-70c54d67419e
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.71| zr的HK AWS 电信一般没速度 推荐移动使用
-  server: 18.166.70.251
-  port: 54250
-  type: vmess
-  uuid: edcccf02-2718-11ec-b3d5-1f8ef29a1816
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.67|4566157195tcp
+- name: 1.30|4566157195tcp
   server: 45.66.157.195
   port: 12233
   type: vmess
@@ -549,92 +193,45 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.66|  211Mb
-  server: 158.101.90.133
+- name: 1.29|  185Mb
+  server: 146.56.117.74
   type: vmess
-  country: US
+  country: JP
   port: 80
-  uuid: b7b41bdd-3a39-4cd5-ea16-261c6c1b01af
+  uuid: a266d302-9059-4f01-d03b-7a01b8d300dd
   alterId: 16
   cipher: auto
   network: ws
   ws-path: /BEN
-  servername: 158.101.90.133
+  servername: 146.56.117.74
   ws-headers:
-    HOST: 158.101.90.133
+    HOST: 146.56.117.74
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.65|RelayHKHK2060
-  server: hkml.jjyun.ren
+- name: 1.15|SE1625
+  server: 138.3.220.41
   type: vmess
-  country: HK
-  port: 88
-  uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.64| httpsgitiov9999 莫斯科adman
-  server: 45.130.147.15
-  port: 34098
-  type: vmess
-  uuid: 4f9b76f8-1b5b-11ec-8d4f-6245124c1573
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.63|RelaySGSG13620
-  server: sg2.np.qjnodeip.xyz
-  type: vmess
-  country: SG
+  country: SE
   port: 80
-  uuid: 0d3617ce-225c-4a1f-b02b-690c8630dcb0
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
   alterId: 1
   cipher: auto
   network: ws
-  ws-path: /index
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.56|
-  server: kry01.quickairport.top
+- name: 1.11|Relay  231Mb
+  server: 152.67.201.196
   type: vmess
   country: US
   port: 80
-  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
-  alterId: 1
+  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
+  alterId: 16
   cipher: auto
   network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.48|RelayGBGB2030
-  server: ukdll.52jjyun.top
-  type: vmess
-  country: GB
-  port: 80
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.39| CN1394
-  server: 42.157.8.162
-  type: vmess
-  country: ' CN'
-  port: 46006
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
+  ws-path: /ben
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
