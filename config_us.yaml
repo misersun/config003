@@ -1,34 +1,73 @@
 proxies:
-- name: 1.36|trojan
+- name: 1.76|  279Mb
+  server: 72.167.45.6
   type: trojan
-  server: 65.49.196.246
+  country: US
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.32|US2616
-  server: 54.193.184.138
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.67|PoolUS2548
+  server: 128.14.157.112
   type: vmess
   country: US
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.66|US2549
+  server: c39s3.jamjams.net
+  type: vmess
+  country: US
+  port: 10606
+  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
+  alterId: 8
+  cipher: auto
+  network: tcp
+  ws-path: t.me/vpnpool
+  servername: t.me/vpnhat
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.30|4566157195tcp
-  server: 45.66.157.195
-  port: 12233
+- name: 1.55|US2550
+  server: c39s801.jamjams.net
   type: vmess
-  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
-  alterId: 0
+  country: US
+  port: 10606
+  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
+  alterId: 8
   cipher: auto
-  tls: false
+  network: tcp
+  ws-path: t.me/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.51|US2542
+  server: 104.251.233.106
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
 - name: 1.16| cfmemcomUS美国19
   server: 23.234.223.28
   port: 443
@@ -41,18 +80,28 @@ proxies:
   ws-path: /path/323127100515
   ws-headers:
     Host: www.68080962.xyz
-- name: 1.15|RelayUS191
-  server: v6.ssrsub.com
+- name: 1.12|Relay  175Mb
+  server: 45.58.45.93
   type: vmess
-  port: 158
-  udp: true
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  alterId: 0
+  country: US
+  port: 8888
+  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
+  alterId: 2
   cipher: auto
   network: ws
-  ws-path: /ssrsub
+  ws-path: /ben
+  servername: 45.58.45.93
   ws-headers:
-    Host: v6.ssrsub.com
+    HOST: 45.58.45.93
   http-opts: {}
   h2-opts: {}
-  tls: true
+  skip-cert-verify: true
+- name: 1.09|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1

@@ -1,21 +1,18 @@
 proxies:
-- name: 9.22|NodeTest 53  23063 KB
-  server: sh-hk-01-tr.cdn.savoy.click
-  port: 12443
-  type: trojan
-  password: UiLPqefVfielqkDjEwBV
+- name: 3.82| 日本 03  PCCW
+  server: mack.dliroom.co
+  port: 10007
+  type: vmess
+  uuid: b567bd47-bae6-3a4f-976a-3a64b701549c
+  alterId: 2
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-  udp: true
-  speedtest: 236165
-- name: 5.16|RelayCNUS724
-  server: hk1.v3.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47605
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 4.21| 香港I02BGZ
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: pqjp01.0894168.xyz
+- name: 3.12| 香港I02BGZ
   server: gz.nat.beer.mypeter.top
   port: 60610
   type: vmess
@@ -28,23 +25,7 @@ proxies:
   ws-path: /ss
   ws-headers:
     Host: inkhk02.mypeter.top
-- name: 3.42|RelayCNZZ722
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36679
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 3.30|RelayCNHK2288
-  server: 2.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36671
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 3.22|RelayCNZZ726
+- name: 2.77|RelayCNZZ887
   server: 3.jp.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
@@ -52,131 +33,118 @@ proxies:
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 3.12|RelayCNHK723
-  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
+- name: 2.64|RelayCNZZ886
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
-  port: 56812
+  port: 36679
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.22|RelayRU179
-  server: v3.ssrsub.com
-  type: vmess
-  port: 158
-  udp: true
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v3.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 2.11|RelayCNHK725
-  server: 3.hk.zz.xxxxx.x-t-fuckword.network
+- name: 2.59|RelayCNHK884
+  server: 2.jp.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
-  port: 36681
+  port: 36671
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.01|Relay  448Mb
-  server: azure-f4s-hk.transfer-xray.tk
+- name: 1.94|RelayKRKR11214
+  server: kr01.uuv2.uk
   type: vmess
-  port: 53420
-  udp: true
-  uuid: 1b93051f-c9ad-4908-874e-ccb5e8da27ef
-  alterId: 0
+  country: KR
+  port: 443
+  uuid: 5a26a86c-4247-4186-a5d6-f4a7e02dd18b
+  alterId: 1
   cipher: auto
   network: ws
-  ws-path: /liuwei
+  ws-path: /
+  servername: kr01.uuv2.uk
   ws-headers:
-    Host: usss222.liuwei01.tk
+    HOST: kr01.uuv2.uk
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: 1.88|RelayRU195
-  server: t3.ssrsub.com
+  skip-cert-verify: true
+- name: 1.90|RelayCNUS885
+  server: hk1.v3.zz.cn.fuckword.club
   type: trojan
-  port: 8443
-  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  sni: t3.ssrsub.com
-  udp: true
-- name: 1.82|19250  330Mb
-  server: 139.177.197.51
-  type: trojan
-  country: US
-  port: 1443
-  password: 7x42LetRa0
+  country: CN
+  port: 47605
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 1.55|RelayRU207
-  server: t4.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  sni: t4.ssrsub.com
-  udp: true
-- name: 1.52|19236  298Mb
-  server: 184.168.127.50
+- name: 1.76|  279Mb
+  server: 72.167.45.6
   type: trojan
   country: US
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.40|10937  267Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.40|Relay5611  275Mb
-  server: tk.shcn2.tkddns.xyz
+- name: 1.67|PoolUS2548
+  server: 128.14.157.112
   type: vmess
-  country: HK
-  port: 22642
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  alterId: 2
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /
-  servername: zxjp-b.tkong.cc
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
   ws-headers:
-    HOST: zxjp-b.tkong.cc
+    HOST: en.tgchannels.org/channel/vpnpool
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.36|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.35|RelayCA174
-  server: v9.ssrsub.com
+- name: 1.51|US2542
+  server: 104.251.233.106
   type: vmess
-  port: 158
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.35|RelayRU302
+  server: t5.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  sni: t5.ssrsub.com
   udp: true
-  uuid: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+- name: 1.26| 美国 圣路易斯  公益  湘北出口
+  server: apn-e.connect-node.xyz
+  port: 45301
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v9.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
   tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: usa-12.connect-node.xyz
+  udp: true
+- name: 1.21|RelayCNZZ883
+  server: gb1.v2.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47836
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
 - name: 1.16| cfmemcomUS美国19
   server: 23.234.223.28
   port: 443
@@ -189,29 +157,12 @@ proxies:
   ws-path: /path/323127100515
   ws-headers:
     Host: www.68080962.xyz
-- name: 1.15|RelayUS191
-  server: v6.ssrsub.com
-  type: vmess
-  port: 158
-  udp: true
-  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v6.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.09| Game 1 PPhttp
+- name: 1.09|trojan
   type: trojan
-  server: id1-trojan.bonds.id
+  server: 65.49.196.246
   port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
+  password: 123abc,./
+  sni: ztinoz.com
   alpn:
   - h2
   - http/1.1
-  skip-cert-verify: true
