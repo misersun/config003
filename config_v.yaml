@@ -1,18 +1,43 @@
 proxies:
-- name: 3.99| 香港8三网优化
-  server: 909hk2.fans8.xyz
-  port: 80
+- name: 5.30| 日本
+  server: awsrb2.mooncloud.bike
+  port: 10022
   type: vmess
-  uuid: dd1e127b-7068-384f-98ac-b0358163017f
-  alterId: 2
+  uuid: dd765bc2-4788-47de-b7a4-6ce3145376b1
+  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /v2ray
+  ws-path: /
   ws-headers:
-    Host: 909hk2.fans8.xyz
-- name: 2.78| v2ray 马来西亚移动 Netflix
+    Host: awsrb2.mooncloud.bike
+- name: 3.91|RelayCNSG2120
+  server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com
+  type: vmess
+  country: CN
+  port: 10020
+  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.46|台湾01
+  type: vmess
+  server: jike-cccn2.ddns-only.xyz
+  port: 39205
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: ws
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-hinet03.ddns-only.xyz
+- name: 2.76| v2ray 马来西亚移动 Netflix
   server: cm.cheapv2.xyz
   port: 26610
   type: vmess
@@ -25,10 +50,22 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: cm.cheapv2.xyz
-- name: 2.68|更新地址reurlccW35gV7
+- name: 2.59| 御坂群专属 HK AZ中转 109备用机子别挤
+  server: azure-f4s-hk.transfer-xray.tk
+  port: 33314
+  type: vmess
+  uuid: 8ed48144-1f51-11ec-9c65-c772c4cbe9da
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /V6EbU1hL/
+  ws-headers:
+    Host: azure-f4s-hk.transfer-xray.tk
+- name: 2.03| CN443
   server: 139.155.22.227
   type: vmess
-  country: CN
+  country: ' CN'
   port: 49110
   uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
   alterId: 64
@@ -38,7 +75,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.83| httpsgitiov9999 圣何塞 8
+- name: 1.69| httpsgitiov9999 圣何塞 8
   server: 107.148.200.123
   port: 52025
   type: vmess
@@ -46,66 +83,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.80|RelayUSUS261
-  server: c39s3.jamjams.net
-  type: vmess
-  country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.74| httpsgitiov9999 圣何塞 7
-  server: 107.148.200.229
-  port: 51267
-  type: vmess
-  uuid: dd6fc0ba-10ac-11ec-bb46-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.66| httpsgitiov9999 圣何塞 9
-  server: 142.4.123.135
-  port: 22334
-  type: vmess
-  uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.65|RelayUSUS268
-  server: c39s801.jamjams.net
-  type: vmess
-  country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.51|  235Mb
-  server: 150.230.45.118
-  type: vmess
-  country: US
-  port: 80
-  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 150.230.45.118
-  ws-headers:
-    HOST: 150.230.45.118
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.50|1.78|2.60| v2ray 马来西亚联通 Netflix
+- name: 1.52|1.50|1.78|2.60| v2ray 马来西亚联通 Netflix
   server: cu.cheapv2.xyz
   port: 26610
   type: vmess
@@ -118,24 +96,21 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: cu.cheapv2.xyz
-- name: 1.44|RelayUSUS1480
-  server: v103.v2dns.xyz
+- name: 1.50|RelayKRKR5531
+  server: kr2.np.qjnodeip.xyz
   type: vmess
-  country: US
+  country: KR
   port: 80
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
-  alterId: 2
+  uuid: f4de7953-9d86-4a1a-8f28-d6d5f4ec97c1
+  alterId: 1
   cipher: auto
   network: ws
-  ws-path: /v1032N9rN0yPy
-  servername: gd.189.cn
-  ws-headers:
-    HOST: gd.189.cn
+  ws-path: /index
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.36| 香港3三网优化
-  server: 615hk2.fans8.xyz
+- name: 1.42| 香港8三网优化
+  server: 909hk2.fans8.xyz
   port: 80
   type: vmess
   uuid: dd1e127b-7068-384f-98ac-b0358163017f
@@ -146,34 +121,20 @@ proxies:
   network: ws
   ws-path: /v2ray
   ws-headers:
-    Host: 615hk2.fans8.xyz
-- name: 1.33|SE241
-  server: 138.3.220.41
+    Host: 909hk2.fans8.xyz
+- name: 1.39|俄罗斯01
   type: vmess
-  country: SE
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
+  server: jike-shlt.ddns-only.xyz
+  port: 39307
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
   cipher: auto
+  udp: true
   network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.23|RelayGBGB224
-  server: ukdll.52jjyun.top
-  type: vmess
-  country: GB
-  port: 80
-  uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.12|  231Mb
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-ru04.ddns-only.xyz
+- name: 1.27|Relay  231Mb
   server: 152.67.201.196
   type: vmess
   country: US
@@ -186,7 +147,23 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.09|
+- name: 1.26|  185Mb
+  server: 146.56.117.74
+  type: vmess
+  country: JP
+  port: 80
+  uuid: a266d302-9059-4f01-d03b-7a01b8d300dd
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 146.56.117.74
+  ws-headers:
+    HOST: 146.56.117.74
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.20|RelayJPUS3634
   server: 146.56.110.45
   type: vmess
   country: JP
@@ -202,11 +179,45 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.09|4566157195tcp
-  server: 45.66.157.195
-  port: 12233
+- name: 1.15|  235Mb
+  server: 150.230.249.245
   type: vmess
-  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
-  alterId: 0
+  country: US
+  port: 80
+  uuid: 45f75b04-e22d-40a9-b906-57abfa40a927
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  servername: 节点分享Q群:262349039
+  ws-headers:
+    HOST: 节点分享Q群:262349039
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.15|SE1366
+  server: 138.3.220.41
+  type: vmess
+  country: SE
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.14| 香港3三网优化
+  server: 615hk2.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 615hk2.fans8.xyz
