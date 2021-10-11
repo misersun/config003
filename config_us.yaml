@@ -1,74 +1,85 @@
 proxies:
-- name: 1.76|  279Mb
-  server: 72.167.45.6
+- name: 2.62|RelayUS180
+  server: t2.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  sni: t2.ssrsub.com
+  udp: true
+- name: 2.52|RelayUSUS21353
+  server: us02.uuv2.uk
+  type: vmess
+  country: US
+  port: 8443
+  uuid: 5a26a86c-4247-4186-a5d6-f4a7e02dd18b
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: us02.uuv2.uk
+  ws-headers:
+    HOST: us02.uuv2.uk
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.28|  235Mb
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.45.118
+  ws-headers:
+    HOST: 150.230.45.118
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.22|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.15|216105168138tcp
+  server: 216.105.168.138
+  port: 10964
+  type: vmess
+  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.90|  291Mb
+  server: 72.167.33.106
   type: trojan
   country: US
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.67|PoolUS2548
-  server: 128.14.157.112
+- name: 1.89|RelayUS159
+  server: v2.ssrsub.com
   type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
+  port: 158
+  udp: true
+  uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
+  ws-path: /ssrsub
   ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
+    Host: v2.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-  skip-cert-verify: true
-- name: 1.66|US2549
-  server: c39s3.jamjams.net
-  type: vmess
-  country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.55|US2550
-  server: c39s801.jamjams.net
-  type: vmess
-  country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.51|US2542
-  server: 104.251.233.106
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.16| cfmemcomUS美国19
+- name: 1.85| cfmemcomUS美国19
   server: 23.234.223.28
   port: 443
   type: vmess
@@ -80,28 +91,81 @@ proxies:
   ws-path: /path/323127100515
   ws-headers:
     Host: www.68080962.xyz
-- name: 1.12|Relay  175Mb
-  server: 45.58.45.93
+- name: 1.72|RelayUSUS1005
+  server: 54.224.34.30
   type: vmess
   country: US
-  port: 8888
-  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
-  alterId: 2
+  port: 443
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ben
-  servername: 45.58.45.93
+  ws-path: /
+  servername: wendysofficetips.herokuapp.com
   ws-headers:
-    HOST: 45.58.45.93
+    HOST: wendysofficetips.herokuapp.com
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 1.09|trojan
-  type: trojan
-  server: 65.49.196.246
+- name: 1.52|RelayUSUS21350
+  server: us01.uuv2.uk
+  type: vmess
+  country: US
+  port: 8443
+  uuid: 5a26a86c-4247-4186-a5d6-f4a7e02dd18b
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: us01.uuv2.uk
+  ws-headers:
+    HOST: us01.uuv2.uk
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.48| httpsgitiov9999 圣何塞 3
+  server: 198.200.51.28
+  port: 11221
+  type: vmess
+  uuid: 1d219570-0d1b-11ec-a57e-00163ca76936
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.37|RelayUSUS21332
+  server: morton0.herokuapp.com
+  type: vmess
+  country: US
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.20| US89
+  server: v1.coding996.com
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: 94b29b0c-137e-11ec-9624-92bb041ee1ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /3kHEZ918/
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.10| httpsgitiov9999 圣何塞 4
+  server: 198.200.51.37
+  port: 5012
+  type: vmess
+  uuid: 8507efa6-1854-11ec-8aad-00163cdca817
+  alterId: 0
+  cipher: auto
+  tls: false

@@ -1,6 +1,29 @@
 proxies:
-- name: 2.60| v2ray 马来西亚联通 Netflix
-  server: cu.cheapv2.xyz
+- name: 4.58| 香港8三网优化
+  server: 909hk2.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 909hk2.fans8.xyz
+- alterId: 16
+  cipher: auto
+  name: 4.03|1011oslook中国香港中国台湾CNChinaShenzhen可能是中转节点5
+  network: ws
+  port: 51520
+  server: gy.jjxcloud.xyz
+  tls: false
+  type: vmess
+  uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4
+  ws-path: /v2ray
+- name: 2.94| v2ray 马来西亚移动 Netflix
+  server: cm.cheapv2.xyz
   port: 26610
   type: vmess
   uuid: 888215a8-77d4-3f31-8826-960470aa38af
@@ -11,48 +34,33 @@ proxies:
   network: ws
   ws-path: /index
   ws-headers:
-    Host: cu.cheapv2.xyz
-- name: 1.92|SE1752
-  server: 138.3.220.41
-  type: vmess
-  country: SE
+    Host: cm.cheapv2.xyz
+- name: 2.92| 香港1三网优化
+  server: 909hk1.fans8.xyz
   port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.81|KR1474
-  server: 52.79.34.179
   type: vmess
-  country: KR
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
   cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.66|US2549
-  server: c39s3.jamjams.net
+  ws-path: /v2ray
+  ws-headers:
+    Host: 909hk1.fans8.xyz
+- name: 2.62| 御坂群专属 HK AZ中转 109备用机子别挤
+  server: azure-f4s-hk.transfer-xray.tk
+  port: 33314
   type: vmess
-  country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
+  uuid: 8ed48144-1f51-11ec-9c65-c772c4cbe9da
+  alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.63|CN15
+  tls: false
+  network: ws
+  ws-path: /V6EbU1hL/
+  ws-headers:
+    Host: azure-f4s-hk.transfer-xray.tk
+- name: 2.61|  433Mb
   server: 139.155.22.227
   type: vmess
   country: CN
@@ -65,65 +73,207 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.55|US2550
-  server: c39s801.jamjams.net
+- name: 2.61| 香港3三网优化
+  server: 615hk2.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 615hk2.fans8.xyz
+- name: 2.28|  235Mb
+  server: 150.230.45.118
   type: vmess
   country: US
-  port: 10606
-  uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.40|JP1463
-  server: 132.145.127.177
-  type: vmess
-  country: JP
   port: 80
-  uuid: 24f08007-c3d9-4509-8ab0-020bdba37285
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
   alterId: 16
   cipher: auto
   network: ws
   ws-path: /BEN
-  servername: 132.145.127.177
+  servername: 150.230.45.118
   ws-headers:
-    HOST: 132.145.127.177
+    HOST: 150.230.45.118
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.32| CN800
-  server: 42.157.8.162
+- name: 2.15|216105168138tcp
+  server: 216.105.168.138
+  port: 10964
+  type: vmess
+  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.99|Relay CNRU580
+  server: shcn2.meimei1314.xyz
   type: vmess
   country: ' CN'
-  port: 46006
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-  alterId: 64
+  port: 18080
+  uuid: c81f4b4a-9596-3bdf-b3f6-c91c3074fbd9
+  alterId: 1
   cipher: auto
-  network: tcp
+  network: ws
+  ws-path: /v2ray
+  servername: www.amazon.com
+  ws-headers:
+    HOST: www.amazon.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.90|  255Mb
+  server: 150.230.249.245
+  type: vmess
+  country: US
+  port: 80
+  uuid: 45f75b04-e22d-40a9-b906-57abfa40a927
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  servername: 节点分享Q群:262349039
+  ws-headers:
+    HOST: 节点分享Q群:262349039
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.81| httpsgitiov9999 圣何塞 8
+  server: 107.148.200.123
+  port: 52025
+  type: vmess
+  uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.78|2.60| v2ray 马来西亚联通 Netflix
+  server: cu.cheapv2.xyz
+  port: 26610
+  type: vmess
+  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cu.cheapv2.xyz
+- name: 1.72| zr的SG AWS 岛主HKAZ中转 推荐使用
+  server: azure-f4s-hk.transfer-xray.tk
+  port: 14013
+  type: vmess
+  uuid: 55879313-29c5-11ec-bab9-fdbd4512f9c0
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.67| 新加坡三网优化
+  server: 1009sg.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 1009sg.fans8.xyz
+- name: 1.66|RelayHKHK9053
+  server: v2-xgb-v3.cl123.xyz
+  type: vmess
+  country: HK
+  port: 80
+  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.64| httpsgitiov9999 莫斯科TTK
+  server: 195.133.52.32
+  port: 51459
+  type: vmess
+  uuid: 3b08fc94-1c30-11ec-9a6c-568170410c51
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.63| 马来西亚1三网优化
+  server: 923my.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 923my.fans8.xyz
+- name: 1.63|HK1118
+  server: 18.162.134.138
+  type: vmess
+  country: HK
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.12|Relay  175Mb
-  server: 45.58.45.93
+- name: 1.48| httpsgitiov9999 圣何塞 3
+  server: 198.200.51.28
+  port: 11221
   type: vmess
-  country: US
-  port: 8888
-  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
+  uuid: 1d219570-0d1b-11ec-a57e-00163ca76936
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.34| zr的SG AWS 电信一般没速度 推荐移动使用
+  server: 13.250.111.196
+  port: 443
+  type: vmess
+  uuid: 55879313-29c5-11ec-bab9-fdbd4512f9c0
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.30|RelayKRUS1338
+  server: 152.67.201.196
+  type: vmess
+  country: KR
+  port: 80
+  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.28|Relay  218Mb
+  server: 146.56.118.208
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 1d6e5f77-9af4-4709-dcbc-4fa280b32110
   alterId: 2
   cipher: auto
   network: ws
   ws-path: /ben
-  servername: 45.58.45.93
-  ws-headers:
-    HOST: 45.58.45.93
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.07|US2546
+- name: 1.25|US2348
   server: 193.123.253.102
   type: vmess
   country: US
@@ -136,10 +286,10 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.03|RelayJPUS7469
+- name: 1.16|RelayKRUS1339
   server: 146.56.110.45
   type: vmess
-  country: JP
+  country: KR
   port: 80
   uuid: d8992174-62c3-4eb0-f435-fc1c9ab0f8df
   alterId: 16
@@ -152,7 +302,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.03|俄罗斯01
+- name: 1.15|RelayGBGB8806
+  server: ukdll.52jjyun.top
+  type: vmess
+  country: GB
+  port: 80
+  uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /jjyun
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.13|俄罗斯01
   type: vmess
   server: jike-shlt.ddns-only.xyz
   port: 39307
@@ -164,3 +327,23 @@ proxies:
   ws-path: /jike1
   ws-headers:
     Host: jike1-ru04.ddns-only.xyz
+- name: 1.10| httpsgitiov9999 圣何塞 4
+  server: 198.200.51.37
+  port: 5012
+  type: vmess
+  uuid: 8507efa6-1854-11ec-8aad-00163cdca817
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.09|台湾01
+  type: vmess
+  server: jike-cccn2.ddns-only.xyz
+  port: 39205
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: ws
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-hinet03.ddns-only.xyz
