@@ -1,27 +1,5 @@
 proxies:
-- name: 14.66| 日本 01
-  type: ss
-  server: 162.14.8.16
-  port: '9002'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.56| 日本 05
-  type: ss
-  server: 162.14.15.168
-  port: '9020'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.53| 日本 02
+- name: 15.00| 日本 02
   type: ss
   server: 162.14.8.16
   port: '9005'
@@ -32,7 +10,18 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.50| 日本 08
+- name: 14.54| 日本 05
+  type: ss
+  server: 162.14.15.168
+  port: '9020'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.42| 日本 08
   type: ss
   server: 162.14.15.168
   port: '9035'
@@ -43,29 +32,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.41| 日本 07
-  type: ss
-  server: 162.14.15.168
-  port: '9030'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.27| 日本 03
-  type: ss
-  server: 162.14.8.16
-  port: '9010'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.07| 日本 04
+- name: 14.27| 日本 04
   type: ss
   server: 162.14.8.16
   port: '9015'
@@ -76,7 +43,29 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 7.17| 日本 06
+- name: 14.22| 日本 01
+  type: ss
+  server: 162.14.8.16
+  port: '9002'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.18| 日本 03
+  type: ss
+  server: 162.14.8.16
+  port: '9010'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.07| 日本 06
   type: ss
   server: 162.14.15.168
   port: '9025'
@@ -87,16 +76,80 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 6.84|ss
+- name: 13.94| 日本 07
+  type: ss
+  server: 162.14.15.168
+  port: '9030'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 11.91|RelayCNCN1684  468Mb
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10329
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 221785:QTlcmVwZki
+  obfs: http_post
+- name: 11.50| 香港 01 2
+  server: dg-hk-node01.linkthink.app
+  port: 10520
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
+  udp: true
+- name: 11.32|RelayCNCN1689  224Mb
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10515
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 218006:z5tnA1ldZO
+  obfs: http_post
+- name: 11.31| 香港 01
+  server: dg-hk-node01.linkthink.app
+  port: 10704
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227003:iawnbjGNuv
+  obfs-param: ''
+  udp: true
+- name: 11.13| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10418
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: ''
+  udp: true
+- name: 7.59|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 5.64| 菲律宾 免费节点马尼拉
+- name: 7.58| 香港 VIP节点HKMI 1G
   server: gz1.52168.xyz
-  port: 1101
+  port: 1115
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -104,32 +157,9 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 26901:ggyf3c2qzog
   obfs-param: 94d9b26901.baidu.com
-  udp: true
-- name: 5.37| 菲律宾 VIP节点马尼拉
-  server: gz1.52168.xyz
-  port: 1102
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 4.64| 印度尼西亚 免费节点雅加达
-  server: gz1.52168.xyz
-  port: 1103
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 26901:ggyf3c2qzog
-  obfs-param: 94d9b26901.baidu.com
-  udp: true
-- name: 4.23| 印度 VIP节点孟买
+- name: 6.36| 新加坡 VIP节点
   server: gz2.52168.xyz
-  port: 2104
+  port: 2106
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -137,107 +167,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 26901:ggyf3c2qzog
   obfs-param: 94d9b26901.baidu.com
-  udp: true
-- name: 3.93| 香港 VIP节点HKBN 1G
-  server: gz1.52168.xyz
-  port: 1113
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 3.49| 美国 03
-  type: ss
-  server: 162.14.8.16
-  port: '9110'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.48| 美国 02
-  type: ss
-  server: 162.14.8.16
-  port: '9105'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.48| 美国 05
-  type: ss
-  server: 162.14.8.16
-  port: '9120'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.47| 美国 01
-  type: ss
-  server: 162.14.8.16
-  port: '9100'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.47| 美国 13
-  type: ss
-  server: 162.14.8.16
-  port: '9160'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.46| 美国 06
-  type: ss
-  server: 162.14.15.168
-  port: '9125'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.43| 美国 09
-  type: ss
-  server: 162.14.15.168
-  port: '9140'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.43| 美国 08
-  type: ss
-  server: 162.14.15.168
-  port: '9135'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.43| 美国 11
+- name: 3.51| 美国 11
   type: ss
   server: 162.14.15.168
   port: '9150'
@@ -248,38 +178,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.40| 美国 10
-  type: ss
-  server: 162.14.15.168
-  port: '9145'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.04|httpsgitiov9999 clash ip1 78
-  server: 172.252.64.57
-  port: 18334
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.98| 韩国 VIP节点首尔
-  server: gz2.52168.xyz
-  port: 2108
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 2.86| 美国 04
+- name: 3.50| 美国 13
   type: ss
   server: 162.14.8.16
-  port: '9115'
+  port: '9160'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -287,81 +189,29 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.86| 香港 免费节点EC2负载均衡
-  server: gz2.52168.xyz
-  port: 2109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 2.80| 澳大利亚 免费节点悉尼
-  server: gz1.52168.xyz
-  port: 1117
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 2.67|httpsgitiov9999 clash ip1 27
-  server: 172.252.64.55
-  port: 18331
+- name: 3.49| 美国 09
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.60|httpsgitiov9999 clash ip1 79
-  server: 172.252.64.56
-  port: 18331
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.58|httpsgitiov9999 clash ip1 81
-  server: 172.252.64.50
-  port: 18334
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.57|httpsgitiov9999 clash ip1 3
-  server: 172.252.99.27
-  port: 18331
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.56|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.48| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  server: 162.14.15.168
+  port: '9140'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 2.44|RelayJPJP43
-  server: gmegme.ml
-  type: trojan
-  country: JP
-  port: 443
-  password: d48629f1-ac71-45ef-b325-37d73da258e8
-  skip-cert-verify: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.49| 美国 01
+  type: ss
+  server: 162.14.8.16
+  port: '9100'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 2.42| 美国 12
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.49| 美国 12
   type: ss
   server: 162.14.8.16
   port: '9155'
@@ -372,7 +222,40 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.41| 美国 07
+- name: 3.49| 美国 04
+  type: ss
+  server: 162.14.8.16
+  port: '9115'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.48| 美国 10
+  type: ss
+  server: 162.14.15.168
+  port: '9145'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.46| 美国 05
+  type: ss
+  server: 162.14.8.16
+  port: '9120'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.42| 美国 07
   type: ss
   server: 162.14.15.168
   port: '9130'
@@ -383,28 +266,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.41|httpsgitiov9999 clash ip1 36
-  server: 167.88.61.50
-  port: 8080
+- name: 3.42| 美国 03
   type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 2.17|httpsgitiov9999 clash ip1 35
-  server: 167.88.61.222
-  port: 7306
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 2.11|httpsgitiov9999 clash ip1 22
-  server: 172.252.99.15
-  port: 18332
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-- name: 2.04| 香港 02
-  type: ss
-  server: 162.14.16.18
-  port: '9305'
+  server: 162.14.8.16
+  port: '9110'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -412,13 +277,129 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.01| httpsgitiov9999 圣何塞SS 3
-  server: 137.175.30.248
-  port: 10011
+- name: 3.41| 美国 06
   type: ss
-  cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: 2.01| 香港 04
+  server: 162.14.15.168
+  port: '9125'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.40| 美国 02
+  type: ss
+  server: 162.14.8.16
+  port: '9105'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.28|httpsgitiov9999 clash ip1 81
+  server: 172.252.64.50
+  port: 18334
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 3.21|httpsgitiov9999 clash ip1 22
+  server: 172.252.99.15
+  port: 18332
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 3.14| 美国 08
+  type: ss
+  server: 162.14.15.168
+  port: '9135'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.94|httpsgitiov9999 clash ip1 3
+  server: 172.252.99.27
+  port: 18331
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 2.79|httpsgitiov9999 clash ip1 78
+  server: 172.252.64.57
+  port: 18334
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 2.72|httpsgitiov9999 clash ip1 27
+  server: 172.252.64.55
+  port: 18331
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 2.64|httpsgitiov9999 clash ip1 79
+  server: 172.252.64.56
+  port: 18331
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 2.25| 香港 免费节点EC2负载均衡
+  server: gz1.52168.xyz
+  port: 1111
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.23| 香港 VIP节点HKT1 500MB
+  server: gz1.52168.xyz
+  port: 1112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.13| 菲律宾 免费节点马尼拉
+  server: gz1.52168.xyz
+  port: 1101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 2.13| 印度尼西亚 免费节点雅加达
+  server: gz1.52168.xyz
+  port: 1103
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 2.11| 菲律宾 VIP节点马尼拉
+  server: gz1.52168.xyz
+  port: 1102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 2.11| 香港 04
   type: ss
   server: 162.14.16.18
   port: '9315'
@@ -429,24 +410,67 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.99| 香港04测试 2
-  server: 42.157.196.104
-  port: 20011
+- name: 2.09| 新加坡 04
+  type: ss
+  server: 162.14.21.127
+  port: '9395'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.08| 越南 免费节点胡志明
+  server: gz1.52168.xyz
+  port: 1107
   type: ssr
   cipher: aes-256-cfb
-  password: CWSZscLkjf
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 227782:L1x3oQKUMT
-  obfs-param: ''
-  udp: true
-- name: 1.97| httpsgitiov9999 莫斯科TTK 3
-  server: 45.144.178.97
-  port: 11111
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.06| httpsgitiov9999 圣何塞洛杉矶SS
+  server: 216.105.168.142
+  port: 10011
   type: ss
   cipher: aes-256-gcm
   password: dongtaiwang.com
-- name: 1.97| 香港 01
+- name: 2.04| 台湾 03
+  type: ss
+  server: 162.14.21.127
+  port: '9365'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.01| 香港 11
+  type: ss
+  server: 162.14.16.18
+  port: '9350'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 1.98| 韩国 VIP节点首尔
+  server: gz2.52168.xyz
+  port: 2108
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 1.96| 香港 01
   type: ss
   server: 162.14.16.18
   port: '9300'
@@ -457,10 +481,21 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.96| 台湾 01
+- name: 1.95| 香港 广港国际以太网专线AZ
+  server: gz1.52168.xyz
+  port: 1114
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 1.93| 台湾 05
   type: ss
   server: 162.14.16.18
-  port: '9355'
+  port: '9375'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -468,20 +503,3 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.93| 台湾 02
-  type: ss
-  server: 162.14.16.18
-  port: '9360'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.90|httpsgitiov9999 clash ip1 33
-  server: 167.88.61.204
-  port: 3306
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
