@@ -1,49 +1,5 @@
 proxies:
-- name: 14.82| 日本 02
-  type: ss
-  server: 162.14.8.16
-  port: '9005'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.71| 日本 03
-  type: ss
-  server: 162.14.8.16
-  port: '9010'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.42| 日本 06
-  type: ss
-  server: 162.14.15.168
-  port: '9025'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.33| 日本 05
-  type: ss
-  server: 162.14.15.168
-  port: '9020'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.28| 日本 04
+- name: 14.89| 日本 04
   type: ss
   server: 162.14.8.16
   port: '9015'
@@ -54,7 +10,40 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.08| 日本 08
+- name: 14.74| 日本 06
+  type: ss
+  server: 162.14.15.168
+  port: '9025'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.31| 日本 03
+  type: ss
+  server: 162.14.8.16
+  port: '9010'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.24| 日本 02
+  type: ss
+  server: 162.14.8.16
+  port: '9005'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.22| 日本 08
   type: ss
   server: 162.14.15.168
   port: '9035'
@@ -65,18 +54,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.04| 日本 01
-  type: ss
-  server: 162.14.8.16
-  port: '9002'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 13.43| 日本 07
+- name: 14.13| 日本 07
   type: ss
   server: 162.14.15.168
   port: '9030'
@@ -87,102 +65,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 8.41|HK548
-  server: 47.240.25.152
-  type: vmess
-  country: HK
-  port: 2096
-  uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /zhs
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 7.76| 香港免流04
-  server: hk04.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: f1162104-2b92-37c8-8921-dcb4ff134db5
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 7.17|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.10| V2新加坡02 中继E  15x
-  server: in05.ddns168.com
-  port: 63052
-  type: vmess
-  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /hls
-  ws-headers:
-    Host: cdn.bootcdn.net
-  udp: true
-- name: 5.96|RelayHKHK1559
-  server: hkt.comefromchinatown.com
-  type: vmess
-  country: HK
-  port: 153
-  uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: broadcastlv.chat.bilibili.com
-  ws-headers:
-    HOST: broadcastlv.chat.bilibili.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.02| 香港免流01
-  server: hk01.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: f1162104-2b92-37c8-8921-dcb4ff134db5
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 3.76| V3IEPL专线 日本04  10x
-  server: iplc01.ddns168.com
-  port: 3013
-  type: vmess
-  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 3.51| 美国 04
+- name: 13.94| 日本 01
   type: ss
   server: 162.14.8.16
-  port: '9115'
+  port: '9002'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -190,21 +76,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.49| 美国 01
-  type: ss
-  server: 162.14.8.16
-  port: '9100'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.49| 美国 11
+- name: 13.61| 日本 05
   type: ss
   server: 162.14.15.168
-  port: '9150'
+  port: '9020'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -212,474 +87,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.48| 美国 05
-  type: ss
-  server: 162.14.8.16
-  port: '9120'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.47| 美国 07
-  type: ss
-  server: 162.14.15.168
-  port: '9130'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.47| 美国 02
-  type: ss
-  server: 162.14.8.16
-  port: '9105'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.46| 美国 03
-  type: ss
-  server: 162.14.8.16
-  port: '9110'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.45| 美国 12
-  type: ss
-  server: 162.14.8.16
-  port: '9155'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.45| 美国 13
-  type: ss
-  server: 162.14.8.16
-  port: '9160'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.45| 美国 09
-  type: ss
-  server: 162.14.15.168
-  port: '9140'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.42| 美国 06
-  type: ss
-  server: 162.14.15.168
-  port: '9125'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.40| 美国 08
-  type: ss
-  server: 162.14.15.168
-  port: '9135'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 3.39| 美国 10
-  type: ss
-  server: 162.14.15.168
-  port: '9145'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.64|HK4757
-  server: 13.75.51.167
-  type: vmess
-  country: HK
-  port: 443
-  uuid: d3b96bac-b365-48fa-bbac-e23a58801dd2
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /api/rn
-  servername: usbv2.ddns.tjiasu.xyz
-  ws-headers:
-    HOST: usbv2.ddns.tjiasu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.37|CN2348  909Mb
-  server: jmnt.fastnetwork.fun
-  type: vmess
-  country: CN
-  port: 50025
-  uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v1
-  servername: meeting.speednetwork.xyz
-  ws-headers:
-    HOST: meeting.speednetwork.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.33| VIP2 新加坡 04 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26023
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 2.21|SG653
-  server: 149.129.87.192
-  type: vmess
-  country: SG
-  port: 53999
-  uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /zhs
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.15|HK4750
-  server: 52.175.66.20
-  type: vmess
-  country: HK
-  port: 443
-  uuid: 69e53074-eb53-4967-b3ec-7d5b132e7d3c
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /api/rn
-  servername: usbv2.ddns.tjiasu.xyz
-  ws-headers:
-    HOST: usbv2.ddns.tjiasu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.11| VIP2 香港 02 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26011
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 2.07| US61
-  server: 143.198.237.214
-  type: vmess
-  country: ' US'
-  port: 27489
-  uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.04| 新加坡 02
-  type: ss
-  server: 162.14.16.18
-  port: '9385'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.04| 香港 05
-  type: ss
-  server: 162.14.21.127
-  port: '9320'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.02| 台湾 03
-  type: ss
-  server: 162.14.21.127
-  port: '9365'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 2.01| 台湾 04
-  type: ss
-  server: 162.14.21.127
-  port: '9370'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.97|CN2347  916Mb
-  server: zh.fxyjs.xyz
-  type: vmess
-  country: CN
-  port: 50025
-  uuid: 6ed571d1-4869-4212-8f25-1748cb6067a3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v1
-  servername: meeting.speednetwork.xyz
-  ws-headers:
-    HOST: meeting.speednetwork.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.96|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.96| 香港 08
-  type: ss
-  server: 162.14.21.127
-  port: '9335'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.73| 香港 11
-  type: ss
-  server: 162.14.16.18
-  port: '9350'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.71| 香港 06
-  type: ss
-  server: 162.14.21.127
-  port: '9325'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.65| 新加坡 01
-  type: ss
-  server: 162.14.16.18
-  port: '9380'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.55|do原
-  server: 144.126.240.174
-  port: 80
-  type: vmess
-  uuid: ec4b0068-91e9-45b7-a6b5-cf2db3eaacda
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.49|RelayUSUS139
-  server: 128.14.157.112
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: 128.14.157.112
-  ws-headers:
-    HOST: 128.14.157.112
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.48|7802  426Mb
-  server: 62.216.92.179
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.48| CN335
-  server: 139.155.22.227
-  type: vmess
-  country: ' CN'
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.45| 新加坡 04
-  type: ss
-  server: 162.14.21.127
-  port: '9395'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.39| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 1.38|GB4459
-  server: 194.124.32.176
-  type: vmess
-  country: GB
-  port: 443
-  uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /zhs
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.35| 香港 02
-  type: ss
-  server: 162.14.16.18
-  port: '9305'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.32| 美国 06 Cluster
-  server: tt2.feiclouddd.me
-  port: 443
-  type: vmess
-  uuid: a307a6f7-b697-400e-bc7e-e6356de877c2
-  alterId: 60
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /asdfaszzsdfa
-  ws-headers:
-    Host: tt2.feiclouddd.me
-- name: 1.30|7805  242Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.28|6136  205Mb
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.26| SG35
-  server: 81.90.189.85
-  type: trojan
-  country: ' SG'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.24| VIP2 新加坡 02 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26021
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 1.16| 台湾 02
+- name: 10.93| 台湾 02
   type: ss
   server: 162.14.16.18
   port: '9360'
@@ -690,17 +98,84 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.14| VIP2 日本 01 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26006
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+- name: 10.93| 香港 06
+  type: ss
+  server: 162.14.21.127
+  port: '9325'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 1.05| 香港 01
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 10.87| 香港 08
+  type: ss
+  server: 162.14.21.127
+  port: '9335'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 10.36| 台湾 03
+  type: ss
+  server: 162.14.21.127
+  port: '9365'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.99| 台湾 04
+  type: ss
+  server: 162.14.21.127
+  port: '9370'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.82| 香港 11
+  type: ss
+  server: 162.14.16.18
+  port: '9350'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.75| 香港 05
+  type: ss
+  server: 162.14.21.127
+  port: '9320'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.62| 新加坡 04
+  type: ss
+  server: 162.14.21.127
+  port: '9395'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.55| 香港 01
   type: ss
   server: 162.14.16.18
   port: '9300'
@@ -711,7 +186,784 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 1.05|NL50
+- name: 9.08| 新加坡 01
+  type: ss
+  server: 162.14.16.18
+  port: '9380'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.07| 香港 02
+  type: ss
+  server: 162.14.16.18
+  port: '9305'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.07| 新加坡 02
+  type: ss
+  server: 162.14.16.18
+  port: '9385'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 8.45| 香港IPServerOne
+  server: 103.93.75.82
+  port: 18080
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 8.40|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 7.91| 香港Azure香港IPServerOne 2
+  server: 52.175.125.36
+  port: 22591
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 7.27| 香港Azure 2
+  server: 52.175.125.36
+  port: 18080
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 7.22| 香港IPServerOne 2
+  server: 103.93.75.82
+  port: 80
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 7.07| 香港Azure
+  server: 168.63.201.200
+  port: 18080
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 6.49| vpnpoolSGDigitalOceannf
+  server: 120.232.239.16
+  port: 26023
+  type: vmess
+  uuid: 38f621c4-6db4-3828-bcc5-5d3707b63a33
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 6.35| VIP2 新加坡 04 流媒体解锁
+  server: ppy.out01.nodeserver.top
+  port: 26023
+  type: vmess
+  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 6.00|美国00v2ray20891081450386
+  alterId: 4
+  cipher: auto
+  server: 20.89.108.14
+  network: ws
+  ws-path: /
+  tls: false
+  uuid: ac88733a-e1ea-4a3e-d425-e5a715458d10
+  port: 50386
+  type: vmess
+- name: 5.99|TG安卓盒子
+  server: 520yyds.zhqt.xyz
+  port: 50093
+  type: vmess
+  uuid: aa585888-b5d2-4202-8297-1de78ef2e40a
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: chenguanxi.zhqt.xyz
+  udp: true
+- name: 5.84| 娄底联通香港IPServerOnedip
+  server: 116.163.14.4
+  port: 13702
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 5.50| 香港HKBNnf
+  server: 218.253.143.142
+  port: 21011
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 5.34| 香港AzureSGKirinodip
+  server: 168.63.201.200
+  port: 45115
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 5.30| V0AWS新加坡中转013
+  server: gye.51ssrr.cn
+  port: 47003
+  type: vmess
+  uuid: accc0399-f816-30c6-ad40-b30c4a0a65ab
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2dasddray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 5.11| vpnpool台湾nf
+  server: 120.232.239.16
+  port: 26027
+  type: vmess
+  uuid: 38f621c4-6db4-3828-bcc5-5d3707b63a33
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 4.92| TokyoGMOdip
+  server: 153.122.173.30
+  port: 18080
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.87| 香港Azure彰化Hinetnf
+  server: 168.63.201.200
+  port: 39007
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 4.87|1102oslook中国香港中国台湾CNChinaHangzhou可能是中转节点8
+  network: tcp
+  port: 31522
+  server: 183.249.161.156
+  tls: false
+  type: vmess
+  uuid: 3dabb51b-d338-3132-90a2-239aeb286ac0
+  ws-path: /go
+- name: 4.81| 上海电信TokyoLinode
+  server: 58.32.13.144
+  port: 10201
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.74|日本01
+  server: azhk2.zz123.xyz
+  port: 34083
+  type: vmess
+  uuid: d1560675-fc5a-3028-84fb-3deb34f7d6b0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: azhk2.zz123.xyz
+  udp: true
+- name: 4.73| VIP2 日本 01 流媒体解锁
+  server: ppy.out01.nodeserver.top
+  port: 26006
+  type: vmess
+  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 4.64| 合肥移动香港Azure
+  server: 120.210.205.19
+  port: 11072
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.41| vpnpool彰化Hinetnf
+  server: 120.232.173.100
+  port: 21011
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.34| vpnpool香港HGCnf
+  server: 120.232.173.100
+  port: 22355
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.29| VIP2 新加坡 02 流媒体解锁
+  server: ppy.out01.nodeserver.top
+  port: 26021
+  type: vmess
+  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 4.18| 香港IPServerOne 3
+  server: 218.253.143.142
+  port: 18080
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.14| 上海电信SGKirinodip
+  server: 58.32.13.144
+  port: 45115
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 3.76| 娄底联通TokyoGMOdip
+  server: 116.163.14.4
+  port: 13710
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 3.69| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 3.52| 美国 12
+  type: ss
+  server: 162.14.8.16
+  port: '9155'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.51| 美国 10
+  type: ss
+  server: 162.14.15.168
+  port: '9145'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.50| 美国 04
+  type: ss
+  server: 162.14.8.16
+  port: '9115'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.50| 美国 11
+  type: ss
+  server: 162.14.15.168
+  port: '9150'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.50| 美国 07
+  type: ss
+  server: 162.14.15.168
+  port: '9130'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.50| 美国 08
+  type: ss
+  server: 162.14.15.168
+  port: '9135'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.49| 美国 06
+  type: ss
+  server: 162.14.15.168
+  port: '9125'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.47| 美国 03
+  type: ss
+  server: 162.14.8.16
+  port: '9110'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.44| 美国 05
+  type: ss
+  server: 162.14.8.16
+  port: '9120'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.44| 美国 13
+  type: ss
+  server: 162.14.8.16
+  port: '9160'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.41| 美国 09
+  type: ss
+  server: 162.14.15.168
+  port: '9140'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 3.40| 美国 01
+  type: ss
+  server: 162.14.8.16
+  port: '9100'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- alterId: 2
+  cipher: auto
+  name: 3.12|1102oslook中国香港中国台湾CNChinaHangzhou可能是中转节点18
+  network: tcp
+  port: 31122
+  server: 183.249.161.156
+  tls: false
+  type: vmess
+  uuid: 3dabb51b-d338-3132-90a2-239aeb286ac0
+  ws-path: /go
+- name: 3.11| 美国 X03  港区 Netflix
+  server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq764g2xn.com
+  port: 30003
+  type: vmess
+  uuid: 3fe6a1e0-863c-4db8-ab79-89a8b59ccce8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.84| 美国 02
+  type: ss
+  server: 162.14.8.16
+  port: '9105'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 2.83|vpnpoolSanta ClaraDigitalOceannf 2
+  server: 120.232.239.16
+  port: 26001
+  type: vmess
+  uuid: 38f621c4-6db4-3828-bcc5-5d3707b63a33
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.81|台湾01
+  type: vmess
+  server: jike-cccn2.ddns-only.xyz
+  port: 39205
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: ws
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-hinet03.ddns-only.xyz
+- name: 2.77| 上海电信香港HGCdip
+  server: 58.32.13.144
+  port: 21011
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 2.72|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.70|vpnpoolSanta ClaraDigitalOceannf
+  server: 120.232.239.16
+  port: 26003
+  type: vmess
+  uuid: 38f621c4-6db4-3828-bcc5-5d3707b63a33
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.08|RelayUSUS13999
+  server: usdll2.jjyun.ren
+  type: vmess
+  country: US
+  port: 80
+  uuid: fd0c6ac5-8438-4fe7-9197-e56891547896
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /jjyunml
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.95|韩国02
+  server: azhk2.zz123.xyz
+  port: 32915
+  type: vmess
+  uuid: d1560675-fc5a-3028-84fb-3deb34f7d6b0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: azhk2.zz123.xyz
+  udp: true
+- name: 1.77| 银河云白嫖春川2G口带宽流量只有500G
+  server: 152.67.204.179
+  port: 40558
+  type: vmess
+  uuid: a7c7085f-708f-414c-c306-fbfa737b8f96
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 1.75|NL  316Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.70|HK4693
+  server: 210.0.158.130
+  type: vmess
+  country: HK
+  port: 443
+  uuid: d12b7888-e61f-3308-a752-33d491dbaa1b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /racernet
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.69|  233Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.63|旋风  873
+  server: 208.64.226.100
+  port: 443
+  type: vmess
+  uuid: 07d70da3-6931-4471-8dd7-3ad22106bbff
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.62238769.xyz
+  udp: true
+- name: 1.63|do原
+  server: 144.126.240.174
+  port: 80
+  type: vmess
+  uuid: ec4b0068-91e9-45b7-a6b5-cf2db3eaacda
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.55|RelayUSUS3722
+  server: usa5b-node.3366test.com
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: ray
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.53|RO7751  247Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.37|旋风  879
+  server: 72.44.68.22
+  port: 443
+  type: vmess
+  uuid: 788b567d-b954-46c1-93ab-417deb9a86b4
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.65102680.xyz
+  udp: true
+- name: 1.37|DE  258Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.36|DE  250Mb
+  server: 139.59.209.152
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.36|US14005
+  server: 23.94.96.40
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ce04/
+  servername: vir.laoban666.xyz
+  ws-headers:
+    HOST: vir.laoban666.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.27|NL58
   server: 178.62.201.120
   type: trojan
   country: NL
@@ -719,7 +971,15 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: 1.00|RelayAUDE253
+- name: 1.26|SG8229  444Mb
+  server: 188.166.242.117
+  type: trojan
+  country: SG
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.16|RelayAUDE255
   server: 1.0.0.0
   type: vmess
   country: AU
@@ -735,4 +995,50 @@ proxies:
   http-opts: {}
   h2-opts: {}
   tls: true
+  skip-cert-verify: true
+- name: 1.15|更新地址reurlccW35gV7
+  server: 139.155.22.227
+  type: vmess
+  country: CN
+  port: 49110
+  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.12| 网址wwwviyunpw 嫖完网站自寻 稳定更新 美国38 长沙联通 v2ray G口带宽 公益节点
+  server: cs.lt.nkeo.top
+  port: 25015
+  type: vmess
+  uuid: 4a70cbbc-435f-38a5-9788-c7dc049bd0a3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cs.lt.nkeo.top
+  udp: true
+- name: 1.07|RO74
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.00| Game 2 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 9fc73f40-f1ad-11eb-964e-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
   skip-cert-verify: true
