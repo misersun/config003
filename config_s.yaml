@@ -1,16 +1,5 @@
 proxies:
-- name: 4.27| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 3.13|TG安卓盒子
+- name: 3.22|TG安卓盒子
   server: 520yyds.zhqt.xyz
   port: 50093
   type: vmess
@@ -24,26 +13,96 @@ proxies:
   ws-headers:
     Host: chenguanxi.zhqt.xyz
   udp: true
-- name: 1.89|US814
-  server: 72.167.45.6
+- name: 2.51| Game 1 PPhttp
   type: trojan
-  country: US
+  server: id1-trojan.bonds.id
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.11|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.80|  246Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.35|RelayCA69
-  server: v9.ssrsub.com
-  type: vmess
-  port: 159
+- name: 1.63|  335Mb
+  server: az.iganfan.store
+  type: trojan
+  country: US
+  port: 12306
+  password: ganfanbaipiao
+  skip-cert-verify: true
   udp: true
-  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
-  alterId: 0
+- name: 1.52|SG8801
+  server: 188.166.242.117
+  type: trojan
+  country: SG
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|  247Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.27|Relay  286Mb
+  server: agals01.cloudddns.icu
+  type: trojan
+  country: JP
+  port: 1123
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
+  skip-cert-verify: true
+  udp: true
+- name: 1.23|NL55
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.16|  258Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.06|RelayUSDE3647
+  server: 172.67.209.58
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
   cipher: auto
   network: ws
-  ws-path: /ssrsub
+  ws-path: /
+  servername: cdnde.irteyz.today
   ws-headers:
-    Host: v9.ssrsub.com
+    HOST: cdnde.irteyz.today
   http-opts: {}
   h2-opts: {}
   tls: true
+  skip-cert-verify: true
