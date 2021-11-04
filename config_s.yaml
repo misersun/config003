@@ -1,5 +1,5 @@
 proxies:
-- name: 4.61| 高速日本512x
+- name: 1.99| 高速日本512x
   server: jp6.alink.qchwnd.moe
   port: 17380
   type: trojan
@@ -7,7 +7,43 @@ proxies:
   sni: jp6.alink.qchwnd.moe
   skip-cert-verify: false
   udp: true
-- name: 4.00| Game 1 PPhttp
+- name: 1.76|US14500 3214Mb
+  server: 35.72.195.188
+  type: vmess
+  country: US
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /rhwsqaul
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.38|HK4504 1889Mb
+  server: 210.0.158.130
+  type: vmess
+  country: HK
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /racernet
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.31|RO7330  253Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.24| Game 1 PPhttp
   type: trojan
   server: id1-trojan.bonds.id
   port: 443
@@ -18,204 +54,36 @@ proxies:
   - h2
   - http/1.1
   skip-cert-verify: true
-- name: 2.29|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.74|RelayUSDE3674
-  server: 104.25.175.69
+- name: 1.11|RelayCNUS67
+  server: 1.transit.t.qjnodeip.xyz
   type: vmess
-  country: US
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
+  country: CN
+  port: 33779
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 5
   cipher: auto
   network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
+  ws-path: /HkqibHk02b
+  servername: 1.transit.t.qjnodeip.xyz
   ws-headers:
-    HOST: cdnde.irteyz.today
+    HOST: 1.transit.t.qjnodeip.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.65|RO7209  246Mb
-  server: 185.105.191.92
+- name: 1.08|DE2980 3011Mb
+  server: 5.183.179.138
   type: trojan
-  country: RO
+  country: DE
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.57|NL539
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.54|SG7630  269Mb
-  server: 188.166.242.117
-  type: trojan
-  country: SG
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|RelayAUDE252
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.48|  247Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.45|US  233Mb
-  server: 72.167.45.6
+- name: 1.04|RelayUSUS186
+  server: az.iganfan.store
   type: trojan
   country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  port: 12306
+  password: ganfanbaipiao
   skip-cert-verify: true
   udp: true
-- name: 1.42|US14621 5197Mb
-  server: 172.67.186.195
-  type: vmess
-  country: US
-  port: 443
-  uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /233blog
-  servername: rn.ddns1312.top
-  ws-headers:
-    HOST: rn.ddns1312.top
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.39|CA29
-  server: 138.197.162.114
-  type: trojan
-  country: CA
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.37|NL89
-  server: 178.62.201.120
-  type: trojan
-  country: NL
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.36|NL90
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.28|NL537
-  server: 154.84.1.55
-  type: vmess
-  country: NL
-  port: 443
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /path/323127100515
-  servername: www.04887294.xyz
-  ws-headers:
-    HOST: www.04887294.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.22|GB77
-  server: 138.68.179.78
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.16|RO108
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.12| Game 2 PPhttp
-  type: trojan
-  server: sg2-trojan.bonds.id
-  port: 443
-  password: 9fc73f40-f1ad-11eb-964e-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 1.06|JP5052  227Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.06|US189
-  server: 184.168.127.50
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.03|NL538
-  server: 46.182.107.163
-  type: vmess
-  country: NL
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /path/323127100515
-  servername: www.90859292.xyz
-  ws-headers:
-    HOST: www.90859292.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
