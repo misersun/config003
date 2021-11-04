@@ -1,8 +1,8 @@
 proxies:
-- name: 15.02| 日本 03
+- name: 14.71| 日本 02
   type: ss
   server: 162.14.8.16
-  port: '9010'
+  port: '9005'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -10,10 +10,32 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.76| 日本 02
+- name: 14.71| 日本 07
   type: ss
-  server: 162.14.8.16
-  port: '9005'
+  server: 162.14.15.168
+  port: '9030'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.67| 日本 05
+  type: ss
+  server: 162.14.15.168
+  port: '9020'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 14.67| 日本 06
+  type: ss
+  server: 162.14.15.168
+  port: '9025'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -32,51 +54,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.35| 日本 07
-  type: ss
-  server: 162.14.15.168
-  port: '9030'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.17| 日本 08
-  type: ss
-  server: 162.14.15.168
-  port: '9035'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 14.06| 日本 05
-  type: ss
-  server: 162.14.15.168
-  port: '9020'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 13.28| vpnpool香港花卷 53
-  server: 42.157.196.102
-  port: 10026
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 225980:mZ2WpJ0wa4
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 13.16| 日本 01
+- name: 14.45| 日本 01
   type: ss
   server: 162.14.8.16
   port: '9002'
@@ -87,10 +65,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 13.13| 日本 06
+- name: 13.98| 日本 08
   type: ss
   server: 162.14.15.168
-  port: '9025'
+  port: '9035'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -98,51 +76,18 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 12.87| 香港 01 3
-  server: dg-hk-node01.linkthink.app
-  port: 10418
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 227785:819VOzCkG3
-  obfs-param: ''
+- name: 13.71| 日本 03
+  type: ss
+  server: 162.14.8.16
+  port: '9010'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 12.65| vpnpool香港花卷
-  server: 42.157.196.102
-  port: 10124
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 226085:ALSq6jncda
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 12.61| vpnpool香港花卷 57
-  server: 42.157.196.102
-  port: 10092
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 225980:mZ2WpJ0wa4
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 12.56| 香港 11
-  server: dg-hk-node02.linkthink.app
-  port: 12070
-  type: ssr
-  cipher: aes-256-cfb
-  password: e5opjuLDEQ
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 228203:CdkxpG7O4m
-  obfs-param: ajax.microsoft.com
-  udp: true
-- name: 12.43| vpnpool香港花卷 40
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 12.92| vpnpool香港花卷 40
   server: 42.157.196.103
   port: 12303
   type: ssr
@@ -153,53 +98,9 @@ proxies:
   protocol-param: 227785:819VOzCkG3
   obfs-param: t.me/vpnhat
   udp: true
-- name: 12.34| vpnpool香港花卷 39
-  server: 42.157.196.103
-  port: 12181
-  type: ssr
-  cipher: aes-256-cfb
-  password: e5opjuLDEQ
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 227785:819VOzCkG3
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 12.10| vpnpool香港花卷 16
-  server: 42.157.196.103
-  port: 12832
-  type: ssr
-  cipher: aes-256-cfb
-  password: e5opjuLDEQ
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 226085:ALSq6jncda
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 12.00| vpnpool香港花卷 55
+- name: 12.67| vpnpool香港花卷 9
   server: 42.157.196.102
-  port: 10068
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 225980:mZ2WpJ0wa4
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 12.00| vpnpool香港花卷 13
-  server: 42.157.196.103
-  port: 12347
-  type: ssr
-  cipher: aes-256-cfb
-  password: e5opjuLDEQ
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 226085:ALSq6jncda
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 11.87| vpnpool香港花卷 8
-  server: 42.157.196.102
-  port: 10808
+  port: 10832
   type: ssr
   cipher: rc4-md5
   password: abK09D1FnV
@@ -208,61 +109,7 @@ proxies:
   protocol-param: 226085:ALSq6jncda
   obfs-param: t.me/vpnhat
   udp: true
-- name: 11.74| 香港 10
-  type: ss
-  server: 162.14.16.18
-  port: '9345'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 11.63| 香港 11
-  type: ss
-  server: 162.14.16.18
-  port: '9350'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 11.54|CN
-  server: dg-hk-node01.linkthink.app
-  type: ssr
-  country: CN
-  port: 10370
-  password: abK09D1FnV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 232749:DdxQYRIqsA
-  obfs: http_post
-- name: 11.47| vpnpool香港花卷 62
-  server: 42.157.196.102
-  port: 10478
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 225980:mZ2WpJ0wa4
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 11.43| vpnpool香港花卷 2
-  server: 42.157.196.102
-  port: 10210
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 226085:ALSq6jncda
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 11.40| vpnpool香港花卷 6
+- name: 12.53| vpnpool香港花卷 6
   server: 42.157.196.102
   port: 10515
   type: ssr
@@ -273,18 +120,40 @@ proxies:
   protocol-param: 226085:ALSq6jncda
   obfs-param: t.me/vpnhat
   udp: true
-- name: 11.39| 香港 08
-  type: ss
-  server: 162.14.21.127
-  port: '9335'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
+- name: 12.44| vpnpool香港花卷 8
+  server: 42.157.196.102
+  port: 10808
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
   udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 11.19| vpnpool香港花卷 4
+- name: 12.22| vpnpool香港花卷 41
+  server: 42.157.196.103
+  port: 12317
+  type: ssr
+  cipher: aes-256-cfb
+  password: e5opjuLDEQ
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 12.07| vpnpool香港花卷 7
+  server: 42.157.196.102
+  port: 10732
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 12.06| vpnpool香港花卷 4
   server: 42.157.196.102
   port: 10467
   type: ssr
@@ -295,20 +164,42 @@ proxies:
   protocol-param: 226085:ALSq6jncda
   obfs-param: t.me/vpnhat
   udp: true
-- name: 11.03| 台湾 01
-  type: ss
-  server: 162.14.16.18
-  port: '9355'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.86| vpnpool香港花卷 5
+- name: 11.98| vpnpool香港花卷 57
   server: 42.157.196.102
-  port: 10498
+  port: 10092
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.86| vpnpool香港花卷 54
+  server: 42.157.196.102
+  port: 10051
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.81| vpnpool香港花卷 12
+  server: 42.157.196.103
+  port: 12222
+  type: ssr
+  cipher: aes-256-cfb
+  password: e5opjuLDEQ
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.72| vpnpool香港花卷 3
+  server: 42.157.196.102
+  port: 10419
   type: ssr
   cipher: rc4-md5
   password: abK09D1FnV
@@ -317,73 +208,7 @@ proxies:
   protocol-param: 226085:ALSq6jncda
   obfs-param: t.me/vpnhat
   udp: true
-- name: 10.83| 香港 02
-  type: ss
-  server: 162.14.16.18
-  port: '9305'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.80| 台湾 04
-  type: ss
-  server: 162.14.21.127
-  port: '9370'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.79| 香港 06
-  type: ss
-  server: 162.14.21.127
-  port: '9325'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.75| 香港 01
-  type: ss
-  server: 162.14.16.18
-  port: '9300'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.41| 香港 04
-  type: ss
-  server: 162.14.16.18
-  port: '9315'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.40| 香港 03
-  type: ss
-  server: 162.14.16.18
-  port: '9310'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 10.28| 台湾 03
+- name: 11.61| 台湾 03
   type: ss
   server: 162.14.21.127
   port: '9365'
@@ -394,10 +219,76 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.91| 新加坡 04
+- name: 11.57| vpnpool香港花卷 56
+  server: 42.157.196.102
+  port: 10071
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.43| vpnpool香港花卷 5
+  server: 42.157.196.102
+  port: 10498
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.42| vpnpool香港花卷
+  server: 42.157.196.102
+  port: 10124
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.19| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10418
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: ''
+  udp: true
+- name: 11.17| 香港 01 2
+  server: dg-hk-node01.linkthink.app
+  port: 10520
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
+  udp: true
+- name: 11.14| vpnpool香港花卷 2
+  server: 42.157.196.102
+  port: 10210
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 10.96| 台湾 04
   type: ss
   server: 162.14.21.127
-  port: '9395'
+  port: '9370'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -405,10 +296,10 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.78| 香港 05
+- name: 10.85| 香港 04
   type: ss
-  server: 162.14.21.127
-  port: '9320'
+  server: 162.14.16.18
+  port: '9315'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -416,18 +307,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.68| 香港 09
-  type: ss
-  server: 162.14.21.127
-  port: '9340'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.58| 台湾 05
+- name: 10.81| 台湾 05
   type: ss
   server: 162.14.16.18
   port: '9375'
@@ -438,32 +318,32 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.36| 新加坡 02
-  type: ss
-  server: 162.14.16.18
-  port: '9385'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
+- name: 10.79| vpnpool香港花卷 10
+  server: 42.157.196.102
+  port: 10880
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
   udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 9.35| 新加坡 01
-  type: ss
-  server: 162.14.16.18
-  port: '9380'
-  cipher: chacha20-ietf
-  password: AmyTelecom_11451419I981O
+- name: 10.74| 香港 01
+  server: dg-hk-node01.linkthink.app
+  port: 10704
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227003:iawnbjGNuv
+  obfs-param: ''
   udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 8.93| 新加坡 03
+- name: 10.69| 香港 08
   type: ss
   server: 162.14.21.127
-  port: '9390'
+  port: '9335'
   cipher: chacha20-ietf
   password: AmyTelecom_11451419I981O
   udp: true
@@ -471,18 +351,18 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 8.00|RelayCNHK50
-  server: in05.node.beer
-  type: ssr
-  country: CN
-  port: 8361
-  password: LjtFzy
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 109143:KbDfCI
-  obfs: http_simple
-  obfs-param: cda7e109143.microsoft.com
-- name: 7.74| 香港 07
+- name: 10.52| 香港 10
+  type: ss
+  server: 162.14.16.18
+  port: '9345'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 10.48| 香港 07
   type: ss
   server: 162.14.21.127
   port: '9330'
@@ -493,54 +373,175 @@ proxies:
   plugin-opts:
     mode: http
     host: 34021-R5Kk8y5xu8.download.microsoft.com
-- name: 7.63|ss
+- name: 10.31| 香港 02
   type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 7.62| 菲律宾 免费节点马尼拉
-  server: gz1.52168.xyz
-  port: 1101
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 6.71| 香港 广港国际以太网专线AZ
-  server: gz1.52168.xyz
-  port: 1114
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 6.65|AZ转移动0527
-  server: sl201.jdxx.xyz
-  port: 25989
-  type: ssr
+  server: 162.14.16.18
+  port: '9305'
   cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
+  password: AmyTelecom_11451419I981O
   udp: true
-- name: 6.63|RelayCNSG52
-  server: in05.node.beer
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 10.09| 台湾 01
+  type: ss
+  server: 162.14.16.18
+  port: '9355'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 10.02| 香港 01
+  type: ss
+  server: 162.14.16.18
+  port: '9300'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.99| 香港 05
+  type: ss
+  server: 162.14.21.127
+  port: '9320'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.92| 香港 11
+  type: ss
+  server: 162.14.16.18
+  port: '9350'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.88| 新加坡 04
+  type: ss
+  server: 162.14.21.127
+  port: '9395'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.66| 香港 09
+  type: ss
+  server: 162.14.21.127
+  port: '9340'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.24| 新加坡 03
+  type: ss
+  server: 162.14.21.127
+  port: '9390'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 9.16|RelayCNHK52
+  server: in02.node.beer
   type: ssr
   country: CN
-  port: 8323
+  port: 8363
   password: LjtFzy
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 109143:KbDfCI
   obfs: http_simple
   obfs-param: cda7e109143.microsoft.com
+- name: 9.09| 香港 06
+  type: ss
+  server: 162.14.21.127
+  port: '9325'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 8.76| 新加坡 01
+  type: ss
+  server: 162.14.16.18
+  port: '9380'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.78| 新加坡 02
+  type: ss
+  server: 162.14.16.18
+  port: '9385'
+  cipher: chacha20-ietf
+  password: AmyTelecom_11451419I981O
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 34021-R5Kk8y5xu8.download.microsoft.com
+- name: 7.51|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 6.48| vpnpool香港花卷 55
+  server: 42.157.196.102
+  port: 10068
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 6.42| vpnpool香港花卷 175
+  server: 42.157.196.103
+  port: 12254
+  type: ssr
+  cipher: aes-256-cfb
+  password: e5opjuLDEQ
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228199:O5RY7wKBeV
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 6.37| HKT转江门227 2
+  server: sl201.jdxx.xyz
+  port: 35002
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1620:BfGQJg
+  obfs-param: 2605b1620.microsoft.com
+  udp: true
