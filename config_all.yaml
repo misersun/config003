@@ -1,26 +1,93 @@
 proxies:
-- name: 8.16|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 7.50| 香港 HKT 05
-  server: hkt5.qiangdong.xyz
-  port: 153
-  type: vmess
-  uuid: 7d75f2d6-4ed2-32cc-8a37-14558094a304
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: b2b4a59290.laowanxiang.com
+- name: 13.61| vpnpool香港花卷 7
+  server: 42.157.196.102
+  port: 10092
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228207:ZRWN6okXjx
+  obfs-param: t.me/vpnhat
   udp: true
-- name: 6.91| 香港Azure香港IPServerOne2
+- name: 13.24| vpnpool香港花卷 2
+  server: 42.157.196.102
+  port: 10832
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228207:ZRWN6okXjx
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 12.71| vpnpool香港花卷 16
+  server: 42.157.196.102
+  port: 10478
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 12.46| vpnpool香港花卷 6
+  server: 42.157.196.102
+  port: 10068
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 12.06| vpnpool香港花卷 4
+  server: 42.157.196.102
+  port: 10124
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228207:ZRWN6okXjx
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 11.77| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10704
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227003:iawnbjGNuv
+  obfs-param: ''
+  udp: true
+- name: 11.71| 香港 7
+  server: dg-hk-node01.linkthink.app
+  port: 10462
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228207:ZRWN6okXjx
+  obfs-param: ajax.microsoft.com
+  udp: true
+- name: 10.65| vpnpool香港花卷
+  server: 42.157.196.102
+  port: 10210
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 226085:ALSq6jncda
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 9.69| 香港Azure香港IPServerOne2
   server: 52.175.125.36
   port: 28666
   type: vmess
@@ -32,7 +99,114 @@ proxies:
   ws-path: /v2ray
   ws-headers:
     Host: t.me/vpnhat
-- name: 5.28| VIP2 日本 03 流媒体解锁
+- name: 9.64| 香港 01 2
+  server: dg-hk-node01.linkthink.app
+  port: 10520
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
+  udp: true
+- name: 8.97|1106oslook中国香港中国台湾CNChinaShanghai可能是中转节点1
+  password: UiLPqefVfielqkDjEwBV
+  port: 12443
+  server: sh-hk-01-tr.cdn.savoy.click
+  type: trojan
+- name: 8.17| vpnpool香港花卷 15
+  server: 42.157.196.102
+  port: 10051
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 8.09| 香港 01 4
+  server: dg-hk-node01.linkthink.app
+  port: 10464
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 231567:j1sSzUAk7P
+  obfs-param: ''
+  udp: true
+- name: 7.34| VIP2 新加坡 02 流媒体解锁
+  server: ppy.out01.nodeserver.top
+  port: 26021
+  type: vmess
+  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 6.33|菲律宾 免费节点马尼拉 3
+  server: gz1.52168.xyz
+  port: 1101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 5.82| 香港Azure香港IPServerOnenf1
+  server: 52.175.125.36
+  port: 29546
+  type: vmess
+  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 5.66|AZ转移动0327
+  server: sl201.jdxx.xyz
+  port: 25987
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 5.60| 广州日本 DMIT丨全解锁丨A3
+  server: gzydddns.xyz
+  port: 11812
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1065:5ucWfo
+  obfs-param: 385231065.microsoft.com
+  udp: true
+- name: 5.04| Native江門印尼
+  server: jmyd2.nkeo.top
+  port: 61780
+  type: vmess
+  uuid: 765040cb-15f4-43da-9e07-4b92c767d222
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /id-dnf7328g
+  ws-headers:
+    Host: mdid.jsdelivr.net
+  udp: true
+- name: 5.00| VIP2 日本 03 流媒体解锁
   server: ppy.out03.nodeserver.top
   port: 26008
   type: vmess
@@ -42,17 +216,26 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 5.16| VIP2 日本 01 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26006
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 4.72| 高速印度312x
+  server: azhk.alink123.com
+  port: 11045
+  type: trojan
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
   skip-cert-verify: false
   udp: true
-- name: 4.96| 合肥移动香港Azure25
+- name: 4.66| 韩国 VIP节点首尔
+  server: gz2.52168.xyz
+  port: 2108
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 4.43| 合肥移动香港Azure25
   server: 120.210.205.19
   port: 11072
   type: vmess
@@ -64,7 +247,17 @@ proxies:
   ws-path: /v2ray
   ws-headers:
     Host: t.me/vpnhat
-- name: 4.84|娄底联通OsakaEC2nf
+- name: 4.06| VIP2 日本 01 流媒体解锁
+  server: ppy.out01.nodeserver.top
+  port: 26006
+  type: vmess
+  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.73|娄底联通OsakaEC2nf
   server: 116.163.10.189
   port: 26009
   type: vmess
@@ -74,48 +267,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 4.55| 日本 KDDI
-  server: 211.9.220.55
-  port: 153
-  type: vmess
-  uuid: 165a168f-fb20-3057-8dd6-23e25246c3a9
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: b2b4a59290.laowanxiang.com
-  udp: true
-- name: 4.36|Native江門澳門18x
-  server: jmyd2.nkeo.top
-  port: 61780
-  type: vmess
-  uuid: 765040cb-15f4-43da-9e07-4b92c767d222
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /dgfdh/45sg
-  ws-headers:
-    Host: slhk.jsdelivr.net
-  udp: true
-- name: 4.31|US13666
-  server: v2-xgc.cl123.xyz
-  type: vmess
-  country: US
-  port: 80
-  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.60| 新加坡 Aliyun
+- name: 3.66| 新加坡 Aliyun
   server: 161.117.1.27
   port: 153
   type: vmess
@@ -129,51 +281,7 @@ proxies:
   ws-headers:
     Host: b2b4a59290.laowanxiang.com
   udp: true
-- name: 3.60| 合肥移动香港Azure 226
-  server: 120.210.205.19
-  port: 11071
-  type: vmess
-  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 3.46| 香港 HKT 04
-  server: hkt4.qiangdong.xyz
-  port: 153
-  type: vmess
-  uuid: a7674bbc-4725-3333-bd53-297326397bfb
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: b2b4a59290.laowanxiang.com
-  udp: true
-- name: 3.12| VIP2 新加坡 02 流媒体解锁
-  server: ppy.out01.nodeserver.top
-  port: 26021
-  type: vmess
-  uuid: 7708528d-9b24-3c0d-8920-165d255c5e3b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 2.81| 高速印度312x
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-  skip-cert-verify: false
-  udp: true
-- name: 2.80| Native马来西亚12x
+- name: 2.71| Native马来西亚12x
   server: azhk.relay.alinkrelay.com
   port: 51023
   type: vmess
@@ -187,46 +295,29 @@ proxies:
   ws-headers:
     Host: azhk.relay.alinkrelay.com
   udp: true
-- name: 1.94|  209Mb
-  server: c23s3.jamjams.net
-  type: vmess
-  country: US
-  port: 61173
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.82| 香港Azure香港IPServerOnenf1
-  server: 52.175.125.36
-  port: 29546
-  type: vmess
-  uuid: 9da81753-1852-3f85-ac25-92e22eff0174
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 1.69| 台湾 CHT 05
-  server: cht5.qiangdong.xyz
-  port: 153
-  type: vmess
-  uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: 0ef7a109901.laowanxiang.com
+- name: 2.49| 澳大利亚 免费节点悉尼
+  server: gz1.52168.xyz
+  port: 1117
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
   udp: true
-- name: 1.65| TokyoGMOdip3
+- name: 2.04|越南 VIP节点胡志明
+  server: gz1.52168.xyz
+  port: 1108
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 2.04| TokyoGMOdip3
   server: 153.122.173.30
   port: 18080
   type: vmess
@@ -238,23 +329,61 @@ proxies:
   ws-path: /v2ray
   ws-headers:
     Host: t.me/vpnhat
-- alterId: 8
-  cipher: auto
-  name: 1.48|1107oslook中国香港中国台湾CNChinaGuangzhou可能是中转节点26
-  network: ws
-  port: 15140
-  server: 1.transit.t.qjnodeip.xyz
-  tls: true
+- name: 2.01| HK20
+  server: tk.shcn2.tkddns.xyz
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  country: ' HK'
+  port: 22642
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: zxjp-b.tkong.cc
   ws-headers:
-    Host: usa04.dadwff.xyz
-  ws-path: /Ub6w
-- name: 1.40| 台湾 CHT 03
-  server: cht3.qiangdong.xyz
+    HOST: zxjp-b.tkong.cc
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.98| vpnpool香港花卷 13
+  server: 42.157.196.104
+  port: 20635
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228199:O5RY7wKBeV
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.98| vpnpool香港花卷 14
+  server: 42.157.196.104
+  port: 20668
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.96| vpnpool香港花卷 9
+  server: 42.157.196.104
+  port: 20059
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228207:ZRWN6okXjx
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.86| 台湾 CHT 05 2
+  server: cht5.qiangdong.xyz
   port: 153
   type: vmess
-  uuid: 09e2b227-e05c-3bc9-9ad6-89f17405ad57
+  uuid: 80ef6c0f-fa4c-3618-b23a-e45775bfbde8
   alterId: 64
   cipher: auto
   tls: false
@@ -264,42 +393,92 @@ proxies:
   ws-headers:
     Host: b2b4a59290.laowanxiang.com
   udp: true
-- name: 1.30| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
+- name: 1.83| vpnpool香港花卷 17
+  server: 42.157.196.104
+  port: 20083
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 225980:mZ2WpJ0wa4
+  obfs-param: t.me/vpnhat
   udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- alterId: 8
-  cipher: auto
-  name: 1.28|1107oslook22
-  network: ws
-  port: 60649
-  server: 1.transit.t.qjnodeip.xyz
-  tls: true
+- name: 1.79|香港 12
+  server: 42.157.196.104
+  port: 20070
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228203:CdkxpG7O4m
+  obfs-param: ajax.microsoft.com
+  udp: true
+- name: 1.71| 日本 VIP节点
+  server: gz2.52168.xyz
+  port: 2107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 1.58| vpnpool香港花卷 11
+  server: 42.157.196.104
+  port: 20618
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 228208:dhxZP18kDJ
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.56|菲律宾 VIP节点马尼拉 3
+  server: gz1.52168.xyz
+  port: 1102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 1.36|CN2245 1918Mb
+  server: 139.155.22.227
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  ws-headers:
-    Host: dddwda.xyz
-  ws-path: /HGzsmqibHG02Z
-- alterId: 8
+  country: CN
+  port: 49110
+  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  alterId: 64
   cipher: auto
-  name: 1.18|1107oslook荷兰NLNetherlandsAmsterdam14
   network: tcp
-  port: 61173
-  server: 104.245.96.123
-  tls: false
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.09|US14351  720Mb
+  server: 128.14.157.112
   type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: 128.14.157.112
   ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
-- name: 1.11|trojan
+    HOST: 128.14.157.112
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.07|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -308,18 +487,14 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.07|中转荷兰RackNerd04华中隧道
-  server: cu-cs.okvpn.xyz
-  port: 30020
-  type: vmess
-  uuid: 0e51e193-9029-4ba6-857a-d7f98b0105dc
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cu-cs.okvpn.xyz
+- name: 1.05| vpnpool香港花卷 5
+  server: 42.157.196.104
+  port: 20921
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: t.me/vpnhat
   udp: true

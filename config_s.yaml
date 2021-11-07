@@ -1,5 +1,10 @@
 proxies:
-- name: 2.81| 高速印度312x
+- name: 8.97|1106oslook中国香港中国台湾CNChinaShanghai可能是中转节点1
+  password: UiLPqefVfielqkDjEwBV
+  port: 12443
+  server: sh-hk-01-tr.cdn.savoy.click
+  type: trojan
+- name: 4.72| 高速印度312x
   server: azhk.alink123.com
   port: 11045
   type: trojan
@@ -7,42 +12,41 @@ proxies:
   sni: azhk.alink123.com
   skip-cert-verify: false
   udp: true
-- alterId: 8
-  cipher: auto
-  name: 1.48|1107oslook中国香港中国台湾CNChinaGuangzhou可能是中转节点26
-  network: ws
-  port: 15140
-  server: 1.transit.t.qjnodeip.xyz
-  tls: true
+- name: 2.01| HK20
+  server: tk.shcn2.tkddns.xyz
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  country: ' HK'
+  port: 22642
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: zxjp-b.tkong.cc
   ws-headers:
-    Host: usa04.dadwff.xyz
-  ws-path: /Ub6w
-- name: 1.30| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
+    HOST: zxjp-b.tkong.cc
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- alterId: 8
-  cipher: auto
-  name: 1.28|1107oslook22
-  network: ws
-  port: 60649
-  server: 1.transit.t.qjnodeip.xyz
-  tls: true
+- name: 1.09|US14351  720Mb
+  server: 128.14.157.112
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: 128.14.157.112
   ws-headers:
-    Host: dddwda.xyz
-  ws-path: /HGzsmqibHG02Z
-- name: 1.11|trojan
+    HOST: 128.14.157.112
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.07|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
