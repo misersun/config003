@@ -1,16 +1,29 @@
 proxies:
-- name: 1.61|trojan
+- name: 1.37|  233Mb
+  server: 72.167.45.6
   type: trojan
-  server: 65.49.196.246
+  country: US
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- password: g5MeD6Ft3CWlJId
-  name: 1.43|美国德克萨斯0ss38107226495004
-  server: 38.107.226.49
-  cipher: aes-256-gcm
-  port: 5004
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.35|US798
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.04|httpsgitiov9999 clash ip1 17
+  server: 172.252.64.57
+  port: 18334
   type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+- name: 1.02|httpsgitiov9999 clash ip1 6
+  server: 172.252.64.56
+  port: 18331
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
