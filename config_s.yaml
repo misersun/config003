@@ -1,29 +1,19 @@
 proxies:
-- name: 1.59|Relay2276  647Mb
-  server: 1.transit.t.qjnodeip.xyz
-  port: 15140
+- name: 5.82|SG8427
+  server: 149.129.118.218
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: 8
+  country: SG
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /Ub6w
-  ws-headers:
-    Host: usa04.dadwff.xyz
-- name: 1.19| RelayJPJP5881 4516Mb
-  server: kr4.futi.online
-  port: 2053
-  type: vmess
-  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
-  alterId: 1
-  cipher: auto
+  ws-path: /racernet
+  http-opts: {}
+  h2-opts: {}
   tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr4.futi.online
-- name: 1.19| RelayNLNL6404 4012Mb
+  skip-cert-verify: true
+- name: 4.81| RelayNLNL6404 4012Mb
   server: kr3.futi.online
   port: 2053
   type: vmess
@@ -35,15 +25,121 @@ proxies:
   ws-path: /
   ws-headers:
     Host: kr3.futi.online
-- name: 1.12|Relay2274  227Mb
-  server: 1.transit.t.qjnodeip.xyz
-  port: 40249
+- name: 4.27| 高速印度312x
+  server: azhk.alink123.com
+  port: 11045
+  type: trojan
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
+  skip-cert-verify: false
+  udp: true
+- name: 3.94| RelayCNUS1855
+  server: cmgz1.racernet.link
+  port: 1443
   type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: 8
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /JS6
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
+  udp: true
+- name: 2.45|US754
+  server: jp1.racernet.link
+  type: vmess
+  country: US
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /rhwsqaul
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.40|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.67|US14289
+  server: 35.72.195.188
+  type: vmess
+  country: US
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /rhwsqaul
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.62| DE17
+  server: 5.183.179.138
+  type: trojan
+  country: ' DE'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- alterId: 8
+  cipher: auto
+  name: 1.27|1110oslook中国香港中国台湾CNChinaGuangzhou可能是中转节点14
+  network: ws
+  port: 40249
+  server: 1.transit.t.qjnodeip.xyz
+  tls: true
+  type: vmess
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   ws-headers:
     Host: usa06.sdhexzy.xyz
+  ws-path: /JS6
+- name: 1.26|RelayCNUS693
+  server: 1.transit.t.qjnodeip.xyz
+  type: vmess
+  country: CN
+  port: 27435
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: 8
+  cipher: auto
+  network: ws
+  ws-path: /JP03W
+  servername: 1.transit.t.qjnodeip.xyz
+  ws-headers:
+    HOST: 1.transit.t.qjnodeip.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.11| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 1.09| Game 2 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 9fc73f40-f1ad-11eb-964e-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
