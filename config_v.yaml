@@ -1,71 +1,43 @@
 proxies:
-- name: 2.54| CN2161
-  server: 1.transit.nph.qjnodeip.xyz
-  port: 30003
+- name: 6.60|httpstmefreeyule14
+  server: fsy01.tedsc.online
+  port: 25519
   type: vmess
-  uuid: c86261bd-c531-4c6a-9733-cee33ef688d6
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.36| US17
-  server: 143.198.237.214
-  type: vmess
-  country: ' US'
-  port: 27489
-  uuid: d73f027b-9a37-4e79-dd29-3a0d1e1da128
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.28| RelayUSUS14326 1164Mb
-  server: usdll2.jjyun.ren
-  port: 80
-  type: vmess
-  uuid: c8439e61-9d09-4ed0-92ce-0ef9bf24001b
-  alterId: 1
+  uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /jjyunml
-  ws-headers:
-    Host: usdll2.jjyun.ren
-- name: 2.26| 214Mb
-  server: 139.155.22.227
+  ws-path: /hls/cctv5phd.m3u8
+- name: 4.88|httpstmefreeyule5
+  server: fsy02.tedsc.online
+  port: 25517
   type: vmess
-  country: CN
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  uuid: 93d788a0-3f56-34a6-ba6a-cfbcffab05c7
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+- name: 2.99|电信一区广东50
+  server: 47.113.190.48
+  port: 47912
+  type: vmess
+  uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557
   alterId: 64
   cipher: auto
+  tls: false
   network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.19|1424105124tcp
-  server: 142.4.105.124
-  port: 9295
+- name: 2.52|网通四区上海127
+  server: 101.132.173.78
+  port: 41906
   type: vmess
-  uuid: 8dffdea4-402a-11ec-ac81-002590760342
-  alterId: 0
+  uuid: e24ac30e-e296-4761-af23-7bda2781ba85
+  alterId: 64
   cipher: auto
   tls: false
-- name: 2.01| RelayHKHK4356 1773Mb
-  server: v1-aws-hk-14.niaoyun.online
-  port: 666
-  type: vmess
-  uuid: a2813ede-de11-3a5c-9b78-88513f897491
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /niaocloud
-  ws-headers:
-    Host: t.me/vpnpool
-- name: 1.76|1424105108ws
+  network: tcp
+- name: 1.70|1424105108ws
   server: 142.4.105.108
   port: 50347
   type: vmess
@@ -77,62 +49,27 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 142.4.105.108
-- name: 1.69| CN2176  360Mb
-  server: 1.transit.nph.qjnodeip.xyz
-  port: 30004
+- name: 1.68|2369Mb
+  server: 132.226.172.134
+  port: 37509
   type: vmess
-  uuid: 22fb60d3-e6c4-42d8-889b-7b59915bd563
+  uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957
   alterId: 0
   cipher: auto
   tls: false
-- uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b
-  name: 1.56|美国德克萨斯0v2ray1592236722358443
-  server: 159.223.67.223
-  network: ws
-  alterId: 4
-  tls: false
+- name: 1.25| RelaySGSG8244 2462Mb
+  server: v1-asw-sg-14.niaoyun.online
+  port: 666
   type: vmess
-  cipher: auto
-  ws-path: /
-  port: 58443
-- name: 1.42| RelayUSUS14317  411Mb
-  server: usdsl.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: c8439e61-9d09-4ed0-92ce-0ef9bf24001b
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: usdsl.52jjyun.top
-- name: 1.39| US18
-  server: 159.223.75.43
-  type: vmess
-  country: ' US'
-  port: 56776
-  uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.27| RelayUSUS14310 2450Mb
-  server: dgyh.jjyun.ren
-  port: 80
-  type: vmess
-  uuid: c8439e61-9d09-4ed0-92ce-0ef9bf24001b
+  uuid: 514e9d38-efd0-3c6e-8122-7b124198d53f
   alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /jjyun
+  ws-path: /niaocloud
   ws-headers:
-    Host: dgyh.jjyun.ren
-- name: 1.27|SG519
+    Host: t.me/vpnpool
+- name: 1.17|SG426
   server: in.52jjyun.top
   type: vmess
   country: SG
@@ -145,27 +82,30 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.21| RelaySGUS8434 2153Mb
-  server: de.52jjyun.top
+- name: 1.17| 直连TWN台湾 C
+  server: twn04.ip4.ddns.acg.photos
   port: 80
   type: vmess
-  uuid: c8439e61-9d09-4ed0-92ce-0ef9bf24001b
-  alterId: 10
+  uuid: f03b4d57-bbd8-4ad3-8b76-d096152d15df
+  alterId: 1
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /jjyun
+  ws-path: /
   ws-headers:
-    Host: de.52jjyun.top
-- name: 1.16|RelayGBGB4126  238Mb
-  server: ukdll.52jjyun.top
-  port: 80
+    Host: twn04.ip4.ddns.acg.photos
+  udp: true
+- name: 1.11| SG40
+  server: 139.59.254.17
   type: vmess
-  uuid: c8439e61-9d09-4ed0-92ce-0ef9bf24001b
-  alterId: 10
+  country: ' SG'
+  port: 12081
+  uuid: 39f1943b-282e-44a4-9f56-5d59107d919e
+  alterId: 0
   cipher: auto
-  tls: false
   network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: ukdll.52jjyun.top
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
