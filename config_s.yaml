@@ -1,11 +1,35 @@
 proxies:
-- name: 4.99| 印度003 关注Tg交流群MshareT
+- name: 4.85| 印度003 关注Tg交流群MshareT
   server: azhk.alink123.com
   port: 11045
   type: trojan
   password: 765040cb-15f4-43da-9e07-4b92c767d222
   sni: azhk.alink123.com
-- name: 2.33|trojan
+- name: 3.61| RelayJPJP5292
+  server: kr2.futi.online
+  port: 2053
+  type: vmess
+  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr2.futi.online
+- name: 1.92| RelayNLNL5856
+  server: kr3.futi.online
+  port: 2053
+  type: vmess
+  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.futi.online
+- name: 1.48|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -14,47 +38,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.55|RelayGBGB1992  421Mb
-  server: us1nhg-node.aiqiche123.com
-  port: 13723
-  type: vmess
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: ray
-  ws-headers:
-    Host: us1nhg-node.aiqiche123.com
-- name: 1.34|DE2907 4993Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.30|Relay  642Mb
-  server: 120.232.174.72
-  port: 60649
-  type: vmess
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /HGzsmqibHG02Z
-  ws-headers:
-    Host: dddwda.xyz
-- name: 1.29|NL6168  686Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.23|美国加州A年付专线22
+- name: 1.45|美国加州A年付专线22
   server: 107.148.209.108
   port: 443
   type: vmess
@@ -66,15 +50,57 @@ proxies:
   ws-path: /path/243535322906
   ws-headers:
     Host: www.19379708.xyz
-- name: 1.06|Relay  605Mb
-  server: b.transit.t.qjnodeip.xyz
-  port: 60649
+- name: 1.42| githubcomfreefq  俄罗斯新西伯利亚JustHost 47
+  server: t3.ssrsub.com
+  port: 1033
+  type: trojan
+  password: 92a95e6d-cf89-42ee-8110-66fab6871e2f
+  sni: t3.ssrsub.com
+- name: 1.36|RelayHKUS1437
+  server: a.transit.t.qjnodeip.xyz
   type: vmess
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  country: HK
+  port: 18996
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
   alterId: 8
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /HGzsmqibHG02Z
+  ws-path: /Jg012
+  servername: jnd01.wxyidc001.space
   ws-headers:
-    Host: dddwda.xyz
+    HOST: jnd01.wxyidc001.space
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.33| 美国 圣路易斯  公益  Anycast
+  server: apn-pw.connect-node.xyz
+  port: 8443
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: pw-usa.connect-node.xyz
+  udp: true
+- name: 1.23| CN11
+  server: b.transit.t.qjnodeip.xyz
+  type: vmess
+  country: ' CN'
+  port: 56642
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 8
+  cipher: auto
+  network: ws
+  ws-path: /HGzsmqib01A
+  servername: hg03.usarugg.xyz
+  ws-headers:
+    HOST: hg03.usarugg.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
