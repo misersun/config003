@@ -1,42 +1,44 @@
 proxies:
-- name: 3.65| RelayJPJP5290 4537Mb
-  server: kr2.futi.online
-  port: 2053
-  type: vmess
-  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr2.futi.online
-- name: 2.05| RelayNLNL5854 4120Mb
-  server: kr3.futi.online
-  port: 2053
-  type: vmess
-  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr3.futi.online
-- name: 1.56| US13882  978Mb
-  server: 104.160.43.43
+- name: 2.68|trojan
+  type: trojan
+  server: 65.49.196.246
   port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.97| 美国HiPDA 奈飞分舵 4
+  server: 520yyds.zhqt.xyz
+  port: 50092
   type: vmess
-  uuid: a307a6f7-b697-400e-bc7e-e6356de877c2
-  alterId: 60
+  uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb
+  alterId: 1
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /asdfaszzsdfa
+  ws-path: /
   ws-headers:
-    Host: tt2.feiclouddd.me
-- name: 1.44| US1010  735Mb
-  server: 104.16.182.15
+    Host: 135.zhqt.xyz
+- name: 1.93|US13265
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.87|US13295
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.65| US998  935Mb
+  server: 104.18.7.138
   port: 443
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -47,36 +49,46 @@ proxies:
   ws-path: /
   ws-headers:
     Host: cdnde.irteyz.today
-- name: 1.43| RelayUSUS13881
-  server: sg.idvpn.me
-  port: 8443
+- name: 1.62| RelayUSUS13480 1065Mb
+  server: us2.futi.online
+  port: 2063
   type: vmess
-  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
-  alterId: 0
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
+  alterId: 1
   cipher: auto
   tls: true
   network: ws
-  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
+  ws-path: /
   ws-headers:
-    Host: sg.idvpn.me
-- name: 1.31| 美国 圣路易斯  公益  Anycast
-  server: apn-pw.connect-node.xyz
-  port: 8443
-  type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
+    Host: us2.futi.online
+- name: 1.59|NL1836
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: pw-usa.connect-node.xyz
   udp: true
-- name: 1.22|RelayAUDE250
-  server: 1.0.0.0
+- name: 1.59|CH244
+  server: 185.126.116.235
+  type: trojan
+  country: CH
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.54|DE2797 5056Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|RelayUSDE3409
+  server: cdnde.irteyz.today
   type: vmess
-  country: AU
+  country: US
   port: 443
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   alterId: 64
@@ -90,15 +102,65 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.07| US13873
-  server: 104.18.135.208
+- name: 1.50| US999 1047Mb
+  server: 104.16.182.15
   port: 443
   type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.46|NL5803
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.42| US1140
+  server: sg.idvpn.me
+  port: 8443
+  type: vmess
+  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /The-Great-Awakening_vws
+  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
   ws-headers:
-    Host: vincent-jackson2021.ga
+    Host: sg.idvpn.me
+- name: 1.32| 美国 圣路易斯  公益  Anycast
+  server: apn-pw.connect-node.xyz
+  port: 8443
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: pw-usa.connect-node.xyz
+  udp: true
+- name: 1.15|RelayCACA408
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 1033
+  password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
+  skip-cert-verify: true
+  udp: true
+- name: 1.12|JP5270
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true

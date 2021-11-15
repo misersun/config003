@@ -1,5 +1,27 @@
 proxies:
-- name: 11.09| 香港 01 6
+- name: 11.25| 香港 01 4
+  server: dg-hk-node01.linkthink.app
+  port: 10520
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
+  udp: true
+- name: 9.70| 香港IEPL09
+  server: cm07.paofu.biz
+  port: 5958
+  type: ssr
+  cipher: chacha20-ietf
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
+  udp: true
+- name: 9.63| 香港 01 6
   server: dg-hk-node01.linkthink.app
   port: 10464
   type: ssr
@@ -10,9 +32,9 @@ proxies:
   protocol-param: 231567:j1sSzUAk7P
   obfs-param: ''
   udp: true
-- name: 9.29| 香港IEPL15
+- name: 9.47| 香港IEPL20
   server: cm08.paofu.biz
-  port: 5954
+  port: 5959
   type: ssr
   cipher: chacha20-ietf
   password: k4o7ct0kl7
@@ -21,7 +43,7 @@ proxies:
   protocol-param: 141638:8G0Rbp
   obfs-param: 6c555141638.microsoft.com
   udp: true
-- name: 9.18| CTCM HKT C
+- name: 9.42| CTCM HKT C
   server: shcris03.proconcn.xyz
   port: 568
   type: ssr
@@ -32,20 +54,9 @@ proxies:
   protocol-param: 7995:202111520
   obfs-param: ''
   udp: true
-- name: 8.86| CTCM HKT H
-  server: shonlinecu.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 8.47| 香港IEPL25
+- name: 9.13| 香港IEPL30
   server: cm09.paofu.biz
-  port: 5954
+  port: 5959
   type: ssr
   cipher: chacha20-ietf
   password: k4o7ct0kl7
@@ -54,51 +65,29 @@ proxies:
   protocol-param: 141638:8G0Rbp
   obfs-param: 6c555141638.microsoft.com
   udp: true
-- name: 6.98| 香港 广港国际以太网专线AZ
-  server: gz1.52168.xyz
-  port: 1114
+- name: 9.05| 香港IEPL19
+  server: cm08.paofu.biz
+  port: 5958
   type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
+  cipher: chacha20-ietf
+  password: k4o7ct0kl7
   protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 6.89|AZ转移动0327
-  server: sl201.jdxx.xyz
-  port: 25987
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 6.54| CTCM HKBN C
-  server: cncusouth.procncon.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
   obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
   udp: true
-- name: 6.20| 台湾 A
-  server: cstwrelay.onlineto.xyz
-  port: 560
+- name: 8.89| 香港IEPL29
+  server: cm09.paofu.biz
+  port: 5958
   type: ssr
   cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
   obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
   udp: true
-- name: 6.15| CTCM HKT N
+- name: 8.45| CTCM HKT N
   server: shcris02stand.proconcn.xyz
   port: 561
   type: ssr
@@ -109,7 +98,17 @@ proxies:
   protocol-param: 7995:202111520
   obfs-param: ''
   udp: true
-- name: 6.13| CTCM HKBN D
+- name: 8.18| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 7.24| CTCM HKBN D
   server: shcris02stand.proconcn.xyz
   port: 562
   type: ssr
@@ -120,51 +119,7 @@ proxies:
   protocol-param: 7995:202111520
   obfs-param: ''
   udp: true
-- name: 5.18| CTCM HKT F
-  server: cusouthcmhk.procncon.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 4.78| 菲律宾 免费节点马尼拉
-  server: gz1.52168.xyz
-  port: 1101
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 4.69| CTCM HKT B
-  server: cncusouth.procncon.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 4.62| 香港 VIP节点HKBN 1G
-  server: gz1.52168.xyz
-  port: 1113
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 4.23| 日本03
+- name: 6.72| 日本03
   server: v1cm03.paofu.biz
   port: 1055
   type: ssr
@@ -175,18 +130,7 @@ proxies:
   protocol-param: 141638:8G0Rbp
   obfs-param: 6c555141638.microsoft.com
   udp: true
-- name: 4.23| HK
-  server: dg-hk-node02.linkthink.app
-  port: 12784
-  type: ssr
-  cipher: aes-256-cfb
-  password: e5opjuLDEQ
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 226511:uJR7EH1fVU
-  obfs-param: ''
-  udp: true
-- name: 3.15| CTCM HKBN B
+- name: 5.64| CTCM HKBN B
   server: shonlinesandcu02.proconcn.xyz
   port: 561
   type: ssr
@@ -197,17 +141,95 @@ proxies:
   protocol-param: 7995:202111520
   obfs-param: ''
   udp: true
-- name: 1.97| 香港 1
-  server: 183.232.170.112
-  port: 22779
+- name: 5.30| 日本04
+  server: v1cm04.paofu.biz
+  port: 1055
   type: ssr
   cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
+  udp: true
+- name: 4.56| 香港 VIP节点HKBN 1G
+  server: gz1.52168.xyz
+  port: 1113
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.23| 香港 2
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 3.88| 台湾04
+  server: v1cm01.paofu.biz
+  port: 1070
+  type: ssr
+  cipher: chacha20-ietf
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
+  udp: true
+- name: 3.07| CTCM HKBN C
+  server: cncusouth.procncon.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:202111520
+  obfs-param: ''
+  udp: true
+- name: 2.94| 台湾 A
+  server: cstwrelay.onlineto.xyz
+  port: 560
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:202111520
+  obfs-param: ''
+  udp: true
+- name: 2.06| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10704
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227003:iawnbjGNuv
+  obfs-param: ''
+  udp: true
+- name: 1.95| 日本02
+  server: v1cm02.paofu.biz
+  port: 1055
+  type: ssr
+  cipher: chacha20-ietf
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
+  udp: true
+- name: 1.57| CTCM HKT H
+  server: shonlinecu.proconcn.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:202111520
+  obfs-param: ''
+  udp: true
+- name: 1.50| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -217,3 +239,25 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
+- name: 1.28| 香港 VIP节点HKT1 500MB
+  server: gz1.52168.xyz
+  port: 1112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 1.02| CTCM HKT B
+  server: cncusouth.procncon.xyz
+  port: 560
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:202111520
+  obfs-param: ''
+  udp: true
