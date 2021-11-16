@@ -1,11 +1,39 @@
 proxies:
-- name: 2.42| 罗马尼亚HiPDA 奈飞分舵
-  server: 185.124.240.146
-  port: 45329
+- name: 2.87| 美国 01
+  server: ns1.api.xtoml.com
+  port: 2240
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
+- name: 2.81| 美国 07
+  server: ns1.api.xtoml.com
+  port: 9944
   type: ss
   cipher: aes-256-gcm
-  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
-- name: 2.25|trojan
+  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
+- name: 2.79| 美国 05
+  server: ns1.api.xtoml.com
+  port: 6666
+  type: ss
+  cipher: aes-256-gcm
+  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
+- name: 2.64| 美国 06
+  server: ns1.api.xtoml.com
+  port: 9933
+  type: ss
+  cipher: aes-128-gcm
+  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
+- name: 2.63| 美国 免费节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+- name: 2.55|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -14,61 +42,33 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.88|Time VPN USA  Chicago
-  server: 37.1.210.145
-  port: 13724
+- name: 2.05| 美国 04
+  server: ns1.api.xtoml.com
+  port: 6444
   type: ss
+  cipher: aes-256-gcm
+  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
+- name: 1.85| 美国 VIP节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1110
+  type: ssr
   cipher: aes-256-cfb
-  password: 5ewqSLt
-- name: 1.81|US13265
-  server: 72.167.33.106
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+- name: 1.58|07
+  server: 213.174.130.130
+  type: ss
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+- name: 1.09|US430
+  server: santa-clara1.tencentlink.icu
   type: trojan
   country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  port: 20000
+  password: e438cc34-21de-497f-89a5-4e181cf50d72
   skip-cert-verify: true
   udp: true
-- name: 1.38| 美国HiPDA 奈飞分舵 33
-  server: 138.199.42.170
-  port: 38747
-  type: ss
-  cipher: aes-256-gcm
-  password: RtbLkxbJZpUQ6m8y4qAeLYZj
-- cipher: aes-256-gcm
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
-  name: 1.30|美国佛罗里达0ss198147228740093
-  server: 198.147.22.87
-  type: ss
-  port: 40093
-- name: 1.28|1381994217044236
-  server: 138.199.42.170
-  port: 44236
-  type: ss
-  cipher: aes-256-gcm
-  password: FWrXcxPZjJxAN89xLgqY3Acp
-- name: 1.19| 美国HiPDA 奈飞分舵 34
-  server: 198.147.22.87
-  port: 31572
-  type: ss
-  cipher: aes-256-gcm
-  password: n8w4StnbVD9dmXYn4Ajt87EA
-- name: 1.17| 美国HiPDA 奈飞分舵
-  server: 198.147.22.87
-  port: 33992
-  type: ss
-  cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-- name: 1.03|ZZ3715
-  server: 138.199.42.170
-  type: ss
-  country: ZZ
-  port: 48089
-  password: apqQgXJyVDsdJMAYV4xspRFK
-  cipher: aes-256-gcm
-- name: 1.01|PoolUS2763
-  server: 198.147.22.87
-  type: ss
-  country: US
-  port: 33998
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
-  cipher: aes-256-gcm
