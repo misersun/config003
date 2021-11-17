@@ -1,39 +1,5 @@
 proxies:
-- name: 2.87| 美国 01
-  server: ns1.api.xtoml.com
-  port: 2240
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
-- name: 2.81| 美国 07
-  server: ns1.api.xtoml.com
-  port: 9944
-  type: ss
-  cipher: aes-256-gcm
-  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
-- name: 2.79| 美国 05
-  server: ns1.api.xtoml.com
-  port: 6666
-  type: ss
-  cipher: aes-256-gcm
-  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
-- name: 2.64| 美国 06
-  server: ns1.api.xtoml.com
-  port: 9933
-  type: ss
-  cipher: aes-128-gcm
-  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
-- name: 2.63| 美国 免费节点洛杉矶
-  server: gz1.52168.xyz
-  port: 1109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-- name: 2.55|trojan
+- name: 2.10|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -42,33 +8,47 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.05| 美国 04
-  server: ns1.api.xtoml.com
-  port: 6444
-  type: ss
-  cipher: aes-256-gcm
-  password: 5a6fdf3d-c279-4522-b929-ced31cd96bbe
-- name: 1.85| 美国 VIP节点洛杉矶
-  server: gz1.52168.xyz
-  port: 1110
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-- name: 1.58|07
-  server: 213.174.130.130
-  type: ss
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: 1.09|US430
-  server: santa-clara1.tencentlink.icu
+- name: 1.87|US560
+  server: 72.167.33.106
   type: trojan
   country: US
-  port: 20000
-  password: e438cc34-21de-497f-89a5-4e181cf50d72
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 1.68|US12861
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.39|Time VPN USA  Chicago
+  server: 37.1.210.145
+  port: 13724
+  type: ss
+  cipher: aes-256-cfb
+  password: 5ewqSLt
+- name: 1.25|1381994217044236
+  server: 138.199.42.170
+  port: 44236
+  type: ss
+  cipher: aes-256-gcm
+  password: FWrXcxPZjJxAN89xLgqY3Acp
+- name: 1.11| 新加坡03
+  server: v1cm03.paofu.biz
+  port: 1086
+  type: ssr
+  cipher: chacha20-ietf
+  password: k4o7ct0kl7
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 141638:8G0Rbp
+  obfs-param: 6c555141638.microsoft.com
+- name: 1.10|1381994213449653
+  server: 138.199.42.134
+  port: 49653
+  type: ss
+  cipher: aes-256-gcm
+  password: Y9GcTPemHMKEkrfGQPJqFDNr
