@@ -1,5 +1,5 @@
 proxies:
-- name: 3.75|HK3997 1040Mb
+- name: 3.57|HK3960
   server: azhk.alink123.com
   type: trojan
   country: HK
@@ -7,11 +7,11 @@ proxies:
   password: 765040cb-15f4-43da-9e07-4b92c767d222
   skip-cert-verify: true
   udp: true
-- name: 2.67|505
-  server: 64.32.7.155
+- name: 2.56|503
+  server: 170.178.172.74
   port: 443
   type: vmess
-  uuid: 979e9170-08df-4712-aa99-3d1037e0fb5d
+  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
   alterId: 64
   cipher: auto
   tls: true
@@ -19,8 +19,20 @@ proxies:
   network: ws
   ws-path: /path/020724193005
   ws-headers:
-    Host: www.65370497.xyz
-- name: 2.14| 美国HiPDA 奈飞分舵 4
+    Host: www.12163699.xyz
+- name: 2.49| RelayHK  757Mb
+  server: gonyi2.baiyun.pw
+  port: 837
+  type: vmess
+  uuid: 86532720-1947-35aa-984e-f9e30c889a38
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 1.baiyun.pw
+- name: 2.19| 美国HiPDA 奈飞分舵 4
   server: 520yyds.zhqt.xyz
   port: 50092
   type: vmess
@@ -33,7 +45,19 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 135.zhqt.xyz
-- name: 1.65|RO7219
+- name: 1.67|RelayGB  200Mb
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.57|RO7105
   server: 185.105.191.92
   type: trojan
   country: RO
@@ -41,19 +65,11 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.64|RO2059
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.61|504
-  server: 64.32.7.154
+- name: 1.57|519
+  server: 173.82.51.121
   port: 443
   type: vmess
-  uuid: 979e9170-08df-4712-aa99-3d1037e0fb5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
   tls: true
@@ -61,20 +77,25 @@ proxies:
   network: ws
   ws-path: /path/020724193005
   ws-headers:
-    Host: www.65370497.xyz
-- name: 1.51|Relay 1065Mb
-  server: us2.futi.online
-  port: 2063
-  type: vmess
-  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us2.futi.online
-- name: 1.51|卢森堡HiPDA 奈飞分舵
+    Host: www.39613440.xyz
+- name: 1.53|DE2695 3703Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.41|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.41|卢森堡HiPDA 奈飞分舵
   server: 520yyds.zhqt.xyz
   port: 50090
   type: vmess
@@ -87,41 +108,11 @@ proxies:
   ws-path: /
   ws-headers:
     Host: free-3.joker007.top
-- name: 1.36|DE2744 4954Mb
-  server: 5.183.179.138
+- name: 1.40|US560
+  server: 72.167.33.106
   type: trojan
-  country: DE
+  country: US
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.31|YouTube由零开始
-  server: 46.182.107.92
-  port: 443
-  type: vmess
-  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.15770282.xyz
-- name: 1.04|RelayAUDE235
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
