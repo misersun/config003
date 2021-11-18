@@ -1,13 +1,12 @@
 proxies:
-- name: 3.57|HK3960
+- name: 3.74|US122
   server: azhk.alink123.com
-  type: trojan
-  country: HK
   port: 11045
+  type: trojan
   password: 765040cb-15f4-43da-9e07-4b92c767d222
   skip-cert-verify: true
   udp: true
-- name: 2.56|503
+- name: 2.43|503
   server: 170.178.172.74
   port: 443
   type: vmess
@@ -20,73 +19,15 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.12163699.xyz
-- name: 2.49| RelayHK  757Mb
-  server: gonyi2.baiyun.pw
-  port: 837
-  type: vmess
-  uuid: 86532720-1947-35aa-984e-f9e30c889a38
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 1.baiyun.pw
-- name: 2.19| 美国HiPDA 奈飞分舵 4
-  server: 520yyds.zhqt.xyz
-  port: 50092
-  type: vmess
-  uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 135.zhqt.xyz
-- name: 1.67|RelayGB  200Mb
-  server: us1nhg-node.aiqiche123.com
-  port: 13723
-  type: vmess
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: ray
-  ws-headers:
-    Host: us1nhg-node.aiqiche123.com
-- name: 1.57|RO7105
-  server: 185.105.191.92
+- name: 1.91|RO1958
+  server: 62.216.92.179
   type: trojan
   country: RO
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.57|519
-  server: 173.82.51.121
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/020724193005
-  ws-headers:
-    Host: www.39613440.xyz
-- name: 1.53|DE2695 3703Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.41|trojan
+- name: 1.80|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -95,24 +36,35 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.41|卢森堡HiPDA 奈飞分舵
-  server: 520yyds.zhqt.xyz
-  port: 50090
-  type: vmess
-  uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: free-3.joker007.top
-- name: 1.40|US560
-  server: 72.167.33.106
+- name: 1.67|DE827
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.61|RO1961
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.57|RO1959
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.35|US3238
+  server: 72.167.45.6
   type: trojan
   country: US
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
