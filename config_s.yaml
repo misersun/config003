@@ -1,12 +1,90 @@
 proxies:
-- name: 3.74|US122
+- name: 7.24|Relay 1127Mb
+  server: hk2.racernet.link
+  port: 443
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /racernet
+  ws-headers:
+    Host: hk2.racernet.link
+- name: 6.21|Relay 3548Mb
+  server: hk5.racernet.link
+  port: 443
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /racernet
+  ws-headers:
+    Host: hk5.racernet.link
+- name: 4.99|Relay 1365Mb
+  server: cmgz1.racernet.link
+  port: 1443
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
+- name: 4.41| RelayCNJP1644 1588Mb
+  server: lb-ctsh1.racernet.link
+  port: 22080
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ct/sh2/jp2
+  ws-headers:
+    Host: lb-ctsh1.racernet.link
+- name: 4.37|RelayHKUS1374
   server: azhk.alink123.com
-  port: 11045
   type: trojan
+  country: HK
+  port: 11045
   password: 765040cb-15f4-43da-9e07-4b92c767d222
   skip-cert-verify: true
   udp: true
-- name: 2.43|503
+- name: 2.78|RelayUSUS3449
+  server: azhk.alink123.com
+  type: trojan
+  country: US
+  port: 444
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  skip-cert-verify: true
+  udp: true
+- name: 2.67|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.49|永久维护备用机子别挤 ZR公益
+  server: zzr.zzzr.ltd
+  port: 2053
+  type: vmess
+  uuid: a737264c-2bea-11ec-83c0-414353016dec
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /8qgBdhe3/
+  ws-headers:
+    Host: zzr.zzzr.ltd
+- name: 2.31|503
   server: 170.178.172.74
   port: 443
   type: vmess
@@ -19,7 +97,27 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.12163699.xyz
-- name: 1.91|RO1958
+- name: 2.31|RelayUSUS3441
+  server: azhk.alink123.com
+  type: trojan
+  country: US
+  port: 447
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  skip-cert-verify: true
+  udp: true
+- name: 2.20|Relay 5208Mb
+  server: jp1.racernet.link
+  port: 443
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /rhwsqaul
+  ws-headers:
+    Host: jp1.racernet.link
+- name: 2.08|RO2136
   server: 62.216.92.179
   type: trojan
   country: RO
@@ -27,32 +125,35 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.80|trojan
+- name: 1.98|Relay 2076Mb
+  server: ctsh1.racernet.link
+  port: 22080
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ctsh1de1
+  ws-headers:
+    Host: ctsh1.racernet.link
+- name: 1.98|US3534
+  server: 72.167.33.106
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.67|DE827
-  server: 5.183.179.138
-  type: trojan
-  country: DE
+  country: US
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.61|RO1961
-  server: 185.126.116.235
+- name: 1.88|NL1853
+  server: 185.171.120.144
   type: trojan
-  country: RO
+  country: NL
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.57|RO1959
+- name: 1.88|RO2132
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -60,7 +161,23 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.35|US3238
+- name: 1.86|RelayUSUS370
+  server: usa-server-02.selfupay.com
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.79|NL137
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.74|US3533
   server: 72.167.45.6
   type: trojan
   country: US
@@ -68,3 +185,137 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
+- name: 1.73|RelayUSUS3480
+  server: uk2.alink.qchwnd.moe
+  type: trojan
+  country: US
+  port: 10184
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  skip-cert-verify: true
+  udp: true
+- name: 1.70|RO7166 4521Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.68|RO2135
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.64|RelayAUDE246
+  server: 1.0.0.0
+  type: vmess
+  country: AU
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.58| 美国YouTube资源分享者
+  server: 213.59.118.169
+  port: 443
+  type: vmess
+  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /9auVq7xCL7
+  ws-headers:
+    Host: dp.5599.buzz
+- name: 1.52|DE928
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.49| US444
+  server: 104.16.98.249
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.40|GB1330
+  server: 109.74.194.189
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.29|SG2204
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.29| 新加坡  公益  Anycast
+  server: apn-pw.connect-node.xyz
+  port: 8443
+  type: vmess
+  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /web
+  ws-headers:
+    Host: pw-sg.connect-node.xyz
+  udp: true
+- name: 1.11| 美国Youtube技术分享室整理
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.06|HK1372
+  server: 103.138.75.235
+  type: vmess
+  country: HK
+  port: 443
+  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /clientarea
+  servername: 103.138.75.235
+  ws-headers:
+    HOST: 103.138.75.235
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
