@@ -1,25 +1,15 @@
 proxies:
-- name: 11.84| 香港 01 2
-  server: dg-hk-node01.linkthink.app
-  port: 10081
+- name: 8.22| 基礎台湾遊戲01
+  server: 35.185.138.59
+  port: 6666
   type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 246070:2pfvHzKIct
-  obfs-param: ''
-- name: 10.63| 香港 01
-  server: dg-hk-node01.linkthink.app
-  port: 10402
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 230850:b2i61FqJsR
-  obfs-param: ''
-- name: 7.88| 基礎香港遊戲02
+  cipher: chacha20-ietf
+  password: kuaizai
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 65:ZffdsL
+  obfs-param: 42bf265.microsoft.com
+- name: 7.87| 基礎香港遊戲02
   server: 101.32.35.155
   port: 6666
   type: ssr
@@ -29,46 +19,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 65:ZffdsL
   obfs-param: 42bf265.microsoft.com
-- name: 7.43|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 5.57| JP05HiPDA 奈飞分舵 2
-  server: 185.172.113.85
-  port: 805
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 5.25| 基礎香港遊戲03
-  server: 101.32.47.100
-  port: 6666
-  type: ssr
-  cipher: chacha20-ietf
-  password: kuaizai
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 65:ZffdsL
-  obfs-param: 42bf265.microsoft.com
-- name: 5.08|国内中专127
-  server: tz-yd01.jdxx.xyz
-  port: 35008
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3935:RZVnik
-  obfs-param: 0a03d3935.microsoft.com
-- name: 4.34| JP09HiPDA 奈飞分舵
-  server: 185.172.113.85
-  port: 809
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 4.23| 菲律宾 免费节点马尼拉
+- name: 7.56| 菲律宾 免费节点马尼拉
   server: gz1.52168.xyz
   port: 1101
   type: ssr
@@ -78,256 +29,313 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
   obfs-param: 2f712623.baidu.com
-- name: 3.89| JP04HiPDA 奈飞分舵 4
-  server: 185.172.113.85
-  port: 804
+- name: 7.03|ss
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 3.07| JP03HiPDA 奈飞分舵 3
-  server: 185.172.113.85
-  port: 803
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 5.10| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 5.01| 基礎香港遊戲03
+  server: 101.32.47.100
+  port: 6666
+  type: ssr
+  cipher: chacha20-ietf
+  password: kuaizai
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 65:ZffdsL
+  obfs-param: 42bf265.microsoft.com
+- name: 2.91|RelayCNIN190
+  server: cu.newhost.cc
+  type: ssr
+  country: CN
+  port: 10693
+  password: TuXJdt
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 4647:thd4vu
+  obfs: tls1.2_ticket_auth
+  obfs-param: .microsoft.com
+- name: 2.69| 美国 免费节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+- name: 2.61| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 1.92|CA82HiPDA 奈飞分舵
+  server: 37.19.211.113
+  port: 39171
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 2.20| JP10HiPDA 奈飞分舵 3
-  server: 185.172.113.85
-  port: 810
+  cipher: aes-256-gcm
+  password: z4pM2gA9QEEC6NRmqTQubm6Z
+- name: 1.90|CA19HiPDA 奈飞分舵 3
+  server: 37.19.211.70
+  port: 38033
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 2.00|Time VPN USA  Chicago
+  cipher: aes-256-gcm
+  password: xpQwyV4W5FdA6NMANJJx73US
+- name: 1.90|CA65HiPDA 奈飞分舵 2
+  server: 37.19.211.93
+  port: 49396
+  type: ss
+  cipher: aes-256-gcm
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- name: 1.90|CA26HiPDA 奈飞分舵 2
+  server: 37.19.211.115
+  port: 40093
+  type: ss
+  cipher: aes-256-gcm
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+- name: 1.89|Time VPN USA  Chicago
   server: 37.1.210.145
   port: 13724
   type: ss
   cipher: aes-256-cfb
   password: 5ewqSLt
-- name: 1.99|SG2166
-  server: 43.249.39.154
-  type: ss
-  country: SG
-  port: 18335
-  password: T3YS0aCp8C5jgA736D834yCDaROEOezAyDqISBl39KSepnuZYN2FRwxlxcXFZa
-  cipher: chacha20-ietf-poly1305
-- name: 1.91|CA24HiPDA 奈飞分舵 4
-  server: 37.19.211.28
-  port: 39720
+- name: 1.85|CA28HiPDA 奈飞分舵
+  server: 37.19.211.40
+  port: 40282
   type: ss
   cipher: aes-256-gcm
-  password: kq8xQKC3K4jYQPwLXTNbJjm6
-- name: 1.88|CA56HiPDA 奈飞分舵 2
-  server: 37.19.211.110
-  port: 47553
+  password: Pvvaw486867D2w4yctL2ULTQ
+- name: 1.84|CA50HiPDA 奈飞分舵
+  server: 37.19.211.93
+  port: 46354
   type: ss
   cipher: aes-256-gcm
+  password: MYPKdC7n6qjL6xmJBBcrzzqS
+- name: 1.84|CA28HiPDA 奈飞分舵 3
+  server: 37.19.211.138
+  port: 40282
+  type: ss
+  cipher: aes-256-gcm
+  password: Pvvaw486867D2w4yctL2ULTQ
+- name: 1.83|
+  server: 66.115.182.68
+  type: ss
+  country: US
+  port: 33992
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  cipher: aes-256-gcm
+- type: ss
+  server: 82.102.16.102
   password: t2JnnFqjDMmzWurseJPgBsYY
-- name: 1.84| CA49
-  server: 208.78.41.195
-  type: ss
-  country: ' CA'
-  port: 49396
-  password: BdRWC38L5JUDMTYNNxJGcUwB
+  port: 47553
   cipher: aes-256-gcm
-- name: 1.81|CA78HiPDA 奈飞分舵
-  server: 37.19.211.85
-  port: 31216
-  type: ss
-  cipher: aes-256-gcm
-  password: wJwXatAGZ8xX5K8C7mruf84x
-- name: 1.81|PoolSK2219
-  server: 185.76.8.215
-  type: ss
-  country: SK
-  port: 37588
-  password: kD9vkjnE6dsUzwQfvKkPkQAd
-  cipher: aes-256-gcm
-- name: 1.78| US67HiPDA 奈飞分舵
-  server: 138.199.42.136
-  port: 49514
-  type: ss
-  cipher: aes-256-gcm
-  password: dpGjA4GkzV28QPDYzEp94cTe
-- name: 1.75| SE19HiPDA 奈飞分舵
-  server: 185.76.9.56
-  port: 38033
-  type: ss
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-- name: 1.75|CA66HiPDA 奈飞分舵
+  name: 1.83|德国法兰克福法兰克福ss821021610247553
+- name: 1.81|CA66HiPDA 奈飞分舵
   server: 37.19.211.43
   port: 49468
   type: ss
   cipher: aes-256-gcm
   password: LsYSQDxmPj9AcWpSX5HrYfu6
-- name: 1.74| JP06HiPDA 奈飞分舵 3
-  server: 185.172.113.85
-  port: 806
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 1.72|CA70HiPDA 奈飞分舵
-  server: 37.19.211.25
-  port: 50024
+- name: 1.81|CA19HiPDA 奈飞分舵
+  server: 37.19.211.138
+  port: 38033
   type: ss
   cipher: aes-256-gcm
-  password: b2jDPHUQxCNa2KmGHZjy7C4B
-- name: 1.71|CA29HiPDA 奈飞分舵 2
-  server: 37.19.211.85
-  port: 41372
+  password: xpQwyV4W5FdA6NMANJJx73US
+- name: 1.79|CA27HiPDA 奈飞分舵 2
+  server: 37.19.211.138
+  port: 40220
   type: ss
   cipher: aes-256-gcm
-  password: 5kGAhC3AmVC35GbruHjSrZf2
-- name: 1.71|CA34HiPDA 奈飞分舵
-  server: 37.19.211.63
-  port: 42185
+  password: ugyBkSEFxVEmUYSHyvxmWNj9
+- name: 1.78|CA32HiPDA 奈飞分舵
+  server: 37.19.211.108
+  port: 41992
   type: ss
   cipher: aes-256-gcm
-  password: FaTG4zALZru72gxjgSHQ7Jdh
-- name: 1.69| US75HiPDA 奈飞分舵
-  server: 138.199.42.136
-  port: 50232
-  type: ss
-  cipher: aes-256-gcm
-  password: CjchzpwdSjRtDjezYMwx9BKM
-- name: 1.67|CA72HiPDA 奈飞分舵 2
-  server: 37.19.211.85
-  port: 50181
-  type: ss
-  cipher: aes-256-gcm
-  password: d9adRr9UxymNSysYahMtpFpd
-- name: 1.63| DE04HiPDA 奈飞分舵
-  server: 172.105.251.193
-  port: 3389
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 1.59|CA48HiPDA 奈飞分舵 4
-  server: 37.19.211.75
-  port: 45746
-  type: ss
-  cipher: aes-256-gcm
-  password: wEsFcHCvbL4eJkL4DZQa7RgR
-- name: 1.59|CA17HiPDA 奈飞分舵 3
-  server: 37.19.211.115
-  port: 37559
-  type: ss
-  cipher: aes-256-gcm
-  password: Qbt22F6JsxzFGqcsK5SaR8q3
-- name: 1.59|CA26HiPDA 奈飞分舵 4
+  password: XmQSxDCn5ehpcq6DBYms8FJf
+- name: 1.77|CA26HiPDA 奈飞分舵 4
   server: 37.19.211.88
   port: 40093
   type: ss
   cipher: aes-256-gcm
   password: x23Z4LGkGDkThZ9Kaz4DURQp
-- name: 1.58|CA06HiPDA 奈飞分舵 3
+- name: 1.77|CA59HiPDA 奈飞分舵 3
   server: 37.19.211.78
-  port: 32843
+  port: 48794
   type: ss
   cipher: aes-256-gcm
-  password: G35YSR2LFNEM9bq2dkjmKQRr
-- name: 1.55|CA41HiPDA 奈飞分舵 2
-  server: 37.19.211.85
-  port: 44628
-  type: ss
-  cipher: aes-256-gcm
-  password: VASQbVcukHfdBGmeS9L7Z8TT
-- name: 1.54| JP08HiPDA 奈飞分舵 3
-  server: 185.172.113.85
-  port: 808
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 1.54|CA65HiPDA 奈飞分舵
-  server: 37.19.211.55
-  port: 49396
-  type: ss
-  cipher: aes-256-gcm
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-- name: 1.54| 美国HiPDA 奈飞分舵 4
-  server: 138.199.42.170
-  port: 38747
-  type: ss
-  cipher: aes-256-gcm
-  password: RtbLkxbJZpUQ6m8y4qAeLYZj
-- name: 1.53|CA49HiPDA 奈飞分舵 3
+  password: r9Q3adc3ru9sfBDPEj4yp6U6
+- name: 1.76|CA49HiPDA 奈飞分舵 3
   server: 37.19.211.93
   port: 45948
   type: ss
   cipher: aes-256-gcm
   password: j76EXqJcQhuQTr3EvUf7xaK9
-- name: 1.52| 美国 3
-  server: 198.147.22.87
-  port: 33992
+- name: 1.76|CA48HiPDA 奈飞分舵 2
+  server: 37.19.211.93
+  port: 45746
   type: ss
   cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-- name: 1.52|RO2116
-  server: 62.216.92.179
+  password: wEsFcHCvbL4eJkL4DZQa7RgR
+- name: 1.76|RelayUSUS3489
+  server: t2.ssrsub.com
+  type: trojan
+  country: US
+  port: 11033
+  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|CA64HiPDA 奈飞分舵
+  server: 37.19.211.93
+  port: 49339
+  type: ss
+  cipher: aes-256-gcm
+  password: suucSeVLmt6PQKAP77NtGw9x
+- name: 1.74|CA19HiPDA 奈飞分舵 5
+  server: 37.19.211.75
+  port: 38033
+  type: ss
+  cipher: aes-256-gcm
+  password: xpQwyV4W5FdA6NMANJJx73US
+- name: 1.72| US49HiPDA 奈飞分舵
+  server: 138.199.42.136
+  port: 45948
+  type: ss
+  cipher: aes-256-gcm
+  password: j76EXqJcQhuQTr3EvUf7xaK9
+- name: 1.70|RO2090
+  server: 185.126.116.235
   type: trojan
   country: RO
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.50|CA11HiPDA 奈飞分舵 2
-  server: 37.19.211.65
-  port: 34815
+- name: 1.69|DE792
+  server: 82.102.16.102
+  type: ss
+  country: DE
+  port: 45948
+  password: j76EXqJcQhuQTr3EvUf7xaK9
+  cipher: aes-256-gcm
+- name: 1.69|CA79HiPDA 奈飞分舵
+  server: 37.19.211.70
+  port: 32971
   type: ss
   cipher: aes-256-gcm
-  password: LkFAzkzXkSCRYa2CsRdL8cGb
-- name: 1.47|CA09HiPDA 奈飞分舵
+  password: vwS65ZXyZg85ApwZ2bBh6zFZ
+- name: 1.68|CA67HiPDA 奈飞分舵 2
+  server: 37.19.211.70
+  port: 49514
+  type: ss
+  cipher: aes-256-gcm
+  password: dpGjA4GkzV28QPDYzEp94cTe
+- name: 1.68|Time VPN   stockholm
+  server: 80.67.3.120
+  port: 40503
+  type: ss
+  cipher: aes-256-cfb
+  password: XS4DBE6
+- name: 1.65| githubcomfreefq  罗马尼亚  5
+  server: 89.46.223.242
+  port: 44745
+  type: ss
+  cipher: aes-256-gcm
+  password: fyXdw87yCH9SAmFkPvsvLVqC
+- name: 1.64|CA41HiPDA 奈飞分舵 2
+  server: 37.19.211.85
+  port: 44628
+  type: ss
+  cipher: aes-256-gcm
+  password: VASQbVcukHfdBGmeS9L7Z8TT
+- name: 1.62|CA67HiPDA 奈飞分舵
+  server: 37.19.211.93
+  port: 49514
+  type: ss
+  cipher: aes-256-gcm
+  password: dpGjA4GkzV28QPDYzEp94cTe
+- name: 1.61| NL荷兰
+  server: 89.46.223.79
+  port: 39556
+  type: ss
+  cipher: aes-256-gcm
+  password: g4AfpNELpdYEeLYhM8XCX9se
+- name: 1.58|CA65HiPDA 奈飞分舵
+  server: 37.19.211.55
+  port: 49396
+  type: ss
+  cipher: aes-256-gcm
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- name: 1.58|CA17HiPDA 奈飞分舵 4
+  server: 37.19.211.40
+  port: 37559
+  type: ss
+  cipher: aes-256-gcm
+  password: Qbt22F6JsxzFGqcsK5SaR8q3
+- name: 1.57|CA78HiPDA 奈飞分舵 5
+  server: 37.19.211.113
+  port: 31216
+  type: ss
+  cipher: aes-256-gcm
+  password: wJwXatAGZ8xX5K8C7mruf84x
+- type: ss
+  server: 82.102.16.102
+  password: LJcChRsGQRhywrtXUU55TLTu
+  port: 47861
+  cipher: aes-256-gcm
+  name: 1.55|德国法兰克福法兰克福ss821021610247861
+- name: 1.53|CA09HiPDA 奈飞分舵
   server: 37.19.211.70
   port: 33998
   type: ss
   cipher: aes-256-gcm
   password: NHwQTPLCfaTMSqTnU3mjcSxe
-- name: 1.46|RelayCACA396
-  server: t7.ssrsub.com
-  type: trojan
-  country: CA
-  port: 11033
-  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  skip-cert-verify: true
-  udp: true
-- name: 1.43|CA46HiPDA 奈飞分舵
-  server: 37.19.211.63
-  port: 45291
+- name: 1.53|CA76HiPDA 奈飞分舵
+  server: 37.19.211.43
+  port: 50695
   type: ss
   cipher: aes-256-gcm
-  password: ecfJrNtBZwT748hxJ3ZyzZj2
-- name: 1.41|斯洛伐克011 HiPDA 奈飞分舵
-  server: 185.76.8.218
-  port: 38742
+  password: gqtwGu9bVreJqL3FTHSVKGzy
+- name: 1.53|CA24HiPDA 奈飞分舵 2
+  server: 37.19.211.75
+  port: 39720
   type: ss
   cipher: aes-256-gcm
-  password: DKXfWwc4ebscpXTKpbt85rSH
-- name: 1.41|CA58HiPDA 奈飞分舵
-  server: 37.19.211.83
-  port: 48089
-  type: ss
-  cipher: aes-256-gcm
-  password: apqQgXJyVDsdJMAYV4xspRFK
-- name: 1.40|CA31HiPDA 奈飞分舵
+  password: kq8xQKC3K4jYQPwLXTNbJjm6
+- name: 1.52|CA31HiPDA 奈飞分舵
   server: 37.19.211.40
   port: 41738
   type: ss
   cipher: aes-256-gcm
   password: X6yMGXnfUsuKTvEDYZSLPk4d
-- name: 1.39|CA08HiPDA 奈飞分舵 4
-  server: 37.19.211.28
-  port: 33992
+- name: 1.51|CA57HiPDA 奈飞分舵
+  server: 37.19.211.40
+  port: 47861
   type: ss
   cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-- name: 1.37|CA61HiPDA 奈飞分舵 4
-  server: 37.19.211.110
-  port: 48970
+  password: LJcChRsGQRhywrtXUU55TLTu
+- name: 1.51|CA13HiPDA 奈飞分舵 3
+  server: 37.19.211.80
+  port: 35294
   type: ss
   cipher: aes-256-gcm
-  password: ZKEsXkFbUZ2z667YA8A7cEDP
-- name: 1.35|CA81HiPDA 奈飞分舵
-  server: 37.19.211.70
-  port: 44102
-  type: ss
-  cipher: aes-256-gcm
-  password: zHKYS9DeAjvv43EwgDfyEg4d
+  password: J9Y2ncrdPEC38gwydNFFGBna
