@@ -1,29 +1,48 @@
 proxies:
-- name: 5.49| RelayNLNL5666 3395Mb
-  server: kr3.futi.online
-  port: 2053
+- name: 2.41|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.97| 美国Youtube技术分享室整理
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
   type: vmess
-  uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1
-  alterId: 1
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: ray
   ws-headers:
-    Host: kr3.futi.online
-- name: 4.16| RelayKRKR5302 5842Mb
-  server: kr2.futi.online
-  port: 2063
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.95|503
+  server: 170.178.172.74
+  port: 443
   type: vmess
-  uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1
-  alterId: 1
+  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
+  alterId: 64
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /path/020724193005
   ws-headers:
-    Host: kr2.futi.online
-- name: 2.02| US129
+    Host: www.12163699.xyz
+- name: 1.76|RO2092
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.75| US149
   server: 104.251.233.106
   type: vmess
   country: ' US'
@@ -40,44 +59,29 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.85|DE921
-  server: 5.183.179.138
+- name: 1.68|RelayUSUS3379
+  server: hk1opuy-node.3366test.com
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.66|RO7202 6030Mb
+  server: 185.105.191.92
   type: trojan
-  country: DE
+  country: RO
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.73|503
-  server: 170.178.172.74
-  port: 443
-  type: vmess
-  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /path/020724193005
-  ws-headers:
-    Host: www.12163699.xyz
-- name: 1.70|NL123
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|RelayCACA397
-  server: t6.ssrsub.com
-  type: trojan
-  country: CA
-  port: 11033
-  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  skip-cert-verify: true
-  udp: true
-- name: 1.45|RO2124
+- name: 1.57|RO199
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -85,33 +89,88 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.42|RelayUSDE173 15073Mb
-  server: 104.22.6.49
-  type: vmess
-  country: US
+- name: 1.52|NL1812
+  server: 185.171.120.144
+  type: trojan
+  country: NL
   port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|RO2090
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.44| RelaySGSG3458  247Mb
+  server: ycgyg.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ycgyg.com
+- name: 1.42|RelayCACA388
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 11033
+  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
+  skip-cert-verify: true
+  udp: true
+- name: 1.32|DE929
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.22|RelayRURU2130
+  server: t5.ssrsub.com
+  type: trojan
+  country: RU
+  port: 11033
+  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
+  skip-cert-verify: true
+  udp: true
+- name: 1.14|JP136
+  server: 45.66.134.219
+  type: trojan
+  country: JP
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.07|JP1657
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.00| US151
+  server: 107.182.185.112
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd
+  alterId: 60
   cipher: auto
   network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
+  ws-path: /sadfasf
+  servername: qq13.feiclouddd.me
   ws-headers:
-    HOST: cdnde.irteyz.today
+    HOST: qq13.feiclouddd.me
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.01| 美国YouTube资源分享者
-  server: 213.59.118.169
-  port: 443
-  type: vmess
-  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /9auVq7xCL7
-  ws-headers:
-    Host: dp.5599.buzz
