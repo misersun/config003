@@ -1,15 +1,381 @@
 proxies:
-- name: 1.30| 美国 圣路易斯  公益  Anycast
-  server: apn-pw.connect-node.xyz
-  port: 8443
+- name: 11.56| 香港 01
+  server: dg-hk-node01.linkthink.app
+  port: 10402
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 230850:b2i61FqJsR
+  obfs-param: ''
+- name: 4.81|国内中专127
+  server: tz-yd01.jdxx.xyz
+  port: 35008
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3935:RZVnik
+  obfs-param: 0a03d3935.microsoft.com
+- name: 4.00|AZ转移动0327
+  server: sl201.jdxx.xyz
+  port: 25987
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+- name: 3.66| 广州移动SeoulEC2nfvpnpool 2
+  server: 183.232.226.188
+  port: 63007
   type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
+  uuid: 329b6b96-5c75-3670-b3b7-eb2ad8c8667a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 3.60| 广州移动SeoulEC2nfvpnpool
+  server: 183.232.226.188
+  port: 63008
+  type: vmess
+  uuid: 329b6b96-5c75-3670-b3b7-eb2ad8c8667a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 2.61| 美国 免费节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+- name: 2.06|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.96| CN08
+  server: 47.113.190.48
+  type: vmess
+  country: ' CN'
+  port: 47912
+  uuid: d1f1e8e0-bf5c-4219-8ba4-48de32c50557
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.79|503
+  server: 170.178.172.74
+  port: 443
+  type: vmess
+  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
+  alterId: 64
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /web
+  ws-path: /path/020724193005
   ws-headers:
-    Host: pw-usa.connect-node.xyz
+    Host: www.12163699.xyz
+- name: 1.77| CN17
+  server: server1.sh-cu.exacc.need.sh
+  type: vmess
+  country: ' CN'
+  port: 58190
+  uuid: 3f15492a-54a6-4eda-846b-bdfb049b0a27
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /Y77A2IHP
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.68|
+  server: 129.146.99.5
+  port: 2316
+  type: vmess
+  uuid: f4994d84-d9a1-4b83-9bf7-c2c336351d5c
+  alterId: 71
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.67| 美国欢迎订阅youtube8度科技 2
+  server: cm-jm.okvpn.xyz
+  port: 20004
+  type: vmess
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+- name: 1.52| US 2934Mb
+  server: 66.42.105.136
+  port: 64771
+  type: vmess
+  uuid: a96b3538-4a04-11ec-a8eb-560003b123dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /kMLn2X9J/
+  ws-headers:
+    Host: 66.42.105.136
+- name: 1.47| CN10
+  server: 101.132.173.78
+  type: vmess
+  country: ' CN'
+  port: 41906
+  uuid: e24ac30e-e296-4761-af23-7bda2781ba85
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.43|US166
+  server: 72.167.45.6
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
   udp: true
+- name: 1.37|RelayUSUS390
+  server: 104.16.151.156
+  type: vmess
+  country: US
+  port: 443
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  servername: patient-hill-3b6d.ericwufengcheng8810.workers.dev
+  ws-headers:
+    HOST: patient-hill-3b6d.ericwufengcheng8810.workers.dev
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.36| US 2949Mb
+  server: 66.42.105.136
+  port: 2907
+  type: vmess
+  uuid: a4dbb36c-4a04-11ec-a8eb-560003b123dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /YAKv1Hu8/
+  ws-headers:
+    Host: 66.42.105.136
+- name: 1.35| US1141  952Mb
+  server: 104.21.48.161
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.33|RelayUSUS179
+  server: v1.babazhuji.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: f819ddea-1ba3-49c6-9fd1-120e704f5243
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /baidu
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.32| US1162  954Mb
+  server: 104.22.6.49
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.32| SG154 TGpeekfun
+  server: 81.90.189.85
+  port: 443
+  type: trojan
+  country: ' SG'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.32| httpsgitiov9999 洛杉矶v2ray 2
+  server: 216.105.168.138
+  port: 32354
+  type: vmess
+  uuid: 17367ea8-48d2-11ec-b05e-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.31| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 1.29| US1140  923Mb
+  server: 104.24.64.213
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.29|RelayUSDE3249
+  server: 104.16.181.15
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.26|RelayUSDE3228
+  server: 104.22.3.3
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.26|RO6716 5672Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.22| US1158  887Mb
+  server: 104.16.241.127
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.22| US1139  878Mb
+  server: 104.21.100.150
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.21| 英国欢迎订阅youtube8度科技
+  server: cm-jm.okvpn.xyz
+  port: 20005
+  type: vmess
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+- name: 1.17|RO109
+  server: 185.126.116.235
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.16| 台湾欢迎订阅youtube8度科技
+  server: cm-jm.okvpn.xyz
+  port: 20047
+  type: vmess
+  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+- name: 1.05| 英国 免费节点
+  server: gz2.52168.xyz
+  port: 2102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
