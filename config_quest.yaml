@@ -1,49 +1,29 @@
 proxies:
-- name: 7.47|ss
+- name: 8.40|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 4.83| 香港 01
-  server: dg-hk-node01.linkthink.app
-  port: 10402
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 230850:b2i61FqJsR
-  obfs-param: ''
-- name: 4.83|国内中专127
-  server: tz-yd01.jdxx.xyz
-  port: 35008
+- name: 7.79|网址 httpswwwmgnbjp
+  server: cmhk.sjebo.com.cn
+  port: 33333
+  type: trojan
+  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
+  sni: cmhk.sjebo.com.cn
+  skip-cert-verify: false
+- name: 5.84|AZ转移动0327
+  server: sl201.jdxx.xyz
+  port: 25987
   type: ssr
   cipher: chacha20-ietf
   password: MaOKEa
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-  protocol-param: 3935:RZVnik
-  obfs-param: 0a03d3935.microsoft.com
-- name: 4.00|US175
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  skip-cert-verify: true
-  udp: true
-- name: 2.58| 美国 免费节点洛杉矶
-  server: gz1.52168.xyz
-  port: 1109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-- name: 2.58| 香港 1
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+- name: 3.06| 香港 1
   server: 183.232.170.112
   port: 22779
   type: ssr
@@ -53,279 +33,295 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 1.96|UA6003
-  server: 37.19.211.55
+- name: 2.93|CN14
+  server: gy.b2.nkeo.top
+  port: 45122
+  type: trojan
+  password: 1079739e-fa18-437f-b818-1f3a04fd9911
+  skip-cert-verify: true
+  udp: true
+- name: 2.16|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.02|1436 224Mb
+  server: 101.91.121.247
   type: ss
-  country: UA
-  port: 45948
-  password: j76EXqJcQhuQTr3EvUf7xaK9
+  country: CN
+  port: 50004
+  password: '4415934295'
+  cipher: aes-256-cfb
+- name: 2.00|CA48WangCai1 6
+  server: 37.19.211.113
+  port: 45746
+  type: ss
   cipher: aes-256-gcm
-- name: 1.95|CA28WangCai1 2
+  password: wEsFcHCvbL4eJkL4DZQa7RgR
+- name: 2.00| SG176 TGpeekfun
+  server: 209.58.181.251
+  port: 18334
+  type: ss
+  country: ' SG'
+  password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB
+  cipher: chacha20-ietf-poly1305
+- name: 1.99|CA11WangCai1 3
+  server: 37.19.211.50
+  port: 34815
+  type: ss
+  cipher: aes-256-gcm
+  password: LkFAzkzXkSCRYa2CsRdL8cGb
+- name: 1.96|CA73WangCai1
+  server: 37.19.211.70
+  port: 50168
+  type: ss
+  cipher: aes-256-gcm
+  password: WCuz7yrfZSCQQXSNrtGPz2HT
+- name: 1.95|CA18WangCai1
+  server: 37.19.211.70
+  port: 37588
+  type: ss
+  cipher: aes-256-gcm
+  password: kD9vkjnE6dsUzwQfvKkPkQAd
+- name: 1.95|CA61WangCai1
+  server: 37.19.211.113
+  port: 48970
+  type: ss
+  cipher: aes-256-gcm
+  password: ZKEsXkFbUZ2z667YA8A7cEDP
+- name: 1.95|CA08WangCai1 3
+  server: 37.19.211.85
+  port: 33992
+  type: ss
+  cipher: aes-256-gcm
+  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+- name: 1.94|CA02WangCai1
+  server: 37.19.211.50
+  port: 31757
+  type: ss
+  cipher: aes-256-gcm
+  password: wj7nDCuNARchSeKNCN8VFK62
+- name: 1.94| UA305 TGpeekfun
+  server: 37.19.211.93
+  port: 46354
+  type: ss
+  country: ' UA'
+  password: MYPKdC7n6qjL6xmJBBcrzzqS
+  cipher: aes-256-gcm
+- name: 1.93|CA26WangCai1
   server: 37.19.211.108
-  port: 40282
+  port: 40093
   type: ss
   cipher: aes-256-gcm
-  password: Pvvaw486867D2w4yctL2ULTQ
-- name: 1.93|CA43WangCai1
-  server: 37.19.211.138
-  port: 44745
-  type: ss
-  cipher: aes-256-gcm
-  password: fyXdw87yCH9SAmFkPvsvLVqC
-- name: 1.92|CA06WangCai1 2
-  server: 37.19.211.88
-  port: 32843
-  type: ss
-  cipher: aes-256-gcm
-  password: G35YSR2LFNEM9bq2dkjmKQRr
-- name: 1.90|UA5992
-  server: 37.19.211.55
-  type: ss
-  country: UA
-  port: 45291
-  password: ecfJrNtBZwT748hxJ3ZyzZj2
-  cipher: aes-256-gcm
-- name: 1.89|CA45WangCai1
+  password: x23Z4LGkGDkThZ9Kaz4DURQp
+- name: 1.92|CA45WangCai1
   server: 37.19.211.55
   port: 44945
   type: ss
   cipher: aes-256-gcm
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
-- name: 1.88|UA5994
-  server: 37.19.211.138
-  type: ss
-  country: UA
-  port: 46726
-  password: 2fqKbFPGHpcmMTJzGsUbsfYf
-  cipher: aes-256-gcm
-- name: 1.77|CA67WangCai1 4
-  server: 37.19.211.43
-  port: 49514
+- name: 1.91|CA82WangCai1 2
+  server: 37.19.211.55
+  port: 39171
   type: ss
   cipher: aes-256-gcm
-  password: dpGjA4GkzV28QPDYzEp94cTe
-- name: 1.74|CA48WangCai1
-  server: 37.19.211.85
-  port: 45746
+  password: z4pM2gA9QEEC6NRmqTQubm6Z
+- name: 1.91|CA59WangCai1 2
+  server: 37.19.211.50
+  port: 48794
   type: ss
   cipher: aes-256-gcm
-  password: wEsFcHCvbL4eJkL4DZQa7RgR
-- name: 1.73|CA53WangCai1
-  server: 37.19.211.78
-  port: 46726
-  type: ss
-  cipher: aes-256-gcm
-  password: 2fqKbFPGHpcmMTJzGsUbsfYf
-- name: 1.70|CA27WangCai1
-  server: 37.19.211.138
-  port: 40220
-  type: ss
-  cipher: aes-256-gcm
-  password: ugyBkSEFxVEmUYSHyvxmWNj9
-- name: 1.62|CA64WangCai1 2
-  server: 37.19.211.43
-  port: 49339
-  type: ss
-  cipher: aes-256-gcm
-  password: suucSeVLmt6PQKAP77NtGw9x
-- name: 1.52|CA58WangCai1
-  server: 37.19.211.83
-  port: 48089
-  type: ss
-  cipher: aes-256-gcm
-  password: apqQgXJyVDsdJMAYV4xspRFK
-- name: 1.44| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.43|CA49WangCai1 2
-  server: 37.19.211.93
-  port: 45948
-  type: ss
-  cipher: aes-256-gcm
-  password: j76EXqJcQhuQTr3EvUf7xaK9
-- name: 1.42|CA31WangCai1 5
-  server: 37.19.211.113
-  port: 41738
-  type: ss
-  cipher: aes-256-gcm
-  password: X6yMGXnfUsuKTvEDYZSLPk4d
-- name: 1.42|CA47WangCai1
-  server: 37.19.211.120
-  port: 45329
-  type: ss
-  cipher: aes-256-gcm
-  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
-- name: 1.42|CA27WangCai1 2
-  server: 37.19.211.110
-  port: 40220
-  type: ss
-  cipher: aes-256-gcm
-  password: ugyBkSEFxVEmUYSHyvxmWNj9
-- name: 1.40|CA25WangCai1 2
-  server: 37.19.211.60
-  port: 39772
-  type: ss
-  cipher: aes-256-gcm
-  password: CUndSZnYsPKcu6Kj8THVMBHD
-- name: 1.38|UA6176
-  server: 37.19.211.75
-  type: ss
-  country: UA
-  port: 46726
-  password: 2fqKbFPGHpcmMTJzGsUbsfYf
-  cipher: aes-256-gcm
-- name: 1.37|CA14WangCai1 2
-  server: 37.19.211.113
-  port: 35371
-  type: ss
-  cipher: aes-256-gcm
-  password: pjeDhAJGuML8xKUxcjRqq6a9
-- name: 1.36|CA70WangCai1 2
+  password: r9Q3adc3ru9sfBDPEj4yp6U6
+- name: 1.90|CA70WangCai1 2
   server: 37.19.211.108
   port: 50024
   type: ss
   cipher: aes-256-gcm
   password: b2jDPHUQxCNa2KmGHZjy7C4B
-- name: 1.34|CA36WangCai1
+- name: 1.89|CA33WangCai1 2
   server: 37.19.211.108
-  port: 42816
+  port: 42166
   type: ss
   cipher: aes-256-gcm
-  password: tBKBf4pVzNCFKdbPgvwrNXq3
-- name: 1.31|CA07WangCai1
+  password: H9Dbn3szZMqLR3NpgEFEPCKb
+- name: 1.89|CA24WangCai1 2
   server: 37.19.211.75
-  port: 33148
+  port: 39720
   type: ss
   cipher: aes-256-gcm
-  password: CMduaFXddcQbwNAAs7xFDnc8
-- name: 1.31|CA19WangCai1 5
-  server: 37.19.211.75
-  port: 38033
+  password: kq8xQKC3K4jYQPwLXTNbJjm6
+- name: 1.88|CA51WangCai1 2
+  server: 37.19.211.138
+  port: 46412
   type: ss
   cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-- name: 1.29| DE89 TGpeekfun
-  server: 82.102.16.102
-  port: 46354
+  password: GEqk9WGyybeyXW97YEdanDYs
+- name: 1.88| UA249 TGpeekfun
+  server: 37.19.211.40
+  port: 47861
   type: ss
-  country: ' DE'
-  password: MYPKdC7n6qjL6xmJBBcrzzqS
+  country: ' UA'
+  password: LJcChRsGQRhywrtXUU55TLTu
   cipher: aes-256-gcm
-- name: 1.28|CA44WangCai1 2
-  server: 37.19.211.60
-  port: 44820
+- name: 1.87|UA7328
+  server: 37.19.211.88
   type: ss
-  cipher: aes-256-gcm
-  password: jspgz9G3VmvBMCgMUWLBaZHu
-- name: 1.24|CA76WangCai1
-  server: 37.19.211.43
+  country: UA
   port: 50695
-  type: ss
-  cipher: aes-256-gcm
   password: gqtwGu9bVreJqL3FTHSVKGzy
-- name: 1.24|ZZ10547
-  server: 138.199.42.142
-  type: ss
-  country: ZZ
-  port: 47553
-  password: t2JnnFqjDMmzWurseJPgBsYY
   cipher: aes-256-gcm
-- name: 1.23|CYL科技20211117
-  server: 84.17.58.162
-  port: 33992
-  type: ss
-  cipher: aes-256-gcm
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-- name: 1.23|CA67WangCai1
-  server: 37.19.211.93
+- name: 1.87|CA67WangCai1 4
+  server: 37.19.211.43
   port: 49514
   type: ss
   cipher: aes-256-gcm
   password: dpGjA4GkzV28QPDYzEp94cTe
-- name: 1.22|CA19WangCai1 3
-  server: 37.19.211.70
-  port: 38033
-  type: ss
-  cipher: aes-256-gcm
-  password: xpQwyV4W5FdA6NMANJJx73US
-- name: 1.19|CA65WangCai1 2
-  server: 37.19.211.55
-  port: 49396
-  type: ss
-  cipher: aes-256-gcm
-  password: BdRWC38L5JUDMTYNNxJGcUwB
-- name: 1.18|UA6164
+- name: 1.87|CA12WangCai1
   server: 37.19.211.40
-  type: ss
-  country: UA
-  port: 44102
-  password: zHKYS9DeAjvv43EwgDfyEg4d
-  cipher: aes-256-gcm
-- name: 1.15|UA5977
-  server: 37.19.211.40
-  type: ss
-  country: UA
-  port: 41676
-  password: z6pH3RyttkRWhJ5tpRyt6dYk
-  cipher: aes-256-gcm
-- name: 1.14|CA09WangCai1 3
-  server: 37.19.211.120
-  port: 33998
+  port: 35200
   type: ss
   cipher: aes-256-gcm
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
-- name: 1.13|CA17WangCai1 4
-  server: 37.19.211.40
-  port: 37559
+  password: WBLAbN6AwtV5avBx73hFRLB3
+- name: 1.87|CA33WangCai1
+  server: 37.19.211.75
+  port: 42166
   type: ss
   cipher: aes-256-gcm
-  password: Qbt22F6JsxzFGqcsK5SaR8q3
-- name: 1.13|CA01WangCai1
+  password: H9Dbn3szZMqLR3NpgEFEPCKb
+- name: 1.87|CA01WangCai1
   server: 37.19.211.65
   port: 31572
   type: ss
   cipher: aes-256-gcm
   password: n8w4StnbVD9dmXYn4Ajt87EA
-- name: 1.10|CA17WangCai1 2
-  server: 37.19.211.28
-  port: 37559
-  type: ss
-  cipher: aes-256-gcm
-  password: Qbt22F6JsxzFGqcsK5SaR8q3
-- name: 1.10|CA13WangCai1 3
-  server: 37.19.211.80
-  port: 35294
-  type: ss
-  cipher: aes-256-gcm
-  password: J9Y2ncrdPEC38gwydNFFGBna
-- name: 1.07| US67WangCai1
-  server: 138.199.42.136
-  port: 49514
-  type: ss
-  cipher: aes-256-gcm
-  password: dpGjA4GkzV28QPDYzEp94cTe
-- name: 1.06|CA46WangCai1 2
-  server: 37.19.211.60
-  port: 45291
-  type: ss
-  cipher: aes-256-gcm
-  password: ecfJrNtBZwT748hxJ3ZyzZj2
-- name: 1.05|CA31WangCai1
-  server: 37.19.211.40
-  port: 41738
-  type: ss
-  cipher: aes-256-gcm
-  password: X6yMGXnfUsuKTvEDYZSLPk4d
-- name: 1.03|CA49WangCai1 3
+- name: 1.86|CA10WangCai1
   server: 37.19.211.120
+  port: 34687
+  type: ss
+  cipher: aes-256-gcm
+  password: txmK9WhwP6WPhP7hqSBLVxpN
+- name: 1.86|CA07WangCai1
+  server: 37.19.211.75
+  port: 33148
+  type: ss
+  cipher: aes-256-gcm
+  password: CMduaFXddcQbwNAAs7xFDnc8
+- name: 1.85| UA138
+  server: 37.19.211.88
+  type: ss
+  country: ' UA'
+  port: 50181
+  password: d9adRr9UxymNSysYahMtpFpd
+  cipher: aes-256-gcm
+- name: 1.85| 202Mb
+  server: 134.195.196.219
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.85|CA49WangCai1 4
+  server: 37.19.211.60
   port: 45948
   type: ss
   cipher: aes-256-gcm
   password: j76EXqJcQhuQTr3EvUf7xaK9
+- name: 1.84|CA51WangCai1
+  server: 37.19.211.55
+  port: 46412
+  type: ss
+  cipher: aes-256-gcm
+  password: GEqk9WGyybeyXW97YEdanDYs
+- name: 1.84| UA277
+  server: 37.19.211.75
+  type: ss
+  country: ' UA'
+  port: 46726
+  password: 2fqKbFPGHpcmMTJzGsUbsfYf
+  cipher: aes-256-gcm
+- name: 1.84|NL103
+  server: 185.171.120.144
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.83|CA58WangCai1 3
+  server: 37.19.211.78
+  port: 48089
+  type: ss
+  cipher: aes-256-gcm
+  password: apqQgXJyVDsdJMAYV4xspRFK
+- name: 1.82|CA48WangCai1 4
+  server: 37.19.211.75
+  port: 45746
+  type: ss
+  cipher: aes-256-gcm
+  password: wEsFcHCvbL4eJkL4DZQa7RgR
+- name: 1.81|CA47WangCai1
+  server: 37.19.211.120
+  port: 45329
+  type: ss
+  cipher: aes-256-gcm
+  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
+- name: 1.81| 192Mb
+  server: 134.195.196.219
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.79|CA36WangCai1
+  server: 37.19.211.108
+  port: 42816
+  type: ss
+  cipher: aes-256-gcm
+  password: tBKBf4pVzNCFKdbPgvwrNXq3
+- name: 1.79|RO114
+  server: 62.216.92.179
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.78|CA41WangCai1 2
+  server: 37.19.211.85
+  port: 44628
+  type: ss
+  cipher: aes-256-gcm
+  password: VASQbVcukHfdBGmeS9L7Z8TT
+- name: 1.78|CA30WangCai1
+  server: 37.19.211.75
+  port: 41676
+  type: ss
+  cipher: aes-256-gcm
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
+- name: 1.78|CA79WangCai1 2
+  server: 37.19.211.50
+  port: 32971
+  type: ss
+  cipher: aes-256-gcm
+  password: vwS65ZXyZg85ApwZ2bBh6zFZ
+- name: 1.76|CA78WangCai1 5
+  server: 37.19.211.113
+  port: 31216
+  type: ss
+  cipher: aes-256-gcm
+  password: wJwXatAGZ8xX5K8C7mruf84x
+- name: 1.76|SE6044
+  server: 185.76.9.56
+  type: ss
+  country: SE
+  port: 50232
+  password: CjchzpwdSjRtDjezYMwx9BKM
+  cipher: aes-256-gcm
+- name: 1.76|CA83WangCai1
+  server: 37.19.211.65
+  port: 41306
+  type: ss
+  cipher: aes-256-gcm
+  password: pzB5Y2twNtqFzWhEbBsPJMjj
