@@ -1,18 +1,5 @@
 proxies:
-- name: 3.99|CN18
-  server: gy.b2.nkeo.top
-  port: 45122
-  type: trojan
-  password: 1079739e-fa18-437f-b818-1f3a04fd9911
-  skip-cert-verify: true
-  udp: true
-- name: 2.96| 美国 Youtube频道工具大师 5
-  server: 154.17.2.109
-  port: 18335
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: B7wYOKgFl0YDIF3aOeCRl93eaSSa2pnzqZASDuxy4CN35CZpXAyjT6DEc8x38R
-- name: 2.33|trojan
+- name: 1.70|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -21,30 +8,38 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.25| 美国 Youtube频道工具大师 4
-  server: 154.17.2.94
-  port: 18335
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pAYSRy4Y8w5aST72CzNRayDeESlOBAxZnKD0363g39xFDuCqal8IcZep3OXjFC
-- name: 1.72|US102
-  server: 72.167.45.6
+- name: 1.44|US103
+  server: 72.167.33.106
   port: 443
   type: trojan
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.71| US92 TGpeekfun
-  server: 167.88.63.61
-  port: 8090
+- name: 1.34|1299Mb
+  server: 167.88.63.74
+  type: ss
+  country: US
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.98| US108
+  server: 167.88.63.74
   type: ss
   country: ' US'
-  password: PCnnH6SQSnfoS27
+  port: 2376
+  password: faBAoD54k87UJG7
   cipher: aes-256-gcm
-- name: 0.67|US105
-  server: 72.167.33.106
-  port: 443
+- name: 0.89|1428Mb
+  server: 167.88.63.89
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.84|CN14
+  server: gy.b2.nkeo.top
+  port: 45122
   type: trojan
-  password: 28d98f761aca9d636f44db62544628eb
+  password: 1079739e-fa18-437f-b818-1f3a04fd9911
   skip-cert-verify: true
   udp: true
