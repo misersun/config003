@@ -1,35 +1,5 @@
 proxies:
-- name: 9.61| As 台湾 11 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2718
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 298655:CxWwpd
-  obfs-param: d4adf298655.microsoft.com
-- name: 9.39| As 台湾 12 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2719
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 298655:CxWwpd
-  obfs-param: d4adf298655.microsoft.com
-- name: 9.05| As 日本 17 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3021
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 1658:roGg5Y
-  obfs-param: 8feba1658.microsoft.com
-- name: 8.89| 香港 1
+- name: 7.77| 香港 1
   server: 183.232.170.112
   port: 22779
   type: ssr
@@ -39,7 +9,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 7.09|AZ转移动0327
+- name: 7.43| 上海CN2 新加坡 DigitalOcean丨全解锁丨A2
+  server: sh.shcuddns.xyz
+  port: 11429
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 6.99|AZ转移动0327
   server: sl201.jdxx.xyz
   port: 25987
   type: ssr
@@ -49,37 +29,77 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
-- name: 5.86| 香港 油尖旺御金国峯 網上行寬頻 D07
-  server: hkt07.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.95|国内中专127
-  server: tz-yd01.jdxx.xyz
-  port: 35008
+- name: 6.93| 广州新加坡 DigitalOcean丨全解锁丨A3
+  server: gzydddns.xyz
+  port: 11841
   type: ssr
   cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3935:RZVnik
-  obfs-param: 0a03d3935.microsoft.com
-- name: 4.40|As 阿联酋 AE 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 1654
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
+  password: Fhbe0z
   protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 1658:roGg5Y
-  obfs-param: 8feba1658.microsoft.com
-- name: 4.23| 香港 2
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 6.80| 广州新加坡 DigitalOcean丨全解锁丨A2
+  server: gzydddns.xyz
+  port: 11846
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 6.16| 广州日本 DMIT丨全解锁丨A4
+  server: gzydddns.xyz
+  port: 11803
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 6.10| 广州日本 DMIT丨全解锁丨A3
+  server: gzydddns.xyz
+  port: 11812
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 5.93| 广州日本 DMIT丨全解锁丨A2
+  server: gzydddns.xyz
+  port: 11842
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 5.83| 上海CN2 日本 DMIT丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11424
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 5.45| 上海CN2 台湾 HiNet丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11428
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 2.42| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -89,7 +109,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 3.39| 日本 まつやまし auひかり ホーム1ギガ D 07
+- name: 1.99| 日本 まつやまし auひかり ホーム1ギガ D 07
   server: jp07.clashcloud.tech
   port: 59866
   type: ssr
@@ -99,23 +119,32 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 2.45| Eu 俄罗斯 01 RU 2x
-  server: beijing-anycast.vodafone.cyou
-  port: 2034
+- name: 1.23| 上海CN2 新加坡 EC2丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11422
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
+  cipher: chacha20-ietf
+  password: Fhbe0z
   protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 298655:CxWwpd
-  obfs-param: d4adf298655.microsoft.com
-- name: 1.40|As 哈萨克斯坦 KZ 2x
-  server: beijing-anycast.vodafone.cyou
-  port: 2602
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 1.20| 广州新加坡 DigitalOcean丨全解锁丨A1
+  server: gzydddns.xyz
+  port: 11807
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
+  cipher: chacha20-ietf
+  password: Fhbe0z
   protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 298655:CxWwpd
-  obfs-param: d4adf298655.microsoft.com
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1457:gfty99
+  obfs-param: 8849a1457.microsoft.com
+- name: 0.56| CN17 TGpeekfun
+  server: 117.28.243.132
+  port: 8333
+  type: ssr
+  country: ' CN'
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
