@@ -1,5 +1,17 @@
 proxies:
-- name: 4.86| Lv1 香港A  中转  CDN
+- name: 7.92| RelayHKHK598 4116Mb
+  server: hk5.racernet.link
+  port: 443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /racernet
+  ws-headers:
+    Host: hk5.racernet.link
+- name: 6.50| Lv1 香港A  中转  CDN
   server: v1.369855.xyz
   port: 11443
   type: vmess
@@ -12,8 +24,20 @@ proxies:
   ws-path: /api/shop
   ws-headers:
     Host: hkv2-1.ddns.tjiasu.xyz
-- name: 2.87| RelayHKHK575 5006Mb
-  server: hk5.racernet.link
+- name: 5.79| RelayCNHK401 3062Mb
+  server: ctsh1.racernet.link
+  port: 22080
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ctsh1hk1
+  ws-headers:
+    Host: ctsh1.racernet.link
+- name: 4.87| RelaySGSG917  780Mb
+  server: hk2.racernet.link
   port: 443
   type: vmess
   uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
@@ -23,8 +47,239 @@ proxies:
   network: ws
   ws-path: /racernet
   ws-headers:
-    Host: hk5.racernet.link
-- name: 1.69|Relay 4968Mb
+    Host: hk2.racernet.link
+- name: 4.85| RelayCNUS395 1660Mb
+  server: cmgz1.racernet.link
+  port: 1443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
+- name: 2.18| RelayRORO790 1467Mb
+  server: usa-lasvegas.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-lasvegas.lvuft.com
+- name: 2.16| US111 TGpeekfun
+  server: 72.167.45.6
+  port: 443
+  type: trojan
+  country: ' US'
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 2.14|Relay1092Mb
+  server: t2.ssrsub.com
+  type: trojan
+  country: US
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.95| US112 TGpeekfun
+  server: 72.167.33.106
+  port: 443
+  type: trojan
+  country: ' US'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.93|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.86|RelayGBGB574  896Mb
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.82| RelayUSUS1760 4516Mb
+  server: jp1.racernet.link
+  port: 443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /rhwsqaul
+  ws-headers:
+    Host: jp1.racernet.link
+- name: 1.77| RelayZZUS2083 1087Mb
+  server: 162.159.153.13
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.70|US1782 5466Mb
+  server: 142.4.127.67
+  type: vmess
+  country: US
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /path/310910211916
+  servername: www.47727450.xyz
+  ws-headers:
+    HOST: www.47727450.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.67|Relay 719Mb
+  server: t5.ssrsub.com
+  type: trojan
+  country: RU
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.65| SG78 TGpeekfun
+  server: 81.90.189.85
+  port: 443
+  type: trojan
+  country: ' SG'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.65| US319  904Mb
+  server: 104.21.48.161
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.63|19 1157Mb
+  server: t8.ssrsub.com
+  type: trojan
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  sni: t8.ssrsub.com
+  udp: true
+- name: 1.61|Relay1312Mb
+  server: t7.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.60|Relay1656Mb
+  server: free-russian-cdn.xiaohouzi.club
+  type: vmess
+  country: RU
+  port: 443
+  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
+  alterId: 233
+  cipher: auto
+  network: ws
+  ws-path: /319285eb2d/
+  servername: free-russian-cdn.xiaohouzi.club
+  ws-headers:
+    HOST: free-russian-cdn.xiaohouzi.club
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.60| RO85
+  server: 62.216.92.179
+  type: trojan
+  country: ' RO'
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.59| RelayHKKR603  701Mb
+  server: xe3rayu3.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: xe3rayu3.com
+- name: 1.56|RelayUSDE162 12729Mb
+  server: 104.22.6.49
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.54| US321 1007Mb
+  server: 104.18.7.138
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.52| US322  920Mb
+  server: 104.16.98.249
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.49|Relay 4968Mb
   server: kr3.futi.online
   port: 2053
   type: vmess
@@ -36,14 +291,215 @@ proxies:
   ws-path: /
   ws-headers:
     Host: kr3.futi.online
-- name: 1.62|NL69
-  server: 89.31.127.151
+- name: 1.49| US328  939Mb
+  server: 104.18.6.138
   port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.47|RelayUSFR278
+  server: powerservice.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /sshocean
+  servername: uk2.v2rayserv.com
+  ws-headers:
+    HOST: uk2.v2rayserv.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.46|RelayUSDE159 5693Mb
+  server: 104.25.255.229
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.45| githubcomfreefq  美国CloudFlare公司CDN节点 14
+  server: api.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: 1478d966-4f9b-11ec-b5f3-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: api.ssfree.ru
+- name: 1.45| US329 1009Mb
+  server: 104.24.88.81
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.45| RelayUSUS1756  568Mb
+  server: usa-washington.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-washington.lvuft.com
+- name: 1.44|Relay1615Mb
+  server: t6.ssrsub.com
   type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.44|RelayNLNL129
+  server: ned-server-01.selfupay.com
+  type: trojan
+  country: NL
+  port: 443
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 1.42|RelayUSDE417
+- name: 1.44| NL53 TGpeekfun
+  server: 185.171.120.144
+  port: 443
+  type: trojan
+  country: ' NL'
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.43|RelayUSDE157 11945Mb
+  server: 104.22.44.50
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.42|RelayUSDE160 10433Mb
+  server: 104.24.64.213
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.40| 其他 1
+  server: 109.74.194.189
+  port: 1443
+  type: trojan
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.36|Relay1297Mb
+  server: t9.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.36| RO64 TGpeekfun
+  server: 185.126.116.235
+  port: 443
+  type: trojan
+  country: ' RO'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.35| NL78
+  server: 89.31.127.151
+  type: trojan
+  country: ' NL'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.34| US333  936Mb
+  server: 104.16.241.127
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.33| RO66 TGpeekfun
+  server: 62.216.92.180
+  port: 443
+  type: trojan
+  country: ' RO'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.29|RelayUSDE158 13422Mb
+  server: 104.20.81.240
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.29|RelayUSDE417
   server: 104.25.175.69
   type: vmess
   country: US
@@ -60,202 +516,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.33|Relay  551Mb
-  server: us3.futi.online
-  port: 443
-  type: vmess
-  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us3.futi.online
-- name: 1.22|RO81
-  server: 62.216.92.180
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.13| US299 1026Mb
-  server: 104.24.88.81
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.11| US306 1034Mb
-  server: 104.18.7.138
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.11| US308  896Mb
-  server: 104.21.48.161
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.08|RO80
-  server: 62.216.92.179
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.00| US296  999Mb
-  server: 104.22.44.50
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.94|RelayUSDE398
-  server: 104.16.181.15
-  type: vmess
-  country: US
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.92| US302 1046Mb
-  server: 104.21.100.150
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.91| US291  998Mb
-  server: 104.24.64.213
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.91|Relay 3619Mb
-  server: sg2.futi.online
-  port: 443
-  type: vmess
-  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: sg2.futi.online
-- name: 0.86|RelayUSUS261
-  server: usa-server-02.selfupay.com
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.83| RelayUSUS1695 6278Mb
-  server: jp1.racernet.link
-  port: 443
-  type: vmess
-  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /rhwsqaul
-  ws-headers:
-    Host: jp1.racernet.link
-- name: 0.81|wwwimlamcom提供节点 19
-  server: 185.252.223.202
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
-- name: 0.81| US309  991Mb
-  server: 104.16.149.48
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.69| US297  979Mb
-  server: 104.18.6.138
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.69| RelayUSUS1524  998Mb
-  server: 104.17.62.78
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.64|RelayUSDE410
+- name: 1.29|RelayUSDE410
   server: 172.67.209.58
   type: vmess
   country: US
@@ -272,8 +533,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.61| US293 1002Mb
-  server: 104.20.81.240
+- name: 1.25| US324 1050Mb
+  server: 104.16.149.48
   port: 443
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -284,32 +545,44 @@ proxies:
   ws-path: /
   ws-headers:
     Host: cdnde.irteyz.today
-- name: 0.57| US290 1012Mb
-  server: 104.22.6.49
+- name: 1.25|wwwimlamcom提供节点 19
+  server: 185.252.223.202
   port: 443
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
   tls: true
   network: ws
-  ws-path: /
+  ws-path: /path/243535322906
   ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.56|trojan
-  type: trojan
-  server: 65.49.196.246
+    Host: www.16675463.xyz
+- name: 1.22|RelayUSDE161 4458Mb
+  server: 104.21.100.150
+  type: vmess
+  country: US
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 0.53| US105 TGpeekfun
-  server: 72.167.33.106
-  port: 443
-  type: trojan
-  country: ' US'
-  password: a3fa58b581353bb375d2ddad0f327938
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-  udp: true
+- name: 1.14| US330  994Mb
+  server: 104.16.182.15
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
