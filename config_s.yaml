@@ -1,5 +1,5 @@
 proxies:
-- name: 1.69| 台湾YouTube由零开始
+- name: 2.68| 台湾YouTube由零开始
   server: 104.19.101.3
   port: 2053
   type: vmess
@@ -12,8 +12,16 @@ proxies:
   ws-path: /gdo93qerwtyuo
   ws-headers:
     Host: e.fovi.tk
-- name: 1.65|欢迎订阅youtube8度科技 13
-  server: 104.17.140.198
+- name: 2.46|CN342 1152Mb
+  server: 43.240.206.227
+  type: trojan
+  country: CN
+  port: 3389
+  password: ba4fedf8c217c146
+  skip-cert-verify: true
+  udp: true
+- name: 2.46| RelayUSUS1805  325Mb
+  server: 104.16.167.138
   port: 443
   type: vmess
   uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
@@ -24,8 +32,17 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.44| RelayUSUS1711  896Mb
-  server: 104.18.135.208
+- name: 2.31|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.17| RelayUSUS1800  998Mb
+  server: 104.17.62.78
   port: 443
   type: vmess
   uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
@@ -36,8 +53,25 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.35| RelayUSUS1734  613Mb
-  server: 104.21.192.97
+- name: 2.15|RelayUSUS442
+  server: 104.26.9.74
+  type: vmess
+  country: US
+  port: 443
+  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /sshocean
+  servername: us2.v2rayserv.com
+  ws-headers:
+    HOST: us2.v2rayserv.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.15| RelayUSUS1789 1053Mb
+  server: 104.19.23.24
   port: 443
   type: vmess
   uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
@@ -48,7 +82,71 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.29| 美国YouTube由零开始
+- name: 2.15| RelayUSUS1782  120Mb
+  server: 104.20.130.175
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 2.12| 399元高速节点购买httpsc1ncngxvip
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 2.05| RelayUSUS1801  476Mb
+  server: 104.16.16.255
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 2.00|YouTube由零开始 2
+  server: lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: lvuft.com
+- name: 1.90| CN30
+  server: server1.sh-cu.exacc.need.sh
+  type: vmess
+  country: ' CN'
+  port: 58190
+  uuid: 3f15492a-54a6-4eda-846b-bdfb049b0a27
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /Y77A2IHP
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.78| 美国YouTube由零开始
   server: 64.32.13.3
   port: 443
   type: vmess
@@ -61,122 +159,19 @@ proxies:
   ws-path: /path/323127100515
   ws-headers:
     Host: www.12001759.xyz
-- name: 1.26| RO43 TGpeekfun
-  server: 62.216.92.179
+- name: 1.78| US487 1023Mb
+  server: 104.18.6.138
   port: 443
-  type: trojan
-  country: ' RO'
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.24|RelayUSFR428
-  server: powerservice.com
   type: vmess
-  country: US
-  port: 443
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /sshocean
-  servername: uk2.v2rayserv.com
-  ws-headers:
-    HOST: uk2.v2rayserv.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.20|RelayUSDE243 14926Mb
-  server: 104.20.81.240
-  type: vmess
-  country: US
-  port: 443
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   alterId: 64
   cipher: auto
+  tls: true
   network: ws
   ws-path: /
-  servername: cdnde.irteyz.today
   ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.18|RelayUSDE241 15344Mb
-  server: 104.21.100.150
-  type: vmess
-  country: US
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.15| 免费分區07直连美国流媒体
-  server: abnode07.makegamegoal.com
-  port: 8443
-  type: trojan
-  password: 4e234754-49ce-4ed5-b369-2c82e5615497
-  sni: abnode07.makegamegoal.com
-  skip-cert-verify: false
-- name: 1.13|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.11|RelayUSDE239 12809Mb
-  server: 104.22.44.50
-  type: vmess
-  country: US
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.09| US175
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.06| RO45 TGpeekfun
-  server: 185.126.116.235
-  port: 443
-  type: trojan
-  country: ' RO'
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.06|US234
-  server: 72.167.33.106
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.05|Relay 4166Mb
+    Host: cdnde.irteyz.today
+- name: 1.68|Relay 4166Mb
   server: 104.24.64.213
   type: vmess
   country: US
@@ -193,28 +188,100 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.02|欢迎订阅youtube8度科技 16
-  server: 104.18.29.31
+- name: 1.61|RelayUSFR441
+  server: powerservice.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /sshocean
+  servername: uk2.v2rayserv.com
+  ws-headers:
+    HOST: uk2.v2rayserv.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.61| US473  981Mb
+  server: 104.18.7.138
   port: 443
   type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.60| US483  993Mb
+  server: 104.16.149.48
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.60| 免费分區07直连美国流媒体
+  server: abnode07.makegamegoal.com
+  port: 8443
+  type: trojan
+  password: 4e234754-49ce-4ed5-b369-2c82e5615497
+  sni: abnode07.makegamegoal.com
+  skip-cert-verify: false
+- name: 1.55|1648Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.50| US475  965Mb
+  server: 104.16.241.127
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.49|Relay  465Mb
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /The-Great-Awakening_vws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
   ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.01| RO47 TGpeekfun
-  server: 62.216.92.180
+    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 1.48| US481 1033Mb
+  server: 104.16.98.249
   port: 443
-  type: trojan
-  country: ' RO'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.99|Relay 9085Mb
-  server: 104.22.6.49
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.47|RelayUSDE237 12809Mb
+  server: 104.22.44.50
   type: vmess
   country: US
   port: 443
@@ -230,64 +297,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.98| NL37 TGpeekfun
-  server: 89.31.127.151
-  port: 443
-  type: trojan
-  country: ' NL'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.97| RelayUSUS1801  476Mb
-  server: 104.16.16.255
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.96| RelayAUUS213  978Mb
-  server: 1.0.0.0
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.95|Relay  738Mb
-  server: free-russian01-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 0.94|Relay  518Mb
-  server: 104.16.104.126
-  port: 443
-  type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-  ws-headers:
-    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
-- name: 0.88| US451  907Mb
-  server: 104.18.7.138
+- name: 1.46| US488  848Mb
+  server: 104.24.88.81
   port: 443
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -298,7 +309,124 @@ proxies:
   ws-path: /
   ws-headers:
     Host: cdnde.irteyz.today
-- name: 0.87|RelayUSDE242 13471Mb
+- name: 1.42| US474  903Mb
+  server: 104.16.182.15
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.40| NL40 TGpeekfun
+  server: 89.31.127.151
+  port: 443
+  type: trojan
+  country: ' NL'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|Relay  887Mb
+  server: uk-manchester.eiw2eemo.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: uk-manchester.eiw2eemo.com
+- name: 1.37|RelayUSDE242 14926Mb
+  server: 104.20.81.240
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.22|Relay  817Mb
+  server: usa-dallas.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-dallas.lvuft.com
+- name: 1.14| httpsgitiov9999 莫斯科CDN ip1 3
+  server: 172.64.88.97
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.12| httpsgitiov9999 莫斯科CDN ip1 6
+  server: 104.27.17.236
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.11| httpsgitiov9999 莫斯科CDN ip1
+  server: 1.1.1.1
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.08| RO51 TGpeekfun
+  server: 185.126.116.235
+  port: 443
+  type: trojan
+  country: ' RO'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.08| httpsgitiov9999 莫斯科CDN ip1 7
+  server: 104.20.210.106
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.07|RelayUSDE241 13471Mb
   server: 104.25.255.229
   type: vmess
   country: US
@@ -315,116 +443,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.83| RelayUSUS1805  325Mb
-  server: 104.16.167.138
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.82| NL35 TGpeekfun
-  server: 185.171.120.144
-  port: 443
-  type: trojan
-  country: ' NL'
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.77| US466  800Mb
-  server: 104.24.88.81
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.77| RelayUSUS1789 1053Mb
-  server: 104.19.23.24
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.75|欢迎订阅youtube8度科技 15
-  server: 104.17.8.150
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.74| US459 1021Mb
-  server: 104.21.48.161
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.73| RelayUSUS1798  107Mb
-  server: 172.67.223.77
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.72|Relay 237Mb
-  server: free-russian-cdn.xiaohouzi.club
-  type: vmess
-  country: RU
-  port: 443
-  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
-  alterId: 233
-  cipher: auto
-  network: ws
-  ws-path: /319285eb2d/
-  servername: free-russian-cdn.xiaohouzi.club
-  ws-headers:
-    HOST: free-russian-cdn.xiaohouzi.club
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.72| US465 1050Mb
-  server: 104.18.6.138
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.71| RelayUSUS1785  089Mb
+- name: 1.06| RelayUSUS1785  089Mb
   server: 104.20.130.43
   port: 443
   type: vmess
@@ -436,52 +455,67 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 0.71|Relay  624Mb
-  server: free-russian02-cdn.xiaohouzi.club
+- name: 1.06| httpsgitiov9999 莫斯科CDN ip1 5
+  server: 104.22.32.71
   port: 443
   type: vmess
-  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /0459ac88c41c8f/
-  ws-headers:
-    Host: free-russian02-cdn.xiaohouzi.club
-- name: 0.71|免费分享站mffxz1526
-  server: abnode09.makegamegoal.com
-  port: 8443
-  type: trojan
-  password: 4e234754-49ce-4ed5-b369-2c82e5615497
-  sni: abnode09.makegamegoal.com
-  skip-cert-verify: false
-- name: 0.68| US462  959Mb
-  server: 104.16.149.48
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.67| CN35
-  server: server1.sh-cu.exacc.need.sh
-  type: vmess
-  country: ' CN'
-  port: 58190
-  uuid: 3f15492a-54a6-4eda-846b-bdfb049b0a27
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /Y77A2IHP
-  http-opts: {}
-  h2-opts: {}
   tls: true
-  skip-cert-verify: true
-- name: 0.66| US172
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.05| httpsgitiov9999 莫斯科CDN ip1 8
+  server: 104.27.116.170
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.05| httpsgitiov9999 莫斯科CDN ip1 9
+  server: 104.19.181.49
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip1 2
+  server: 104.18.87.142
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip1 10
+  server: icook.tw
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 0.97| US160
   server: usa-washington.lvuft.com
   type: vmess
   country: ' US'
@@ -498,74 +532,39 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.66| 德国 1
-  server: 5.183.179.138
-  port: 443
-  type: trojan
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.65| US460  966Mb
-  server: 104.16.98.249
+- name: 0.94| httpsgitiov9999 莫斯科CDN ip1 4
+  server: 172.67.85.124
   port: 443
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.63|欢迎订阅youtube8度科技 17
-  server: 104.16.168.85
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /The-Great-Awakening_vws
+  ws-path: /ray
   ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.62|1648Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.59|YouTube由零开始 2
-  server: lvuft.com
-  port: 443
+    Host: clash1.v2rayfree1.xyz
+- name: 0.87|Relay 9085Mb
+  server: 104.22.6.49
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: lvuft.com
-- name: 0.57| US453 1069Mb
-  server: 104.16.241.127
+  country: US
   port: 443
-  type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
   alterId: 64
   cipher: auto
-  tls: true
   network: ws
   ws-path: /
+  servername: cdnde.irteyz.today
   ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.57| HK67
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.76|1747Mb
   server: 103.138.75.235
   type: vmess
-  country: ' HK'
+  country: HK
   port: 443
   uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
   alterId: 1
@@ -579,8 +578,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.52| RelayUSUS1800  998Mb
-  server: 104.17.62.78
+- name: 0.64| RelayUSUS1711  896Mb
+  server: 104.18.135.208
   port: 443
   type: vmess
   uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
@@ -591,15 +590,39 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 0.50| US452  981Mb
-  server: 104.16.182.15
+- name: 0.64| 德国 1
+  server: 5.183.179.138
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.61| RelayAUUS213  223Mb
+  server: 1.0.0.0
   port: 443
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /
+  ws-path: /The-Great-Awakening_vws
   ws-headers:
-    Host: cdnde.irteyz.today
+    Host: vincent-jackson2021.ga
+- name: 0.61| HK69
+  server: tk.shcn2.tkddns.xyz
+  type: vmess
+  country: ' HK'
+  port: 22642
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: zxjp-b.tkong.cc
+  ws-headers:
+    HOST: zxjp-b.tkong.cc
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
