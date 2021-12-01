@@ -1,75 +1,5 @@
 proxies:
-- name: 2.37| As 日本 16 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3029
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.32| As 日本 07 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2016
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.32| As 新加坡 08 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2007
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 2.27| As 香港 10 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2031
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.26| 日本 まつやまし auひかり ホーム1ギガ A 02
-  server: jpid02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.20| As 日本 08 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2017
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.11| As 日本 15 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3024
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.09| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
+- name: 2.28| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
   server: jp10.serenazuma.com
   port: 11764
   type: ssr
@@ -79,57 +9,61 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 2.07| As 澳门 01 MO 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 50221
+- name: 2.11| 日本日本大阪 オプテージ A 08
+  server: jpaz08.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.06| 每日更新节点mffxz453
-  server: 112.33.32.136
-  port: 10003
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.06| 中国日本 沪日IEPL传输 EquinixTY8 A07 Netflix
+  server: jp07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.05| 日本 ソフトバンク A03 500Mbps 1x Netflix
+  server: jp15.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.02| 日本 まつやまし auひかり ホーム1ギガ A 02
+  server: jpid02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.01| JPAWS  V2  广移中转
+  server: ngzyd-1.okex-tradebot.xyz
+  port: 30006
   type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  uuid: 9140c163-8072-486c-b735-b3f8b1b96321
   alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 2.04| As 日本 14 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3027
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.03| As 日本 06 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2015
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 2.02| As 日本 18 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3017
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.96| 中国日本 多协议标签交换虚拟专用网 A1 1000Mbps
-  server: hr01.serenazuma.com
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+- name: 1.99| 日本日本大阪 オプテージ A 02
+  server: jpaz02.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -138,118 +72,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.94| As 越南 02 VN 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2700
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.87| 中国日本 多协议标签交换虚拟专用网 D4 1000Mbps
-  server: hr04.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.84| As 马来西亚 02 MY 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2322
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 1.82| As 印度 01 IN 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2302
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.78| V356广东香港x15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40056
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.78| As 马来西亚 01 MY 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2321
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 1.77| As 新加坡 06 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2005
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.77| As 印度 02 IN 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2303
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.77| As 香港 08 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2029
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.77| As 日本 05 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2014
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.75| As 台湾 08 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2311
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.75| 中国日本 沪日IEPL传输 EquinixTY8 A02 Netflix
-  server: jp02.serenazuma.com
+- name: 1.98| 日本日本大阪 オプテージ A 07
+  server: jpaz07.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -258,7 +82,7 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.74| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
+- name: 1.96| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
   server: jp08.serenazuma.com
   port: 11764
   type: ssr
@@ -268,98 +92,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.73| As 日本 10 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2019
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.73| As 新加坡 05 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2004
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.72| As 日本 09 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2018
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.71| As 澳门 02 MO 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 50226
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.71| As 香港 09 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2030
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.69| As 日本 12 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3022
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.67| As 新加坡 10 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2009
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.63| As 台湾 06 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2309
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.60| V3234广东香港HGCNFx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40234
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.59| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
-  server: jp04.serenazuma.com
+- name: 1.94| 日本 ソフトバンク A05 500Mbps 1x Netflix
+  server: jp17.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -368,28 +102,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.59| As 台湾 03 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2306
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.59| V442广东台湾x20SSR
-  server: jzgdyd-tw.ddns-only.xyz
-  port: 40042
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.56| 中国日本 沪日IEPL传输 EquinixTY8 A06 Netflix
-  server: jp06.serenazuma.com
+- name: 1.90| 日本 まつやまし auひかり ホーム1ギガ A 03
+  server: jpid03.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -398,48 +112,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.53| As 新加坡 07 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2006
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.53| As 台湾 07 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2310
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.52| As 香港 12 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2033
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.48| As 台湾 02 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2305
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.47| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
-  server: hr07.serenazuma.com
+- name: 1.77| 日本日本大阪 オプテージ A 04
+  server: jpaz04.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -448,18 +122,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.46| As 香港 11 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2032
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.46| 中国日本 多协议标签交换虚拟专用网 A4 1000Mbps
-  server: hr04.serenazuma.com
+- name: 1.77| 日本日本大阪 オプテージ A 06
+  server: jpaz06.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -468,111 +132,130 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.44| As 香港 06 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2027
+- name: 1.76| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
+  server: jp01.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.42| As 日本 03 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2012
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.41| Lv1 香港A  中转  CDN
-  server: v1.369855.xyz
-  port: 11443
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.73| RelayCNSG308
+  server: 112.33.32.136
+  port: 10002
   type: vmess
-  uuid: 576e6f18-0b8f-4bf1-83e4-3d9a6e6cd9ae
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
+  cipher: auto
+  tls: false
+- name: 1.70| 日本 ソフトバンク A04 500Mbps 1x Netflix
+  server: jp16.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.69| 台湾YouTube由零开始
+  server: 104.19.101.3
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 64
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
-  ws-path: /api/shop
+  ws-path: /gdo93qerwtyuo
   ws-headers:
-    Host: hkv2-1.ddns.tjiasu.xyz
-- name: 1.38| v2rayseCN中国58
-  server: global-transit-hk-v2.pucdn.me
-  port: 32302
+    Host: e.fovi.tk
+- name: 1.69| 日本 まつやまし auひかり ホーム1ギガ A 04
+  server: jpid04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.68|免费分享站mffxz1520
+  server: 139.227.161.129
+  port: 10004
   type: vmess
-  uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.67| 日本日本大阪 オプテージ A 03
+  server: jpaz03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.65|欢迎订阅youtube8度科技 13
+  server: 104.17.140.198
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.59| 日本 まつやまし auひかり ホーム1ギガ A 07
+  server: jpid07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.48| 只在Jsnzkpg和mffxz频道更新禁止转载2
+  server: 112.33.32.136
+  port: 10005
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.47| 每日更新节点mffxz671
+  server: 137.184.184.83
+  port: 2053
+  type: vmess
+  uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /vvv
+  ws-path: /
   ws-headers:
-    Host: global-transit-hk-v2.pucdn.me
-- name: 1.35| As 泰国 01 TH 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2313
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.34| 中国日本 多协议标签交换虚拟专用网 A8 1000Mbps
-  server: hr08.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.33|US235
-  server: 72.167.33.106
-  port: 443
-  type: trojan
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.32| As 日本 23 JP 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3020
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.32| As 日本 04 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2013
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.31| 中国日本 沪日IEPL传输 EquinixTY8 A03 Netflix
-  server: jp03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.31| RelayUSUS1800  998Mb
-  server: 104.17.62.78
+    Host: 137.184.184.83
+- name: 1.46| httpsgitiov9999 圣何塞tcp ip5 10
+  server: 192.74.254.167
+  port: 500
+  type: vmess
+  uuid: 764e808a-115e-11ec-a88f-00163c9f4934
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.44| RelayUSUS1711  896Mb
+  server: 104.18.135.208
   port: 443
   type: vmess
   uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
@@ -583,91 +266,43 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.31| As 日本 13 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3028
+- name: 1.37| 日本日本大阪 オプテージ A 01
+  server: jpaz01.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.28|Relay 445Mb
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.36|RelayCNCN243 991Mb
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10045
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 241699:ux74UgpcnA
+  obfs: http_post
+- name: 1.36|Relay1994Mb
   server: 198.41.212.234
   type: vmess
   country: ZZ
-  port: 2052
-  uuid: 00000000-1111-2222-3333-444444444444
+  port: 2082
+  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /Telegram/@Loss_0_Vmess
-  servername: free.jianguoyun.com
+  ws-path: /media/
+  servername: download.jianguoyun.com
   ws-headers:
-    HOST: free.jianguoyun.com
+    HOST: download.jianguoyun.com
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.28| V4236广东香港HGCNFx20SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40236
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.27| US472  901Mb
-  server: 104.16.182.15
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.26| RelayUSUS1785  089Mb
-  server: 104.20.130.43
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.26| US480 1064Mb
-  server: 104.21.48.161
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.25| US478  954Mb
-  server: 104.22.6.49
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.25| RelayUSUS1797  363Mb
+- name: 1.35| RelayUSUS1734  613Mb
   server: 104.21.192.97
   port: 443
   type: vmess
@@ -679,64 +314,8 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.25| RelayUSUS1798  107Mb
-  server: 172.67.223.77
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.25| US485 1026Mb
-  server: 104.25.255.229
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.24| V4195上海香港x10SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40195
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.23| As 日本 20 JP 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3026
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.21| US471  978Mb
-  server: 104.18.7.138
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.16| 日本日本大阪 オプテージ A 02
-  server: jpaz02.serenazuma.com
+- name: 1.35| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
+  server: jp04.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -745,224 +324,46 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.15| As 新加坡 09 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2008
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.14| httpsgitiov9999 圣何塞 ip2 8
-  server: 107.148.200.229
-  port: 35193
+- name: 1.31| 每日更新节点mffxz234
+  server: shcu01.iplc188.com
+  port: 10004
   type: vmess
-  uuid: f4b15c34-50df-11ec-8c60-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /9XCFx8oB/
-  ws-headers:
-    Host: 107.148.200.229
-- name: 1.14| As 日本 19 JP 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3018
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.14| 中国日本 多协议标签交换虚拟专用网 A9 1000Mbps
-  server: hr09.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.12| As 日本 11 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3019
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.11| As 印尼 01 ID 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2300
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.09| As 马来西亚 04 MY 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 3031
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.09| 香港HKT 09 PPCW Netflix 1x
-  server: guangzhou-lw-03.pucdn.me
-  port: 11116
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-hkt-a-09.pucdn.me
-- name: 1.07| httpsgitiov9999 圣何塞v2ray
-  server: 142.4.123.135
-  port: 38899
+- name: 1.31| httpsgitiov9999 圣何塞tcp ip5
+  server: 198.200.51.34
+  port: 10911
   type: vmess
-  uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a
+  uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.06| V3233广东香港HGCNFx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40233
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 1.05| As 马来西亚 03 MY 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2323
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 1.04| As 新加坡 01 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2000
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 1.03| US473  928Mb
-  server: 104.16.241.127
+- name: 1.29| 美国YouTube由零开始
+  server: 64.32.13.3
   port: 443
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  uuid: 4dc574eb-94e8-439e-aad6-4d74df1a38c5
   alterId: 64
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /path/323127100515
   ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.03| As 日本 17 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3021
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 1.03| US148 TGpeekfun
-  server: 72.167.45.6
-  port: 443
-  type: trojan
-  country: ' US'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.01| 香港 1
-  server: 183.232.170.112
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 0.99| V358广东香港x15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40058
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.97| As 菲律宾 01 PH 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2020
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.96| 日本日本大阪 オプテージ A 06
-  server: jpaz06.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 0.96| US479  962Mb
-  server: 104.24.64.213
-  port: 443
+    Host: www.12001759.xyz
+- name: 1.29| 美国绿头外网集团Public 4
+  server: shcn2-06b.iplc188.com
+  port: 10004
   type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.96| US481 1002Mb
-  server: 104.16.98.249
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.95| RO62 TGpeekfun
+  tls: false
+  skip-cert-verify: false
+- name: 1.26| RO43 TGpeekfun
   server: 62.216.92.179
   port: 443
   type: trojan
@@ -970,45 +371,27 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.95| CN75
-  server: global-transit-hk-v2.pucdn.me
+- name: 1.26| 每日更新节点mffxz623
+  server: shcn2-06b.iplc188.com
+  port: 10006
   type: vmess
-  country: ' CN'
-  port: 10009
-  uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /vvv
-  servername: L2-sakura-jp-05.pucdn.me
-  ws-headers:
-    HOST: L2-sakura-jp-05.pucdn.me
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.95| CN87
-  server: 42.157.8.162
-  type: vmess
-  country: ' CN'
-  port: 48106
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.93| httpsgitiov9999 圣何塞v2ray 10
-  server: 107.148.200.229
-  port: 10022
-  type: vmess
-  uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178
-  alterId: 0
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
   cipher: auto
   tls: false
-- name: 0.92| 日本日本大阪 オプテージ A 07
-  server: jpaz07.serenazuma.com
+  skip-cert-verify: false
+- name: 1.25| 香港极速 2
+  server: 42.157.196.104
+  port: 20333
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 257682:t5ehNgCUfQ
+  obfs-param: ''
+- name: 1.25| 中国日本 多协议标签交换虚拟专用网 A10 1000Mbps
+  server: hr10.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -1017,180 +400,17 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 0.92|Relay  341Mb
-  server: free-russian01-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 0.92| V366广东香港HKBNx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40066
+- name: 1.25| 中国日本 沪日IEPL传输 EquinixTY8 A03 Netflix
+  server: jp03.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.91| RelayUSUS1782  120Mb
-  server: 104.20.130.175
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.91| US477 1030Mb
-  server: 104.21.100.150
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.89| US222
-  server: 104.251.233.106
-  type: vmess
-  country: ' US'
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.87| RelayUSUS1789 1053Mb
-  server: 104.19.23.24
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.86|Relay 1405Mb
-  server: chuch3go.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: chuch3go.com
-- name: 0.86| As 日本 22 JP 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3030
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.86| As 新加坡 02 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2001
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.84| As 新加坡 04 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2003
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.84| As 日本 02 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2010
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.83| RelayUSUS1770 1838Mb
-  server: usml.jjyun.ren
-  port: 80
-  type: vmess
-  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyunml
-  ws-headers:
-    Host: usml.jjyun.ren
-- name: 0.83| httpsgitiov9999 圣何塞 ip2 10
-  server: 192.74.254.167
-  port: 14003
-  type: vmess
-  uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /3Xt2YL4H/
-  ws-headers:
-    Host: 192.74.254.167
-- name: 0.83| As 日本 21 JP 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 3023
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.82| US483  919Mb
-  server: 104.16.149.48
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.82|RelayUSFR527
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.24|RelayUSFR428
   server: powerservice.com
   type: vmess
   country: US
@@ -1207,95 +427,34 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.82| RO171
-  server: 62.216.92.180
-  type: trojan
-  country: ' RO'
+- name: 1.20|RelayUSDE243 14926Mb
+  server: 104.20.81.240
+  type: vmess
+  country: US
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-  udp: true
-- name: 0.82|As 阿联酋 AE 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 1654
+- name: 1.20| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
+  server: hr02.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.81| US486  905Mb
-  server: 104.22.44.50
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.80| As 香港 05 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2026
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.78| As 菲律宾 02 PH 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2021
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.77| US487 1005Mb
-  server: 104.18.6.138
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 0.77| httpsgitiov9999 圣何塞v2ray 3
-  server: 107.148.200.123
-  port: 30033
-  type: vmess
-  uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.77| V380广东台湾x10SSR
-  server: jzgdyd-tw.ddns-only.xyz
-  port: 40080
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.76| httpsgitiov9999 圣何塞v2ray 8
-  server: 137.175.30.251
-  port: 111
-  type: vmess
-  uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.76| httpsgitiov9999 圣何塞 ip2 7
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.19| httpsgitiov9999 圣何塞 ip2 7
   server: 142.4.123.249
   port: 15678
   type: vmess
@@ -1307,7 +466,179 @@ proxies:
   ws-path: /rcu13qbt/
   ws-headers:
     Host: 142.4.123.249
-- name: 0.76| httpsgitiov9999 圣何塞 ip2 3
+- name: 1.19| 美国绿头外网集团Public 3
+  server: shcn2-06b.iplc188.com
+  port: 10002
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.18|RelayUSDE241 15344Mb
+  server: 104.21.100.150
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.17| httpsgitiov9999 圣何塞 ip2 2
+  server: 107.148.200.123
+  port: 23370
+  type: vmess
+  uuid: 938eb42e-50df-11ec-8129-00163c1b189e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /SZF3TKj8/
+  ws-headers:
+    Host: 107.148.200.123
+- name: 1.15| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
+  server: hr03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.15| 免费分區07直连美国流媒体
+  server: abnode07.makegamegoal.com
+  port: 8443
+  type: trojan
+  password: 4e234754-49ce-4ed5-b369-2c82e5615497
+  sni: abnode07.makegamegoal.com
+  skip-cert-verify: false
+- name: 1.13|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.11|RelayUSDE239 12809Mb
+  server: 104.22.44.50
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.10| 中国日本 多协议标签交换虚拟专用网 D4 1000Mbps
+  server: hr04.clashcloud.tech
+  port: 59866
+  type: ssr
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.09| US175
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.07| httpsgitiov9999 圣何塞 ip2 10
+  server: 192.74.254.167
+  port: 14003
+  type: vmess
+  uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /3Xt2YL4H/
+  ws-headers:
+    Host: 192.74.254.167
+- name: 1.07| httpsgitiov9999 圣何塞tcp ip5 8
+  server: 107.148.200.229
+  port: 10022
+  type: vmess
+  uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.07| MYTMNET  V2  广移中转
+  server: ngzyd-1.okex-tradebot.xyz
+  port: 30014
+  type: vmess
+  uuid: 9140c163-8072-486c-b735-b3f8b1b96321
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+- name: 1.06| RO45 TGpeekfun
+  server: 185.126.116.235
+  port: 443
+  type: trojan
+  country: ' RO'
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.06|US234
+  server: 72.167.33.106
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.05|Relay 4166Mb
+  server: 104.24.64.213
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.03|Relay  835Mb
+  server: gzyd01.speedbosnode.xyz
+  port: 33117
+  type: vmess
+  uuid: dd519488-3552-362d-a881-57523865295e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.03| httpsgitiov9999 圣何塞 ip2 3
   server: 142.4.123.135
   port: 26596
   type: vmess
@@ -1319,7 +650,741 @@ proxies:
   ws-path: /nVRgX9sS/
   ws-headers:
     Host: 142.4.123.135
-- name: 0.76|RelayUSUS528
+- name: 1.02|欢迎订阅youtube8度科技 16
+  server: 104.18.29.31
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.01| RO47 TGpeekfun
+  server: 62.216.92.180
+  port: 443
+  type: trojan
+  country: ' RO'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.00| 香港04测试
+  server: 42.157.196.104
+  port: 20817
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 251854:Qaf3vgcBue
+  obfs-param: ''
+- name: 0.99|Relay 9085Mb
+  server: 104.22.6.49
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.99| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 0.98| NL37 TGpeekfun
+  server: 89.31.127.151
+  port: 443
+  type: trojan
+  country: ' NL'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 0.97| RelayUSUS1801  476Mb
+  server: 104.16.16.255
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.96| RelayAUUS213  978Mb
+  server: 1.0.0.0
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.95|Relay  738Mb
+  server: free-russian01-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 0.94|Relay  518Mb
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-headers:
+    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 0.93| 中国日本 多协议标签交换虚拟专用网 A8 1000Mbps
+  server: hr08.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.88| US451  907Mb
+  server: 104.18.7.138
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.87|RelayUSDE242 13471Mb
+  server: 104.25.255.229
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.83| RelayUSUS1805  325Mb
+  server: 104.16.167.138
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.83| 中国日本 多协议标签交换虚拟专用网 D7 1000Mbps
+  server: hr07.clashcloud.tech
+  port: 59866
+  type: ssr
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.82| NL35 TGpeekfun
+  server: 185.171.120.144
+  port: 443
+  type: trojan
+  country: ' NL'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.82| httpsgitiov9999 圣何塞 ip2 8
+  server: 107.148.200.229
+  port: 35193
+  type: vmess
+  uuid: f4b15c34-50df-11ec-8c60-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /9XCFx8oB/
+  ws-headers:
+    Host: 107.148.200.229
+- name: 0.79| USAWS  V2  广移中转
+  server: ngzyd-1.okex-tradebot.xyz
+  port: 30008
+  type: vmess
+  uuid: 9140c163-8072-486c-b735-b3f8b1b96321
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+- name: 0.78|Jsnzkmffxz频道节点 禁转载3
+  server: 112.33.32.136
+  port: 10001
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.77| US466  800Mb
+  server: 104.24.88.81
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.77| RelayUSUS1789 1053Mb
+  server: 104.19.23.24
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.75|欢迎订阅youtube8度科技 15
+  server: 104.17.8.150
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.74| US459 1021Mb
+  server: 104.21.48.161
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.73| RelayUSUS1798  107Mb
+  server: 172.67.223.77
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.73| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
+  server: jp09.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.72|Relay 237Mb
+  server: free-russian-cdn.xiaohouzi.club
+  type: vmess
+  country: RU
+  port: 443
+  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
+  alterId: 233
+  cipher: auto
+  network: ws
+  ws-path: /319285eb2d/
+  servername: free-russian-cdn.xiaohouzi.club
+  ws-headers:
+    HOST: free-russian-cdn.xiaohouzi.club
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.72| US465 1050Mb
+  server: 104.18.6.138
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.71| RelayUSUS1785  089Mb
+  server: 104.20.130.43
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.71|Relay  624Mb
+  server: free-russian02-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /0459ac88c41c8f/
+  ws-headers:
+    Host: free-russian02-cdn.xiaohouzi.club
+- name: 0.71|免费分享站mffxz1526
+  server: abnode09.makegamegoal.com
+  port: 8443
+  type: trojan
+  password: 4e234754-49ce-4ed5-b369-2c82e5615497
+  sni: abnode09.makegamegoal.com
+  skip-cert-verify: false
+- name: 0.68| US462  959Mb
+  server: 104.16.149.48
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.67| CN35
+  server: server1.sh-cu.exacc.need.sh
+  type: vmess
+  country: ' CN'
+  port: 58190
+  uuid: 3f15492a-54a6-4eda-846b-bdfb049b0a27
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /Y77A2IHP
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.66| US172
+  server: usa-washington.lvuft.com
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: usa-washington.lvuft.com
+  ws-headers:
+    HOST: usa-washington.lvuft.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.66| 德国 1
+  server: 5.183.179.138
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.66| US173
+  server: 107.173.165.223
+  type: vmess
+  country: ' US'
+  port: 80
+  uuid: 379acc51-024c-4c31-965b-324c8c99167a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.65| US460  966Mb
+  server: 104.16.98.249
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.63|欢迎订阅youtube8度科技 17
+  server: 104.16.168.85
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.62|1648Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.59| TWHINET  V2  广移中转
+  server: ngzyd-1.okex-tradebot.xyz
+  port: 30012
+  type: vmess
+  uuid: 9140c163-8072-486c-b735-b3f8b1b96321
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+- name: 0.59|YouTube由零开始 2
+  server: lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: lvuft.com
+- name: 0.59| AZ香港随时挂
+  server: 13.75.53.8
+  port: 23360
+  type: vmess
+  uuid: 75bcda69-dbe1-4e11-beeb-7c44a5aa4981
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: pull.free.video.10010.com
+- name: 0.58| httpsgitiov9999 圣何塞tcp ip5 4
+  server: 137.175.30.251
+  port: 111
+  type: vmess
+  uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.57| US453 1069Mb
+  server: 104.16.241.127
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.57| HK67
+  server: 103.138.75.235
+  type: vmess
+  country: ' HK'
+  port: 443
+  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /clientarea
+  servername: 103.138.75.235
+  ws-headers:
+    HOST: 103.138.75.235
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.56| 中国日本 沪日IEPL传输 EquinixTY8 A02 Netflix
+  server: jp02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.56| CN32
+  server: cn.zzv13.infonode.xyz
+  type: vmess
+  country: ' CN'
+  port: 17011
+  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: cn.zzv13.infonode.xyz
+  ws-headers:
+    HOST: cn.zzv13.infonode.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.52| RelayUSUS1800  998Mb
+  server: 104.17.62.78
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.52| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 0.51|Relay 3146Mb
+  server: c27821f.ha.gladns.com
+  port: 3306
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /s/c27821f.fm.apple.com:16708
+  ws-headers:
+    Host: c27821f.ha.gladns.com
+- name: 0.50| US452  981Mb
+  server: 104.16.182.15
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.49|CN342 1152Mb
+  server: 43.240.206.227
+  type: trojan
+  country: CN
+  port: 3389
+  password: ba4fedf8c217c146
+  skip-cert-verify: true
+  udp: true
+- name: 0.49|Relay 1903Mb
+  server: c27821f.hf.gladns.com
+  port: 3306
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /s/c27821f.fm.apple.com:16708
+  ws-headers:
+    Host: c27821f.hf.gladns.com
+- name: 0.48| httpsgitiov9999 圣何塞 ip2 5
+  server: 198.200.51.189
+  port: 12448
+  type: vmess
+  uuid: cf418744-50df-11ec-ab76-00163cb56238
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /lLFr6UCB/
+  ws-headers:
+    Host: 198.200.51.189
+- name: 0.47|SG47
+  server: 139.162.51.223
+  port: 51939
+  type: vmess
+  uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 0.44| httpsgitiov9999 圣何塞tcp ip5 3
+  server: 142.4.123.135
+  port: 38899
+  type: vmess
+  uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.44| httpsgitiov9999 圣何塞tcp ip5 9
+  server: 192.74.254.112
+  port: 111
+  type: vmess
+  uuid: fe89e0f2-404d-11ec-81f4-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.44| 每日更新节点mffxz330
+  server: shcn2-06b.iplc188.com
+  port: 10005
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.44| httpsgitiov9999 圣何塞tcp ip5 7
+  server: 142.4.123.249
+  port: 500
+  type: vmess
+  uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.44| 中国日本 多协议标签交换虚拟专用网 A1 1000Mbps
+  server: hr01.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.43| HKHKBN  V2  广移中转
+  server: ngzyd-1.okex-tradebot.xyz
+  port: 30000
+  type: vmess
+  uuid: 9140c163-8072-486c-b735-b3f8b1b96321
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ngzyd-1.okex-tradebot.xyz
+- name: 0.43| httpsgitiov9999 圣何塞 ip2 9
+  server: 192.74.254.112
+  port: 52244
+  type: vmess
+  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /E0Y46mSw/
+  ws-headers:
+    Host: 192.74.254.112
+- name: 0.41|Relay6291Mb
+  server: c27821f.rb.cloudflare.systems
+  type: vmess
+  port: 80
+  udp: true
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /s/c27821f.fm.icloud.com:16708
+  ws-headers:
+    Host: c27821f.rb.cloudflare.systems
+  http-opts: {}
+  h2-opts: {}
+- name: 0.40|3028Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.39|wwwimlamcom提供节点 19
+  server: 185.252.223.202
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
+- name: 0.38|RelayUSUS430
   server: 104.26.9.74
   type: vmess
   country: US
@@ -1336,435 +1401,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.73| As 泰国 02 TH 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2314
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.73| As 日本 01 JP 2x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2011
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.72| V4193广东台湾NFx20SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40193
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.71| RO63 TGpeekfun
-  server: 185.126.116.235
-  port: 443
-  type: trojan
-  country: ' RO'
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.68| As 韩国 01 KR 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2317
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.68| As 印尼 02 ID 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2301
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.67|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 0.65| httpsgitiov9999 莫斯科v2ray ip3 2
-  server: 2.56.241.192
-  port: 8660
-  type: vmess
-  uuid: 60394de0-50e0-11ec-83da-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /t1D4pHGU/
-  ws-headers:
-    Host: 2.56.241.192
-- name: 0.64| V378广东台湾x10SSR
-  server: jzgdyd-tw.ddns-only.xyz
-  port: 40078
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.62| 中转台湾中华电信06微信ddly000
-  server: cm-jm.okvpn.xyz
-  port: 20047
-  type: vmess
-  uuid: 9ff08877-9269-4916-bc2b-2736a6f44326
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cm-jm.okvpn.xyz
-- name: 0.62| As 台湾 09 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2312
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.62| As 台湾 10 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2709
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.61| 778Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.61| As 香港 07 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2028
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.61|wwwimlamcom提供节点 19
-  server: 185.252.223.202
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
-- name: 0.61|As 柬埔寨 KH 3x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2701
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.60| 中国日本 多协议标签交换虚拟专用网 D7 1000Mbps
-  server: hr07.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 0.60|As 蒙古国 MN 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2328
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.60| httpsgitiov9999 莫斯科v2ray 3
-  server: 2.56.241.192
-  port: 2317
-  type: vmess
-  uuid: 8c2f34fc-4805-11ec-a58e-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.60| RelayUSUS1805  325Mb
-  server: 104.16.167.138
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.59| As 台湾 12 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2719
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.59| httpsgitiov9999 圣何塞 ip2 2
-  server: 107.148.200.123
-  port: 23370
-  type: vmess
-  uuid: 938eb42e-50df-11ec-8129-00163c1b189e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /SZF3TKj8/
-  ws-headers:
-    Host: 107.148.200.123
-- name: 0.57|1626Mb
-  server: 103.138.75.235
-  type: vmess
-  country: HK
-  port: 443
-  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /clientarea
-  servername: 103.138.75.235
-  ws-headers:
-    HOST: 103.138.75.235
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.56|Relay  682Mb
-  server: us1nhg-node.aiqiche123.com
-  port: 13723
-  type: vmess
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: ray
-  ws-headers:
-    Host: us1nhg-node.aiqiche123.com
-- name: 0.56| As 新加坡 03 SG 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2002
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.54| As 香港 04 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2025
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.53| httpsgitiov9999 莫斯科v2ray 4
-  server: 2.56.241.192
-  port: 49491
-  type: vmess
-  uuid: 7f0c36ee-4805-11ec-a58e-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.52| JP46 TGpeekfun
-  server: 5.183.177.111
-  port: 443
-  type: trojan
-  country: ' JP'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.52| RelayUSUS1801  476Mb
-  server: 104.16.16.255
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.51| V3197上海香港HKTNFx15SSR
-  server: niuniu-shlt-01.ddns-only.xyz
-  port: 40197
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.51| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 0.50| V322广东香港x15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40022
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.50| httpsgitiov9999 莫斯科v2ray
-  server: 2.56.241.192
-  port: 1964
-  type: vmess
-  uuid: 85921560-4805-11ec-a58e-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.50| 日本AWS 02 Netflix 1x
-  server: guangzou-yd-jy-03.pucdn.me
-  port: 40002
-  type: vmess
-  uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l1-aws-jp-02.pucdn.me
-- name: 0.50|Relay  544Mb
-  server: free-russian02-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /0459ac88c41c8f/
-  ws-headers:
-    Host: free-russian02-cdn.xiaohouzi.club
-- name: 0.50| httpsgitiov9999 莫斯科v2ray 6
-  server: 2.56.241.192
-  port: 3578
-  type: vmess
-  uuid: 78b2bdae-4805-11ec-a58e-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.49| httpsgitiov9999 圣何塞v2ray 6
-  server: 142.4.123.249
-  port: 500
-  type: vmess
-  uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.47| 新加坡
-  server: zhuzhu12.com
-  port: 12819
-  type: vmess
-  uuid: d6a85728-37ef-38bf-8c0d-801f0c5044ee
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: zhuzhu12.com
-- name: 0.42| httpsgitiov9999 莫斯科v2ray ip3
-  server: 2.56.241.192
-  port: 1923
-  type: vmess
-  uuid: 590fd4e4-50e0-11ec-83da-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /iCFcl8UW/
-  ws-headers:
-    Host: 2.56.241.192
-- name: 0.42| httpsgitiov9999 圣何塞 ip2 9
-  server: 192.74.254.112
-  port: 52244
-  type: vmess
-  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /E0Y46mSw/
-  ws-headers:
-    Host: 192.74.254.112
-- name: 0.41| As 台湾 04 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2307
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.40|Relay 1202Mb
-  server: usa-washington.lvuft.com
+- name: 0.37|Relay  817Mb
+  server: usa-dallas.lvuft.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -1774,134 +1412,44 @@ proxies:
   network: ws
   ws-path: /ws
   ws-headers:
-    Host: usa-washington.lvuft.com
-- name: 0.40| SG76 TGpeekfun
-  server: 81.90.189.85
-  port: 443
-  type: trojan
-  country: ' SG'
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.39| RelayUSUS1796  814Mb
-  server: 104.16.160.114
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.39| 日本AWS 04 Netflix 1x
-  server: guangzou-yd-jy-03.pucdn.me
-  port: 40004
-  type: vmess
-  uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l1-aws-jp-04.pucdn.me
-- name: 0.37| githubcomfreefq  美国CloudFlare节点 13
-  server: api.ssfree.ru
-  port: 443
-  type: vmess
-  uuid: d4174a72-50c8-11ec-a8df-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: api.ssfree.ru
-- name: 0.37| 香港极速 2
-  server: 42.157.196.104
-  port: 20333
+    Host: usa-dallas.lvuft.com
+- name: 0.36| 香港极速
+  server: 103.116.73.117
+  port: 10046
   type: ssr
-  cipher: aes-256-cfb
-  password: CWSZscLkjf
+  cipher: rc4-md5
+  password: abK09D1FnV
   protocol: auth_aes128_md5
   obfs: http_post
   protocol-param: 257682:t5ehNgCUfQ
   obfs-param: ''
-- name: 0.37| httpsgitiov9999 莫斯科v2ray 5
-  server: 2.56.241.192
-  port: 36600
+- name: 0.36| CN19
+  server: 42.157.8.162
   type: vmess
-  uuid: 6c66e818-4805-11ec-a58e-56503998dcfb
-  alterId: 0
+  country: ' CN'
+  port: 48106
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
   cipher: auto
-  tls: false
-- name: 0.36| v2rayseCN中国5
-  server: global-transit-hk-v2.pucdn.me
-  port: 31123
-  type: vmess
-  uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: global-transit-hk-v2.pucdn.me
-- name: 0.36| httpsgitiov9999 圣何塞 ip2 4
-  server: 137.175.30.251
-  port: 16873
-  type: vmess
-  uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /UWNKisZB/
-  ws-headers:
-    Host: 137.175.30.251
-- name: 0.36| As 香港 01 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2022
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.35|CA4
-  server: t6.ssrsub.com
-  port: 21033
-  type: trojan
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 0.35| 日本 まつやまし auひかり ホーム1ギガ D 07
-  server: jp07.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 0.35| V320广东香港x15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40020
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 0.33|Relay 1651Mb
-  server: zecjk.com
+- name: 0.34| US1911 3124Mb
+  server: 45.32.92.32
+  port: 28085
+  type: vmess
+  uuid: 34e75a3a-523c-11ec-958f-560003b6456a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fR9iUNuI/
+  ws-headers:
+    Host: 45.32.92.32
+- name: 0.32|Relay  503Mb
+  server: uk-manchester.eiw2eemo.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -1911,69 +1459,68 @@ proxies:
   network: ws
   ws-path: /ws
   ws-headers:
-    Host: zecjk.com
-- name: 0.33| US221
-  server: 107.173.165.223
+    Host: uk-manchester.eiw2eemo.com
+- name: 0.32| SG114
+  server: eeh7iewe.com
   type: vmess
-  country: ' US'
-  port: 80
-  uuid: 379acc51-024c-4c31-965b-324c8c99167a
-  alterId: 0
+  country: ' SG'
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
   network: ws
-  ws-path: /
+  ws-path: /ws
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 0.33|As 哈萨克斯坦 KZ 2x
-  server: beijing-anycast.vodafone.cyou
-  port: 2602
+- name: 0.31| 中国日本 多协议标签交换虚拟专用网 D3 1000Mbps
+  server: hr03.clashcloud.tech
+  port: 59866
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 0.32|CA5
-  server: t7.ssrsub.com
-  port: 21033
-  type: trojan
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
-  skip-cert-verify: true
-  udp: true
-- name: 0.32| As 台湾 05 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2308
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.31| 中国日本 多协议标签交换虚拟专用网 A4 1000Mbps
+  server: hr04.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.31| As 台湾 11 TW 25x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2718
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.30| As 香港 02 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2023
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 0.29|Relay 341Mb
-  server: ycgyg.com
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.29|Jsnzkmffxz频道节点 禁转载751
+  server: Ze9baeS5.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: Ze9baeS5.com
+- name: 0.29| httpsgitiov9999 圣何塞 ip2
+  server: 198.200.51.34
+  port: 25119
+  type: vmess
+  uuid: 8362c536-50df-11ec-861e-00163cc87418
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /k5LKHPOs/
+  ws-headers:
+    Host: 198.200.51.34
+- name: 0.28|Relay2556Mb
+  server: zecjk.com
   type: vmess
   country: SG
   port: 443
@@ -1982,20 +1529,47 @@ proxies:
   cipher: auto
   network: ws
   ws-path: /ws
-  servername: ycgyg.com
+  servername: zecjk.com
   ws-headers:
-    HOST: ycgyg.com
+    HOST: zecjk.com
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.29| As 香港 03 HK 2x
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2024
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
+- name: 0.28| RelayUSUS1782  120Mb
+  server: 104.20.130.175
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.27|欢迎订阅youtube8度科技 14
+  server: 104.16.147.181
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.27| 399元高速节点购买httpsc1ncngxvip
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
