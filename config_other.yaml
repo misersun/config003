@@ -1,15 +1,15 @@
 proxies:
-- name: 10.11| CTCM HKT L
-  server: shonlinesandcu03.proconcn.xyz
-  port: 561
+- name: 11.50| 香港 03 测试
+  server: 42.157.196.103
+  port: 10685
   type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
+  cipher: rc4-md5
+  password: Yk4UdrOyQg
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
+  obfs: http_post
+  protocol-param: 263557:yNOhVr4keT
   obfs-param: ''
-- name: 9.99| CTCM HKT C
+- name: 10.81| CTCM HKT C
   server: shcris03.proconcn.xyz
   port: 568
   type: ssr
@@ -19,7 +19,17 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 9.65| CTCM HKT K
+- name: 9.61| CTCM HKT L
+  server: shonlinesandcu03.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 9.59| CTCM HKT K
   server: shonlinesandcu03.proconcn.xyz
   port: 560
   type: ssr
@@ -29,28 +39,8 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 6.62| 日本 Azure A 25x
-  server: shallaz.proconcn.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 5.60| CTCM HKT N
-  server: shcris02stand.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 5.58| CTCM HKT J
-  server: shonlinesandcu02.proconcn.xyz
+- name: 8.41| CTCM HKT I
+  server: cusouthcmhk.procncon.xyz
   port: 562
   type: ssr
   cipher: chacha20-ietf
@@ -59,7 +49,7 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 5.36| CTCM HKT G
+- name: 7.52| CTCM HKT G
   server: cusouthcmhk.procncon.xyz
   port: 561
   type: ssr
@@ -69,47 +59,7 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 4.74| CTCM HKBN B
-  server: shonlinesandcu02.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 4.34| CTCM HKBN D
-  server: shcris02stand.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 3.96| 香港 1
-  server: 183.232.170.112
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 3.95| 日本 まつやまし auひかり ホーム1ギガ A 07
-  server: jpid07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.88| CTCM HKBN C
+- name: 7.27| CTCM HKBN C
   server: cncusouth.procncon.xyz
   port: 562
   type: ssr
@@ -119,8 +69,58 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 3.64| CTCM HKT I
-  server: cusouthcmhk.procncon.xyz
+- name: 7.03| 日本 Azure A 25x
+  server: shallaz.proconcn.xyz
+  port: 560
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 6.92| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 6.67| CTCM HKBN B
+  server: shonlinesandcu02.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 6.55| CTCM HKT N
+  server: shcris02stand.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 6.54| 日本 Azure B 25x
+  server: shallaz.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 6.48| CTCM HKT J
+  server: shonlinesandcu02.proconcn.xyz
   port: 562
   type: ssr
   cipher: chacha20-ietf
@@ -129,57 +129,87 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 3.57| 日本 ソフトバンク A05 500Mbps 1x Netflix
-  server: jp17.serenazuma.com
-  port: 11764
+- name: 6.19| AA中继HKLeaseweb01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19025
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 5.33| AA中继HKHKT01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19072
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 5.00| AA中继HK打機神線01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19039
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.96| 新加坡B 25x
+  server: shallaz.proconcn.xyz
+  port: 563
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 4.93| AA中继HKLeaseweb03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19041
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.74| AA中继HKHGC011Gbps  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19093
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.43| 日本 ソフトバンク B02 500Mbps 1x Netflix
+  server: jp07.yootoo6oocoo1oo.xyz
+  port: 1554
   type: ssr
   cipher: rc4-md5
-  password: MwEWb0
+  password: IJPRP8
   protocol: origin
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 3.47| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
-  server: hr07.serenazuma.com
-  port: 11764
+- name: 4.39| 日本大阪 オプテージ B 06
+  server: jp19.yootoo6oocoo1oo.xyz
+  port: 1554
   type: ssr
   cipher: rc4-md5
-  password: MwEWb0
+  password: IJPRP8
   protocol: origin
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 3.46| 日本 まつやまし auひかり ホーム1ギガ A 03
-  server: jpid03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.35| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
-  server: jp08.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.35| 日本日本大阪 オプテージ A 04
-  server: jpaz04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.28| 日本日本大阪 オプテージ A 08
+- name: 4.39| 日本日本大阪 オプテージ A 08
   server: jpaz08.serenazuma.com
   port: 11764
   type: ssr
@@ -189,27 +219,7 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 3.27| 日本 ソフトバンク A04 500Mbps 1x Netflix
-  server: jp16.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.20| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
-  server: jp04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.19| 日本 まつやまし auひかり ホーム1ギガ A 04
+- name: 4.38| 日本 まつやまし auひかり ホーム1ギガ A 04
   server: jpid04.serenazuma.com
   port: 11764
   type: ssr
@@ -219,167 +229,7 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 3.17| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
-  server: hr02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.01| 新加坡A 25x
-  server: shallaz.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.99| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
-  server: hr03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.98| 中国日本 多协议标签交换虚拟专用网 A6 1000Mbps
-  server: hr06.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.97| CTCM HKBN A
-  server: shonlinesandcu02.proconcn.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.90| 美国 优化 E 35
-  server: usastandard.proconcn.xyz
-  port: 564
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.87| 中国日本 多协议标签交换虚拟专用网 A10 1000Mbps
-  server: hr10.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.85| 美国 优化 B 35
-  server: usastandard.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.85| 新加坡B 25x
-  server: shallaz.proconcn.xyz
-  port: 563
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.81| 美国 优化 C 35
-  server: usastandard.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.80| 美国 优化 A 35
-  server: usastandard.proconcn.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.79| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
-  server: jp09.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.60| 美国 优化 D 35
-  server: usastandard.proconcn.xyz
-  port: 563
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.11| 德国
-  server: relaypro.procncon.xyz
-  port: 618
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.10| 日本 Azure B 25x
-  server: shallaz.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 1.77| 香港04测试
-  server: 42.157.196.104
-  port: 20817
-  type: ssr
-  cipher: aes-256-cfb
-  password: CWSZscLkjf
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 251854:Qaf3vgcBue
-  obfs-param: ''
-- name: 1.59| 日本日本大阪 オプテージ A 01
+- name: 4.36| 日本日本大阪 オプテージ A 01
   server: jpaz01.serenazuma.com
   port: 11764
   type: ssr
@@ -389,7 +239,147 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 0.79| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
+- name: 4.33| AA中继JPLinode03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 10003
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.33| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
+  server: jp09.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.32| Lv1SGLinode01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19032
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.30| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
+  server: jp04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.29| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
+  server: jp08.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.25| 日本 まつやまし auひかり ホーム1ギガ A 07
+  server: jpid07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.24| 日本 ソフトバンク A05 500Mbps 1x Netflix
+  server: jp17.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.24| AA中继HKLeaseweb02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19026
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.24| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
+  server: hr03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.21| 日本 まつやまし auひかり ホーム1ギガ A 03
+  server: jpid03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.20| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
+  server: hr02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.19| 日本日本大阪 オプテージ A 04
+  server: jpaz04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.17| 中国日本 多协议标签交换虚拟专用网 A6 1000Mbps
+  server: hr06.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.08| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
+  server: hr07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.05| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
   server: jp01.serenazuma.com
   port: 11764
   type: ssr
@@ -399,22 +389,113 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 0.58| 香港 2
-  server: 116.163.10.131
-  port: 22779
+- name: 4.01| 日本 まつやまし auひかり ホーム1ギガ B 14
+  server: jp24.yootoo6oocoo1oo.xyz
+  port: 1554
+  type: ssr
+  cipher: rc4-md5
+  password: IJPRP8
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.95| AA中继HKNTT02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19004
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.86| 日本 ソフトバンク A04 500Mbps 1x Netflix
+  server: jp16.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.80| AA中继JPNTT02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19052
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.80| 中国日本 多协议标签交换虚拟专用网 B4 1000Mbps
+  server: hr04.yootoo6oocoo1oo.xyz
+  port: 1554
+  type: ssr
+  cipher: rc4-md5
+  password: IJPRP8
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.76| 日本大阪 オプテージ B 03
+  server: jp16.yootoo6oocoo1oo.xyz
+  port: 1554
+  type: ssr
+  cipher: rc4-md5
+  password: IJPRP8
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.67| CTCM HKT F
+  server: cusouthcmhk.procncon.xyz
+  port: 560
   type: ssr
   cipher: chacha20-ietf
-  password: m2KSOD
+  password: mblank1port
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 0.32|CN7
-  server: ssr3.ssrsub.com
-  port: 8333
-  type: ssr
-  password: passfw2xs4e!
-  cipher: rc4-md5
-  protocol: origin
-  protocol_param: t.me/SSRSUB
   obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 3.64| 中国日本 沪日IEPL传输 EquinixTY8 B06 Netflix
+  server: hr16.yootoo6oocoo1oo.xyz
+  port: 1554
+  type: ssr
+  cipher: rc4-md5
+  password: IJPRP8
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.62| AA中继JPLinode02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19075
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.61| Lv1SGNTT01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19076
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.52| Lv1SGDO  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19031
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
