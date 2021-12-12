@@ -1,14 +1,25 @@
 proxies:
-- name: 2.66|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.97| 广州美国 DMIT丨全解锁丨A1
+- name: 2.80| 上海CN2 美国 DMIT丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11423
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 2.02| 上海CN2 美国 readydedis丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11427
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 0.85| 广州美国 DMIT丨全解锁丨A1
   server: gzydddns.xyz
   port: 11805
   type: ssr
@@ -18,3 +29,19 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 2489:xnf3AY
   obfs-param: 699512489.microsoft.com
+- name: 0.74|1295Mb
+  server: 142.202.48.34
+  type: ss
+  country: US
+  port: 8009
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 0.46|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
