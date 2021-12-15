@@ -1,82 +1,5 @@
 proxies:
-- name: 2.69|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.35| 广州美国 DMIT丨全解锁丨A1
-  server: gzydddns.xyz
-  port: 11805
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 2.29|Relay2488Mb
-  server: 183.232.56.106
-  type: ssr
-  country: CN
-  port: 11805
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 2489:xnf3AY
-  obfs: tls1.2_ticket_auth
-  obfs-param: t.me/vpnhat
-- name: 2.20|Relay2514Mb
-  server: 183.232.56.106
-  type: ssr
-  country: CN
-  port: 35247
-  password: Fhbe0z
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  protocol-param: 2489:xnf3AY
-  obfs: tls1.2_ticket_auth
-  obfs-param: t.me/vpnhat
-- name: 2.11| 广州美国 DMIT丨全解锁丨A2
-  server: gzydddns.xyz
-  port: 35247
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 1.96|2332Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.79| AA中继USHE01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19030
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 1.08|3334Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.71| 广州移动Santa ClaraTencentnfEXTM3U
+- name: 2.31| 广州移动Santa ClaraTencentnfEXTM3U
   server: 183.232.56.106
   port: 11804
   type: ssr
@@ -86,3 +9,11 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 2489:xnf3AY
   obfs-param: t.me/vpnhat
+- name: 0.82| JP53 TGpeekfun
+  server: 5.183.177.111
+  port: 443
+  type: trojan
+  country: ' JP'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
