@@ -1,69 +1,27 @@
 proxies:
-- name: 7.52|YouTube由零开始
-  server: sxqxj.cn
-  port: 2164
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: sxqxj.cn
-- name: 4.37| aJapanDMM
+- name: 5.40| aJapanDMM
   server: hygz.q-air.icu
   port: 18221
   type: trojan
   password: d485205a-abc6-3940-8f89-faf533b0b001
   sni: hygz.q-air.icu
   skip-cert-verify: false
-- name: 3.26| aTaiwanIns
-  server: tw.q-air.icu
-  port: 32443
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: tw.q-air.icu
-  skip-cert-verify: false
-- name: 2.50|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.37|defaultname
-  server: v1.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: 13b36e17-e869-4b77-bf33-e5a431eac496
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v1.ssrsub.com
-- name: 2.27| b美西首选
+- name: 2.08| b美西首选
   server: hygz.q-air.icu
   port: 18421
   type: trojan
   password: d485205a-abc6-3940-8f89-faf533b0b001
   sni: hygz.q-air.icu
   skip-cert-verify: false
-- name: 2.10|2182Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
+- name: 1.73| NL53 TGpeekfun
+  server: 185.171.120.144
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  type: trojan
+  country: ' NL'
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.77|HK4891539Mb
+- name: 1.70|1539Mb
   server: 103.138.75.235
   type: vmess
   country: HK
@@ -80,23 +38,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.68| SG66 TGpeekfun
-  server: 81.90.189.85
-  port: 443
-  type: trojan
-  country: ' SG'
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.64| 942Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.60|1638Mb
+- name: 1.59|1638Mb
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -104,99 +46,19 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.56|Relay 473Mb
-  server: usa-dallas.lvuft.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  servername: usa-dallas.lvuft.com
-  ws-headers:
-    HOST: usa-dallas.lvuft.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.46|Pool 564Mb
-  server: 45.35.84.162
-  type: vmess
-  country: US
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  servername: usa-dallas.lvuft.com
-  ws-headers:
-    HOST: usa-dallas.lvuft.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.46|3497Mb
-  server: 62.216.92.179
+- name: 1.57|SG99510568Mb
+  server: 81.90.189.85
   type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.45| 399元高速节点购买httpsc1ncngxvip
-  server: usa-buffalo.lvuft.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: usa-buffalo.lvuft.com
-- name: 1.41| 802Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.39|1693Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
+  country: SG
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.36|CAYoutube技术分享室整理
-  server: 192.186.129.66
+- name: 1.47| NL56 TGpeekfun
+  server: 89.31.127.151
   port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: usa-buffalo.lvuft.com
-- name: 1.21|wwwimlamcom提供节点 19
-  server: 185.252.223.202
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
+  type: trojan
+  country: ' NL'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
