@@ -1,5 +1,18 @@
 proxies:
-- name: 6.35|HK497  589Mb
+- name: 4.58| bJapanNetflix
+  server: hygz.q-air.icu
+  port: 18201
+  type: vmess
+  uuid: d485205a-abc6-3940-8f89-faf533b0b001
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: np
+  ws-headers:
+    Host: dvm-jp1.q-air.icu
+- name: 4.50|HK497  589Mb
   server: hk.iq.ddns.mobi
   type: vmess
   country: HK
@@ -15,57 +28,119 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.54|HK498  573Mb
-  server: 23.98.36.128
+- name: 3.69|RelayCNHK2661828Mb
+  server: 116.192.175.25
   type: vmess
-  country: HK
-  port: 51653
-  uuid: c897e529-523d-3956-8725-63d2912029d4
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /qweewqwewguqe
-  servername: www.gov.cn
-  ws-headers:
-    HOST: www.gov.cn
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.59| 每日更新节点mffxz330
-  server: shcn2-06b.iplc188.com
-  port: 10005
-  type: vmess
+  country: CN
+  port: 10001
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- alterId: 0
-  cipher: auto
-  name: 2.88|1214oslook加拿大CACanadaToronto52
-  network: ws
-  port: 2082
-  server: 198.41.212.234
-  tls: false
-  type: vmess
-  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
-  ws-headers:
-    Host: download.jianguoyun.com
-  ws-path: /media/
-- name: 1.97|1347Mb
-  server: 149.248.16.94
-  type: vmess
-  country: US
-  port: 61489
-  uuid: 024b5140-5c72-11ec-8d18-560003bc59d9
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /bK3AFW57/
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.69| 551Mb
+- name: 3.44|Relay 401Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10003
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 112.33.32.136
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.83| HKYoutube技术分享室整理 3
+  server: 139.227.161.129
+  port: 10004
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.61|2321Mb
+  server: 149.28.79.47
+  type: vmess
+  country: US
+  port: 63744
+  uuid: 5c7b78ca-5d3a-11ec-be5c-560003bcd9c1
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /reCRBW6w/
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.44|1673Mb
+  server: 152.70.127.223
+  type: vmess
+  country: US
+  port: 80
+  uuid: 44e0d410-535a-11ec-968f-02001700aa14
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.36|Relay1219Mb
+  server: armsj2.kozow.com
+  type: vmess
+  country: US
+  port: 80
+  uuid: 44e0d410-535a-11ec-968f-02001700aa14
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.20| RelayCNUS227
+  server: zj.haojiahuo.club
+  port: 30077
+  type: vmess
+  uuid: 4a6ada0c-e453-3217-8210-8556f9c92494
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /videos
+  ws-headers:
+    Host: xuexi.cn
+- name: 2.07| RelayCNUS241
+  server: zj.haojiahuo.club
+  port: 30052
+  type: vmess
+  uuid: 4a6ada0c-e453-3217-8210-8556f9c92494
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /videos
+  ws-headers:
+    Host: xuexi.cn
+- name: 1.86|US161  552Mb
+  server: 142.4.123.249
+  type: vmess
+  country: US
+  port: 500
+  uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.62| 955Mb
   server: 42.157.8.162
   type: vmess
   country: CN
@@ -78,24 +153,57 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.54| 882Mb
-  server: 194.50.170.74
+- name: 1.59|1016Mb
+  server: 45.142.158.85
   type: vmess
-  country: RU
-  port: 63555
-  uuid: 8cc23f14-5c72-11ec-adab-961d85b1a943
-  alterId: 0
+  country: GB
+  port: 28582
+  uuid: a1c67882-cf3c-4b89-f0f0-890c1bc97f22
+  alterId: 128
   cipher: auto
-  network: tcp
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.45|Relay 394Mb
+- name: 1.56|SSRSUBV42付费推荐suoytssrsub
+  server: 198.41.212.234
+  port: 2052
+  type: vmess
+  uuid: 00000000-1111-2222-3333-444444444444
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /Telegram/@Loss_0_Vmess
+  ws-headers:
+    Host: free.jianguoyun.com
+- name: 1.35| YouTube由零开始CNTW254
+  server: shcu01.iplc188.com
+  port: 10004
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.18| RU825 2022Mb
+  server: 193.233.85.226
+  port: 24758
+  type: vmess
+  uuid: ec4e35ee-5d64-11ec-a957-7e88ef32b81a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /uPe7SYWz/
+  ws-headers:
+    Host: 193.233.85.226
+- name: 1.16|Relay1122Mb
   server: shcn2-06b.iplc188.com
   type: vmess
   country: CN
-  port: 10004
+  port: 10001
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
@@ -105,28 +213,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.44| HU55 TGpeekfun
-  server: 185.225.69.134
-  port: 45081
+- name: 1.08|1525Mb
+  server: 194.135.32.100
   type: vmess
-  country: ' HU'
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-  alterId: 64
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- name: 1.07| US218
-  server: 142.4.123.249
-  type: vmess
-  country: ' US'
-  port: 500
-  uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9
+  country: RU
+  port: 17736
+  uuid: f0b94cb8-5d64-11ec-9f3f-1637e7a279b2
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /QoETN87w/
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
