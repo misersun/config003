@@ -1,38 +1,17 @@
 proxies:
-- name: 4.17|浦东电信vpnpool 3
-  server: 116.192.164.53
-  port: 1801
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31799:saitez
-  obfs-param: t.me/vpnhat
-- name: 2.75| 北京腾讯云vpnpool 31
-  server: 162.14.17.218
-  port: 1132
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31799:saitez
-  obfs-param: t.me/vpnhat
-- name: 2.40|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 0.58| JP54 TGpeekfun
+- name: 0.98| 712Mb
   server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.61| US99 TGpeekfun
+  server: 72.167.45.6
   port: 443
   type: trojan
-  country: ' JP'
-  password: a3fa58b581353bb375d2ddad0f327938
+  country: ' US'
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
