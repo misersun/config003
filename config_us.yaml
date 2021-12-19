@@ -1,12 +1,21 @@
 proxies:
-- name: 2.92|Relay 462Mb
-  server: euchei9j.nodeinfo.icu
+- name: 2.90|Relay 862Mb
+  server: ahc1beib.nodeinfo.icu
   type: ssr
   country: CN
-  port: 1121
+  port: 1132
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   protocol-param: 155402:h6F10T
   obfs: tls1.2_ticket_auth
   obfs-param: 078e5155402.www.gov.hk
+- name: 1.16|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
