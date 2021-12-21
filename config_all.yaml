@@ -1,31 +1,5 @@
 proxies:
-- name: 10.15| 标准香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16116
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 9.30|Relay5620Mb
-  server: tw04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 13026
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 7.30| 标准香港03解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16113
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 7.02| 专线香港08原生HGCBBS
+- name: 8.70| 专线香港08原生HGCBBS
   server: zfd.out02.nodeserver.top
   port: 16237
   type: vmess
@@ -34,129 +8,33 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.92| 专线香港06解锁流媒体
+- name: 8.18| 标准香港03解锁流媒体
   server: zfd.out03.nodeserver.top
-  port: 16218
+  port: 16113
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.75| 专线中国台湾01原生HINET优化
-  server: zfd.out01.nodeserver.top
-  port: 16239
+- name: 8.14| 专线香港02主力节点
+  server: zfd.out02.nodeserver.top
+  port: 16214
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.62| TunnelK新加坡 普通 4  DO  21000 单端口
-  server: nkb.boom.party
-  port: 21000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 107440:xsWJSz
-  obfs-param: www.baidu.com
-- name: 6.56| TunnelF香港 VIP 7  HKBN  17000 单端口
-  server: n114.boom.party
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 107440:xsWJSz
-  obfs-param: www.baidu.com
-- name: 5.63| 专线日本01解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16207
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.43|CN317
-  server: cn.zzv01.infonode.xyz
-  type: vmess
-  country: CN
-  port: 17011
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: cn.zzv01.infonode.xyz
-  ws-headers:
-    HOST: cn.zzv01.infonode.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.80|Relay6432Mb
-  server: jp04.cnzffw.com
+- name: 7.68|Relay7246Mb
+  server: 183.232.13.75
   type: trojan
   country: CN
-  port: 12021
+  port: 13034
   password: 20173681-72a9-440f-9cac-d9b773a34f7d
   skip-cert-verify: true
   udp: true
-- name: 4.19| CN62
-  server: cn.zzv07.infonode.xyz
-  type: vmess
-  country: ' CN'
-  port: 17011
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: cn.zzv07.infonode.xyz
-  ws-headers:
-    HOST: cn.zzv07.infonode.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.80| CN64
-  server: cn.zzv05.infonode.xyz
-  type: vmess
-  country: ' CN'
-  port: 17011
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: cn.zzv05.infonode.xyz
-  ws-headers:
-    HOST: cn.zzv05.infonode.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.72| 专线西雅图02原生NTT
-  server: zfd.out02.nodeserver.top
-  port: 16234
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.94| JK1V4湖新LINODE0215x流量解锁
-  server: jike1-gzyd.ddns-only.xyz
-  port: 31568
-  type: ssr
-  cipher: chacha20-ietf
-  password: yT6Am5
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 156931:VxAvMJ
-  obfs-param: 67a6c156931.microsoft.com
-- name: 2.85| 标准香港02解锁流媒体
+- name: 7.10| 标准香港02解锁流媒体
   server: zfd.out02.nodeserver.top
   port: 16112
   type: vmess
@@ -165,29 +43,89 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.97|Relay 004Mb
-  server: v1.ssrsub.com
+- name: 6.49| 专线香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16218
   type: vmess
-  country: US
-  port: 8443
-  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.75| RO102 TGpeekfun
-  server: 62.216.92.180
-  port: 443
+  tls: false
+  skip-cert-verify: false
+- name: 5.20|Relay6432Mb
+  server: jp04.cnzffw.com
   type: trojan
-  country: ' RO'
-  password: a3fa58b581353bb375d2ddad0f327938
+  country: CN
+  port: 12021
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
   skip-cert-verify: true
   udp: true
-- name: 1.58|12210Mb
+- name: 4.86| 标准日本01解锁流媒体 7
+  server: zfd.out01.nodeserver.top
+  port: 16119
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.61|Relay5620Mb
+  server: tw04.cnzffw.com
+  type: trojan
+  country: CN
+  port: 13026
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 4.56| 标准香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16116
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.97| CN22 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 2.75|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.11| 美国01
+  server: jp.us.kr.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: us-01.coco.hetun.asia
+- name: 1.68|2405Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.45|12210Mb
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -195,29 +133,15 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.45|Relay7246Mb
-  server: 183.232.13.75
+- name: 1.32|Relay 538Mb
+  server: t3.ssrsub.com
   type: trojan
-  country: CN
-  port: 13034
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  country: CA
+  port: 156
+  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
   skip-cert-verify: true
   udp: true
-- name: 1.41| CA30
-  server: 45.62.249.211
-  type: vmess
-  country: ' CA'
-  port: 443
-  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.26| SSRSUB美国V08付费推荐suoytssrsub
+- name: 1.02| SSRSUB美国V08付费推荐suoytssrsub
   server: v8.ssrsub.com
   port: 443
   type: vmess
@@ -229,19 +153,3 @@ proxies:
   ws-path: /ssrsub
   ws-headers:
     Host: v8.ssrsub.com
-- name: 1.19| US148 TGpeekfun
-  server: 72.167.45.6
-  port: 443
-  type: trojan
-  country: ' US'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.15|2405Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
