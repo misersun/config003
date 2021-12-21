@@ -1,5 +1,23 @@
 proxies:
-- name: 7.98| 专线香港08原生HGCBBS
+- name: 10.15| 标准香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16116
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.30| 标准香港03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16113
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.02| 专线香港08原生HGCBBS
   server: zfd.out02.nodeserver.top
   port: 16237
   type: vmess
@@ -8,64 +26,50 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 7.28| 标准香港04解锁流媒体
+- name: 6.92| 专线香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16218
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 6.75| 专线中国台湾01原生HINET优化
   server: zfd.out01.nodeserver.top
-  port: 16114
+  port: 16239
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.94| 标准香港02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16112
+- name: 5.63| 专线日本01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16207
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.60| 专线中国台湾03原生HINET
-  server: zfd.out02.nodeserver.top
-  port: 16224
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 6.48|Relay2608Mb
-  server: 120.241.72.97
+- name: 5.43|CN317
+  server: cn.zzv01.infonode.xyz
   type: vmess
   country: CN
-  port: 18119
-  uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 6.36| CN67
-  server: cn.zzv06.infonode.xyz
-  type: vmess
-  country: ' CN'
   port: 17011
   uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
   alterId: 0
   cipher: auto
   network: ws
   ws-path: /v2ray
-  servername: cn.zzv06.infonode.xyz
+  servername: cn.zzv01.infonode.xyz
   ws-headers:
-    HOST: cn.zzv06.infonode.xyz
+    HOST: cn.zzv01.infonode.xyz
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 6.27| CN62
+- name: 4.19| CN62
   server: cn.zzv07.infonode.xyz
   type: vmess
   country: ' CN'
@@ -81,16 +85,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 6.16| 标准中国台湾02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16126
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.67| CN64
+- name: 3.80| CN64
   server: cn.zzv05.infonode.xyz
   type: vmess
   country: ' CN'
@@ -106,142 +101,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.60| 专线香港04解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16216
+- name: 3.72| 专线西雅图02原生NTT
+  server: zfd.out02.nodeserver.top
+  port: 16234
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 5.39| bJapanNetflix
-  server: hygz.q-air.icu
-  port: 18201
-  type: vmess
-  uuid: d485205a-abc6-3940-8f89-faf533b0b001
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: np
-  ws-headers:
-    Host: dvm-jp1.q-air.icu
-- name: 5.35| 标准中国台湾04解锁流媒体
-  server: zfd.out04.nodeserver.top
-  port: 16128
+- name: 2.85| 标准香港02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16112
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.33| 专线香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16218
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.88| 专线中国台湾05原生HINET
-  server: zfd.out04.nodeserver.top
-  port: 16226
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.68| 标准中国台湾01解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16125
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.65| 专线台湾03原生HINET
-  server: v34.88host.buzz
-  port: 18080
-  type: vmess
-  uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.21| 标准香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16116
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.94| 专线中国台湾01原生HINET优化
-  server: zfd.out01.nodeserver.top
-  port: 16239
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.57|Relay 347Mb
-  server: 116.163.14.193
-  type: vmess
-  country: CN
-  port: 18080
-  uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.55| 标准香港03解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16113
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.24| 专线日本01解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16207
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.06|Relay 904Mb
-  server: 116.163.14.146
-  type: vmess
-  country: CN
-  port: 18042
-  uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.05| 专线台湾02原生HINET
-  server: v35.88host.buzz
-  port: 18079
-  type: vmess
-  uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4
   alterId: 0
   cipher: auto
   tls: false

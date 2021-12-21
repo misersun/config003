@@ -1,38 +1,75 @@
 proxies:
-- name: 5.85| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
+- name: 9.30|Relay5620Mb
+  server: tw04.cnzffw.com
   type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 3.03| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
+  country: CN
+  port: 13026
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 4.80|Relay6432Mb
+  server: jp04.cnzffw.com
   type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.46|trojan
-  type: trojan
-  server: 65.49.196.246
+  country: CN
+  port: 12021
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 1.97|Relay 004Mb
+  server: v1.ssrsub.com
+  type: vmess
+  country: US
+  port: 8443
+  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.75| RO102 TGpeekfun
+  server: 62.216.92.180
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.84|2626Mb
-  server: 185.105.191.92
   type: trojan
-  country: RO
+  country: ' RO'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.58|12210Mb
+  server: 81.90.189.85
+  type: trojan
+  country: SG
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.69| SSRSUB美国V01付费推荐suoytssrsub
-  server: v1.ssrsub.com
-  port: 8443
+- name: 1.45|Relay7246Mb
+  server: 183.232.13.75
+  type: trojan
+  country: CN
+  port: 13034
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 1.41| CA30
+  server: 45.62.249.211
+  type: vmess
+  country: ' CA'
+  port: 443
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.26| SSRSUB美国V08付费推荐suoytssrsub
+  server: v8.ssrsub.com
+  port: 443
   type: vmess
   uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
   alterId: 0
@@ -41,16 +78,20 @@ proxies:
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v1.ssrsub.com
-- name: 1.43| HK546
-  server: 103.138.75.226
+    Host: v8.ssrsub.com
+- name: 1.19| US148 TGpeekfun
+  server: 72.167.45.6
   port: 443
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /clientarea
-  ws-headers:
-    Host: hkbgp-100m01.nb1.fr
+  type: trojan
+  country: ' US'
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.15|2405Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
