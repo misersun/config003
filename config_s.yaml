@@ -1,64 +1,20 @@
 proxies:
-- name: 7.68|Relay7246Mb
-  server: 183.232.13.75
-  type: trojan
-  country: CN
-  port: 13034
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 5.20|Relay6432Mb
-  server: jp04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 12021
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 4.61|Relay5620Mb
-  server: tw04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 13026
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 2.75|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.68|2405Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.45|12210Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.32|Relay 538Mb
-  server: t3.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  skip-cert-verify: true
-  udp: true
-- name: 1.02| SSRSUB美国V08付费推荐suoytssrsub
-  server: v8.ssrsub.com
-  port: 443
+- name: 6.52|YouTube由零开始
+  server: sxqxj.cn
+  port: 2164
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: sxqxj.cn
+- name: 1.16| SSRSUB俄罗斯02付费推荐suoytssrsub
+  server: v2.ssrsub.com
+  port: 8443
   type: vmess
   uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
   alterId: 0
@@ -67,4 +23,4 @@ proxies:
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v8.ssrsub.com
+    Host: v2.ssrsub.com

@@ -1,44 +1,18 @@
 proxies:
-- name: 3.00|Relay1236Mb
-  server: v31.88host.buzz
+- name: 6.52|YouTube由零开始
+  server: sxqxj.cn
+  port: 2164
   type: vmess
-  country: CN
-  port: 18042
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.94|Relay 828Mb
-  server: v34.88host.buzz
-  type: vmess
-  country: CN
-  port: 18067
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.79| 新加坡02
-  server: hk.tw.sgp.relay.cccloud.club
-  port: 11000
-  type: vmess
-  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /ws
   ws-headers:
-    Host: sgp-02.cccloud.club
-- name: 2.19| 日本02
+    Host: sxqxj.cn
+- name: 4.30| 日本02
   server: jp.us.kr.relay.cccloud.club
   port: 11000
   type: vmess
@@ -51,20 +25,69 @@ proxies:
   ws-path: /
   ws-headers:
     Host: jp-02.coco.hetun.asia
-- name: 1.44|Relay 993Mb
-  server: v35.88host.buzz
+- name: 4.05| 标准日本01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16119
   type: vmess
-  country: CN
-  port: 18068
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
-  network: tcp
+  tls: false
+  skip-cert-verify: false
+- name: 3.02| 专线中国台湾01原生HINET优化
+  server: zfd.out01.nodeserver.top
+  port: 16239
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.59| 新加坡02
+  server: hk.tw.sgp.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
   ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.30| 标准中国台湾04解锁流媒体
+  ws-headers:
+    Host: sgp-02.cccloud.club
+- name: 2.26| 专线中国台湾02原生HINET
+  server: zfd.out01.nodeserver.top
+  port: 16223
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.15| 专线日本01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16207
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.09|CN12023217366644
+  server: gz.52node.xyz
+  port: 28038
+  type: vmess
+  uuid: fead7086-54ec-3772-b603-ba9e740ec3da
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: hk.jd.com
+- name: 1.79| 标准中国台湾04解锁流媒体
   server: zfd.out04.nodeserver.top
   port: 16128
   type: vmess
@@ -73,22 +96,43 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.30|Relay 960Mb
-  server: v36.88host.buzz
+- name: 1.52| 557Mb
+  server: 42.157.8.162
   type: vmess
   country: CN
-  port: 18069
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
+  port: 48106
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
   cipher: auto
   network: tcp
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.24| 专线中国台湾05原生HINET
-  server: zfd.out04.nodeserver.top
-  port: 16226
+- name: 1.26| 专线香港08原生HKBN
+  server: v32.88host.buzz
+  port: 18083
+  type: vmess
+  uuid: af603a40-6bfe-3a77-a712-1571f8a9b934
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.16| SSRSUB俄罗斯02付费推荐suoytssrsub
+  server: v2.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v2.ssrsub.com
+- name: 1.02| 标准中国台湾01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16125
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
