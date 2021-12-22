@@ -1,110 +1,44 @@
 proxies:
-- name: 8.70| 专线香港08原生HGCBBS
-  server: zfd.out02.nodeserver.top
-  port: 16237
+- name: 3.00|Relay1236Mb
+  server: v31.88host.buzz
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 8.18| 标准香港03解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16113
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 8.14| 专线香港02主力节点
-  server: zfd.out02.nodeserver.top
-  port: 16214
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 7.68|Relay7246Mb
-  server: 183.232.13.75
-  type: trojan
   country: CN
-  port: 13034
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  port: 18042
+  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 7.10| 标准香港02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16112
+- name: 2.94|Relay 828Mb
+  server: v34.88host.buzz
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 6.49| 专线香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16218
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.20|Relay6432Mb
-  server: jp04.cnzffw.com
-  type: trojan
   country: CN
-  port: 12021
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  port: 18067
+  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 4.86| 标准日本01解锁流媒体 7
-  server: zfd.out01.nodeserver.top
-  port: 16119
+- name: 2.79| 新加坡02
+  server: hk.tw.sgp.relay.cccloud.club
+  port: 11000
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.61|Relay5620Mb
-  server: tw04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 13026
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 4.56| 标准香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16116
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.97| CN22 TGpeekfun
-  server: 117.28.242.137
-  port: 9359
-  type: ssr
-  country: ' CN'
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 2.75|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.11| 美国01
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sgp-02.cccloud.club
+- name: 2.19| 日本02
   server: jp.us.kr.relay.cccloud.club
   port: 11000
   type: vmess
@@ -116,40 +50,48 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: us-01.coco.hetun.asia
-- name: 1.68|2405Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.45|12210Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.32|Relay 538Mb
-  server: t3.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  skip-cert-verify: true
-  udp: true
-- name: 1.02| SSRSUB美国V08付费推荐suoytssrsub
-  server: v8.ssrsub.com
-  port: 443
+    Host: jp-02.coco.hetun.asia
+- name: 1.44|Relay 993Mb
+  server: v35.88host.buzz
   type: vmess
-  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  country: CN
+  port: 18068
+  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v8.ssrsub.com
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.30| 标准中国台湾04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16128
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.30|Relay 960Mb
+  server: v36.88host.buzz
+  type: vmess
+  country: CN
+  port: 18069
+  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.24| 专线中国台湾05原生HINET
+  server: zfd.out04.nodeserver.top
+  port: 16226
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
