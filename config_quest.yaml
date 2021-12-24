@@ -1,5 +1,12 @@
 proxies:
-- name: 4.82| 香港 2
+- name: 7.61| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 5.62| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -9,38 +16,28 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 4.76| CN28 TGpeekfun
-  server: 122.192.154.54
-  port: 3389
+- name: 2.11|SG18141200183410
+  server: sg27.holiganfan.com
+  port: 10088
   type: trojan
-  country: ' CN'
-  password: 1910c83debd71218
-  skip-cert-verify: true
-  udp: true
-- name: 2.00|2341Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.35|13321Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.00| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
+  password: 8ee4e5da-93fb-4a55-933b-ff882337b662
   skip-cert-verify: false
-- name: 0.68|trojan
+- name: 1.93|JP1817919698587
+  server: jp14.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 8ee4e5da-93fb-4a55-933b-ff882337b662
+  skip-cert-verify: false
+- name: 1.88|RelayCNHK271  239Mb
+  server: 117.28.242.137
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.29|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -49,3 +46,42 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.11|9047Mb
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.87|US216127167103520
+  server: www.xinyi369.tk
+  port: 443
+  type: trojan
+  password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a
+  skip-cert-verify: false
+- name: 0.64| 349Mb
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.60|RelayCNHK226
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.59|Relay 764Mb
+  server: t4.ssrsub.com
+  type: trojan
+  country: CA
+  port: 156
+  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  skip-cert-verify: true
+  udp: true
