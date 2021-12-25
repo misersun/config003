@@ -1,48 +1,27 @@
 proxies:
-- name: 10.16| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
-  type: trojan
-  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
-- name: 8.78| 标准香港04解锁流媒体
+- name: 9.84|RelayCNHK3341738Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 9.22| 专线香港04解锁流媒体
   server: zfd.out01.nodeserver.top
-  port: 16114
+  port: 16216
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 7.88| 标准香港02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16112
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 7.71| 专线中国台湾02原生HINET
-  server: zfd.out01.nodeserver.top
-  port: 16223
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 7.60| 专线香港08原生HGCBBS
-  server: zfd.out02.nodeserver.top
-  port: 16237
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 7.59| 标准中国台湾04解锁流媒体
+- name: 8.95| 标准中国台湾04解锁流媒体
   server: zfd.out04.nodeserver.top
   port: 16128
   type: vmess
@@ -51,16 +30,34 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 7.53| PRO台湾Hinet广州移动③原生TW01V2
-  server: 120.232.173.37
-  port: 20001
+- name: 8.77| 专线香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16218
   type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 7.06| 专线中国台湾05原生HINET
+- name: 8.34| 标准中国台湾03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16127
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 8.10| 专线中国台湾04原生HINET
+  server: zfd.out03.nodeserver.top
+  port: 16225
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 8.06| 专线中国台湾05原生HINET
   server: zfd.out04.nodeserver.top
   port: 16226
   type: vmess
@@ -69,7 +66,111 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.97| 标准中国台湾02解锁流媒体
+- name: 7.99| 标准香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16116
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.90| PRO香港HKBNDF广州移动②原生HK06V2
+  server: 120.232.192.191
+  port: 10011
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.82| 标准香港03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16113
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.60| 标准香港04解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16114
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.54| 专线中国台湾03原生HINET
+  server: zfd.out02.nodeserver.top
+  port: 16224
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.52| 专线香港02主力节点
+  server: zfd.out02.nodeserver.top
+  port: 16214
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.36| 标准香港02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16112
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 7.16| PRO香港HKBNDF广州移动③原生HK06V2
+  server: 120.232.173.37
+  port: 20002
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 6.77|RelayCNHK2992626Mb
+  server: cn.zzv12.infonode.xyz
+  type: vmess
+  country: CN
+  port: 17011
+  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: cn.zzv12.infonode.xyz
+  ws-headers:
+    HOST: cn.zzv12.infonode.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.72|RelayCNHK3002278Mb
+  server: cn.zzv01.infonode.xyz
+  type: vmess
+  country: CN
+  port: 17011
+  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: cn.zzv01.infonode.xyz
+  ws-headers:
+    HOST: cn.zzv01.infonode.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.70| 标准中国台湾02解锁流媒体
   server: zfd.out02.nodeserver.top
   port: 16126
   type: vmess
@@ -78,7 +179,24 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 6.62| TunnelF香港 VIP 7  HKBN  17000 单端口
+- name: 6.60| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 6.54| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 6.51| TunnelF香港 VIP 7  HKBN  17000 单端口
   server: n114.boom.party
   port: 17000
   type: ssr
@@ -88,7 +206,20 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 6.61| 新加坡02
+- name: 6.49| CN48
+  server: 139.227.161.129
+  type: vmess
+  country: ' CN'
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.20| 新加坡02
   server: hk.tw.sgp.relay.cccloud.club
   port: 11000
   type: vmess
@@ -101,29 +232,7 @@ proxies:
   ws-path: /
   ws-headers:
     Host: sgp-02.cccloud.club
-- name: 6.60|Relay4585Mb
-  server: v13.88host.buzz
-  type: vmess
-  country: CN
-  port: 18119
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 6.59| 专线中国台湾03原生HINET
-  server: zfd.out02.nodeserver.top
-  port: 16224
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 6.47| TunnelK新加坡 普通 4  DO  21000 单端口
+- name: 6.05| TunnelK新加坡 普通 4  DO  21000 单端口
   server: nkb.boom.party
   port: 21000
   type: ssr
@@ -133,112 +242,7 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 6.39|Relay5548Mb
-  server: v31.88host.buzz
-  type: vmess
-  country: CN
-  port: 18082
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 6.09|Relay5589Mb
-  server: v12.88host.buzz
-  type: vmess
-  country: CN
-  port: 18117
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.99| 专线香港02主力节点
-  server: zfd.out02.nodeserver.top
-  port: 16214
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.98|Relay7247Mb
-  server: v32.88host.buzz
-  type: vmess
-  country: CN
-  port: 18065
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.97| MasterIEPLP 台湾原生15xTW01V2
-  server: iepl02.ivisl.nodes.backwaves.net
-  port: 40002
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.83|Relay2658Mb
-  server: v34.88host.buzz
-  type: vmess
-  country: CN
-  port: 18067
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.73|火箭加速器3
-  server: 183.232.13.115
-  port: 9233
-  type: vmess
-  uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 183.232.13.115
-- name: 5.60| 专线香港04解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16216
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.43| PRO台湾Hinet广州移动②原生TW01V2
-  server: cn04.UIMXx.nodes.backwaves.net
-  port: 10001
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: www.three.com.hk
-- name: 5.42|YouTube由零开始
+- name: 5.97|YouTube由零开始
   server: sxqxj.cn
   port: 2164
   type: vmess
@@ -251,64 +255,86 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: sxqxj.cn
-- name: 5.26|Relay4603Mb
-  server: v31.88host.buzz
+- name: 5.85| 专线中国台湾01原生HINET优化
+  server: zfd.out01.nodeserver.top
+  port: 16239
   type: vmess
-  country: CN
-  port: 18064
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.82|Relay4633Mb
-  server: v11.88host.buzz
-  type: vmess
-  country: CN
-  port: 18120
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.76|Relay5267Mb
-  server: v32.88host.buzz
-  type: vmess
-  country: CN
-  port: 18083
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.70| PRO香港HKBNDF广州移动③原生HK06V2
-  server: 120.232.173.37
-  port: 20002
+  tls: false
+  skip-cert-verify: false
+- name: 5.58| PRO香港HKBNDF江门移动原生HK06V2
+  server: cn05.ehqx2.nodes.backwaves.net
+  port: 10012
   type: vmess
   uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.54| PRO香港HKBNDF广州移动②原生HK06V2
-  server: 120.232.192.191
-  port: 10011
+- name: 5.25|火箭加速器3
+  server: 183.232.13.115
+  port: 9233
+  type: vmess
+  uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 183.232.13.115
+- name: 4.86| 专线中国台湾02原生HINET
+  server: zfd.out01.nodeserver.top
+  port: 16223
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.72|RelayCNTW306 540Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10003
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 112.33.32.136
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.46| MasterIEPLP 台湾原生15xTW01V2
+  server: iepl02.ivisl.nodes.backwaves.net
+  port: 40002
   type: vmess
   uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.26|CN12023217366582
+- name: 4.23| CN64
+  server: 120.232.173.66
+  type: vmess
+  country: ' CN'
+  port: 28038
+  uuid: fead7086-54ec-3772-b603-ba9e740ec3da
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: hk.jd.com
+  ws-headers:
+    HOST: hk.jd.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.89|CN12023217366582
   server: gz.52node.xyz
   port: 28038
   type: vmess
@@ -321,94 +347,7 @@ proxies:
   tls: false
   ws-headers:
     Host: hk.jd.com
-- name: 4.06|Relay 801Mb
-  server: v36.88host.buzz
-  type: vmess
-  country: CN
-  port: 18078
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.78| CN19 TGpeekfun
-  server: 117.28.242.137
-  port: 9359
-  type: ssr
-  country: ' CN'
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 3.72| 专线香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16218
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.71| CN87
-  server: shcn2-06b.iplc188.com
-  type: vmess
-  country: ' CN'
-  port: 10001
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.71|Relay1833Mb
-  server: v35.88host.buzz
-  type: vmess
-  country: CN
-  port: 18079
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.56| 专线中国台湾01原生HINET优化
-  server: zfd.out01.nodeserver.top
-  port: 16239
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.40| RelayCNHK270
-  server: 120.232.173.66
-  port: 28038
-  type: vmess
-  uuid: fead7086-54ec-3772-b603-ba9e740ec3da
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: hk.jd.com
-- name: 3.39| PRO香港HKBNDF江门移动原生HK06V2
-  server: cn05.ehqx2.nodes.backwaves.net
-  port: 10012
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.31| 专线西雅图02原生NTT
+- name: 3.58| 专线西雅图02原生NTT
   server: zfd.out02.nodeserver.top
   port: 16234
   type: vmess
@@ -417,144 +356,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 3.02|Relay1403Mb
-  server: v32.88host.buzz
-  type: vmess
+- name: 3.39|RelayCNHK223
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
   country: CN
-  port: 18043
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.00| 标准美国02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16104
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.94|Relay1927Mb
-  server: v33.88host.buzz
-  type: vmess
-  country: CN
-  port: 18044
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.93| Lite德国CN2 GIA直连解锁DE01V2
-  server: 185.217.108.21
-  port: 8087
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.85|Relay4000Mb
-  server: v12.88host.buzz
-  type: vmess
-  country: CN
-  port: 18118
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.83| PROHKT打机神线①上海CN2②原生HK08V2
-  server: cn12.wjbnb.nodes.backwaves.net
-  port: 10000
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.78|RelayCNTW24 1026Mb
-  server: 112.33.32.136
-  type: vmess
-  country: CN
-  port: 10003
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.75| 标准中国台湾01解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16125
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.50|RelayCNZZ349 791Mb
-  server: v31.88host.buzz
-  type: vmess
-  country: CN
-  port: 18084
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.47| 标准美国04解锁流媒体
-  server: zfd.out04.nodeserver.top
-  port: 16106
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.38| PROHKT打机神线①上海CN2①原生HK08V2
-  server: cn11.wtmjb.nodes.backwaves.net
-  port: 10000
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.26| 标准香港03解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16113
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.93| PRO香港HKBNDF佛山移动原生HK06V2
-  server: cn01.awmmv.nodes.backwaves.net
-  port: 10012
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.87| 专线西雅图01原生NTT
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 3.29| 专线西雅图01原生NTT
   server: zfd.out01.nodeserver.top
   port: 16233
   type: vmess
@@ -563,15 +374,119 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.81| RelayCNZZ258
-  server: v34.88host.buzz
-  port: 18045
+- name: 3.25| 专线美国04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16206
   type: vmess
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.80| PRO马来西亚TMNET佛山移动原生MY01V2
+  skip-cert-verify: false
+- name: 3.16| 标准美国04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16106
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.16| 标准美国02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16104
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.15| CN33
+  server: gysg.luohuaxian.xyz
+  type: vmess
+  country: ' CN'
+  port: 47889
+  uuid: f90f5413-c2d8-3c92-b4eb-c32f3bbb3190
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: 45.76.145.35
+  ws-headers:
+    HOST: 45.76.145.35
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.03| Lite德国CN2 GIA直连解锁DE01V2
+  server: 185.217.108.21
+  port: 8087
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.89| 标准中国台湾01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16125
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.30|RelayCNHK302 854Mb
+  server: cn.zzv13.infonode.xyz
+  type: vmess
+  country: CN
+  port: 17011
+  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: cn.zzv13.infonode.xyz
+  ws-headers:
+    HOST: cn.zzv13.infonode.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.95|US216127167103451
+  server: www.xinyi369.tk
+  port: 443
+  type: trojan
+  password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a
+  skip-cert-verify: false
+- name: 1.73|Relay 907Mb
+  server: 1.0.0.1
+  type: vmess
+  country: AU
+  port: 443
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess
+  servername: us-aws1.payday501.workers.dev
+  ws-headers:
+    HOST: us-aws1.payday501.workers.dev
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.69| httpsgitiov9999 美国CDN ip1 12
+  server: 1.1.1.1
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.69| PRO马来西亚TMNET佛山移动原生MY01V2
   server: 183.240.60.90
   port: 10013
   type: vmess
@@ -584,128 +499,286 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: www.baidu.com
-- name: 1.71|Relay3501Mb
-  server: v33.88host.buzz
+- name: 1.64| US231
+  server: usa-dallas.lvuft.com
   type: vmess
-  country: CN
-  port: 18066
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
+  country: ' US'
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /ws
+  servername: usa-dallas.lvuft.com
+  ws-headers:
+    HOST: usa-dallas.lvuft.com
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 1.54| 标准中国台湾03解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16127
+- name: 1.64| httpsgitiov9999 美国CDN ip1 10
+  server: 104.19.183.198
+  port: 443
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.46| 专线中国台湾04原生HINET
-  server: zfd.out03.nodeserver.top
-  port: 16225
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.63| httpsgitiov9999 美国CDN ip1 4
+  server: 104.19.42.37
+  port: 443
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.26|Relay 855Mb
-  server: v33.88host.buzz
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.60| httpsgitiov9999 美国CDN ip1 11
+  server: 104.21.209.112
+  port: 443
   type: vmess
-  country: CN
-  port: 18081
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.18| 专线美国04解锁流媒体
-  server: zfd.out04.nodeserver.top
-  port: 16206
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.59| httpsgitiov9999 美国CDN ip1 8
+  server: cdn.xia.me
+  port: 443
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.17|US150 1037Mb
-  server: 142.4.123.249
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.55| httpsgitiov9999 美国CDN ip1 2
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.55| httpsgitiov9999 美国CDN ip1
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.53| httpsgitiov9999 美国CDN ip1 14
+  server: 104.16.190.180
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.52| httpsgitiov9999 美国CDN ip1 9
+  server: cf1.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.50| httpsgitiov9999 美国CDN ip1 5
+  server: 104.16.206.241
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.50| httpsgitiov9999 美国CDN ip1 3
+  server: 104.17.97.246
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.47| httpsgitiov9999 美国CDN ip1 7
+  server: 104.16.195.23
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.38|Pool 568Mb
+  server: 45.35.84.162
   type: vmess
   country: US
-  port: 500
-  uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.12|Relay1384Mb
-  server: v35.88host.buzz
-  type: vmess
-  country: CN
-  port: 18068
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.09|Relay2123Mb
-  server: v32.88host.buzz
-  type: vmess
-  country: CN
-  port: 18085
-  uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.09| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.05|SG18141200183410
-  server: sg27.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 8ee4e5da-93fb-4a55-933b-ff882337b662
-  skip-cert-verify: false
-- name: 1.02|9047Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: usa-dallas.lvuft.com
+  ws-headers:
+    HOST: usa-dallas.lvuft.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.34|Relay 909Mb
+  server: t4.ssrsub.com
+  type: trojan
+  country: CA
+  port: 156
+  password: c4415de6-7548-4c8b-94c7-28c37179e84a
   skip-cert-verify: true
   udp: true
-- name: 1.02| 标准香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16116
+- name: 1.34| httpsgitiov9999 美国CDN ip1 6
+  server: 104.19.103.228
+  port: 443
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.33| httpsgitiov9999 美国CDN ip1 13
+  server: 104.20.169.236
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.33|Relay 306Mb
+  server: usa-buffalo.lvuft.com
+  type: vmess
+  country: CA
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: usa-buffalo.lvuft.com
+  ws-headers:
+    HOST: usa-buffalo.lvuft.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.30| RelayUSUS2055
+  server: www.ltzs.buzz
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.30|Relay 7907Mb
+  server: hinet.rdns.link
+  type: ssr
+  country: TW
+  port: 50028
+  password: Getfree.Cloud
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 18290:9WA1gd
+  obfs: tls1.2_ticket_auth
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 1.28|Relay 1947Mb
+  server: hinet.rdns.link
+  type: ssr
+  country: TW
+  port: 50026
+  password: Getfree.Cloud
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 18290:9WA1gd
+  obfs: tls1.2_ticket_auth
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 1.19|Relay 5619Mb
+  server: hinet.rdns.link
+  type: ssr
+  country: TW
+  port: 50023
+  password: Getfree.Cloud
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 18290:9WA1gd
+  obfs: tls1.2_ticket_auth
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 1.12| RelayUSRU1833
+  server: free-russian01-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 1.02|Relay 2401Mb
+  server: hinet.rdns.link
+  type: ssr
+  country: TW
+  port: 50027
+  password: Getfree.Cloud
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 18290:9WA1gd
+  obfs: tls1.2_ticket_auth
+  obfs-param: e3cf218290.software-download.microsoft.com
