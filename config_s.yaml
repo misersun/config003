@@ -1,5 +1,5 @@
 proxies:
-- name: 5.70|YouTube由零开始
+- name: 5.65|YouTube由零开始
   server: sxqxj.cn
   port: 2164
   type: vmess
@@ -12,7 +12,7 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: sxqxj.cn
-- name: 2.01|trojan
+- name: 2.31|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -21,61 +21,21 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.85| RelayHKJP645  239Mb
-  server: tk.shcn2.tkddns.xyz
-  port: 22642
+- name: 2.10|RelayUSUS139  546Mb
+  server: v8.ssrsub.com
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-- name: 1.56| httpsgitiov9999 美国CDN ip1 7
-  server: 104.16.195.23
+  country: US
   port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  uuid: 8cf83f44-79ff-4e50-be1a-585c82338912
   alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.51|RELAY10416104126361
-  server: 104.16.104.126
-  port: 443
-  type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-  tls: true
-  ws-headers:
-    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
-- name: 1.45|Relay 837Mb
-  server: 192.186.129.66
-  type: vmess
-  country: CA
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  servername: usa-buffalo.lvuft.com
-  ws-headers:
-    HOST: usa-buffalo.lvuft.com
+  ws-path: /ssrsub
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.42|Relay 973Mb
+- name: 2.09| 956Mb
   server: 1.0.0.1
   type: vmess
   country: AU
@@ -92,8 +52,37 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.39| httpsgitiov9999 美国CDN ip1 5
-  server: 104.16.206.241
+- name: 2.06| RelayUSUS2083  639Mb
+  server: 172.67.197.254
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.71|PoolUS 593Mb
+  server: 45.35.84.162
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: usa-dallas.lvuft.com
+  ws-headers:
+    HOST: usa-dallas.lvuft.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.66| httpsgitiov9999 美国CDN ip1 15
+  server: icook.tw
   port: 443
   type: vmess
   uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
@@ -104,70 +93,107 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash3.v2rayfree1.xyz
-- name: 1.32|Relay 835Mb
-  server: t7.ssrsub.com
+- name: 1.59|RelayCA1845Mb
+  server: t3.ssrsub.com
   type: trojan
-  country: RU
-  port: 8443
+  country: CA
+  port: 156
   password: 1de99090-4bd5-4670-9cec-05f55b4c6917
   skip-cert-verify: true
   udp: true
-- name: 1.29| US205
-  server: 147.182.249.191
-  type: vmess
-  country: ' US'
-  port: 30880
-  uuid: b14e5862-ed44-4ef0-e310-335414d86882
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /114514
-  servername: domeixi.nbczl233.ml
-  ws-headers:
-    HOST: domeixi.nbczl233.ml
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.26|Relay2134Mb
-  server: t3.ssrsub.com
+- name: 1.51|RelayCA 384Mb
+  server: t4.ssrsub.com
   type: trojan
   country: CA
   port: 156
   password: 8cf83f44-79ff-4e50-be1a-585c82338912
   skip-cert-verify: true
   udp: true
-- name: 1.19| httpsgitiov9999 莫斯科CDN ip4 11
-  server: 172.67.85.124
-  port: 443
+- name: 1.41|RelayUS1039Mb
+  server: 23.82.136.151
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.18| HK127
-  server: cmhk04.xc188.net
-  type: vmess
-  country: ' HK'
+  country: US
   port: 443
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
   network: ws
-  ws-path: /clientarea
-  servername: cmhk04.xc188.net
+  ws-path: /ws
+  servername: usa-miami.lvuft.com
   ws-headers:
-    HOST: cmhk04.xc188.net
+    HOST: usa-miami.lvuft.com
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.17| httpsgitiov9999 莫斯科CDN ip4 9
-  server: 172.64.88.97
+- name: 1.36|RelayUS 957Mb
+  server: usa-miami.lvuft.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: usa-miami.lvuft.com
+  ws-headers:
+    HOST: usa-miami.lvuft.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.35| RelayUSUS1816
+  server: www.ltzs.buzz
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.34| httpsgitiov9999 美国CDN ip1 8
+  server: cdn.xia.me
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.30|RELAY10416104126361
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  tls: true
+  ws-headers:
+    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 1.21| RelayUSRU1824
+  server: 172.67.138.170
+  port: 443
+  type: vmess
+  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /319285eb2d/
+  ws-headers:
+    Host: free-russian-cdn.xiaohouzi.club
+- name: 1.13| httpsgitiov9999 莫斯科CDN ip4 2
+  server: 104.19.181.49
   port: 443
   type: vmess
   uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
@@ -178,19 +204,7 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.17| httpsgitiov9999 莫斯科CDN ip4 13
-  server: 104.22.32.71
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.11| httpsgitiov9999 莫斯科CDN ip4 6
+- name: 1.08| httpsgitiov9999 莫斯科CDN ip4 6
   server: 104.27.116.170
   port: 443
   type: vmess
@@ -202,7 +216,33 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.10| httpsgitiov9999 莫斯科CDN ip4 3
+- name: 1.08|RelayGB1568Mb
+  server: us1nhg-node.aiqiche123.com
+  type: vmess
+  country: GB
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: ray
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.08| httpsgitiov9999 美国CDN ip1 6
+  server: 104.19.103.228
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.07| httpsgitiov9999 莫斯科CDN ip4 3
   server: 104.27.17.236
   port: 443
   type: vmess
@@ -214,32 +254,36 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.08|Relay  717Mb
-  server: api.ssfree.ru
+- name: 1.06|RelayUSUS162 2734Mb
+  server: ff6.uuv2.co.uk
+  type: vmess
+  country: US
   port: 443
-  type: vmess
-  uuid: b7940768-659b-11ec-895c-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: api.ssfree.ru
-- name: 1.08|RELAY17267156134366
-  server: v2.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
   network: ws
-  ws-path: /ssrsub
-  tls: true
+  ws-path: /bb2b34a1
+  servername: www.ltzs.buzz
   ws-headers:
-    Host: v2.ssrsub.com
-- name: 1.06| httpsgitiov9999 莫斯科CDN ip4 7
+    HOST: www.ltzs.buzz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip4 13
+  server: 104.22.32.71
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip4 7
   server: 104.20.210.106
   port: 443
   type: vmess
@@ -251,3 +295,15 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
+- name: 1.02| httpsgitiov9999 美国CDN ip1 7
+  server: 104.16.195.23
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
