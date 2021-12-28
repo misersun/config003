@@ -1,21 +1,5 @@
 proxies:
-- name: 4.87| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.51|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.66| TunnelF香港 VIP 7  HKBN  17000 单端口
+- name: 9.98| TunnelF香港 VIP 7  HKBN  17000 单端口
   server: n114.boom.party
   port: 17000
   type: ssr
@@ -25,43 +9,216 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 1.33|RelayCA2049Mb
+- name: 7.45| 新加坡 隧道
+  server: newgy.jidan666.com
+  port: 23034
+  type: trojan
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: sg1.welink.qchwnd.moe
+- name: 3.36| 香港HGC
+  server: azhk.relay.qchwnd.moe
+  port: 44601
+  type: trojan
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: hk.node.qchwnd.moe
+- name: 2.36| 美国netflix
+  server: 107.167.23.50
+  port: 8084
+  type: ssr
+  cipher: aes-256-cfb
+  password: RhKqtYoG8
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 2.17| 日本1
+  server: jp-am46.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3oaJ5K2Wn
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 2.07| 364Mb
+  server: 117.28.242.137
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.85| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 1.78| 新加坡
+  server: azhk.relay.qchwnd.moe
+  port: 44605
+  type: trojan
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: sg1.welink.qchwnd.moe
+- name: 1.67| 阿伟科技油管RelayCNJP431
+  server: jp11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: a4913b25-1c33-4c75-bd07-ce21526185a9
+  sni: jp11.holiganfan.com
+  skip-cert-verify: false
+- name: 1.67| 德国
+  server: de-am2.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: 82BMko4lE
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.65| JK1V4广英01
+  server: shlt.ddns-only.xyz
+  port: 31300
+  type: ssr
+  cipher: chacha20-ietf
+  password: yT6Am5
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 156931:VxAvMJ
+  obfs-param: 67a6c156931.microsoft.com
+- name: 1.65| 澳大利亚
+  server: sy-am2.eqsunshine.com
+  port: 443
+  type: ssr
+  cipher: aes-256-cfb
+  password: Jz8r4gLNP
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.61| 美国2
+  server: us-am11.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: vGndzdmPB
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 1.60|1976Mb
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.35|CYL科技20211228 82
+  server: ca-am3.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: 4axflHccX
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.32|CYL科技20211228 74
+  server: fr-am1-4.eqsunshine.com
+  port: 8181
+  type: ssr
+  cipher: aes-256-cfb
+  password: X3LKnwp5C
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.88| 韩国
+  server: kr-am6.eqnode.net
+  port: 443
+  type: ssr
+  cipher: aes-256-cfb
+  password: abHpSuLdQ
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 0.76|US1703
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 0.64|CYL科技20211228 122
+  server: de-am1.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: zsU09Diow
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.62| 美国1
+  server: us-am32-5.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: YFVrXZgRo
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.47|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.42| 英国
+  server: uk-am3-5.eqsunshine.com
+  port: 8181
+  type: ssr
+  cipher: aes-256-cfb
+  password: PNRbp3j9B
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.41|CYL科技祝大家圣诞快乐 82
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: true
+- name: 0.40| 853Mb
   server: t3.ssrsub.com
   type: trojan
   country: CA
   port: 156
-  password: 8cf83f44-79ff-4e50-be1a-585c82338912
+  password: 1de99090-4bd5-4670-9cec-05f55b4c6917
   skip-cert-verify: true
   udp: true
-- name: 0.85|NL 419Mb
+- name: 0.40| 335Mb
   server: 89.31.127.151
   type: trojan
   country: NL
   port: 443
   password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 0.82|RelayJPJP616
-  server: jp-server-02.selfupay.com
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.58|RelayCA1560Mb
-  server: t1.ssrsub.com
-  type: trojan
-  country: CA
-  port: 8443
-  password: 1de99090-4bd5-4670-9cec-05f55b4c6917
-  skip-cert-verify: true
-  udp: true
-- name: 0.46|RelayCA 384Mb
-  server: t4.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: 8cf83f44-79ff-4e50-be1a-585c82338912
   skip-cert-verify: true
   udp: true

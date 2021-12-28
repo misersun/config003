@@ -1,5 +1,23 @@
 proxies:
-- name: 2.51|trojan
+- name: 2.36| 美国netflix
+  server: 107.167.23.50
+  port: 8084
+  type: ssr
+  cipher: aes-256-cfb
+  password: RhKqtYoG8
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 0.76|US1703
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 0.47|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
