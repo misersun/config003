@@ -1,5 +1,15 @@
 proxies:
-- name: 2.36| 美国netflix
+- name: 2.83|CN中国72
+  server: 183.232.56.182
+  port: 1302
+  type: ssr
+  password: mtbv8n
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 2.41| 美国netflix
   server: 107.167.23.50
   port: 8084
   type: ssr
@@ -9,15 +19,41 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: releases.ubuntu.com
-- name: 0.76|US1703
+- name: 2.37|US1725
   server: 72.167.45.6
   type: trojan
   country: US
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.47|trojan
+- name: 1.89|US216127167103568
+  server: www.xinyi369.tk
+  port: 443
+  type: trojan
+  password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a
+  skip-cert-verify: false
+- name: 1.37|CN中国26
+  server: 183.232.13.114
+  port: 1110
+  type: ssr
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4679:af9l9x30bzq
+  obfs-param: t.me/vpnhat
+- name: 1.09|CN中国28
+  server: 183.232.13.114
+  port: 1109
+  type: ssr
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4679:af9l9x30bzq
+  obfs-param: t.me/vpnhat
+- name: 1.00|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -26,3 +62,13 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 0.85|CN中国82
+  server: 183.232.56.110
+  port: 1303
+  type: ssr
+  password: mtbv8n
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
