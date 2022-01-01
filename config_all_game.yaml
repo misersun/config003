@@ -1,51 +1,11 @@
 proxies:
-- name: 11.10|上海CN2
-  type: ss
-  server: cn2.gzhpxb.com
-  port: 20166
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 9.74| Base 香港 HK  3 HKT
-  server: tunnel.e-nets.xyz
-  port: 9602
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 9.43|CYL科技2021123088
+- name: 11.07|CYL科技2021123088
   server: 183.31.11.146
   port: 7777
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 12345678
-- name: 8.38|Jsnzkpg天下第一
-  server: 183.232.56.182
-  port: 575
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 8.10| Base 新加坡 SG  4
-  server: tunnel.e-nets.xyz
-  port: 9803
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 8.00|Jsnzkpg天下第一
-  server: 183.232.56.182
-  port: 574
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 7.87|Jsnzkpg天下第一
+- name: 8.67| 广州移动SGChoopa
   server: 183.232.56.182
   port: 1502
   type: ssr
@@ -55,52 +15,146 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.86| Base 新加坡 SG  5
+- name: 8.30|CNwmt115
+  server: hz.marslink.icu
+  port: 41100
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4d0d8943-dea3-4d9b-8ae1-cddb560b267c
+  udp: true
+- name: 8.23| 香港A
+  server: 117.28.243.220
+  port: 8254
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 8.06| Base 新加坡 SG  5
   server: tunnel.e-nets.xyz
   port: 9804
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pDC5MTKZPmVPgPLU
-- name: 7.84| Base 香港 HK  1 HKT
+- name: 7.96| 广州移动香港Azure 2
+  server: 183.232.56.182
+  port: 574
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 7.60| Base 香港 HK  3 HKT
+  server: tunnel.e-nets.xyz
+  port: 9602
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: pDC5MTKZPmVPgPLU
+- name: 7.37| Base 香港 HK  1 HKT
   server: tunnel.e-nets.xyz
   port: 9600
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pDC5MTKZPmVPgPLU
-- name: 7.68| Base 新加坡 SG  6
+- name: 7.32|CNwmt112
+  server: 183.232.56.110
+  port: 1203
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 7.32| Base 新加坡 SG  4
+  server: tunnel.e-nets.xyz
+  port: 9803
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: pDC5MTKZPmVPgPLU
+- name: 7.07| Base 新加坡 SG  6
   server: tunnel.e-nets.xyz
   port: 9805
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pDC5MTKZPmVPgPLU
-- name: 7.59|Jsnzkpg天下第一
-  server: 183.232.56.110
-  port: 1503
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 7.56|Relay 2136Mb
-  server: 183.232.56.110
-  type: ssr
-  country: CN
-  port: 1203
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 114882:LwdYLj
-  obfs: plain
-  obfs-param: t.me/vpnhat
-- name: 7.10| Base 香港 HK  2 HKT
+- name: 7.01| Base 香港 HK  2 HKT
   server: tunnel.e-nets.xyz
   port: 9601
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pDC5MTKZPmVPgPLU
-- name: 7.09|Jsnzkpg天下第一
+- name: 6.78|426专属订阅
+  server: gz1.52168.xyz
+  port: 1111
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+- name: 6.76|1226 TG频道Jsnzk
+  server: 117.28.243.173
+  port: 2173
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 6.57|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 6.12|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 577
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 5.77|CN111283108420
+  server: iepl.elaina.link
+  port: 50010
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a9616a54-5409-42df-822f-f412e46c2458
+- name: 5.45|CNwmt1132
+  server: gz1.52168.xyz
+  port: 1114
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 5.33|CNwmt111
+  server: gz1.52168.xyz
+  port: 1112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 5.28|上海CN2
+  type: ss
+  server: cn2.gzhpxb.com
+  port: 20166
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 5.25| 广州移动高雄Hinet 2
   server: 183.232.56.110
   port: 1201
   type: ssr
@@ -110,76 +164,14 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.06|Jsnzkpg天下第一
-  server: 183.232.56.110
-  port: 1253
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 6.67|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.49|Jsnzkpg天下第一
-  server: 183.232.56.182
-  port: 1252
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 6.43| 广州移动OkazakiNTT
-  server: 183.232.56.182
-  port: 1254
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 4.27| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
+- name: 4.56| 广移香港极速15x免费试用5
+  server: 120.232.192.211
+  port: 11879
   type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 3.84| 香港A
-  server: 117.28.243.220
-  port: 8254
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 3.65| CN346
-  server: 117.28.243.173
-  type: ss
-  country: ' CN'
-  port: 4173
-  password: passinfo123
-  cipher: rc4-md5
-- name: 3.53|CN111283108375
-  server: iepl.elaina.link
-  port: 50010
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a9616a54-5409-42df-822f-f412e46c2458
-- name: 2.97| Base 澳大利亚 AU  1
-  server: tunnel.e-nets.xyz
-  port: 9200
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 2.70|Jsnzkpg天下第一
+  password: 6fcc5172-4ce5-4211-a63d-e0560846123b
+  sni: game4.luckylucky.fun
+  skip-cert-verify: true
+- name: 4.53| 广州移动OkazakiNTT
   server: 183.232.56.110
   port: 1251
   type: ssr
@@ -189,32 +181,32 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 2.41|CN111283108378
-  server: iepl.elaina.link
-  port: 50011
+- name: 3.87| 广州移动TokyoNTT
+  server: 183.232.56.182
+  port: 1252
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.85| Base 澳大利亚 AU  1
+  server: tunnel.e-nets.xyz
+  port: 9200
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: a9616a54-5409-42df-822f-f412e46c2458
-- name: 2.37|Relay 2303Mb
-  server: 183.232.56.110
-  type: ssr
-  country: CN
-  port: 575
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 114882:LwdYLj
-  obfs: plain
-  obfs-param: t.me/vpnhat
-- name: 1.99|1225 裤佬祝你圣诞节快乐
-  server: 117.28.243.154
-  port: 6090
+  password: pDC5MTKZPmVPgPLU
+- name: 3.55|CNwmt1113
+  server: 117.28.243.173
+  port: 4173
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 0.94|Jsnzkpg天下第一
+  udp: true
+- name: 3.53|Jsnzkpg天下第一
   server: 183.232.56.110
-  port: 574
+  port: 1503
   type: ssr
   cipher: chacha20-ietf
   password: mtbv8n
@@ -222,140 +214,14 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 0.93|trojan
+- name: 3.40| aJapanDMM
+  server: hygz.q-air.icu
+  port: 18221
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 0.89| 广州移动LAXKrypt
-  server: 183.232.56.110
-  port: 1303
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 0.87| 2029Mb
-  server: 38.143.66.71
-  type: ss
-  country: US
-  port: 8882
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 0.75|  363Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 3389
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.70| US1195
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 3306
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.69| JP632
-  server: 172.105.232.147
-  type: ss
-  country: ' JP'
-  port: 5004
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 0.66|CYL科技2021123021
-  server: uk-am3-5.eqsunshine.com
-  port: 8181
-  type: ssr
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 0.63| 1335Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 8008
-  password: XKFKl2rULjIp74
-  cipher: aes-256-gcm
-- name: 0.63|CYL科技20211229145106
-  server: 38.91.102.86
-  port: 6697
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- name: 0.62|Relay 1777Mb
-  server: 183.232.56.110
-  type: ssr
-  country: CN
-  port: 1501
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 114882:LwdYLj
-  obfs: plain
-- name: 0.58| ZZ2082
-  server: 169.197.141.24
-  type: ss
-  country: ' ZZ'
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 0.57| ZZ2052
-  server: 169.197.142.39
-  type: ss
-  country: ' ZZ'
-  port: 5000
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.56|CYL科技20211229184161
-  server: 38.91.102.96
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 0.55| 1051Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 8091
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 0.54| ZZ2056
-  server: 169.197.141.24
-  type: ss
-  country: ' ZZ'
-  port: 8091
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 0.50| 1073Mb
-  server: 38.143.66.71
-  type: ss
-  country: US
-  port: 5000
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.50| CN345
-  server: gdgz.marslink.icu
-  type: ss
-  country: ' CN'
-  port: 64024
-  password: 564b5925-d12e-4021-8bd1-ec9e843d73da
-  cipher: chacha20-ietf-poly1305
-- name: 0.47|  856Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 9101
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- name: 0.47| 广州移动SacramentoKrypt
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 2.89| 广州移动SacramentoKrypt
   server: 183.232.56.182
   port: 1302
   type: ssr
@@ -365,14 +231,172 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 0.45| 1276Mb
-  server: 38.91.102.86
+- name: 2.84|CNXQ82
+  server: iepl.elaina.link
+  port: 50002
   type: ss
-  country: US
-  port: 8009
-  password: XKFKl2rULjIp74
+  cipher: chacha20-ietf-poly1305
+  password: a9616a54-5409-42df-822f-f412e46c2458
+  udp: true
+- name: 2.61|CNwmt1112
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 2.46| 广州移动TokyoNTT 2
+  server: 183.232.56.110
+  port: 1253
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 2.12|CN111283108423
+  server: iepl.elaina.link
+  port: 50011
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a9616a54-5409-42df-822f-f412e46c2458
+- name: 1.60|CNwmt11227
+  server: 183.232.56.110
+  port: 1501
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: ''
+  udp: true
+- name: 1.49| 香港特区政府
+  server: 183.232.13.114
+  port: 1111
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: t.me/vpnhat
+- name: 1.40| JK1V4广英01
+  server: shlt.ddns-only.xyz
+  port: 31300
+  type: ssr
+  cipher: chacha20-ietf
+  password: yT6Am5
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 156931:VxAvMJ
+  obfs-param: 67a6c156931.microsoft.com
+- name: 1.03|CNwmt1155
+  server: gz1.52168.xyz
+  port: 1105
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 0.88|CYL科技2021123039
+  server: 107.167.23.50
+  port: 8084
+  type: ssr
+  password: RhKqtYoG8
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  obfs-param: releases.ubuntu.com
+- name: 0.83|CNwmt1131
+  server: 183.232.56.110
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 0.80|CNwmt11131
+  server: 120.233.10.40
+  port: 35001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 164636a9-a42b-4bd1-954b-9fdb76711a18
+  udp: true
+- name: 0.73| 广州移动LAXKrypt
+  server: 183.232.56.110
+  port: 1303
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 0.73| 730Mb
+  server: 101.91.121.247
+  type: ss
+  country: CN
+  port: 50004
+  password: '4415934295'
+  cipher: aes-256-cfb
+- name: 0.55| 广州移动香港Azure
+  server: 183.232.56.182
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 0.51|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 574
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 0.51|CNwmt1158
+  server: iepl.marslink.icu
+  port: 35001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 164636a9-a42b-4bd1-954b-9fdb76711a18
+  udp: true
+- name: 0.49|USwmt11261
+  server: 169.197.141.24
+  port: 5003
+  type: ss
   cipher: aes-256-gcm
-- name: 0.45|Jsnzkpg天下第一
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 0.48|CNwmt11247
+  server: 183.232.56.182
+  port: 1254
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 0.47|Jsnzkpg天下第一
   server: 183.232.56.182
   port: 1202
   type: ssr
@@ -382,209 +406,172 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 0.44| ZZ2047
-  server: 169.197.142.39
-  type: ss
-  country: ' ZZ'
-  port: 5600
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.43| US1261
-  server: 167.88.61.60
-  type: ss
-  country: ' US'
-  port: 5601
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.42| US1172
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 5600
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.42|Relay 1676Mb
-  server: jp11.holiganfan.com
+- name: 0.46|US216127167103355
+  server: www.xinyi369.tk
+  port: 443
   type: trojan
-  country: JP
-  port: 10088
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a
+  skip-cert-verify: false
+- name: 0.45| MumbaiEC2
+  server: 35.154.27.192
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: fD0KP8PWA
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: t.me/vpnhat
+  obfs-param: t.me/vpnhat
+- name: 0.44|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.43|Relay 528Mb
+  server: 145.239.1.137
+  type: ss
+  country: FR
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 0.43|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.43|CAwmt1178
+  server: t4.ssrsub.com
+  port: 156
+  type: trojan
+  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  sni: t4.ssrsub.com
   skip-cert-verify: true
   udp: true
-- name: 0.41|CNXQ82
-  server: iepl.elaina.link
-  port: 50002
+- name: 0.41|CYL科技20211230216
+  server: ca-am3.eqnode.net
+  port: 8080
+  type: ssr
+  password: 4axflHccX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 0.39|解锁
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a9616a54-5409-42df-822f-f412e46c2458
+  server: ccyy.gzhpxb.com
+  port: 51490
+  cipher: aes-128-gcm
+  password: yangchaoyue
   udp: true
-- name: 0.41| CA273
-  server: 139.99.62.207
+  skip-cert-verify: true
+- name: 0.39|USwmt11188
+  server: 38.75.136.93
+  port: 7306
   type: ss
-  country: ' CA'
-  port: 8888
-  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.39| ZZ2136
-  server: 169.197.142.39
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 0.38|USwmt1186
+  server: 167.88.61.60
+  port: 6697
   type: ss
-  country: ' ZZ'
-  port: 8882
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 0.37|USwmt11141
+  server: 169.197.141.24
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 0.36|CYL科技2021123046
+  server: de-am2.eqnode.net
+  port: 8080
+  type: ssr
+  password: 82BMko4lE
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 0.35|USwmt1185
+  server: 167.88.61.60
+  port: 2376
+  type: ss
   cipher: aes-256-gcm
-- name: 0.38|CYL科技20211230185
-  server: 172.105.42.94
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 0.35|USwmt1147
+  server: 38.143.66.71
+  port: 7002
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 0.35|CAwmt11228
+  server: 198.57.27.218
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 0.33|CYL科技20211230229
+  server: 172.105.42.228
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.33|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.32| JP87 TGpeekfun
+  server: 45.66.134.219
+  port: 443
+  type: trojan
+  country: ' JP'
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.32|CYL科技2021123098
+  server: us-am11.eqnode.net
+  port: 8080
+  type: ssr
+  password: vGndzdmPB
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  obfs-param: releases.ubuntu.com
+- name: 0.31|USwmt1197
+  server: 167.88.61.60
   port: 8091
   type: ss
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
-- name: 0.37| US1288
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 8008
-  password: XKFKl2rULjIp74
-  cipher: aes-256-gcm
-- name: 0.37|CYL科技20211229183184
-  server: 38.91.102.96
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 0.35| 2204Mb
-  server: 38.143.66.71
-  type: ss
-  country: US
-  port: 2376
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 0.35| 1927Mb
-  server: 167.88.61.60
-  type: ss
-  country: US
-  port: 8008
-  password: XKFKl2rULjIp74
-  cipher: aes-256-gcm
-- name: 0.34| 1879Mb
-  server: 38.91.102.96
-  type: ss
-  country: US
-  port: 2376
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 0.34|CYL科技20211229119105
-  server: 38.91.102.96
-  port: 5004
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 0.34| DE400
-  server: 141.95.0.26
-  type: ss
-  country: ' DE'
-  port: 826
-  password: sF43Xt2gONqcgFX563
-  cipher: chacha20-ietf-poly1305
-- name: 0.34|1225 裤佬祝你圣诞节快乐
-  server: 117.28.243.154
-  port: 6145
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.33|  783Mb
-  server: 167.88.61.60
-  type: ss
-  country: US
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 0.33|  779Mb
-  server: 38.143.66.71
-  type: ss
-  country: US
-  port: 8888
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.32| 2246Mb
-  server: 38.91.102.96
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 0.32|CYL科技20211230202
-  server: 172.105.42.94
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 0.32| US1258
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 0.32|  575Mb
-  server: 172.105.180.227
-  type: ss
-  country: AU
-  port: 443
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 0.31| 1911Mb
-  server: 167.88.61.60
-  type: ss
-  country: US
-  port: 3389
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.31| US1872
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
   udp: true
-- name: 0.31| US1171
-  server: 167.88.61.60
-  type: ss
-  country: ' US'
-  port: 5600
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.31| 1914Mb
-  server: 167.88.61.60
-  type: ss
-  country: US
-  port: 8119
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 0.31|CYL科技20211229232244
-  server: 169.197.141.24
+- name: 0.31|CYL科技2021123021
+  server: uk-am3-5.eqsunshine.com
+  port: 8181
+  type: ssr
+  password: PNRbp3j9B
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 0.31|USwmt1166
+  server: 38.91.102.86
   port: 2376
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
-- name: 0.31| US1276
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 5500
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 0.31| US1275
-  server: 167.88.61.60
-  type: ss
-  country: ' US'
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 0.31| US1278
-  server: 38.91.102.86
-  type: ss
-  country: ' US'
-  port: 6379
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
+  udp: true
