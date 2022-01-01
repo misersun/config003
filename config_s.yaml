@@ -1,10 +1,21 @@
 proxies:
-- name: 2.03|trojan
+- name: 2.11| d法国
+  server: hygz.q-air.icu
+  port: 18710
+  type: vmess
+  uuid: d485205a-abc6-3940-8f89-faf533b0b001
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /np
+  ws-headers:
+    Host: vu-fra1-v2.q-air.icu
+- name: 2.08| aJapanDMM
+  server: hygz.q-air.icu
+  port: 18221
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
