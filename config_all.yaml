@@ -1,16 +1,5 @@
 proxies:
-- name: 8.96|CNwmt111
-  server: gz1.52168.xyz
-  port: 1112
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 8.68| 广州移动SGChoopa
+- name: 8.31| 广州移动SGChoopa
   server: 183.232.56.182
   port: 1502
   type: ssr
@@ -20,9 +9,9 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.96|CNwmt1131
+- name: 8.25|Jsnzkpg天下第一
   server: 183.232.56.110
-  port: 575
+  port: 577
   type: ssr
   cipher: chacha20-ietf
   password: mtbv8n
@@ -30,20 +19,20 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-  udp: true
-- name: 7.68| 广州移动香港Azure
-  server: 183.232.56.182
-  port: 575
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 7.60| 广州移动高雄Hinet 2
+- name: 8.25|CNwmt11227
   server: 183.232.56.110
-  port: 1201
+  port: 1501
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: ''
+  udp: true
+- name: 8.21|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 574
   type: ssr
   cipher: chacha20-ietf
   password: mtbv8n
@@ -51,39 +40,86 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.23|CNwmt1132
-  server: gz1.52168.xyz
-  port: 1114
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 7.08| 广州移动TokyoNTT
-  server: 183.232.56.182
-  port: 1252
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.53|CNwmt1155
-  server: gz1.52168.xyz
-  port: 1105
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 2.11| d法国
+- name: 5.21| aJapanDMM
+  server: hygz.q-air.icu
+  port: 18221
+  type: trojan
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 4.69| 新加坡02
+  server: hk.tw.sgp.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sgp-02.cccloud.club
+- name: 2.78| 标准中国台湾03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16127
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.53| 美国02
+  server: jp.us.kr.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: us-02.coco.hetun.asia
+- name: 2.38| 专线香港08原生HGCBBS
+  server: zfd.out02.nodeserver.top
+  port: 16237
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.02|Relay 625Mb
+  server: ct.cnhost.top
+  type: vmess
+  country: CN
+  port: 16634
+  uuid: 84345c01-ba40-4d55-9109-e3a18253e555
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /mjp
+  servername: ct.cnhost.top
+  ws-headers:
+    HOST: ct.cnhost.top
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.01| CN525
+  server: v2-xgb-v9.cl123.xyz
+  port: 80
+  type: vmess
+  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: v2-xgb-v9.cl123.xyz
+- name: 1.95| d法国
   server: hygz.q-air.icu
   port: 18710
   type: vmess
@@ -96,30 +132,31 @@ proxies:
   ws-path: /np
   ws-headers:
     Host: vu-fra1-v2.q-air.icu
-- name: 2.08| 香港特区政府
-  server: 183.232.13.114
-  port: 1111
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: t.me/vpnhat
-- name: 2.08| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
+- name: 1.82| 专线中国台湾05原生HINET
+  server: zfd.out04.nodeserver.top
+  port: 16226
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 1.66| JK1V4广英01
-  server: shlt.ddns-only.xyz
-  port: 31300
+- name: 1.63| 专线中国台湾03原生HINET
+  server: zfd.out02.nodeserver.top
+  port: 16224
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.16| 广州移动高雄Hinet 2
+  server: 183.232.56.110
+  port: 1201
   type: ssr
   cipher: chacha20-ietf
-  password: yT6Am5
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 156931:VxAvMJ
-  obfs-param: 67a6c156931.microsoft.com
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
