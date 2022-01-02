@@ -1,17 +1,26 @@
 proxies:
-- name: 8.77| Base 新加坡 SG  6
-  server: tunnel.e-nets.xyz
-  port: 9805
+- name: 10.26| Hong Kong 08
+  server: iepl.hk.4a75.linkit.dev
+  port: 17852
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 8.60| Base 新加坡 SG  5
-  server: tunnel.e-nets.xyz
-  port: 9804
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 8.38| 广州移动SGChoopa
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 9.37|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1503
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 9.16| 广州移动SGChoopa
   server: 183.232.56.182
   port: 1502
   type: ssr
@@ -21,7 +30,36 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.90| 广州移动香港Azure
+  udp: true
+- name: 8.89| Hong Kong 07
+  server: iepl.hk.cc38.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 8.71| 油管晓飞分享 小麦中继SGP新加坡220x视频
+  server: relaysgp2.host.mznode.link
+  port: 1502
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: b43e313.microsoft.com
+  udp: true
+- name: 8.46| Base 新加坡 SG  5
+  server: tunnel.e-nets.xyz
+  port: 9804
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: pDC5MTKZPmVPgPLU
+- name: 8.07|Jsnzkpg天下第一
   server: 183.232.56.182
   port: 575
   type: ssr
@@ -31,19 +69,80 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 7.53| Base 新加坡 SG  4
+  udp: true
+- name: 7.99| 油管晓飞分享 小麦精品HK香港220x视频
+  server: dmhk2.host.mznode.link
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: b43e313.microsoft.com
+  udp: true
+- name: 7.91| 油管晓飞分享 小麦精品HK香港120x视频
+  server: dmhk1.host.mznode.link
+  port: 574
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: b43e313.microsoft.com
+  udp: true
+- name: 7.82| Singapore 01  Media
+  server: iepl.sg.21ce.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 7.67| Base 新加坡 SG  4
   server: tunnel.e-nets.xyz
   port: 9803
   type: ss
   cipher: chacha20-ietf-poly1305
   password: pDC5MTKZPmVPgPLU
-- name: 7.30| Base 香港 HK  1 HKT
-  server: tunnel.e-nets.xyz
-  port: 9600
+- name: 7.59| 油管晓飞分享 小麦精品HK香港320x视频
+  server: dmhk3.host.mznode.link
+  port: 576
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: b43e313.microsoft.com
+  udp: true
+- name: 7.55| 油管晓飞分享 小麦中继HK香港220x视频
+  server: bgphzhk2.host.mznode.link
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: b43e313.microsoft.com
+  udp: true
+- name: 7.50| Hong Kong 14
+  server: iepl.hk.71bc.linkit.dev
+  port: 17852
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 7.26|CN中国20
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 7.15|CN中国20
   server: 183.232.13.114
   port: 1114
   type: ssr
@@ -53,18 +152,53 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 4679:af9l9x30bzq
   obfs-param: t.me/vpnhat
-- name: 6.81|CNwmt1131
-  server: 183.232.56.110
-  port: 575
+- name: 7.14| 油管晓飞分享 小麦中继TW台湾320x视频
+  server: bgpshtw3.host.mznode.link
+  port: 1203
   type: ssr
   cipher: chacha20-ietf
   password: mtbv8n
   protocol: auth_aes128_md5
   obfs: plain
   protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
+  obfs-param: b43e313.microsoft.com
   udp: true
-- name: 6.80| 广州移动高雄Hinet 2
+- name: 7.10| Base 香港 HK  1 HKT
+  server: tunnel.e-nets.xyz
+  port: 9600
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: pDC5MTKZPmVPgPLU
+  udp: true
+- name: 5.11| aJapanDMM
+  server: hygz.q-air.icu
+  port: 18221
+  type: trojan
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 3.34| Hong Kong 11
+  server: iepl.hk.206f.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 2.69|CN中国28
+  server: 183.232.13.114
+  port: 1109
+  type: ssr
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4679:af9l9x30bzq
+  obfs-param: t.me/vpnhat
+- name: 2.35| 广州移动高雄Hinet
   server: 183.232.56.110
   port: 1201
   type: ssr
@@ -74,7 +208,18 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 6.37|Jsnzkpg天下第一
+  udp: true
+- name: 1.64|CN中国18
+  server: 183.232.13.114
+  port: 1115
+  type: ssr
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4679:af9l9x30bzq
+  obfs-param: t.me/vpnhat
+- name: 1.14|Jsnzkpg天下第一
   server: 183.232.56.110
   port: 577
   type: ssr
@@ -84,94 +229,9 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 6.20| 广州移动TokyoNTT
+- name: 1.11|Jsnzkpg天下第一
   server: 183.232.56.182
-  port: 1252
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 4.89|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 4.67| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.83| 广州移动LAXKrypt
-  server: 183.232.56.110
-  port: 1303
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.67| 广州移动OkazakiNTT
-  server: 183.232.56.110
-  port: 1251
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 1.92|CN中国14
-  server: 183.232.13.114
-  port: 1117
-  type: ssr
-  password: epChJS35fV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4679:af9l9x30bzq
-  obfs-param: t.me/vpnhat
-- name: 1.90|CN中国62
-  server: 183.232.13.63
-  port: 2105
-  type: ssr
-  password: epChJS35fV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4679:af9l9x30bzq
-  obfs-param: t.me/vpnhat
-- name: 1.77|CN中国70
-  server: 183.232.56.182
-  port: 1561
-  type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 0.97|CNwmt11227
-  server: 183.232.56.110
-  port: 1501
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: ''
-  udp: true
-- name: 0.66|Jsnzkpg天下第一
-  server: 183.232.56.110
-  port: 574
+  port: 1202
   type: ssr
   cipher: chacha20-ietf
   password: mtbv8n
