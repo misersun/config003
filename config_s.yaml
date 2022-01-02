@@ -1,12 +1,12 @@
 proxies:
-- name: 5.21| aJapanDMM
+- name: 3.93| aJapanDMM
   server: hygz.q-air.icu
   port: 18221
   type: trojan
   password: d485205a-abc6-3940-8f89-faf533b0b001
   sni: hygz.q-air.icu
   skip-cert-verify: false
-- name: 1.95| d法国
+- name: 2.06| d法国
   server: hygz.q-air.icu
   port: 18710
   type: vmess
@@ -19,3 +19,31 @@ proxies:
   ws-path: /np
   ws-headers:
     Host: vu-fra1-v2.q-air.icu
+- name: 1.33|US美国Youtube技术分享室整理 2
+  server: 198.41.212.154
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws/?ed=2048
+  ws-headers:
+    Host: download.china666.ml
+  udp: true
+- name: 1.17|HKYoutube技术分享室整理 3
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws/?ed=2048
+  ws-headers:
+    Host: download.china666.ml
+  udp: true
