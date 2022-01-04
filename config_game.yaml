@@ -1,5 +1,5 @@
 proxies:
-- name: 9.78| Hong Kong 07
+- name: 10.51| Hong Kong 07
   server: iepl.hk.cc38.linkit.dev
   port: 17852
   type: ss
@@ -9,7 +9,15 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 9.16| Hong Kong 08
+- name: 10.16|上海CN2
+  type: ss
+  server: cn2.gzhpxb.com
+  port: 20166
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 10.08| Hong Kong 08
   server: iepl.hk.4a75.linkit.dev
   port: 17852
   type: ss
@@ -19,66 +27,7 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 9.14| Hong Kong 11
-  server: iepl.hk.206f.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 8.31|RelayGB06
-  server: 113.31.163.2
-  type: ss
-  port: 10002
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 7.97| Singapore 01  Media
-  server: iepl.sg.21ce.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 7.64|RelayGB05
-  server: 210.13.85.164
-  type: ss
-  port: 10016
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 7.62|RelayHK07
-  server: 42.157.192.41
-  type: ss
-  port: 10004
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 6.90|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.46|上海CN2
-  type: ss
-  server: cn2.gzhpxb.com
-  port: 20166
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 6.00|RelaySG13
-  server: 42.157.192.41
-  type: ss
-  port: 10005
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 5.97| HongKong06
+- name: 10.02| HongKong06
   server: iepl.hk.0686.linkit.dev
   port: 17852
   type: ss
@@ -88,221 +37,8 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 5.88|RelayGB09
-  server: 42.157.160.102
-  type: ss
-  port: 10288
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 5.71| 油管晓飞分享 小麦中继SGP新加坡220x视频
-  server: relaysgp2.host.mznode.link
-  port: 1502
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
-- name: 5.69|CYL科技20210102 3
-  server: 117.28.243.220
-  port: 8254
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-  udp: true
-- name: 5.57|RelaySG10
-  server: 183.232.163.179
-  type: ss
-  port: 10002
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 5.13|RelayHK14
-  server: 183.232.163.179
-  type: ss
-  port: 10000
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 4.78| Base 香港 HK  1 HKT
-  server: tunnel.e-nets.xyz
-  port: 9600
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 4.67|CYL科技20220101 316
-  server: 106.75.233.91
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 4.67| Base新加坡SG4
-  server: tunnel.e-nets.xyz
-  port: 9803
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 4.55| Base新加坡SG5
-  server: tunnel.e-nets.xyz
-  port: 9804
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 4.52|CYL科技20220101 236
-  server: 117.50.106.86
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 4.35|RelayHK15
-  server: 61.171.67.178
-  type: ss
-  port: 10000
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 4.11| 油管晓飞分享 小麦精品HK香港320x视频
-  server: dmhk3.host.mznode.link
-  port: 576
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
-- name: 4.08|Relay1741Mb
-  server: 183.232.56.110
-  type: ssr
-  country: CN
-  port: 574
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 114882:LwdYLj
-  obfs: plain
-  obfs-param: t.me/vpnhat
-- name: 3.84| Base新加坡SG6
-  server: tunnel.e-nets.xyz
-  port: 9805
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 3.80|RelaySG11
-  server: 210.13.85.164
-  type: ss
-  port: 10018
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 3.74| Base香港HK2HKT
-  server: tunnel.e-nets.xyz
-  port: 9601
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 3.73|RelayIR03
-  server: 42.157.160.102
-  type: ss
-  port: 10289
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 3.64| Base澳大利亚AU1
-  server: tunnel.e-nets.xyz
-  port: 9200
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 3.48|CYL科技20220101 129
-  server: 123.59.72.193
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.45|CYL科技20220101 208
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3fa30274862477b6
-  skip-cert-verify: true
-  udp: true
-- name: 3.39| 广州移动TokyoNTT 2
-  server: 183.232.56.110
-  port: 1253
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 3.24|RelaySG12
-  server: ieplin.ctcloudvip.com
-  type: ss
-  port: 10010
-  password: baa82397-a412-4687-91cd-d2493df7f9b8
-  cipher: aes-256-gcm
-- name: 3.19| 油管晓飞分享 小麦中继JP日本3视频
-  server: relayjp3.host.mznode.link
-  port: 1253
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
-- name: 3.17| 油管晓飞分享 小麦中继HK香港420x视频
-  server: bgphzhk4.host.mznode.link
-  port: 577
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
-- name: 3.07| Base 香港 HK  3 HKT
-  server: tunnel.e-nets.xyz
-  port: 9602
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: pDC5MTKZPmVPgPLU
-- name: 3.04|哥斯达黎加IPLC专线
-  server: x.gotout.work
-  port: 30011
-  type: ss
-  cipher: aes-256-gcm
-  password: 7o8j8vi14nv
-- name: 2.81| 油管晓飞分享 小麦中继US美国220x视频
-  server: bgpshus2.host.mznode.link
-  port: 1302
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
-- name: 2.75|CYL科技20220101 135
-  server: 123.59.87.29
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 2.74| 广州移动SacramentoKrypt
-  server: 183.232.56.182
-  port: 1302
-  type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.72| UnitedStates01Media
-  server: iepl.us.e99c.linkit.dev
+- name: 9.79| Hong Kong 11
+  server: iepl.hk.206f.linkit.dev
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
@@ -311,24 +47,149 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 2.70|CYL科技20220101 30
+- name: 8.28| 国内中转SG广州移动新加坡0003
+  server: z0003.security-cloudfront-cdn.com
+  port: 36458
+  type: ssr
+  cipher: aes-256-cfb
+  password: J143FovtodcbhBdq
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 8.21| Singapore 01  Media
+  server: iepl.sg.21ce.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 7.68|wmt14CN中国40
+  server: gz2.52168.xyz
+  port: 2106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 5.85|CYL科技20220101 93 2
+  server: 113.31.109.30
+  port: 3389
+  type: trojan
+  password: edf497f40f71aeeb
+  skip-cert-verify: true
+  udp: true
+- name: 5.80|CYL科技20220101 30
   server: 116.163.10.157
   port: 3389
   type: trojan
   password: ed3c6adf3a77da51
   skip-cert-verify: true
   udp: true
-- name: 2.69| UnitedStates04Media
-  server: iepl.us.6e28.linkit.dev
-  port: 17852
+- name: 5.79|CYL科技20210102 3
+  server: 117.28.243.220
+  port: 8254
   type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 2.65| UnitedStates05Media
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 5.58|CYL科技20220101 142
+  server: 116.163.10.208
+  port: 3389
+  type: trojan
+  password: 3fa30274862477b6
+  skip-cert-verify: true
+  udp: true
+- name: 4.79| CN43 TGpeekfun
+  server: 122.192.154.54
+  port: 3389
+  type: trojan
+  country: ' CN'
+  password: 1910c83debd71218
+  skip-cert-verify: true
+  udp: true
+- name: 4.19|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 3.93|CYL科技20220101 168
+  server: 106.75.168.104
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.53|CYL科技20220101 208
+  server: 106.75.154.24
+  port: 3389
+  type: trojan
+  password: 3fa30274862477b6
+  skip-cert-verify: true
+  udp: true
+- name: 3.45|CYL科技20220101 135
+  server: 123.59.87.29
+  port: 3389
+  type: trojan
+  password: 3426d80c2e066a83
+  skip-cert-verify: true
+  udp: true
+- name: 3.38|CYL科技20220101 236
+  server: 117.50.106.86
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.30|wmt14CN中国90
+  server: sh-hk-hgc-100m-tr.cdn.savoy.click
+  port: 20189
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: sh-hk-hgc-100m-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 3.26|CYL科技20220101 129
+  server: 123.59.72.193
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.15|wmt14CN中国2
+  server: gz2.52168.xyz
+  port: 2109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 3.00|CYL科技20220101 65
+  server: 122.192.189.5
+  port: 3389
+  type: trojan
+  password: edf497f40f71aeeb
+  skip-cert-verify: true
+  udp: true
+- name: 2.86|CYL科技20220101 84
+  server: 122.192.154.50
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 2.69| UnitedStates05Media
   server: iepl.us.4bcf.linkit.dev
   port: 17852
   type: ss
@@ -338,49 +199,169 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 2.63|CYL科技20220101 286
+- name: 2.67| UnitedStates04Media
+  server: iepl.us.6e28.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 2.58| UnitedStates01Media
+  server: iepl.us.e99c.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 2.28|CYL科技20220101 184
+  server: 120.132.50.158
+  port: 3389
+  type: trojan
+  password: 3426d80c2e066a83
+  skip-cert-verify: true
+  udp: true
+- name: 2.17|CYL科技20220101 286
   server: 183.232.163.134
   port: 3389
   type: trojan
   password: ed3c6adf3a77da51
   skip-cert-verify: true
   udp: true
-- name: 2.61|CYL科技20220101 142
-  server: 116.163.10.208
+- name: 2.10|CYL科技20220101 285
+  server: 120.232.192.136
   port: 3389
   type: trojan
-  password: 3fa30274862477b6
+  password: a462ae6358bd9dd7
   skip-cert-verify: true
   udp: true
-- name: 2.46| V2 IEPL Game  HK2
-  server: x.gotout.work
-  port: 30012
-  type: ss
-  cipher: aes-256-gcm
-  password: 7o8j8vi14nv
-- name: 2.42|Relay1949Mb
-  server: jp-tyo-04-tr.cdn.savoy.click
+- name: 2.05|wmt14CN中国113
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
   type: trojan
-  country: CN
-  port: 889
   password: SfobRIcergHchqBFzzua
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
   skip-cert-verify: true
   udp: true
-- name: 2.35|Relay2715Mb
-  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
-  type: trojan
-  country: CN
-  port: 21089
-  password: SfobRIcergHchqBFzzua
-  skip-cert-verify: true
-  udp: true
-- name: 2.25| 油管晓飞分享 小麦精品HK香港220x视频
-  server: dmhk2.host.mznode.link
-  port: 575
+- name: 1.98|wmt14CN中国19
+  server: gz2.52168.xyz
+  port: 2101
   type: ssr
-  cipher: chacha20-ietf
-  password: mtbv8n
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: b43e313.microsoft.com
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 1.97|CYL科技20220101 316
+  server: 106.75.233.91
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 1.74|wmt14CN中国9
+  server: jp-tyo-04-tr.cdn.savoy.click
+  port: 889
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 1.72|wmt14CN中国34
+  server: gz2.52168.xyz
+  port: 2102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 1.61|wmt14CN中国12
+  server: gz2.52168.xyz
+  port: 2104
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31028:PGgTsb
+  obfs-param: 87a8531028.baidu.com
+  udp: true
+- name: 1.15|wmt14CN中国24
+  server: 117.28.243.173
+  port: 4173
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 0.98| 推荐IPLC专线上海香港一01
+  server: z00001.security-cloudfront-cdn.com
+  port: 36458
+  type: ssr
+  cipher: aes-256-cfb
+  password: J143FovtodcbhBdq
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 0.95|wmt14CN中国29
+  server: tw-tpe-h-tr.cdn.savoy.click
+  port: 989
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 0.67|CYL科技20210102 31
+  server: 117.28.243.173
+  port: 2173
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 0.39|CYL科技20220101 234
+  server: 122.192.154.53
+  port: 3389
+  type: trojan
+  password: ed3c6adf3a77da51
+  skip-cert-verify: true
+  udp: true
+- name: 0.38|CN300 404Mb
+  server: 101.91.121.247
+  type: ss
+  country: CN
+  port: 50004
+  password: '4415934295'
+  cipher: aes-256-cfb
+- name: 0.37|wmt14CN中国156
+  server: s3.upyun.online
+  port: 12340
+  type: trojan
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  sni: s3.upyun.online
+  skip-cert-verify: true
+  udp: true
+- name: 0.37|wmt14CN中国94
+  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  port: 60189
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 0.35|RelayCNTW301 760Mb
+  server: 117.28.243.154
+  type: ss
+  country: CN
+  port: 6145
+  password: passinfo123
+  cipher: rc4-md5
