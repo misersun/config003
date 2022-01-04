@@ -1,94 +1,231 @@
 proxies:
-- name: 2.01|trojan
+- name: 6.11|CYL科技20220101 142
+  server: 116.163.10.208
+  port: 3389
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.48| httpsgitiov9999 莫斯科CDN ip4 13
-  server: 104.22.32.71
-  port: 443
+  password: 3fa30274862477b6
+  skip-cert-verify: true
+  udp: true
+- name: 6.07|CYL科技20220101 93 2
+  server: 113.31.109.30
+  port: 3389
+  type: trojan
+  password: edf497f40f71aeeb
+  skip-cert-verify: true
+  udp: true
+- name: 5.08|CYL科技20220101 316
+  server: 106.75.233.91
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 5.08|CYL科技20220101 30
+  server: 116.163.10.157
+  port: 3389
+  type: trojan
+  password: ed3c6adf3a77da51
+  skip-cert-verify: true
+  udp: true
+- name: 4.48|wmt14CN中国9
+  server: jp-tyo-04-tr.cdn.savoy.click
+  port: 889
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: jp-tyo-04-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 4.16|CYL科技20220101 236
+  server: 117.50.106.86
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.92|CYL科技20220101 168
+  server: 106.75.168.104
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.70|CYL科技20220101 208
+  server: 106.75.154.24
+  port: 3389
+  type: trojan
+  password: 3fa30274862477b6
+  skip-cert-verify: true
+  udp: true
+- name: 3.46|CYL科技20220101 135
+  server: 123.59.87.29
+  port: 3389
+  type: trojan
+  password: 3426d80c2e066a83
+  skip-cert-verify: true
+  udp: true
+- name: 3.36|CYL科技20220101 129
+  server: 123.59.72.193
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 3.31| CN42 TGpeekfun
+  server: 122.192.154.54
+  port: 3389
+  type: trojan
+  country: ' CN'
+  password: 1910c83debd71218
+  skip-cert-verify: true
+  udp: true
+- name: 3.21|Relay 498Mb
+  server: hk-hkg-shhk-001-v2.cdn.savoy.click
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  country: CN
+  port: 20088
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  servername: cdn.savoy.click
+  ws-headers:
+    HOST: cdn.savoy.click
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.92|wmt14CN中国41
+  server: sg-sin-krn-v2.node.inforun.work
+  port: 12888
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.45| httpsgitiov9999 莫斯科CDN ip4 2
-  server: 104.19.181.49
-  port: 443
+    Host: sg-sin-krn-v2.node.inforun.work
+  udp: true
+- name: 2.91|CYL科技20220101 65
+  server: 122.192.189.5
+  port: 3389
+  type: trojan
+  password: edf497f40f71aeeb
+  skip-cert-verify: true
+  udp: true
+- name: 2.69|CYL科技20220101 84
+  server: 122.192.154.50
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 2.42|wmt14CN中国29
+  server: tw-tpe-h-tr.cdn.savoy.click
+  port: 989
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: tw-tpe-h-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 2.36|CYL科技20220101 285
+  server: 120.232.192.136
+  port: 3389
+  type: trojan
+  password: a462ae6358bd9dd7
+  skip-cert-verify: true
+  udp: true
+- name: 2.28|CYL科技20220101 286
+  server: 183.232.163.134
+  port: 3389
+  type: trojan
+  password: ed3c6adf3a77da51
+  skip-cert-verify: true
+  udp: true
+- name: 2.24|wmt14CN中国22
+  server: us-sjc-na-v2.cdn.savoy.click
+  port: 688
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.41| httpsgitiov9999 莫斯科CDN ip4 9
-  server: 172.64.88.97
-  port: 443
+    Host: us-sjc-na-v2.cdn.savoy.click
+  udp: true
+- name: 2.12|wmt14CN中国32
+  server: hk-hkg-sh-hk-02-v2.cdn.savoy.click
+  port: 21088
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.37| httpsgitiov9999 莫斯科CDN ip4 4
-  server: 104.18.87.142
-  port: 443
+    Host: hk-hkg-sh-hk-02-v2.cdn.savoy.click
+  udp: true
+- name: 2.07| d法国
+  server: hygz.q-air.icu
+  port: 18710
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  uuid: d485205a-abc6-3940-8f89-faf533b0b001
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /ray
+  ws-path: /np
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.35| httpsgitiov9999 莫斯科CDN ip4 7
-  server: 104.20.210.106
-  port: 443
+    Host: vu-fra1-v2.q-air.icu
+- name: 1.61|wmt14CN中国145
+  server: sh-hk-hgc-1g-v2.node.inforun.work
+  port: 20288
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.04| httpsgitiov9999 莫斯科CDN ip4 3
-  server: 104.27.17.236
-  port: 443
+    Host: sh-hk-hgc-1g-v2.node.inforun.work
+  udp: true
+- name: 1.43|wmt14CN中国21
+  server: tw-tpe-h-v2.cdn.savoy.click
+  port: 988
   type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.01| httpsgitiov9999 莫斯科CDN ip4 6
-  server: 104.27.116.170
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
+    Host: tw-tpe-h-v2.cdn.savoy.click
+  udp: true
+- name: 1.14|wmt14CN中国90
+  server: sh-hk-hgc-100m-tr.cdn.savoy.click
+  port: 20189
+  type: trojan
+  password: SfobRIcergHchqBFzzua
+  sni: sh-hk-hgc-100m-tr.cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: 1.11|CYL科技20220101 184
+  server: 120.132.50.158
+  port: 3389
+  type: trojan
+  password: 3426d80c2e066a83
+  skip-cert-verify: true
+  udp: true
