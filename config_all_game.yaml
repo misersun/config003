@@ -1,43 +1,5 @@
 proxies:
-- name: 10.51| Hong Kong 07
-  server: iepl.hk.cc38.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 10.16|上海CN2
-  type: ss
-  server: cn2.gzhpxb.com
-  port: 20166
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 10.08| Hong Kong 08
-  server: iepl.hk.4a75.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 10.02| HongKong06
-  server: iepl.hk.0686.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 9.79| Hong Kong 11
+- name: 10.81|Hong Kong 11
   server: iepl.hk.206f.linkit.dev
   port: 17852
   type: ss
@@ -47,17 +9,209 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 8.28| 国内中转SG广州移动新加坡0003
-  server: z0003.security-cloudfront-cdn.com
-  port: 36458
+  udp: true
+- name: 10.62| vpnpool香港
+  server: 211.99.96.16
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 10.61|Hong Kong 07
+  server: iepl.hk.cc38.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 10.47| vpnpool香港
+  server: 211.99.96.11
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 10.15| vpnpool香港
+  server: 211.99.96.10
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 9.64| vpnpool香港
+  server: 211.99.96.15
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 9.44| vpnpool香港
+  server: 211.99.96.7
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 9.09|Hong Kong 08
+  server: iepl.hk.4a75.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 9.00|HongKong06
+  server: iepl.hk.0686.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 8.99| vpnpool香港
+  server: 211.99.96.18
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 8.60| 香港 中继08 华南
+  server: cn-6.crhnode.top
+  port: 567
   type: ssr
-  cipher: aes-256-cfb
-  password: J143FovtodcbhBdq
+  cipher: rc4-md5
+  password: AAEXNETWORKTECHNOLOGYLTD20170715
   protocol: origin
   obfs: http_simple
   protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 8.21| Singapore 01  Media
+  obfs-param: 15710-0p20uaBc1V.download.microsoft.com
+- name: 7.19|上海CN2
+  type: ss
+  server: cn2.gzhpxb.com
+  port: 20166
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 7.18|TWYoutube技术分享室整理
+  server: 116.163.10.208
+  port: 3389
+  type: trojan
+  password: 717f2dadeaa41686
+  skip-cert-verify: true
+  udp: true
+- name: 6.58|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 6.14|新加坡广港隧道15x
+  server: newgy.jidan666.com
+  port: 23034
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 6.03|香港广港隧道Netflix15x
+  server: newgy.jidan666.com
+  port: 23035
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 5.78|日本1广港隧道15x
+  server: newgy.jidan666.com
+  port: 23031
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 5.73|日本2广港隧道15x
+  server: newgy.jidan666.com
+  port: 23032
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 5.52| HK HKG SHHK HGC 1G TRtrojan
+  server: sh-hk-hgc-1g-tr.node.inforun.work
+  port: 20289
+  type: trojan
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 5.08| SG SIN KRN TRtrojan
+  server: sg-sin-krn-tr.node.inforun.work
+  port: 12889
+  type: trojan
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 5.01| CN69
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: ' CN'
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 4.90| CN64 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 4.10|印度广港隧道15x
+  server: newgy.jidan666.com
+  port: 23033
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 3.90| HK HKG IT2 SVM TRtrojan
+  server: hk-hkg-it2-svm-tr.node.inforun.work
+  port: 13889
+  type: trojan
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 3.81|Singapore 01  Media
   server: iepl.sg.21ce.linkit.dev
   port: 17852
   type: ss
@@ -67,139 +221,14 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 7.68|wmt14CN中国40
-  server: gz2.52168.xyz
-  port: 2106
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
   udp: true
-- name: 5.85|CYL科技20220101 93 2
-  server: 113.31.109.30
-  port: 3389
+- name: 3.41| HK HKG GZHK HKT TR Atrojan
+  server: hk-hkg-gz-hk-hkt-v2.node.inforun.work
+  port: 60089
   type: trojan
-  password: edf497f40f71aeeb
-  skip-cert-verify: true
-  udp: true
-- name: 5.80|CYL科技20220101 30
-  server: 116.163.10.157
-  port: 3389
-  type: trojan
-  password: ed3c6adf3a77da51
-  skip-cert-verify: true
-  udp: true
-- name: 5.79|CYL科技20210102 3
-  server: 117.28.243.220
-  port: 8254
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-  udp: true
-- name: 5.58|CYL科技20220101 142
-  server: 116.163.10.208
-  port: 3389
-  type: trojan
-  password: 3fa30274862477b6
-  skip-cert-verify: true
-  udp: true
-- name: 4.79| CN43 TGpeekfun
-  server: 122.192.154.54
-  port: 3389
-  type: trojan
-  country: ' CN'
-  password: 1910c83debd71218
-  skip-cert-verify: true
-  udp: true
-- name: 4.19|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 3.93|CYL科技20220101 168
-  server: 106.75.168.104
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.53|CYL科技20220101 208
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3fa30274862477b6
-  skip-cert-verify: true
-  udp: true
-- name: 3.45|CYL科技20220101 135
-  server: 123.59.87.29
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 3.38|CYL科技20220101 236
-  server: 117.50.106.86
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.30|wmt14CN中国90
-  server: sh-hk-hgc-100m-tr.cdn.savoy.click
-  port: 20189
-  type: trojan
-  password: SfobRIcergHchqBFzzua
-  sni: sh-hk-hgc-100m-tr.cdn.savoy.click
-  skip-cert-verify: true
-  udp: true
-- name: 3.26|CYL科技20220101 129
-  server: 123.59.72.193
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.15|wmt14CN中国2
-  server: gz2.52168.xyz
-  port: 2109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 3.00|CYL科技20220101 65
-  server: 122.192.189.5
-  port: 3389
-  type: trojan
-  password: edf497f40f71aeeb
-  skip-cert-verify: true
-  udp: true
-- name: 2.86|CYL科技20220101 84
-  server: 122.192.154.50
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 2.69| UnitedStates05Media
-  server: iepl.us.4bcf.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 2.67| UnitedStates04Media
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 2.70|UnitedStates04Media
   server: iepl.us.6e28.linkit.dev
   port: 17852
   type: ss
@@ -209,7 +238,19 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 2.58| UnitedStates01Media
+  udp: true
+- name: 2.69|UnitedStates05Media
+  server: iepl.us.4bcf.linkit.dev
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+  udp: true
+- name: 2.68|UnitedStates01Media
   server: iepl.us.e99c.linkit.dev
   port: 17852
   type: ss
@@ -219,184 +260,290 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 2.28|CYL科技20220101 184
-  server: 120.132.50.158
-  port: 3389
+  udp: true
+- name: 2.60|Relay1421Mb
+  server: s3.upyun.online
   type: trojan
-  password: 3426d80c2e066a83
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 2.17|CYL科技20220101 286
-  server: 183.232.163.134
-  port: 3389
-  type: trojan
-  password: ed3c6adf3a77da51
-  skip-cert-verify: true
-  udp: true
-- name: 2.10|CYL科技20220101 285
-  server: 120.232.192.136
-  port: 3389
-  type: trojan
-  password: a462ae6358bd9dd7
-  skip-cert-verify: true
-  udp: true
-- name: 2.05|wmt14CN中国113
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
-  type: trojan
-  password: SfobRIcergHchqBFzzua
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: true
-  udp: true
-- name: 1.98|wmt14CN中国19
-  server: gz2.52168.xyz
-  port: 2101
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 1.97|CYL科技20220101 316
-  server: 106.75.233.91
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 1.74|wmt14CN中国9
-  server: jp-tyo-04-tr.cdn.savoy.click
-  port: 889
-  type: trojan
-  password: SfobRIcergHchqBFzzua
-  sni: jp-tyo-04-tr.cdn.savoy.click
-  skip-cert-verify: true
-  udp: true
-- name: 1.72|wmt14CN中国34
-  server: gz2.52168.xyz
-  port: 2102
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 1.61|wmt14CN中国12
-  server: gz2.52168.xyz
-  port: 2104
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 1.15|wmt14CN中国24
+- name: 2.23|Relay  576Mb
   server: 117.28.243.173
+  type: ss
+  country: CN
   port: 4173
-  type: ss
-  cipher: rc4-md5
   password: passinfo123
-  udp: true
-- name: 0.98| 推荐IPLC专线上海香港一01
-  server: z00001.security-cloudfront-cdn.com
-  port: 36458
-  type: ssr
-  cipher: aes-256-cfb
-  password: J143FovtodcbhBdq
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 0.95|wmt14CN中国29
-  server: tw-tpe-h-tr.cdn.savoy.click
-  port: 989
+  cipher: rc4-md5
+- name: 2.01| vpnpool香港
+  server: 211.99.96.13
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: ds.download.windowsupdate.com
+- name: 1.96|Relay2004Mb
+  server: s2.upyun.online
   type: trojan
-  password: SfobRIcergHchqBFzzua
-  sni: tw-tpe-h-tr.cdn.savoy.click
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 0.67|CYL科技20210102 31
-  server: 117.28.243.173
-  port: 2173
+- name: 1.54| 韩国B
+  server: 117.28.243.220
+  port: 8076
   type: ss
   cipher: rc4-md5
   password: passinfo123
+- name: 1.51|俄罗斯BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44606
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
   udp: true
-- name: 0.66|ZZ2263 865Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 7002
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 0.53|wmt14US美国49
-  server: 38.143.66.71
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
+- name: 1.42|香港BGPNetflix12x
+  server: azhk.node.qchwnd.moe
+  port: 44609
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.node.qchwnd.moe
+  skip-cert-verify: true
   udp: true
-- name: 0.43|wmt14NO挪威134
-  server: 46.29.218.6
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+- name: 1.23|印度BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44604
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
   udp: true
-- name: 0.42|mattkaydiarycom美国USUSAMiami13
-  server: 38.143.66.71
+- name: 1.19| 香港A
+  server: 117.28.243.220
+  port: 8254
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 1.17| 法国
+  server: 117.28.243.220
+  port: 8186
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 1.16|中華民國BGP中转Netflix12x
+  server: azhk.relay.qchwnd.moe
+  port: 44608
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.14| JapanJP6Rate10
+  server: jp6.chuqianglai.com
   port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 0.39|CYL科技20220101 234
-  server: 122.192.154.53
-  port: 3389
   type: trojan
-  password: ed3c6adf3a77da51
+  password: MdgQdGKztQR36kpba4
+  sni: jp6.chuqianglai.com
+- name: 1.07| 台湾B
+  server: 117.28.243.220
+  port: 8036
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 1.00|日本1BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44602
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 0.38|CN300 404Mb
+- name: 0.90| JapanJP2Rate10
+  server: jp2.chuqianglai.com
+  port: 443
+  type: trojan
+  password: MdgQdGKztQR36kpba4
+  sni: jp2.chuqianglai.com
+- name: 0.79| 853Mb
+  server: 158.247.208.102
+  type: ss
+  country: US
+  port: 5600
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.73|US美国81
+  server: 38.143.66.71
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.72|香港BGP中转HGC12x
+  server: azhk.relay.qchwnd.moe
+  port: 44601
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 0.69|US美国74
+  server: 38.91.102.96
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.61|新加坡BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44605
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 0.56| 德国
+  server: 117.28.243.220
+  port: 8223
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.54|日本2BGP中转Netflix
+  server: azhk.relay.qchwnd.moe
+  port: 44603
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 0.47|US美国95
+  server: 38.91.102.86
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.44|US美国35
+  server: 169.197.142.39
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.43|US美国75
+  server: 38.143.66.71
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.41|1227Mb
+  server: 38.91.102.96
+  type: ss
+  country: US
+  port: 8119
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 0.39|US美国4
+  server: 167.88.61.60
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.37|US美国24
+  server: 167.88.61.60
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.36| 印度
+  server: 117.28.243.220
+  port: 8147
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.36|mattkaydiarycom美国USUSASantaClara49
+  server: 169.197.142.39
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.35|US美国11
+  server: 167.88.61.60
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.35|US美国127
+  server: 169.197.142.39
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.34|US美国26
+  server: 38.91.102.96
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.34| 809Mb
+  server: 167.88.61.60
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.34|US美国85
+  server: 38.143.66.71
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.34| CN63 TGpeekfun
+  server: 117.28.243.154
+  port: 6145
+  type: ss
+  country: ' CN'
+  password: passinfo123
+  cipher: rc4-md5
+- name: 0.33| 691Mb
+  server: 38.143.66.71
+  type: ss
+  country: US
+  port: 8000
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.33|US美国106
+  server: 38.91.102.96
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.32|US美国21
+  server: 169.197.142.39
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.32|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.31| 720Mb
   server: 101.91.121.247
   type: ss
   country: CN
   port: 50004
   password: '4415934295'
   cipher: aes-256-cfb
-- name: 0.37|wmt14CN中国156
-  server: s3.upyun.online
-  port: 12340
-  type: trojan
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  sni: s3.upyun.online
-  skip-cert-verify: true
-  udp: true
-- name: 0.37|wmt14CN中国94
-  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
-  port: 60189
-  type: trojan
-  password: SfobRIcergHchqBFzzua
-  sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click
-  skip-cert-verify: true
-  udp: true
-- name: 0.35|RelayCNTW301 760Mb
-  server: 117.28.243.154
+- name: 0.31|US美国96
+  server: 169.197.142.39
+  port: 8118
   type: ss
-  country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- name: 0.35|wmt14CA加拿大147
-  server: t1.ssrsub.com
-  port: 8443
-  type: trojan
-  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
-  sni: t1.ssrsub.com
-  skip-cert-verify: true
-  udp: true
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
