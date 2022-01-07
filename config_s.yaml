@@ -1,46 +1,20 @@
 proxies:
-- name: 8.09|TWYoutube技术分享室整理
-  server: 116.163.10.208
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 7.54|CYL科技20220101 30
-  server: 116.163.10.157
-  port: 3389
-  type: trojan
-  password: ed3c6adf3a77da51
-  skip-cert-verify: true
-  udp: true
-- name: 6.40| HK HKG SHHK HGC 1G TRtrojan
-  server: sh-hk-hgc-1g-tr.node.inforun.work
-  port: 20289
-  type: trojan
-  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
-  sni: cdn.savoy.click
-- name: 5.65|日本2广港隧道15x
-  server: newgy.jidan666.com
-  port: 23032
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 4.97|CYL科技20220101 65
-  server: 122.192.189.5
+- name: 4.77|CYL科技20220104 2
+  server: 117.50.106.86
   port: 3389
   type: trojan
   password: edf497f40f71aeeb
   skip-cert-verify: true
   udp: true
-- name: 4.75| HK HKG GZHK HKT TR Atrojan
-  server: hk-hkg-gz-hk-hkt-v2.node.inforun.work
-  port: 60089
+- name: 4.75|Relay3546Mb
+  server: sh-hk-hgc-100m-tr.cdn.savoy.click
   type: trojan
+  country: CN
+  port: 20189
   password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
-  sni: cdn.savoy.click
-- name: 3.84|印度广港隧道15x
+  skip-cert-verify: true
+  udp: true
+- name: 4.13|印度广港隧道15x
   server: newgy.jidan666.com
   port: 23033
   type: trojan
@@ -48,82 +22,19 @@ proxies:
   sni: newgy.jidan666.com
   skip-cert-verify: true
   udp: true
-- name: 3.73|CYL科技20220101 84
-  server: 122.192.154.50
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.61|CYL科技20220101 208
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3fa30274862477b6
-  skip-cert-verify: true
-  udp: true
-- name: 3.56|CYL科技20220101 129
-  server: 123.59.72.193
-  port: 3389
-  type: trojan
-  password: 717f2dadeaa41686
-  skip-cert-verify: true
-  udp: true
-- name: 3.08|香港BGPNetflix12x
-  server: azhk.node.qchwnd.moe
-  port: 44609
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.node.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 2.69| 176Mb
-  server: s3.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 2.44|2131Mb
-  server: s1.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 2.15|CYL科技20220101 286
-  server: 183.232.163.134
-  port: 3389
-  type: trojan
-  password: ed3c6adf3a77da51
-  skip-cert-verify: true
-  udp: true
-- name: 2.13|CYL科技20220101 135
-  server: 123.59.87.29
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 2.03|日本2BGP中转Netflix
-  server: azhk.relay.qchwnd.moe
-  port: 44603
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.61|中華民國BGP中转Netflix12x
-  server: azhk.relay.qchwnd.moe
-  port: 44608
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.47|印度BGP中转
+- name: 2.95| HK HKG SHHK 001 V2vmess
+  server: hk-hkg-shhk-001-v2.cdn.savoy.click
+  port: 20088
+  type: vmess
+  uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.84|印度BGP中转
   server: azhk.relay.qchwnd.moe
   port: 44604
   type: trojan
@@ -131,19 +42,79 @@ proxies:
   sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 1.41|印度尼西亚BGP中转Netflix12x
-  server: azhk.relay.qchwnd.moe
-  port: 44607
+- name: 2.71| CN70 TGpeekfun
+  server: s1.upyun.online
+  port: 12340
   type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
+  country: ' CN'
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 1.12|俄罗斯BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44606
+- name: 2.71|Relay 170Mb
+  server: s2.upyun.online
   type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
+- name: 2.40|Relay 176Mb
+  server: tw-tpe-h-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 989
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  skip-cert-verify: true
+  udp: true
+- name: 2.33|台湾阿伟科技油管 3
+  server: tw-tpe-h-v2.cdn.savoy.click
+  port: 988
+  type: vmess
+  uuid: adef7fc3-66d8-4709-b588-30b8ba07f5ff
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+  udp: true
+- name: 1.30| HK HKG SHHK HGC 100M V2vmess
+  server: sh-hk-hgc-100m-v2.cdn.savoy.click
+  port: 20188
+  type: vmess
+  uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.17|US17267223770280
+  server: 172.67.223.77
+  port: 443
+  type: vmess
+  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.cf
+- name: 1.06|RELAY104212391470629
+  server: 104.21.239.147
+  port: 443
+  type: vmess
+  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.cf

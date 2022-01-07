@@ -1,14 +1,17 @@
 proxies:
-- name: 4.26| 香港阿伟科技油管 12
-  server: v31.88host.buzz
-  port: 18064
+- name: 9.81| 直连CN2 GIA 香港10 阿里云 HK
+  server: 47.243.67.117
+  port: 21888
   type: vmess
-  uuid: f51c5c84-684c-3979-8827-218464c5e8cf
+  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 4.18|专线香港08原生HGCBBS
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 47.243.67.117
+- name: 8.84|专线香港08原生HGCBBS
   server: zfd.out02.nodeserver.top
   port: 16237
   type: vmess
@@ -18,55 +21,134 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 3.08|专线西雅图02原生NTT
-  server: zfd.out02.nodeserver.top
-  port: 16234
+- name: 8.20|专线香港02原生HGCBBS
+  server: v32.88host.buzz
+  port: 18065
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.99|专线西雅图01原生NTT
-  server: zfd.out01.nodeserver.top
-  port: 16233
+- name: 7.72|专线香港05原生HGCBBS
+  server: v35.88host.buzz
+  port: 18068
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.96|老公我的骚逼好痒啊
+- name: 7.64|专线香港01原生HGCBBS
   server: v31.88host.buzz
-  port: 18082
+  port: 18064
   type: vmess
-  uuid: f51c5c84-684c-3979-8827-218464c5e8cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.94|移动专线A
-  server: 120.232.215.153
-  port: 51193
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.52|标准中国台湾04解锁流媒体
-  server: zfd.out04.nodeserver.top
-  port: 16128
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.82|HKYoutube技术分享室整理
+- name: 7.37|专线香港06原生CMI
+  server: v36.88host.buzz
+  port: 18069
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 7.08|RelayCNTW312 449Mb
+  server: shcu01.iplc188.com
+  type: vmess
+  country: CN
+  port: 10004
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.72|标准日本04解锁流媒体
+  server: v24.88host.buzz
+  port: 18024
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 6.61|Relay3096Mb
+  server: shcn2-06b.iplc188.com
+  type: vmess
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: shcn2-06b.iplc188.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.54|专线台湾01原生HINET
+  server: v36.88host.buzz
+  port: 18078
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 6.08|标准新加坡04解锁流媒体
+  server: v24.88host.buzz
+  port: 18036
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.91|标准新加坡01解锁流媒体
+  server: v21.88host.buzz
+  port: 18033
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.56|专线香港03原生CMI
+  server: v33.88host.buzz
+  port: 18066
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.54|标准日本03解锁流媒体
+  server: v23.88host.buzz
+  port: 18023
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.40|HKYoutube技术分享室整理
   server: shcn2-06b.iplc188.com
   port: 10005
   type: vmess
@@ -76,100 +158,158 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.81|老公我的骚逼好痒啊
-  server: v34.88host.buzz
-  port: 18067
+- name: 4.40|专线香港07原生HKBN
+  server: v31.88host.buzz
+  port: 18082
   type: vmess
-  uuid: f51c5c84-684c-3979-8827-218464c5e8cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.72|DO新加坡AZ中转
-  server: 13.70.44.45
-  port: 23341
-  type: vmess
-  uuid: 0c026923-0425-420f-99a6-f940ed3798a9
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: pull.free.video.10010.com
   udp: true
-- name: 1.55|mattkaydiarycom中国香港中国台湾CNChinaShanghai小东的程序未能精准识别可能是中转节点37
-  server: shcn2-06b.iplc188.com
-  port: 10001
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: tcp
-  ws-path: /
-  ws-headers:
-    Host: shcn2-06b.iplc188.com
-- name: 1.53|老公我的骚逼好痒啊
-  server: v34.88host.buzz
-  port: 18080
-  type: vmess
-  uuid: f51c5c84-684c-3979-8827-218464c5e8cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.43|mattkaydiarycom中国香港中国台湾CNChinaShanghai小东的程序未能精准识别可能是中转节点63
-  server: shcn2-06b.iplc188.com
+- name: 4.31| RelayCNTW297 1856Mb
+  server: fa2.uuv2.co.uk
   port: 10004
   type: vmess
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
   tls: false
-  network: tcp
-  ws-path: /
-- name: 1.27|mattkaydiarycom中国香港中国台湾CNChinaShenzhen小东的程序未能精准识别可能是中转节点54
-  server: 112.33.32.136
-  port: 10003
+- name: 4.04|专线台湾03原生HINET
+  server: v34.88host.buzz
+  port: 18080
   type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: tcp
-- name: 1.24| 香港阿伟科技油管 10
-  server: v32.88host.buzz
-  port: 18083
-  type: vmess
-  uuid: f51c5c84-684c-3979-8827-218464c5e8cf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.17|TGnodesharing 2
-  server: cf666.jklist.tk
-  port: 8080
-  type: vmess
-  uuid: 48fde697-e39a-4db5-a665-06af84ffbb11
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: els.jklist.tk
   udp: true
-- name: 1.12| 标准美国01解锁流媒体
+- name: 3.53|专线西雅图01原生NTT 2
+  server: v31.88host.buzz
+  port: 18084
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.46|专线西雅图01原生NTT
   server: zfd.out01.nodeserver.top
-  port: 16103
+  port: 16233
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 1.03|专线中国台湾03原生HINET
+  skip-cert-verify: true
+  udp: true
+- name: 3.41|专线西雅图02原生NTT
+  server: zfd.out02.nodeserver.top
+  port: 16234
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.32|标准中国台湾04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16128
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.19|标准印度01解锁流媒体
+  server: v27.88host.buzz
+  port: 18074
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.91|专线西雅图02原生NTT 2
+  server: v32.88host.buzz
+  port: 18085
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.88|专线美国02原生NTT
+  server: v32.88host.buzz
+  port: 18043
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.83| CN56
+  server: 112.64.69.187
+  type: vmess
+  country: ' CN'
+  port: 10004
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.82|专线美国01原生NTT
+  server: v31.88host.buzz
+  port: 18042
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.75|基础台湾03视频主力
+  server: v13.88host.buzz
+  port: 18119
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.72|专线美国04原生NTT
+  server: v34.88host.buzz
+  port: 18045
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.58|基础台湾04视频主力
+  server: v11.88host.buzz
+  port: 18120
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.47|专线中国台湾03原生HINET
   server: zfd.out02.nodeserver.top
   port: 16224
   type: vmess
@@ -179,3 +319,163 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 2.46|Relay2697Mb
+  server: c23s3.jamjams.net
+  type: vmess
+  country: US
+  port: 61173
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.45|标准加拿大02解锁流媒体
+  server: v28.88host.buzz
+  port: 18073
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.32|专线美国03原生NTT
+  server: v33.88host.buzz
+  port: 18044
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.24|基础台湾01视频主力
+  server: v12.88host.buzz
+  port: 18117
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.18|基础台湾02视频主力
+  server: v12.88host.buzz
+  port: 18118
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.81|专线香港04原生HGCBBS
+  server: v34.88host.buzz
+  port: 18067
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.75|专线俄罗斯01原生IP
+  server: v31.88host.buzz
+  port: 18059
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.67|专线俄罗斯04原生IP
+  server: v34.88host.buzz
+  port: 18062
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.63|基础俄罗斯04限速100M
+  server: v12.88host.buzz
+  port: 18004
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.57|Relay 883Mb
+  server: shcn2-06b.iplc188.com
+  type: vmess
+  country: CN
+  port: 10004
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: shcn2-06b.iplc188.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.56|基础俄罗斯02限速100M
+  server: v12.88host.buzz
+  port: 18002
+  type: vmess
+  uuid: efa700eb-9bdb-3d1c-b35d-f34fd86d7b34
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|专线俄罗斯03原生IP
+  server: v33.88host.buzz
+  port: 18061
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.46|专线俄罗斯02原生IP
+  server: v32.88host.buzz
+  port: 18060
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.27|基础俄罗斯01限速100M
+  server: v11.88host.buzz
+  port: 18001
+  type: vmess
+  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.27|RelayCNUS3135177Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10005
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
