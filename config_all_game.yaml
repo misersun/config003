@@ -1,6 +1,56 @@
 proxies:
-- name: 10.60|HongKong06
-  server: iepl.hk.0686.linkit.dev
+- name: 7.40|上海CN2
+  type: ss
+  server: cn2.gzhpxb.com
+  port: 20166
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 6.49|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 5.84| vpn大师日本
+  server: 101.67.8.247
+  port: 4011
+  type: ss
+  cipher: aes-256-gcm
+  password: fb757c2c25c4785f437464a4a6b7248c
+- name: 5.02| CN64 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 4.65| moon365netHK 352 free
+  server: 211.99.96.12
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+- name: 4.12| vpn大师新加坡
+  server: 120.232.214.36
+  port: 5002
+  type: ss
+  cipher: aes-256-gcm
+  password: 1f6aca3cebd21a4cd5a80718ed16b74c
+- cipher: aes-256-cfb
+  obfs: plain
+  password: '73117962'
+  port: 9359
+  protocol: origin
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  name: 4.07|2251
+- name: 3.89|17TGJsnzk
+  server: 211.99.96.14
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
@@ -9,31 +59,14 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-  udp: true
-- name: 9.91|vpnpool香港 4
-  server: 211.99.96.15
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 9.84|vpnpool香港 2
+- name: 3.80| moon365netHK 351 free
   server: 211.99.96.7
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
   password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 9.33|vpnpool香港 5
-  server: 211.99.96.10
+- name: 3.03|17TGJsnzk
+  server: 211.99.96.9
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
@@ -42,21 +75,20 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-  udp: true
-- cipher: rc4-md5
-  password: passinfo123
-  port: 4173
-  server: 117.28.243.173
-  type: ss
-  name: 8.67|280
-- name: 8.14|RelayCNHK299 559Mb
-  server: 211.99.96.11
+- name: 2.58|Relay 822Mb
+  server: 211.99.96.13
   type: ss
   country: CN
   port: 17852
   password: 25rmp7CQ
   cipher: xchacha20-ietf-poly1305
-- name: 7.61|Hong Kong 08
+- name: 2.53| moon365netHK 347 free
+  server: 211.99.96.18
+  port: 17852
+  type: ss
+  cipher: xchacha20-ietf-poly1305
+  password: 25rmp7CQ
+- name: 1.76|Hong Kong 08
   server: iepl.hk.4a75.linkit.dev
   port: 17852
   type: ss
@@ -67,7 +99,27 @@ proxies:
     mode: http
     host: ds.download.windowsupdate.com
   udp: true
-- name: 7.41|Hong Kong 11
+- name: 1.75|Relay4919Mb
+  server: 211.99.96.15
+  type: ss
+  country: CN
+  port: 17852
+  password: 25rmp7CQ
+  cipher: xchacha20-ietf-poly1305
+- name: 1.68|Relay 673Mb
+  server: 211.99.96.19
+  type: ss
+  country: CN
+  port: 17852
+  password: 25rmp7CQ
+  cipher: xchacha20-ietf-poly1305
+- name: 1.56| 韩国B
+  server: 117.28.243.220
+  port: 8076
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 1.45|Hong Kong 11
   server: iepl.hk.206f.linkit.dev
   port: 17852
   type: ss
@@ -78,8 +130,8 @@ proxies:
     mode: http
     host: ds.download.windowsupdate.com
   udp: true
-- name: 7.41|Singapore 05  Media
-  server: iepl.sg.f84d.linkit.dev
+- name: 1.41|17TGJsnzk
+  server: 211.99.96.4
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
@@ -88,39 +140,20 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-  udp: true
-- name: 7.35|17TGJsnzk
-  server: 211.99.96.9
+- name: 1.16| moon365netHK 344 free
+  server: 211.99.96.10
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
   password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 6.86|Relay 218Mb
+- name: 1.15|Relay 218Mb
   server: 211.99.96.16
   type: ss
   country: CN
   port: 17852
   password: 25rmp7CQ
   cipher: xchacha20-ietf-poly1305
-- name: 6.75|上海CN2
-  type: ss
-  server: cn2.gzhpxb.com
-  port: 20166
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 6.15|CN1016782471060
-  server: 101.67.8.247
-  port: 4011
-  type: ss
-  cipher: aes-256-gcm
-  password: fb757c2c25c4785f437464a4a6b7248c
-- name: 4.75|17TGJsnzk
+- name: 0.90|17TGJsnzk
   server: 211.99.96.17
   port: 17852
   type: ss
@@ -130,7 +163,17 @@ proxies:
   plugin-opts:
     mode: http
     host: ds.download.windowsupdate.com
-- name: 4.74|Hong Kong 07
+- name: 0.87| 广州日本 DMIT丨全解锁丨A31
+  server: gzydddns.xyz
+  port: 11812
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1:8GmpAV
+  obfs-param: 385231065.microsoft.com
+- name: 0.85|Hong Kong 07
   server: iepl.hk.cc38.linkit.dev
   port: 17852
   type: ss
@@ -141,288 +184,96 @@ proxies:
     mode: http
     host: ds.download.windowsupdate.com
   udp: true
-- name: 4.45|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 3.83|印度广港隧道15x
-  server: newgy.jidan666.com
-  port: 23033
+- name: 0.84|Relay1256Mb
+  server: s1.upyun.online
   type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 3.36|17TGJsnzk
-  server: 211.99.96.19
-  port: 17852
+- name: 0.81|US253
+  server: 167.88.61.2
+  port: 804
   type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 2.69|UnitedStates05Media
-  server: iepl.us.4bcf.linkit.dev
-  port: 17852
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
+- name: 0.60|Relay 559Mb
+  server: 211.99.96.11
   type: ss
-  cipher: xchacha20-ietf-poly1305
+  country: CN
+  port: 17852
   password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
+  cipher: xchacha20-ietf-poly1305
+- cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 167.88.61.2
+  type: ss
+  name: 0.56|1254
+- name: 0.54|httpsgitiov9999 US美国 16
+  server: 167.88.61.60
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
   udp: true
-- name: 2.62|17TGJsnzk
-  server: 211.99.96.12
-  port: 17852
+- name: 0.50| vpn大师日本
+  server: 120.232.214.36
+  port: 4010
   type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 2.61|UnitedStates01Media
-  server: iepl.us.e99c.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.57|CN3053449Mb
+  cipher: aes-256-gcm
+  password: d01d8029e9248bd227325732cc4538d2
+- name: 0.48|CN3043449Mb
   server: 118.193.179.2
   type: ss
   country: CN
   port: 36923
   password: koko666
   cipher: chacha20-ietf-poly1305
-- name: 2.52|UnitedStates04Media
-  server: iepl.us.6e28.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.32|17TGJsnzk
-  server: 211.99.96.14
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- cipher: aes-256-cfb
-  obfs: plain
-  password: '73117962'
-  port: 9359
-  protocol: origin
-  server: hkchiansax2.msservicevip.pw
-  type: ssr
-  name: 1.84|2251
-- name: 1.55| 韩国B
-  server: 117.28.243.220
-  port: 8076
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 1.53| 法国
-  server: 117.28.243.220
-  port: 8186
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 1.52|17TGJsnzk
-  server: 211.99.96.4
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-- name: 1.39|Relay 941Mb
-  server: 211.99.96.13
-  type: ss
-  country: CN
-  port: 17852
-  password: 25rmp7CQ
-  cipher: xchacha20-ietf-poly1305
-- name: 1.05|vpnpool香港 6
-  server: 211.99.96.18
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 0.99|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 0.71|US美国46
-  server: 38.75.136.93
-  port: 5500
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 0.66|CN120232214361061
-  server: 120.232.214.36
-  port: 4010
-  type: ss
-  cipher: aes-256-gcm
-  password: d01d8029e9248bd227325732cc4538d2
-- name: 0.61|httpsgitiov9999 US
-  server: 38.143.66.71
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 0.55|US美国61
-  server: 167.88.61.60
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 0.55| 加拿大
-  server: 117.28.243.220
-  port: 8221
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.54| 德国
+- name: 0.42| 德国
   server: 117.28.243.220
   port: 8223
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 0.54|Relay1767Mb
-  server: t4.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
-  skip-cert-verify: true
-  udp: true
-- name: 0.53| 俄罗斯
+- name: 0.41| 加拿大
   server: 117.28.243.220
-  port: 8045
+  port: 8221
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 0.51| CN67 TGpeekfun
-  server: s2.upyun.online
-  port: 12340
-  type: trojan
-  country: ' CN'
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 0.48|httpsgitiov9999 US美国 30
-  server: 169.197.142.39
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 0.47|香港A
-  server: 117.28.243.220
-  port: 8254
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-  udp: true
-- name: 0.45| 784Mb
-  server: 101.91.121.247
-  type: ss
-  country: CN
-  port: 50004
-  password: '4415934295'
-  cipher: aes-256-cfb
-- name: 0.44| 台湾B
-  server: 117.28.243.220
-  port: 8036
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.39|解锁
-  type: ss
-  server: 817.zemin.life
-  port: 51490
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 0.39| 054Mb
-  server: 169.197.142.39
-  type: ss
-  country: ZZ
-  port: 8882
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 0.34|US美国 30
-  server: 169.197.142.39
-  port: 6379
-  type: ss
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 0.33|RelayCNTW3041100Mb
-  server: 117.28.243.154
-  type: ss
-  country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- name: 0.33|Relay2100Mb
+- name: 0.37|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.31|Relay1910Mb
   server: t1.ssrsub.com
   type: trojan
   country: CA
   port: 8443
-  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
+  password: e6c36d58-6070-4b55-a437-146e6b53ec57
   skip-cert-verify: true
   udp: true
-- name: 0.32|httpsgitiov9999 US美国 28
-  server: 169.197.142.39
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+- name: 0.31|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.31|Relay 678Mb
+  server: s3.upyun.online
+  type: trojan
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
   udp: true
-- name: 0.32|httpsgitiov9999 US美国 27
-  server: 169.197.142.39
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 0.32| 599Mb
-  server: 198.57.27.218
-  type: ss
-  country: CA
-  port: 8090
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
