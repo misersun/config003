@@ -1,67 +1,5 @@
 proxies:
-- name: 9.81| 直连CN2 GIA 香港10 阿里云 HK
-  server: 47.243.67.117
-  port: 21888
-  type: vmess
-  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 47.243.67.117
-- name: 8.84|专线香港08原生HGCBBS
-  server: zfd.out02.nodeserver.top
-  port: 16237
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 8.20|专线香港02原生HGCBBS
-  server: v32.88host.buzz
-  port: 18065
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 7.72|专线香港05原生HGCBBS
-  server: v35.88host.buzz
-  port: 18068
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 7.64|专线香港01原生HGCBBS
-  server: v31.88host.buzz
-  port: 18064
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 7.37|专线香港06原生CMI
-  server: v36.88host.buzz
-  port: 18069
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 7.08|RelayCNTW312 449Mb
+- name: 8.21|RelayCNTW315 666Mb
   server: shcu01.iplc188.com
   type: vmess
   country: CN
@@ -74,81 +12,58 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 6.72|标准日本04解锁流媒体
-  server: v24.88host.buzz
-  port: 18024
+- name: 7.48|标准新加坡02解锁流媒体
+  server: v22.88host.buzz
+  port: 18034
   type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  uuid: 00e4387d-657d-3cae-a048-b6d4100323ab
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 6.61|Relay3096Mb
-  server: shcn2-06b.iplc188.com
+- name: 7.28|专线香港08原生HGCBBS
+  server: zfd.out02.nodeserver.top
+  port: 16237
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.47|Relay 926Mb
+  server: 112.64.69.187
   type: vmess
   country: CN
-  port: 10001
+  port: 10004
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
   network: tcp
   ws-path: /
-  servername: shcn2-06b.iplc188.com
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 6.54|专线台湾01原生HINET
-  server: v36.88host.buzz
-  port: 18078
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 6.08|标准新加坡04解锁流媒体
-  server: v24.88host.buzz
-  port: 18036
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.91|标准新加坡01解锁流媒体
-  server: v21.88host.buzz
-  port: 18033
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.56|专线香港03原生CMI
-  server: v33.88host.buzz
-  port: 18066
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.54|标准日本03解锁流媒体
+- name: 4.33|标准新加坡03解锁流媒体
   server: v23.88host.buzz
-  port: 18023
+  port: 18035
   type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  uuid: 00e4387d-657d-3cae-a048-b6d4100323ab
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 5.40|HKYoutube技术分享室整理
+- name: 3.88|印度广港隧道15x
+  server: newgy.jidan666.com
+  port: 23033
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
+  skip-cert-verify: true
+  udp: true
+- name: 3.75|HKYoutube技术分享室整理
   server: shcn2-06b.iplc188.com
   port: 10005
   type: vmess
@@ -158,96 +73,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 5.12| CN50
-  server: hkchiansax2.msservicevip.pw
-  type: ssr
-  country: ' CN'
-  port: 9359
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 4.77|CYL科技20220104 2
-  server: 117.50.106.86
-  port: 3389
-  type: trojan
-  password: edf497f40f71aeeb
-  skip-cert-verify: true
-  udp: true
-- name: 4.75|Relay3546Mb
-  server: sh-hk-hgc-100m-tr.cdn.savoy.click
-  type: trojan
-  country: CN
-  port: 20189
-  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
-  skip-cert-verify: true
-  udp: true
-- name: 4.40|专线香港07原生HKBN
-  server: v31.88host.buzz
-  port: 18082
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.38| CN66 TGpeekfun
-  server: 117.28.242.137
-  port: 9359
-  type: ssr
-  country: ' CN'
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 4.31| RelayCNTW297 1856Mb
-  server: fa2.uuv2.co.uk
-  port: 10004
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 4.13|印度广港隧道15x
-  server: newgy.jidan666.com
-  port: 23033
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 4.04|专线台湾03原生HINET
-  server: v34.88host.buzz
-  port: 18080
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.53|专线西雅图01原生NTT 2
-  server: v31.88host.buzz
-  port: 18084
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.46|专线西雅图01原生NTT
-  server: zfd.out01.nodeserver.top
-  port: 16233
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.41|专线西雅图02原生NTT
+- name: 3.48|专线西雅图02原生NTT
   server: zfd.out02.nodeserver.top
   port: 16234
   type: vmess
@@ -257,7 +83,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 3.32|标准中国台湾04解锁流媒体
+- name: 3.26|标准中国台湾04解锁流媒体
   server: zfd.out04.nodeserver.top
   port: 16128
   type: vmess
@@ -267,167 +93,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 3.19|标准印度01解锁流媒体
-  server: v27.88host.buzz
-  port: 18074
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.95| HK HKG SHHK 001 V2vmess
-  server: hk-hkg-shhk-001-v2.cdn.savoy.click
-  port: 20088
-  type: vmess
-  uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /je5x3pBN1vez3NQudNkB
-  ws-headers:
-    Host: cdn.savoy.click
-- name: 2.91|专线西雅图02原生NTT 2
-  server: v32.88host.buzz
-  port: 18085
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.88|专线美国02原生NTT
-  server: v32.88host.buzz
-  port: 18043
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.84|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 2.83| CN56
-  server: 112.64.69.187
-  type: vmess
-  country: ' CN'
-  port: 10004
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.82|专线美国01原生NTT
-  server: v31.88host.buzz
-  port: 18042
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.75|基础台湾03视频主力
-  server: v13.88host.buzz
-  port: 18119
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.72|专线美国04原生NTT
-  server: v34.88host.buzz
-  port: 18045
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.71| CN70 TGpeekfun
-  server: s1.upyun.online
-  port: 12340
-  type: trojan
-  country: ' CN'
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 2.71|Relay 170Mb
-  server: s2.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 2.58|基础台湾04视频主力
-  server: v11.88host.buzz
-  port: 18120
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.47|专线中国台湾03原生HINET
-  server: zfd.out02.nodeserver.top
-  port: 16224
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.46|Relay2697Mb
-  server: c23s3.jamjams.net
-  type: vmess
-  country: US
-  port: 61173
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.45|标准加拿大02解锁流媒体
-  server: v28.88host.buzz
-  port: 18073
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.40|Relay 176Mb
-  server: tw-tpe-h-tr.cdn.savoy.click
-  type: trojan
-  country: CN
-  port: 989
-  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
-  skip-cert-verify: true
-  udp: true
-- name: 2.33|台湾阿伟科技油管 3
+- name: 2.91|台湾阿伟科技油管 3
   server: tw-tpe-h-v2.cdn.savoy.click
   port: 988
   type: vmess
@@ -441,91 +107,48 @@ proxies:
   ws-headers:
     Host: cdn.savoy.click
   udp: true
-- name: 2.32|专线美国03原生NTT
-  server: v33.88host.buzz
-  port: 18044
+- name: 2.91|专线西雅图01原生NTT
+  server: zfd.out01.nodeserver.top
+  port: 16233
   type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.24|基础台湾01视频主力
-  server: v12.88host.buzz
-  port: 18117
+- name: 2.30|Relay2288Mb
+  server: c23s3.jamjams.net
   type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.18|基础台湾02视频主力
-  server: v12.88host.buzz
-  port: 18118
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.81|专线香港04原生HGCBBS
-  server: v34.88host.buzz
-  port: 18067
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.75|专线俄罗斯01原生IP
-  server: v31.88host.buzz
-  port: 18059
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.67|专线俄罗斯04原生IP
-  server: v34.88host.buzz
-  port: 18062
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.63|基础俄罗斯04限速100M
-  server: v12.88host.buzz
-  port: 18004
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.57|Relay 883Mb
-  server: shcn2-06b.iplc188.com
-  type: vmess
-  country: CN
-  port: 10004
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+  country: US
+  port: 61173
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
   cipher: auto
   network: tcp
   ws-path: /
-  servername: shcn2-06b.iplc188.com
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.56|基础俄罗斯02限速100M
+- name: 2.07|专线中国台湾03原生HINET
+  server: zfd.out02.nodeserver.top
+  port: 16224
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.06| CN69 TGpeekfun
+  server: s2.upyun.online
+  port: 12340
+  type: trojan
+  country: ' CN'
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 1.73|基础俄罗斯02限速100M
   server: v12.88host.buzz
   port: 18002
   type: vmess
@@ -535,84 +158,26 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.52|专线俄罗斯03原生IP
-  server: v33.88host.buzz
-  port: 18061
+- name: 1.44| CN52
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: ' CN'
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.40|日本阿伟科技油管 2
+  server: jp-nrt-04-v2.cdn.savoy.click
+  port: 888
   type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.46|专线俄罗斯02原生IP
-  server: v32.88host.buzz
-  port: 18060
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.30| HK HKG SHHK HGC 100M V2vmess
-  server: sh-hk-hgc-100m-v2.cdn.savoy.click
-  port: 20188
-  type: vmess
-  uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f
+  uuid: adef7fc3-66d8-4709-b588-30b8ba07f5ff
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
   ws-path: /je5x3pBN1vez3NQudNkB
   ws-headers:
     Host: cdn.savoy.click
-- name: 1.27|基础俄罗斯01限速100M
-  server: v11.88host.buzz
-  port: 18001
-  type: vmess
-  uuid: 65afc295-eb10-3621-ba56-1d22f1e003c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   udp: true
-- name: 1.27|RelayCNUS3135177Mb
-  server: 112.33.32.136
-  type: vmess
-  country: CN
-  port: 10005
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.17|US17267223770280
-  server: 172.67.223.77
-  port: 443
-  type: vmess
-  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.cf
-- name: 1.06|RELAY104212391470629
-  server: 104.21.239.147
-  port: 443
-  type: vmess
-  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.cf
