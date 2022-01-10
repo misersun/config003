@@ -1,5 +1,21 @@
 proxies:
-- name: 9.88|上海CN2
+- name: 10.91| JP04
+  server: hz.marslink.icu
+  port: 41107
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 456774ab-995c-4fd0-98a2-21050c084e45
+- name: 8.35|Jsnzkpg
+  server: sh-04.yuyu.cool
+  port: 20005
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 7.70|上海CN2
   type: ss
   server: cn2.gzhpxb.com
   port: 20166
@@ -7,157 +23,198 @@ proxies:
   password: yangchaoyue
   udp: true
   skip-cert-verify: true
-- name: 6.84|ss
+- name: 7.59|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 6.38|Relay1021Mb
+- name: 7.24| 香港 HK 04
+  server: 01-hgvhjh.globalrelay.link
+  port: 15004
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 7.16|RelayUS303 491Mb
   server: 117.28.243.173
   type: ss
   country: CN
   port: 4173
   password: passinfo123
   cipher: rc4-md5
-- name: 5.70|Hong Kong 13
-  server: iepl.hk.31c4.linkit.dev
+- name: 6.17|Jsnzkpg
+  server: sh-06.yuyu.cool
+  port: 20017
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 5.89|Jsnzkpg
+  server: hz-01.yuyu.cool
+  port: 20018
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 5.71| 新加坡 SG 02
+  server: 01-hgvhjh.globalrelay.link
+  port: 15402
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 5.47| 新加坡 SG 08
+  server: 01-hgvhjh.globalrelay.link
+  port: 15408
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 5.05| 台湾 TW 07
+  server: 01-hgvhjh.globalrelay.link
+  port: 15507
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 4.53|Jsnzkpg
+  server: sh-05.yuyu.cool
+  port: 20006
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.35|如果你是买来的你就是被骗了
+  server: 01-hgvhjh.globalrelay.link
+  port: 15501
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 4.13|Telegram频道cookpdhttpstmecookpd
+  server: 01-hgvhjh.globalrelay.link
+  port: 15505
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 4.03|Jsnzkpg
+  server: sh-02.yuyu.cool
+  port: 20018
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 3.96|Jsnzkpg
+  server: ls-01.yuyu.cool
+  port: 20278
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 3.69|小库整合节点 TGxiaoku233 QQ2329209282
+  server: 01-hgvhjh.globalrelay.link
+  port: 15504
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 3.19|Jsnzkpg
+  server: sd-01.yuyu.cool
+  port: 20016
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 3.11|Jsnzkpg
+  server: sd-02.yuyu.cool
+  port: 20017
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 3.10|Jsnzkpg
+  server: hz-02.yuyu.cool
+  port: 20017
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 2.67|中国TGnodesharing 17
+  server: 211.99.96.30
   port: 17852
   type: ss
   cipher: xchacha20-ietf-poly1305
   password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
   udp: true
-- name: 4.29|中国TGnodesharing 11
-  server: 211.99.96.35
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 4.23|Hong Kong 11
-  server: iepl.hk.206f.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 3.81| vpn大师新加坡
-  server: 120.232.214.36
-  port: 5002
-  type: ss
-  cipher: aes-256-gcm
-  password: 1f6aca3cebd21a4cd5a80718ed16b74c
-- name: 3.35|中国TGnodesharing 6
-  server: 211.99.96.14
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 3.18|Relay1958Mb
-  server: 211.99.96.15
-  type: ss
-  country: CN
-  port: 17852
-  password: 25rmp7CQ
-  cipher: xchacha20-ietf-poly1305
-- name: 3.08|Hong Kong 14
-  server: iepl.hk.71bc.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.84|中国TGnodesharing 9
-  server: 211.99.96.4
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 2.79|Hong Kong 02
-  server: iepl.hk.c474.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.63|中国TGnodesharing 12
-  server: 211.99.96.36
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 2.56|HongKong06
-  server: iepl.hk.0686.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.51|UnitedStates01Media
-  server: iepl.us.e99c.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.44|RelayCN 980Mb
-  server: 211.99.96.19
-  type: ss
-  country: CN
-  port: 17852
-  password: 25rmp7CQ
-  cipher: xchacha20-ietf-poly1305
-- name: 2.34|朝鲜IPLC专线
-  server: 211.99.96.16
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.34|Hong Kong 09
-  server: iepl.hk.023d.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.34|406CN中国55
+- name: 2.25|Jsnzkpg
+  server: ls-02.yuyu.cool
+  port: 20279
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 2.11|所以节点皆为整合网络上分享的节点
+  server: 01-hgvhjh.globalrelay.link
+  port: 15502
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:ZEshHw
+  obfs-param: b3d756622.microsoft.com
+- name: 1.75|406CN中国55
   server: 183.232.13.63
   port: 2109
   type: ssr
@@ -168,151 +225,99 @@ proxies:
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
   udp: true
-- name: 2.30|中国TGnodesharing 8
-  server: 211.99.96.18
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 2.22| moon365netHK 352 free
-  server: 211.99.96.12
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-- name: 2.21|中国TGnodesharing 7
-  server: 211.99.96.9
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 2.20|vpnpool香港
-  server: 211.99.96.11
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.12|vpnpool香港 4
-  server: 211.99.96.10
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 2.10|中国TGnodesharing 17
-  server: 211.99.96.30
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 2.00|中国TGnodesharing 10
-  server: 211.99.96.17
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 1.88|中国TGnodesharing 20
-  server: 211.99.96.26
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 1.86|vpnpool香港 2
-  server: 211.99.96.7
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 1.67|RelayCNHK297 348Mb
-  server: 211.99.96.13
-  type: ss
-  country: CN
-  port: 17852
-  password: 25rmp7CQ
-  cipher: xchacha20-ietf-poly1305
-- name: 1.59|中国TGnodesharing 21
-  server: 211.99.96.27
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 1.46|Hong Kong 07
-  server: iepl.hk.cc38.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 1.45| 法国
+- name: 1.43|Jsnzkpg
+  server: fs-01.yuyu.cool
+  port: 22789
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 1.43| 香港A
   server: 117.28.243.220
-  port: 8186
+  port: 8254
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 1.43|Hong Kong 10
-  server: iepl.hk.fda0.linkit.dev
-  port: 17852
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: ds.download.windowsupdate.com
-  udp: true
-- name: 1.22|RelayCNSG295 619Mb
+- name: 1.33|Jsnzkpg
+  server: shanghai-02.yuyu.cool
+  port: 10036
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 1.12|Relay1065Mb
   server: 117.28.243.220
   type: ss
   country: CN
   port: 8076
   password: passinfo123
   cipher: rc4-md5
-- name: 1.08|中国TGnodesharing 13
-  server: 211.99.96.33
-  port: 17852
+- name: 0.98| CN68 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.93| 法国
+  server: 117.28.243.220
+  port: 8186
   type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: 25rmp7CQ
-  udp: true
-- name: 0.89|CN3005028Mb
-  server: 118.193.179.2
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.79| 台湾B
+  server: 117.28.243.220
+  port: 8036
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.73| 872Mb
+  server: 101.91.121.247
   type: ss
   country: CN
-  port: 36923
-  password: koko666
-  cipher: chacha20-ietf-poly1305
-- name: 0.68| HK110 TGpeekfun
-  server: 20.187.81.21
-  port: 5002
+  port: 50004
+  password: '4415934295'
+  cipher: aes-256-cfb
+- name: 0.66| 小宇中国
+  server: 103.76.84.36
+  port: 8478
   type: ss
-  country: ' HK'
-  password: g5MeD6Ft3CWlJId
+  cipher: chacha20-ietf-poly1305
+  password: ljqdalu13..
+- name: 0.60|Relay2204Mb
+  server: 120.232.214.36
+  type: ss
+  country: CN
+  port: 5002
+  password: 1f6aca3cebd21a4cd5a80718ed16b74c
   cipher: aes-256-gcm
-- name: 0.63| HK112 TGpeekfun
+- name: 0.53| 加拿大
+  server: 117.28.243.220
+  port: 8221
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.49| 新加坡
+  server: bb.shangou.tk
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.40| 俄罗斯
+  server: 117.28.243.220
+  port: 8045
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.38| HK112 TGpeekfun
   server: bb.shangou.tk
   port: 5000
   type: trojan
@@ -320,44 +325,9 @@ proxies:
   password: Q3Mutbhgfd
   skip-cert-verify: true
   udp: true
-- name: 0.56| 德国
-  server: 117.28.243.220
-  port: 8223
+- name: 0.35| httpsgitiov9999 圣何塞 ip2 3
+  server: 107.148.200.123
+  port: 23514
   type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.54| 台湾B
-  server: 117.28.243.220
-  port: 8036
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.41| HK105 TGpeekfun
-  server: 20.187.81.21
-  port: 5001
-  type: ss
-  country: ' HK'
-  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.38| 俄罗斯
-  server: 117.28.243.220
-  port: 8045
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 0.36|RelayCNTW3041121Mb
-  server: 117.28.243.154
-  type: ss
-  country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- name: 0.33| CN64
-  server: hkchiansax2.msservicevip.pw
-  type: ssr
-  country: ' CN'
-  port: 9359
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
+  password: dongtaiwang.com
