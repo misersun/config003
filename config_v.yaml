@@ -1,5 +1,45 @@
 proxies:
-- name: 9.33|CN116192174202812
+- name: 5.19|CN12024047690827
+  server: 120.240.47.69
+  port: 17011
+  type: vmess
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 4.78|CN122192189400892
+  server: 122.192.189.40
+  port: 17016
+  type: vmess
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 4.71|TG   ShareCentrePro 11
+  server: 112.64.53.159
+  port: 17015
+  type: vmess
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 4.67|CN116192174202812
   server: shcn2-06b.iplc188.com
   port: 10005
   type: vmess
@@ -12,79 +52,37 @@ proxies:
   tls: false
   ws-headers:
     Host: usa-washington.lvuft.com
-- name: 8.45| 日本JP  02
-  server: shcn2.fastcloud.club
-  port: 41337
+- name: 3.88|TG   ShareCentrePro 4
+  server: 122.192.189.40
+  port: 17011
   type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 7.46|专线香港02原生HGCBBS
-  server: v32.88host.buzz
-  port: 18065
-  type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  udp: true
-- name: 7.37| 新加坡SP  01 沪港
-  server: shcn2.fastcloud.club
-  port: 41327
-  type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
-  ws-path: /cctv13/hd.m3u8
+  ws-path: /v2ray
   ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 7.28|专线香港01原生HGCBBS
-  server: v31.88host.buzz
-  port: 18064
+    Host: t.me/vpnhat
+  udp: true
+- name: 3.88|TG   ShareCentrePro 6
+  server: 122.192.189.40
+  port: 17013
   type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  udp: true
-- name: 7.00| RelayCNHK300  653Mb
-  server: 116.162.32.200
-  port: 18000
-  type: vmess
-  uuid: bbf375e6-d185-4d08-9c29-142169e08ca0
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: cu-cs.okvpn.xyz
-- name: 6.87|v2ray 日本移动 Netflix
-  server: cm2.cheapv2.xyz
-  port: 28802
-  type: vmess
-  uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cm2.cheapv2.xyz
+    Host: t.me/vpnhat
   udp: true
-- name: 6.60|v2ray 马来西亚移动 Netflix
+- name: 3.52|v2ray 新加坡联通 Netflix
   server: cu.cheapv2.xyz
-  port: 26610
+  port: 29901
   type: vmess
   uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2
   alterId: 2
@@ -96,175 +94,17 @@ proxies:
   ws-headers:
     Host: cu.cheapv2.xyz
   udp: true
-- name: 6.48|专线香港08原生HKBN
-  server: v32.88host.buzz
-  port: 18083
-  type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 6.47| 香港HK  D2
-  server: shcn2.fastcloud.club
-  port: 41345
-  type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 6.45| 日本JP  01
-  server: shcn2.fastcloud.club
-  port: 41338
-  type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 6.01|v2ray 日本联通 Netflix
-  server: cu.cheapv2.xyz
-  port: 28802
-  type: vmess
-  uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cu.cheapv2.xyz
-  udp: true
-- name: 5.93|githubcomfreefq  安徽省移动 1
-  server: 112.33.32.136
-  port: 10005
+- name: 2.98|httpsgitiov9999 2
+  server: shcn2-06b.iplc188.com
+  port: 10001
   type: vmess
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 5.59| RelayCNHK286  729Mb
-  server: 120.197.88.216
-  port: 20001
-  type: vmess
-  uuid: bbf375e6-d185-4d08-9c29-142169e08ca0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cm-jm.okvpn.xyz
-- name: 5.27| 日本JP  03
-  server: shcn2.fastcloud.club
-  port: 41336
-  type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 4.11|v2ray 香港HGC联通 Netflix
-  server: cu.cheapv2.xyz
-  port: 23318
-  type: vmess
-  uuid: ef25cb86-f309-337c-b7ea-c5b8f87d34e2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cu.cheapv2.xyz
-  udp: true
-- name: 4.06|专线台湾01原生Taipei
-  server: v36.88host.buzz
-  port: 18078
-  type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 4.00|专线香港05原生HGCBBS
-  server: v35.88host.buzz
-  port: 18068
-  type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.44|专线香港04原生HGCBBS
-  server: v34.88host.buzz
-  port: 18067
-  type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.26|专线美国03原生Seattle
-  server: v33.88host.buzz
-  port: 18044
-  type: vmess
-  uuid: 5c4e1928-eed5-3b48-b1dc-1575bdd584dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.13|标准中国台湾04解锁流媒体
-  server: zfd.out04.nodeserver.top
-  port: 16128
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.98| Moon365netTW 374 free
-  server: in05.2333dns.com
-  port: 64068
-  type: vmess
-  uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /video
-  ws-headers:
-    Host: '%7B%22Host%22:%22cdn.bootcdn.net%22%7D'
-- name: 2.58| 日本JP  04
-  server: shcn2.fastcloud.club
-  port: 41335
-  type: vmess
-  uuid: d8a40156-c37b-40e7-82ca-a9acd3433347
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: shcn2.fastcloud.club
-- name: 2.12|V1俄罗斯01 中继D 12x
+- name: 2.81|V1俄罗斯01 中继D 12x
   server: in04.2333dns.com
   port: 64071
   type: vmess
@@ -278,40 +118,79 @@ proxies:
   ws-headers:
     Host: biteb-ru01.covid19.rip
   udp: true
-- name: 1.41| CN68 TGpeekfun
-  server: 112.33.32.136
-  port: 10003
+- name: 2.73|TG   ShareCentrePro 9
+  server: 112.64.53.159
+  port: 17014
   type: vmess
-  country: ' CN'
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
   alterId: 0
   cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /vvv
-  ws-headers:
-    HOST: 112.33.32.136
+  tls: false
   skip-cert-verify: true
-  servername: 112.33.32.136
-- name: 1.21| 日本 01 沪联Aws
-  server: sh.jiyunshu.com
-  port: 56743
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 2.06| 香港Azure16停机卡免流
+  server: cm-jm.okvpn.xyz
+  port: 20008
   type: vmess
-  uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06
+  uuid: b6cfdcc9-804e-4609-a317-d171d39c5725
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /index.html
+  ws-path: /cctv13/hd.m3u8
   ws-headers:
-    Host: net.dacy.cc
-- name: 1.07|专线香港07原生HKBN
-  server: v31.88host.buzz
-  port: 18082
+    Host: super-hk.smdynet.com
+- name: 1.84|标准中国台湾04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16128
   type: vmess
-  uuid: d6b30550-19ff-324c-b95f-d19a0da68d44
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  udp: true
+- name: 1.78| 美国05x09流解长沙联通
+  server: cslt.sf66.cf
+  port: 34716
+  type: vmess
+  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cslt.sf66.cf
+- name: 1.59|TG   ShareCentrePro 2
+  server: 120.197.85.39
+  port: 17013
+  type: vmess
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 1.02|TG   ShareCentrePro 10
+  server: 120.197.85.39
+  port: 17014
+  type: vmess
+  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: t.me/vpnhat
   udp: true
