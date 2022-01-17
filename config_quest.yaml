@@ -1,348 +1,97 @@
 proxies:
-- name: 14.80| 香港 HK 07
-  server: 01-hgvhjh.globalrelay.link
-  port: 15007
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 9.29|新加坡 SG 05
-  server: 01-hgvhjh.globalrelay.link
-  port: 15405
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 9.08| 香港 HK 08
-  server: 01-hgvhjh.globalrelay.link
-  port: 15008
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 8.69| 香港 HK 06
-  server: 01-hgvhjh.globalrelay.link
-  port: 15006
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 8.59| 新加坡 SG 06
-  server: 01-hgvhjh.globalrelay.link
-  port: 15406
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 8.55| 香港 HK 04
-  server: 01-hgvhjh.globalrelay.link
-  port: 15004
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 7.82|新加坡 SG 08
-  server: 01-hgvhjh.globalrelay.link
-  port: 15408
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 7.52|ss
+- cipher: rc4-md5
+  password: passinfo123
+  port: 4173
+  server: 117.28.243.173
+  type: ss
+  name: 8.83|273
+- name: 7.95|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 7.50| 香港 HK 03
-  server: 01-hgvhjh.globalrelay.link
-  port: 15003
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 7.34|新加坡 SG 03
-  server: 01-hgvhjh.globalrelay.link
-  port: 15403
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
+- name: 6.19|公益香港100Mbps
+  server: gy.mg-nb.com
+  port: 20002
+  type: ss
+  cipher: aes-128-gcm
+  password: a4b74b1f-36cf-4156-b28d-bdddba123ceb
   udp: true
-- name: 6.99|新加坡 SG 04
-  server: 01-hgvhjh.globalrelay.link
-  port: 15404
+- name: 6.12|vpnpoolMakatiEasternfree
+  server: 183.240.181.27
+  port: 1101
   type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 6.95| 香港 HK 05
-  server: 01-hgvhjh.globalrelay.link
-  port: 15005
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 6.76|徐州联通彰化Hinetvpnhat 2
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: t.me/vpnhat
+- name: 5.80|徐州联通彰化Hinetvpnhat
   server: 122.192.154.54
   port: 3389
   type: trojan
-  password: 3426d80c2e066a83
+  password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 6.61| 新加坡 SG 02
-  server: 01-hgvhjh.globalrelay.link
-  port: 15402
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 6.20| CN  HK YangGang  HK  HE Global Link
-  server: cn2.node.zeroteam.top
-  port: 15580
-  type: ss
-  cipher: aes-256-gcm
-  password: 2ecd44af-e27c-4899-9482-cb2bb1a73fcc
-- name: 6.15|徐州联通SGMelbicomvpnhat 3
-  server: 122.192.189.5
+- name: 5.02|佛山移动彰化Hinetvpnhat
+  server: 183.232.163.134
   port: 3389
   type: trojan
   password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 5.97| 新加坡 SG 01
-  server: 01-hgvhjh.globalrelay.link
-  port: 15401
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 5.56|韩国 KR 05
-  server: 01-hgvhjh.globalrelay.link
-  port: 15305
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 5.51|韩国 KR 03
-  server: 01-hgvhjh.globalrelay.link
-  port: 15303
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 4.67|韩国 KR 06
-  server: 01-hgvhjh.globalrelay.link
-  port: 15306
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 4.59|杭州移动彰化Hinetvpnhat
-  server: 120.232.192.115
-  port: 3389
-  type: trojan
-  password: 1a1247ea6cb266b4
-  skip-cert-verify: true
-  udp: true
-- name: 4.55|韩国 KR 01
-  server: 01-hgvhjh.globalrelay.link
-  port: 15301
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 4.41| 韩国 KR 04
-  server: 01-hgvhjh.globalrelay.link
-  port: 15304
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 4.25|徐州联通SGMelbicomvpnhat
+- name: 4.90|徐州联通SGMelbicomvpnhat
   server: 122.192.154.50
   port: 3389
   type: trojan
   password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 4.20|韩国 KR 07
-  server: 01-hgvhjh.globalrelay.link
-  port: 15307
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 4.10|徐州联通SGMelbicomvpnhat 5
-  server: 122.192.154.53
+- name: 4.76|徐州联通SGMelbicomvpnhat 3
+  server: 122.192.189.5
   port: 3389
   type: trojan
-  password: 3426d80c2e066a83
+  password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 3.88|韩国 KR 02
-  server: 01-hgvhjh.globalrelay.link
-  port: 15302
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
+- name: 3.42|广州移动彰化Hinetvpnhat
+  server: 120.232.192.136
+  port: 3389
+  type: trojan
+  password: 1a1247ea6cb266b4
+  skip-cert-verify: true
   udp: true
-- name: 2.71|娄底联通SGMelbicomvpnhat 2
+- name: 3.27|广州优刻云TokyoLinodevpnhat
+  server: 106.75.154.24
+  port: 3389
+  type: trojan
+  password: 1a1247ea6cb266b4
+  skip-cert-verify: true
+  udp: true
+- name: 3.20|北京科技网TokyoLinodevpnhat 2
+  server: 123.59.72.193
+  port: 3389
+  type: trojan
+  password: 1a1247ea6cb266b4
+  skip-cert-verify: true
+  udp: true
+- name: 2.49|娄底联通SGMelbicomvpnhat 2
   server: 116.163.10.208
   port: 3389
   type: trojan
   password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 2.49|电报群tmecookpd
-  server: 01-hgvhjh.globalrelay.link
-  port: 15503
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-  udp: true
-- name: 2.39|广州移动彰化Hinetvpnhat 2
-  server: 120.232.192.136
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 2.33| 香港A
+- name: 2.38| 香港A
   server: 117.28.243.220
   port: 8254
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 2.21| 台湾 TW 08
-  server: 01-hgvhjh.globalrelay.link
-  port: 15508
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 2.14| 香港 HK 10
-  server: 01-hgvhjh.globalrelay.link
-  port: 15010
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 2.00|佛山移动彰化Hinetvpnhat 2
-  server: 183.232.163.134
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 1.63| Moon365netJP 658 free
-  server: 42.157.195.246
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-- name: 1.56| 台湾 TW 07
-  server: 01-hgvhjh.globalrelay.link
-  port: 15507
-  type: ssr
-  cipher: chacha20-ietf
-  password: NaikoCloud
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 6622:Vsa0I6p5sGV2inTI
-  obfs-param: 05bb56622.microsoft.com
-- name: 1.55|Relay 356Mb
-  server: 117.28.243.220
-  type: ss
-  country: CN
-  port: 8076
-  password: passinfo123
-  cipher: rc4-md5
-- name: 1.37| CN57
+- name: 2.01| CN57
   server: hkchiansax2.msservicevip.pw
   type: ssr
   country: ' CN'
@@ -351,91 +100,257 @@ proxies:
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.10| Moon365netJP 657 free
-  server: 42.157.195.244
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-- name: 0.78|2186Mb
-  server: 38.114.114.67
+- name: 1.56|Relay 282Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8076
+  password: passinfo123
+  cipher: rc4-md5
+- name: 1.02| CN111 TGpeekfun
+  server: 223.111.134.157
+  port: 15580
+  type: ss
+  country: ' CN'
+  password: 88d65116-b4d1-441b-99ed-2d639b33f52b
+  cipher: aes-256-gcm
+- name: 0.98|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.92|1651Mb
+  server: 38.68.134.23
   type: ss
   country: US
-  port: 443
-  password: pKEW8JPByTVTLtM
+  port: 3389
+  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.69|北京科技网TokyoLinodevpnhat 4
-  server: 120.132.50.158
+- name: 0.84| 台湾B
+  server: 117.28.243.220
+  port: 8036
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.82|娄底联通SGMelbicomvpnhat
+  server: 116.163.10.157
   port: 3389
   type: trojan
-  password: 3426d80c2e066a83
+  password: 1a1247ea6cb266b4
   skip-cert-verify: true
   udp: true
-- name: 0.69|广州优刻云TokyoLinodevpnhat 2
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
+- name: 0.82| 520Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 0.78|2193Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 0.76|CA加拿大 17
+  server: 134.195.196.193
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
   udp: true
-- name: 0.68|2331Mb
-  server: 38.75.137.71
+- name: 0.74|1175Mb
+  server: 38.68.134.23
   type: ss
   country: US
-  port: 2376
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- cipher: aes-256-gcm
+  port: 5004
   password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 142.202.48.52
+  cipher: aes-256-gcm
+- name: 0.73| CN100
+  server: cn2.node.zeroteam.top
   type: ss
-  name: 0.63|1670
-- name: 0.57|2093Mb
+  country: ' CN'
+  port: 15580
+  password: 88d65116-b4d1-441b-99ed-2d639b33f52b
+  cipher: aes-256-gcm
+- name: 0.69|1920Mb
   server: 134.195.196.199
   type: ss
   country: ZZ
-  port: 7307
-  password: FoOiGlkAA9yPEGP
+  port: 6679
+  password: TEzjfAYq2IjtuoS
   cipher: aes-256-gcm
-- name: 0.57|1278Mb
-  server: 134.195.196.33
+- name: 0.69|US1678861961163
+  server: 167.88.61.96
+  port: 6379
   type: ss
-  country: ZZ
-  port: 3306
-  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.56|1195Mb
+  password: zDNVedRFPQexG9v
+- name: 0.69|1024Mb
   server: 142.202.48.105
   type: ss
   country: US
+  port: 3306
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.66|1447Mb
+  server: 134.195.196.154
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.62|德国 Youtube频道工具大师
+  server: 193.108.118.2
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 0.60| 969Mb
+  server: 142.202.48.78
+  type: ss
+  country: US
+  port: 8091
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 0.59|1458Mb
+  server: 38.64.138.145
+  type: ss
+  country: US
+  port: 5600
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.58|1177Mb
+  server: 167.88.63.71
+  type: ss
+  country: US
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.55|SG新加坡12
+  server: 139.162.56.155
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.53|1816Mb
+  server: 167.88.63.61
+  type: ss
+  country: US
+  port: 6697
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 0.53|2569Mb
+  server: 38.75.136.45
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.53|1993Mb
+  server: 198.57.27.172
+  type: ss
+  country: CA
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 0.51|2068Mb
+  server: 38.64.138.145
+  type: ss
+  country: US
+  port: 6697
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 0.50|1755Mb
+  server: 167.88.63.61
+  type: ss
+  country: US
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+- name: 0.50|1986Mb
+  server: 38.68.134.85
+  type: ss
+  country: US
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.50|1885Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
   port: 443
   password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
-- name: 0.55|Relay 684Mb
-  server: 123.59.87.29
-  type: trojan
-  country: CN
-  port: 3389
-  password: 032532644f4fd784
-  skip-cert-verify: true
-  udp: true
-- name: 0.53| 408Mb
-  server: 212.38.189.174
+- name: 0.50| 591Mb
+  server: 172.105.180.227
   type: ss
-  country: GB
-  port: 7002
-  password: RexnBgU7EV5ADxG
+  country: AU
+  port: 8080
+  password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: 0.50| CN70 TGpeekfun
-  server: 123.59.72.193
-  port: 3389
-  type: trojan
+- name: 0.48|1830Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
+  port: 8118
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 139.162.24.50
+  type: ss
+  name: 0.44|760
+- name: 0.44| 270Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.44| CN104 TGpeekfun
+  server: 14.29.124.174
+  port: 21701
+  type: ss
   country: ' CN'
-  password: 032532644f4fd784
-  skip-cert-verify: true
-  udp: true
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.43|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 0.41|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.41|2481Mb
+  server: 38.75.137.71
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.41|1879Mb
+  server: 167.88.61.204
+  type: ss
+  country: US
+  port: 8091
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
