@@ -1,155 +1,39 @@
 proxies:
-- name: 7.79| 香港HKT优化3
-  server: ct.cnhost.top
-  port: 16620
+- name: 11.46| 推荐中转IPLC上海香港HKT01
+  server: 101.89.109.30
+  port: 10015
   type: vmess
-  uuid: fd603898-ed98-4ff1-9101-f330a3158c05
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
+- name: 3.07|RelayCNSG3005389Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10002
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
   ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%22ct.cnhost.top%22%7D'
-- name: 7.56|HK香港04  1000M  1x13
-  server: cs.lt.nkeo.top
-  port: 25379
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: cs.lt.nkeo.top
-  udp: true
-- name: 6.40|SG新加坡01  1000M  1x15
-  server: gza8.v2bees.net
-  port: 25098
+- name: 2.50|httpsgitiov9999 14
+  server: cm-jm.okvpn.xyz
+  port: 20015
   type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 6.23|JP日本01  1000M  1x18
-  server: gza8.v2bees.net
-  port: 25158
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 5.99| 香港iCable优化3 3
-  server: ct.cnhost.top
-  port: 16634
-  type: vmess
-  uuid: 93734d66-2b3c-49b5-aced-016149c0358e
+  uuid: b6cfdcc9-804e-4609-a317-d171d39c5725
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /mjp
-  ws-headers:
-    Host: '%7B%22Host%22:%22pull.free.video.10010.com%22%7D'
-- name: 5.84|JP日本03  1000M  1x20
-  server: gza8.v2bees.net
-  port: 25160
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 5.41|HK香港03  1000M  1x12
-  server: cs.lt.nkeo.top
-  port: 25378
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: cs.lt.nkeo.top
-  udp: true
-- name: 4.88|JP日本02  1000M  1x19
-  server: gza8.v2bees.net
-  port: 25159
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 3.83|SG新加坡02  1000M  1x16
-  server: gza8.v2bees.net
-  port: 25101
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 3.61|TW台湾01  1000M  2x  流媒体解锁24
-  server: gza8.v2bees.net
-  port: 45037
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 3.59|TG   ShareCentrePro 2
-  server: 120.197.85.39
-  port: 17015
-  type: vmess
-  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-  udp: true
-- name: 2.92|V1俄罗斯01 中继D 12x
+  ws-opts:
+    path: /
+    headers:
+      Host: cm-jm.okvpn.xyz
+- name: 1.40|V1俄罗斯01 中继D 12x
   server: in04.2333dns.com
   port: 64071
   type: vmess
@@ -163,88 +47,16 @@ proxies:
   ws-headers:
     Host: biteb-ru01.covid19.rip
   udp: true
-- name: 2.76| RelayCNJP291  361Mb
-  server: 120.197.88.216
-  port: 20015
+- name: 1.38|US742111022440365
+  server: 74.211.102.244
+  port: 21067
   type: vmess
-  uuid: b6cfdcc9-804e-4609-a317-d171d39c5725
+  uuid: 26d1d351-05b3-40e8-8c60-d835563a1661
   alterId: 0
   cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /sakura/
   tls: false
-  network: ws
-  ws-path: /
   ws-headers:
-    Host: cm-jm.okvpn.xyz
-- name: 2.49|US美国01  1000M  2x  流媒体解锁25
-  server: gza8.v2bees.net
-  port: 45028
-  type: vmess
-  uuid: 06de3e32-0bb5-4fac-9b5f-1d7bb3b062fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: gza8.v2bees.net
-  udp: true
-- name: 1.75|TG   ShareCentrePro 3
-  server: 120.197.85.39
-  port: 17014
-  type: vmess
-  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-  udp: true
-- name: 1.45| 香港HGC优化 3
-  server: cu.cnhost.top
-  port: 16621
-  type: vmess
-  uuid: 93734d66-2b3c-49b5-aced-016149c0358e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%22cu.cnhost.top%22%7D'
-- name: 1.34| 美国阿伟科技油管 23
-  server: cn3.node.zeroteam.top
-  port: 50235
-  type: vmess
-  uuid: 2ecd44af-e27c-4899-9482-cb2bb1a73fcc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.12|httpsgitiov999959
-  server: 120.197.85.39
-  port: 17016
-  type: vmess
-  uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /v2ray
-    host: 120.197.85.39
-- name: 1.07| 香港HGC优化2 3
-  server: cm.cnhost.top
-  port: 16621
-  type: vmess
-  uuid: 93734d66-2b3c-49b5-aced-016149c0358e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%22cm.cnhost.top%22%7D'
+    Host: 74.211.102.244
