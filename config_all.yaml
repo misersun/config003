@@ -1,29 +1,55 @@
 proxies:
-- name: 7.68|0122TG频道Jsnzk
-  server: 112.33.36.109
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: ''
-- name: 7.13|Lv2新加坡4V2Ray中转优化
-  server: 183.232.226.171
-  port: 20012
+- name: 12.00| CN108
+  server: 101.89.109.30
   type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
+  country: ' CN'
+  port: 10015
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 7.11| CN112
+  server: 101.89.109.30
+  type: vmess
+  country: ' CN'
+  port: 10011
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.71|香港高速公益节点有限流量20
+  server: 233.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /qwe
+  ws-headers:
+    Host: 233.ezydfdd.com
+  udp: true
+- name: 5.13|CN阿伟科技油管
+  server: shcu01a.iplc188.com
+  port: 10002
+  type: vmess
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
   udp: true
-- name: 7.01|Lv2新加坡2V2Ray中转优化
+- name: 5.10|Lv2新加坡2V2Ray中转优化
   server: 183.232.226.171
   port: 20010
   type: vmess
@@ -37,61 +63,31 @@ proxies:
   ws-headers:
     Host: 183.232.226.171
   udp: true
-- name: 6.90|Relay1986Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23035
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 6.25|标准新加坡04解锁流媒体
-  server: v24.88host.buzz
-  port: 18036
+- name: 4.94|0122TG频道Jsnzk
+  server: 112.33.36.109
+  port: 44160
+  type: ssr
+  cipher: aes-256-cfb
+  password: wQ16gJrbBvvME3my
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: ''
+- name: 4.77|Lv2新加坡4V2Ray中转优化
+  server: 183.232.226.171
+  port: 20012
   type: vmess
-  uuid: dd9deb92-2394-31b0-be49-edcbc4665a00
+  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: 183.232.226.171
   udp: true
-- name: 5.95|Relay1799Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23032
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 5.72|CN阿伟科技油管
-  server: shcu01a.iplc188.com
-  port: 10002
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.67|Relay1352Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23033
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 5.66|标准日本02解锁流媒体
-  server: v22.88host.buzz
-  port: 18022
-  type: vmess
-  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.50|Lv2日本4  V2Ray中转优化
+- name: 3.38|Lv2日本4  V2Ray中转优化
   server: 183.232.226.171
   port: 20013
   type: vmess
@@ -105,17 +101,7 @@ proxies:
   ws-headers:
     Host: 183.232.226.171
   udp: true
-- name: 5.47|专线台湾04原生Taipei
-  server: v33.88host.buzz
-  port: 18081
-  type: vmess
-  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.44|Lv2日本3V2Ray中转优化
+- name: 3.37|Lv2日本3V2Ray中转优化
   server: 183.232.226.171
   port: 20011
   type: vmess
@@ -129,7 +115,36 @@ proxies:
   ws-headers:
     Host: 183.232.226.171
   udp: true
-- name: 5.20|香港1广州移动中转Netflix12x
+- name: 3.32|Relay 636Mb
+  server: 120.232.214.210
+  type: vmess
+  country: CN
+  port: 19079
+  uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dahjwuh
+  servername: cdn-cn.nekocloud.cn
+  ws-headers:
+    HOST: cdn-cn.nekocloud.cn
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.21|Relay4772Mb
+  server: 112.33.32.136
+  type: vmess
+  country: CN
+  port: 10005
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.03|香港1广州移动中转Netflix12x
   server: newgy.jidan666.com
   port: 23031
   type: trojan
@@ -137,28 +152,15 @@ proxies:
   sni: newgy.jidan666.com
   skip-cert-verify: true
   udp: true
-- name: 5.18|CN18323223051088
-  server: gzcm.rymv2rayssl.xyz
-  port: 44604
-  type: vmess
-  uuid: 6095fae1-df2d-3bc6-8d9c-156cfc3db88e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /v2ray
-  tls: false
-  ws-headers:
-    Host: nat0.mlnl.host
-- name: 5.15| RelayCNUS380  852Mb
-  server: 112.64.69.187
-  port: 10002
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.23|印度广州移动中转
+- name: 2.77|RelayCNJP3281799Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23032
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 2.56|httpsgitiov9999 10
   server: newgy.jidan666.com
   port: 23034
   type: trojan
@@ -166,70 +168,136 @@ proxies:
   sni: newgy.jidan666.com
   skip-cert-verify: true
   udp: true
-- name: 3.33|中国TGnodesharing151
-  server: cxcu.futi.online
-  port: 21112
+- name: 2.51|RelayCNHK96  606Mb
+  server: 112.33.32.136
   type: vmess
-  uuid: 8f8e3249-8473-4399-927d-c9110086c856
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.45| V105 日本上海15
+  server: V105.bgpnet.top
+  port: 26105
+  type: vmess
+  uuid: 13634583-33fb-3aaf-bd0a-7c8286662256
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /admin
+  ws-headers:
+    Host: download.windowsupdate.com
+- name: 2.40|Relay1352Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23033
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 2.29|台湾01丨原生IP丨
+  server: fs.jcytl.com
+  port: 36515
+  type: vmess
+  uuid: dfa6706c-ab9d-378c-a25e-00d41eeb7431
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.baidu.com
+  udp: true
+- name: 2.16|美国高速公益节点
+  server: 3.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: 7ab3f0d7-164c-4bde-8a45-2d6653da2ad1
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /qwe
   ws-headers:
-    Host: sgz2.futi.online
+    Host: 3.ezydfdd.com
   udp: true
-- name: 3.11|Relay 345Mb
-  server: azhk.relay.qchwnd.moe
+- name: 2.06|Relay 275Mb
+  server: 120.232.208.195
+  type: vmess
+  country: CN
+  port: 19079
+  uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dahjwuh
+  servername: cdn-cn.nekocloud.cn
+  ws-headers:
+    HOST: cdn-cn.nekocloud.cn
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.06|美国高速公益节点20
+  server: daw.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: ba38c261-7b27-4c96-adf9-0dfcbc8ab40f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /qwe
+  ws-headers:
+    Host: daw.ezydfdd.com
+  udp: true
+- name: 1.65|卢森堡阿伟科技油管
+  server: shcms.ddnnss.xyz
+  port: 61990
+  type: vmess
+  uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: buyvm.lu.tgproxy.wtf
+- name: 1.64|Ytb鹏哥分享CN中国14
+  server: ddns04.r8o8c8k.xyz
+  port: 65009
+  type: vmess
+  uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /rocket
+  ws-headers:
+    Host: ddns04.r8o8c8k.xyz
+  udp: true
+- name: 1.61| CN111 TGpeekfun
+  server: newgy.jidan666.com
+  port: 23035
   type: trojan
-  country: HK
-  port: 44602
+  country: ' CN'
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 2.66|香港1BGP中转Netflix12x
-  server: azhk.relay.qchwnd.moe
-  port: 44601
-  type: trojan
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.90|Relay1445Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44608
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.70|CN21
-  server: z0114.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  udp: true
-- name: 1.70|CN22
-  server: z0113.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  udp: true
-- name: 1.59| CN119
+- name: 1.45|RelayCNUS77  704Mb
   server: 112.33.32.136
   type: vmess
-  country: ' CN'
+  country: CN
   port: 10004
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
@@ -239,77 +307,19 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.58|Relay1354Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44603
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.57|CN阿伟科技油管 13
-  server: cn3.node.zeroteam.top
-  port: 39898
+- name: 1.25|Relay 200Mb
+  server: 112.14.22.104
   type: vmess
-  uuid: ffff0daa-f055-41c4-9b29-629d17f27b3b
+  country: CN
+  port: 19079
+  uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170
   alterId: 0
   cipher: auto
-  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  servername: cdn-cn.nekocloud.cn
+  ws-headers:
+    HOST: cdn-cn.nekocloud.cn
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 1.46|RelayHKUS5877894Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44605
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.45|Relay1044Mb
-  server: azhk.node.qchwnd.moe
-  type: trojan
-  country: US
-  port: 10213
-  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
-  skip-cert-verify: true
-  udp: true
-- name: 1.38|Relay 519Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44606
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.30|Relay1292Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44607
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.14| CN114 TGpeekfun
-  server: s2.upyun.online
-  port: 12340
-  type: trojan
-  country: ' CN'
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.08|Relay2049Mb
-  server: azhk.node.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44609
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.02|RelayHKDE5904919Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44604
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
