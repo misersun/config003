@@ -1,51 +1,18 @@
 proxies:
-- name: 6.71|香港高速公益节点有限流量20
-  server: 233.ezydfdd.com
+- name: 6.95|HK43154871181240
+  server: wndjw.ezydfdd.com
   port: 443
   type: vmess
-  uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507
+  uuid: 03ab2300-a054-4e6f-bfeb-16864375c44e
   alterId: 0
   cipher: auto
-  tls: true
-  skip-cert-verify: true
+  skip-cert-vertify: false
   network: ws
   ws-path: /qwe
+  tls: true
   ws-headers:
-    Host: 233.ezydfdd.com
-  udp: true
-- name: 3.03|香港1广州移动中转Netflix12x
-  server: newgy.jidan666.com
-  port: 23031
-  type: trojan
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.77|RelayCNJP3281799Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23032
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 2.56|httpsgitiov9999 10
-  server: newgy.jidan666.com
-  port: 23034
-  type: trojan
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.40|Relay1352Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23033
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 2.16|美国高速公益节点
+    Host: wndjw.ezydfdd.com
+- name: 2.23| 美国阿伟科技油管 24
   server: 3.ezydfdd.com
   port: 443
   type: vmess
@@ -53,13 +20,29 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-path: /qwe
   ws-headers:
     Host: 3.ezydfdd.com
-  udp: true
-- name: 2.06|美国高速公益节点20
+- name: 2.22|Relay2442Mb
+  server: tw.4kxray.xyz
+  type: vmess
+  country: TW
+  port: 20026
+  uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: tw.4kxray.xyz
+  ws-headers:
+    HOST: tw.4kxray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.19| 美国阿伟科技油管 22
   server: daw.ezydfdd.com
   port: 443
   type: vmess
@@ -67,30 +50,52 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-path: /qwe
   ws-headers:
     Host: daw.ezydfdd.com
-  udp: true
-- name: 1.65|卢森堡阿伟科技油管
-  server: shcms.ddnnss.xyz
-  port: 61990
+- name: 1.24|HK2024721011374
+  server: 4.zhuzhu12.com
+  port: 8080
   type: vmess
-  uuid: 23a8f304-5667-4f47-9fad-72e23ddc59be
+  uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /zz
+  tls: true
+  ws-headers:
+    Host: 4.zhuzhu12.com
+- name: 1.18|httpsgitiov9999 CN
+  server: 3.zhuzhu12.com
+  port: 443
+  type: vmess
+  uuid: 60457094-32fe-3daf-8ecb-ecb49d443243
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /theuploadapi
-  ws-headers:
-    Host: buyvm.lu.tgproxy.wtf
-- name: 1.61| CN111 TGpeekfun
-  server: newgy.jidan666.com
-  port: 23035
-  type: trojan
-  country: ' CN'
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: 3.zhuzhu12.com
   udp: true
+- name: 1.06|Relay1917Mb
+  server: tw.4kxray.xyz
+  type: vmess
+  country: TW
+  port: 20216
+  uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: tw.4kxray.xyz
+  ws-headers:
+    HOST: tw.4kxray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
