@@ -1,16 +1,38 @@
 proxies:
-- name: 4.29|新加坡1SSR中转优化  30002 单端口
-  server: 120.232.41.113
-  port: 30002
+- name: 8.05|中国 香港A2CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3000
   type: ssr
-  cipher: rc4-md5
-  password: mfyun001
+  cipher: aes-256-cfb
+  password: uBExJe
   protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 1:123456789
-  obfs-param: 753361.bing.com
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
   udp: true
-- name: 3.36|httpsgitiov9999 SSR 5
+- name: 7.31|中国 香港A1CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3001
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 6.57|新加坡SGA1CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3007
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 4.86|httpsgitiov9999 SSR 5
   server: z00012.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -21,8 +43,85 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 3.16| HK 896 TGmoon365free
-  server: 101.89.118.3
+- name: 4.52|日本 东京A2CU中继
+  server: cn-cz-01.arrc.fun
+  port: 3003
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 4.03|新加坡SGA2CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3010
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 3.90|新加坡1SSR中转优化  30002 单端口
+  server: 120.232.41.113
+  port: 30002
+  type: ssr
+  cipher: rc4-md5
+  password: mfyun001
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 1:123456789
+  obfs-param: 753361.bing.com
+  udp: true
+- name: 3.70|台湾 台北A1CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3005
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 3.69|新加坡5  SSR  20002 单端口
+  server: 120.232.41.113
+  port: 20002
+  type: ssr
+  cipher: rc4-md5
+  password: mfyun001
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 1:123456789
+  obfs-param: 753361.bing.com
+  udp: true
+- name: 2.20|美国 洛杉矶A1CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3009
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 2.10|LAXDMIT
+  server: 183.232.56.187
+  port: 11805
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 12865:7IPUJt
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.87|httpsgitiov9999 SSR 4
+  server: z0111.security-cloudfront-cdn.com
   port: 44160
   type: ssr
   cipher: aes-256-cfb
@@ -31,7 +130,41 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 1.85|httpsgitiov9999 SSR 3
+  udp: true
+- name: 1.84|俄罗斯 伯力A1CU中继
+  server: cn-cz-01.arrc.fun
+  port: 3022
+  type: ssr
+  cipher: aes-256-cfb
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
+  udp: true
+- name: 1.63|SGNerocloud
+  server: 183.232.56.187
+  port: 11846
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 12865:7IPUJt
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.54|香港HKT
+  server: 183.232.56.187
+  port: 11802
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 12865:7IPUJt
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 1.51|httpsgitiov9999 SSR 3
   server: z0112.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -42,7 +175,7 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.82|httpsgitiov9999 SSR 6
+- name: 1.13|httpsgitiov9999 SSR 6
   server: z00035.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -53,8 +186,8 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.30|httpsgitiov9999 SSR
-  server: z0114.security-cloudfront-cdn.com
+- name: 1.09|httpsgitiov9999 SSR 2
+  server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
   cipher: aes-256-cfb
@@ -64,14 +197,14 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.15|httpsgitiov9999 SSR 7
-  server: 112.33.36.109
-  port: 44160
+- name: 1.09|美国 洛杉矶A2CM中继
+  server: cn-gz-02.arrc.fun
+  port: 3008
   type: ssr
   cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+  password: uBExJe
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 22754:kN8qVG
+  obfs-param: f7a3d22754.microsoft.com
   udp: true
