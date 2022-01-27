@@ -1,40 +1,12 @@
 proxies:
-- name: 11.91|ss
+- name: 11.86|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 8.44|中国 香港A1CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3001
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 7.93|中国 香港A2CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3000
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 7.37|CN1202321741211124
-  server: iepl.naigai1.club
-  port: 11895
-  type: ss
-  cipher: aes-128-gcm
-  password: b2e37e3b-d651-46d1-81a8-bb61246de20a
-- name: 7.00|请尽快更换至新订阅Azure香港东莞移动
+- name: 7.36|请尽快更换至新订阅Azure香港东莞移动
   server: gg.piyun.bid
   port: 10651
   type: trojan
@@ -42,86 +14,40 @@ proxies:
   sni: gg.piyun.bid
   skip-cert-verify: true
   udp: true
-- name: 6.50| 香港阿伟科技油管 9
-  server: cn2.relay.starlink.st
-  port: 50102
-  type: ss
-  cipher: aes-128-gcm
-  password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9
-- name: 6.42|新加坡SGA2CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3010
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 6.36| 台湾绿头外网集团Public192
-  server: 120.233.150.200
-  port: 50301
-  type: ss
-  cipher: aes-128-gcm
-  password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9
-- name: 6.12|新加坡SGA1CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3007
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 6.10|1183Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23033
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 6.04| 台湾绿头外网集团Public194
+- name: 6.09| 台湾绿头外网集团Public194
   server: 120.233.150.200
   port: 50302
   type: ss
   cipher: aes-128-gcm
   password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9
-- name: 5.75| 香港A
+- name: 4.77| 香港A
   server: 117.28.243.220
   port: 8254
   type: ss
   cipher: rc4-md5
   password: passinfo123
-- name: 5.58| 香港1广州入口
-  server: gzcm.rymv2rayssl.xyz
-  port: 44615
-  type: trojan
-  password: e01c9ea1-2539-41fd-a157-f07746ec92d6
-  sni: gzcm.rymv2rayssl.xyz
-  skip-cert-verify: true
-- name: 5.33|日本 东京A2CU中继
-  server: cn-cz-01.arrc.fun
-  port: 3003
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 5.21|1544Mb
-  server: 117.28.243.173
+- name: 2.44|US892082451571139
+  server: 89.208.245.157
+  port: 1234
   type: ss
-  country: CN
-  port: 4173
-  password: passinfo123
-  cipher: rc4-md5
-- name: 5.12|新加坡1SSR中转优化  30002 单端口
+  cipher: aes-256-gcm
+  password: 1234
+- name: 2.27|VIP1新加坡佛移多线路负载均衡tr
+  server: gdfs.xxcv.cc
+  port: 26666
+  type: trojan
+  password: 6483539f-5540-3feb-ad94-e5fd6f674553
+  sni: gdfs.xxcv.cc
+  skip-cert-verify: true
+  udp: true
+- name: 2.25|2265Mb
+  server: 154.3.8.151
+  type: ss
+  country: US
+  port: 30067
+  password: iUB0923RBA
+  cipher: aes-256-gcm
+- name: 2.20|新加坡1SSR中转优化  30002 单端口
   server: 120.232.41.113
   port: 30002
   type: ssr
@@ -132,31 +58,14 @@ proxies:
   protocol-param: 1:123456789
   obfs-param: 753361.bing.com
   udp: true
-- name: 4.82|新加坡5  SSR  20002 单端口
-  server: 120.232.41.113
-  port: 20002
-  type: ssr
+- name: 2.18|1544Mb
+  server: 117.28.243.173
+  type: ss
+  country: CN
+  port: 4173
+  password: passinfo123
   cipher: rc4-md5
-  password: mfyun001
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 1:123456789
-  obfs-param: 753361.bing.com
-  udp: true
-- name: 2.55|US892082451571170
-  server: 89.208.245.157
-  port: 1234
-  type: ss
-  cipher: aes-256-gcm
-  password: 1234
-- name: 2.41|2398Mb
-  server: 154.3.8.151
-  type: ss
-  country: US
-  port: 30067
-  password: iUB0923RBA
-  cipher: aes-256-gcm
-- name: 2.26|VIP1越南原生IP佛移tr
+- name: 2.16|VIP1越南原生IP佛移tr
   server: gdfs.xxcv.cc
   port: 25603
   type: trojan
@@ -164,45 +73,7 @@ proxies:
   sni: gdfs.xxcv.cc
   skip-cert-verify: true
   udp: true
-- name: 2.21|VIP1新加坡佛移多线路负载均衡tr
-  server: gdfs.xxcv.cc
-  port: 26666
-  type: trojan
-  password: 6483539f-5540-3feb-ad94-e5fd6f674553
-  sni: gdfs.xxcv.cc
-  skip-cert-verify: true
-  udp: true
-- name: 2.20|VIP1新加坡佛移4号线路tr
-  server: gdfs.xxcv.cc
-  port: 26004
-  type: trojan
-  password: 6483539f-5540-3feb-ad94-e5fd6f674553
-  sni: gdfs.xxcv.cc
-  skip-cert-verify: true
-  udp: true
-- name: 2.15|美国 洛杉矶A2CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3008
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 2.15|LAXDMIT
-  server: 183.232.56.187
-  port: 11805
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 12865:7IPUJt
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 2.10|VIP1越南原生IP广移tr
+- name: 2.14|VIP1越南原生IP广移tr
   server: gdyd.xxcv.cc
   port: 25603
   type: trojan
@@ -210,63 +81,7 @@ proxies:
   sni: gdyd.xxcv.cc
   skip-cert-verify: true
   udp: true
-- name: 2.02|2487Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44610
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.99|美国 洛杉矶A1CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3009
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 1.97|台湾 台北A1CM中继
-  server: cn-gz-02.arrc.fun
-  port: 3005
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
-  udp: true
-- name: 1.82|2130Mb
-  server: 172.105.232.147
-  type: ss
-  country: JP
-  port: 5004
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 1.80|香港HKT
-  server: 183.232.56.187
-  port: 11802
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 12865:7IPUJt
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.78|3296Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44611
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.78|httpsgitiov9999 SSR 3
+- name: 1.80|httpsgitiov9999 SSR 3
   server: z0112.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -277,19 +92,23 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.75|俄罗斯 伯力A1CU中继
-  server: cn-cz-01.arrc.fun
-  port: 3022
-  type: ssr
-  cipher: aes-256-cfb
-  password: uBExJe
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 22754:kN8qVG
-  obfs-param: f7a3d22754.microsoft.com
+- name: 1.65|VIP1新加坡佛移3号线路tr
+  server: gdfs.xxcv.cc
+  port: 26003
+  type: trojan
+  password: 6483539f-5540-3feb-ad94-e5fd6f674553
+  sni: gdfs.xxcv.cc
+  skip-cert-verify: true
   udp: true
-- name: 1.69|httpsgitiov9999 SSR 6
-  server: z00035.security-cloudfront-cdn.com
+- name: 1.53| 881Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8076
+  password: passinfo123
+  cipher: rc4-md5
+- name: 1.43|httpsgitiov9999 SSR 5
+  server: z00012.security-cloudfront-cdn.com
   port: 44160
   type: ssr
   cipher: aes-256-cfb
@@ -299,53 +118,7 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.68|2440Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44613
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.66|4930Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44604
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.65|httpsgitiov9999 SSR 2
-  server: z0113.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-  udp: true
-- name: 1.62|5378Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44608
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.56|SGNerocloud
-  server: 183.232.56.187
-  port: 11846
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 12865:7IPUJt
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.50|httpsgitiov9999 SSR
+- name: 1.42|httpsgitiov9999 SSR
   server: z0114.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -356,7 +129,78 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.46|httpsgitiov9999 SSR 4
+- name: 1.30| 法国
+  server: 117.28.243.220
+  port: 8186
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.91| 香港阿伟科技油管 9
+  server: cn2.relay.starlink.st
+  port: 50102
+  type: ss
+  cipher: aes-128-gcm
+  password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9
+- name: 0.81|VIP1新加坡佛移2号线路tr
+  server: gdfs.xxcv.cc
+  port: 26002
+  type: trojan
+  password: 6483539f-5540-3feb-ad94-e5fd6f674553
+  sni: gdfs.xxcv.cc
+  skip-cert-verify: true
+  udp: true
+- name: 0.69|1200Mb
+  server: 198.57.27.188
+  type: ss
+  country: CA
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 0.64|US3868135181138
+  server: 38.68.135.18
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.59|1219Mb
+  server: 198.57.27.241
+  type: ss
+  country: CA
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.55|httpsgitiov9999 SSR 6
+  server: z00035.security-cloudfront-cdn.com
+  port: 44160
+  type: ssr
+  cipher: aes-256-cfb
+  password: wQ16gJrbBvvME3my
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+  udp: true
+- name: 0.53|VIP1新加坡佛移4号线路tr
+  server: gdfs.xxcv.cc
+  port: 26004
+  type: trojan
+  password: 6483539f-5540-3feb-ad94-e5fd6f674553
+  sni: gdfs.xxcv.cc
+  skip-cert-verify: true
+  udp: true
+- name: 0.53|httpsgitiov9999 147
+  server: 134.195.196.128
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.52| 加拿大
+  server: 117.28.243.220
+  port: 8221
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+- name: 0.47|httpsgitiov9999 SSR 4
   server: z0111.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -367,75 +211,108 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 1.44|httpsgitiov9999 SSR 7
-  server: 112.33.36.109
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-  udp: true
-- name: 1.43|2578Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44612
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.41|1176Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44606
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
-  udp: true
-- name: 1.37|1034Mb
-  server: 129.154.48.228
+- name: 0.47|CA加拿大80
+  server: 134.195.196.128
+  port: 8119
   type: ss
-  country: AU
-  port: 80
-  password: Langford666
-  cipher: aes-128-gcm
-- name: 1.37|香港绿头外网集团Public 4
-  server: sxctr.hk2.qiguangyicai.xyz
-  port: 44143
-  type: trojan
-  password: 373c42c8-d608-4974-8d90-6e44db50dc78
-  sni: sxctr.hk2.qiguangyicai.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.36|8813Mb
-  server: azhk.relay.qchwnd.moe
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.47|RelayRelay 306Mb
+  server: t10.ssrsub.com
   type: trojan
   country: US
-  port: 44605
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
+  port: 8443
+  password: 51273235-0995-455e-96e4-83b1811b4cab
   skip-cert-verify: true
   udp: true
-- name: 1.35|12560Mb
-  server: azhk.node.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44609
-  password: 43cf9616-becc-4dbb-818c-a07f71a574ba
-  skip-cert-verify: true
-  udp: true
-- name: 1.29| 法国
-  server: 117.28.243.220
-  port: 8186
+- name: 0.45|1291Mb
+  server: 198.57.27.172
   type: ss
-  cipher: rc4-md5
-  password: passinfo123
-- name: 1.27|6782Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: US
-  port: 44602
-  password: 2647cdac-aa5c-4955-a13b-b66793cf48cd
-  skip-cert-verify: true
+  country: CA
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 0.44|youtube8度科技美国 31
+  server: 38.75.136.45
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
   udp: true
+- name: 0.44|2163Mb
+  server: 38.75.136.45
+  type: ss
+  country: US
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.42| 美国阿伟科技油管
+  server: 169.197.142.99
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.41|US169197142991126
+  server: 169.197.142.99
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.35|1207Mb
+  server: 167.88.62.34
+  type: ss
+  country: US
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 0.34|CA加拿大128
+  server: 134.195.196.217
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.34|httpsgitiov9999 113
+  server: 134.195.196.227
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.34|httpsgitiov9999 229
+  server: 38.121.43.91
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.33|httpsgitiov9999 192
+  server: 134.195.196.128
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.32|1857Mb
+  server: 198.57.27.184
+  type: ss
+  country: CA
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 0.32|2050Mb
+  server: 198.57.27.241
+  type: ss
+  country: CA
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 0.31|2299Mb
+  server: 38.68.134.190
+  type: ss
+  country: US
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.31|httpsgitiov9999 191
+  server: 134.195.196.227
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
