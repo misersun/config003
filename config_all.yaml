@@ -1,11 +1,17 @@
 proxies:
-- name: 7.98|请尽快更换至新订阅Azure香港东莞移动
-  server: gg.piyun.bid
-  port: 10651
-  type: trojan
-  password: 2803debb-27c4-455f-9bff-46ba0bebb710
-  sni: gg.piyun.bid
+- name: 7.78|Lv2新加坡4V2Ray中转优化
+  server: 183.232.226.171
+  port: 20012
+  type: vmess
+  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: 183.232.226.171
   udp: true
 - name: 7.43|Lv2新加坡2V2Ray中转优化
   server: 183.232.226.171
@@ -21,35 +27,7 @@ proxies:
   ws-headers:
     Host: 183.232.226.171
   udp: true
-- name: 6.89|Lv2新加坡4V2Ray中转优化
-  server: 183.232.226.171
-  port: 20012
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 5.69|Lv2日本3V2Ray中转优化
-  server: 183.232.226.171
-  port: 20011
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 5.53|Lv2日本4  V2Ray中转优化
+- name: 5.81|Lv2日本4  V2Ray中转优化
   server: 183.232.226.171
   port: 20013
   type: vmess
@@ -63,7 +41,21 @@ proxies:
   ws-headers:
     Host: 183.232.226.171
   udp: true
-- name: 5.23|韩国V2Ray中转优化
+- name: 5.59|Lv2日本3V2Ray中转优化
+  server: 183.232.226.171
+  port: 20011
+  type: vmess
+  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: 183.232.226.171
+  udp: true
+- name: 4.77|韩国V2Ray中转优化
   server: 103.56.60.37
   port: 20925
   type: vmess
@@ -77,25 +69,25 @@ proxies:
   ws-headers:
     Host: 103.56.60.37
   udp: true
-- name: 4.32|SeoulZenlayer
-  server: 128.1.125.164
-  port: 443
+- name: 4.64|TG ShareCentrePro香港
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 46372
   type: vmess
-  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
+  uuid: d97a0aaf-3f77-438c-9351-9fb058bd0855
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /ray
+  ws-path: /index.html
   ws-headers:
-    Host: govacaxixo.watchdoctor.xyz
+    Host: sweetcloud.top
   udp: true
-- name: 2.35|美国阿伟科技油管 4
-  server: nmsl.lyzghim.com
+- name: 4.11|香港阿伟科技油管 3
+  server: cnm.lyzghim.com
   port: 443
   type: vmess
-  uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92
+  uuid: 3c6ad333-ea28-4b3a-dd7f-aef59a73a0d9
   alterId: 0
   cipher: auto
   tls: true
@@ -103,9 +95,44 @@ proxies:
   network: ws
   ws-path: /qwe
   ws-headers:
-    Host: nmsl.lyzghim.com
+    Host: cnm.lyzghim.com
   udp: true
-- name: 2.10|美国阿伟科技油管 20
+- name: 2.55|Relay 5160Mb
+  server: dzhkaz.scsevers.cf
+  port: 40691
+  type: vmess
+  uuid: c7ed85dd-42f1-4c0e-f87c-a9fedaa335e9
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.40|RelayTWTW9503144Mb
+  server: lltw.scsevers.cf
+  type: vmess
+  country: TW
+  port: 59801
+  uuid: a209854a-30ed-4887-e7d2-70c7e45f814c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: lltw.scsevers.cf
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.27|RelayHKHK83 2539Mb
+  server: dzhkaz.scsevers.cf
+  type: vmess
+  country: HK
+  port: 39264
+  uuid: 1685ada0-594e-4fc0-9938-e50764ec9dc7
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.17|美国阿伟科技油管 20
   server: 3.ezydfdd.com
   port: 443
   type: vmess
@@ -119,49 +146,21 @@ proxies:
   ws-headers:
     Host: 3.ezydfdd.com
   udp: true
-- name: 1.95|youtube8度科技
-  server: 198.41.212.5
+- name: 2.06|美国阿伟科技油管 4
+  server: nmsl.lyzghim.com
   port: 443
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /sakura/
+  ws-path: /qwe
   ws-headers:
-    Host: zero1.a-yu.xyz
+    Host: nmsl.lyzghim.com
   udp: true
-- name: 1.82|youtube8度科技 2
-  server: 198.41.212.18
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 1.78|美西阿伟科技油管
-  server: ceraus.moonfree.top
-  port: 80
-  type: vmess
-  uuid: e111e566-795c-42a3-b6c8-5f0a85feba8a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cerus.moonfree.top
-  udp: true
-- name: 1.71|youtube8度科技 8
+- name: 1.72|youtube8度科技 8
   server: 198.41.212.8
   port: 443
   type: vmess
@@ -175,194 +174,17 @@ proxies:
   ws-headers:
     Host: zero1.a-yu.xyz
   udp: true
-- name: 1.64|defaultname43
-  server: targoo1.mirror.cn.com
+- name: 1.19|SeoulZenlayer
+  server: 128.1.125.164
   port: 443
   type: vmess
-  uuid: 351b9b77-a6f0-4772-a845-04bed6814563
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    host: targoo1.mirror.cn.com
-- name: 1.63|美国阿伟科技油管 2
-  server: 6.lyzghim.com
-  port: 443
-  type: vmess
-  uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d
+  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /qwe
+  ws-path: /ray
   ws-headers:
-    Host: 6.lyzghim.com
+    Host: govacaxixo.watchdoctor.xyz
   udp: true
-- name: 1.59|youtube8度科技 5
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 1.54| githubcomfreefq  美国CloudFlare公司CDN节点 16
-  server: api.ssfree.ru
-  port: 443
-  type: vmess
-  uuid: 0363bf9a-8378-11ec-8713-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: api.ssfree.ru
-- name: 1.48| US310 TGpeekfun
-  server: 72.167.45.6
-  port: 443
-  type: trojan
-  country: ' US'
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.46|美国阿伟科技油管 10
-  server: 666.lyzghim.com
-  port: 443
-  type: vmess
-  uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /qwe
-  ws-headers:
-    Host: 666.lyzghim.com
-  udp: true
-- name: 1.40|youtube8度科技 6
-  server: 198.41.212.2
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 1.35|youtube8度科技 3
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 1.28|RelayUS2485Mb
-  server: xioix.gq
-  type: trojan
-  country: US
-  port: 443
-  password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
-  skip-cert-verify: true
-  udp: true
-- name: 1.23|美国阿伟科技油管 17
-  server: oz1.mooncloud.bike
-  port: 8443
-  type: vmess
-  uuid: f1533fd1-4562-4935-a1e6-832685d4a919
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: oz.mooncloud.bike
-  udp: true
-- name: 1.21|youtube8度科技美国 3
-  server: 172.67.68.58
-  port: 443
-  type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /shuier
-  ws-headers:
-    Host: xc1.v2rie.pp.ua
-  udp: true
-- name: 1.20|httpsgitiov9999 205
-  server: v2ray.ifuckgfw.ga
-  port: 8443
-  type: vmess
-  uuid: 7fb9b440-7514-11ec-a376-52ac0014346a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /nBaG3RmV/
-    headers:
-      Host: v2ray.ifuckgfw.ga
-- name: 1.10|US1312525189506
-  server: game.homeos.ml
-  port: 3306
-  type: vmess
-  uuid: cb405d92-983e-4850-ba6b-cf561b050ed0
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: game.homeos.ml
-- name: 1.09|httpsgitiov9999 206
-  server: 198.41.212.15
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 1.02|RelayUSRU172  371Mb
-  server: v3.ssrsub.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: 50a90339-8afa-4579-832d-f5d608a6f569
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
