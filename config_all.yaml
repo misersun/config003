@@ -1,89 +1,5 @@
 proxies:
-- name: 7.78|Lv2新加坡4V2Ray中转优化
-  server: 183.232.226.171
-  port: 20012
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 7.43|Lv2新加坡2V2Ray中转优化
-  server: 183.232.226.171
-  port: 20010
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /5dyun.m3u8
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 5.81|Lv2日本4  V2Ray中转优化
-  server: 183.232.226.171
-  port: 20013
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 5.59|Lv2日本3V2Ray中转优化
-  server: 183.232.226.171
-  port: 20011
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 183.232.226.171
-  udp: true
-- name: 4.77|韩国V2Ray中转优化
-  server: 103.56.60.37
-  port: 20925
-  type: vmess
-  uuid: c0fc2247-c778-31bf-81a6-18af5c0c41a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: 103.56.60.37
-  udp: true
-- name: 4.64|TG ShareCentrePro香港
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 46372
-  type: vmess
-  uuid: d97a0aaf-3f77-438c-9351-9fb058bd0855
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /index.html
-  ws-headers:
-    Host: sweetcloud.top
-  udp: true
-- name: 4.11|香港阿伟科技油管 3
+- name: 4.48|香港阿伟科技油管 3
   server: cnm.lyzghim.com
   port: 443
   type: vmess
@@ -97,42 +13,14 @@ proxies:
   ws-headers:
     Host: cnm.lyzghim.com
   udp: true
-- name: 2.55|Relay 5160Mb
-  server: dzhkaz.scsevers.cf
-  port: 40691
-  type: vmess
-  uuid: c7ed85dd-42f1-4c0e-f87c-a9fedaa335e9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.40|RelayTWTW9503144Mb
-  server: lltw.scsevers.cf
-  type: vmess
-  country: TW
-  port: 59801
-  uuid: a209854a-30ed-4887-e7d2-70c7e45f814c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: lltw.scsevers.cf
-  http-opts: {}
-  h2-opts: {}
+- name: 3.64| 香港绿头外网集团Public 4
+  server: ssl.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: ssl.tcpbbr.net
   skip-cert-verify: true
-- name: 2.27|RelayHKHK83 2539Mb
-  server: dzhkaz.scsevers.cf
-  type: vmess
-  country: HK
-  port: 39264
-  uuid: 1685ada0-594e-4fc0-9938-e50764ec9dc7
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.17|美国阿伟科技油管 20
+- name: 2.40|美国阿伟科技油管 20
   server: 3.ezydfdd.com
   port: 443
   type: vmess
@@ -146,45 +34,52 @@ proxies:
   ws-headers:
     Host: 3.ezydfdd.com
   udp: true
-- name: 2.06|美国阿伟科技油管 4
-  server: nmsl.lyzghim.com
-  port: 443
+- name: 2.19| 美国  3 奈飞 Cera 无限流量
+  server: us3.nodrop.bike
+  port: 47891
   type: vmess
-  uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92
+  uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-path: /qwe
+  ws-path: /onefall
   ws-headers:
-    Host: nmsl.lyzghim.com
-  udp: true
-- name: 1.72|youtube8度科技 8
-  server: 198.41.212.8
-  port: 443
+    Host: us3.nodrop.bike
+- name: 1.49| 新加坡 印度煎饼节点 475Gbps
+  server: 54.251.169.19
+  port: 1310
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 0576c23c-a5bc-3670-ba42-b05ff1364167
   alterId: 0
   cipher: auto
-  tls: true
-  skip-cert-verify: true
+  tls: false
   network: ws
-  ws-path: /sakura/
+  ws-path: /ub68jk
   ws-headers:
-    Host: zero1.a-yu.xyz
+    Host: '%7B%22Host%22:%2254.251.169.19%22%7D'
+- name: 1.19|香港绿头外网集团Public
+  server: sxctr.hk2.qiguangyicai.xyz
+  port: 44143
+  type: trojan
+  password: 373c42c8-d608-4974-8d90-6e44db50dc78
+  sni: sxctr.hk2.qiguangyicai.xyz
+  skip-cert-verify: true
   udp: true
-- name: 1.19|SeoulZenlayer
-  server: 128.1.125.164
+- name: 1.09|Relay1366Mb
+  server: is3.vwvwvw.xyz
+  type: trojan
+  country: US
   port: 443
-  type: vmess
-  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
-  alterId: 0
-  cipher: auto
-  tls: true
+  password: d089a164-c8c5-43cc-86cc-e71256d3d59e
   skip-cert-verify: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: govacaxixo.watchdoctor.xyz
   udp: true
+- name: 1.05|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org

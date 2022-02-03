@@ -1,5 +1,5 @@
 proxies:
-- name: 4.11|香港阿伟科技油管 3
+- name: 4.48|香港阿伟科技油管 3
   server: cnm.lyzghim.com
   port: 443
   type: vmess
@@ -13,7 +13,14 @@ proxies:
   ws-headers:
     Host: cnm.lyzghim.com
   udp: true
-- name: 2.17|美国阿伟科技油管 20
+- name: 3.64| 香港绿头外网集团Public 4
+  server: ssl.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: ssl.tcpbbr.net
+  skip-cert-verify: true
+- name: 2.40|美国阿伟科技油管 20
   server: 3.ezydfdd.com
   port: 443
   type: vmess
@@ -27,45 +34,31 @@ proxies:
   ws-headers:
     Host: 3.ezydfdd.com
   udp: true
-- name: 2.06|美国阿伟科技油管 4
-  server: nmsl.lyzghim.com
-  port: 443
+- name: 2.19| 美国  3 奈飞 Cera 无限流量
+  server: us3.nodrop.bike
+  port: 47891
   type: vmess
-  uuid: 0bbf596c-1623-4bfc-8650-80cf343a8e92
+  uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-path: /qwe
+  ws-path: /onefall
   ws-headers:
-    Host: nmsl.lyzghim.com
+    Host: us3.nodrop.bike
+- name: 1.19|香港绿头外网集团Public
+  server: sxctr.hk2.qiguangyicai.xyz
+  port: 44143
+  type: trojan
+  password: 373c42c8-d608-4974-8d90-6e44db50dc78
+  sni: sxctr.hk2.qiguangyicai.xyz
+  skip-cert-verify: true
   udp: true
-- name: 1.72|youtube8度科技 8
-  server: 198.41.212.8
+- name: 1.09|Relay1366Mb
+  server: is3.vwvwvw.xyz
+  type: trojan
+  country: US
   port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
+  password: d089a164-c8c5-43cc-86cc-e71256d3d59e
   skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 1.19|SeoulZenlayer
-  server: 128.1.125.164
-  port: 443
-  type: vmess
-  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: govacaxixo.watchdoctor.xyz
   udp: true
