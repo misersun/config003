@@ -1,28 +1,31 @@
 proxies:
-- name: 4.13|1924622411443
-  server: 192.46.224.11
-  port: 443
+- name: 1.86| 印度BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44604
   type: trojan
-  password: d9e4f710-858b-11ec-a0b0-1239d0255272
-  skip-cert-verify: true
-- name: 1.23| RelayUSUS83
-  server: v1.ssrsub.com
-  port: 443
+  password: c21423ac-fe03-4199-b0a3-3e79a5a34480
+  sni: in1.welink.qchwnd.moe
+- name: 1.29| VIP印度尼西亚BGPNetflix
+  server: azhk.relay.qchwnd.moe
+  port: 44607
+  type: trojan
+  password: c21423ac-fe03-4199-b0a3-3e79a5a34480
+  sni: id.node.qchwnd.moe
+- name: 1.05| VIP德国BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44612
+  type: trojan
+  password: c21423ac-fe03-4199-b0a3-3e79a5a34480
+  sni: de1.alink.qchwnd.moe
+- name: 1.05| TW 2682Mb
+  server: tw01.lilyco.cc
+  port: 59801
   type: vmess
-  uuid: 535c9eef-40a3-4767-9253-706b0b128ed5
+  uuid: a209854a-30ed-4887-e7d2-70c7e45f814c
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
-  ws-path: /ssrsub
+  ws-path: /
   ws-headers:
-    Host: v1.ssrsub.com
-- name: 1.06|美国2
-  type: snell
-  server: sha.diao.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
+    Host: tw01.lilyco.cc
