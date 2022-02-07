@@ -1,336 +1,120 @@
 proxies:
-- name: 1.61|RelayHKHK95 1380Mb
-  server: hk.hkt.lilyco.cc
+- name: 1.15|VIP台湾BGP中转Netflix
+  server: azhk.relay.qchwnd.moe
+  port: 44608
   type: trojan
-  country: HK
-  port: 443
-  password: sharecentre
+  password: b6676f64-fff6-4489-a04e-26d9092f6599
+  sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 1.08|HK8353Mb
-  server: 218.190.242.130
+- name: 0.64| 印度BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44604
   type: trojan
-  country: HK
-  port: 443
-  password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia
-  skip-cert-verify: true
-  udp: true
-- name: 0.90|解锁
-  type: ss
-  server: 192.210.201.72
-  port: 51490
-  cipher: aes-128-gcm
-  password: yangchaoyue
-  udp: true
-  skip-cert-verify: true
-- name: 0.71|httpsgitiov9999 245
-  server: 169.197.141.187
-  port: 5001
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.68|Relay1103Mb
-  server: uk-am3-5.eqsunshine.com
-  type: ssr
-  country: GB
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 0.63|1533Mb
-  server: 38.114.114.49
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 0.62|httpsgitiov9999 111
-  server: 38.68.134.191
-  port: 9102
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: 0.59|1181Mb
-  server: 134.195.198.95
-  type: ss
-  country: ZZ
-  port: 2376
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 0.58|httpsgitiov9999 27
-  server: 134.195.196.71
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 0.56| 982Mb
-  server: 134.195.198.178
-  type: ss
-  country: ZZ
-  port: 3389
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.54|2319Mb
-  server: 62.210.209.50
-  type: ss
-  country: FR
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 0.52| 美国绿头外网集团Public 120
-  server: 169.197.142.48
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 0.50|Relay2167Mb
-  server: t1.ssrsub.com
-  type: trojan
-  country: CA
-  port: 8443
-  password: 535c9eef-40a3-4767-9253-706b0b128ed5
-  skip-cert-verify: true
-  udp: true
-- name: 0.50|httpsgitiov9999 63
-  server: 38.68.135.112
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 0.49|httpsgitiov9999 241
-  server: 167.88.61.175
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 0.46|httpsgitiov9999 267
-  server: 198.57.27.172
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.45|httpsgitiov9999 33
-  server: 38.75.136.45
-  port: 7002
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 0.45|httpsgitiov9999 32
-  server: 38.75.136.45
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 0.45|httpsgitiov9999 280
-  server: 142.202.48.34
-  port: 5001
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.44|httpsgitiov9999 31
-  server: 38.75.136.45
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: 0.41|1852Mb
-  server: 169.197.142.48
-  type: ss
-  country: ZZ
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 0.41|httpsgitiov9999 14
-  server: 38.91.102.123
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 0.40|httpsgitiov9999 29
-  server: 38.75.136.45
-  port: 9101
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: 0.40|httpsgitiov9999 34
-  server: 38.75.136.45
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 0.39|httpsgitiov9999 279
-  server: 134.195.196.147
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.39|httpsgitiov9999 224
-  server: 38.143.66.20
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 0.38|httpsgitiov9999 35
-  server: 38.75.136.45
+  password: c21423ac-fe03-4199-b0a3-3e79a5a34480
+  sni: in1.welink.qchwnd.moe
+- name: 0.58|httpsgitiov9999 219
+  server: 198.57.27.188
   port: 5500
   type: ss
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: 0.37|httpsgitiov9999 16
-  server: 38.91.102.123
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 0.37| 874Mb
-  server: 134.195.196.71
-  type: ss
-  country: ZZ
-  port: 3389
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 134.195.196.44
-  type: ss
-  name: 0.37|2034
-- name: 0.36|httpsgitiov9999 184
-  server: 167.88.61.175
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 0.36|httpsgitiov9999 45
-  server: 38.68.135.112
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 0.36|httpsgitiov9999 113
-  server: 38.121.43.91
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.36|httpsgitiov9999 262
-  server: 167.88.63.28
-  port: 5001
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 0.35|httpsgitiov9999 46
-  server: 38.68.135.112
-  port: 2376
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 0.35|盘古斧直连28
-  server: qt9.shenseven.xyz
-  port: 443
+- name: 0.53| VIP印度尼西亚BGPNetflix
+  server: azhk.relay.qchwnd.moe
+  port: 44607
   type: trojan
-  password: 437b10ea-9263-4c9d-8cf1-a8fc4755bcd9
-  sni: qt9.shenseven.xyz
-- name: 0.35|httpsgitiov9999 108
-  server: 38.68.134.23
-  port: 8888
+  password: c21423ac-fe03-4199-b0a3-3e79a5a34480
+  sni: id.node.qchwnd.moe
+- name: 0.51|VIP香港2负载均衡BGP12x
+  server: azhk.node.qchwnd.moe
+  port: 44609
+  type: trojan
+  password: b6676f64-fff6-4489-a04e-26d9092f6599
+  sni: azhk.node.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 0.50|httpsgitiov9999 240
+  server: 198.57.27.241
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  udp: true
+- name: 0.50|httpsgitiov9999 185
+  server: 134.195.196.147
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 0.47|httpsgitiov9999 405
+  server: 172.99.190.39
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 0.47|httpsgitiov9999 154
+  server: 134.195.196.43
+  port: 5600
   type: ss
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 0.34|httpsgitiov9999 281
-  server: 198.57.27.188
-  port: 8888
+- name: 0.46|httpsgitiov9999 422
+  server: 172.105.254.242
+  port: 6697
   type: ss
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: TEzjfAYq2IjtuoS
   udp: true
-- name: 0.34|Relay2143Mb
-  server: t4.ssrsub.com
+- name: 0.44|Relay1990Mb
+  server: t3.ssrsub.com
   type: trojan
   country: CA
   port: 8443
   password: 535c9eef-40a3-4767-9253-706b0b128ed5
   skip-cert-verify: true
   udp: true
-- name: 0.34|2026Mb
+- name: 0.40|1282Mb
   server: 62.210.209.50
   type: ss
   country: FR
   port: 7307
   password: FoOiGlkAA9yPEGP
   cipher: aes-256-gcm
-- name: 0.34|httpsgitiov9999 64
-  server: 38.68.135.112
-  port: 3389
+- name: 0.37|2676Mb
+  server: 139.162.52.177
+  type: ss
+  country: SG
+  port: 8881
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+- name: 0.37|httpsgitiov9999 90
+  server: 38.68.134.71
+  port: 7002
   type: ss
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: RexnBgU7EV5ADxG
   udp: true
-- name: 0.33|httpsgitiov9999 30
-  server: 38.75.136.45
-  port: 6379
+- name: 0.35|2409Mb
+  server: 139.162.52.177
+  type: ss
+  country: SG
+  port: 8008
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 0.33|US美国23
+  server: 169.197.143.52
+  port: 8881
   type: ss
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 0.32|1247Mb
-  server: 134.195.196.71
+  password: kDWvXYZoTBcGkC4
+- name: 0.32|2090Mb
+  server: 139.162.52.177
   type: ss
-  country: ZZ
-  port: 2376
-  password: faBAoD54k87UJG7
+  country: SG
+  port: 7002
+  password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
-- name: 0.32|2079Mb
-  server: 134.195.196.24
-  type: ss
-  country: ZZ
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 0.32|httpsgitiov9999 69
-  server: 38.68.135.112
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 0.31|httpsgitiov9999 15
-  server: 38.91.102.123
-  port: 8000
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: 0.30|trojan
-  type: trojan
-  server: 65.49.196.130
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
