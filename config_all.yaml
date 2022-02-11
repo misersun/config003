@@ -1,56 +1,37 @@
 proxies:
-- name: 8.39|中国TGnodesharing36
-  server: in05.dns2333.xyz
-  port: 63078
+- name: 8.61|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 7.76| 日本阿伟科技TG油管 4
+  server: china-zj-hz-1.forwardserver.xyz
+  port: 34304
   type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
+  uuid: d3180565-3fe9-4f16-ac9f-0ce578b0ea08
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: hk-balancer.airport-v2.com
-  udp: true
-- name: 6.60|V2香港HKT04 中继D 2x
-  server: in04.dns2333.xyz
-  port: 63083
+    Host: lrb1.moonfree.top
+- name: 7.06| 新加坡阿伟科技TG油管
+  server: 183.232.56.161
+  port: 1501
   type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
+  uuid: 5381c7b6-9d4e-388f-b095-268733ef2fcc
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: cdn.bootcdn.net
-  udp: true
-- name: 5.85| 香港02
-  server: herjgf.arh.sstnb.cn
-  port: 6102
-  type: trojan
-  password: 58EEC395-8F95-D7F3-BE32-B6853EABF12D
-  sni: iqiyi.com
-  skip-cert-verify: true
-- name: 5.62| Lil 日本05  netflix  IEPL  倍率13
-  server: rangahr6.nodeinfo.icu
-  port: 2605
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 5.57| 香港03
-  server: herjgf.arh.sstnb.cn
-  port: 6103
-  type: trojan
-  password: 58EEC395-8F95-D7F3-BE32-B6853EABF12D
-  sni: iqiyi.com
-  skip-cert-verify: true
+    Host: 183.232.56.161
 - name: 5.12|tg freebaipiao
   server: 93.179.125.191
   port: 31472
@@ -58,185 +39,7 @@ proxies:
   password: mA7xMkeKVp
   skip-cert-verify: true
   udp: true
-- name: 4.92|中国TGnodesharing86
-  server: in05.dns2333.xyz
-  port: 63004
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mugua-kr01.covid19.rip
-  udp: true
-- name: 4.63| Lil 台湾04  allmedia  IEPL  倍率13
-  server: iemath0i.nodeinfo.icu
-  port: 1114
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 4.60| Large 新加坡05  all  IEPL  倍率15
-  server: aebek1oo.nodeinfo.icu
-  port: 1001
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 4.32| V1香港 多台负载均衡 中继C  15x
-  server: in03.dns2333.xyz
-  port: 63078
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hk-balancer.airport-v2.com
-- name: 4.31| Large 新加坡12  all  IEPL  倍率15
-  server: iephu5so.nodeinfo.icu
-  port: 3212
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 4.30|中国TGnodesharing39
-  server: gz.soolos.com
-  port: 58831
-  type: trojan
-  password: a42c5cb1-2fff-319f-8da2-6a9978512964
-  sni: gz.soolos.com
-  skip-cert-verify: true
-  udp: true
-- name: 4.30| Large 新加坡07  all  IEPL  倍率15
-  server: eer9iqu7.nodeinfo.icu
-  port: 1003
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 4.24|中国TGnodesharing6
-  server: fs.soolos.com
-  port: 58803
-  type: trojan
-  password: a42c5cb1-2fff-319f-8da2-6a9978512964
-  sni: fs.soolos.com
-  skip-cert-verify: true
-  udp: true
-- name: 4.16| Lil 新加坡03  netflix  IEPL  倍率15
-  server: ohd8oi6c.nodeinfo.icu
-  port: 2203
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.92| Large 新加坡06  all  IEPL  倍率15
-  server: phoo6aem.nodeinfo.icu
-  port: 1002
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.70|V1日本 多台负载均衡 中继C 15x
-  server: in03.dns2333.xyz
-  port: 63086
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mugua
-  ws-headers:
-    Host: jp-balancer.myn1des.com
-  udp: true
-- name: 3.49|中国TGnodesharing46
-  server: gz.soolos.com
-  port: 58830
-  type: trojan
-  password: a42c5cb1-2fff-319f-8da2-6a9978512964
-  sni: gz.soolos.com
-  skip-cert-verify: true
-  udp: true
-- name: 3.34| Large 新加坡01  all  IEPL  倍率15
-  server: aigha5ay.nodeinfo.icu
-  port: 3201
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.28| Large 新加坡08  all  IEPL  倍率15
-  server: eu7aish2.nodeinfo.icu
-  port: 1004
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.24| Lil 新加坡05  netflix  IEPL  倍率2
-  server: axeed0uh.nodeinfo.icu
-  port: 2003
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.24|V1韩国01 中继C  x15
-  server: in03.dns2333.xyz
-  port: 63004
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mugua-kr01.covid19.rip
-  udp: true
-- name: 3.22| Large 新加坡11  all  IEPL  倍率15
-  server: quo7chie.nodeinfo.icu
-  port: 3211
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 3.20|V1韩国01 中继D  x15
+- name: 4.18|V1韩国01 中继D  x15
   server: in04.dns2333.xyz
   port: 63004
   type: vmess
@@ -250,66 +53,42 @@ proxies:
   ws-headers:
     Host: mugua-kr01.covid19.rip
   udp: true
-- name: 3.15| 香港01
-  server: herjgf.arh.sstnb.cn
-  port: 6101
-  type: trojan
-  password: 58EEC395-8F95-D7F3-BE32-B6853EABF12D
-  sni: iqiyi.com
-  skip-cert-verify: true
-- name: 3.03|中国TGnodesharing116
-  server: fs.soolos.com
-  port: 58809
-  type: trojan
-  password: a42c5cb1-2fff-319f-8da2-6a9978512964
-  sni: fs.soolos.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.78| Large 新加坡02  all  IEPL  倍率15
-  server: roog5tee.nodeinfo.icu
-  port: 3202
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 2.45|V1新加坡 多台负载均衡 中继B 15x
-  server: in02.dns2333.xyz
-  port: 63087
+- name: 3.06|香港01三网优化1x
+  server: zz.bbxy.cloud
+  port: 48888
   type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
+  uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /mugua
+  ws-path: /awshk01
   ws-headers:
-    Host: sg-balancer.tencent.best
+    Host: zz.bbxy.cloud
   udp: true
-- name: 2.34| Large 日本02  allmedia  IEPL  倍率15
-  server: wi6ru6zo.nodeinfo.icu
-  port: 6302
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 2.08| Large 台灣02  all  IEPL  倍率18
-  server: yeen3opa.nodeinfo.icu
-  port: 6502
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 2.01|V2美国01 中继E  15x
+- name: 3.01|1422Mb
+  server: 139.162.58.13
+  type: ss
+  country: SG
+  port: 5003
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 2.95|中国TGnodesharing325
+  server: fosyd.tuboshu.space
+  port: 18888
+  type: vmess
+  uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /tsg
+  ws-headers:
+    Host: fosyd.tuboshu.space
+  udp: true
+- name: 2.78|V2美国01 中继E  15x
   server: in05.dns2333.xyz
   port: 63014
   type: vmess
@@ -323,36 +102,16 @@ proxies:
   ws-headers:
     Host: mugua-us01.covid19.rip
   udp: true
-- name: 1.72|CN1832325676468
-  server: in03.dns2333.xyz
-  port: 63051
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /hls
-  tls: true
-  ws-headers:
-    Host: mugua-in01.airport-v2.com
-- name: 1.69|V1韩国01 中继A  x15
-  server: in01.dns2333.xyz
-  port: 63004
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mugua-kr01.covid19.rip
-  udp: true
-- name: 1.66|V1俄罗斯01 中继D  x12
+- name: 2.56|RelayCNSG267 471Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8076
+  password: passinfo123
+  cipher: rc4-md5
+- name: 2.02|V1美国01 中继D  15x
   server: in04.dns2333.xyz
-  port: 63071
+  port: 63014
   type: vmess
   uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
   alterId: 0
@@ -360,21 +119,42 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /mg
   ws-headers:
-    Host: mugua-ru01.myn1des.com
+    Host: mugua-us01.covid19.rip
   udp: true
-- name: 1.61| Large 香港24  nfo  IEPL  倍率16
-  server: phahx7xo.nodeinfo.icu
-  port: 3726
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 1.59|V2美国03 中继D  15x
+- name: 1.82|春川甲骨文解锁流媒体倍率2
+  server: kr1.btaok.xyz
+  port: 21319
+  type: vmess
+  uuid: b1909738-3423-3a2c-a738-45a1277d3608
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.64|Relay1195Mb
+  server: 117.28.243.154
+  type: ss
+  country: CN
+  port: 6145
+  password: passinfo123
+  cipher: rc4-md5
+- cipher: rc4-md5
+  password: passinfo123
+  port: 8254
+  server: 117.28.243.220
+  type: ss
+  name: 1.54|2496
+- name: 1.45|Relay6796Mb
+  server: hk.hkt.lilyco.cc
+  type: trojan
+  country: HK
+  port: 443
+  password: sharecentre
+  skip-cert-verify: true
+  udp: true
+- name: 1.32|V2美国03 中继D  15x
   server: in04.dns2333.xyz
   port: 63069
   type: vmess
@@ -388,59 +168,7 @@ proxies:
   ws-headers:
     Host: mugua-us03.covid19.rip
   udp: true
-- name: 1.58| Large 新加坡09  all  IEPL  倍率15
-  server: meeku3zi.nodeinfo.icu
-  port: 3209
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 105936:sfSsFSA
-  obfs-param: 2089a105936.www.gov.hk
-- name: 1.40|V1美国01 中继D  15x
-  server: in04.dns2333.xyz
-  port: 63014
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-us01.covid19.rip
-  udp: true
-- name: 1.39|V1美国01 中继C  15x
-  server: in03.dns2333.xyz
-  port: 63014
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-us01.covid19.rip
-  udp: true
-- name: 1.33|V1日本 多台负载均衡 中继D 15x
-  server: in04.dns2333.xyz
-  port: 63086
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mugua
-  ws-headers:
-    Host: jp-balancer.myn1des.com
-  udp: true
-- name: 1.28|V2巴西01 中继E
+- name: 1.31|V2巴西01 中继E
   server: in05.dns2333.xyz
   port: 63041
   type: vmess
@@ -454,8 +182,8 @@ proxies:
   ws-headers:
     Host: mugua-br01.covid19.rip
   udp: true
-- name: 1.14|V1美国01 中继A  15x
-  server: in01.dns2333.xyz
+- name: 1.23|V1美国01 中继C  15x
+  server: in03.dns2333.xyz
   port: 63014
   type: vmess
   uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
@@ -468,23 +196,17 @@ proxies:
   ws-headers:
     Host: mugua-us01.covid19.rip
   udp: true
-- name: 1.11| V1香港 多台负载均衡 中继D  15x
+- name: 1.01|V1日本 多台负载均衡 中继D 15x
   server: in04.dns2333.xyz
-  port: 63078
+  port: 63086
   type: vmess
   uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hk-balancer.airport-v2.com
-- name: 1.08|中国TGnodesharing89
-  server: gz.soolos.com
-  port: 58812
-  type: trojan
-  password: a42c5cb1-2fff-319f-8da2-6a9978512964
-  sni: gz.soolos.com
   skip-cert-verify: true
+  network: ws
+  ws-path: /mugua
+  ws-headers:
+    Host: jp-balancer.myn1des.com
   udp: true

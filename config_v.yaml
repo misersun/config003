@@ -1,15 +1,52 @@
 proxies:
-- name: 6.60|V2香港HKT04 中继D 2x
-  server: in04.dns2333.xyz
-  port: 63083
+- name: 7.06| 新加坡阿伟科技TG油管
+  server: 183.232.56.161
+  port: 1501
   type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
+  uuid: 5381c7b6-9d4e-388f-b095-268733ef2fcc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 183.232.56.161
+- name: 3.06|香港01三网优化1x
+  server: zz.bbxy.cloud
+  port: 48888
+  type: vmess
+  uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /awshk01
   ws-headers:
-    Host: cdn.bootcdn.net
+    Host: zz.bbxy.cloud
+  udp: true
+- name: 2.95|中国TGnodesharing325
+  server: fosyd.tuboshu.space
+  port: 18888
+  type: vmess
+  uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /tsg
+  ws-headers:
+    Host: fosyd.tuboshu.space
+  udp: true
+- name: 1.82|春川甲骨文解锁流媒体倍率2
+  server: kr1.btaok.xyz
+  port: 21319
+  type: vmess
+  uuid: b1909738-3423-3a2c-a738-45a1277d3608
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
