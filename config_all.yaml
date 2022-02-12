@@ -1,212 +1,56 @@
 proxies:
-- name: 8.61|ss
+- name: 9.34|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 7.76| 日本阿伟科技TG油管 4
-  server: china-zj-hz-1.forwardserver.xyz
-  port: 34304
-  type: vmess
-  uuid: d3180565-3fe9-4f16-ac9f-0ce578b0ea08
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lrb1.moonfree.top
-- name: 7.06| 新加坡阿伟科技TG油管
-  server: 183.232.56.161
-  port: 1501
-  type: vmess
-  uuid: 5381c7b6-9d4e-388f-b095-268733ef2fcc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 183.232.56.161
-- name: 5.12|tg freebaipiao
-  server: 93.179.125.191
-  port: 31472
+- name: 8.88| HK Native 01
+  server: 120.197.85.73
+  port: 2040
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 7.12| HK Native 02
+  server: 120.197.85.73
+  port: 2041
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 7.02| HK Native 06
+  server: 120.197.85.73
+  port: 2092
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 6.65| HK Native 03
+  server: 120.197.85.73
+  port: 2042
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 6.32| HK Native 07
+  server: 120.197.85.73
+  port: 2093
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 2.69| Lil 香港05  nftvb  IEPL  倍率15
+  server: lia7nosh.nodeinfo.icu
+  port: 2105
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 110415:t9uSc4
+  obfs-param: aa84e110415.www.gov.hk
+- name: 1.24|RelayUSUS22891972Mb
+  server: www.darkwater.xyz
   type: trojan
-  password: mA7xMkeKVp
+  country: US
+  port: 41759
+  password: ixkIc4mCzH
   skip-cert-verify: true
-  udp: true
-- name: 4.18|V1韩国01 中继D  x15
-  server: in04.dns2333.xyz
-  port: 63004
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mugua-kr01.covid19.rip
-  udp: true
-- name: 3.06|香港01三网优化1x
-  server: zz.bbxy.cloud
-  port: 48888
-  type: vmess
-  uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /awshk01
-  ws-headers:
-    Host: zz.bbxy.cloud
-  udp: true
-- name: 3.01|1422Mb
-  server: 139.162.58.13
-  type: ss
-  country: SG
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 2.95|中国TGnodesharing325
-  server: fosyd.tuboshu.space
-  port: 18888
-  type: vmess
-  uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /tsg
-  ws-headers:
-    Host: fosyd.tuboshu.space
-  udp: true
-- name: 2.78|V2美国01 中继E  15x
-  server: in05.dns2333.xyz
-  port: 63014
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-us01.covid19.rip
-  udp: true
-- name: 2.56|RelayCNSG267 471Mb
-  server: 117.28.243.220
-  type: ss
-  country: CN
-  port: 8076
-  password: passinfo123
-  cipher: rc4-md5
-- name: 2.02|V1美国01 中继D  15x
-  server: in04.dns2333.xyz
-  port: 63014
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-us01.covid19.rip
-  udp: true
-- name: 1.82|春川甲骨文解锁流媒体倍率2
-  server: kr1.btaok.xyz
-  port: 21319
-  type: vmess
-  uuid: b1909738-3423-3a2c-a738-45a1277d3608
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.64|Relay1195Mb
-  server: 117.28.243.154
-  type: ss
-  country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- cipher: rc4-md5
-  password: passinfo123
-  port: 8254
-  server: 117.28.243.220
-  type: ss
-  name: 1.54|2496
-- name: 1.45|Relay6796Mb
-  server: hk.hkt.lilyco.cc
-  type: trojan
-  country: HK
-  port: 443
-  password: sharecentre
-  skip-cert-verify: true
-  udp: true
-- name: 1.32|V2美国03 中继D  15x
-  server: in04.dns2333.xyz
-  port: 63069
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mugua-us03.covid19.rip
-  udp: true
-- name: 1.31|V2巴西01 中继E
-  server: in05.dns2333.xyz
-  port: 63041
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-br01.covid19.rip
-  udp: true
-- name: 1.23|V1美国01 中继C  15x
-  server: in03.dns2333.xyz
-  port: 63014
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mg
-  ws-headers:
-    Host: mugua-us01.covid19.rip
-  udp: true
-- name: 1.01|V1日本 多台负载均衡 中继D 15x
-  server: in04.dns2333.xyz
-  port: 63086
-  type: vmess
-  uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /mugua
-  ws-headers:
-    Host: jp-balancer.myn1des.com
   udp: true

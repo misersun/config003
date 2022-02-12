@@ -1,35 +1,48 @@
 proxies:
-- name: 8.61|ss
+- name: 9.34|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 3.01|1422Mb
-  server: 139.162.58.13
+- name: 8.88| HK Native 01
+  server: 120.197.85.73
+  port: 2040
   type: ss
-  country: SG
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 2.56|RelayCNSG267 471Mb
-  server: 117.28.243.220
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 7.12| HK Native 02
+  server: 120.197.85.73
+  port: 2041
   type: ss
-  country: CN
-  port: 8076
-  password: passinfo123
-  cipher: rc4-md5
-- name: 1.64|Relay1195Mb
-  server: 117.28.243.154
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 7.02| HK Native 06
+  server: 120.197.85.73
+  port: 2092
   type: ss
-  country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- cipher: rc4-md5
-  password: passinfo123
-  port: 8254
-  server: 117.28.243.220
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 6.65| HK Native 03
+  server: 120.197.85.73
+  port: 2042
   type: ss
-  name: 1.54|2496
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 6.32| HK Native 07
+  server: 120.197.85.73
+  port: 2093
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
+- name: 2.69| Lil 香港05  nftvb  IEPL  倍率15
+  server: lia7nosh.nodeinfo.icu
+  port: 2105
+  type: ssr
+  cipher: aes-256-cfb
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 110415:t9uSc4
+  obfs-param: aa84e110415.www.gov.hk
