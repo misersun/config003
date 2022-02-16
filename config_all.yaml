@@ -1,56 +1,742 @@
 proxies:
-- name: 9.34|ss
+- name: 11.44| Standard广港IEPL17
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3606
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 11.33| Standard广港IEPL19
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3608
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 10.67| Standard广港IEPL18
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3607
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 8.84| 香港3小浪浪
+  server: shonlinesandcu03.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 50374:ff112233
+  obfs-param: ''
+- name: 8.84| Standard广港IEPL15
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3604
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 8.58|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 8.88| HK Native 01
-  server: 120.197.85.73
-  port: 2040
+- name: 8.27| Standard广港IEPL10
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3609
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-- name: 7.12| HK Native 02
-  server: 120.197.85.73
-  port: 2041
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 7.67| Standard广港IEPL02
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3601
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-- name: 7.02| HK Native 06
-  server: 120.197.85.73
-  port: 2092
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 7.66| Standard广新IEPL03
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 6602
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-- name: 6.65| HK Native 03
-  server: 120.197.85.73
-  port: 2042
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 7.42| Standard广港IEPL09
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3608
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-- name: 6.32| HK Native 07
-  server: 120.197.85.73
-  port: 2093
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 7.31| Standard广港IEPL04
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3603
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-- name: 2.69| Lil 香港05  nftvb  IEPL  倍率15
-  server: lia7nosh.nodeinfo.icu
-  port: 2105
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 110415:t9uSc4
-  obfs-param: aa84e110415.www.gov.hk
-- name: 1.24|RelayUSUS22891972Mb
-  server: www.darkwater.xyz
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 7.13| Standard广新IEPL05
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 6604
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 6.30| Standard广韩IEPL02
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 7601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 6.30| Standard广新IEPL02
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 6601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 6.29|港07
+  server: hk-route2-azure-hk7.dk-3a4e.com
+  port: 8307
   type: trojan
-  country: US
-  port: 41759
-  password: ixkIc4mCzH
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-7-564.duuk.info
+  skip-cert-verify: true
+- name: 6.11|港06NFTVB
+  server: hk-route-12369-6.dk-3a4e.com
+  port: 8306
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-6-563.duuk.info
+  skip-cert-verify: true
+- name: 6.10| 香港4小浪浪
+  server: shcris02stand.proconcn.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 50374:ff112233
+  obfs-param: ''
+- name: 6.00| Standard广港IEPL13
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3602
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.99|港02NF
+  server: hk-route-12369-2.dk-3a4e.com
+  port: 8302
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-2-561.duuk.info
+  skip-cert-verify: true
+- name: 5.86|港08
+  server: hk-route2-azure-hk8.dk-3a4e.com
+  port: 8308
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-8-565.duuk.info
+  skip-cert-verify: true
+- name: 5.84|港10
+  server: hk10-gray.dk-3a4e.com
+  port: 8310
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-10-567.duuk.info
+  skip-cert-verify: true
+- name: 5.82| Standard广港IEPL20
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3609
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.81|港05NFTVB
+  server: shanghai-router2-hk5-5478.dk-3a4e.com
+  port: 8305
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk04-azure-uihn01.duuk.info
+  skip-cert-verify: true
+- name: 5.73|坡06
+  server: sg-cn-relay-6-689145.dk-3a4e.com
+  port: 9306
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: sgp-6-551.duuk.info
+  skip-cert-verify: true
+- name: 5.70|港13
+  server: hk-cnrelay-13-138465.dk-3a4e.com
+  port: 8313
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-13-568.duuk.info
+  skip-cert-verify: true
+- name: 5.61|坡05NF
+  server: sg-cn-hk-relay-5-51f087.dk-3a4e.com
+  port: 9305
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: sgp-5-550.duuk.info
+  skip-cert-verify: true
+- name: 5.59| Standard广港IEPL14
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3603
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.58| Standard广韩IEPL03
+  server: iepl-basic-else-2.ninjarelay.pro
+  port: 7600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.56|港03NF
+  server: hk-route-12369-3.dk-3a4e.com
+  port: 8303
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: hk-3-562.duuk.info
+  skip-cert-verify: true
+- name: 5.36| Premium广新IEPL02
+  server: iepl-premium-1.ninjarelay.pro
+  port: 6601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.36|坡01NF
+  server: sg-cn-hk-relay-1-767f45.dk-3a4e.com
+  port: 9301
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: sgp-1-546.duuk.info
+  skip-cert-verify: true
+- name: 5.29|坡07
+  server: sg-cn-relay-7-74812.dk-3a4e.com
+  port: 9307
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: sgp-7-552.duuk.info
+  skip-cert-verify: true
+- name: 5.26| Premium广日IEPL03
+  server: iepl-premium-2.ninjarelay.pro
+  port: 4600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.13| Standard广港IEPL07
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3606
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 5.05|坡04NF
+  server: sg-cn-hk-relay-4-40e978.dk-3a4e.com
+  port: 9304
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: sgp-4-549.duuk.info
+  skip-cert-verify: true
+- name: 5.01|日02NFDMM
+  server: shanghai-router1-892412-jp2.dk-3a4e.com
+  port: 6302
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: jp-2-555.duuk.info
+  skip-cert-verify: true
+- name: 5.00| Premium广日IEPL01
+  server: iepl-premium-1.ninjarelay.pro
+  port: 4600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.89| Premium广日IEPL04
+  server: iepl-premium-2.ninjarelay.pro
+  port: 4601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.70| Standard广日IEPL06
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 4605
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.68| Standard广港IEPL08
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3607
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.26|Relay1732Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2109
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.13| Standard广港IEPL03
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3602
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.08| Standard广日IEPL03
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 4602
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 4.03|Relay4205Mb
+  server: p3.centaur.network
+  type: trojan
+  country: CN
+  port: 16803
+  password: 00635f3d-2c64-4281-9367-f3c26ebb6a44
   skip-cert-verify: true
   udp: true
+- name: 4.03|Relay2406Mb
+  server: h1r.centaur.network
+  type: trojan
+  country: CN
+  port: 16802
+  password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f
+  skip-cert-verify: true
+  udp: true
+- name: 3.89| Standard广日IEPL04
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 4603
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 3.81| Standard广港IEPL16
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3605
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 3.25| Standard广日IEPL08
+  server: iepl-basic-else-2.ninjarelay.pro
+  port: 4601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 3.11| Standard广新IEPL07
+  server: iepl-basic-else-2.ninjarelay.pro
+  port: 6600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 3.02| Standard广日IEPL07
+  server: iepl-basic-else-2.ninjarelay.pro
+  port: 4600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+  password: epChJS35fV
+  port: 1109
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  server: gz1.52168.xyz
+  type: ssr
+  name: 2.69|2499
+- name: 2.61| Standard广港IEPL05
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3604
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 2.39| Standard广新IEPL04
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 6603
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+  password: epChJS35fV
+  port: 1107
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  server: gz1.52168.xyz
+  type: ssr
+  name: 2.34|318
+- name: 2.33|Relay1359Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1111
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.30|台6NF动画疯
+  server: tw6-5641.duuk.info
+  port: 5306
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: tw-06-592.duuk.info
+  skip-cert-verify: true
+- name: 2.29| Standard广港IEPL01
+  server: iepl-basic-hk-1.ninjarelay.pro
+  port: 3600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 2.29|日03NFDMM
+  server: shanghai-router1-892412-jp3.dk-3a4e.com
+  port: 6303
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: jp-3-556.duuk.info
+  skip-cert-verify: true
+- name: 2.29|台4NF动画疯
+  server: tw4-5545.duuk.info
+  port: 5304
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: tw-04-590.duuk.info
+  skip-cert-verify: true
+- name: 2.25|印尼阿伟科技TG油管
+  server: 183.232.56.161
+  port: 1952
+  type: vmess
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: microsoft.com
+  udp: true
+- name: 2.00|台3NF动画疯
+  server: tw3-5412.duuk.info
+  port: 5303
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: tw-03-505.duuk.info
+  skip-cert-verify: true
+- name: 1.96|台7NF动画疯
+  server: tw7-5756.duuk.info
+  port: 5307
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: tw-07-593.duuk.info
+  skip-cert-verify: true
+- name: 1.92|日本阿伟科技TG油管 9
+  server: ggc.sf66.cf
+  port: 45641
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ggc.sf66.cf
+  udp: true
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+  password: epChJS35fV
+  port: 1117
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  server: gz1.52168.xyz
+  type: ssr
+  name: 1.86|2500
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+  password: epChJS35fV
+  port: 2102
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  server: gz2.52168.xyz
+  type: ssr
+  name: 1.80|311
+- name: 1.78| Standard广日IEPL05
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 4604
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 1.67|台5NF动画疯
+  server: tw5-5564.duuk.info
+  port: 5305
+  type: trojan
+  password: 0c12780c-0bf9-57fc-832e-24e5b6c2bd61
+  sni: tw-05-591.duuk.info
+  skip-cert-verify: true
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+  password: epChJS35fV
+  port: 2103
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  server: gz2.52168.xyz
+  type: ssr
+  name: 1.63|2501
+- name: 1.57| Standard广港IEPL11
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3600
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 1.53|Relay  507Mb
+  server: 183.232.56.161
+  port: 1615
+  type: vmess
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: microsoft.com
+- name: 1.26|Relay 846Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8076
+  password: passinfo123
+  cipher: rc4-md5
+- name: 1.23| Standard广台IEPL03
+  server: iepl-basic-else-1.ninjarelay.pro
+  port: 3046
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
+- name: 1.21|中国YouTube8度科技 3
+  server: 117.28.243.220
+  port: 8186
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 1.20|香港阿伟科技TG油管 8
+  server: ggc.sf66.cf
+  port: 45118
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.18|韩国阿伟科技TG油管 2
+  server: dali-hz.8n4t.cn
+  port: 37211
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: oracle.kr.tgproxy.wtf
+  udp: true
+- name: 1.13| httpsgitiov9999ip3中国1
+  server: styd.sf66.cf
+  port: 16990
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: ggz.jgw.tgproxy.wtf
+- name: 1.04|Relay 1116Mb
+  server: 183.232.56.161
+  port: 1101
+  type: vmess
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: microsoft.com
+- name: 1.03| httpsgitiov9999ip3中国2
+  server: styd.sf66.cf
+  port: 52412
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: vds.sgp.tgproxy.wtf
+- name: 1.01| Standard广港IEPL12
+  server: iepl-basic-hk-2.ninjarelay.pro
+  port: 3601
+  type: ss
+  cipher: rc4-md5
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: bcc9a40590.microsoft.com
