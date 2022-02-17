@@ -1,12 +1,5 @@
 proxies:
-- name: 7.18|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.73|上海CN2
+- name: 7.29|上海CN2
   type: ss
   server: cn2.gzhpxb.com
   port: 20166
@@ -14,158 +7,5572 @@ proxies:
   password: yangchaoyue
   udp: true
   skip-cert-verify: true
-- name: 5.84|RelayCNSG317 437Mb
-  server: 101.67.8.158
+- name: 6.87|CYL科技20220213 16
+  server: 117.28.243.220
+  port: 8254
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 6.73|香港阿伟科技TG油管 2
+  server: 5.vpnbro.ml
+  port: 6666
+  type: trojan
+  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
+  sni: 5.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 6.70|香港阿伟科技TG油管 3
+  server: 3.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
+  sni: 3.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 6.52|Relay  786Mb
+  server: sxqxj.cn
+  type: vmess
+  country: CN
+  port: 2164
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 6.43|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 6.30|Relay 2877Mb
+  server: h1r.centaur.network
   type: trojan
   country: CN
-  port: 18168
-  password: d0d535cc-438d-4a0c-e09e-65441e89ac1e
+  port: 16802
+  password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f
   skip-cert-verify: true
   udp: true
-- name: 5.38|徐州联通彰化Hinetvpnhat
-  server: 122.192.154.54
-  port: 3389
+- name: 6.25| 11448Mb
+  server: 18.162.222.253
+  type: ss
+  country: HK
+  port: 38273
+  password: 3b07447e-94cf-4d72-96c6-d0a539098049
+  cipher: aes-256-gcm
+- name: 6.00|Relay 1179Mb
+  server: shonlinecu.proconcn.xyz
+  type: ssr
+  country: CN
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 50374:ff112233
+  obfs: plain
+- name: 5.86|Relay 5098Mb
+  server: shonlinesandcu03.proconcn.xyz
+  type: ssr
+  country: CN
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 50374:ff112233
+  obfs: plain
+- name: 5.80|Relay 4807Mb
+  server: 99.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52299
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 99.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.55| 中国852MBsYoutube不良林
+  server: h2r.centaur.network
+  port: 16801
   type: trojan
-  password: 1a1247ea6cb266b4
+  password: 9be5458a-6a1e-4784-823e-45149d6c0ffc
+  sni: h2r.centaur.network
   skip-cert-verify: true
+- name: 5.38| US170 TGpeekfun
+  server: 20.24.103.39
+  port: 52437
+  type: vmess
+  country: ' US'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 137.wgong.xyz
+  skip-cert-verify: true
+  servername: 137.wgong.xyz
+- name: 5.29|Relay 7948Mb
+  server: hkt.jslist.tk
+  type: vmess
+  country: US
+  port: 8880
+  uuid: efe08abe-e627-4f72-f02f-af00692a0bf4
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /api/images
+  servername: hkt.jslist.tk
+  ws-headers:
+    HOST: hkt.jslist.tk
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.25|Relay 2241Mb
+  server: 135.wgong.xyz
+  type: vmess
+  country: HK
+  port: 52335
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 135.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.24| httpsgitiov9999ip3香港19
+  server: 95.wowogg.cyou
+  port: 52295
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 5.20| HK85 TGpeekfun
+  server: 20.187.117.67
+  port: 52332
+  type: vmess
+  country: ' HK'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 132.wgong.xyz
+  skip-cert-verify: true
+  servername: 132.wgong.xyz
+- name: 5.20|Relay 1093Mb
+  server: v115.wgong.xyz
+  type: vmess
+  country: HK
+  port: 52215
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.14|RELAY1984121220340
+  server: 198.41.212.2
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.12|Relay 2231Mb
+  server: 115.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52215
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.11|Relay 2390Mb
+  server: 130.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52330
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 130.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.11|小汐搬运1513W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: 198.41.212.5
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.05|Relay  199Mb
+  server: 91.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52291
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 91.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.03|RELAY19841212181065
+  server: 198.41.212.18
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.00|小汐搬运1413W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: 198.41.221.169
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.99|Relay 7275Mb
+  server: 107.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52207
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 107.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.99|Relay  632Mb
+  server: ppycn1.ddnsnode.com
+  type: vmess
+  country: CN
+  port: 26010
+  uuid: 4b8010fb-60b7-341a-b1b6-135ed84ced4a
+  alterId: 0
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: ppycn1.ddnsnode.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.96| HK86 TGpeekfun
+  server: 104.208.79.110
+  port: 52210
+  type: vmess
+  country: ' HK'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 4.93|韩国阿伟科技TG油管
+  server: dali-hz.8n4t.cn
+  port: 37211
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /theuploadapi
+  ws-headers:
+    Host: oracle.kr.tgproxy.wtf
   udp: true
-- name: 4.99|娄底联通SGMelbicomvpnhat
-  server: 116.163.10.157
-  port: 3389
+- name: 4.87| httpsgitiov9999ip3香港23
+  server: 110.wowogg.cyou
+  port: 52210
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.86|httpsgitiov9999ip312
+  server: 198.41.212.13
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.86|Relay 3033Mb
+  server: 20.187.115.172
+  type: vmess
+  country: HK
+  port: 52228
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 20.187.115.172
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.86|Relay 5725Mb
+  server: 87.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52287
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.78|Relay 5524Mb
+  server: 134.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52334
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 134.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.74|Relay 2504Mb
+  server: 128.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52228
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 128.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.71|Relay 3591Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2106
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.64|RelayCNJP286
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2107
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.62|Relay 1043Mb
+  server: 137.wgong.xyz
+  type: vmess
+  country: HK
+  port: 52437
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.55|Relay 4616Mb
+  server: 132.wgong.xyz
+  type: vmess
+  country: HK
+  port: 52332
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 132.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.49|Relay 8831Mb
+  server: 85.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52285
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 85.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.48|RELAY1984121280728
+  server: 198.41.212.8
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.43|Relay  725Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1114
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.41|Relay 5539Mb
+  server: 136.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52436
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 136.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.39| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
+  port: 443
   type: trojan
-  password: 1a1247ea6cb266b4
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 4.38|RelayCNKR339 2228Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1602
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 4.32|徐州联通SGMelbicomvpnhat 3
-  server: 122.192.189.5
-  port: 3389
+- name: 4.32|RelayJPJP930
+  server: lrb1.moonfree.top
+  port: 2053
+  type: vmess
+  uuid: 5638fc1a-c3c0-41fd-acb6-2e302e7be794
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    host: lrb1.moonfree.top
+- name: 4.32|RelayEEJP392
+  server: os2-7.sstr-api.xyz
   type: trojan
-  password: 1a1247ea6cb266b4
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 3.26|徐州联通SGMelbicomvpnhat 5
-  server: 122.192.154.53
-  port: 3389
+- name: 4.27| 小汐搬运000213更新广告投放tmebyxiaoxi
+  server: 198.41.212.9
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.19|RelayEEJP385
+  server: os2-4.sstr-api.xyz
   type: trojan
-  password: 3426d80c2e066a83
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 3.14|徐州联通SGMelbicomvpnhat
-  server: 122.192.154.50
-  port: 3389
+- name: 4.18|RELAY104161102380705
+  server: 104.16.110.238
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 4.16|RELAY1726760780699
+  server: 172.67.60.78
+  port: 443
+  type: vmess
+  uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ml
+- name: 4.15|CN11214221040519
+  server: 112.14.22.104
+  port: 19057
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /catnet
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 4.15|CYL科技20220213 53
+  server: 1211hk1.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 1211hk1.fans8.xyz
+  udp: true
+- name: 4.12|RelayEEJP391
+  server: os2-8.sstr-api.xyz
   type: trojan
-  password: 1a1247ea6cb266b4
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 2.60|杭州移动彰化Hinetvpnhat
-  server: 120.232.192.115
-  port: 3389
+- name: 4.04|Relay  862Mb
+  server: 128hk8.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: 128hk8.fans8.xyz
+  ws-headers:
+    HOST: 128hk8.fans8.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.03|RelayCNUS331 2976Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1202
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.03|RELAY104251042400711
+  server: 104.25.104.240
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 3.93|RELAY104226680679
+  server: 104.22.66.8
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 3.90|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
   type: trojan
-  password: 1a1247ea6cb266b4
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 3.85|RelayCNID301 3804Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1103
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 3.84| RelayUSZZ2614
+  server: cloudflare.a-yu.xyz
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero2.a-yu.xyz
+- name: 3.83|RelayCNJP325 2406Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1201
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
+- name: 3.80|RELAY10427197630763
+  server: 104.27.197.63
+  port: 443
+  type: vmess
+  uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ml
+- name: 3.78| SG1243
+  server: 139.162.27.80
+  port: 18080
+  type: vmess
+  uuid: 374de18c-3b34-3b30-8fb4-e1f30f6fb916
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg40.freexyz.cf
+- name: 3.69|RELAY17267541930594
+  server: 172.67.54.193
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 3.67|CN347
+  server: 183.240.69.69
+  port: 20001
+  type: vmess
+  uuid: 374de18c-3b34-3b30-8fb4-e1f30f6fb916
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 183.240.69.69
   udp: true
-- name: 2.26|娄底联通SGMelbicomvpnhat 2
-  server: 116.163.10.208
-  port: 3389
+- name: 3.64|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
   type: trojan
-  password: 1a1247ea6cb266b4
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 3.63|Relay 5531Mb
+  server: os2-5.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 1.51|Relay 563Mb
+- name: 3.57|RelayEEJP390
+  server: os2-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.57|小汐搬运0813W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: 198.41.212.14
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 3.50|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 3.41|RelayEEJP386
+  server: os2-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.31|RELAY10416182150571
+  server: 104.16.182.15
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 3.30|RelayCNUS275
+  server: 117.28.243.173
+  type: ss
+  country: CN
+  port: 4173
+  password: passinfo123
+  cipher: rc4-md5
+- name: 3.25|日本阿伟科技TG油管 2
+  server: ggc.sf66.cf
+  port: 45641
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ggc.sf66.cf
+  udp: true
+- name: 3.24|RelayEEJP387
+  server: os2-2.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.23|Relay  964Mb
+  server: h4r.centaur.network
+  type: trojan
+  country: CN
+  port: 16801
+  password: 134b2dad-1ba4-49f6-a8b8-721525213356
+  skip-cert-verify: true
+  udp: true
+- name: 3.19|Relay  380Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1115
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 3.19|HK20205107990008
+  server: 20.205.107.99
+  port: 52281
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 81.wgong.xyz
+- name: 3.09|Relay 4645Mb
+  server: n178.centaur.network
+  type: trojan
+  country: US
+  port: 8082
+  password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556
+  skip-cert-verify: true
+  udp: true
+- name: 3.05| httpsgitiov9999ip3韩国7
+  server: oracle.kr.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: oracle.kr.tgproxy.wtf
+- name: 2.94| 甲骨文首尔ARM2trojan
+  server: jgw4.gaox.ml
+  port: 443
+  type: trojan
+  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+  sni: jgw4.gaox.ml
+- name: 2.87| httpsgitiov9999ip3中国2
+  server: styd.sf66.cf
+  port: 52412
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: vds.sgp.tgproxy.wtf
+- name: 2.85|RELAY10421762290623
+  server: 104.21.76.229
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 2.74|SG12819975230045
+  server: do3.xjp.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: do3.xjp.tgproxy.wtf
+- name: 2.70|Relay 2463Mb
+  server: 1222mnl.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.70|SG2021211141288
+  server: 20.212.1.114
+  port: 80
+  type: vmess
+  uuid: a6ee8f1e-21ee-461e-9283-85f2c3de106b
+  alterId: 1
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: livestream2.tv360.vn
+- name: 2.69|KR146561612231278
+  server: v.mumi.bid
+  port: 10121
+  type: vmess
+  uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: v.mumi.bid
+- name: 2.68|CN1202322081950516
+  server: 120.232.208.195
+  port: 19057
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /catnet
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.66|RelayCNZZ291
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1107
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.62|Relay 2106Mb
+  server: p3.centaur.network
+  type: trojan
+  country: CN
+  port: 16803
+  password: 00635f3d-2c64-4281-9367-f3c26ebb6a44
+  skip-cert-verify: true
+  udp: true
+- name: 2.52|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
+  port: 443
+  type: trojan
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 2.51|Relay 3693Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2109
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.51|RELAY104251401530593
+  server: 104.25.140.153
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 2.51|CN1202331471031274
+  server: ggc.sf66.cf
+  port: 45118
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: ggc.sf66.cf
+- name: 2.50|trojan
+  type: trojan
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.48|Relay 5358Mb
+  server: os2-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.47|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 2.44| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 2.39|RelayCNIN323 4389Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 8003
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.36|Relay 2865Mb
+  server: 120.233.151.145
+  type: ssr
+  country: CN
+  port: 7013
+  password: gaLgrz
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 188236:c6IyhJ
+  obfs: tls1.2_ticket_auth
+  obfs-param: https://t.me/proxypoolqwerty426
+- name: 2.32| 1882Mb
+  server: 38.75.136.116
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 2.28| RelayCNHK381 1212Mb
+  server: 120.232.208.195
+  port: 19084
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.23|CN11214221040520
+  server: 112.14.22.104
+  port: 19085
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /dahjwuh
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.23| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 2.21|甲骨文海得拉巴AMD2trojan
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  sni: jgwhdlb2.gaox.ml
+- name: 2.21| 1386Mb
+  server: 38.75.136.116
+  type: ss
+  country: US
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 2.20| 1932Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 2.19| 1758Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 2.18|CN1202322142100518
+  server: 120.232.214.210
+  port: 19084
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /catnet
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.17| 1907Mb
+  server: 38.75.136.116
+  type: ss
+  country: US
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 2.17|Relay  650Mb
+  server: arm.50k.one
+  type: vmess
+  country: JP
+  port: 39966
+  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: arm.50k.one
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.17|TW1651542261971291
+  server: 128tw02.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: 128tw02.fans8.xyz
+- name: 2.17|US美国99
+  server: 169.197.142.4
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 2.14| 韩国 2
+  server: amd.50k.one
+  port: 30943
+  type: vmess
+  uuid: a0654eba-7b58-4d64-cfdb-c006e5d38324
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.13|Relay  651Mb
+  server: 56789.gq
+  type: trojan
+  country: US
+  port: 443
+  password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
+  skip-cert-verify: true
+  udp: true
+- name: 2.12|RelayCNSG327 5938Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 8099
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.11| 1034Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 2.11|  821Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 5500
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 2.10|httpsgitiov9999ip37
+  server: 104.16.181.197
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws/?ed=2048
+    headers:
+      Host: download.china666.ml
+- name: 2.06|US7421110121301
+  server: 74.211.101.2
+  port: 22206
+  type: vmess
+  uuid: 4ec51de8-3ce7-4e2d-81d5-57ecbbd723c4
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 74.211.101.2
+- name: 2.05| httpsgitiov9999ip3中国1
+  server: styd.sf66.cf
+  port: 16990
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: ggz.jgw.tgproxy.wtf
+- name: 2.04|RelayCNUS335  747Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1702
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.04| RelayCNDE386  782Mb
+  server: 120.232.182.190
+  port: 19057
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.04| 1129Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 2.03|Relay 1682Mb
+  server: n150.centaur.network
+  type: trojan
+  country: US
+  port: 8082
+  password: a00a413d-85f2-4b72-a396-b96e1b3d11a6
+  skip-cert-verify: true
+  udp: true
+- name: 2.03|US美国87
+  server: 169.197.143.157
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 2.02| 1139Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 8008
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 2.02|Relay 1048Mb
+  server: 1222ru.fans8.xyz
+  type: vmess
+  country: LT
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.01|CN1202321821900517
+  server: 120.232.182.190
+  port: 19085
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /dahjwuh
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 2.01| 1134Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 5600
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 2.01|Relay  853Mb
+  server: 69.64.248.199
+  type: vmess
+  country: JP
+  port: 443
+  uuid: 7235b329-e205-4fcb-bcd6-81c19fbb9e85
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.00| 1173Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 3306
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 2.00| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 2.00| 1122Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.99| RelayCNDE373 2530Mb
+  server: 120.232.214.210
+  port: 19057
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.98| 1145Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 7002
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: 1.98| 1021Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.98|  919Mb
+  server: 169.197.143.219
+  type: ss
+  country: ZZ
+  port: 9101
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 1.97| 韩国 1
+  server: vn.mumi.bid
+  port: 10125
+  type: vmess
+  uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vn.mumi.bid
+  udp: true
+- name: 1.97|RelayCNDE308 1295Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2101
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.96|  661Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+- name: 1.95| 1715Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.95| RelayCNHK396  416Mb
+  server: 120.232.182.190
+  port: 19084
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.95| 1177Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 1.95| RelayCNTW359 1061Mb
+  server: 120.232.40.42
+  port: 19048
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.94| 1153Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 9101
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 1.94|CN1202322081951193
+  server: 120.232.208.195
+  port: 19085
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /dahjwuh
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.93|US美国114
+  server: 169.197.143.157
+  port: 8119
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 1.93|  729Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.93| 1147Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 6697
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 1.93| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 1.92| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.92| 1139Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 5001
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.92|CN12023240420515
+  server: 120.232.40.42
+  port: 19057
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /catnet
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.92|US10717286811088
+  server: 107.172.86.81
+  port: 8888
+  type: vmess
+  uuid: e240e215-832b-4ca4-bf37-85b51b8395d1
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 107.172.86.81
+- name: 1.91| 1126Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 5600
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.91| RelayCNHK20
+  server: 120.232.208.195
+  port: 19094
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.91|小汐搬运03专业海外短信通道稳定92电报httpstmexiaozhan120
+  server: v1.ssrsub.com
+  port: 443
+  type: vmess
+  uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+- name: 1.90|  440Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.90|RelayCNUS293
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2102
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.90|  497Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.89| 1146Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 9102
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 1.88| 1118Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 6679
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 1.88| 1149Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 5004
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.87|RELAY1042244500676
+  server: 104.22.44.50
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 1.85|HK638 4944Mb
+  server: 112.118.0.202
+  type: vmess
+  country: HK
+  port: 4080
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.85| RelayCNHK25
+  server: 112.14.22.104
+  port: 19094
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.84|Pool 4746Mb
+  server: 217.138.204.202
+  type: vmess
+  country: AU
+  port: 443
+  uuid: fa1eff46-f454-42d9-b881-90a102d5521d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.84|Relay 2179Mb
+  server: n200.centaur.network
+  type: trojan
+  country: US
+  port: 8081
+  password: 5106d626-ddc5-452c-8983-c4ba957eb509
+  skip-cert-verify: true
+  udp: true
+- name: 1.84|US美国159
+  server: 169.197.143.157
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 1.84|小汐搬运1013W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: v2ray.ifuckgfw.ga
+  port: 8443
+  type: vmess
+  uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /nBaG3RmV/
+  ws-headers:
+    Host: v2ray.ifuckgfw.ga
+- name: 1.84| RelayCNTW408 1110Mb
+  server: 112.14.22.104
+  port: 19048
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.83|Relay 1685Mb
+  server: 1222us.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.83| RelayCNTW393 1021Mb
+  server: 120.232.208.195
+  port: 19048
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.82| 1130Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: 1.82| httpsgitiov9999ip3中国17
+  server: 84.wowogg.cyou
+  port: 52284
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 1.81| 1127Mb
+  server: 169.197.143.157
+  type: ss
+  country: ZZ
+  port: 3306
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.80| 1172Mb
+  server: 172.105.254.242
+  type: ss
+  country: JP
+  port: 6697
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 1.79| 1270Mb
+  server: 104.160.43.43
+  type: vmess
+  country: US
+  port: 443
+  uuid: a307a6f7-b697-400e-bc7e-e6356de877c2
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /asdfaszzsdfa
+  servername: tt2.feiclouddd.me
+  ws-headers:
+    HOST: tt2.feiclouddd.me
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.79|新加坡阿伟科技TG油管 7
+  server: 4.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
+  sni: 4.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 1.78| httpsgitiov9999ip3中国22
+  server: 105.wowogg.cyou
+  port: 52205
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 1.78| RelayCNHK362  382Mb
+  server: 120.232.182.190
+  port: 19094
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.76|Relay 1526Mb
+  server: 5.188.35.120
+  type: vmess
+  country: RU
+  port: 443
+  uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.76|Relay 1096Mb
+  server: 0122us.fans8.xyz
+  type: vmess
+  country: RU
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.75|  809Mb
+  server: 169.197.143.219
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.75| 2039Mb
+  server: 134.195.196.3
+  type: ss
+  country: ZZ
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.74| RelayCNHK14
+  server: 120.232.40.42
+  port: 19094
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.73| 2075Mb
+  server: 134.195.196.33
+  type: ss
+  country: ZZ
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.73| 2071Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.72| 2073Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.72|RelayCNDE295
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1102
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.71| 甲骨文悉尼AMD1trojan
+  server: jgwxn1.gaox.ml
+  port: 443
+  type: trojan
+  password: 0f715619-0037-4358-a7c6-958106bc6b49
+  sni: jgwxn1.gaox.ml
+- name: 1.71| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 1.69| 美国 28
+  server: 42.157.195.234
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.69| 美国 17
+  server: 42.157.195.231
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.69| 2052Mb
+  server: 134.195.196.33
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.69| 甲骨文东京AMD2trojan
+  server: jgwdj2.gaox.ml
+  port: 443
+  type: trojan
+  password: 86231db5-96d0-4271-9977-cae3a0cba614
+  sni: jgwdj2.gaox.ml
+- name: 1.69| 2055Mb
+  server: 134.195.196.33
+  type: ss
+  country: ZZ
+  port: 5003
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.69| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 1.68| 2389Mb
+  server: 209.141.35.147
+  type: trojan
+  country: US
+  port: 48919
+  password: 52911320-db53-40ff-917a-e5de797c28e7
+  skip-cert-verify: true
+  udp: true
+- name: 1.67|CA加拿大128
+  server: 134.195.196.227
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.66| 1203Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 6697
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 1.66| httpsgitiov9999ip4法国56
+  server: 62.210.209.50
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 1.65| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 1.65| 2004Mb
+  server: 134.195.196.3
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.64| 新加坡 1
+  server: 14.152.92.81
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.64| 日本 16
+  server: 42.157.195.244
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.64| 日本 10
+  server: 14.152.92.79
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.64| 日本 14
+  server: 14.152.92.75
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.64| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 1.64| httpsgitiov9999ip3澳大利亚5
+  server: 45.76.127.189
+  port: 443
+  type: vmess
+  uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.63| 2077Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 1.63| 日本 13
+  server: 14.152.92.76
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.63| 2009Mb
+  server: 134.195.196.227
+  type: ss
+  country: ZZ
+  port: 8091
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.63| 日本 18
+  server: 42.157.195.243
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.63| 2069Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.63| 2053Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 5004
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.63|GB1851034530047
+  server: gia.uk.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: gia.uk.tgproxy.wtf
+- name: 1.62| 日本 17
+  server: 14.152.92.77
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.62| 2060Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.61| 2063Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.61| 2064Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 8091
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.60| 1175Mb
+  server: 134.195.198.252
+  type: ss
+  country: ZZ
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.60| 美国 29
+  server: 42.157.195.242
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.60| 1185Mb
+  server: 134.195.198.252
+  type: ss
+  country: ZZ
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.59|httpsgitiov9999ip3瑞典35
+  server: dg.jgw.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: dg.jgw.tgproxy.wtf
+- name: 1.58| 1761Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 5004
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.58|RELAY10427891251299
+  server: 104.27.89.125
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  tls: true
+  ws-headers:
+    Host: xiaochen.chenyingjie5201314.workers.dev
+- name: 1.58| RelayUSUS2571
+  server: zxc.vincc.top
+  port: 26050
+  type: vmess
+  uuid: c1651f37-934d-43d7-8f69-681b7e93d263
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zxc.vincc.top
+- name: 1.57| 2070Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
+  port: 6679
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 1.57| 日本 12
+  server: 14.152.92.78
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.57| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
+  port: 443
+  type: trojan
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
+- name: 1.56| 3006Mb
+  server: 172.99.190.92
+  type: ss
+  country: US
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.56| 日本 15
+  server: 14.152.92.80
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.56|RELAY10425175690749
+  server: 104.25.175.69
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.56| 美国 34
+  server: 42.157.195.230
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.55| 2991Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.55| 2059Mb
+  server: 134.195.196.3
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.55| 1188Mb
+  server: 134.195.198.252
+  type: ss
+  country: ZZ
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.55| 2082Mb
+  server: 134.195.196.12
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.55| 甲骨文伦敦ARM2trojan
+  server: jgwld4.gaox.ml
+  port: 443
+  type: trojan
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  sni: jgwld4.gaox.ml
+- name: 1.55| 2272Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 7307
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.55| 2062Mb
+  server: 134.195.196.12
+  type: ss
+  country: ZZ
+  port: 5003
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.54| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- name: 1.54|US3141292070038
+  server: aws.us.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: aws.us.tgproxy.wtf
+- name: 1.54|SG30891431287
+  server: 3.0.89.143
+  port: 16789
+  type: vmess
+  uuid: 7a8d4031-4331-3f40-adcc-6306336c4b92
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /Gson131
+  tls: false
+  ws-headers:
+    Host: 3.0.89.143
+- name: 1.54| httpsgitiov9999ip3俄罗斯联邦52
+  server: 92.223.65.119
+  port: 443
+  type: vmess
+  uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.53| 1458Mb
+  server: 134.195.196.227
+  type: ss
+  country: ZZ
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.53| 1554Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 8091
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.53| httpsgitiov9999ip3美国1
+  server: 196.247.24.156
+  port: 443
+  type: vmess
+  uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.53|Pool  984Mb
+  server: 104.223.125.53
+  type: vmess
+  country: US
+  port: 443
+  uuid: 9e83b768-6db7-4537-b8f9-a9d0cb089bdb
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.52| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- name: 1.52|广东移动
+  type: ss
+  server: ycy.gzhpxb.com
+  port: 49101
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 1.52|Relay 1356Mb
+  server: mf-do-ua-09.xncloud.xyz
+  type: vmess
+  country: US
+  port: 18000
+  uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /niaoyun
+  servername: mf-do-ua-09.xncloud.xyz
+  ws-headers:
+    HOST: mf-do-ua-09.xncloud.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.52| httpsgitiov9999ip3德国1
+  server: 37.61.213.94
+  port: 443
+  type: vmess
+  uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.52| 甲骨文悉尼AMD2trojan
+  server: jgwxn2.gaox.ml
+  port: 443
+  type: trojan
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  sni: jgwxn2.gaox.ml
+- name: 1.51|Pool 1094Mb
+  server: 92.223.72.42
+  type: vmess
+  country: RU
+  port: 443
+  uuid: ae08412f-5bb9-4be7-8560-1984976a1097
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.51|Pool 2616Mb
+  server: 37.120.134.207
+  type: vmess
+  country: GB
+  port: 443
+  uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.51| 2941Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 8118
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 1.50| 2878Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 7002
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: 1.50| 3006Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.50| 2062Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
+  port: 8009
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 1.50|德国Youtube技术分享室整理
+  server: 193.108.117.24
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 1.50| 美国 37
+  server: 42.157.195.238
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 30
+  server: 14.152.92.70
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 32
+  server: 42.157.195.241
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 38
+  server: 42.157.195.239
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50|小汐搬运0713W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: 172.67.68.58
+  port: 443
+  type: vmess
+  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /shuier
+  ws-headers:
+    Host: xc1.v2rie.pp.ua
+- name: 1.50| 美国 36
+  server: 14.152.92.71
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 14
+  server: 42.157.195.240
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 2696Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 8008
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 1.50| 1431Mb
+  server: 134.195.196.33
+  type: ss
+  country: ZZ
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 1.50| 美国 31
+  server: 14.152.92.74
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.49| 2752Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.49| httpsgitiov9999ip3法国51 2
+  server: fg.jgw.tgproxy.wtf
+  port: 443
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: fg.jgw.tgproxy.wtf
+- name: 1.48|RELAY1621592041771316
+  server: 162.159.204.177
+  port: 443
+  type: vmess
+  uuid: 71d4f911-39c1-4f37-dc56-f893fab50e41
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /freebaipiao
+  tls: true
+  ws-headers:
+    Host: haxovz.aifx.eu.org
+- name: 1.48| 甲骨文伦敦ARM1trojan
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- name: 1.47| httpsgitiov9999ip4英国12
+  server: 172.99.190.205
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.47| 2979Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.47|RelayUSUS1849
+  server: l1-do-ua-03.pucdn.me
+  type: vmess
+  country: US
+  port: 10080
+  uuid: ce8cfa18-f6a8-3369-9a8c-08dd4e27dff2
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /pucloud
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.47| httpsgitiov9999ip1英国23
+  server: 172.99.190.39
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.46| httpsgitiov9999ip1英国11 2
+  server: 172.99.190.149
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 1.46|SG17210442561309
+  server: dynamic-sg2b.obfs.xyz
+  port: 443
+  type: vmess
+  uuid: 273efd3d-3273-475c-b538-86bfed0030ff
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /fastssh
+  tls: true
+  ws-headers:
+    Host: dynamic-sg2b.obfs.xyz
+- name: 1.46| 美国 33
+  server: 42.157.195.229
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.46| httpsgitiov9999ip3美国45
+  server: ggz.jgw.tgproxy.wtf
+  port: 80
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: ggz.jgw.tgproxy.wtf
+- name: 1.45| httpsgitiov9999ip1英国3 2
+  server: 172.99.190.39
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.44|解锁
+  type: ss
+  server: 192.210.201.72
+  port: 51490
+  cipher: aes-128-gcm
+  password: yangchaoyue
+  udp: true
+  skip-cert-verify: true
+- name: 1.44| 甲骨文伦敦AMD2trojan
+  server: jgwld2.gaox.ml
+  port: 443
+  type: trojan
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
+  sni: jgwld2.gaox.ml
+- name: 1.44|DE1931081181820262
+  server: 193.108.118.182
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 1.44| httpsgitiov9999ip4英国10
+  server: 172.99.190.205
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.43| 2064Mb
+  server: 134.195.196.3
+  type: ss
+  country: ZZ
+  port: 443
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 1.43| 1279Mb
+  server: 172.99.190.35
+  type: ss
+  country: US
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.42| httpsgitiov9999ip3中国23
+  server: 104.wowogg.cyou
+  port: 11222
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 1.41| 2289Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 7306
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- name: 1.41|GB英国Youtube技术分享室
+  server: 172.99.190.39
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 1.40|RelayCNUS320 3528Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1951
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.40|CA1341951982500416
+  server: 134.195.198.250
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 1.40| httpsgitiov9999ip3加拿大3
+  server: 134.195.196.147
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.39| httpsgitiov9999ip1英国6 2
+  server: 172.99.190.39
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.38|CYL科技20220213 36
+  server: niaop.tk
+  port: 443
+  type: vmess
+  uuid: a0b0df87-bda2-440e-830f-347da6cc7760
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /wsssdr1
+  ws-headers:
+    Host: niaop.tk
+  udp: true
+- name: 1.38| RelayCNHK410  963Mb
+  server: 120.232.208.195
+  port: 19083
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.37| httpsgitiov9999ip2美国22
+  server: 169.197.141.91
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.36| 1739Mb
+  server: 169.197.142.39
+  type: ss
+  country: ZZ
+  port: 8009
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 1.36| 1475Mb
+  server: 134.195.196.3
+  type: ss
+  country: ZZ
+  port: 3306
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.34| 1463Mb
+  server: 134.195.196.199
+  type: ss
+  country: ZZ
+  port: 8000
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 1.34|RelayCNDE288 1511Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8186
+  password: passinfo123
+  cipher: rc4-md5
+- name: 1.33|CN11214221041194
+  server: 112.14.22.104
+  port: 19084
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /catnet
+  tls: false
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.31|Pool  751Mb
+  server: 72.11.136.212
+  type: vmess
+  country: US
+  port: 443
+  uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.31| httpsgitiov9999ip1英国6
+  server: 172.99.190.149
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.31| httpsgitiov9999ip1英国8
+  server: 172.99.190.39
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.31|AE193123951141244
+  server: 193.123.95.114
+  port: 21999
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 193.123.95.114
+- name: 1.30|RelayCNGB312  647Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1802
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.30| httpsgitiov9999ip1英国12 2
+  server: 172.99.190.205
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 1.29|RelayUSUS2243
+  server: 138.197.236.77
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3579436c-b37e-11eb-8529-0242ac130003
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: 138.197.236.77
+  ws-headers:
+    HOST: 138.197.236.77
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.28| httpsgitiov9999ip5英国42
+  server: 172.99.190.205
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 1.28| httpsgitiov9999ip1英国24
+  server: 172.99.190.205
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.28|httpsgitiov9999ip339
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+    headers:
+      Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 1.26|RelayCNIN322 3849Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 8002
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.26| httpsgitiov9999ip3美国42
+  server: us.lv.buyvm.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /theuploadapi
+    headers:
+      Host: us.lv.buyvm.tgproxy.wtf
+- name: 1.26| 2043Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 5004
+  password: g5MeD6Ft3CWlJId
+  cipher: aes-256-gcm
+- name: 1.26| httpsgitiov9999ip1英国13 2
+  server: 172.99.190.39
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.24| 1894Mb
+  server: 38.75.136.116
+  type: ss
+  country: US
+  port: 8090
+  password: PCnnH6SQSnfoS27
+  cipher: aes-256-gcm
+- name: 1.24|Pool  553Mb
+  server: 198.148.92.246
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.24| 德国 3
+  server: 167.86.82.191
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1z7k5IMlPsvk
+- name: 1.23| RelayCNHK383  807Mb
+  server: 120.232.40.42
+  port: 19084
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.23|RelayCNGB313  750Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1801
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.23| CN35 TGpeekfun
+  server: 183.232.226.154
+  port: 505
+  type: vmess
+  country: ' CN'
+  uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+  alterId: 1
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /niaoyun
+  ws-headers:
+    HOST: mf-hinet-tw-05.xncloud.xyz
+  skip-cert-verify: true
+  servername: mf-hinet-tw-05.xncloud.xyz
+- name: 1.23|US1042491732400377
+  server: 104.249.173.240
+  port: 50003
+  type: ss
+  cipher: aes-256-cfb
+  password: 8460400130
+- name: 1.23| httpsgitiov9999ip1英国16
+  server: 172.99.190.205
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 1.21| httpsgitiov9999ip1英国9
+  server: 172.99.190.39
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 1.21| httpsgitiov9999ip3美国47
+  server: fancy-wildflower-2641.2112898766397.workers.dev
+  port: 443
+  type: vmess
+  uuid: ed049663-25a3-4300-93e3-8d7966b2bb19
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ed049663-25a3-4300-93e3-8d7966b2bb19-vmess
+    headers:
+      Host: fancy-wildflower-2641.2112898766397.workers.dev
+- name: 1.18| httpsgitiov9999ip5英国23
+  server: 172.99.190.205
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.17|RelayCNAU337 2669Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1212
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.16|RelayCNHK311 4795Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1612
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.15|Relay  997Mb
   server: 117.28.243.220
   type: ss
   country: CN
   port: 8076
   password: passinfo123
   cipher: rc4-md5
-- name: 1.04|佛山移动彰化Hinetvpnhat 2
-  server: 183.232.163.134
-  port: 3389
+- name: 1.14| httpsgitiov9999ip2美国20
+  server: 169.197.141.91
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 1.14| httpsgitiov9999ip4英国14
+  server: 172.99.190.205
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 1.14| httpsgitiov9999ip1加拿大121
+  server: 134.195.196.147
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.12| RelayCNHK385  569Mb
+  server: 120.232.40.42
+  port: 19085
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.12| httpsgitiov9999ip1英国10
+  server: 172.99.190.39
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 1.10|  843Mb
+  server: 134.195.196.12
+  type: ss
+  country: ZZ
+  port: 2375
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.10| httpsgitiov9999ip2英国5
+  server: 172.99.190.205
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 1.10| httpsgitiov9999ip1英国15
+  server: 172.99.190.39
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 1.09| httpsgitiov9999ip4加拿大80
+  server: 134.195.196.200
+  port: 7002
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 1.07| 1641Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.07|  533Mb
+  server: 172.99.190.39
+  type: ss
+  country: US
+  port: 2376
+  password: faBAoD54k87UJG7
+  cipher: aes-256-gcm
+- name: 1.05|Relay 2558Mb
+  server: mf-justhost-ru-03.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: 45d9927b-c939-35ab-a630-2590af78b365
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-justhost-ru-03.xncloud.xyz
+- name: 1.05| 1253Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 3306
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.05| httpsgitiov9999ip2加拿大27
+  server: 134.195.196.200
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.05|CN1832321701231280
+  server: 520yyds.zhqt.xyz
+  port: 30003
+  type: vmess
+  uuid: e0b13494-53d8-44fc-b5e3-de82d927ad68
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 520yyds.zhqt.xyz
+- name: 1.05|RelayCNCA309 1271Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1111
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.04|US172992491531297
+  server: ggz3.tgproxy.wtf
+  port: 80
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: ggz3.tgproxy.wtf
+- name: 1.03| httpsgitiov9999ip5英国35
+  server: 172.99.190.205
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 1.03| httpsgitiov9999ip2加拿大39
+  server: 134.195.196.200
+  port: 8119
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 1.02| httpsgitiov9999ip4英国2
+  server: 172.99.190.39
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.02|Relay 3858Mb
+  server: vincent-jackson2021.ga
   type: trojan
-  password: 3426d80c2e066a83
+  country: US
+  port: 443
+  password: a2c47c59-a4c8-4d66-9456-966ba37dedcc
   skip-cert-verify: true
   udp: true
-- name: 0.68|北京科技网TokyoLinodevpnhat 4
-  server: 120.132.50.158
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
+- name: 1.02| httpsgitiov9999ip3加拿大5
+  server: 134.195.196.147
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 1.01| RelayCNTW397  598Mb
+  server: 120.232.182.190
+  port: 19048
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /catnet
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.01| httpsgitiov9999ip1英国21
+  server: 172.99.190.205
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 1.01|RelayCNIN324 4630Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 8004
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
+- name: 1.00| RelayCNHK17
+  server: 120.232.40.42
+  port: 19083
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 1.00| httpsgitiov9999ip1英国13
+  server: 172.99.190.205
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.99| httpsgitiov9999ip1加拿大143
+  server: 134.195.196.147
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.99|Relay  635Mb
+  server: v5.ssrsub.com
+  type: vmess
+  country: US
+  port: 8443
+  uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.98|US542081861820010
+  server: anzhuo-hezi1.herokuapp.com
+  port: 443
+  type: vmess
+  uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess
+  tls: true
+  ws-headers:
+    Host: anzhuo-hezi1.herokuapp.com
+- name: 0.96| httpsgitiov9999ip5加拿大229
+  server: 134.195.196.147
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.96|NL178622241191334
+  server: 178.62.224.119
+  port: 8888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 178.62.224.119
+- name: 0.95| httpsgitiov9999ip5加拿大13
+  server: 134.195.196.147
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.95| httpsgitiov9999ip2加拿大21
+  server: 134.195.196.200
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.94|RELAY17267622140590
+  server: 172.67.62.214
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.93|Relay 9188Mb
+  server: 0107hk.fans8.xyz
+  type: vmess
+  country: ZZ
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.92|RELAY10427200690708
+  server: 104.27.200.69
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 0.90| httpsgitiov9999ip1英国131
+  server: 172.99.190.39
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.90| httpsgitiov9999ip2加拿大45
+  server: 134.195.196.200
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.90|JP1382121840894
+  server: vincent-jackson2022.ml
+  port: 443
+  type: vmess
+  uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ml
+- name: 0.89|Relay  479Mb
+  server: 23.82.136.151
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: 23.82.136.151
+  ws-headers:
+    HOST: 23.82.136.151
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.89|CYL科技20220213 119
+  server: 172.99.190.39
+  port: 8080
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
   udp: true
-- name: 0.59|RelayCNTW2891315Mb
+- name: 0.89|RelayUSUS1861
+  server: test.0dc.cn
+  type: vmess
+  country: US
+  port: 443
+  uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.89| httpsgitiov9999ip3加拿大4
+  server: 134.195.196.147
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.88|RelayCNAU336 2250Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1211
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.88| httpsgitiov9999ip2美国9
+  server: 169.197.141.91
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.86| httpsgitiov9999ip2加拿大33
+  server: 134.195.196.200
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.86| httpsgitiov9999ip4加拿大79
+  server: 134.195.196.200
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.86| httpsgitiov9999ip4加拿大70
+  server: 134.195.196.200
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.85|PoolUS1854
+  server: 70.39.67.130
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: amu1ahfi.com
+  ws-headers:
+    HOST: amu1ahfi.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.85| 2052Mb
+  server: 134.195.196.187
+  type: ss
+  country: ZZ
+  port: 8888
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.84|httpsgitiov9999ip39
+  server: 104.16.181.103
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws/?ed=2048
+    headers:
+      Host: download.china666.ml
+- name: 0.82| 美国 15
+  server: 42.157.195.233
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 0.81| httpsgitiov9999ip2英国7
+  server: 172.99.190.205
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.81| RelayCNHK370 1903Mb
+  server: 120.232.214.210
+  port: 19085
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 0.81| 2993Mb
+  server: 172.99.190.139
+  type: ss
+  country: US
+  port: 9101
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 0.81|Relay  821Mb
+  server: shrink.qingshenshen.tk
+  type: vmess
+  country: US
+  port: 2083
+  uuid: ad0c8193-f8f7-4e51-b477-a63255e8e9aa
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ad0c8193-f8f7-4e51-b477-a63255e8e9aa
+  servername: shrink.qingshenshen.tk
+  ws-headers:
+    HOST: shrink.qingshenshen.tk
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.80|MK46183185150499
+  server: 46.183.185.15
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 0.80| httpsgitiov9999ip3美国93
+  server: 169.197.141.91
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.78|Relay 3833Mb
+  server: jinsen.cf
+  type: vmess
+  country: US
+  port: 80
+  uuid: 5eefacb4-ed77-4717-e081-601abe1272d4
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: jinsen.cf
+  ws-headers:
+    HOST: jinsen.cf
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.77| 2667Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.76| httpsgitiov9999ip3中国29
+  server: 118.wowogg.cyou
+  port: 52218
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 0.76| httpsgitiov9999ip3美国94
+  server: 169.197.141.91
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.76| httpsgitiov9999ip2加拿大48
+  server: 134.195.196.193
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.75|Pool 1439Mb
+  server: 45.58.150.130
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: dax6ujai.com
+  ws-headers:
+    HOST: dax6ujai.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.75| httpsgitiov9999ip3加拿大12
+  server: 134.195.196.200
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.75| httpsgitiov9999ip1英国7
+  server: 172.99.190.149
+  port: 7002
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.75| httpsgitiov9999ip3加拿大11
+  server: 134.195.196.200
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.74| httpsgitiov9999ip1英国11
+  server: 172.99.190.39
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 0.73| RelayCNHK21
+  server: 112.14.22.104
+  port: 19083
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 0.73|Relay 1411Mb
+  server: dax6ujai.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: dax6ujai.com
+  ws-headers:
+    HOST: dax6ujai.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.72| httpsgitiov9999ip5英国130
+  server: 172.99.190.39
+  port: 6697
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.72| 2978Mb
+  server: 42.193.48.64
+  type: vmess
+  country: CN
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.72| httpsgitiov9999ip1加拿大21
+  server: 134.195.196.200
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.71| RelayCNHK18
+  server: 120.232.214.210
+  port: 19083
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 0.71| 美国 19
+  server: 42.157.195.232
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 0.71| httpsgitiov9999ip4加拿大20
+  server: 134.195.196.200
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.71| 美国 35
+  server: 14.152.92.73
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 0.70| httpsgitiov9999ip1加拿大107
+  server: 134.195.196.200
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.70| 2987Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 3389
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 0.70| RelayCNHK19
+  server: 120.232.182.190
+  port: 19083
+  type: vmess
+  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dahjwuh
+  ws-headers:
+    Host: cdn-cn.nekocloud.cn
+- name: 0.69|Relay  011Mb
+  server: amu1ahfi.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: amu1ahfi.com
+  ws-headers:
+    HOST: amu1ahfi.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.69|RELAY10417161280077
+  server: 104.17.161.28
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /eisasqa
+  tls: true
+  ws-headers:
+    Host: foxus.fovi.tk
+- name: 0.69|LV185237219940049
+  server: lv.tgproxy.wtf
+  port: 2052
+  type: vmess
+  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: lv.tgproxy.wtf
+- name: 0.68| httpsgitiov9999ip1英国1 2
+  server: 172.99.190.205
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.68| httpsgitiov9999 美国CDN ip6 13
+  server: 190.93.244.60
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.67| httpsgitiov9999 美国CDN ip6 6
+  server: 141.101.113.242
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.67| httpsgitiov9999 美国CDN ip6 7
+  server: 173.245.49.125
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.67| httpsgitiov9999 美国CDN ip6 18
+  server: 104.19.183.198
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.67| httpsgitiov9999ip2加拿大37
+  server: 134.195.196.200
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.67| httpsgitiov9999ip3中国12
+  server: 109.wowogg.cyou
+  port: 52209
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 0.67| httpsgitiov9999 美国CDN ip6 3
+  server: 141.101.121.238
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.67|US2265 9313Mb
+  server: 34.96.245.41
+  type: vmess
+  country: US
+  port: 40324
+  uuid: 85a02d24-b7cc-4978-81ba-f43263d73bc4
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.66| httpsgitiov9999 美国CDN ip6 21
+  server: icook.tw
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 23
+  server: 104.16.195.23
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 9
+  server: 190.93.246.82
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 14
+  server: 104.16.190.180
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 19
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 5
+  server: 141.101.120.59
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 12
+  server: 104.21.209.112
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999ip5加拿大168
+  server: 134.195.196.193
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.66| httpsgitiov9999 美国CDN ip6 28
+  server: 104.27.73.46
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 2
+  server: 104.20.169.236
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66|Relay 2518Mb
+  server: 1031kr.fans8.xyz
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.66| httpsgitiov9999 美国CDN ip6 26
+  server: 172.64.129.140
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.66| httpsgitiov9999 美国CDN ip6 15
+  server: 188.114.96.194
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 8
+  server: 141.101.114.139
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 30
+  server: 104.22.59.177
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 20
+  server: cf1.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 27
+  server: 104.20.10.161
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 16
+  server: 104.17.97.246
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6
+  server: cdn.xia.me
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 4
+  server: 104.19.42.37
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 25
+  server: 104.21.229.118
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 22
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999ip5英国164
+  server: 172.99.190.149
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.65| httpsgitiov9999 美国CDN ip6 29
+  server: 104.21.126.26
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999 美国CDN ip6 11
+  server: 141.101.115.198
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 0.65| httpsgitiov9999ip1英国7 2
+  server: 172.99.190.39
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.65| httpsgitiov9999ip1加拿大144
+  server: 134.195.196.200
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.64|CN120233102451262
+  server: jike-gzyd.jiserver.xyz
+  port: 29705
+  type: vmess
+  uuid: fdd35f6f-ca75-3134-a290-51dbb470a81b
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /jike1
+  tls: false
+  ws-headers:
+    Host: jike1-azhk21.jiserver.xyz
+- name: 0.63| httpsgitiov9999ip3英国121
+  server: 172.99.190.149
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.63|Relay  665Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2104
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 0.63| httpsgitiov9999ip5加拿大25
+  server: 134.195.196.193
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.63|RELAY1042720750582
+  server: 104.27.207.5
+  port: 443
+  type: vmess
+  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.62| httpsgitiov9999ip2加拿大25
+  server: 134.195.196.193
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.62|JP1681381931320922
+  server: vincent-jackson2022.ga
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2022.ga
+- name: 0.62| 3003Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 9101
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 0.61|RelayZZGB3359
+  server: 162.159.132.22
+  port: 80
+  type: vmess
+  uuid: c22d7577-1631-4d13-81bc-20c190c04071
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wwwnet
+  ws-headers:
+    Host: caa.ziyun.ga
+- name: 0.61| httpsgitiov9999ip2加拿大41
+  server: 134.195.196.193
+  port: 8090
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.58| httpsgitiov9999ip5加拿大199
+  server: 134.195.196.200
+  port: 5500
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.58| httpsgitiov9999ip4英国5
+  server: 172.99.190.39
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.58| httpsgitiov9999ip2英国2
+  server: 172.99.190.205
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.57|德国阿伟科技TG油管 4
+  server: 162.159.251.109
+  port: 80
+  type: vmess
+  uuid: c22d7577-1631-4d13-81bc-20c190c04071
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /wwwnet
+  ws-headers:
+    Host: caa.ziyun.ga
+  udp: true
+- name: 0.56|  856Mb
+  server: 134.195.196.193
+  type: ss
+  country: ZZ
+  port: 8080
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 0.55| httpsgitiov9999ip4英国4
+  server: 172.99.190.39
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.55| 日本 11
+  server: 42.157.195.245
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 0.55|RU1461852181710735
+  server: 146.185.218.171
+  port: 443
+  type: vmess
+  uuid: 947af181-c509-4245-80de-9baf64f1aa51
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /ray
+  tls: true
+  ws-headers:
+    Host: govacaxixo.watchdoctor.xyz
+- name: 0.54| httpsgitiov9999ip1英国5
+  server: 172.99.190.149
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.54|  818Mb
+  server: 176.126.70.189
+  type: vmess
+  country: SE
+  port: 12100
+  uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /se
+  servername: 176.126.70.189
+  ws-headers:
+    HOST: 176.126.70.189
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.54| httpsgitiov9999ip4英国3
+  server: 172.99.190.39
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.54| httpsgitiov9999ip4英国11
+  server: 172.99.190.205
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.53| httpsgitiov9999ip1加拿大54
+  server: 134.195.196.193
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.53|RelayFRUS521  625Mb
+  server: ahdaeph8.com
+  type: vmess
+  country: FR
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: ahdaeph8.com
+  ws-headers:
+    HOST: ahdaeph8.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.53|RELAY10416181940909
+  server: 104.16.18.194
+  port: 80
+  type: vmess
+  uuid: c22d7577-1631-4d13-81bc-20c190c04071
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /wwwnet
+  tls: false
+  ws-headers:
+    Host: caa.ziyun.ga
+- name: 0.53|RelayCNTW282
   server: 117.28.243.154
   type: ss
   country: CN
   port: 6145
   password: passinfo123
   cipher: rc4-md5
-- name: 0.58|韩国阿伟科技油管 2
-  server: freeb.vproxy.us
-  port: 443
-  type: trojan
-  password: 066771f4-b7f5-426a-bbb2-5fecfe9190f5
-  sni: freeb.vproxy.us
-  skip-cert-verify: true
-  udp: true
-- name: 0.56| 698Mb
-  server: 46.29.219.246
+- name: 0.53| httpsgitiov9999ip1加拿大58
+  server: 134.195.196.147
+  port: 7307
   type: ss
-  country: 'NO'
-  port: 5600
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.52|CYL科技20220213 130
+  server: 172.99.190.39
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 0.52|RelayCNSG310 3223Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1503
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.52| httpsgitiov9999ip1加拿大61
+  server: 134.195.196.147
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.52| httpsgitiov9999ip4美国45
+  server: 169.197.141.91
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.52| 广东省广州市腾讯云 12
+  server: 159.75.50.77
+  port: 40026
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.50| 广东省广州市腾讯云 18
+  server: 1.14.165.96
+  port: 40247
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.50| httpsgitiov9999ip4英国19
+  server: 172.99.190.149
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.50| httpsgitiov9999ip1加拿大117
+  server: 134.195.196.147
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.50| 2734Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 5601
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.49|广州优刻云TokyoLinodevpnhat 2
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 0.47|Relay3671Mb
-  server: 113.31.155.165
-  type: trojan
-  country: CN
-  port: 3389
-  password: 032532644f4fd784
-  skip-cert-verify: true
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  password: koko666
-  port: 36923
-  server: 118.193.179.2
+- name: 0.50| httpsgitiov9999ip1加拿大106
+  server: 134.195.196.193
+  port: 5000
   type: ss
-  name: 0.44|457
-- name: 0.37|1893Mb
-  server: 134.195.196.12
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.49| httpsgitiov9999ip1英国8
+  server: 172.99.190.149
+  port: 443
   type: ss
-  country: ZZ
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 0.49|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 0.49| httpsgitiov9999ip2加拿大44
+  server: 134.195.196.193
   port: 2376
+  type: ss
+  cipher: aes-256-gcm
   password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 0.35| httpsgitiov9999 圣达拉斯3
-  server: 209.209.115.22
-  port: 32621
+- name: 0.49| httpsgitiov9999ip1加拿大60
+  server: 134.195.196.147
+  port: 2375
   type: ss
   cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: 0.34| httpsgitiov9999 莫斯科CDN达拉斯 ip4
-  server: 209.209.115.31
-  port: 63900
+  password: faBAoD54k87UJG7
+- name: 0.49| httpsgitiov9999ip4英国9
+  server: 172.99.190.205
+  port: 8090
   type: ss
   cipher: aes-256-gcm
-  password: dongtaiwang.com
-- name: 0.32|Pool1770Mb
-  server: 108.165.196.212
+  password: PCnnH6SQSnfoS27
+- name: 0.48| httpsgitiov9999ip5英国31
+  server: 172.99.190.149
+  port: 8881
   type: ss
-  country: US
-  port: 2340
-  password: 81d7d46b9c66c779e81b83bc594df5eb
   cipher: aes-256-gcm
-- name: 0.31|RelayUSUS1967 487Mb
-  server: t10.ssrsub.com
-  type: trojan
-  country: US
-  port: 8443
-  password: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+  password: kDWvXYZoTBcGkC4
+- name: 0.48| httpsgitiov9999ip2加拿大47
+  server: 134.195.196.193
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.47| httpsgitiov9999ip4加拿大77
+  server: 134.195.196.200
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.47| 广东省广州市腾讯云 7
+  server: 106.52.33.67
+  port: 40344
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 14
+  server: 159.75.50.77
+  port: 40099
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 29
+  server: 159.75.50.77
+  port: 40065
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 8
+  server: 159.75.50.77
+  port: 40097
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 33
+  server: 106.52.33.67
+  port: 40378
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 17
+  server: 106.52.33.67
+  port: 40368
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 22
+  server: 106.52.33.67
+  port: 40325
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 27
+  server: 106.52.33.67
+  port: 40306
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 24
+  server: 106.52.33.67
+  port: 40371
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 32
+  server: 1.14.165.96
+  port: 40254
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 5
+  server: 1.14.165.96
+  port: 40239
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| httpsgitiov9999ip1英国78
+  server: 172.99.190.149
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.47| 广东省广州市腾讯云 9
+  server: 159.75.50.77
+  port: 40038
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 20
+  server: 1.14.165.96
+  port: 40278
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 13
+  server: 1.14.165.96
+  port: 40246
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 34
+  server: 1.14.165.96
+  port: 40259
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47|US4788101231298
+  server: vs.mumi.bid
+  port: 10124
+  type: vmess
+  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+    Host: vs.mumi.bid
+- name: 0.47| 广东省广州市腾讯云 1
+  server: 106.52.33.67
+  port: 40326
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 28
+  server: 106.52.33.67
+  port: 40374
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.47| 广东省广州市腾讯云 4
+  server: 106.52.33.67
+  port: 40396
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.46| 广东省广州市腾讯云 26
+  server: 1.14.165.96
+  port: 40262
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.46| httpsgitiov9999ip4加拿大15
+  server: 134.195.196.193
+  port: 8009
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.46| 广东省广州市腾讯云 10
+  server: 1.14.165.96
+  port: 40297
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.46| httpsgitiov9999ip5英国29
+  server: 172.99.190.149
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.46| httpsgitiov9999ip1英国17
+  server: 172.99.190.205
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.46| 广东省广州市腾讯云 35
+  server: 1.14.165.96
+  port: 40263
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.46| httpsgitiov9999ip3中国4
+  server: styd.sf66.cf
+  port: 50741
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: styd.sf66.cf
+- name: 0.46| httpsgitiov9999ip1英国5 2
+  server: 172.99.190.149
+  port: 5003
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.45| httpsgitiov9999ip4英国17
+  server: 172.99.190.149
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.44| httpsgitiov9999ip5加拿大32
+  server: 134.195.196.193
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.44| CN37 TGpeekfun
+  server: 120.233.10.62
+  port: 52201
+  type: vmess
+  country: ' CN'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 101.wgong.xyz
   skip-cert-verify: true
+  servername: 101.wgong.xyz
+- name: 0.44|RELAY19841212150812
+  server: 198.41.212.15
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 0.43| 广东省广州市腾讯云 3
+  server: 1.14.165.96
+  port: 40281
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.43| 广东省广州市腾讯云 11
+  server: 159.75.50.77
+  port: 40092
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.43| 广东省广州市腾讯云 31
+  server: 159.75.50.77
+  port: 40018
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.43| 广东省广州市腾讯云 6
+  server: 159.75.50.77
+  port: 40016
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.43| httpsgitiov9999ip5加拿大222
+  server: 134.195.196.193
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.43| 广东省广州市腾讯云 15
+  server: 1.14.165.96
+  port: 40277
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.42| httpsgitiov9999ip1加拿大56
+  server: 134.195.196.147
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.42| httpsgitiov9999ip5加拿大178
+  server: 134.195.196.193
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 0.42| httpsgitiov9999ip1英国14
+  server: 172.99.190.188
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.42| httpsgitiov9999ip1加拿大57
+  server: 134.195.196.147
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 0.42|RelayCNTW292
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2105
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 0.41| httpsgitiov9999ip1加拿大125
+  server: 134.195.196.193
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.41| httpsgitiov9999ip1加拿大130
+  server: 134.195.196.200
+  port: 9101
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.41| httpsgitiov9999ip1英国2 2
+  server: 172.99.190.205
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.41|Relay  397Mb
+  server: us1nhg-node.aiqiche123.com
+  type: vmess
+  country: GB
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: ray
+  servername: us1nhg-node.aiqiche123.com
+  ws-headers:
+    HOST: us1nhg-node.aiqiche123.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.41| httpsgitiov9999ip1加拿大126
+  server: 134.195.196.193
+  port: 5500
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.40|TW61227207831214
+  server: tw.twz.tgproxy.wtf
+  port: 21888
+  type: vmess
+  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /theuploadapi
+  tls: true
+  ws-headers:
+    Host: tw.twz.tgproxy.wtf
+- name: 0.40| 广东省广州市腾讯云 19
+  server: 159.75.50.77
+  port: 40028
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.40| 广东省广州市腾讯云 38
+  server: 1.14.165.96
+  port: 40252
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.39| httpsgitiov9999ip1英国25
+  server: 172.99.190.149
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.39|RelayCNTW290 1080Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8036
+  password: passinfo123
+  cipher: rc4-md5
+- name: 0.39| httpsgitiov9999ip1英国3
+  server: 172.99.190.188
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 0.38|CYL科技20220213 27
+  server: poo1faht.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: poo1faht.com
   udp: true
+- name: 0.38| httpsgitiov9999ip3加拿大14
+  server: 134.195.196.200
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.38| httpsgitiov9999ip3加拿大8
+  server: 134.195.196.193
+  port: 8000
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.38|RelayCNHK319 1874Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1101
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.38|RelayCNTW316 3729Mb
+  server: 183.232.56.161
+  type: vmess
+  country: CN
+  port: 1302
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: microsoft.com
+  ws-headers:
+    HOST: microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.38| httpsgitiov9999ip1加拿大69
+  server: 134.195.196.147
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.38| httpsgitiov9999ip4英国6
+  server: 172.99.190.205
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.38| httpsgitiov9999ip2加拿大13
+  server: 134.195.196.193
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.38| httpsgitiov9999ip5加拿大244
+  server: 134.195.196.147
+  port: 5601
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.37| 广东省广州市腾讯云 23
+  server: 159.75.50.77
+  port: 40091
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.37| httpsgitiov9999ip4英国13
+  server: 172.99.190.205
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.37|Relay  837Mb
+  server: tunnel-tw-a-01.xncloud.xyz
+  type: vmess
+  country: CN
+  port: 504
+  uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /niaoyun
+  servername: mf-hinet-tw-04.xncloud.xyz
+  ws-headers:
+    HOST: mf-hinet-tw-04.xncloud.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.36| httpsgitiov9999ip2加拿大42
+  server: 134.195.196.193
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.35| httpsgitiov9999ip1英国18
+  server: 172.99.190.39
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.35| 广东省广州市腾讯云 39
+  server: 159.75.50.77
+  port: 40046
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.34| 广东省广州市腾讯云 30
+  server: 159.75.50.77
+  port: 40034
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.34| httpsgitiov9999ip2英国3
+  server: 172.99.190.205
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.34| 1643Mb
+  server: 172.99.190.87
+  type: ss
+  country: US
+  port: 6679
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 0.34|RELAY10416191160608
+  server: 104.16.19.116
+  port: 80
+  type: vmess
+  uuid: c22d7577-1631-4d13-81bc-20c190c04071
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /wwwnet
+  tls: false
+  ws-headers:
+    Host: caa.ziyun.ga
+- name: 0.33| httpsgitiov9999ip5加拿大85
+  server: 134.195.196.193
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.33| httpsgitiov9999ip1英国22
+  server: 172.99.190.149
+  port: 5001
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.33| httpsgitiov9999ip1加拿大70
+  server: 134.195.196.193
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.33| httpsgitiov9999ip3香港26
+  server: 88.wowogg.cyou
+  port: 52288
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 0.33| 美国 25
+  server: us-am11.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: vGndzdmPB
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.32|HK10393751440056
+  server: 128hk01.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: 128hk01.fans8.xyz
+- name: 0.32| httpsgitiov9999ip3韩国2
+  server: 128.1.125.164
+  port: 443
+  type: vmess
+  uuid: 312c3de7-233e-4d72-b3dc-de0205083312
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 0.32|Relay  314Mb
+  server: 1229hk.fans8.xyz
+  type: vmess
+  country: HK
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: 1229hk.fans8.xyz
+  ws-headers:
+    HOST: 1229hk.fans8.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.31| httpsgitiov9999ip3加拿大13
+  server: 134.195.196.200
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.31| HK766
+  server: 116.48.233.185
+  port: 44444
+  type: vmess
+  uuid: 3fd63a1f-3f1c-4f62-8073-dfce344a2bcf
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.31| httpsgitiov9999ip5英国20
+  server: 172.99.190.39
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.30| httpsgitiov9999ip2英国10
+  server: 172.99.190.188
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP

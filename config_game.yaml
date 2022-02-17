@@ -1,12 +1,5 @@
 proxies:
-- name: 7.18|ss
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
-  cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.73|上海CN2
+- name: 7.29|上海CN2
   type: ss
   server: cn2.gzhpxb.com
   port: 20166
@@ -14,109 +7,497 @@ proxies:
   password: yangchaoyue
   udp: true
   skip-cert-verify: true
-- name: 5.84|RelayCNSG317 437Mb
-  server: 101.67.8.158
+- name: 6.87|CYL科技20220213 16
+  server: 117.28.243.220
+  port: 8254
+  type: ss
+  cipher: rc4-md5
+  password: passinfo123
+  udp: true
+- name: 6.73|香港阿伟科技TG油管 2
+  server: 5.vpnbro.ml
+  port: 6666
+  type: trojan
+  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
+  sni: 5.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 6.70|香港阿伟科技TG油管 3
+  server: 3.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: 04a2dba8-1af1-4b30-aabf-a2eeca2a3cb3
+  sni: 3.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 6.43|ss
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  port: 443
+  cipher: aes-256-cfb
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  _index: 0
+- name: 6.30|Relay 2877Mb
+  server: h1r.centaur.network
   type: trojan
   country: CN
-  port: 18168
-  password: d0d535cc-438d-4a0c-e09e-65441e89ac1e
+  port: 16802
+  password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f
   skip-cert-verify: true
   udp: true
-- name: 5.38|徐州联通彰化Hinetvpnhat
-  server: 122.192.154.54
-  port: 3389
+- name: 6.25| 11448Mb
+  server: 18.162.222.253
+  type: ss
+  country: HK
+  port: 38273
+  password: 3b07447e-94cf-4d72-96c6-d0a539098049
+  cipher: aes-256-gcm
+- name: 6.00|Relay 1179Mb
+  server: shonlinecu.proconcn.xyz
+  type: ssr
+  country: CN
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 50374:ff112233
+  obfs: plain
+- name: 5.86|Relay 5098Mb
+  server: shonlinesandcu03.proconcn.xyz
+  type: ssr
+  country: CN
+  port: 561
+  password: mblank1port
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  protocol-param: 50374:ff112233
+  obfs: plain
+- name: 5.55| 中国852MBsYoutube不良林
+  server: h2r.centaur.network
+  port: 16801
   type: trojan
-  password: 1a1247ea6cb266b4
+  password: 9be5458a-6a1e-4784-823e-45149d6c0ffc
+  sni: h2r.centaur.network
   skip-cert-verify: true
-  udp: true
-- name: 4.99|娄底联通SGMelbicomvpnhat
-  server: 116.163.10.157
-  port: 3389
+- name: 4.71|Relay 3591Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2106
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.64|RelayCNJP286
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2107
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.43|Relay  725Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1114
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 3.85|RelayCNID301 3804Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1103
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 3.30|RelayCNUS275
+  server: 117.28.243.173
+  type: ss
+  country: CN
+  port: 4173
+  password: passinfo123
+  cipher: rc4-md5
+- name: 3.23|Relay  964Mb
+  server: h4r.centaur.network
   type: trojan
-  password: 1a1247ea6cb266b4
+  country: CN
+  port: 16801
+  password: 134b2dad-1ba4-49f6-a8b8-721525213356
   skip-cert-verify: true
   udp: true
-- name: 4.32|徐州联通SGMelbicomvpnhat 3
-  server: 122.192.189.5
-  port: 3389
+- name: 3.19|Relay  380Mb
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1115
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.66|RelayCNZZ291
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1107
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.62|Relay 2106Mb
+  server: p3.centaur.network
   type: trojan
-  password: 1a1247ea6cb266b4
+  country: CN
+  port: 16803
+  password: 00635f3d-2c64-4281-9367-f3c26ebb6a44
   skip-cert-verify: true
   udp: true
-- name: 3.26|徐州联通SGMelbicomvpnhat 5
-  server: 122.192.154.53
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
+- name: 2.51|Relay 3693Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2109
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 2.36|Relay 2865Mb
+  server: 120.233.151.145
+  type: ssr
+  country: CN
+  port: 7013
+  password: gaLgrz
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  protocol-param: 188236:c6IyhJ
+  obfs: tls1.2_ticket_auth
+  obfs-param: https://t.me/proxypoolqwerty426
+- name: 1.97|RelayCNDE308 1295Mb
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2101
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.90|RelayCNUS293
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2102
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.72|RelayCNDE295
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1102
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.69| 美国 28
+  server: 42.157.195.234
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 3.14|徐州联通SGMelbicomvpnhat
-  server: 122.192.154.50
-  port: 3389
-  type: trojan
-  password: 1a1247ea6cb266b4
-  skip-cert-verify: true
+- name: 1.69| 美国 17
+  server: 42.157.195.231
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 2.60|杭州移动彰化Hinetvpnhat
-  server: 120.232.192.115
-  port: 3389
-  type: trojan
-  password: 1a1247ea6cb266b4
-  skip-cert-verify: true
+- name: 1.64| 新加坡 1
+  server: 14.152.92.81
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 2.26|娄底联通SGMelbicomvpnhat 2
-  server: 116.163.10.208
-  port: 3389
-  type: trojan
-  password: 1a1247ea6cb266b4
-  skip-cert-verify: true
+- name: 1.64| 日本 16
+  server: 42.157.195.244
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 1.51|Relay 563Mb
+- name: 1.64| 日本 10
+  server: 14.152.92.79
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.64| 日本 14
+  server: 14.152.92.75
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.63| 日本 13
+  server: 14.152.92.76
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.63| 日本 18
+  server: 42.157.195.243
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.62| 日本 17
+  server: 14.152.92.77
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.60| 美国 29
+  server: 42.157.195.242
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.57| 日本 12
+  server: 14.152.92.78
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.56| 日本 15
+  server: 14.152.92.80
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.56| 美国 34
+  server: 42.157.195.230
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 37
+  server: 42.157.195.238
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 30
+  server: 14.152.92.70
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 32
+  server: 42.157.195.241
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 38
+  server: 42.157.195.239
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 36
+  server: 14.152.92.71
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 14
+  server: 42.157.195.240
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.50| 美国 31
+  server: 14.152.92.74
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.46| 美国 33
+  server: 42.157.195.229
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+- name: 1.34|RelayCNDE288 1511Mb
+  server: 117.28.243.220
+  type: ss
+  country: CN
+  port: 8186
+  password: passinfo123
+  cipher: rc4-md5
+- name: 1.15|Relay  997Mb
   server: 117.28.243.220
   type: ss
   country: CN
   port: 8076
   password: passinfo123
   cipher: rc4-md5
-- name: 1.04|佛山移动彰化Hinetvpnhat 2
-  server: 183.232.163.134
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 0.68|北京科技网TokyoLinodevpnhat 4
-  server: 120.132.50.158
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
-  udp: true
-- name: 0.59|RelayCNTW2891315Mb
-  server: 117.28.243.154
-  type: ss
+- name: 1.05|RelayCNCA309 1271Mb
+  server: gz1.52168.xyz
+  type: ssr
   country: CN
-  port: 6145
-  password: passinfo123
-  cipher: rc4-md5
-- name: 0.49|广州优刻云TokyoLinodevpnhat 2
-  server: 106.75.154.24
-  port: 3389
-  type: trojan
-  password: 3426d80c2e066a83
-  skip-cert-verify: true
+  port: 1111
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 0.82| 美国 15
+  server: 42.157.195.233
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- name: 0.47|Relay3671Mb
-  server: 113.31.155.165
-  type: trojan
-  country: CN
-  port: 3389
-  password: 032532644f4fd784
-  skip-cert-verify: true
+- name: 0.71| 美国 19
+  server: 42.157.195.232
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
   udp: true
-- cipher: chacha20-ietf-poly1305
-  password: koko666
-  port: 36923
-  server: 118.193.179.2
-  type: ss
-  name: 0.44|457
