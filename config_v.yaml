@@ -1,9 +1,99 @@
 proxies:
-- name: 1.68| RelayHKUS749 2421Mb
-  server: 123.wgong.xyz
-  port: 52223
+- name: 3.52|RelayUSJP80
+  server: 125.wgong.xyz
+  type: vmess
+  country: US
+  port: 52225
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 125.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.31|Relay1466Mb
+  server: 1031kr.fans8.xyz
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.72|TW台湾149
+  server: tw-sd-v1-01.xyx-xylo.com
+  port: 11180
+  type: vmess
+  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tw-sd-v1-01.xyx-xylo.com
+  udp: true
+- name: 1.44|RelayKRJP42
+  server: 117.wgong.xyz
+  type: vmess
+  country: KR
+  port: 52217
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.37|Relay1019Mb
+  server: 89.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52289
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 89.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.14|香港阿伟科技TG油管 8
+  server: v111.wgong.xyz
+  port: 52211
   type: vmess
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.03|Relay日本20
+  server: 126.wgong.xyz
+  port: 52226
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.00|香港620
+  server: 99.wgong.xyz
+  port: 52299
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true

@@ -1,31 +1,38 @@
 proxies:
-- name: 3.55| 甲骨文首尔ARM1trojan
-  server: jgw3.gaox.ml
-  port: 443
-  type: trojan
-  password: a1718180-d616-4b71-9bb6-3e96ba20f921
-  sni: jgw3.gaox.ml
-- name: 2.89| 甲骨文首尔ARM2trojan
+- name: 8.88| 甲骨文首尔ARM2trojan
   server: jgw4.gaox.ml
   port: 443
   type: trojan
   password: b7e0e71f-070c-437a-9826-6e23caeb0307
   sni: jgw4.gaox.ml
-- name: 1.84| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 1.68| RelayHKUS749 2421Mb
-  server: 123.wgong.xyz
-  port: 52223
+- name: 3.52|RelayUSJP80
+  server: 125.wgong.xyz
   type: vmess
+  country: US
+  port: 52225
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  tls: false
-- name: 1.39| 韩国 1
+  network: tcp
+  ws-path: /
+  servername: 125.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.31|Relay1466Mb
+  server: 1031kr.fans8.xyz
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.97| 韩国 1
   server: vn.mumi.bid
   port: 10125
   type: vmess
@@ -39,4 +46,97 @@ proxies:
     path: /
     headers:
       Host: vn.mumi.bid
+  udp: true
+- name: 2.49|9856Mb
+  server: hk.hkt.lilyco.cc
+  type: trojan
+  country: HK
+  port: 443
+  password: sharecentre
+  skip-cert-verify: true
+  udp: true
+- name: 2.31| KR  Oracle 甲骨文
+  server: fq.0112391.xyz
+  port: 12226
+  type: trojan
+  password: 1qaz2wsx
+  sni: fq.0112391.xyz
+- name: 1.72|TW台湾149
+  server: tw-sd-v1-01.xyx-xylo.com
+  port: 11180
+  type: vmess
+  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tw-sd-v1-01.xyx-xylo.com
+  udp: true
+- name: 1.44|RelayKRJP42
+  server: 117.wgong.xyz
+  type: vmess
+  country: KR
+  port: 52217
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.37|Relay1019Mb
+  server: 89.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52289
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 89.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.22|Hong Kong 01丨Disney
+  server: cdn002.youxi.gay
+  port: 443
+  type: trojan
+  password: 77cfb34f-c392-44ce-b04f-fca947bf82ab
+  sni: cdn002.youxi.gay
+  skip-cert-verify: true
+  udp: true
+- name: 1.14|香港阿伟科技TG油管 8
+  server: v111.wgong.xyz
+  port: 52211
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.03|Relay日本20
+  server: 126.wgong.xyz
+  port: 52226
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.00|香港620
+  server: 99.wgong.xyz
+  port: 52299
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
