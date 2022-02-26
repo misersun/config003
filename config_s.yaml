@@ -1,5 +1,81 @@
 proxies:
-- name: 2.41|南非伟科技TG油管
+- name: 7.02| 甲骨文首尔ARM2trojan
+  server: jgw4.gaox.ml
+  port: 443
+  type: trojan
+  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+  sni: jgw4.gaox.ml
+- name: 5.09| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 4.18|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 3.91| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
+  port: 443
+  type: trojan
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 2.25|
+  server: os2-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.83|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: '1.09| 美国  體驗套餐  A  1  100x  官網  ninihaocc  体验节点不等于付费节点效果 '
+  server: qinton001.bmbai.buzz
+  port: 643
+  type: vmess
+  uuid: cff4b44f-38e3-3446-9d50-8a4f0fd074c6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: 1.baiyun.pw
+- name: 1.06|Relay4962Mb
+  server: os2-2.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.06|Relay4970Mb
+  server: os2-8.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.01| 319Mb
+  server: 106.180.225.69
+  type: trojan
+  country: JP
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 0.96|美国阿伟科技TG油管 7
   server: 2.ezydfdd.com
   port: 443
   type: vmess
@@ -9,35 +85,102 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /qwe
-  ws-headers:
-    Host: 2.ezydfdd.com
+  ws-opts:
+    path: /qwe
+    headers:
+      Host: 2.ezydfdd.com
   udp: true
-- name: 2.32| 美国2直连
-  server: uscu2.lixiaolong.buzz
-  port: 1998
+- name: 0.93|Relay4365Mb
+  server: os2-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 0.86|黑洞207
+  server: 154.84.1.58
+  port: 443
   type: vmess
-  uuid: ed8b9320-e610-3f49-b259-22056bd000dd
-  alterId: 0
+  uuid: 6fa560d4-35c5-4968-adfc-812c52878b84
+  alterId: 64
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /path/120306182525
     headers:
-      Host: uscu2.lixiaolong.buzz
-- name: 1.32|RelaySGJP3411076Mb
+      Host: www.85174207.xyz
+- name: 0.86| CN714
   server: v1.mumi.bid
-  type: vmess
-  country: SG
   port: 10122
+  type: vmess
   uuid: c8c213ae-a922-4aa2-bc75-e2b529e05362
   alterId: 0
   cipher: auto
+  tls: true
   network: ws
   ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  ws-headers:
+    Host: v1.mumi.bid
+- name: 0.86|Relay5027Mb
+  server: os2-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
+  udp: true
+- name: 0.82|Relay4031Mb
+  server: jp10.holiganfan.com
+  type: trojan
+  country: JP
+  port: 10088
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: true
+  udp: true
+- name: 0.74| 84
+  server: 198.41.212.5
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 0.72| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 0.71| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 0.67|韩国阿伟科技TG油管 2
+  server: fq.0112391.xyz
+  port: 12226
+  type: trojan
+  password: 1qaz2wsx
+  sni: fq.0112391.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.58| githubcomfreefq  美国CloudFlare节点 23
+  server: app.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: fd78ed50-9653-11ec-960d-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: app.ssfree.ru
