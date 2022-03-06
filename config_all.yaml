@@ -1,5 +1,69 @@
 proxies:
-- name: 0.96| IR70 TGpeekfun
+- name: 3.21|韩国阿伟科技TG油管 2
+  server: 129.154.50.0
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.90| HK931
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 44986
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+- name: 2.25| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 1.64| Relay USUS1638
+  server: ms.byronwood.co.uk
+  port: 443
+  type: vmess
+  uuid: 0ff0b97e-31ea-4447-81da-2b1b5f6a2a7f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /iso-windows10
+  ws-headers:
+    Host: ms.byronwood.co.uk
+- name: 1.36|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 1.30| HK928
+  server: 52.175.74.188
+  port: 11151
+  type: vmess
+  uuid: c7de6538-7914-419c-e7c4-91b71f812e9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 52.175.74.188
+- name: 1.17|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 0.94| IR70 TGpeekfun
   server: 185.148.14.58
   port: 53514
   type: trojan
@@ -7,39 +71,17 @@ proxies:
   password: 3r90JDGBYA
   skip-cert-verify: true
   udp: true
-- name: 0.66|香港阿伟科技TG油管 4
-  server: china-f4s-az-hk.898868.xyz
-  port: 62315
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: china-f4s-az-hk.898868.xyz
-  udp: true
-- name: 0.65|香港阿伟科技TG油管 3
-  server: china-f4s-az-hk.898868.xyz
-  port: 46436
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: china-f4s-az-hk.898868.xyz
-  udp: true
-- name: 0.54| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
+- name: 0.82|越南
+  server: vm.cscecsr.tk
   port: 443
   type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
+  password: abc123
+  sni: vm.cscecsr.tk
+  skip-cert-verify: true
+  udp: true
+- name: 0.65| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
+  port: 443
+  type: trojan
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml

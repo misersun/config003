@@ -1,31 +1,35 @@
 proxies:
-- name: 0.66|香港阿伟科技TG油管 4
-  server: china-f4s-az-hk.898868.xyz
-  port: 62315
+- name: 3.21|韩国阿伟科技TG油管 2
+  server: 129.154.50.0
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.90| HK931
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 44986
   type: vmess
   uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: china-f4s-az-hk.898868.xyz
-  udp: true
-- name: 0.65|香港阿伟科技TG油管 3
-  server: china-f4s-az-hk.898868.xyz
-  port: 46436
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+- name: 1.30| HK928
+  server: 52.175.74.188
+  port: 11151
   type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  uuid: c7de6538-7914-419c-e7c4-91b71f812e9a
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: china-f4s-az-hk.898868.xyz
-  udp: true
+  ws-path: /
+  ws-headers:
+    Host: 52.175.74.188
