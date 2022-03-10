@@ -1,5 +1,5 @@
 proxies:
-- name: 1.33|AzureHongKong2Vpnpool专属 2
+- name: 2.17|AzureHongKong2Vpnpool专属 2
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 80
   type: vmess
@@ -13,7 +13,17 @@ proxies:
   ws-headers:
     Host: vpnpool.hongkong.2.xiaocai.ga
   udp: true
-- name: 0.63|日本
+- name: 0.71|狮城  Azure InfiniPort
+  server: 20.212.150.16
+  port: 11610
+  type: vmess
+  uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.70|科技网络
   server: 172.105.222.98
   port: 80
   type: vmess
