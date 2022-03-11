@@ -1,55 +1,5 @@
 proxies:
-- name: 5.69|Alien 2
-  server: 47.241.191.179
-  port: 46104
-  type: vmess
-  uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.23|Alien 8
-  server: 47.241.102.119
-  port: 34353
-  type: vmess
-  uuid: 74aee29d-5859-47e7-e15e-20897b3e9a2b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.56|Alien 20
-  server: 49.51.35.218
-  port: 55065
-  type: vmess
-  uuid: a78b5b5d-ba42-4fb5-86fc-8d21e8de9b4f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.19|Alien 40
-  server: 170.106.151.177
-  port: 11084
-  type: vmess
-  uuid: e044eb53-af9e-4818-d6c0-db4bde904cb5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.04|Alien 22
-  server: 74.211.103.219
-  port: 16574
-  type: vmess
-  uuid: 1cccd074-673d-4395-dea1-a03975bb5545
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.82|俄罗斯
+- name: 3.05|俄罗斯
   server: 45.131.68.163
   port: 41299
   type: vmess
@@ -59,69 +9,11 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.58|Alien 6
-  server: 93.179.126.79
-  port: 39955
+- name: 1.20|孟买linode  中转  1x
+  server: zz.195382.xyz
+  port: 10007
   type: vmess
-  uuid: ad7ee8a4-2657-4a16-e3be-40afe9956de6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.45|Alien 39
-  server: 45.12.90.181
-  port: 36228
-  type: vmess
-  uuid: 9cde6198-3f56-4dc2-967c-793a58dd0612
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.29| RelayUSUS3359
-  server: c23s3.jamjams.net
-  port: 61173
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  tls: false
-- name: 2.26|Alien 37
-  server: 67.230.188.146
-  port: 10235
-  type: vmess
-  uuid: a708a019-4da7-450a-b192-841bdf8f8965
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.29|Alien
-  server: 47.242.104.94
-  port: 39311
-  type: vmess
-  uuid: c40b5ff8-91cd-44bf-8fe0-32f48444f6f2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.02|Alien 51
-  server: 8.210.50.44
-  port: 28258
-  type: vmess
-  uuid: 62ef5fd1-df65-4648-e2dc-f9d3e9f1ebc5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.79|hk1
-  server: 23.102.234.10
-  port: 44288
-  type: vmess
-  uuid: 3e14963a-d117-46a2-b76e-05533bff306c
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
   alterId: 0
   cipher: auto
   tls: false
@@ -129,45 +21,127 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 23.102.234.10
+    Host: zz.195382.xyz
   udp: true
-- name: 0.68|Alien 27
-  server: 172.247.31.42
-  port: 10002
+- name: 1.20|新加坡linode  中转  1x
+  server: zz.195382.xyz
+  port: 10008
   type: vmess
-  uuid: 40c938ac-5bc9-43a9-dbae-49038ae4a3c2
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.18|美国Azure  中转  1x
+  server: zz.195382.xyz
+  port: 20002
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.18|伦敦linode  中转  1x
+  server: zz.195382.xyz
+  port: 10006
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.13|日本linode  中转  1x
+  server: zz.195382.xyz
+  port: 10005
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.98|AzureHongKong2Vpnpool专属 2
+  server: vpnpool.hongkong.2.xiaocai.ga
+  port: 80
+  type: vmess
+  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vpnpool.hongkong.2.xiaocai.ga
+  udp: true
+- name: 0.85|巴西Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10003
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.79|美国 139
+  server: 20.212.150.16
+  port: 11610
+  type: vmess
+  uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.68|Alien 29
-  server: 172.247.31.45
-  port: 10002
+- name: 0.75|韩国Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10001
   type: vmess
-  uuid: 40c938ac-5bc9-43a9-dbae-49038ae4a3c2
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
   udp: true
-- name: 0.51|Alien 31
-  server: 8.210.50.114
-  port: 41688
+- name: 0.64|香港Azure  直连  1x
+  server: hk.195382.xyz
+  port: 1001
   type: vmess
-  uuid: 99a50ec0-5c9a-4248-a9d8-2756b55498e8
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  udp: true
-- name: 0.51|Alien 7
-  server: 8.210.250.2
-  port: 15342
-  type: vmess
-  uuid: bb26a82b-ba6b-422a-8c5d-f35e671a4898
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk.195382.xyz
   udp: true

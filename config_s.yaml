@@ -1,12 +1,11 @@
 proxies:
-- name: 1.56|伊朗835
-  server: 185.148.14.58
-  port: 53514
+- name: 5.34| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
   type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 1.10|中国YouTube由零開始
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 2.98|中国YouTube由零開始
   server: www.tokyo2021.ga
   port: 443
   type: trojan
@@ -14,36 +13,97 @@ proxies:
   sni: www.tokyo2021.ga
   skip-cert-verify: true
   udp: true
-- name: 0.64| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
+- name: 2.42| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
   port: 443
   type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 0.55|vpnpool香港Azure 2
-  server: 13.70.31.16
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 1.49|AzureHongKong2Vpnpool专属
+  server: vpnpool.hongkong.2.xiaocai.ga
+  port: 443
+  type: trojan
+  password: 5IGrvisqug
+  sni: vpnpool.hongkong.2.xiaocai.ga
+  skip-cert-verify: true
+  udp: true
+- name: 1.00|vpnpool台中Hinet
+  server: 211.72.35.153
+  port: 3389
+  type: trojan
+  password: 22e7ebb2dc8ab524
+  skip-cert-verify: true
+  udp: true
+- name: 0.93|vpnpool台中Hinet 8
+  server: 60.249.3.231
   port: 3389
   type: trojan
   password: cd39f62aed7b90f6
   skip-cert-verify: true
   udp: true
-- name: 0.53|vpnpool香港Azure
+- name: 0.90|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 0.88|vpnpool香港Azure
   server: 104.208.112.171
   port: 3389
   type: trojan
+  password: 22e7ebb2dc8ab524
+  skip-cert-verify: true
+  udp: true
+- name: 0.86|vpnpoolOsakaAzure
+  server: 20.89.238.230
+  port: 3389
+  type: trojan
   password: cd39f62aed7b90f6
   skip-cert-verify: true
   udp: true
-- name: 0.51| httpsgitiov9999ip1美国18
-  server: 23.225.159.190
+- name: 0.78|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 0.68|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 0.67| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 0.62|vpnpool台中Hinet 3
+  server: 60.249.3.226
+  port: 3389
+  type: trojan
+  password: cd39f62aed7b90f6
+  skip-cert-verify: true
+  udp: true
+- name: 0.58|dynamicsg2bobfsxyz1
+  server: dynamic-sg2b.obfs.xyz
   port: 443
   type: vmess
-  uuid: 05cd2f09-7070-4319-8d1e-9e5af96415c8
-  alterId: 64
+  uuid: 7f54ff9b-abfe-4bd2-b3d5-e63f8ab866ec
+  alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /path/261217002001
-    headers:
-      Host: www.35698393.xyz
+  ws-path: /fastssh
+  ws-headers:
+    Host: dynamic-sg2b.obfs.xyz
+  udp: true
+- name: 0.55|vpnpool香港Azure 3
+  server: 13.70.31.16
+  port: 3389
+  type: trojan
+  password: 22e7ebb2dc8ab524
+  skip-cert-verify: true
+  udp: true
