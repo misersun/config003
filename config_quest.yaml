@@ -1,67 +1,11 @@
 proxies:
-- name: 7.98|香港
-  server: 47.243.165.95
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 8575880a9659
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: alihsknew2.fly-lines.co
-    path: ''
-    tls: true
-    mux: true
-    skip-cert-verify: true
-  udp: true
-- name: 3.85| 甲骨文首尔ARM1trojan
-  server: jgw3.gaox.ml
+- name: 1.19| 魔戒net香港HK 1835himoonpw
+  server: hkaz1.scsevers.cf
   port: 443
   type: trojan
-  password: a1718180-d616-4b71-9bb6-3e96ba20f921
-  sni: jgw3.gaox.ml
-- name: 1.34| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 0.55|香港2
-  server: 206.119.115.11
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 7954ecfb0170
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: dxhk1000new004re.fly-lines.co
-    path: ''
-    tls: true
-    mux: true
-    skip-cert-verify: true
-  udp: true
-- name: 0.43|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 0.42|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.31|美国阿伟科技TG油管 2
-  server: www.ggchk.ga
-  port: 443
-  type: trojan
-  password: 4ae98d26-b209-4dd5-8e91-bf11d4f10801
-  sni: www.ggchk.ga
-  skip-cert-verify: true
-  udp: true
-- name: 0.30|AzureHongKong2Vpnpool专属
+  password: sharecentre
+  sni: hkaz1.scsevers.cf
+- name: 0.64|AzureHongKong2Vpnpool专属
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 443
   type: trojan
@@ -69,36 +13,60 @@ proxies:
   sni: vpnpool.hongkong.2.xiaocai.ga
   skip-cert-verify: true
   udp: true
-- name: 0.28|JP90
-  server: 106.180.225.69
-  port: 1443
-  type: trojan
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 0.26|vpnpool香港Azure 3
-  server: 13.70.31.16
-  port: 3389
-  type: trojan
-  password: 22e7ebb2dc8ab524
-  skip-cert-verify: true
-  udp: true
-- name: 0.24|vpnpool台中Hinet 8
-  server: 60.249.3.231
-  port: 3389
-  type: trojan
-  password: cd39f62aed7b90f6
-  skip-cert-verify: true
-  udp: true
-- name: 0.23|甲骨文春川AMD2trojan
+- name: 0.47|甲骨文春川AMD2trojan
   server: jgwcc2.gaox.ml
   port: 443
   type: trojan
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
   sni: jgwcc2.gaox.ml
-- name: 0.20| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
+- name: 0.41| JP83 TGpeekfun
+  server: 13.115.62.132
+  port: 8081
+  type: ssr
+  country: ' JP'
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 169.197.142.99
+  type: ss
+  name: 0.35|2711
+- name: 0.33|trojan
+  type: trojan
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.22|JP48
+  server: jp-am48-9.eqnode.net
+  port: 8081
+  type: ssr
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 0.22|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
   port: 443
   type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 0.21|JP
+  server: 13.250.126.43
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 0.21| 甲骨文凤凰城ARM2trojan
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
