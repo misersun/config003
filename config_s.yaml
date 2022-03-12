@@ -1,190 +1,25 @@
 proxies:
-- name: 1.31|AzureHongKong2Vpnpool专属
-  server: vpnpool.hongkong.2.xiaocai.ga
+- name: 0.91| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
   port: 443
   type: trojan
-  password: 5IGrvisqug
-  sni: vpnpool.hongkong.2.xiaocai.ga
-  skip-cert-verify: true
-  udp: true
-- name: 1.24| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 0.81| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
   type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 1.15|越南阿伟科技TG油管
-  server: vn.doubledou.win
-  port: 4588
-  type: vmess
-  uuid: c031e096-2d02-39da-8d81-c651e09ed0d1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /doufen
-    headers:
-      Host: vn.doubledou.win
-  udp: true
-- name: 1.02|瑞士阿伟科技TG油管
-  server: zf.hk01.xfss.cc
-  port: 24814
-  type: vmess
-  uuid: 7b4c6617-4c37-4c23-ab94-f1090b64e361
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zf.hk01.xfss.cc
-  udp: true
-- name: 1.00| 甲骨文凤凰城ARM2trojan
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- name: 0.98| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 0.83| Relay USUS1636
-  server: my.aoyyds.ga
-  port: 8443
-  type: vmess
-  uuid: e230dabd-7152-3c22-c9e5-79c84fb76236
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xsqfvws
-  ws-headers:
-    Host: my.aoyyds.ga
-- name: 0.77| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 0.63| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- name: 0.61| RelayZZHK4168
-  server: 198.41.212.5
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 0.52| RelayUS684
+  server: xiaodao.chinaexport.best
   port: 443
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
+  uuid: a37b80c5-b064-47f5-aa6a-f0e17352d46b
+  alterId: 64
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 0.61| httpsgitiov9999 美国CDN ip6 4
-  server: 104.20.156.110
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 0.58|芬兰阿伟科技TG油管
-  server: oz.moonfree.top
-  port: 443
-  type: vmess
-  uuid: ead7526a-3f9d-4668-821c-f52c31230f55
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oz.moonfree.top
-  udp: true
-- name: 0.56|魔戒net222
-  server: 71.72vpn.xyz
-  port: 443
-  type: vmess
-  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /google.com
-  ws-headers:
-    Host: 71.72vpn.xyz
-- name: 0.54|US美国2
-  server: test.0dc.cn
-  port: 443
-  type: vmess
-  uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: test.0dc.cn
-  udp: true
-- name: 0.54|魔戒net333
-  server: 10.72vpn.xyz
-  port: 443
-  type: vmess
-  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /google.com
-  ws-headers:
-    Host: 10.72vpn.xyz
-- name: 0.52|美国阿伟科技TG油管 22
-  server: rbzf.moonfree.top
-  port: 10082
-  type: vmess
-  uuid: ead7526a-3f9d-4668-821c-f52c31230f55
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shz.moonfree.top
-  udp: true
-- name: 0.52|甲骨文东京27
-  server: www.seetheworldjp.ga
-  port: 443
-  type: trojan
-  password: f42e1a2e-e650-44f4-8d17-bcb68663da18
-  sni: www.seetheworldjp.ga
-  skip-cert-verify: true
-  udp: true
-- name: 0.51|喵哥甲骨文美国Trojan
-  server: xiaocaitou.eu.org
-  port: 443
-  type: trojan
-  password: miaoge110
-  sni: xiaocaitou.eu.org
-  skip-cert-verify: true
-  udp: true
+    Host: xiaodao.chinaexport.best
