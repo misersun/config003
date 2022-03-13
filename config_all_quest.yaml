@@ -1,11 +1,18 @@
 proxies:
-- name: 1.19| 魔戒net香港HK 1835himoonpw
+- name: 3.12|Youtube技术分享室澳大利亚
+  server: 185.148.14.58
+  port: 53514
+  type: trojan
+  password: 3r90JDGBYA
+  skip-cert-verify: true
+  udp: true
+- name: 0.71| 魔戒net香港HK 1835himoonpw
   server: hkaz1.scsevers.cf
   port: 443
   type: trojan
   password: sharecentre
   sni: hkaz1.scsevers.cf
-- name: 0.64|AzureHongKong2Vpnpool专属
+- name: 0.69|AzureHongKong2Vpnpool专属
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 443
   type: trojan
@@ -13,60 +20,34 @@ proxies:
   sni: vpnpool.hongkong.2.xiaocai.ga
   skip-cert-verify: true
   udp: true
-- name: 0.47|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
+- cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 213.183.51.171
+  type: ss
+  name: 0.42|111
+- name: 0.36| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
   port: 443
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.41| JP83 TGpeekfun
-  server: 13.115.62.132
-  port: 8081
-  type: ssr
-  country: ' JP'
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 0.32| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
   port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 0.22|US美国Youtube技术分享室
   server: 169.197.142.99
+  port: 8881
   type: ss
-  name: 0.35|2711
-- name: 0.33|trojan
-  type: trojan
-  server: 65.49.196.130
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 0.22|JP48
-  server: jp-am48-9.eqnode.net
-  port: 8081
-  type: ssr
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 0.22|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.21|JP
-  server: 13.250.126.43
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
   udp: true
-- name: 0.21| 甲骨文凤凰城ARM2trojan
-  server: fhcarm2.gaox.ml
+- name: 0.20| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
   port: 443
   type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
