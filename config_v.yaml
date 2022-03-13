@@ -1,5 +1,89 @@
 proxies:
-- name: 1.65|伦敦linode  中转  1x
+- name: 1.73|孟买linode  中转  1x
+  server: zz.195382.xyz
+  port: 10007
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.45|日本linode  中转  1x
+  server: zz.195382.xyz
+  port: 10005
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.26|新加坡linode  中转  1x
+  server: zz.195382.xyz
+  port: 10008
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.07|香港Azure  直连  1x
+  server: hk.195382.xyz
+  port: 1001
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk.195382.xyz
+  udp: true
+- name: 0.86|韩国Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10001
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.79|巴西Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10003
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.78|伦敦linode  中转  1x
   server: zz.195382.xyz
   port: 10006
   type: vmess
@@ -12,4 +96,46 @@ proxies:
   ws-path: /
   ws-headers:
     Host: zz.195382.xyz
+  udp: true
+- name: 0.76|美国Azure  中转  1x
+  server: zz.195382.xyz
+  port: 20002
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.59|南非Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10004
+  type: vmess
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 0.52|AzureHongKong2Vpnpool专属 2
+  server: vpnpool.hongkong.2.xiaocai.ga
+  port: 80
+  type: vmess
+  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vpnpool.hongkong.2.xiaocai.ga
   udp: true
