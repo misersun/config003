@@ -1,198 +1,110 @@
 proxies:
-- name: 4.80| 甲骨文首尔ARM1trojan
+- name: 1.98| ZA360
+  server: 156.251.191.241
+  port: 32898
+  type: vmess
+  uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.96|美国阿伟科技TG油管 9
+  server: hk-v.apqiang.com
+  port: 12001
+  type: trojan
+  password: b69b3229-729d-3f52-80e1-e980034bcc51
+  sni: hk-v.apqiang.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.17| 甲骨文首尔ARM1trojan
   server: jgw3.gaox.ml
   port: 443
   type: trojan
   password: a1718180-d616-4b71-9bb6-3e96ba20f921
   sni: jgw3.gaox.ml
-- name: 1.73|孟买linode  中转  1x
-  server: zz.195382.xyz
-  port: 10007
+- name: 0.76| httpsgitiov9999ip3日本14
+  server: 40.74.119.112
+  port: 4256
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: 79902e3a-6c8f-40f8-a367-74079db1fa32
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.45|日本linode  中转  1x
-  server: zz.195382.xyz
-  port: 10005
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.32| 甲骨文首尔AMD2trojan
+- name: 0.74| 甲骨文首尔AMD2trojan
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   sni: jgw2.gaox.ml
-- name: 1.26|新加坡linode  中转  1x
-  server: zz.195382.xyz
-  port: 10008
+- name: 0.69|SGbaipiao02
+  server: 139.162.29.186
+  port: 54869
+  type: trojan
+  password: HqNAQ9UBJN
+  skip-cert-verify: true
+  udp: true
+- name: 0.64|新加坡阿伟科技TG油管 6
+  server: 52.184.99.90
+  port: 8009
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 52.184.99.90
+  udp: true
+- name: 0.60|美国阿伟科技TG油管 17
+  server: 20.212.220.101
+  port: 8009
+  type: vmess
+  uuid: 105d088c-4ff5-47e6-b008-29fc588885ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 20.212.220.101
+  udp: true
+- name: 0.57|台湾阿伟科技TG油管 3
+  server: tw1.nodrop.bike
+  port: 80
+  type: vmess
+  uuid: 668a0e8a-42e1-42f0-89a6-549d7904540d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
+  ws-opts:
+    path: /
+    headers:
+      Host: tw1.nodrop.bike
   udp: true
-- name: 1.07|香港Azure  直连  1x
-  server: hk.195382.xyz
-  port: 1001
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hk.195382.xyz
-  udp: true
-- name: 1.01|Youtube技术分享室澳大利亚
+- name: 0.52|Youtube技术分享室澳大利亚
   server: 185.148.14.58
   port: 53514
   type: trojan
   password: 3r90JDGBYA
   skip-cert-verify: true
   udp: true
-- name: 0.86|韩国Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10001
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 0.79|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.79| 香港 01
-  server: az01.thenodemoon365.xyz
-  port: 20000
-  type: trojan
-  password: f5937a46-7fb1-480f-95d5-abe8f1dad53f
-  sni: ga.thenodemoon365.xyz
-- name: 0.79|巴西Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10003
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 0.78|伦敦linode  中转  1x
-  server: zz.195382.xyz
-  port: 10006
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 0.76|美国Azure  中转  1x
-  server: zz.195382.xyz
-  port: 20002
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 0.65|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 0.65|AzureHongKong2Vpnpool专属
-  server: vpnpool.hongkong.2.xiaocai.ga
-  port: 443
-  type: trojan
-  password: 5IGrvisqug
-  sni: vpnpool.hongkong.2.xiaocai.ga
-  skip-cert-verify: true
-  udp: true
-- name: 0.61| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 0.60|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.59|南非Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10004
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 0.52|AzureHongKong2Vpnpool专属 2
-  server: vpnpool.hongkong.2.xiaocai.ga
+- name: 0.52|香港阿里云vpnhat 5
+  server: 47.243.92.214
   port: 80
   type: vmess
-  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
-  alterId: 0
+  uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: vpnpool.hongkong.2.xiaocai.ga
+    Host: 47.243.92.214
   udp: true
