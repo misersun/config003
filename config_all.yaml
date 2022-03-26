@@ -1,208 +1,25 @@
 proxies:
-- name: 7.33| 魔戒net ❷香港 14 BGP
-  server: hk14.balala2016.xyz
-  port: 80
+- name: 8.77|CYL科技20220325 155
+  server: 132.226.170.182
+  port: 11911
   type: vmess
-  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
+  uuid: f7ea8e91-3d20-49b8-81ef-e16bcfce3a95
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /balala
-  ws-headers:
-    Host: hk14.balala2016.xyz
-- name: 4.94| US1591
-  server: 94.103.5.6
-  port: 15575
-  type: vmess
-  uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: '%7B%22Host%22:%2294.103.5.6%22%7D'
-- name: 4.85| 甲骨文首尔AMD2trojan
+  skip-cert-verify: true
+  udp: true
+- name: 5.95| 甲骨文首尔AMD2trojan
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   sni: jgw2.gaox.ml
-- name: 3.21| Relay AUAU243
-  server: tunnel-trail.sserver.top
-  port: 80
+- name: 1.45|HK 005
+  server: hkaz005.xmrth-node.xyz
+  port: 10276
   type: vmess
-  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: tunnel-trail.sserver.top
-- name: 3.16|伊朗838
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 2.18| 甲骨文首尔ARM1trojan
-  server: jgw3.gaox.ml
-  port: 443
-  type: trojan
-  password: a1718180-d616-4b71-9bb6-3e96ba20f921
-  sni: jgw3.gaox.ml
-- name: 1.69|新加坡4广移中继
-  server: 85.v2-ray.cyou
-  port: 15085
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 85.v2-ray.cyou
-  udp: true
-- name: 1.49| 魔戒net ❷香港 15 BGP
-  server: hk15.balala2016.xyz
-  port: 80
-  type: vmess
-  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /balala
-  ws-headers:
-    Host: hk15.balala2016.xyz
-- name: 1.42| 魔戒net ❷香港 17 tBGP
-  server: hk17.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /balala
-  ws-headers:
-    Host: hk17.balala2016.xyz
-- name: 1.21|香港NAT1NETFLIX极速
-  server: 71.v2-ray.cyou
-  port: 15071
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 71.v2-ray.cyou
-  udp: true
-- name: 1.18| 魔戒net ❷香港 16 BGP
-  server: hk16.balala2016.xyz
-  port: 80
-  type: vmess
-  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /balala
-  ws-headers:
-    Host: hk16.balala2016.xyz
-- name: 1.11|日本极速三网优化
-  server: 4.v2-ray.cyou
-  port: 36104
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 4.v2-ray.cyou
-  udp: true
-- name: 1.05|美国2AWS
-  server: 74.v2-ray.cyou
-  port: 36174
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 74.v2-ray.cyou
-  udp: true
-- name: 1.04|广移中转新加坡 2
-  server: 4.paopaoyun.xyz
-  port: 19104
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.96|BGB中转日本
-  server: 9.paopaoyun.xyz
-  port: 19109
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.91|日本阿伟科技TG油管原生Netflix 2
-  server: azhk.relay.qchwnd.moe
-  port: 44603
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: jp1.alink.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 0.90|香港NAT2NETFLIX极速
-  server: 72.v2-ray.cyou
-  port: 15072
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 72.v2-ray.cyou
-  udp: true
-- name: 0.87|BGB中转日本 2
-  server: 12.paopaoyun.xyz
-  port: 19112
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.84|SG A 006
-  server: hkaz6.xmrth-node.xyz
-  port: 10153
-  type: vmess
-  uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+  uuid: cde8765f-b5b1-32fa-bce5-a7be70c3fd61
   alterId: 2
   cipher: auto
   tls: false
@@ -212,177 +29,80 @@ proxies:
   ws-headers:
     Host: www.baidu.com
   udp: true
-- name: 0.84|电信中转日本 2
-  server: 10.paopaoyun.xyz
-  port: 19110
+- name: 1.31|vip3台TGp2psharing
+  server: f2s.wokuaitule.xyz
+  port: 21168
   type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: telegram.channel.p2psharing
   udp: true
-- name: 0.84|韩国2专线1000M
-  server: 12.v2-ray.cyou
-  port: 15012
+- name: 1.27|韩国TG油管阿伟科技 4
+  server: kr2.futi.online
+  port: 2053
+  type: vmess
+  uuid: ecbaf58d-df4b-4a24-b155-556f5c917517
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr2.futi.online
+  udp: true
+- name: 1.05|vip3 港TGp2psharing
+  server: f2s.wokuaitule.xyz
+  port: 17777
+  type: vmess
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 0.81|SG15072 WangCai1
+  server: 72.v2-ray.cyou
+  port: 15072
   type: vmess
   uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 12.v2-ray.cyou
-  udp: true
-- name: 0.82|广移中转日本
-  server: 18.paopaoyun.xyz
-  port: 19118
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.78|香港4电信高速AZ11Gbps
-  server: 84.v2-ray.cyou
-  port: 15084
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 84.v2-ray.cyou
-  udp: true
-- name: 0.71|台湾阿伟科技TG油管 5
-  server: azhk.relay.qchwnd.moe
-  port: 44608
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: tw.node.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 0.70|电信中转日本
-  server: 14.paopaoyun.xyz
-  port: 19114
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.70|香港阿伟科技TG油管
-  server: 104.208.112.171
-  port: 3389
-  type: trojan
-  password: ca911d30af65ef1b
-  sni: n2.gladns.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.70|北京BGP中转日本
-  server: 22.paopaoyun.xyz
-  port: 19122
-  type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.66| 魔戒net ❶香港 A4 H
-  server: transit01.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hk18
-  ws-headers:
-    Host: transit01.balala2016.xyz
-- name: 0.64|   流量站香港31000M端口80
-  server: hk3.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 0.64|韩国2AWS
-  server: 24.v2-ray.cyou
-  port: 15024
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 24.v2-ray.cyou
-  udp: true
-- name: 0.64| HK961
-  server: 207.46.131.81
-  port: 12455
-  type: vmess
-  uuid: e1e7c8da-c24b-4a2f-d4e8-c492f26f0b99
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: aweikeji-YouTube-TG
-- name: 0.61|江门中转日本 2
-  server: 19.paopaoyun.xyz
-  port: 19119
+    Host: microsoft.com
+  udp: true
+- name: 0.74|vip2丨港dmit 2TGp2psharing
+  server: f2s.wokuaitule.xyz
+  port: 17723
   type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: telegram.channel.p2psharing
   udp: true
-- name: 0.61|香港阿伟科技TG油管Netflix
-  server: azhk.relay.qchwnd.moe
-  port: 44601
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 0.58|台湾TGnodesharing3
-  server: tw.node.qchwnd.moe
-  port: 44608
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: tw.node.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 0.57|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.54|日本1微软1000M
-  server: 8.v2-ray.cyou
-  port: 15008
+- name: 0.71|香港TG油管阿伟科技 30
+  server: 31.v2-ray.cyou
+  port: 15031
   type: vmess
   uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
   alterId: 2
@@ -390,23 +110,24 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 8.v2-ray.cyou
+  ws-opts:
+    path: /
+    headers:
+      Host: 31.v2-ray.cyou
   udp: true
-- name: 0.51|广移中转新加坡
-  server: 3.paopaoyun.xyz
-  port: 19103
+- name: 0.66|韩国TG油管阿伟科技 2
+  server: 193.123.239.153
+  port: 55199
   type: vmess
-  uuid: 28d0b6b2-579b-3ca0-9ee3-f4a7eb8d05c6
-  alterId: 2
+  uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.51|新加坡2三网优化EC2
-  server: 36.v2-ray.cyou
-  port: 8080
+- name: 0.65|香港TG油管阿伟科技 2
+  server: 25.v2-ray.cyou
+  port: 35025
   type: vmess
   uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
   alterId: 2
@@ -414,7 +135,21 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /
   ws-headers:
-    Host: 36.v2-ray.cyou
+    Host: tg.channel.p2psharing
+  udp: true
+- name: 0.65|CYL科技20220325 193
+  server: kr3.uuv2.co.uk
+  port: 2053
+  type: vmess
+  uuid: bef4871a-a3ed-4cca-831f-88382c4382fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.uuv2.co.uk
   udp: true
