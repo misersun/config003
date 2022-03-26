@@ -1,5 +1,5 @@
 proxies:
-- name: 8.77|CYL科技20220325 155
+- name: 8.65|CYL科技20220325 155
   server: 132.226.170.182
   port: 11911
   type: vmess
@@ -9,41 +9,70 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 5.95| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 1.45|HK 005
-  server: hkaz005.xmrth-node.xyz
-  port: 10276
+- name: 5.37|香港TG油管阿伟科技 44
+  server: 43.132.185.111
+  port: 51504
   type: vmess
-  uuid: cde8765f-b5b1-32fa-bce5-a7be70c3fd61
-  alterId: 2
+  uuid: d1a8afca-9d81-4ad6-f6d0-935c37c73eed
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
+  ws-opts:
+    path: /
+    headers:
+      Host: 43.132.185.111
   udp: true
-- name: 1.31|vip3台TGp2psharing
+- name: 2.68|CYL科技20220325 193
+  server: kr3.uuv2.co.uk
+  port: 2053
+  type: vmess
+  uuid: bef4871a-a3ed-4cca-831f-88382c4382fa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.uuv2.co.uk
+  udp: true
+- name: 2.38|vip3 港TGp2psharing
   server: f2s.wokuaitule.xyz
-  port: 21168
+  port: 17777
   type: vmess
   uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-path: /index
   ws-headers:
     Host: telegram.channel.p2psharing
   udp: true
-- name: 1.27|韩国TG油管阿伟科技 4
+- name: 1.49|台湾TG油管阿伟科技
+  server: tw1.qingyun123.xyz
+  port: 10050
+  type: trojan
+  password: dddfdc0c-81d9-4a19-9156-98579fa92f6c
+  sni: tw1.qingyun123.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.15| RelayUSJP3104
+  server: kr2.uuv2.co.uk
+  port: 2053
+  type: vmess
+  uuid: bef4871a-a3ed-4cca-831f-88382c4382fa
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr2.futi.online
+- name: 1.12|韩国TG油管阿伟科技 4
   server: kr2.futi.online
   port: 2053
   type: vmess
@@ -58,9 +87,21 @@ proxies:
     headers:
       Host: kr2.futi.online
   udp: true
-- name: 1.05|vip3 港TGp2psharing
-  server: f2s.wokuaitule.xyz
-  port: 17777
+- name: 0.92| Relay HKSG868
+  server: 71.v2-ray.cyou
+  port: 15071
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 71.v2-ray.cyou
+- name: 0.71|vip1丨港 5TGp2psharing
+  server: pmah.wokuaitule.xyz
+  port: 40016
   type: vmess
   uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
   alterId: 0
@@ -72,21 +113,21 @@ proxies:
   ws-headers:
     Host: telegram.channel.p2psharing
   udp: true
-- name: 0.81|SG15072 WangCai1
-  server: 72.v2-ray.cyou
-  port: 15072
+- name: 0.70|vip3 港 2TGp2psharing
+  server: f2s.wokuaitule.xyz
+  port: 20078
   type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /index
   ws-headers:
-    Host: microsoft.com
+    Host: telegram.channel.p2psharing
   udp: true
-- name: 0.74|vip2丨港dmit 2TGp2psharing
+- name: 0.68|vip2丨港dmit 2TGp2psharing
   server: f2s.wokuaitule.xyz
   port: 17723
   type: vmess
@@ -100,56 +141,38 @@ proxies:
   ws-headers:
     Host: telegram.channel.p2psharing
   udp: true
-- name: 0.71|香港TG油管阿伟科技 30
-  server: 31.v2-ray.cyou
-  port: 15031
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 31.v2-ray.cyou
-  udp: true
-- name: 0.66|韩国TG油管阿伟科技 2
-  server: 193.123.239.153
-  port: 55199
-  type: vmess
-  uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 0.65|美国TG油管阿伟科技 2
+  server: ocph.vproxy.us
+  port: 34567
+  type: trojan
+  password: c5092d61-39e8-4f71-b76b-43db95691be5
   skip-cert-verify: true
   udp: true
-- name: 0.65|香港TG油管阿伟科技 2
-  server: 25.v2-ray.cyou
-  port: 35025
+- name: 0.51|CYL科技20220325 201
+  server: 13.75.95.54
+  port: 10016
   type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: tg.channel.p2psharing
-  udp: true
-- name: 0.65|CYL科技20220325 193
-  server: kr3.uuv2.co.uk
-  port: 2053
-  type: vmess
-  uuid: bef4871a-a3ed-4cca-831f-88382c4382fa
+  uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: kr3.uuv2.co.uk
+    Host: t.me/vpnhat
+  udp: true
+- name: 0.51|香港  03
+  server: hk03.startmy.cc
+  port: 80
+  type: vmess
+  uuid: 965f900d-242a-3c76-b323-5c987f19250f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: a.189.cn
   udp: true
