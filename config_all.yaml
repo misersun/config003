@@ -1,32 +1,17 @@
 proxies:
-- name: 5.98| V2RAY香港AWV091
-  server: hk-azure04.xiaohouzi.club
-  port: 10081
+- name: 1.65|Relay SKSK2838
+  server: jp28.yuejiasu.com
+  port: 8886
   type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: hk-azure04.xiaohouzi.club
-- name: 5.25|香港阿伟科技TG油管 12
-  server: azhk099.xiaohouzi.club
-  port: 10089
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  uuid: 24b5c7d2-2d22-37c7-82c2-e2e86affecc8
   alterId: 1
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: azhk099.xiaohouzi.club
-  udp: true
-- name: 5.21| JP292
+  ws-path: /hk
+  ws-headers:
+    Host: apple.com
+- name: 0.53| JP281
   server: vs.mumi.bid
   port: 10124
   type: vmess
@@ -38,424 +23,13 @@ proxies:
   ws-path: /
   ws-headers:
     Host: vs.mumi.bid
-- name: 4.26|中国阿伟科技TG油管 99
-  server: shk02.xiaohouzi.club
-  port: 10053
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: shk02.xiaohouzi.club
-  udp: true
-- name: 4.20|香港阿伟科技TG油管
-  server: aead.azhongkong.dnsfree.top
-  port: 12347
-  type: trojan
-  password: 2a098063-9ce2-4d63-9893-30c467d648b2
-  sni: aead.azhongkong.dnsfree.top
-  skip-cert-verify: true
-  udp: true
-- name: 3.29| RelayAUAU01
-  server: shk01.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 3.20| RelayAUAU10
-  server: aws-hk06.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: aws-hk06.xiaohouzi.club
-- name: 3.05| V2RAY香港AZURE落地02
-  server: azure-hk-t02.xiaohouzi.club
-  port: 10082
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: azure-hk-t02.xiaohouzi.club
-- name: 2.87| V2RAY香港AZURE落地09
-  server: azhk03.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: azhk03.xiaohouzi.club
-- name: 2.73|RU20
-  server: 45.131.68.163
-  port: 41299
-  type: vmess
-  uuid: 1f0e1886-7f53-496a-92d6-b55d2aafe12b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.25| RelayHKUS651
-  server: zz-az-hk.xiaocai.ga
-  port: 50003
-  type: trojan
-  password: 3XhbFzLXfw
-  skip-cert-verify: true
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0.95|0401oslook加拿大CACanadaMontreal9
-  network: ws
-  port: 443
-  server: 198.41.212.2
-  tls: true
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  ws-opts:
-    headers:
-      host: zero1.a-yu.xyz
-    path: /sakura/
-- name: 0.83| githubcomv2rayfree  新加坡阿里云 96
-  server: chinamobile.ga
-  port: 37344
-  type: vmess
-  uuid: 667bea8e-250e-4763-cb52-1e437356109e
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 0.78| RelayZZUS74
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 0.77| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
-  server: clash4.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.74| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
+- name: 0.48|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
   port: 443
   type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 0.68|香港阿伟科技TG油管 33
-  server: 104.208.79.9
-  port: 57209
-  type: vmess
-  uuid: 0de8896e-462c-4653-9f89-8dc8a1748c17
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.68|英国阿伟科技TG油管
-  server: 144.24.72.229
-  port: 38086
-  type: vmess
-  uuid: 85b07edc-de86-416f-9d5d-18bc081fec54
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.68|RelayUSUS3258
-  server: azjp.caolifei.tk
-  port: 29999
-  type: vmess
-  uuid: 3d25a7e7-8060-48a2-983f-24a4bbab0772
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.67| RelayAUAU06
-  server: hk-azure02.xiaohouzi.club
-  port: 10051
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: hk-azure02.xiaohouzi.club
-- name: 0.59| RelayAUAU04
-  server: awv093.xiaohouzi.club
-  port: 10082
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: awv093.xiaohouzi.club
-- name: 0.54|日本阿伟科技TG油管 7
-  server: superjapan.dnsfree.top
-  port: 12355
-  type: vmess
-  uuid: 003dda74-b441-4e70-a215-bf1137b5c243
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: superjapan.dnsfree.top
-  udp: true
-- name: 0.53|阿伟科技TG油管 6
-  server: 104.16.162.16
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxus.fovi.tk
-  udp: true
-- name: 0.52|新加坡阿伟科技TG油管 8
-  server: 1.ezydfdd.com
-  port: 443
-  type: vmess
-  uuid: 0e5b46b5-699d-4aca-8fb3-a8e7b4270ed9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /qwe
-    headers:
-      Host: 1.ezydfdd.com
-  udp: true
-- name: 0.51|韩国阿伟科技TG油管 2
-  server: 146.56.108.108
-  port: 26113
-  type: vmess
-  uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.50|defaultname5
-  server: 198.41.212.18
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  country: defaultname5
-  skip-cert-verify: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 0.48| RelayAUAU08
-  server: aws-hk02.xiaohouzi.club
-  port: 10081
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.47|美国阿伟科技TG油管 15
-  server: cloudflare.a-yu.xyz
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero2.a-yu.xyz
-  udp: true
-- name: 0.41| RelayAUAU09
-  server: azhk01.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.39|香港阿伟科技TG油管
-  server: azhk098.xiaohouzi.club
-  port: 10090
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: www.ibm.com
-  udp: true
-- name: 0.39|美国阿伟科技TG油管 12
-  server: cloudflare.xrenblog.com
-  port: 443
-  type: vmess
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xrenblog/
-    headers:
-      Host: ipv6.xrenblog.com
-  udp: true
-- name: 0.39|香港TG油管阿伟科技
-  server: cmhk.sjebo.com.cn
-  port: 33333
-  type: trojan
-  password: db753127-a527-45d0-8586-ea4315b49427
-  sni: cmhk.sjebo.com.cn
-  skip-cert-verify: true
-  udp: true
-- name: 0.38|CA659
-  server: 165.154.225.231
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 330hk02.fans8.xyz
-- name: 0.38|美国阿伟科技TG油管 83
-  server: awsxjp.moonfree.top
-  port: 443
-  type: vmess
-  uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: awsxjp.moonfree.top
-  udp: true
-- name: 0.37|中国阿伟科技TG油管 5
-  server: azhk02.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: azhk02.xiaohouzi.club
-  udp: true
-- name: 0.36|RelayLTLT38
-  server: us04.xiaohouzi.club
-  port: 10083
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: us04.xiaohouzi.club
-- name: 0.33|美国阿伟科技TG油管 24
-  server: 192.9.248.151
-  port: 23326
-  type: vmess
-  uuid: ace2e8da-5c52-45c1-8ccc-089e738fb54b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.33|香港阿伟科技TG油管 61
-  server: 3.ezydfdd.com
-  port: 443
-  type: vmess
-  uuid: 303d651b-24c6-4023-ff89-dffe2b8e6995
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /qwe
-    headers:
-      Host: 3.ezydfdd.com
-  udp: true
-- name: 0.29|香港阿伟科技TG油管 60
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 0.30|香港阿伟科技TG油管 60
   server: 2.ezydfdd.com
   port: 443
   type: vmess
@@ -470,156 +44,68 @@ proxies:
     headers:
       Host: 2.ezydfdd.com
   udp: true
-- name: 0.29|RelayLTLT37
-  server: us06.xiaohouzi.club
-  port: 10082
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: us06.xiaohouzi.club
-- name: 0.28|US美国FR法国10
-  server: 172.67.68.58
+- name: 0.25|美国阿伟科技TG油管 85
+  server: linodemx0303.moonfree.top
   port: 443
   type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d
   alterId: 0
   cipher: auto
-  country: US美国FR法国10
+  tls: true
   skip-cert-verify: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /shuier
-    headers:
-      host: xc1.v2rie.pp.ua
-- name: 0.28| RelayUSUS3355
-  server: fri.ncugo.cf
-  port: 443
-  type: vmess
-  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-  alterId: 0
-  cipher: auto
-  tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: fri.ncugo.cf
-- name: 0.27|85209159105ws
-  server: 85.209.159.105
-  port: 39470
+    Host: linodemx0303.moonfree.top
+  udp: true
+- name: 0.23|日本阿伟科技TG油管 2
+  server: 45.77.22.155
+  port: 49192
   type: vmess
-  uuid: 8d36810e-b0b3-11ec-80b8-00163c3fe0cd
+  uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /2U4LiB6X/
-  ws-headers:
-    Host: 85.209.159.105
-- name: 0.27|新加坡阿伟科技TG油管 3
-  server: 180.215.196.10
-  port: 39043
-  type: vmess
-  uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2ex.downk.cc
-  udp: true
-- name: 0.25|韩国阿伟科技TG油管
-  server: s5.walkunderground.com
-  port: 11218
-  type: vmess
-  uuid: 343c8ad8-7fe1-405d-bb0d-c12ca62494ec
-  alterId: 0
-  cipher: auto
-  tls: true
   skip-cert-verify: true
   udp: true
-- name: 0.24| RelayRURU46
-  server: vv01.xiaohouzi.club
-  port: 10083
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.23| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: JAtFrEpLX8mryvu8
-  sni: misaka1433.tk
-- name: 0.23| RelayUSUS3357
-  server: s5.walkunderground.com
-  port: 50066
-  type: vmess
-  uuid: fc4dae6a-d89f-4f0a-a3ae-7499f853f8ba
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 0.22|美国阿伟科技TG油管 48
-  server: niaop.tk
+- name: 0.20|defaultname5
+  server: 198.41.212.18
   port: 443
   type: vmess
-  uuid: a0b0df87-bda2-440e-830f-347da6cc7760
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  country: defaultname5
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 0.18| HK21
+  server: 104.208.79.9
+  port: 57209
+  type: vmess
+  uuid: 0de8896e-462c-4653-9f89-8dc8a1748c17
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.16|美国阿伟科技TG油管 83
+  server: awsxjp.moonfree.top
+  port: 443
+  type: vmess
+  uuid: b0a2370c-508b-427d-be3e-8efe70ae2f4d
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /wsssdr1
-    headers:
-      Host: niaop.tk
+  ws-path: /
+  ws-headers:
+    Host: awsxjp.moonfree.top
   udp: true
-- name: 0.21|8821892134tcp
-  server: 88.218.92.134
-  port: 20842
-  type: vmess
-  uuid: 788e9c38-b0ad-11ec-b018-00163cb76514
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.20| RelayAUAU07
-  server: aws-hk03.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: aws-hk03.xiaohouzi.club
-- name: 0.20| RelayRURU45
-  server: v2-r03.xiaohouzi.club
-  port: 10083
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.19| RelayUSDE49
+- name: 0.15| RelayUSDE36
   server: 104.17.103.125
   port: 80
   type: vmess
@@ -631,109 +117,34 @@ proxies:
   ws-path: /wwwnet
   ws-headers:
     Host: caa.ziyun.ga
-- name: 0.17| RelayRURU44
-  server: v2-r02.xiaohouzi.club
-  port: 10082
+- name: 0.15|英国阿伟科技TG油管
+  server: 144.24.72.229
+  port: 38086
   type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.17|CA655
-  server: 165.154.225.176
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 0326hk01.fans8.xyz
-- name: 0.16|香港阿伟科技TG油管 2
-  server: azhk091.xiaohouzi.club
-  port: 10030
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  uuid: 85b07edc-de86-416f-9d5d-18bc081fec54
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: www.ibm.com
   udp: true
-- name: 0.15| US59
-  server: 20.205.115.192
-  port: 49503
+- name: 0.11| HK2413
+  server: 210.3.245.46
+  port: 50021
   type: vmess
-  uuid: f9727d11-78e9-4b46-bf39-8f6929c8870f
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.15| RelayRURU43
-  server: v2-r01.xiaohouzi.club
-  port: 10082
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-- name: 0.15| RelayHKHK30
-  server: azhk097.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /v2ray
+  ws-path: /D1LYYDHH
   ws-headers:
-    Host: azhk097.xiaohouzi.club
-- name: 0.14|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
-  port: 443
-  type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 0.13|456615974tcp
-  server: 45.66.159.74
-  port: 4868
+    Host: 210.3.245.46
+- name: 0.11| JP26
+  server: 139.162.122.205
+  port: 3845
   type: vmess
-  uuid: c38df326-b0e1-11ec-bc59-00163cbed88a
+  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.11| US2231
-  server: us-am32-5.eqnode.net
-  type: ssr
-  country: ' US'
-  port: 8081
-  password: YFVrXZgRo
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 0.10|SSRSUBV23付费推荐suoytssrsub
-  server: 0316ro.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /nl
-  ws-headers:
-    Host: 0316ro.fans8.xyz
