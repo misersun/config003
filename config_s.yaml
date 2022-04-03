@@ -1,5 +1,5 @@
 proxies:
-- name: 1.98|香港阿伟科技TG油管 8
+- name: 1.75|香港阿伟科技TG油管
   server: hk2.qingyun123.xyz
   port: 10050
   type: trojan
@@ -7,68 +7,42 @@ proxies:
   sni: hk2.qingyun123.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.71| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 0.50|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.48| 甲骨文东京AMD1trojan
-  server: jgwdj1.gaox.ml
-  port: 443
-  type: trojan
-  password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4
-  sni: jgwdj1.gaox.ml
-- name: 0.36| RelayUSUS3193
-  server: bpjzx2.cainiao.tk
-  port: 443
+- name: 0.39| RelayUSUS44
+  server: vs.mumi.bid
+  port: 10124
   type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-path: /
   ws-headers:
-    Host: orange-mode-ac6a.xjp0mx2cp.workers.dev
-- name: 0.32|美国阿伟科技TG油管 6
-  server: tj-us02.yiyodns.xyz
+    Host: vs.mumi.bid
+- name: 0.31|新加坡阿伟科技TG油管 8
+  server: 1.ezydfdd.com
   port: 443
+  type: vmess
+  uuid: 0e5b46b5-699d-4aca-8fb3-a8e7b4270ed9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qwe
+    headers:
+      Host: 1.ezydfdd.com
+  udp: true
+- name: 0.23|英国阿伟科技TG油管
+  server: yin1.qingyun123.xyz
+  port: 10000
   type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  password: 173ada09-6d94-4cae-96db-17da3b840a2d
+  sni: yin1.qingyun123.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.32| HK276
-  server: vn.mumi.bid
-  port: 10125
-  type: vmess
-  uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vn.mumi.bid
-- name: 0.29|SSRSUBV13付费推荐suoytssrsub
-  server: fri.ncugo.cf
-  port: 443
-  type: vmess
-  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fri.ncugo.cf
-- name: 0.29| Relay USUS1535
+- name: 0.19| Relay USUS1535
   server: 172.67.68.58
   port: 443
   type: vmess
@@ -80,75 +54,47 @@ proxies:
   ws-path: /shuier
   ws-headers:
     Host: xc1.v2rie.pp.ua
-- name: 0.27|CA643
-  server: 165.154.225.231
+- name: 0.16|美国阿伟科技TG油管 2
+  server: awsxjp.moonfree.top
   port: 443
   type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 330hk02.fans8.xyz
-- name: 0.25|英国阿伟科技TG油管 5
-  server: yin1.qingyun123.xyz
-  port: 10000
-  type: trojan
-  password: 173ada09-6d94-4cae-96db-17da3b840a2d
-  sni: yin1.qingyun123.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 0.25|美国阿伟科技TG油管
-  server: v2ray.788644.xyz
-  port: 443
-  type: vmess
-  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  uuid: 734d6ca1-88fa-44ff-86a6-8466498be934
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
+  ws-path: /
+  ws-headers:
+    Host: awsxjp.moonfree.top
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0.16|0403oslook加拿大CACanadaMontreal50
+  network: ws
+  port: 443
+  server: 198.41.212.9
+  tls: true
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
   ws-opts:
-    path: /happy
     headers:
-      Host: v2ray.788644.xyz
-  udp: true
-- name: 0.22| Relay ZZUS3307
-  server: cloudflare.xrenblog.com
+      host: zero1.a-yu.xyz
+    path: /sakura/
+- name: 0.15|美国阿伟科技TG油管 3
+  server: v6d1.moonfree.top
   port: 443
   type: vmess
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xrenblog/
-  ws-headers:
-    Host: ipv6.xrenblog.com
-- name: 0.18|韩国阿伟科技TG油管
-  server: s5.walkunderground.com
-  port: 50066
-  type: vmess
-  uuid: fc4dae6a-d89f-4f0a-a3ae-7499f853f8ba
+  uuid: 734d6ca1-88fa-44ff-86a6-8466498be934
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  udp: true
-- name: 0.15|RelayCACA647
-  server: 0326kr.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
   network: ws
-  ws-path: /ray
+  ws-path: /
   ws-headers:
-    Host: 0326kr.fans8.xyz
+    Host: v6d1.moonfree.top
+  udp: true
 - name: 0.15|香港阿伟科技TG油管 60
   server: 2.ezydfdd.com
   port: 443
@@ -164,7 +110,7 @@ proxies:
     headers:
       Host: 2.ezydfdd.com
   udp: true
-- name: 0.14|香港阿伟科技TG油管 61
+- name: 0.15|香港阿伟科技TG油管 61
   server: 3.ezydfdd.com
   port: 443
   type: vmess
@@ -178,19 +124,4 @@ proxies:
     path: /qwe
     headers:
       Host: 3.ezydfdd.com
-  udp: true
-- name: 0.11|新加坡阿伟科技TG油管 8
-  server: 1.ezydfdd.com
-  port: 443
-  type: vmess
-  uuid: 0e5b46b5-699d-4aca-8fb3-a8e7b4270ed9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /qwe
-    headers:
-      Host: 1.ezydfdd.com
   udp: true
