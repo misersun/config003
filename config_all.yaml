@@ -1,90 +1,98 @@
 proxies:
-- name: 2.38|香港TG阿伟科技油管 17
-  server: hk1.qingyun123.xyz
+- name: 0.58|韩国TG阿伟科技油管 5
+  server: krnf1.qingyun123.xyz
   port: 10050
   type: trojan
-  password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4
-  sni: hk1.qingyun123.xyz
+  password: 174da26f-c724-42da-ac1c-726b36a454cd
+  sni: krnf1.qingyun123.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.64|韩国阿伟科技TG油管 7
-  server: 146.56.41.3
-  port: 8888
+- name: 0.29|日本TG阿伟科技油管 7
+  server: 20.194.195.16
+  port: 80
   type: vmess
-  uuid: c23c242f-3705-4bfa-be9e-887bb43ce501
+  uuid: afc34a50-76f7-4fb1-9393-c5da1c1a54db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /www.fanqiangvpn.com
+    headers:
+      Host: 20.194.195.16
+  udp: true
+- name: 0.28| RelayUSUS27
+  server: 172.67.190.72
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero2.a-yu.xyz
+- name: 0.27| US34
+  server: 207.246.94.28
+  port: 42383
+  type: vmess
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.24| 免费香港04 httpstmeDnsFreePort
-  server: aead.tls.hongkongazace.dnsfree.top
-  port: 12348
-  type: trojan
-  password: c2941330-d6fa-4de4-9b6c-b4c097dab480
-  sni: aead.tls.hongkongazace.dnsfree.top
-- name: 0.21| RelayUSFR26
-  server: 03071t.moonfree.top
+- name: 0.27| Relay JPJP1047
+  server: v2ray.ok1991.ml
+  port: 19923
+  type: vmess
+  uuid: 47c1ba9b-4c51-4144-8bdb-b203d747054f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /15haoche
+  ws-headers:
+    Host: v2ray.ok1991.ml
+- name: 0.20|德国阿伟科技TG油管
+  server: v6d1.moonfree.top
   port: 443
   type: vmess
   uuid: aa5dd703-195d-4682-8c35-ea0083ea1a74
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6d1.moonfree.top
+  udp: true
+- name: 0.15|defaultname13
+  server: 198.41.212.6
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  country: defaultname13
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 0.14| RelayUSUS31
+  server: fri.ncugo.cf
+  port: 443
+  type: vmess
+  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
+  alterId: 0
+  cipher: auto
+  tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: 03071t.moonfree.top
-- name: 0.21| HK719
-  server: 52.184.37.11
-  port: 443
-  type: vmess
-  uuid: 022c220d-c67c-4d0a-b732-58dbe913ba6f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /XHDuoDKPEVQ
-  ws-headers:
-    Host: 52.184.37.11
-- name: 0.19|新加坡TG阿伟科技油管 2
-  server: sg2.jjzgy.live
-  port: 443
-  type: vmess
-  uuid: 1356a099-dee8-39fb-aafc-246189f77172
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cocksucker
-    headers:
-      Host: sg2.jjzgy.live
-  udp: true
-- name: 0.13|香港阿伟科技TG油管 5
-  server: 43.154.87.207
-  port: 24821
-  type: vmess
-  uuid: 357000f2-e4a9-4d35-8248-58ab72b7a0eb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.10|新加坡TG阿伟科技油管 4
-  server: sg4.jjzgy.live
-  port: 443
-  type: vmess
-  uuid: 1356a099-dee8-39fb-aafc-246189f77172
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cocksucker
-    headers:
-      Host: sg4.jjzgy.live
-  udp: true
+    Host: fri.ncugo.cf
