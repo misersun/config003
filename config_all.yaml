@@ -1,29 +1,78 @@
 proxies:
-- name: 0.58|韩国TG阿伟科技油管 5
-  server: krnf1.qingyun123.xyz
-  port: 10050
+- name: 6.11| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
   type: trojan
-  password: 174da26f-c724-42da-ac1c-726b36a454cd
-  sni: krnf1.qingyun123.xyz
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 2.51|美国TG阿伟科技油管 40
+  server: c23s3.jamjams.net
+  port: 61173
+  type: vmess
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.29|日本TG阿伟科技油管 7
-  server: 20.194.195.16
-  port: 80
+- name: 1.08|德国TG阿伟科技油管 2
+  server: kor2.lolvps.xyz
+  port: 40033
   type: vmess
-  uuid: afc34a50-76f7-4fb1-9393-c5da1c1a54db
+  uuid: f829ce42-0f03-4e66-b18f-34b070fcbf93
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /www.fanqiangvpn.com
+    path: /GAMS0Y7X
     headers:
-      Host: 20.194.195.16
+      Host: kor2.lolvps.xyz
   udp: true
-- name: 0.28| RelayUSUS27
-  server: 172.67.190.72
+- name: 0.62| RelayUSIE39
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-headers:
+    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 0.43|SG新加坡DE德国9
+  server: eu.licom.ga
+  port: 62013
+  type: vmess
+  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
+  alterId: 0
+  cipher: auto
+  country: SG新加坡DE德国9
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 0.34| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+  server: clash4.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.31| RelayHKHK32
+  server: trojan-azure-hk-1.forwardserver.xyz
+  port: 8443
+  type: trojan
+  password: DaoZhuYYDS
+  sni: trojan-azure-hk-1.forwardserver.xyz
+- name: 0.30| RelayUSUS25
+  server: cloudflare.a-yu.xyz
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -34,57 +83,72 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero2.a-yu.xyz
-- name: 0.27| US34
-  server: 207.246.94.28
-  port: 42383
+- name: 0.28|85209159105ws
+  server: 85.209.159.105
+  port: 10011
   type: vmess
-  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+  uuid: 8d36810e-b0b3-11ec-80b8-00163c3fe0cd
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.27| Relay JPJP1047
-  server: v2ray.ok1991.ml
-  port: 19923
+  network: ws
+  ws-path: /2U4LiB6X/
+  ws-headers:
+    Host: 85.209.159.105
+- name: 0.27| RelayUSIE40
+  server: 104.16.196.47
+  port: 443
   type: vmess
-  uuid: 47c1ba9b-4c51-4144-8bdb-b203d747054f
+  uuid: 3256a220-3c95-4844-839c-3b509c1c0997
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /15haoche
+  ws-path: /ray
   ws-headers:
-    Host: v2ray.ok1991.ml
-- name: 0.20|德国阿伟科技TG油管
-  server: v6d1.moonfree.top
-  port: 443
+    Host: production.flat-firefly-71d2.v20210811.workers.dev
+- name: 0.26|香港TG阿伟科技油管 10
+  server: hkmf1.speedcncnforward2.tk
+  port: 8443
+  type: trojan
+  password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6
+  skip-cert-verify: true
+  udp: true
+- name: 0.25|美国TG阿伟科技油管 25
+  server: sjc.xrenblog.com
+  port: 18888
   type: vmess
-  uuid: aa5dd703-195d-4682-8c35-ea0083ea1a74
+  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /xrenblog
     headers:
-      Host: v6d1.moonfree.top
+      Host: sjc.xrenblog.com
   udp: true
-- name: 0.15|defaultname13
-  server: 198.41.212.6
+- name: 0.23|美国TG阿伟科技油管 3
+  server: hkmf2.speedcncnforward2.tk
+  port: 8443
+  type: trojan
+  password: d0173f59-c7e7-4bb0-bc09-3da657c70dd6
+  skip-cert-verify: true
+  udp: true
+- name: 0.23| RelayUSUS27
+  server: 104.21.84.81
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
   alterId: 0
   cipher: auto
-  country: defaultname13
-  skip-cert-verify: true
   tls: true
   network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 0.14| RelayUSUS31
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero2.a-yu.xyz
+- name: 0.22| RelayUSUS31
   server: fri.ncugo.cf
   port: 443
   type: vmess
@@ -96,3 +160,161 @@ proxies:
   ws-path: /
   ws-headers:
     Host: fri.ncugo.cf
+- name: 0.22| RelayUSUS3556
+  server: bpjzx2.cainiao.tk
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-headers:
+    Host: orange-mode-ac6a.xjp0mx2cp.workers.dev
+- name: 0.21|ZZ598
+  server: 198.41.221.169
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 0.20| RelayUSUS29
+  server: niaop.tk
+  port: 443
+  type: vmess
+  uuid: a0b0df87-bda2-440e-830f-347da6cc7760
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /wsssdr1
+  ws-headers:
+    Host: niaop.tk
+- name: 0.20| RelaySGDE21
+  server: eu.licom.ga
+  port: 62011
+  type: vmess
+  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: eu.licom.ga
+- name: 0.19| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: YcQgIbGZNNd1PwsF
+  sni: misaka1433.tk
+- name: 0.18| RelayUSCN35
+  server: cloudflare.xrenblog.com
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: v4.xrenblog.com
+- name: 0.18| RelayUSUS32
+  server: oz.moonfree.top
+  port: 443
+  type: vmess
+  uuid: ecea9b32-d571-460f-bb74-2010c6acd6ff
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: oz.moonfree.top
+- name: 0.18| RelayUSUA30
+  server: cf.rutracker-cn.com
+  port: 443
+  type: vmess
+  uuid: 55dc4077-3fed-4903-9c39-a3b12cb979db
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /cdwOCfZC
+  ws-headers:
+    Host: cf.rutracker-cn.com
+- name: 0.17|德国TG阿伟科技油管 5
+  server: v6d1.moonfree.top
+  port: 443
+  type: vmess
+  uuid: ecea9b32-d571-460f-bb74-2010c6acd6ff
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: v6d1.moonfree.top
+  udp: true
+- name: 0.16| RelayUSUA3567
+  server: ce.rutracker-cn.com
+  port: 443
+  type: vmess
+  uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /IqTUMDzwOI
+  ws-headers:
+    Host: ce.rutracker-cn.com
+- name: 0.14| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+  server: clash2.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.12|美国TG阿伟科技油管 19
+  server: tj-us01.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  skip-cert-verify: true
+  udp: true
+- name: 0.12|456615974ws
+  server: 45.66.159.74
+  port: 58055
+  type: vmess
+  uuid: e5dfca9a-b6cb-11ec-9c2f-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /xEzyADCa/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.12| RelayUSUS3568
+  server: cd.rutracker-cn.com
+  port: 443
+  type: vmess
+  uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /PK2tDAFP
+  ws-headers:
+    Host: cd.rutracker-cn.com
