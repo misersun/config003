@@ -1,114 +1,38 @@
 proxies:
-- name: 3.39| TR HK03
-  server: azhk.fenglingcloud.com
-  port: 28002
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azhk03.webapi.cyou
-- name: 1.99| TR HK05
-  server: azhk.fenglingcloud.com
-  port: 28003
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azhk04dl.webapi.cyou
-- name: 1.78| RelayUSUS71
-  server: hk1.qingyun123.xyz
-  port: 10050
-  type: trojan
-  password: 4f278153-2043-412e-a5eb-ea730d5978e1
-  sni: hk1.qingyun123.xyz
-- name: 1.63| TR KR01
-  server: azhk.fenglingcloud.com
-  port: 28004
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azkr.webapi.cyou
-- name: 0.83| TR NO01
-  server: azhk.fenglingcloud.com
-  port: 28006
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: aznw01.webapi.cyou
-- name: 0.66| RelayUSUS70
-  server: kr1.qingyun123.xyz
-  port: 10050
-  type: trojan
-  password: 4f278153-2043-412e-a5eb-ea730d5978e1
-  sni: kr1.qingyun123.xyz
-- name: 0.65| RelayUSUS59
-  server: fri.ncugo.cf
-  port: 443
+- name: 0.98|美国TG阿伟科技油管 42
+  server: us2.lolvps.xyz
+  port: 60061
   type: vmess
-  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fri.ncugo.cf
-- name: 0.55| TR US01
-  server: azhk.fenglingcloud.com
-  port: 28007
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: ocrus.webapi.cyou
-- name: 0.55|RelayGBGB37
-  server: rknc.xrenblog.com
-  port: 18888
-  type: vmess
-  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xrenblog
-  ws-headers:
-    Host: rknc.xrenblog.com
-- alterId: 0
-  cipher: auto
-  name: 0.41|0412oslook加拿大CACanadaMontreal50
-  network: ws
-  port: 443
-  server: 198.41.212.9
-  tls: true
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  ws-opts:
-    headers:
-      host: zero1.a-yu.xyz
-    path: /sakura/
-- name: 0.38|美国TG阿伟科技油管 31
-  server: v2ray.ifuckgfw.ga
-  port: 8443
-  type: vmess
-  uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42
+  uuid: bf9a1ef0-9e68-447b-ae58-6617b2eedffa
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /yUxLk70F/
+    path: /MI3W3NM8
     headers:
-      Host: v2ray.ifuckgfw.ga
+      Host: us2.lolvps.xyz
   udp: true
-- name: 0.35|香港TG阿伟科技油管 4
-  server: hk2.frp6.top
+- name: 0.46| RelayUSJP66
+  server: v2ray.788644.xyz
   port: 443
   type: vmess
-  uuid: f0ce45f6-6c45-4c8b-9432-2c40667c495a
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk2.frp6.top
-  udp: true
-- name: 0.35|美国TG阿伟科技油管 5
+  ws-path: /happy
+  ws-headers:
+    Host: v2ray.788644.xyz
+- name: 0.40| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 0.38|美国TG阿伟科技油管 5
   server: 4.ezydfdd.com
   port: 443
   type: vmess
@@ -123,121 +47,37 @@ proxies:
     headers:
       Host: 4.ezydfdd.com
   udp: true
-- name: 0.34| RelayUSUS64
-  server: niaop.tk
+- name: 0.30| RelayUSUS59
+  server: fri.ncugo.cf
   port: 443
   type: vmess
-  uuid: a0b0df87-bda2-440e-830f-347da6cc7760
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /wsssdr1
-  ws-headers:
-    Host: niaop.tk
-- name: 0.31| RelayUSJP66
-  server: v2ray.788644.xyz
-  port: 443
-  type: vmess
-  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /happy
-  ws-headers:
-    Host: v2ray.788644.xyz
-- name: 0.29|德国TG阿伟科技油管
-  server: v6d1.moonfree.top
-  port: 443
-  type: vmess
-  uuid: 8fb115e3-4870-4396-b276-7fee9964298e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v6d1.moonfree.top
-  udp: true
-- name: 0.28| RelayUSUA68
-  server: cg.rutracker-cn.com
-  port: 443
-  type: vmess
-  uuid: 5cf05a99-0d57-419e-99f6-8f2b447f129b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /teishTqRb
-  ws-headers:
-    Host: cg.rutracker-cn.com
-- alterId: 0
-  cipher: auto
-  name: 0.27|0412oslook加拿大CACanadaMontreal37
-  network: ws
-  port: 443
-  server: 198.41.212.13
-  tls: true
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  ws-opts:
-    headers:
-      host: zero1.a-yu.xyz
-    path: /sakura/
-- name: 0.25| RelayUSUS75
-  server: hex.eeeqq.tk
-  port: 443
-  type: vmess
-  uuid: ce36b301-63d8-40b3-f701-aae480998267
+  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: hex.eeeqq.tk
-- name: 0.15|HK香港62
-  server: vs.mumi.bid
-  port: 10124
-  type: vmess
-  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
-  alterId: 0
-  cipher: auto
-  country: HK香港62
-  skip-cert-verify: true
-  tls: true
-  network: ws
-- name: 0.15| RelayUSUS69
-  server: cd.rutracker-cn.com
+    Host: fri.ncugo.cf
+- name: 0.25|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
   port: 443
-  type: vmess
-  uuid: 8f5ccb11-a196-4c07-a6d2-aa9fbe10a737
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /PK2tDAFP
-  ws-headers:
-    Host: cd.rutracker-cn.com
-- name: 0.14|美国TG阿伟科技油管 2
-  server: sjc.xrenblog.com
-  port: 18888
-  type: vmess
-  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xrenblog
-    headers:
-      Host: sjc.xrenblog.com
-  udp: true
-- name: 0.12| RelaySGUS39
+  type: trojan
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 0.22| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+- name: 0.19| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: YcQgIbGZNNd1PwsF
+  sni: misaka1433.tk
+- name: 0.11| RelaySGUS39
   server: eu.licom.ga
   port: 60001
   type: trojan
