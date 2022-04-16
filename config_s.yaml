@@ -1,41 +1,32 @@
 proxies:
-- name: 5.02| 甲骨文首尔ARM2trojan
+- name: 6.54| 甲骨文首尔ARM2trojan
   server: jgw4.gaox.ml
   port: 443
   type: trojan
   password: b7e0e71f-070c-437a-9826-6e23caeb0307
   sni: jgw4.gaox.ml
-- name: 0.90| SSRSUB俄罗斯V05付费推荐dljtfssrsub
-  server: v5.ssrsub.com
-  port: 8443
+- name: 2.18| RelayHKHK932
+  server: 6.vip341.xyz
+  port: 443
   type: vmess
-  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
+  uuid: 7be6ddbc-697e-3175-9dad-cfdfe33450f2
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ssrsub
+  ws-path: /ny
   ws-headers:
-    Host: v5.ssrsub.com
-- name: 0.81|SSRSUBV14付费推荐suoytssrsub
-  server: vs.mumi.bid
-  port: 10124
-  type: vmess
-  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vs.mumi.bid
-- name: 0.75| githubcomfreefq  美国Microsoft数据中心 9
-  server: kr1.qingyun123.xyz
-  port: 10050
+    Host: 6.vip341.xyz
+- name: 2.11|RelayUSUS964
+  server: azhk.fenglingcloud.com
+  port: 28007
   type: trojan
-  password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc
-  sni: kr1.qingyun123.xyz
-- name: 0.71| SSRSUB俄罗斯V04付费推荐dljtfssrsub
+  password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244
+  sni: azhk.fenglingcloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 0.85| RelayUSRU39
   server: v4.ssrsub.com
   port: 8443
   type: vmess
@@ -47,83 +38,7 @@ proxies:
   ws-path: /ssrsub
   ws-headers:
     Host: v4.ssrsub.com
-- name: 0.68| RelayUSRU26
-  server: oz.moonfree.top
-  port: 443
-  type: vmess
-  uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: oz.moonfree.top
-- name: 0.67|RelayUSUS964
-  server: azhk.fenglingcloud.com
-  port: 28007
-  type: trojan
-  password: 4b3903e2-f2a2-4831-95be-03cc8e3a7244
-  sni: azhk.fenglingcloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.56| SSRSUB俄罗斯V02付费推荐dljtfssrsub
-  server: v2.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v2.ssrsub.com
-- name: 0.52| SSRSUB俄罗斯V01付费推荐dljtfssrsub
-  server: v1.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v1.ssrsub.com
-- name: 0.50| SSRSUB俄罗斯V03付费推荐dljtfssrsub
-  server: v3.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v3.ssrsub.com
-- name: 0.49| US543
-  server: fri.ncugo.cf
-  port: 443
-  type: vmess
-  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fri.ncugo.cf
-- name: 0.46|Relay 9824Mb
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.31| RelayUSUS3727
+- name: 0.77| RelayUSUS42
   server: niaop.tk
   port: 443
   type: vmess
@@ -135,20 +50,147 @@ proxies:
   ws-path: /wsssdr1
   ws-headers:
     Host: niaop.tk
-- alterId: 0
-  cipher: auto
-  name: 0.30|0415oslook加拿大CACanadaMontreal50
-  network: ws
-  port: 443
-  server: 198.41.212.9
-  tls: true
+- name: 0.73| RelayUSUS33
+  server: 104.16.162.16
+  port: 2053
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  ws-opts:
-    headers:
-      host: zero1.a-yu.xyz
-    path: /sakura/
-- name: 0.28| githubcomfreefq  美国  29
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxus.fovi.tk
+- name: 0.71| RelayUSUS3710
+  server: hk4.fdns.unino.tech
+  port: 443
+  type: vmess
+  uuid: eb90ad94-9b20-4075-af26-e8e17ff12258
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk4.fdns.unino.tech
+- name: 0.60| RelayUSRU40
+  server: oz.moonfree.top
+  port: 443
+  type: vmess
+  uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: oz.moonfree.top
+- name: 0.57| RelayUSRU28
+  server: v5.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v5.ssrsub.com
+- name: 0.52|RelayCACA05
+  server: 330tw.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 330tw.fans8.xyz
+- name: 0.49|RelayCACA466
+  server: 0326hk01.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0326hk01.fans8.xyz
+- name: 0.47| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: YcQgIbGZNNd1PwsF
+  sni: misaka1433.tk
+- name: 0.46| RelayUSFI27
+  server: hax2.hax01.ml
+  port: 443
+  type: vmess
+  uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hax2.hax01.ml
+- name: 0.42| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- name: 0.41| RelayUSJP34
+  server: v2ray.788644.xyz
+  port: 443
+  type: vmess
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /happy
+  ws-headers:
+    Host: v2ray.788644.xyz
+- name: 0.41|Relay 9824Mb
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 0.39| RelayZZUS51
+  server: cloudflare.xrenblog.com
+  port: 443
+  type: vmess
+  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /xrenblog/
+  ws-headers:
+    Host: ipv6.xrenblog.com
+- name: 0.38|RelayCACA468
+  server: 331tw.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 331tw.fans8.xyz
+- name: 0.37| githubcomfreefq  美国  29
   server: sjc.xrenblog.com
   port: 18888
   type: vmess
@@ -160,27 +202,33 @@ proxies:
   ws-path: /xrenblog
   ws-headers:
     Host: sjc.xrenblog.com
-- name: 0.22|甲骨文海得拉巴ARM2trojan
+- name: 0.37|甲骨文海得拉巴ARM2trojan
   server: jgwhdlb4.gaox.ml
   port: 443
   type: trojan
   password: 081a4198-d664-4bc5-a7c6-e35982da964b
   sni: jgwhdlb4.gaox.ml
-- name: 0.15| 日本节点免费倍率0x不消耗流量
-  server: rbmf.speedcncnforward3.tk
-  port: 10004
-  type: trojan
-  password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c
-  sni: rbmf.speedcncnforward3.tk
-- name: 0.15| 美国 迈阿密
-  server: misaka1433.tk
+- name: 0.32|ZZ633
+  server: 198.41.221.169
   port: 443
-  type: trojan
-  password: YcQgIbGZNNd1PwsF
-  sni: misaka1433.tk
-- name: 0.13| 香港节点2免费倍率0x不消耗流量
-  server: hkmf2.speedcncnforward3.tk
-  port: 10004
-  type: trojan
-  password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c
-  sni: hkmf2.speedcncnforward3.tk
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 0.31|CA06
+  server: 165.154.225.176
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0326hk01.fans8.xyz
