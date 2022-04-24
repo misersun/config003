@@ -1,20 +1,32 @@
 proxies:
-- name: 1.84| 直连香港01免流portdnsfreetop
-  server: 20.239.49.44
-  port: 80
+- name: 2.63|RelayILIL1086
+  server: ru1.lolvps.xyz
+  port: 40040
   type: vmess
-  uuid: 4cafb0f4-d4e9-424a-9ba4-e58cec66ac85
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
-  ws-path: /
+  ws-path: /6129CFHR
   ws-headers:
-    Host: tiebapic.baidu.com
+    Host: ru1.lolvps.xyz
+- name: 1.27| RelayZAUS3880
+  server: us1.lolvps.xyz
+  port: 60060
+  type: vmess
+  uuid: 95886c76-9207-48bd-9e64-d1422e75ad89
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /AY920UMR
+  ws-headers:
+    Host: us1.lolvps.xyz
 - alterId: 1
   cipher: auto
   country: mattkaydiarycom加拿大CACanadaToronto6
-  name: 1.08|0422oslook加拿大CACanadaToronto6
+  name: 0.91|0423oslook加拿大CACanadaToronto6
   network: ws
   port: 443
   server: v2fly.sab.quest
@@ -26,14 +38,66 @@ proxies:
     headers:
       host: v2fly.samrt.website
     path: /chcar
-- name: 0.76| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
+- name: 0.71| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
   type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 0.64| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
-  server: clash4.free4444.xyz
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 0.63|JP日本6
+  server: v2.godlight.xyz
+  port: 26933
+  type: vmess
+  uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183
+  alterId: 0
+  cipher: auto
+  country: JP日本6
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /f34f3-f32f364
+    headers:
+      host: v2.godlight.xyz
+- name: 0.59|defaultname4
+  server: 104.19.3.16
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 1
+  cipher: auto
+  country: defaultname4
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /chcar
+    headers:
+      host: v2fly.samrt.website
+- name: 0.52| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶2SSR
+  server: 85.209.158.30
+  port: 18866
+  type: ssr
+  cipher: aes-256-cfb
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.52| RelayAUAU295
+  server: 421hk.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 82a96743-115b-356d-90ae-2928f32d8958
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 421hk.fans8.xyz
+- name: 0.52| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶1SSR
+  server: clash1.free4444.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -42,38 +106,38 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.61|16181496ws
-  server: 161.8.149.6
-  port: 62974
-  type: vmess
-  uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ZXfq8Vm7/
-  ws-headers:
-    Host: 161.8.149.6
-- name: 0.57| PoolNL33
-  server: 85.209.159.107
-  port: 20403
-  type: vmess
-  uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /Asq7j5Mb/
-  ws-headers:
-    Host: 85.209.159.107
-- name: 0.53| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
+- name: 0.51| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
   port: 443
   type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- name: 0.52| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶3SSR
-  server: ssr1.free4444.xyz
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 0.48| githubcomfreefq  日本东京Linode数据中心 9
+  server: jp.567568.ml
+  port: 443
+  type: trojan
+  password: 1293e022-6347-4d7e-8425-e65576b6ae0e
+  sni: jp.567568.ml
+- name: 0.44| RelaySGSG66
+  server: v2-3.godlight.xyz
+  port: 39273
+  type: vmess
+  uuid: 6a52f259-4367-468c-a828-7b8283c2f059
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /f45361465j175
+  ws-headers:
+    Host: v2-3.godlight.xyz
+- name: 0.43|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 0.42| httpsgithuhttpsgithubcomAlvin9999newpacwiki clash ip2洛杉矶SSR
+  server: clash2.free4444.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -82,7 +146,159 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.49| RelayKRKR1219
+- name: 0.37| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 0.36| RelayUSDE3819
+  server: fumetsuseiko.tk
+  port: 443
+  type: vmess
+  uuid: 3364a992-7e4a-4551-d488-e3fad37421ad
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: fumetsuseiko.tk
+- name: 0.35|US美国KR韩国22
+  server: v2ray.788644.xyz
+  port: 443
+  type: vmess
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  alterId: 0
+  cipher: auto
+  country: US美国KR韩国22
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /happy
+- name: 0.34|RelayGBGB28
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- name: 0.31| RelayUSGB76
+  server: app.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: 6ee654d6-c31e-11ec-b83f-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: app.ssfree.ru
+- name: 0.30|US美国9
+  server: node.774.gs
+  port: 8443
+  type: vmess
+  uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143
+  alterId: 0
+  cipher: auto
+  country: US美国9
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: node.774.gs
+- name: 0.29| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 0.26| 甲骨文悉尼AMD1trojan
+  server: jgwxn1.gaox.ml
+  port: 443
+  type: trojan
+  password: 0f715619-0037-4358-a7c6-958106bc6b49
+  sni: jgwxn1.gaox.ml
+- name: 0.26| RelayUSUS79
+  server: 1chuan.top
+  port: 443
+  type: vmess
+  uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /evo
+  ws-headers:
+    Host: 1chuan.top
+- name: 0.26| RelayUSJP82
+  server: v2-1.godlight.xyz
+  port: 12233
+  type: vmess
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /j75g1461x
+  ws-headers:
+    Host: v2-1.godlight.xyz
+- name: 0.25| 甲骨文悉尼AMD2trojan
+  server: jgwxn2.gaox.ml
+  port: 443
+  type: trojan
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  sni: jgwxn2.gaox.ml
+- name: 0.24|US美国FR法国10
+  server: freestarway.tk
+  port: 443
+  type: vmess
+  uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031
+  alterId: 0
+  cipher: auto
+  country: US美国FR法国10
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 0.21| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 0.20|8821892145ws
+  server: 88.218.92.145
+  port: 22407
+  type: vmess
+  uuid: 7a894129-eb94-43e3-b48e-25a255a0f346
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 88.218.92.145
+- name: 0.20|US美国8
+  server: top.njiang.tk
+  port: 443
+  type: vmess
+  uuid: b2d062be-1912-4523-96c9-4f0f101c931b
+  alterId: 0
+  cipher: auto
+  country: US美国8
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /wivhvws
+    headers:
+      host: top.njiang.tk
+- name: 0.20| RelayUSUS81
   server: v2-5.godlight.xyz
   port: 39783
   type: vmess
@@ -94,55 +310,21 @@ proxies:
   ws-path: /71h4b3s1f53
   ws-headers:
     Host: v2-5.godlight.xyz
-- name: 0.49|JP日本2
-  server: v2.godlight.xyz
-  port: 26933
+- name: 0.19| US3826
+  server: 193.123.234.71
+  port: 57380
   type: vmess
-  uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183
-  alterId: 0
+  uuid: 18b6eedb-3314-40f7-e20c-e8a8bc6917a7
+  alterId: 2
   cipher: auto
-  country: JP日本2
-  skip-cert-verify: true
-  tls: true
+  tls: false
   network: ws
-  ws-opts:
-    path: /f34f3-f32f364
-    headers:
-      host: v2.godlight.xyz
-- alterId: 0
-  cipher: auto
-  country: mattkaydiarycom美国USUSASanFrancisco9
-  name: 0.47|0422oslook美国USUSASanFrancisco9
-  network: ws
-  port: 443
-  server: 8.ezydfdd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: dc0887b9-4c05-428c-adce-4235d1636341
-  ws-opts:
-    headers:
-      host: 8.ezydfdd.com
-    path: /qwe
-- name: 0.45| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
-  server: clash3.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.43| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: YcQgIbGZNNd1PwsF
-  sni: misaka1433.tk
-- name: 0.41| US47
-  server: hkaz6.xmrth-node.xyz
-  port: 11284
+  ws-path: /
+  ws-headers:
+    Host: liill2022.ga
+- name: 0.18| RelayUSUS3830
+  server: jpaz1.xmrth-node.xyz
+  port: 10058
   type: vmess
   uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b
   alterId: 2
@@ -152,183 +334,35 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: www.baidu.com
-- name: 0.39|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 0.39| RelayUSGB49
-  server: app.ssfree.ru
-  port: 443
+- name: 0.17| US3827
+  server: 193.123.234.71
+  port: 30067
   type: vmess
-  uuid: 447789be-c255-11ec-9bcf-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: app.ssfree.ru
-- name: 0.39| RelayUSUS3772
-  server: top.njiang.tk
-  port: 443
-  type: vmess
-  uuid: b2d062be-1912-4523-96c9-4f0f101c931b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /wivhvws
-  ws-headers:
-    Host: top.njiang.tk
-- name: 0.37| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 0.35|USwmt42323
-  server: 93.179.112.142
-  port: 54317
-  type: vmess
-  uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d
-  alterId: 0
+  uuid: 0274c81b-fd1d-4aa2-c247-b8feb478b7bb
+  alterId: 2
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.35|AUwmt42315
-  server: jgwxn3.gaox.ml
-  port: 443
-  type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.35|GBwmt42136
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.34| RelayUSUS3773
-  server: node.774.gs
-  port: 8443
-  type: vmess
-  uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143
-  alterId: 0
-  cipher: auto
-  tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: node.774.gs
-- name: 0.32|456615943ws
-  server: 45.66.159.43
-  port: 26628
+    Host: liill2022.ga
+- name: 0.15|RelayLULU53
+  server: ru-1-fast.teacher2060.com
+  port: 31319
   type: vmess
-  uuid: e335e880-c128-11ec-93fa-00163cbed88a
+  uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /A4LCl0QX/
-  ws-headers:
-    Host: 45.66.159.43
-- name: 0.32|INwmt42350
-  server: jgwhdlb2.gaox.ml
+- name: 0.14|RelayININ31
+  server: doin.node003.insnow.xyz
+  port: 9933
+  type: trojan
+  password: 9a057015-6dfb-4b57-9f69-877423598741
+  sni: doin.node003.insnow.xyz
+- name: 0.12| 甲骨文伦敦AMD2trojan
+  server: jgwld2.gaox.ml
   port: 443
   type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.31|wmt42370
-  server: freestarway.tk
-  port: 443
-  type: vmess
-  uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: freestarway.tk
-  udp: true
-- name: 0.30| RelaySGSG39
-  server: sanfranciscolafayette.club
-  port: 443
-  type: vmess
-  uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /neuromancer
-  ws-headers:
-    Host: sanfranciscolafayette.club
-- name: 0.30| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- name: 0.27| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 0.26|AUwmt42361
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.24|NLwmt42139
-  server: 152.70.49.174
-  port: 55988
-  type: vmess
-  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.20| 甲骨文悉尼AMD2trojan
-  server: jgwxn2.gaox.ml
-  port: 443
-  type: trojan
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  sni: jgwxn2.gaox.ml
-- name: 0.17|甲骨文海得拉巴ARM1trojan
-  server: jgwhdlb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  sni: jgwhdlb3.gaox.ml
-- name: 0.16| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 0.14| RelayAUAU04
-  server: jgwxn1.gaox.ml
-  port: 443
-  type: trojan
-  password: 0f715619-0037-4358-a7c6-958106bc6b49
-  sni: jgwxn1.gaox.ml
-- name: 0.14| 甲骨文伦敦AMD1trojan
-  server: jgwld1.gaox.ml
-  port: 443
-  type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  sni: jgwld1.gaox.ml
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
+  sni: jgwld2.gaox.ml
