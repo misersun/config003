@@ -1,25 +1,32 @@
 proxies:
-- name: 1.45| githubcomfreefq  美国Microsoft数据中心 3
-  server: hkaz5.xmrth-node.xyz
-  port: 13889
+- name: 0.45|台湾TG阿伟科技油管 7
+  server: 132.145.125.23
+  port: 39693
   type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 0.81|香港TG阿伟科技油管 6
-  server: 43.154.46.228
-  port: 49930
-  type: vmess
-  uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b
+  uuid: c93dab4c-6d91-4a11-8f33-eefa086099e2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  udp: true
+- name: 0.33|美国TG阿伟科技油管 24
+  server: 207.246.94.28
+  port: 42383
+  type: vmess
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.30| AU197
+  server: 43.135.70.192
+  port: 24740
+  type: vmess
+  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
+  alterId: 0
+  cipher: auto
+  tls: false
   network: http
   http-opts:
     method: GET
@@ -27,89 +34,32 @@ proxies:
     - /
     headers:
       Host:
-      - 43.154.46.228
+      - 43.135.70.192
+- name: 0.25|台湾TG阿伟科技油管 6
+  server: gc1.criskaka.com
+  port: 45658
+  type: vmess
+  uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
-- name: 0.71| US75
-  server: 154.17.18.22
-  port: 40091
+- name: 0.21|美国TG阿伟科技油管 9
+  server: sg.guiqing.ml
+  port: 43956
   type: vmess
-  uuid: 40857065-7603-41e3-8120-c947821c1201
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.32| US90
-  server: 66.42.111.55
-  port: 35874
+  skip-cert-verify: true
+  udp: true
+- name: 0.14|澳大利亚TG阿伟科技油管
+  server: 43.154.102.246
+  port: 39509
   type: vmess
-  uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /0BFK7hzT/
-  ws-headers:
-    Host: 66.42.111.55
-- name: 0.32| US83
-  server: 96.45.163.53
-  port: 9999
-  type: vmess
-  uuid: f9f8ffc1-6bf3-415d-a169-84edbf634f28
-  alterId: 4
-  cipher: auto
-  tls: false
-- name: 0.28| PoolNL62
-  server: 85.209.159.107
-  port: 20403
-  type: vmess
-  uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /Asq7j5Mb/
-  ws-headers:
-    Host: 85.209.159.107
-- name: 0.27|16181497ws
-  server: 161.8.149.7
-  port: 38822
-  type: vmess
-  uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ZXfq8Vm7/
-  ws-headers:
-    Host: 161.8.149.7
-- name: 0.18| RelayUSJP3727
-  server: jpaz4.xmrth-node.xyz
-  port: 13869
-  type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 0.17| RelayUSSG3749
-  server: hkaz4.xmrth-node.xyz
-  port: 13302
-  type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 0.16|美国TG阿伟科技油管 20
-  server: 152.70.49.174
-  port: 55988
-  type: vmess
-  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  uuid: 9555680d-9857-4266-a97b-cb8b393d6e98
   alterId: 0
   cipher: auto
   tls: false
