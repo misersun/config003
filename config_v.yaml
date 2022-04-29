@@ -1,25 +1,32 @@
 proxies:
-- name: 0.45|台湾TG阿伟科技油管 7
-  server: 132.145.125.23
-  port: 39693
+- name: 2.27|YouTube阿伟科技 38 2
+  server: vn05v2.datapn.net
+  port: 80
   type: vmess
-  uuid: c93dab4c-6d91-4a11-8f33-eefa086099e2
+  uuid: aac062d5-8399-4586-991c-c02eea0e9b0c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /datapn
+    headers:
+      Host: livestream2.tv360.vn
   udp: true
-- name: 0.33|美国TG阿伟科技油管 24
-  server: 207.246.94.28
-  port: 42383
+- name: 1.49| RelayHKDE1123
+  server: hkaz3.xmrth-node.xyz
+  port: 12568
   type: vmess
-  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
-  alterId: 0
+  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  alterId: 2
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.30| AU197
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 1.41| AU200
   server: 43.135.70.192
   port: 24740
   type: vmess
@@ -35,33 +42,116 @@ proxies:
     headers:
       Host:
       - 43.135.70.192
-- name: 0.25|台湾TG阿伟科技油管 6
-  server: gc1.criskaka.com
-  port: 45658
+- name: 0.71|YouTube阿伟科技 80
+  server: 149.248.1.76
+  port: 27266
   type: vmess
-  uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e
+  uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /QEc5C9RG/
+    headers:
+      Host: 149.248.1.76
+  udp: true
+- name: 0.67|8821892145ws
+  server: 88.218.92.145
+  port: 26816
+  type: vmess
+  uuid: 6a0799a6-db0d-4067-a1d5-b143a54085c4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 88.218.92.145
+- name: 0.46|台湾TG阿伟科技油管 7
+  server: 132.145.125.23
+  port: 39693
+  type: vmess
+  uuid: c93dab4c-6d91-4a11-8f33-eefa086099e2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.21|美国TG阿伟科技油管 9
-  server: sg.guiqing.ml
-  port: 43956
+- name: 0.38| RelayHKSG1122
+  server: hkaz3.xmrth-node.xyz
+  port: 12567
   type: vmess
-  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 0.36|10861217130ws
+  server: 108.61.217.130
+  port: 49632
+  type: vmess
+  uuid: 9d9f370b-0d42-4850-8aa7-379b4333fb26
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /9nTNbW8X/
+  ws-headers:
+    Host: 108.61.217.130
+- name: 0.30| RelayUSSG29
+  server: hkaz4.xmrth-node.xyz
+  port: 13302
+  type: vmess
+  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 0.22|YouTube阿伟科技 3
+  server: 40.81.24.182
+  port: 80
+  type: vmess
+  uuid: 5bb3188a-cea1-4733-a541-d918896a51df
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 40.81.24.182
+  udp: true
+- name: 0.19|YouTube阿伟科技 91
+  server: 140.238.48.194
+  port: 8888
+  type: vmess
+  uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.14|澳大利亚TG阿伟科技油管
-  server: 43.154.102.246
-  port: 39509
+- name: 0.19|YouTube阿伟科技 77
+  server: 85.209.159.107
+  port: 20403
   type: vmess
-  uuid: 9555680d-9857-4266-a97b-cb8b393d6e98
+  uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /Asq7j5Mb/
+    headers:
+      Host: 85.209.159.107
   udp: true
