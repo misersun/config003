@@ -1,5 +1,129 @@
 proxies:
-- name: 1.07| githubcomfreefq  美国  12
+- name: 2.06| RelayUSCZ3764
+  server: jp02-vm0.entry.ikuuu.casa
+  port: 444
+  type: vmess
+  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp02-vm0.entry.ikuuu.casa
+- name: 1.61| RelayJPCZ1231
+  server: jp02-vm0.entry.ikuuu.casa
+  port: 447
+  type: vmess
+  uuid: 1574e157-8b18-3ec3-9b68-fc744fe8fdeb
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp02-vm0.entry.ikuuu.casa
+- name: 1.52| RelayUSCZ3763
+  server: jp02-vm0.ikuuu.casa
+  port: 444
+  type: vmess
+  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp02-vm0.ikuuu.casa
+- name: 1.36| RelayUSCZ3769
+  server: jp06-vm0.entry.ikuuu.casa
+  port: 444
+  type: vmess
+  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp06-vm0.entry.ikuuu.casa
+- name: 1.01| RelayUSUS3814
+  server: mg.laoyouv2.top
+  port: 10080
+  type: vmess
+  uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: mg.laoyouv2.top
+- name: 0.68| RelayUSCZ3770
+  server: jp06-vm0.entry.ikuuu.casa
+  port: 448
+  type: vmess
+  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp06-vm0.entry.ikuuu.casa
+- name: 0.56| US3819
+  server: 155.248.202.203
+  port: 14564
+  type: vmess
+  uuid: 4a0da379-a7cc-4389-88d7-45514b896883
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.55| RelayUSCZ3753
+  server: jp03-vm0.entry.ikuuu.casa
+  port: 448
+  type: vmess
+  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp03-vm0.entry.ikuuu.casa
+- name: 0.55| US55
+  server: 152.70.49.174
+  port: 55988
+  type: vmess
+  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.54| RelayUSCZ3768
+  server: jp02-vm0.entry.ikuuu.casa
+  port: 448
+  type: vmess
+  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: jp02-vm0.entry.ikuuu.casa
+- name: 0.35| TW46
+  server: 61.222.202.140
+  port: 33792
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 61.222.202.140
+- name: 0.33| US3747
   server: 152.70.88.168
   port: 49081
   type: vmess
@@ -7,75 +131,3 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.58|10861217130ws
-  server: 108.61.217.130
-  port: 49632
-  type: vmess
-  uuid: 9d9f370b-0d42-4850-8aa7-379b4333fb26
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /9nTNbW8X/
-  ws-headers:
-    Host: 108.61.217.130
-- name: 0.46| NL1478
-  server: 176.119.148.75
-  port: 18908
-  type: vmess
-  uuid: e8da5688-d160-40cc-cd1d-94244197eac4
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.35| AU189
-  server: 43.135.70.192
-  port: 24740
-  type: vmess
-  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 43.135.70.192
-- name: 0.34| US58
-  server: 20.211.32.62
-  port: 6666
-  type: vmess
-  uuid: 95ea233c-5044-4771-bee6-53fe0ea38727
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.211.32.62
-- name: 0.29| US3692
-  server: 45.76.175.3
-  port: 39723
-  type: vmess
-  uuid: edf11a4e-3d4d-456e-87a1-c657f05bff5e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aTthb8Zx/
-  ws-headers:
-    Host: 45.76.175.3
-- name: 0.28| PoolNL46
-  server: 85.209.159.107
-  port: 20403
-  type: vmess
-  uuid: b3b08b1c-c0a4-11ec-8151-00163c3fe0cd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /Asq7j5Mb/
-  ws-headers:
-    Host: 85.209.159.107
