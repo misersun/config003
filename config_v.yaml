@@ -1,77 +1,57 @@
 proxies:
-- name: 2.06| RelayUSCZ3764
-  server: jp02-vm0.entry.ikuuu.casa
-  port: 444
+- name: 3.36| AU194
+  server: 43.154.77.196
+  port: 38539
   type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp02-vm0.entry.ikuuu.casa
-- name: 1.61| RelayJPCZ1231
-  server: jp02-vm0.entry.ikuuu.casa
-  port: 447
-  type: vmess
-  uuid: 1574e157-8b18-3ec3-9b68-fc744fe8fdeb
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp02-vm0.entry.ikuuu.casa
-- name: 1.52| RelayUSCZ3763
-  server: jp02-vm0.ikuuu.casa
-  port: 444
-  type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp02-vm0.ikuuu.casa
-- name: 1.36| RelayUSCZ3769
-  server: jp06-vm0.entry.ikuuu.casa
-  port: 444
-  type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp06-vm0.entry.ikuuu.casa
-- name: 1.01| RelayUSUS3814
-  server: mg.laoyouv2.top
-  port: 10080
-  type: vmess
-  uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f
+  uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: mg.laoyouv2.top
-- name: 0.68| RelayUSCZ3770
-  server: jp06-vm0.entry.ikuuu.casa
-  port: 448
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.77.196
+- name: 1.37|日本TG阿伟科技油管 10
+  server: dj1.cgov.xyz
+  port: 80
   type: vmess
-  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
-  alterId: 1
+  uuid: 1e30f0c9-a395-4c35-bfcd-7941c9b60a48
+  alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp06-vm0.entry.ikuuu.casa
-- name: 0.56| US3819
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube-TG
+  udp: true
+- name: 0.46|日本TG阿伟科技油管 3
+  server: dj3.cgov.xyz
+  port: 80
+  type: vmess
+  uuid: 1e30f0c9-a395-4c35-bfcd-7941c9b60a48
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube-TG
+  udp: true
+- name: 0.29| US69
   server: 155.248.202.203
   port: 14564
   type: vmess
@@ -79,55 +59,15 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.55| RelayUSCZ3753
-  server: jp03-vm0.entry.ikuuu.casa
-  port: 448
+- name: 0.10| RelayUSDE74
+  server: hkaz1.xmrth-node.xyz
+  port: 10033
   type: vmess
-  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
-  alterId: 1
+  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /index
   ws-headers:
-    Host: jp03-vm0.entry.ikuuu.casa
-- name: 0.55| US55
-  server: 152.70.49.174
-  port: 55988
-  type: vmess
-  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.54| RelayUSCZ3768
-  server: jp02-vm0.entry.ikuuu.casa
-  port: 448
-  type: vmess
-  uuid: e1241a61-e533-3aa0-a25e-ad86cf34cd64
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp02-vm0.entry.ikuuu.casa
-- name: 0.35| TW46
-  server: 61.222.202.140
-  port: 33792
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 61.222.202.140
-- name: 0.33| US3747
-  server: 152.70.88.168
-  port: 49081
-  type: vmess
-  uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803
-  alterId: 0
-  cipher: auto
-  tls: false
+    Host: hkaz1.xmrth-node.xyz
