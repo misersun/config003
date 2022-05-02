@@ -1,5 +1,5 @@
 proxies:
-- name: 3.36| AU194
+- name: 4.40| AU194
   server: 43.154.77.196
   port: 38539
   type: vmess
@@ -15,43 +15,19 @@ proxies:
     headers:
       Host:
       - 43.154.77.196
-- name: 1.37|日本TG阿伟科技油管 10
-  server: dj1.cgov.xyz
-  port: 80
+- name: 0.92| TW67
+  server: 61.222.202.140
+  port: 33792
   type: vmess
-  uuid: 1e30f0c9-a395-4c35-bfcd-7941c9b60a48
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - aweikeji-YouTube-TG
-  udp: true
-- name: 0.46|日本TG阿伟科技油管 3
-  server: dj3.cgov.xyz
-  port: 80
-  type: vmess
-  uuid: 1e30f0c9-a395-4c35-bfcd-7941c9b60a48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - aweikeji-YouTube-TG
-  udp: true
-- name: 0.29| US69
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 61.222.202.140
+- name: 0.66| US3764
   server: 155.248.202.203
   port: 14564
   type: vmess
@@ -59,15 +35,45 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.10| RelayUSDE74
-  server: hkaz1.xmrth-node.xyz
-  port: 10033
+- name: 0.43| US3788
+  server: 152.70.88.168
+  port: 49081
   type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
+  uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803
+  alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: hkaz1.xmrth-node.xyz
+- name: 0.31|荷兰TG阿伟科技油管 2
+  server: 152.70.49.174
+  port: 55988
+  type: vmess
+  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.30| AU192
+  server: 43.135.70.192
+  port: 24740
+  type: vmess
+  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.135.70.192
+- name: 0.17| RelayUSUS78
+  server: streaming-1-route.teacher2050.com
+  port: 31222
+  type: vmess
+  uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33
+  alterId: 0
+  cipher: auto
+  tls: false
