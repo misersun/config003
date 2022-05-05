@@ -1,5 +1,21 @@
 proxies:
-- name: 0.39|韩国TG阿伟科技油管 2
+- name: 2.33| AU204
+  server: 43.154.77.196
+  port: 38539
+  type: vmess
+  uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.77.196
+- name: 1.22|韩国TG阿伟科技油管 2
   server: 146.56.112.141
   port: 17776
   type: vmess
@@ -9,41 +25,41 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.37| TW57
-  server: 61.222.202.140
-  port: 33792
+- name: 0.67| AU203
+  server: 43.135.70.192
+  port: 24740
   type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 61.222.202.140
-- name: 0.31|日本TG阿伟科技油管
-  server: 168.138.40.254
-  port: 38358
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.135.70.192
+- name: 0.57| US3630
+  server: 45.12.110.8
+  port: 31432
   type: vmess
-  uuid: 3e80dfb4-fd96-4040-bdec-e79ed3a7d0dc
+  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.52|日本TG阿伟科技油管 3
+  server: 168.138.40.155
+  port: 17526
+  type: vmess
+  uuid: 5b921733-4d32-41fd-975f-a40e663cad14
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.31| 80丨联通手厅丨加拿大1Gbps丨5
-  server: can5.mayiyun.vip
-  port: 80
-  type: vmess
-  uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: shoutingtoutiao3.10010.com
-- name: 0.31|453268130ws
+- name: 0.51|453268130ws
   server: 45.32.68.130
   port: 45167
   type: vmess
@@ -55,53 +71,37 @@ proxies:
   ws-path: /iNyEkrhL/
   ws-headers:
     Host: 45.32.68.130
-- name: 0.23| 80丨联通手厅丨加拿大1Gbps丨4
-  server: can4.mayiyun.vip
-  port: 80
+- name: 0.49|美国TG阿伟科技油管 17
+  server: 155.248.202.203
+  port: 14564
   type: vmess
-  uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: shoutingtoutiao3.10010.com
-- name: 0.20| 80丨冰钉丨香港1Gbps丨3
-  server: azhk7.mayiyun.vip
-  port: 80
-  type: vmess
-  uuid: 50f684d5-4ed7-4c89-aeff-e7d26024b98c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: open.dingtalk.com
-- name: 0.18|荷兰TG阿伟科技油管
-  server: 152.70.49.174
-  port: 55988
-  type: vmess
-  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  uuid: 4a0da379-a7cc-4389-88d7-45514b896883
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.18| US76
-  server: 45.76.71.233
-  port: 46983
+- name: 0.48|韩国TG阿伟科技油管 5
+  server: 144.24.88.101
+  port: 16833
   type: vmess
-  uuid: 69099258-1476-46dd-a51b-84e915e941be
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /1tGK82lU/
-  ws-headers:
-    Host: 45.76.71.233
-- name: 0.17| US72
+  skip-cert-verify: true
+  udp: true
+- name: 0.36|新加坡TG阿伟科技油管
+  server: 168.138.177.112
+  port: 41239
+  type: vmess
+  uuid: f962092f-a5b7-4011-eaaa-ae52200a3740
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.31|澳大利亚TG阿伟科技油管
   server: 20.211.32.62
   port: 6666
   type: vmess
@@ -109,21 +109,24 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.211.32.62
-- name: 0.16|日本TG阿伟科技油管 3
-  server: 168.138.40.155
-  port: 17526
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube-TG
+  udp: true
+- name: 0.16|日本TG阿伟科技油管
+  server: 168.138.40.254
+  port: 38358
   type: vmess
-  uuid: 5b921733-4d32-41fd-975f-a40e663cad14
+  uuid: 3e80dfb4-fd96-4040-bdec-e79ed3a7d0dc
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.11| RelayTWTW59
+- name: 0.11| RelayTWTW22
   server: tw01.nttkk.com
   port: 443
   type: vmess
