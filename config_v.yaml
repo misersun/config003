@@ -1,103 +1,21 @@
 proxies:
-- name: 3.93|香港TG阿伟科技油管 21
-  server: 13.70.36.192
-  port: 80
+- name: 2.58| AU226
+  server: 43.154.77.196
+  port: 38539
   type: vmess
-  uuid: eb524286-5a1a-4b7d-9f81-a829abf14e2f
+  uuid: a379bd7f-9d0d-4fb5-90c2-9b302782c4d6
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.61| Relay USSG1513
-  server: 20.205.125.236
-  port: 60008
-  type: vmess
-  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.205.125.236
-- name: 3.42|香港TG阿伟科技油管 20
-  server: 20.205.113.88
-  port: 80
-  type: vmess
-  uuid: 46935c0a-5bb7-4828-9a7d-7fb3f7c2e0a6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- name: 2.67| Relay USJP1511
-  server: 20.205.125.236
-  port: 60022
-  type: vmess
-  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.205.125.236
-- name: 2.36| Relay JPCZ963
-  server: jp04-vm0.entry.ikuuu.casa
-  port: 446
-  type: vmess
-  uuid: 6e5f11f9-0cc1-3997-b245-56279f9894a5
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp04-vm0.entry.ikuuu.casa
-- name: 2.30| RelayUSJP27
-  server: 20.24.77.204
-  port: 60031
-  type: vmess
-  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.24.77.204
-- name: 2.08|美国TG阿伟科技油管 19
-  server: 20.24.77.204
-  port: 60016
-  type: vmess
-  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- name: 1.93| Relay USSG1518
-  server: 20.205.125.236
-  port: 20004
-  type: vmess
-  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.205.125.236
-- name: 1.82|美国TG阿伟科技油管 22
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.77.196
+- name: 1.52|美国TG阿伟科技油管 22
   server: 20.24.77.204
   port: 60014
   type: vmess
@@ -111,51 +29,125 @@ proxies:
   ws-headers:
     Host: aweikeji-YouTube
   udp: true
-- name: 1.64| RelayKRUS16
-  server: V2-NODE-2.GFWAIRPORT.NET
-  port: 50001
+- name: 1.47|香港TG阿伟科技油管 21
+  server: 13.70.36.192
+  port: 80
   type: vmess
-  uuid: 042adefc-0d6d-4024-863f-8bbfb4a94062
+  uuid: eb524286-5a1a-4b7d-9f81-a829abf14e2f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.27|美国TG阿伟科技油管 16
+  server: 25.uuuyun.click
+  port: 60025
+  type: vmess
+  uuid: 7a9ac159-b523-3a15-bf92-f939effcc21a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 1.22| Relay USTW1569
+  server: hkaz1.xmrth-node.xyz
+  port: 10062
+  type: vmess
+  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: hkaz1.xmrth-node.xyz
+- name: 1.09|美国TG阿伟科技油管 15
+  server: 33.uuuyun.click
+  port: 60033
+  type: vmess
+  uuid: 7a9ac159-b523-3a15-bf92-f939effcc21a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.05| RelayHKHK952
+  server: azhk1.mayiyun.vip
+  port: 80
+  type: vmess
+  uuid: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: V2-NODE-2.GFWAIRPORT.NET
-- name: 1.61| Relay USJP1524
-  server: 20.205.125.236
-  port: 60012
+    Host: open.dingtalk.com
+- name: 1.02| US42
+  server: 20.205.113.88
+  port: 80
+  type: vmess
+  uuid: 46935c0a-5bb7-4828-9a7d-7fb3f7c2e0a6
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /TS/recharge/tzUrl.html
+  ws-headers:
+    Host: 20.205.113.88
+- name: 1.02| Relay USUS1578
+  server: zz.vip341.xyz
+  port: 48003
+  type: vmess
+  uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /ny
+  ws-headers:
+    Host: zz.vip341.xyz
+- name: 0.78|GB412
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.76|美国TG阿伟科技油管 23
+  server: 20.24.77.204
+  port: 60010
   type: vmess
   uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: 20.205.125.236
-- name: 1.27| US1514
-  server: 93.179.112.142
-  port: 54317
+    Host: aweikeji-YouTube
+  udp: true
+- name: 0.71|美国TG阿伟科技油管 19
+  server: 20.24.77.204
+  port: 60016
   type: vmess
-  uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d
-  alterId: 0
+  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
+  alterId: 2
   cipher: auto
   tls: false
-- name: 1.27| RelayUSUS21
-  server: bai-piao-wang-zhe-iplc.98848.xyz
-  port: 11459
-  type: vmess
-  uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa
-  alterId: 0
-  cipher: auto
-  tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /bit.ly/36b6iJh
+  ws-path: /
   ws-headers:
-    Host: bai-piao-wang-zhe-iplc.98848.xyz
-- name: 1.20|美国TG阿伟科技油管 26
+    Host: aweikeji-YouTube
+  udp: true
+- name: 0.46|美国TG阿伟科技油管 26
   server: 20.24.77.204
   port: 50009
   type: vmess
@@ -169,8 +161,8 @@ proxies:
   ws-headers:
     Host: aweikeji-YouTube
   udp: true
-- name: 1.08| RelayUSUS20
-  server: kr-direct-cdn.node001.xyz
+- name: 0.44| RelayUSFR3225
+  server: fr-direct-cdn.node001.xyz
   port: 2086
   type: vmess
   uuid: a1f3e867-8f8d-3763-bb80-21da561e6714
@@ -181,8 +173,20 @@ proxies:
   ws-path: /mg
   ws-headers:
     Host: /t.me/mengge88888888
-- name: 0.94| Relay USJP1521
-  server: jp-direct-cdn.node001.xyz
+- name: 0.44| RelayUSAU3220
+  server: kr.mayiyun.vip
+  port: 80
+  type: vmess
+  uuid: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: shoutingtoutiao3.10010.com
+- name: 0.40| Relay USUS1583
+  server: kr-direct-cdn.node001.xyz
   port: 2086
   type: vmess
   uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
@@ -192,52 +196,99 @@ proxies:
   network: ws
   ws-path: /mg
   ws-headers:
-    Host: jp-direct-cdn.node001.xyz
-- name: 0.66| JP15
-  server: 146.56.112.141
-  port: 17776
+    Host: kr-direct-cdn.node001.xyz
+- name: 0.37| RelayUSUS3217
+  server: azhk2.mayiyun.vip
+  port: 80
   type: vmess
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.60|ZZ37
-  server: 104.128.190.115
-  port: 44771
-  type: vmess
-  uuid: a4aa83d4-db1c-42a6-844d-135d6635b463
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.51| TW1411
-  server: 61.222.202.140
-  port: 33792
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  uuid: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 61.222.202.140
-- name: 0.50| US42
-  server: 168.138.177.112
-  port: 41239
+    Host: open.dingtalk.com
+- name: 0.27| Relay USUS1581
+  server: zz.vip341.xyz
+  port: 48008
   type: vmess
-  uuid: f962092f-a5b7-4011-eaaa-ae52200a3740
+  uuid: a6d9fad7-a7ee-3344-a4d9-a6e50759d241
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.34| RelayUSCZ3154
-  server: jp03-vm0.ikuuu.casa
-  port: 448
+  network: ws
+  ws-path: /ny
+  ws-headers:
+    Host: zz.vip341.xyz
+- name: 0.26| RelayUSHK3218
+  server: azhk7.mayiyun.vip
+  port: 80
   type: vmess
-  uuid: 3c7919b0-87bd-3399-abd2-a79cd334c0c2
-  alterId: 1
+  uuid: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /
   ws-headers:
-    Host: t.me/vpnhat
+    Host: open.dingtalk.com
+- name: 0.26|HU957
+  server: 185.225.69.134
+  port: 45081
+  type: vmess
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 0.24| US42
+  server: aa.houdinix.space
+  port: 26267
+  type: vmess
+  uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /wis
+    headers:
+      Host: aa.houdinix.space
+- name: 0.21| RelayUSUS3219
+  server: bai-piao-wang-zhe-iplc.98848.xyz
+  port: 11459
+  type: vmess
+  uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /bit.ly/36b6iJh
+  ws-headers:
+    Host: bai-piao-wang-zhe-iplc.98848.xyz
+- name: 0.19| RelayUSJP33
+  server: 20.24.77.204
+  port: 60031
+  type: vmess
+  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.24.77.204
+- name: 0.10|美国TG阿伟科技油管 21
+  server: 20.24.77.204
+  port: 60015
+  type: vmess
+  uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
