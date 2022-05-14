@@ -1,5 +1,17 @@
 proxies:
-- name: 0.73|YouTube阿阳AYANG 7
+- name: 3.36| Relay USTW1551
+  server: hkaz2.xmrth-node.xyz
+  port: 14017
+  type: vmess
+  uuid: a88b5172-6a32-3562-8e6e-911b2c0352e1
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 0.62|YouTube阿阳AYANG 7
   server: 146.56.112.141
   port: 17776
   type: vmess
@@ -9,7 +21,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.59|美国TG阿伟科技油管 10
+- name: 0.30|美国TG阿伟科技油管 10
   server: 45.76.173.250
   port: 65340
   type: vmess
@@ -24,7 +36,22 @@ proxies:
     headers:
       Host: 45.76.173.250
   udp: true
-- name: 0.35|YouTube阿阳AYANG 8
+- name: 0.20|美国TG阿伟科技油管 5
+  server: bai-piao-wang-zhe.98848.xyz
+  port: 52722
+  type: vmess
+  uuid: 2a0623d5-f1a0-4c10-b992-c26e50aa058a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /bit.ly/36b6iJh
+    headers:
+      Host: bai-piao-wang-zhe.98848.xyz
+  udp: true
+- name: 0.20|YouTube阿阳AYANG 8
   server: 20.89.98.239
   port: 80
   type: vmess
@@ -34,11 +61,3 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.33| US3199
-  server: 152.70.49.174
-  port: 55988
-  type: vmess
-  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
-  alterId: 0
-  cipher: auto
-  tls: false
