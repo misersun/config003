@@ -1,27 +1,54 @@
 proxies:
-- name: 3.36| Relay USTW1551
-  server: hkaz2.xmrth-node.xyz
-  port: 14017
+- name: 4.60|RelayZZZZ4286
+  server: vn05v2.vpnsieure.com
+  port: 80
   type: vmess
-  uuid: a88b5172-6a32-3562-8e6e-911b2c0352e1
-  alterId: 2
+  uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /index
+  ws-path: /vpnsieure
   ws-headers:
-    Host: www.baidu.com
-- name: 0.62|YouTube阿阳AYANG 7
-  server: 146.56.112.141
-  port: 17776
+    Host: livestream2.tv360.vn
+- name: 2.00| Relay JPUS1082
+  server: V2-NODE-1.GFWAIRPORT.NET
+  port: 50001
   type: vmess
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
+  uuid: d3bd4f04-f99b-4905-9916-bac87c728277
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: V2-NODE-1.GFWAIRPORT.NET
+- name: 1.84|越南TG阿伟科技油管 2
+  server: hcm3.aqvpn.me
+  port: 80
+  type: vmess
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.74|YouTube阿阳AYANG 8
+  server: 20.89.98.239
+  port: 80
+  type: vmess
+  uuid: ff02bc2f-dcc5-4be1-f7ed-886345c89ab2
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.30|美国TG阿伟科技油管 10
+- name: 0.70|美国TG阿伟科技油管 10
   server: 45.76.173.250
   port: 65340
   type: vmess
@@ -36,26 +63,11 @@ proxies:
     headers:
       Host: 45.76.173.250
   udp: true
-- name: 0.20|美国TG阿伟科技油管 5
-  server: bai-piao-wang-zhe.98848.xyz
-  port: 52722
+- name: 0.17|YouTube阿阳AYANG 7
+  server: 146.56.112.141
+  port: 17776
   type: vmess
-  uuid: 2a0623d5-f1a0-4c10-b992-c26e50aa058a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /bit.ly/36b6iJh
-    headers:
-      Host: bai-piao-wang-zhe.98848.xyz
-  udp: true
-- name: 0.20|YouTube阿阳AYANG 8
-  server: 20.89.98.239
-  port: 80
-  type: vmess
-  uuid: ff02bc2f-dcc5-4be1-f7ed-886345c89ab2
+  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
   alterId: 0
   cipher: auto
   tls: false
