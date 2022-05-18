@@ -1,43 +1,5 @@
 proxies:
-- name: 6.23|CNwmt51620
-  server: 43.154.46.228
-  port: 49930
-  type: vmess
-  uuid: 051088e3-f62e-4cf6-a199-ab98adcb822b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 43.154.46.228
-  udp: true
-- name: 0.88| RelayUSZZ35
-  server: uszz22.bieqiangwo.xyz
-  port: 33227
-  type: vmess
-  uuid: 6d896dd9-21ff-3844-a72a-332507486049
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.40|16181497ws
-  server: 161.8.149.7
-  port: 38822
-  type: vmess
-  uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ZXfq8Vm7/
-  ws-headers:
-    Host: 161.8.149.7
-- name: 0.33|CNwmt51618
+- name: 2.71|CNwmt51721
   server: 43.154.72.145
   port: 27091
   type: vmess
@@ -55,23 +17,39 @@ proxies:
       Host:
       - 43.154.72.145
   udp: true
-- name: 0.32| githubcomfreefq  美国圣斯考拉斯蒂卡大学 13
-  server: bai-piao-wang-zhe-iplc8.98848.xyz
-  port: 19652
+- name: 0.41|KRwmt51744
+  server: shouer.tk15.tk
+  port: 26122
   type: vmess
-  uuid: d88e33f0-4c5c-4a76-8c06-c7dbc2f08feb
+  uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.31|美国youtube阿伟科技 10
+  server: 161.8.149.7
+  port: 38822
+  type: vmess
+  uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ZXfq8Vm7/
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 0.13| US25
+  server: 23.95.247.209
+  port: 80
+  type: vmess
+  uuid: bda51582-46f7-410c-b267-30b7f3681ac0
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /YouTube-bai-piao-wang-zhe
-  ws-headers:
-    Host: bai-piao-wang-zhe-iplc8.98848.xyz
-- name: 0.30| githubcomfreefq  日本  21
-  server: 146.56.112.141
-  port: 17776
-  type: vmess
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
-  alterId: 0
-  cipher: auto
-  tls: false
+  ws-opts:
+    path: /
