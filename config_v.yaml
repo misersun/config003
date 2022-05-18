@@ -1,23 +1,5 @@
 proxies:
-- name: 2.71|CNwmt51721
-  server: 43.154.72.145
-  port: 27091
-  type: vmess
-  uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 43.154.72.145
-  udp: true
-- name: 0.41|KRwmt51744
+- name: 2.65|KRwmt51744
   server: shouer.tk15.tk
   port: 26122
   type: vmess
@@ -27,7 +9,37 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.31|美国youtube阿伟科技 10
+- name: 1.00|新加坡youtube阿伟科技 7
+  server: sgaws005.xmrth-node.xyz
+  port: 13057
+  type: vmess
+  uuid: 49d42ad5-5bd2-3a08-9662-b08e3b666c1f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /index
+    headers:
+      Host: sgaws005.xmrth-node.xyz
+  udp: true
+- name: 0.98|美国youtube阿伟科技 14
+  server: us-trail.sserver.top
+  port: 80
+  type: vmess
+  uuid: 8d0ceab5-1008-300f-996f-0751e11038f1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: us-trail.sserver.top
+  udp: true
+- name: 0.38|美国youtube阿伟科技 10
   server: 161.8.149.7
   port: 38822
   type: vmess
@@ -42,14 +54,15 @@ proxies:
     headers:
       Host: aweikeji-YouTube
   udp: true
-- name: 0.13| US25
-  server: 23.95.247.209
-  port: 80
+- name: 0.32| githubcomv2rayfree  美国圣斯考拉斯蒂卡大学 7
+  server: bai-piao-wang-zhe-iplc.98848.xyz
+  port: 54287
   type: vmess
-  uuid: bda51582-46f7-410c-b267-30b7f3681ac0
+  uuid: 77ef11ee-f995-4eb5-ad5e-43aabfcfb665
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-opts:
-    path: /
+  ws-path: /bit.ly/36b6iJh
+  ws-headers:
+    Host: bai-piao-wang-zhe-iplc.98848.xyz
