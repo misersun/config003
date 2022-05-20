@@ -1,6 +1,51 @@
 proxies:
-- name: 0.36| githubcomfreefq  美国Microsoft数据中心 1
-  server: 20.196.217.207
+- name: 0.83|新加坡youtube阿伟科技 6
+  server: 45.118.134.224
+  port: 80
+  type: vmess
+  uuid: ad4f042b-e3f6-407b-dfb2-0f8ae3561dd6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube
+  udp: true
+- name: 0.42| Relay USUS1422
+  server: 172.67.196.147
+  port: 2095
+  type: vmess
+  uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: kr-direct-cdn.node001.xyz
+- name: 0.14|新加坡youtube阿伟科技 3
+  server: 43.128.66.36
+  port: 8080
+  type: vmess
+  uuid: 5bb4d785-4933-44cb-a162-d9a74625d2ee
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
+  udp: true
+- name: 0.13| githubcomfreefq  美国Microsoft数据中心 34
+  server: 20.210.236.182
   port: 80
   type: vmess
   uuid: f778539f-5954-4b0e-987b-94a6081c1af7
@@ -11,15 +56,3 @@ proxies:
   ws-path: /
   ws-headers:
     Host: down.dingtalk.com
-- name: 0.22| githubcomv2rayfree  美国加利福尼亚州洛杉矶Choopa数据中心 26
-  server: 45.32.94.249
-  port: 29589
-  type: vmess
-  uuid: 63db045c-d921-4683-a063-d3cb3a16a1b0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /a3dHxNiS/
-  ws-headers:
-    Host: 45.32.94.249
