@@ -1,25 +1,5 @@
 proxies:
-- name: 1.50| 美国 America
-  server: gz1.52168.xyz
-  port: 11109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 1.28| 德国 Germany
-  server: gz2.52168.xyz
-  port: 12101
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 1.16| 香港 Hongkong HKBNVIP
+- name: 2.48|168 香港 Hongkong HKBNVIP
   server: gz1.52168.org
   port: 11113
   type: ssr
@@ -29,9 +9,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 1.12| 菲律宾 Philippine
-  server: gz1.52168.xyz
-  port: 11101
+  udp: true
+- name: 1.59|160 台湾 Taiwan
+  server: gz2.52168.org
+  port: 12105
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -39,27 +20,8 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 1.06| 香港 Hongkong HKTVIP
-  server: gz1.52168.org
-  port: 11112
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.94| 土耳其 Turkey
-  server: gz2.52168.xyz
-  port: 12104
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.93| 泰国 Thailand
+  udp: true
+- name: 1.34|030 泰国 Thailand
   server: gz2.52168.xyz
   port: 12109
   type: ssr
@@ -69,7 +31,56 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 0.88|新加坡youtube阿伟科技
+  udp: true
+- name: 1.32| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 1.28| 香港 Hongkong HKTVIP
+  server: gz1.52168.xyz
+  port: 11112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 1.26|039保加利亚 Bulgaria
+  server: gz1.52168.xyz
+  port: 11102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+  udp: true
+- name: 1.23|172 美国 America
+  server: gz1.52168.xyz
+  port: 11109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+  udp: true
+- name: 1.20| 香港 Hongkong HKBGPVIP
+  server: gz1.52168.xyz
+  port: 11106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 1.04|189 新加坡 Singapore
   server: gz2.52168.xyz
   port: 12106
   type: ssr
@@ -80,9 +91,16 @@ proxies:
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
   udp: true
-- name: 0.85| 日本 JapanVIP
-  server: gz2.52168.xyz
-  port: 12107
+- name: 1.01|日本youtube阿伟科技 13
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: 0.94| 新加坡 SingaporeVIP
+  server: gz2.52168.org
+  port: 12106
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -90,7 +108,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 0.84|俄罗斯youtube阿伟科技 4
+- name: 0.90|137 俄罗斯 Russia
   server: gz2.52168.xyz
   port: 12103
   type: ssr
@@ -101,131 +119,9 @@ proxies:
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
   udp: true
-- name: 0.70|保加利亚 Bulgaria
-  server: gz1.52168.xyz
-  port: 11102
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.53| 香港 Hongkong HKTVIP
-  server: gz1.52168.xyz
-  port: 11112
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.50|US60
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-  udp: true
-- name: 0.38| 瑞士 Switzerland
-  server: gz1.52168.xyz
-  port: 11116
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.36| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
-  server: trojan33.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.35| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶1SSR
-  server: clash1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.35|荷兰youtube阿伟科技
-  server: gz1.52168.xyz
-  port: 11117
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-  udp: true
-- name: 0.33| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶3SSR
-  server: clash3.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.26|076美国TG阿伟科技油管
-  server: ssr112.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 0.25| 甲骨文凤凰城ARM1trojan
-  server: fhcarm1.gaox.ml
-  port: 443
-  type: trojan
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  sni: fhcarm1.gaox.ml
-- name: 0.24| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash0.free4444.xyz
-  port: 30033
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.24|US59
-  server: lsj03.wangxd.life
-  port: 3052
-  type: trojan
-  password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556
-  skip-cert-verify: true
-  udp: true
-- name: 0.22| 香港 Hongkong HKBGPVIP
-  server: gz1.52168.xyz
-  port: 11106
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 149:gt9img0d2jp
-  obfs-param: ee821149.baidu.com
-- name: 0.21| 乌克兰 Ukraine
+- name: 0.86|089 日本 Japan
   server: gz2.52168.xyz
-  port: 12110
+  port: 12107
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -233,9 +129,10 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 0.20| 马来西亚 MalaysiaVIP
-  server: gz1.52168.xyz
-  port: 11105
+  udp: true
+- name: 0.84|256075 泰国 Thailand
+  server: gz2.52168.org
+  port: 12109
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -243,17 +140,16 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 0.20| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
-  server: ss-v2ray1.free4444.xyz
+  udp: true
+- name: 0.80|JPwmt52121
+  server: jp2.trojan.tel
   port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.19|美国youtube阿伟科技 26
+  type: trojan
+  password: f736834f-1fc8-4738-9884-9afe0eb0d818
+  sni: jp2.trojan.tel
+  skip-cert-verify: true
+  udp: true
+- name: 0.68|060美国youtube阿伟科技 26
   server: clash2.free4444.xyz
   port: 443
   type: ssr
@@ -264,9 +160,9 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.19| 马来西亚 MalaysiaVIP
-  server: gz1.52168.org
-  port: 11105
+- name: 0.67|荷兰youtube阿伟科技
+  server: gz1.52168.xyz
+  port: 11117
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -274,7 +170,49 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:gt9img0d2jp
   obfs-param: ee821149.baidu.com
-- name: 0.18| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
+  udp: true
+- name: 0.65| 日本 JapanVIP
+  server: gz2.52168.org
+  port: 12107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 0.64| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶3SSR
+  server: clash3.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.63| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.59|057ssr3ssrfree1xyz443
+  server: ssr3.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.58| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
   server: clash5.free4444.xyz
   port: 443
   type: ssr
@@ -284,13 +222,29 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.18|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
+- name: 0.55|035 瑞士 Switzerland
+  server: gz1.52168.xyz
+  port: 11116
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+  udp: true
+- name: 0.54|美国youtube阿伟科技 12
+  server: trojan33.free4444.xyz
   port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.16| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶less SSR
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.53| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶less SSR
   server: ssr111.free4444.xyz
   port: 443
   type: ssr
@@ -300,32 +254,124 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.15|英国youtube阿伟科技 10
+- name: 0.45| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 0.40|011 马来西亚 Malaysia
+  server: gz1.52168.xyz
+  port: 11105
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+  udp: true
+- name: 0.38|RUwmt52143
+  server: 213.183.53.179
+  port: 9038
+  type: ss
+  cipher: aes-256-cfb
+  password: gYCYXfkUQEs2TaJQ
+  udp: true
+- name: 0.38| GB60 TGpeekfun
   server: jgwld1.gaox.ml
   port: 443
   type: trojan
+  country: ' GB'
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  sni: jgwld1.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 0.15|179  385Mb
-  server: 134.195.198.252
-  port: 4444
+- name: 0.38|FRwmt52124
+  server: 195.154.200.150
+  port: 2376
   type: ss
   cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  password: faBAoD54k87UJG7
   udp: true
-- name: 0.14|mattkaydiarycom新加坡SGSingaporeSingapore8
-  server: cp-asus.ml
-  port: 50275
+- name: 0.32|美国youtube阿伟科技 3
+  server: clash0.free4444.xyz
+  port: 30033
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.30| US136 TGpeekfun
+  server: fhcarm1.gaox.ml
+  port: 443
   type: trojan
-  country: mattkaydiarycom新加坡SGSingaporeSingapore8
+  country: ' US'
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   skip-cert-verify: true
   udp: true
-  password: 7Z29DRr1ts
-- name: 0.13| 甲骨文伦敦ARM2trojan
+- name: 0.29|KRwmt52110
+  server: 13.125.80.46
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 0.28|RelayGBGB23
+  server: jgwld2.gaox.ml
+  port: 443
+  type: trojan
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
+- name: 0.28|DigitalOcean 107x
+  server: 159.65.157.70
+  port: 61548
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
+- name: 0.25| GB62 TGpeekfun
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  country: ' GB'
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  skip-cert-verify: true
+  udp: true
+- name: 0.21|DigitalOcean 207x
+  server: 206.189.136.113
+  port: 46786
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
+- name: 0.21|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 0.20| RelayAUAU05
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+- name: 0.18|GBwmt52112
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 0.16| 甲骨文伦敦ARM2trojan
   server: jgwld4.gaox.ml
   port: 443
   type: trojan
   password: 58d32c66-43b1-4561-9951-d87c9123774e
   sni: jgwld4.gaox.ml
+- name: 0.14| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
