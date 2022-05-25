@@ -1,77 +1,32 @@
 proxies:
-- name: 4.20|HN Vip 1x
-  server: 103.179.187.87
-  port: 80
-  type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: livestream2.tv360.vn
-- name: 1.47| RelayHKHK804
-  server: hk-v.sserver.top
+- name: 0.83|香港youtube阿伟科技 5
+  server: hk-i.sserver.top
   port: 80
   type: vmess
   uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: hk-v.sserver.top
-- name: 0.83|10716712140ws
-  server: 107.167.12.140
-  port: 22343
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 0.71|456615935ws
+  server: 45.66.159.35
+  port: 37254
   type: vmess
-  uuid: 297c8728-d717-11ec-a45c-0025907ca65e
+  uuid: 5e1ff1d8-9dec-4a98-a731-3e4f6694026b
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /gCp3U0Vi/
+  ws-path: /hXnCjf7U/
   ws-headers:
-    Host: 107.167.12.140
-- name: 0.64| US1780
-  server: 205.185.124.145
-  port: 85
-  type: vmess
-  uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 205.185.124.145
-- name: 0.45| githubcomfreefq  美国加利福尼亚州洛杉矶Vultr数据中心 15
-  server: 207.246.108.107
-  port: 29303
-  type: vmess
-  uuid: e69a7cb6-ee04-40ed-99da-55f5ba8b0034
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cB35d8gV/
-  ws-headers:
-    Host: 207.246.108.107
-- name: 0.34| Indian 1
-  server: 65.20.70.11
-  port: 80
-  type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: livestream2.tv360.vn
-- name: 0.14| Indian 2
+    Host: 45.66.159.35
+- name: 0.31|印度youtube阿伟科技
   server: 65.20.71.127
   port: 80
   type: vmess
@@ -79,7 +34,18 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: livestream2.tv360.vn
+  ws-opts:
+    path: /
+    headers:
+      Host: livestream2.tv360.vn
+  udp: true
+- name: 0.26| SG90  1150Mb
+  server: 138.2.76.156
+  port: 46452
+  type: vmess
+  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
+  alterId: 0
+  cipher: auto
+  tls: false
