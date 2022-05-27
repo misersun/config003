@@ -1,17 +1,5 @@
 proxies:
-- name: 11.43| Hk basic 1
-  server: 104.208.72.106
-  port: 80
-  type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: livestream2.tv360.vn
-- name: 8.22| Hk basic 3
+- name: 11.09| Hk basic 3
   server: 20.239.200.151
   port: 80
   type: vmess
@@ -23,68 +11,49 @@ proxies:
   ws-path: /
   ws-headers:
     Host: livestream2.tv360.vn
-- name: 3.06|10716712140ws
-  server: 107.167.12.140
-  port: 22343
+- name: 3.42|韩国youtube阿伟科技 3
+  server: 146.56.191.148
+  port: 80
   type: vmess
-  uuid: 297c8728-d717-11ec-a45c-0025907ca65e
+  uuid: ea8f61f2-bd0f-425e-a5c2-4ede08add085
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube
+  udp: true
+- name: 2.00| US1837
+  server: 34.215.130.186
+  port: 10089
+  type: vmess
+  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /gCp3U0Vi/
-  ws-headers:
-    Host: 107.167.12.140
-- name: 2.57|US44
-  server: 205.185.124.145
-  port: 85
-  type: vmess
-  uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 205.185.124.145
-  skip-cert-verify: true
-  servername: 205.185.124.145
-- name: 1.75|US53
-  server: 65.49.210.47
-  type: vmess
-  country: US
-  port: 10895
-  uuid: 51a66487-e65e-47cb-8c6d-6054bb29a5f7
-  alterId: 0
-  cipher: auto
-  network: tcp
   ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.70| SG90  1150Mb
-  server: 138.2.76.156
-  port: 46452
+  ws-headers:
+    Host: 34.215.130.186
+- name: 0.38|231926204ws
+  server: 23.19.26.204
+  port: 55212
   type: vmess
-  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
+  uuid: bb8a118d-dd20-4146-a989-2e24f1576b15
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.67|JP20
-  server: 146.56.112.141
-  type: vmess
-  country: JP
-  port: 17776
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /71h4b3s1f53
-  servername: v2-5.godlight.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.55|HCM 1x
+  network: ws
+  ws-path: /r76ofJah/
+  ws-headers:
+    Host: 23.19.26.204
+- name: 0.32|HCM 1x
   server: 103.167.199.128
   port: 80
   type: vmess
@@ -96,81 +65,3 @@ proxies:
   ws-path: /
   ws-headers:
     Host: livestream2.tv360.vn
-- name: 1.47|印度youtube阿伟科技
-  server: 65.20.71.127
-  port: 80
-  type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: livestream2.tv360.vn
-  udp: true
-- name: 1.14|TR39
-  server: 141.98.119.47
-  port: 29324
-  type: vmess
-  uuid: 5e851b35-2b07-317b-8844-6e437ba65ea1
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /ny
-  ws-headers:
-    HOST: 141.98.119.47
-  skip-cert-verify: true
-  servername: 141.98.119.47
-- name: 1.04|456615935ws
-  server: 45.66.159.35
-  port: 37254
-  type: vmess
-  uuid: 5e1ff1d8-9dec-4a98-a731-3e4f6694026b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hXnCjf7U/
-  ws-headers:
-    Host: 45.66.159.35
-- name: 0.58|231926218ws
-  server: 23.19.26.218
-  port: 6082
-  type: vmess
-  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /paQd6Rug/
-  ws-headers:
-    Host: 23.19.26.218
-- name: 0.46| githubcomfreefq  北美地区  21
-  server: 107.173.148.4
-  port: 29101
-  type: vmess
-  uuid: d9b33a06-a185-402d-e8f5-f1983f57a9b1
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 107.173.148.4
-- name: 0.26|US55
-  server: 20.210.236.182
-  type: vmess
-  country: US
-  port: 80
-  uuid: c699f08c-0b4f-4833-b015-675caa370853
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
