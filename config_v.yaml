@@ -1,67 +1,21 @@
 proxies:
-- name: 11.09| Hk basic 3
-  server: 20.239.200.151
+- name: 1.18| SG90  1150Mb
+  server: 138.2.76.156
+  port: 46452
+  type: vmess
+  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.33| 新加坡 05
+  server: 18.136.196.90
   port: 80
   type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
+  uuid: 121b663a-9127-4854-8161-c3dbb0ff5556
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: livestream2.tv360.vn
-- name: 3.42|韩国youtube阿伟科技 3
-  server: 146.56.191.148
-  port: 80
-  type: vmess
-  uuid: ea8f61f2-bd0f-425e-a5c2-4ede08add085
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - aweikeji-YouTube
-  udp: true
-- name: 2.00| US1837
-  server: 34.215.130.186
-  port: 10089
-  type: vmess
-  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 34.215.130.186
-- name: 0.38|231926204ws
-  server: 23.19.26.204
-  port: 55212
-  type: vmess
-  uuid: bb8a118d-dd20-4146-a989-2e24f1576b15
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /r76ofJah/
-  ws-headers:
-    Host: 23.19.26.204
-- name: 0.32|HCM 1x
-  server: 103.167.199.128
-  port: 80
-  type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: livestream2.tv360.vn
+    Host: a.189.cn
