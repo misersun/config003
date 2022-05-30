@@ -1,37 +1,13 @@
 proxies:
-- name: 1.76| US184
-  server: 34.215.130.186
-  port: 10089
+- name: 2.23| US83
+  server: 150.230.4.136
+  port: 11151
   type: vmess
-  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
+  uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 34.215.130.186
-- name: 1.44| 151
-  server: 138.2.76.156
-  port: 46452
-  type: vmess
-  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.34| 173
-  server: 103.74.105.118
-  port: 80
-  type: vmess
-  uuid: 23734aa1-5de0-465f-9662-4f0239b31d9f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: m.akamaized.net
-- name: 0.92| 韩国Az高速x05x
+- name: 2.09| 韩国Az高速x05x
   server: crus8.gzfxd.xyz
   port: 16616
   type: vmess
@@ -43,14 +19,66 @@ proxies:
   ws-path: /
   ws-headers:
     Host: crus8.gzfxd.xyz
-- name: 0.76| US87
-  server: 129.150.61.170
-  port: 29493
+- name: 1.04|SG44
+  server: 117.120.7.92
   type: vmess
+  country: SG
+  port: 20207
+  uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09
+  servername: 117.120.7.92
+  ws-headers:
+    HOST: 117.120.7.92
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.46|US63
+  server: 20.205.102.56
+  type: vmess
+  country: US
+  port: 20207
+  uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.46|US62
+  server: 129.150.61.170
+  type: vmess
+  country: US
+  port: 29493
   uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.45| US74
+  server: 34.215.130.186
+  port: 10089
+  type: vmess
+  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
     path: /
+- name: 0.12|香港youtube阿伟科技 7
+  server: 43.129.200.215
+  port: 46232
+  type: vmess
+  uuid: a6174b94-7340-440c-a505-2acf39f591f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
