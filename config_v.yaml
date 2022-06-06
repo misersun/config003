@@ -1,18 +1,20 @@
 proxies:
-- name: 9.22|JP18
-  server: 146.56.174.187
+- name: 2.57|香港youtube阿伟科技 11
+  server: hk-d.somserver.top
+  port: 80
   type: vmess
-  country: JP
-  port: 31613
-  uuid: 35137513-8f0a-4f74-84f8-ef9f5a8f85a6
+  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
+  tls: false
   skip-cert-verify: true
-- name: 1.35|104149154154ws
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: hk-d.somserver.top
+  udp: true
+- name: 1.02|104149154154ws
   server: 104.149.154.154
   port: 25966
   type: vmess
@@ -24,15 +26,35 @@ proxies:
   ws-path: /VTd4o3Kj/
   ws-headers:
     Host: 104.149.154.154
-- type: vmess
-  name: 1.05|USwmt6310
-  server: 138.2.117.173
-  port: '48193'
-  uuid: 93bd64e5-c062-4a42-895b-b7edeb6cd071
-  alterId: '0'
+- name: 0.95|RelayRURU17
+  server: ustls-test.xiaohouzi.club
+  type: vmess
+  country: RU
+  port: 26853
+  uuid: 87c81a75-ce6e-3e72-8783-f4caad9bf96b
+  alterId: 1
   cipher: auto
-  network: tcp
-- name: 1.01|US30
+  network: ws
+  ws-path: /v2ray
+  servername: ustls-test.xiaohouzi.club
+  ws-headers:
+    HOST: ustls-test.xiaohouzi.club
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.55| githubcomfreefq  美国  8
+  server: 138.2.52.84
+  port: 23140
+  type: vmess
+  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 138.2.52.84
+- name: 0.15|US30
   server: 150.230.60.8
   type: vmess
   country: US
@@ -45,70 +67,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.82| githubcomfreefq  美国加利福尼亚州洛杉矶MULTACOM数据中心 2
-  server: 173.82.212.149
-  port: 24552
+- name: 0.11|RelayUSUS21
+  server: hk4.ningmengshui.xyz
   type: vmess
-  uuid: 601d7be0-d6cc-4e98-d721-b83b7da6fec5
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.65|美国youtube阿伟科技 8
-  server: hk.xxnmsl.com
+  country: US
   port: 80
-  type: vmess
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  uuid: 8f4832f7-a51b-4049-9060-0422c3223e76
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aweikeji-YouTube
-  udp: true
-- name: 0.65| githubcomfreefq  美国  8
-  server: 138.2.52.84
-  port: 23140
-  type: vmess
-  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
   ws-path: /
-  ws-headers:
-    Host: 138.2.52.84
-- name: 0.41|231926218ws
-  server: 23.19.26.218
-  port: 6082
-  type: vmess
-  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /paQd6Rug/
-  ws-headers:
-    Host: 23.19.26.218
-- name: 0.23| US 1721
-  server: 45.12.110.8
-  port: 36109
-  type: vmess
-  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.13| CN102
-  server: cn.zzv01.infonode.xyz
-  port: 17011
-  type: vmess
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: cn.zzv01.infonode.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
