@@ -1,17 +1,54 @@
 proxies:
-- name: 2.67| githubcomfreefq  美国  7
-  server: www.anlocl.cf
-  port: 10330
+- name: 3.97| 香港4
+  server: 20.239.76.79
+  port: 80
   type: vmess
-  uuid: 6efebf2f-e675-4798-a3f0-c9b225701800
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /v2ray
+  ws-path: /images
   ws-headers:
-    Host: www.anlocl.cf
-- name: 1.35|104149154154ws
+    Host: v.qq.com
+- name: 2.04|1424101137ws
+  server: 142.4.101.137
+  port: 20561
+  type: vmess
+  uuid: cf3eb126-ffbf-4452-91de-7393b6028782
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nmLuM34N/
+  ws-headers:
+    Host: 142.4.101.137
+- name: 1.88|RelayHKUS20
+  server: us01.xniuniu888.xyz
+  type: vmess
+  country: HK
+  port: 30149
+  uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.41|137175102ws
+  server: 137.175.10.2
+  port: 51987
+  type: vmess
+  uuid: 17926de0-16a7-46b1-993a-55eaa8ccd3a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /MwrxiCgD/
+  ws-headers:
+    Host: 137.175.10.2
+- name: 1.32|104149154154ws
   server: 104.149.154.154
   port: 25966
   type: vmess
@@ -23,46 +60,62 @@ proxies:
   ws-path: /VTd4o3Kj/
   ws-headers:
     Host: 104.149.154.154
-- name: 1.09|US27
-  server: 143.110.145.33
+- name: 1.22|日本youtube阿伟科技 11
+  server: 13.73.30.139
+  port: 80
   type: vmess
-  country: US
-  port: 12315
-  uuid: 63297c39-3e69-4fd0-8632-da4c708f139f
+  uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
+  tls: false
   skip-cert-verify: true
-- name: 0.88|RelayUSUS32
-  server: www.anlocl.gq
-  type: vmess
-  country: US
-  port: 10330
-  uuid: 6efebf2f-e675-4798-a3f0-c9b225701800
-  alterId: 0
-  cipher: auto
   network: ws
-  ws-path: /v2ray
-  servername: www.anlocl.gq
-  ws-headers:
-    HOST: www.anlocl.gq
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.16|AU03
-  server: 43.154.235.119
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 0.83|JP22
+  server: 146.56.45.173
   type: vmess
-  country: AU
-  port: 10064
-  uuid: 8b115f89-27cc-4ea9-85af-dda2de597928
+  country: JP
+  port: 21365
+  uuid: 49526417-e201-4949-8055-81b0fb264be5
   alterId: 0
   cipher: auto
   network: tcp
   ws-path: /
-  servername: 152.70.87.181
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
+- name: 0.29|RelayHKJP21
+  server: jp03.xniuniu888.xyz
+  type: vmess
+  country: HK
+  port: 30326
+  uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.25|HKwmt61081
+  server: 182.160.12.239
+  port: 45524
+  type: vmess
+  uuid: a265dcb2-04a3-48c0-a703-fad0e008d474
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.17| AU93
+  server: 43.132.153.167
+  port: 23873
+  type: vmess
+  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
+  alterId: 0
+  cipher: auto
+  tls: false
