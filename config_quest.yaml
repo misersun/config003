@@ -1,20 +1,36 @@
 proxies:
-- name: 8.85|CN10
+- name: 9.57|RelayCNHK25
   server: gy.ziqiyun.xyz
   type: ss
   country: CN
-  port: 45054
+  port: 35992
   password: 297545c2-a59d-4610-9580-a7baa3657a57
   cipher: chacha20-ietf-poly1305
-- name: 5.28|CNwmt61013
-  server: cm.spacez.cloud
-  port: 30003
+- name: 7.56|CNwmt61135
+  server: jm.b.speedabc.xyz
+  port: 42002
   type: trojan
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  sni: cm.spacez.cloud
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: jm.b.speedabc.xyz
   skip-cert-verify: true
   udp: true
-- name: 4.41|USwmt61032
+- name: 5.69|CNwmt61163
+  server: cn.speedabc.xyz
+  port: 42003
+  type: trojan
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 5.04|CNwmt61128
+  server: shcu.alinkrelay.com
+  port: 44605
+  type: trojan
+  password: e9561799-2eee-47c5-a384-fc369f0eb792
+  sni: shcu.alinkrelay.com
+  skip-cert-verify: true
+  udp: true
+- name: 3.86|USwmt61032
   server: s1.hazz.win
   port: 12340
   type: trojan
@@ -22,60 +38,23 @@ proxies:
   sni: s1.hazz.win
   skip-cert-verify: true
   udp: true
-- name: 2.99|CN 1027
-  server: 36.138.176.120
-  port: 48610
-  type: ssr
-  cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 1062:tLkKEk
-  obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA==
-  udp: true
-- name: 2.90|RelayCNTW779
-  server: 116.129.254.212
-  port: 48611
-  type: ssr
-  cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 1062:tLkKEk
-  obfs-param: MTQ2NmYxMDYyLm1pY3Jvc29mdC5jb20
-  udp: true
-- name: 2.88|美国wmt6949
-  server: 212.81.47.15
-  port: 443
+- name: 3.69|CNwmt61164
+  server: cn.speedabc.xyz
+  port: 32002
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
   skip-cert-verify: true
   udp: true
-- name: 2.83| DE102 TGpeekfun
-  server: 212.81.47.18
-  port: 443
+- name: 3.55|CNwmt6112
+  server: cm.spacez.cloud
+  port: 30002
   type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  sni: cm.spacez.cloud
   skip-cert-verify: true
   udp: true
-- name: 2.77|v2rayfreeeuorg  瑞典  9
-  server: au2-4.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-4.nigirocloud.com
-- name: 2.48| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
-  server: ss-v2ray1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.40|CN 976
+- name: 3.55|CN 976
   server: 116.129.254.212
   port: 48608
   type: ssr
@@ -86,181 +65,7 @@ proxies:
   protocol-param: 1062:tLkKEk
   obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA==
   udp: true
-- name: 2.37| DE92 TGpeekfun
-  server: 212.81.47.16
-  port: 443
-  type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 2.22|USwmt61048
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s3.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 2.12|CNwmt61044
-  server: cu-cs.okvpn.xyz
-  port: 20009
-  type: trojan
-  password: 2c100ffe-4f52-4133-8c5c-d053fed7b270
-  sni: cu-cs.okvpn.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 2.06|美国wmt6942
-  server: 212.81.47.11
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.79|CNwmt61043
-  server: cm-gz.okvpn.xyz
-  port: 20009
-  type: trojan
-  password: 2c100ffe-4f52-4133-8c5c-d053fed7b270
-  sni: cm-gz.okvpn.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.70|CNwmt61047
-  server: cu-cs.okvpn.xyz
-  port: 20004
-  type: trojan
-  password: 2c100ffe-4f52-4133-8c5c-d053fed7b270
-  sni: cu-cs.okvpn.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.69| US156 TGpeekfun
-  server: ussc.scsevers.cf
-  port: 443
-  type: trojan
-  country: ' US'
-  password: sharecentre
-  skip-cert-verify: true
-  udp: true
-- name: 1.64| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash0.free4444.xyz
-  port: 30033
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.56| US168 TGpeekfun
-  server: bai-piao-wang-zhe-iplc12.98848.xyz
-  port: 19222
-  type: trojan
-  country: ' US'
-  password: 2b815eb6-3982-4f09-9181-3c02c479d4d1
-  skip-cert-verify: true
-  udp: true
-- name: 1.52|USwmt61049
-  server: 212.81.47.17
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.45| RelayDEGB17
-  server: au2-1.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-1.nigirocloud.com
-- name: 1.22| githubcomfreefq  美国惠普HP 15
-  server: tj-us02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  sni: tj-us02.yiyodns.xyz
-- name: 1.03|DEwmt61052
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s4.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.00| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 1.00| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 0.98|美国youtube阿伟科技 21
-  server: shcm.pdjc.cc
-  port: 42000
-  type: trojan
-  password: b7dcc148-c8a3-4173-931f-8ecf9413eb58
-  sni: us-a.bbbb.pw
-  skip-cert-verify: true
-  udp: true
-- name: 0.98| 韩国0610022
-  server: 146.56.96.252
-  port: 2333
-  type: ssr
-  cipher: aes-256-cfb
-  password: doub.io
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.90| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
-  server: clash5.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.87| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
-  server: clash2.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.74|印度wmt6992
-  server: jgwhdlb4.gaox.ml
-  port: 443
-  type: trojan
-  password: 081a4198-d664-4bc5-a7c6-e35982da964b
-  sni: jgwhdlb4.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.60|AUwmt61046
-  server: kr04.wangxd.life
-  port: 3052
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr04.wangxd.life
-  skip-cert-verify: true
-  udp: true
-- name: 0.54|CNwmt61051
-  server: cu-cs.okvpn.xyz
-  port: 20006
-  type: trojan
-  password: 2c100ffe-4f52-4133-8c5c-d053fed7b270
-  sni: cu-cs.okvpn.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 0.40|CN 1025
+- name: 3.25|CN 1025
   server: 116.129.254.212
   port: 48619
   type: ssr
@@ -271,100 +76,306 @@ proxies:
   protocol-param: 1062:tLkKEk
   obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA==
   udp: true
-- name: 0.39|美国wmt6945
-  server: 212.81.47.12
+- name: 3.16|CNwmt61129
+  server: shcu.alinkrelay.com
+  port: 44601
+  type: trojan
+  password: e9561799-2eee-47c5-a384-fc369f0eb792
+  sni: shcu.alinkrelay.com
+  skip-cert-verify: true
+  udp: true
+- name: 3.10|HKwmt61157
+  server: azhk.r.optage.moe
+  port: 44608
+  type: trojan
+  password: e9561799-2eee-47c5-a384-fc369f0eb792
+  sni: azhk.r.optage.moe
+  skip-cert-verify: true
+  udp: true
+- name: 2.64| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash0.free4444.xyz
+  port: 30033
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.56| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 2.54| RelayDEGB49
+  server: au2-1.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-1.nigirocloud.com
+- name: 2.39| RelayDEGB52
+  server: au2-2.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-2.nigirocloud.com
+- name: 2.35|USwmt61143
+  server: 212.81.47.15
   port: 443
   type: trojan
   password: 3yFq7NCP53mVfpXJz3
   skip-cert-verify: true
   udp: true
-- name: 0.29|美国wmt68a67
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 48240
+- name: 2.33| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.33|USwmt61048
+  server: s3.hazz.win
+  port: 12340
   type: trojan
-  password: c8bae3de-16ed-4247-8a99-f38ef79a4b51
-  sni: bai-piao-wang-zhe10.98848.xyz
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s3.hazz.win
   skip-cert-verify: true
   udp: true
-- name: 0.28| 甲骨文大阪ARM1trojan
+- name: 2.16| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
+  server: trojan33.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.98| 香港B公益
+  server: 120.241.236.93
+  port: 46061
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: hkbgp2.jiantian.xyz
+  skip-cert-verify: true
+- name: 1.98| 美国A
+  server: 120.241.236.93
+  port: 51700
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: usfree1.jiantian.xyz
+  skip-cert-verify: true
+- name: 1.91| 美国B
+  server: 120.241.236.93
+  port: 59143
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: usfree2.jiantian.xyz
+  skip-cert-verify: true
+- name: 1.89|CNwmt61168
+  server: cn.speedabc.xyz
+  port: 42005
+  type: trojan
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.85|HKwmt61174
+  server: azhk.r.optage.moe
+  port: 44612
+  type: trojan
+  password: e9561799-2eee-47c5-a384-fc369f0eb792
+  sni: azhk.r.optage.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.84|CNwmt61141
+  server: 120.233.186.71
+  port: 3381
+  type: trojan
+  password: 9a27800ca7b52ee0
+  skip-cert-verify: true
+  udp: true
+- name: 1.69| DE101 TGpeekfun
+  server: 212.81.47.18
+  port: 443
+  type: trojan
+  country: ' DE'
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.55| RelayDEGB50
+  server: au2-3.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-3.nigirocloud.com
+- name: 1.51|USwmt61049
+  server: 212.81.47.17
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.41|CNwmt61160
+  server: cn.speedabc.xyz
+  port: 42004
+  type: trojan
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.32|CNwmt61139
+  server: shcm.pdjc.cc
+  port: 42000
+  type: trojan
+  password: b7dcc148-c8a3-4173-931f-8ecf9413eb58
+  sni: shcm.pdjc.cc
+  skip-cert-verify: true
+  udp: true
+- name: 1.31| RelayDEGB51
+  server: au2-4.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-4.nigirocloud.com
+- name: 1.24| RelaySGSG61
+  server: trojan1.udpgw.com
+  port: 443
+  type: trojan
+  password: affae2e0-e84b-11ec-b09f-1239d0255272
+  sni: trojan1.udpgw.com
+- name: 1.06|CNwmt61159
+  server: cn.speedabc.xyz
+  port: 42006
+  type: trojan
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.95| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
+  server: clash5.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.95|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
+  port: 443
+  type: trojan
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 0.95| 甲骨文大阪ARM1trojan
   server: jgwdb3.gaox.ml
   port: 443
   type: trojan
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   sni: jgwdb3.gaox.ml
-- name: 0.26|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
+- name: 0.89| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+  server: clash2.free4444.xyz
   port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.86|CNwmt61161
+  server: ah.b.speedabc.xyz
+  port: 42002
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.25|CNwmt61078
-  server: cm-gz.okvpn.xyz
-  port: 20006
-  type: trojan
-  password: 2c100ffe-4f52-4133-8c5c-d053fed7b270
-  sni: cm-gz.okvpn.xyz
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: ah.b.speedabc.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.17|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
+- name: 0.84|DEwmt61052
+  server: s4.hazz.win
+  port: 12340
   type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 0.16| CN39 TGpeekfun
-  server: 14.29.124.174
-  port: 11010
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.16|CNwmt61087
-  server: 180.163.62.91
-  port: 10065
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- name: 0.15|CN29
-  server: 14.29.124.168
-  port: 24002
-  type: ss
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.13|USwmt6656
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 50858
-  type: trojan
-  password: f0de3134-aef4-45b5-a135-3a82321bbac6
-  sni: bai-piao-wang-zhe10.98848.xyz
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s4.hazz.win
   skip-cert-verify: true
   udp: true
-- name: 0.12| JP 137
-  server: 18.183.213.25
+- name: 0.80|GBwmt61085
+  server: 178.62.16.161
+  port: 811
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+  udp: true
+- name: 0.79|美国wmt6942
+  server: 212.81.47.11
   port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 0.64| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 0.61|CNwmt61176
+  server: cn.speedabc.xyz
+  port: 32003
+  type: trojan
+  password: 804d36c2-0585-4568-b277-eaabf4bc8e48
+  sni: cn.speedabc.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.59| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 0.57|USwmt61086
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 0.56|USwmt61082
+  server: 212.81.47.14
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 0.51| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 0.42|USwmt61054
+  server: 104.243.30.252
+  port: 246
   type: ss
   cipher: aes-256-cfb
-  password: amazonskr05
-- name: 0.12| CN36 TGpeekfun
-  server: 14.29.124.174
-  port: 11005
+  password: bwhskrskr03
+  udp: true
+- name: 0.40|US62
+  server: 172.96.192.58
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.12|USwmt6685
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 22168
+  country: US
+  port: 254
+  password: bwhskrskr03
+  cipher: aes-256-cfb
+- name: 0.39| RelayAUAU03
+  server: kr04.wangxd.life
+  port: 3052
   type: trojan
-  password: mDmaAWoWXB
-  sni: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 0.11|USwmt61079
-  server: 107.148.23.159
-  port: 26969
-  type: trojan
-  password: 1f316deb-02e7-4050-acd9-abcb3942fd37
-  skip-cert-verify: true
-  udp: true
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  sni: kr04.wangxd.life
