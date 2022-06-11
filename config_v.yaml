@@ -1,6 +1,6 @@
 proxies:
-- name: 3.97| 香港4
-  server: 20.239.76.79
+- name: 6.69| 日本 免流 01 01x
+  server: 20.210.251.34
   port: 80
   type: vmess
   uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
@@ -11,32 +11,27 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 2.04|1424101137ws
-  server: 142.4.101.137
-  port: 20561
+- name: 6.57| 日本 直连 03 10x
+  server: 20.210.251.34
+  port: 23233
   type: vmess
-  uuid: cf3eb126-ffbf-4452-91de-7393b6028782
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /nmLuM34N/
+  ws-path: /images
   ws-headers:
-    Host: 142.4.101.137
-- name: 1.88|RelayHKUS20
-  server: us01.xniuniu888.xyz
+    Host: v.qq.com
+- name: 4.89| JP138
+  server: 146.56.45.173
+  port: 21365
   type: vmess
-  country: HK
-  port: 30149
-  uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c
-  alterId: 2
+  uuid: 49526417-e201-4949-8055-81b0fb264be5
+  alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.41|137175102ws
+  tls: false
+- name: 1.65|137175102ws
   server: 137.175.10.2
   port: 51987
   type: vmess
@@ -48,7 +43,7 @@ proxies:
   ws-path: /MwrxiCgD/
   ws-headers:
     Host: 137.175.10.2
-- name: 1.32|104149154154ws
+- name: 1.50|104149154154ws
   server: 104.149.154.154
   port: 25966
   type: vmess
@@ -60,58 +55,27 @@ proxies:
   ws-path: /VTd4o3Kj/
   ws-headers:
     Host: 104.149.154.154
-- name: 1.22|日本youtube阿伟科技 11
-  server: 13.73.30.139
-  port: 80
+- name: 1.17|1424101137ws
+  server: 142.4.101.137
+  port: 20561
   type: vmess
-  uuid: 7cb312ec-1c01-44c1-a714-cb5a06d97405
+  uuid: cf3eb126-ffbf-4452-91de-7393b6028782
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aweikeji-YouTube
-  udp: true
-- name: 0.83|JP22
-  server: 146.56.45.173
+  ws-path: /nmLuM34N/
+  ws-headers:
+    Host: 142.4.101.137
+- name: 0.42| US287
+  server: 150.230.60.8
+  port: 26195
   type: vmess
-  country: JP
-  port: 21365
-  uuid: 49526417-e201-4949-8055-81b0fb264be5
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.29|RelayHKJP21
-  server: jp03.xniuniu888.xyz
-  type: vmess
-  country: HK
-  port: 30326
-  uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.25|HKwmt61081
-  server: 182.160.12.239
-  port: 45524
-  type: vmess
-  uuid: a265dcb2-04a3-48c0-a703-fad0e008d474
+  uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.17| AU93
+- name: 0.32| AU93
   server: 43.132.153.167
   port: 23873
   type: vmess
@@ -119,3 +83,13 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+- name: 0.30|CNwmt61155
+  server: 43.154.235.119
+  port: 10064
+  type: vmess
+  uuid: 8b115f89-27cc-4ea9-85af-dda2de597928
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
