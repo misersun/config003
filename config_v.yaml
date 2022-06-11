@@ -1,7 +1,7 @@
 proxies:
-- name: 6.69| 日本 免流 01 01x
-  server: 20.210.251.34
-  port: 80
+- name: 7.80| 香港 直连 04 10x
+  server: 20.239.76.79
+  port: 23234
   type: vmess
   uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
@@ -11,27 +11,19 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 6.57| 日本 直连 03 10x
-  server: 20.210.251.34
-  port: 23233
+- name: 2.46|19274238183ws
+  server: 192.74.238.183
+  port: 36736
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: 31177ee2-6ac5-4e96-bf7a-e50e8ffff0fe
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /images
+  ws-path: /yCBfYHrj/
   ws-headers:
-    Host: v.qq.com
-- name: 4.89| JP138
-  server: 146.56.45.173
-  port: 21365
-  type: vmess
-  uuid: 49526417-e201-4949-8055-81b0fb264be5
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.65|137175102ws
+    Host: 192.74.238.183
+- name: 2.04|137175102ws
   server: 137.175.10.2
   port: 51987
   type: vmess
@@ -43,19 +35,7 @@ proxies:
   ws-path: /MwrxiCgD/
   ws-headers:
     Host: 137.175.10.2
-- name: 1.50|104149154154ws
-  server: 104.149.154.154
-  port: 25966
-  type: vmess
-  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /VTd4o3Kj/
-  ws-headers:
-    Host: 104.149.154.154
-- name: 1.17|1424101137ws
+- name: 1.73|1424101137ws
   server: 142.4.101.137
   port: 20561
   type: vmess
@@ -67,29 +47,86 @@ proxies:
   ws-path: /nmLuM34N/
   ws-headers:
     Host: 142.4.101.137
-- name: 0.42| US287
-  server: 150.230.60.8
-  port: 26195
+- name: 1.72|新加坡youtube阿伟科技
+  server: crus1.gzfxd.xyz
+  port: 80
   type: vmess
-  uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
+  uuid: 6bd0b1ce-3a65-487b-86eb-012f6b0bfc3f
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.32| AU93
-  server: 43.132.153.167
-  port: 23873
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.68|104149154154ws
+  server: 104.149.154.154
+  port: 25966
   type: vmess
-  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.30|CNwmt61155
-  server: 43.154.235.119
-  port: 10064
+  network: ws
+  ws-path: /VTd4o3Kj/
+  ws-headers:
+    Host: 104.149.154.154
+- name: 1.45|SG60
+  server: 172.104.48.151
   type: vmess
-  uuid: 8b115f89-27cc-4ea9-85af-dda2de597928
+  country: SG
+  port: 8080
+  uuid: c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.01| v2rayfreeeuorg  英国  48
+  server: 193.122.122.208
+  port: 26471
+  type: vmess
+  uuid: 35137513-8f0a-4f74-84f8-ef9f5a8f85a6
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.46|GBwmt61053
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 0.41|AU04
+  server: 43.132.153.167
+  type: vmess
+  country: AU
+  port: 23873
+  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.10|231926198ws
+  server: 23.19.26.198
+  port: 48210
+  type: vmess
+  uuid: 2448fff3-bb63-4982-addb-ac9faff5ef41
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /kpUxnuYL/
+  ws-headers:
+    Host: 23.19.26.198
