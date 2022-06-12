@@ -1,29 +1,15 @@
 proxies:
-- name: 7.80| 香港 直连 04 10x
-  server: 20.239.76.79
-  port: 23234
+- name: 2.97|GBwmt61053
+  server: 144.24.88.101
+  port: 16833
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 2.46|19274238183ws
-  server: 192.74.238.183
-  port: 36736
-  type: vmess
-  uuid: 31177ee2-6ac5-4e96-bf7a-e50e8ffff0fe
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /yCBfYHrj/
-  ws-headers:
-    Host: 192.74.238.183
-- name: 2.04|137175102ws
+  skip-cert-verify: true
+  udp: true
+- name: 2.90|137175102ws
   server: 137.175.10.2
   port: 51987
   type: vmess
@@ -35,7 +21,34 @@ proxies:
   ws-path: /MwrxiCgD/
   ws-headers:
     Host: 137.175.10.2
-- name: 1.73|1424101137ws
+- name: 2.84|19274238183ws
+  server: 192.74.238.183
+  port: 36736
+  type: vmess
+  uuid: 31177ee2-6ac5-4e96-bf7a-e50e8ffff0fe
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /yCBfYHrj/
+  ws-headers:
+    Host: 192.74.238.183
+- name: 2.65|日本youtube阿伟科技 5
+  server: 152.69.206.209
+  port: 1212
+  type: vmess
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.55|1424101137ws
   server: 142.4.101.137
   port: 20561
   type: vmess
@@ -47,22 +60,19 @@ proxies:
   ws-path: /nmLuM34N/
   ws-headers:
     Host: 142.4.101.137
-- name: 1.72|新加坡youtube阿伟科技
-  server: crus1.gzfxd.xyz
-  port: 80
+- name: 1.04|231926198ws
+  server: 23.19.26.198
+  port: 48210
   type: vmess
-  uuid: 6bd0b1ce-3a65-487b-86eb-012f6b0bfc3f
+  uuid: 2448fff3-bb63-4982-addb-ac9faff5ef41
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aweikeji-YouTube
-  udp: true
-- name: 1.68|104149154154ws
+  ws-path: /kpUxnuYL/
+  ws-headers:
+    Host: 23.19.26.198
+- name: 0.93|104149154154ws
   server: 104.149.154.154
   port: 25966
   type: vmess
@@ -74,7 +84,41 @@ proxies:
   ws-path: /VTd4o3Kj/
   ws-headers:
     Host: 104.149.154.154
-- name: 1.45|SG60
+- name: 0.65|US98
+  server: 51.81.223.0
+  type: vmess
+  country: US
+  port: 443
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.57|US101
+  server: 51.81.223.19
+  type: vmess
+  country: US
+  port: 443
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.51| US306
+  server: sg.guiqing.ml
+  port: 43956
+  type: vmess
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.42|SG75
   server: 172.104.48.151
   type: vmess
   country: SG
@@ -87,46 +131,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.01| v2rayfreeeuorg  英国  48
-  server: 193.122.122.208
-  port: 26471
+- name: 0.28|US99
+  server: 51.81.223.29
   type: vmess
-  uuid: 35137513-8f0a-4f74-84f8-ef9f5a8f85a6
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.46|GBwmt61053
-  server: 144.24.88.101
-  port: 16833
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.41|AU04
-  server: 43.132.153.167
-  type: vmess
-  country: AU
-  port: 23873
-  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
-  alterId: 0
+  country: US
+  port: 443
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
   cipher: auto
   network: tcp
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.10|231926198ws
-  server: 23.19.26.198
-  port: 48210
-  type: vmess
-  uuid: 2448fff3-bb63-4982-addb-ac9faff5ef41
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /kpUxnuYL/
-  ws-headers:
-    Host: 23.19.26.198
