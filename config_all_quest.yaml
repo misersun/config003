@@ -1,11 +1,42 @@
 proxies:
-- name: 4.75|111
-  server: gzyd.qlyun.xyz
-  port: 64663
+- name: 9.61| 香港家庭宽频NF解锁SSA01
+  server: 36.139.154.162
+  port: 45103
   type: ss
-  cipher: aes-128-gcm
-  password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
-- name: 3.83| 中国0612536
+  cipher: chacha20-ietf-poly1305
+  password: 0a197eaa-52bc-435d-a6e4-e38b090f7e80
+- name: 7.80|负载均衡
+  server: azhk.n.optage.moe
+  port: 62500
+  type: trojan
+  password: 6db23a93-95fa-4e1c-aa7c-6c1885e1c0d4
+  sni: cdn.qchwnd.moe
+- name: 7.60| 香港IDC宽频NF解锁SSA01
+  server: 36.139.154.162
+  port: 45240
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0a197eaa-52bc-435d-a6e4-e38b090f7e80
+- name: 4.75| 香港 B03
+  server: relaybgp_pro.flyxxl.xyz
+  port: 45601
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4298ec29-9a37-4f2d-9c8a-5dc466893eb1
+- name: 4.41| 马来西亚  移动云
+  server: relay_cm1.flyxxl.xyz
+  port: 25002
+  type: trojan
+  password: 4298ec29-9a37-4f2d-9c8a-5dc466893eb1
+  sni: f932c3d98981b.download.microsoft.com
+  skip-cert-verify: true
+- name: 4.28| 香港家庭宽频NF解锁SSIPLC
+  server: 36.139.153.214
+  port: 45251
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0a197eaa-52bc-435d-a6e4-e38b090f7e80
+- name: 3.96| 中国0612536
   server: 36.138.176.120
   port: 48620
   type: ssr
@@ -15,7 +46,15 @@ proxies:
   obfs: http_simple
   protocol-param: 1062:tLkKEk
   obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA==
-- name: 3.36| 中国0612330
+- name: 3.67|USwmt61337
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s1.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 3.38| SG11
   server: 116.129.254.212
   port: 48608
   type: ssr
@@ -24,178 +63,15 @@ proxies:
   protocol: auth_aes128_sha1
   obfs: http_simple
   protocol-param: 1062:tLkKEk
-  obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA
-- name: 2.86|USwmt61212
-  server: 212.81.47.11
-  port: 443
+  obfs-param: t.me/vpnhat
+- name: 3.31| 台湾 I5  IEPL限时体验8小时  0x
+  server: 120.232.132.71
+  port: 25680
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
+  password: 3b4a79d
+  sni: cdnt71.dt1.fun
   skip-cert-verify: true
-  udp: true
-- name: 2.80|USwmt61213
-  server: au2-3.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-3.nigirocloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.30| AU 40
-  server: 212.81.47.17
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-- name: 2.29|USwmt61214
-  server: 212.81.47.13
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 2.27| RelayDEGB51
-  server: au2-4.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-4.nigirocloud.com
-- name: 2.26| DE123 TGpeekfun
-  server: 212.81.47.12
-  port: 443
-  type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.97| DE91 TGpeekfun
-  server: 212.81.47.14
-  port: 443
-  type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.69| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
-  server: ss-v2ray1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.64| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
-  server: trojan33.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.00| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 0.68|AUwmt61224
-  server: kr04.wangxd.life
-  port: 3052
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr04.wangxd.life
-  skip-cert-verify: true
-  udp: true
-- name: 0.67| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶3SSR
-  server: clash3.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.66|USwmt61236
-  server: 172.96.192.58
-  port: 254
-  type: ss
-  cipher: aes-256-cfb
-  password: bwhskrskr03
-  udp: true
-- name: 0.60|甲骨文海得拉巴ARM2trojan
-  server: jgwhdlb4.gaox.ml
-  port: 443
-  type: trojan
-  password: 081a4198-d664-4bc5-a7c6-e35982da964b
-  sni: jgwhdlb4.gaox.ml
-- name: 0.50| RelayDEGB52
-  server: au2-2.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-2.nigirocloud.com
-- name: 0.48|CNwmt61141
-  server: 120.233.186.71
-  port: 3381
-  type: trojan
-  password: 9a27800ca7b52ee0
-  skip-cert-verify: true
-  udp: true
-- name: 0.43| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶1SSR
-  server: clash1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.42|USwmt61220
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s3.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 0.39|USwmt61234
-  server: jgwdj4.gaox.ml
-  port: 443
-  type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.37|DEwmt61223
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s4.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 0.34|USwmt61227
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 22168
-  type: trojan
-  password: mDmaAWoWXB
-  sni: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 0.34|AUwmt61162
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 0.31|CN 1025
+- name: 3.11|CN 1025
   server: 116.129.254.212
   port: 48619
   type: ssr
@@ -206,129 +82,494 @@ proxies:
   protocol-param: 1062:tLkKEk
   obfs-param: TVRRMk5tWXhNRFl5TG0xcFkzSnZjMjltZEM1amIyMA==
   udp: true
-- name: 0.22| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
+- name: 2.55|JPwmt61359
+  server: jgwdb3.gaox.ml
   port: 443
   type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 0.20| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 2.53|USwmt61353
+  server: 212.81.47.11
   port: 443
   type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 0.19| CN30 TGpeekfun
-  server: 180.163.62.91
-  port: 10065
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 2.53|USwmt61268
+  server: 212.81.47.13
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 2.47| DE120 TGpeekfun
+  server: 212.81.47.12
+  port: 443
+  type: trojan
+  country: ' DE'
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 2.44|USwmt6131
+  server: au2-1.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-1.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 2.39| 美国 B01
+  server: relaybgp_pro.flyxxl.xyz
+  port: 45431
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.19| US205 TGpeekfun
+  cipher: chacha20-ietf-poly1305
+  password: 4298ec29-9a37-4f2d-9c8a-5dc466893eb1
+- name: 2.35| RelayDEGB51
+  server: au2-4.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-4.nigirocloud.com
+- name: 2.32| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash0.free4444.xyz
+  port: 30033
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.23|CNwmt61252
+  server: 120.241.236.93
+  port: 34955
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  skip-cert-verify: true
+  udp: true
+- name: 2.09| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- type: ssr
+  name: 1.87|CN中国US美国1
+  server: 116.129.254.212
+  port: 48616
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: http_simple
+  password: GjRQkK
+  protocol-param: 1062:tLkKEk
+- name: 1.77|USwmt61344
+  server: 172.96.192.100
+  port: 246
+  type: ss
+  cipher: aes-256-cfb
+  password: bwhskrskr05
+  udp: true
+- name: '1.65| 香港  Trojan  C  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20720
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.63| 新加坡   Trojan  C  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20730
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.63| 新加坡   Trojan  E  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20733
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.63| 新加坡   Trojan  G  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20735
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.63| 新加坡   Trojan  C1  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20739
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.62| 新加坡   Trojan  H  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20736
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.62| 香港  Trojan  I  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20726
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.62| 香港   Trojan  B  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20719
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.61| 香港  Trojan  H  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20725
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.61| 新加坡   Trojan  E1  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20732
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.60| 香港  Trojan  J  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20727
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.60| 新加坡   Trojan  D1  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20742
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.60| 新加坡   Trojan  A  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20728
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.57| 新加坡   Trojan  B  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20729
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.54| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
+  server: trojan33.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.48|USwmt61243
+  server: 212.81.47.18
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: '1.47| 新加坡   Trojan  A1  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20741
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '1.43| 香港   Trojan  A  08x  黃金  港區流媒體解鎖 '
+  server: 20.205.119.149
+  port: 9001
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.34|稳定高速可购买付费节点
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: edge.apple.com
+  skip-cert-verify: true
+- name: '1.22| 新加坡   Trojan  D  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20731
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.18| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.02|USwmt61332
   server: bai-piao-wang-zhe10.98848.xyz
   port: 48240
   type: trojan
-  country: ' US'
   password: c8bae3de-16ed-4247-8a99-f38ef79a4b51
+  sni: bai-piao-wang-zhe10.98848.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.17| 甲骨文东京ARM1trojan
+- name: 0.97|DEwmt61343
+  server: s4.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s4.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 0.96| 甲骨文东京ARM1trojan
   server: jgwdj3.gaox.ml
   port: 443
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
   sni: jgwdj3.gaox.ml
-- name: 0.16| 中国0612109
-  server: 14.29.124.168
-  port: 24016
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.16|RelayCNHK16
-  server: 14.29.124.174
-  type: ss
-  country: CN
-  port: 11044
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.16| CN33 TGpeekfun
-  server: 14.29.124.174
-  port: 11006
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.15| 中国0610085
-  server: 14.29.124.168
-  port: 24026
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.14|USwmt6127
-  server: s1.hazz.win
-  port: 12340
+- name: 0.93|USwmt61354
+  server: 212.81.47.14
+  port: 443
   type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s1.hazz.win
+  password: 3yFq7NCP53mVfpXJz3
   skip-cert-verify: true
   udp: true
-- name: 0.14| RelayCARU11
-  server: t03.ssrsub.com
-  port: 18443
+- name: 0.93| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
+  server: clash5.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.82|CNwmt61331
+  server: 120.241.236.93
+  port: 46061
   type: trojan
-  password: f736834f-1fc8-4738-9884-9afe0eb0d818
-  sni: t03.ssrsub.com
-- name: 0.13|RelayCNHK38
-  server: 14.29.124.174
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  skip-cert-verify: true
+  udp: true
+- name: 0.79|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
+  port: 443
+  type: trojan
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 0.76| 美国 G204  沪日隧道  0x
+  server: 36.134.114.49
+  port: 32003
+  type: trojan
+  password: c7Vjyu
+  sni: s02cdn.t4v.fun
+  skip-cert-verify: true
+- name: 0.75| RelayDEGB52
+  server: au2-2.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-2.nigirocloud.com
+- name: 0.75| 日本
+  server: jp5.mayiyun.shop
+  port: 10014
   type: ss
-  country: CN
-  port: 11020
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.13|CNwmt6128
+  cipher: chacha20-ietf-poly1305
+  password: 9be8090d-bbdc-4e75-90da-044f04dd9c31
+- name: 0.70| 乌克兰 B101  沪日隧道  0x
+  server: 36.134.114.49
+  port: 59281
+  type: trojan
+  password: c7Vjyu
+  sni: s02cdn.t4v.fun
+  skip-cert-verify: true
+- name: 0.53| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 0.53| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶3SSR
+  server: clash3.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.52| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 0.50| 德国
+  server: azhk1.mayiyun.shop
+  port: 20002
+  type: ss
+  cipher: aes-256-gcm
+  password: 9be8090d-bbdc-4e75-90da-044f04dd9c31
+- name: 0.45| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶1SSR
+  server: clash1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.42| AU 40
+  server: 212.81.47.17
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+- name: 0.41|RelayAUAU04
+  server: hk64.fans8.xyz
+  type: trojan
+  country: AU
+  port: 443
+  password: 21882ea6-235b-4463-93d4-55c7d378857d
+  skip-cert-verify: true
+  udp: true
+- name: 0.40|USwmt61350
+  server: au2-3.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-3.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 0.34|USwmt61351
+  server: 212.81.47.16
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 0.33|RelayAUAU03
+  server: hk6702.fans8.xyz
+  type: trojan
+  country: AU
+  port: 443
+  password: 21882ea6-235b-4463-93d4-55c7d378857d
+  skip-cert-verify: true
+  udp: true
+- name: 0.30|AUwmt61276
+  server: kr04.wangxd.life
+  port: 3052
+  type: trojan
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  sni: kr04.wangxd.life
+  skip-cert-verify: true
+  udp: true
+- name: 0.30|RelayUSUS67
+  server: kr01.wangxd.life
+  type: trojan
+  country: US
+  port: 3052
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: 0.29|US55
+  server: usa1.mayiyun.shop
+  type: ss
+  country: US
+  port: 20012
+  password: 9be8090d-bbdc-4e75-90da-044f04dd9c31
+  cipher: aes-256-gcm
+- name: 0.28|USwmt61345
+  server: tj-us02.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  sni: tj-us02.yiyodns.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.28|CNwmt61346
   server: 180.163.62.91
   port: 10064
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
   udp: true
-- name: 0.13| RelayCNHK209
-  server: 14.29.124.174
-  port: 11004
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.13| RelayCNHK220
-  server: 14.29.124.174
-  port: 11019
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.12|DEwmt61239
-  server: 165.22.73.126
-  port: 23335
-  type: ss
+- name: 0.26|CNwmt61321
+  server: 116.129.254.212
+  port: 48606
+  type: ssr
   cipher: aes-256-cfb
-  password: 7d99ae502227454ea998d71e4b62a388
+  password: GjRQkK
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 1062:tLkKEk
+  obfs-param: ''
   udp: true
-- name: 0.12|CN12
-  server: 14.29.124.174
-  port: 11041
-  type: ss
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.11| RelayCNHK236
-  server: 14.29.124.174
-  port: 11043
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.10|SGwmt61240
-  server: 67sg01.fans8.xyz
-  port: 443
+- name: 0.25|CNwmt61324
+  server: sg-cn.teacher2050.com
+  port: 43508
   type: trojan
-  password: 0e90d359-1733-4994-a195-4df768a18e99
-  sni: 67sg01.fans8.xyz
+  password: E44523FE-B9E4-BD49-AEAF-DBABE701D016
+  sni: sg-cn.teacher2050.com
   skip-cert-verify: true
   udp: true
+- name: 0.22|CNwmt61366
+  server: 180.163.62.91
+  port: 10065
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+  udp: true
+- name: 0.18| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- type: ss
+  name: 0.18|DE德国
+  server: 165.22.73.126
+  port: 23335
+  cipher: aes-256-cfb
+  password: 7d99ae502227454ea998d71e4b62a388
+- name: 0.13|CN38
+  server: 14.29.124.174
+  port: 11039
+  type: ss
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.12|CN19
+  server: 14.29.124.174
+  port: 11010
+  type: ss
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.11| RelayCNHK207
+  server: 14.29.124.174
+  port: 11040
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.10|RelayCNHK35
+  server: 14.29.124.174
+  type: ss
+  country: CN
+  port: 11003
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.10|CN39
+  server: 14.29.124.168
+  port: 24026
+  type: ss
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.10| RelayCNHK248
+  server: 14.29.124.174
+  port: 11036
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
