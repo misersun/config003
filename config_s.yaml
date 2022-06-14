@@ -1,19 +1,80 @@
 proxies:
-- name: 11.51|负载均衡
+- name: 4.65|伊拉克
+  server: 139.162.45.81
+  port: 13236
+  type: trojan
+  password: 9ff4a104-d00e-4867-96e7-6f5f63070005
+  sni: 52-192-154-122.nhost.00cdn.com
+- name: 3.71|USwmt6149
   server: azhk.n.optage.moe
   port: 62500
   type: trojan
-  password: 6db23a93-95fa-4e1c-aa7c-6c1885e1c0d4
-  sni: cdn.qchwnd.moe
-- name: 3.68|USwmt61337
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s1.hazz.win
+  password: d3c34184-e1b5-42d0-8f52-d89c8a095301
+  sni: azhk.n.optage.moe
   skip-cert-verify: true
   udp: true
-- name: 2.51|USwmt61332
+- name: 2.56|日本youtube阿伟科技 5
+  server: www.fewa.cf
+  port: 443
+  type: vmess
+  uuid: 9fcf1e10-772c-ce80-d51f-62c708333c50
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /paths/
+    headers:
+      Host: www.fewa.cf
+  udp: true
+- name: 2.42|USwmt61360
+  server: 212.81.47.15
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 2.25| RelayDEGB52
+  server: au2-2.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-2.nigirocloud.com
+- name: 2.25|USwmt61354
+  server: 212.81.47.14
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 2.17|USwmt61345
+  server: tj-us02.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  sni: tj-us02.yiyodns.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 2.08| githubcomfreefq  美国CloudFlare节点 23
+  server: app.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: 773c2bba-eb96-11ec-8260-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: app.ssfree.ru
+- name: 2.04| RelayDEGB51
+  server: au2-4.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-4.nigirocloud.com
+- name: 1.94|USwmt61332
   server: bai-piao-wang-zhe10.98848.xyz
   port: 48240
   type: trojan
@@ -21,14 +82,118 @@ proxies:
   sni: bai-piao-wang-zhe10.98848.xyz
   skip-cert-verify: true
   udp: true
-- name: 2.42|稳定高速可购买付费节点
-  server: s3.hazz.win
-  port: 12340
+- name: 1.92| DE121 TGpeekfun
+  server: 212.81.47.13
+  port: 443
   type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: edge.apple.com
+  country: ' DE'
+  password: 3yFq7NCP53mVfpXJz3
   skip-cert-verify: true
-- name: 2.29|JPwmt61359
+  udp: true
+- name: 1.80| DE118 TGpeekfun
+  server: 212.81.47.17
+  port: 443
+  type: trojan
+  country: ' DE'
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.69|RelayUSUS64
+  server: vus3.0bad.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /chat
+  servername: vus3.0bad.com
+  ws-headers:
+    HOST: vus3.0bad.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.58|USwmt61434
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 1.56|USwmt61351
+  server: 212.81.47.16
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.50|USwmt6131
+  server: au2-1.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-1.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.31| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: '1.28| 马来西亚  Trojan  體驗套餐  B  1  250x  官網  ninihaocc  体验节点不等于付费节点效果 '
+  server: azgy001.xiba1.xyz
+  port: 6004
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.27|USwmt61493
+  server: 212.81.47.12
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.23|瑞士youtube阿伟科技
+  server: v2ray.wefuckgfw.ga
+  port: 2096
+  type: vmess
+  uuid: c0bc4a6f-74f9-49f3-b722-7ebb6aca17d7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /H8VswtUJ/
+    headers:
+      Host: v2ray.wefuckgfw.ga
+  udp: true
+- name: '1.18| 美国  Trojan  體驗節點  B  100x  官網  ninihaocc  体验节点不等于付费节点效果 '
+  server: azgy001.xiba1.xyz
+  port: 20712
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.17|USwmt61474
+  server: azqt001.xiba1.xyz
+  port: 20747
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azqt001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.12|USwmt61353
+  server: 212.81.47.11
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.09|JPwmt61359
   server: jgwdb3.gaox.ml
   port: 443
   type: trojan
@@ -36,173 +201,43 @@ proxies:
   sni: jgwdb3.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 2.04| 甲骨文东京ARM2trojan
-  server: jgwdj4.gaox.ml
-  port: 443
-  type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-- name: 1.88|伊拉克
-  server: 139.162.45.81
-  port: 13236
-  type: trojan
-  password: 9ff4a104-d00e-4867-96e7-6f5f63070005
-  sni: 52-192-154-122.nhost.00cdn.com
-- name: 1.85|韩国youtube阿伟科技 3
-  server: ocikr.n.optage.moe
-  port: 62500
-  type: trojan
-  password: c940ea61-853d-45e1-8296-9b334f83fa87
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.70| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: '1.67| 香港  Trojan  H  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20725
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.67| 香港   Trojan  A  08x  黃金  港區流媒體解鎖 '
-  server: 20.205.119.149
-  port: 9001
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 新加坡   Trojan  C1  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20739
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 香港   Trojan  B  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20719
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 新加坡   Trojan  B  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20729
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 新加坡   Trojan  A  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20728
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 新加坡   Trojan  A1  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20741
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.63| 香港  Trojan  I  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20726
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.62| 新加坡   Trojan  H  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20736
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.62| 香港  Trojan  J  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20727
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.62| 香港  Trojan  C  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20720
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.62| 新加坡   Trojan  G  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20735
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.62| 新加坡   Trojan  E1  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20732
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.61| 新加坡   Trojan  D  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20731
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: '1.60| 新加坡   Trojan  E  10x  青铜   AZ '
+- name: '1.08| 新加坡   Trojan  E  10x  青铜   AZ '
   server: AZQT001.xiba1.xyz
   port: 20733
   type: trojan
   password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
   sni: ssl.ssl12.xyz
-- name: '1.60| 新加坡   Trojan  D1  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20742
+- name: 1.06|USwmt61472
+  server: azqt001.xiba1.xyz
+  port: 20734
   type: trojan
   password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: 1.57| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: '1.52| 新加坡   Trojan  C  10x  青铜   AZ '
-  server: AZQT001.xiba1.xyz
-  port: 20730
-  type: trojan
-  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
-  sni: ssl.ssl12.xyz
-- name: 1.52|荷兰youtube阿伟科技
-  server: werwer-beyqcnh.koyeb.app
-  port: 443
-  type: vmess
-  uuid: 29115fe9-3091-4f35-a54c-2374709d20a8
-  alterId: 0
-  cipher: auto
-  tls: true
+  sni: azqt001.xiba1.xyz
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: werwer-beyqcnh.koyeb.app
   udp: true
-- name: 1.47|RelayUSRU61
-  server: in03.dns220607.com
-  type: vmess
-  country: US
-  port: 64071
-  uuid: 4a3fd26a-6e53-3eba-b9f3-13ec92173082
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: biteb-ru01.myn1des.com
-  ws-headers:
-    HOST: biteb-ru01.myn1des.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+- name: '1.05| 香港  Trojan  H  08x  黃金  港區流媒體解鎖 '
+  server: AZHJ001.xiba1.xyz
+  port: 20725
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 1.04|DEwmt61343
+  server: s4.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s4.hazz.win
   skip-cert-verify: true
-- name: 1.45| US301
+  udp: true
+- name: 1.04|HKwmt61485
+  server: azgy001.xiba1.xyz
+  port: 6003
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azgy001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.99| US341
   server: 527hk1.fans8.xyz
   port: 80
   type: vmess
@@ -214,7 +249,78 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: 527hk1.fans8.xyz
-- name: 1.38| v2rayfreeeuorg  日本东京Oracle云计算数据中心 2
+- name: 0.98|USwmt61337
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s1.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 0.96|USwmt61487
+  server: hj001.xiba1.xyz
+  port: 20762
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: hj001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.96| RelayUSUS64
+  server: vus4.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vus4.0bad.com
+- name: 0.95|USwmt61492
+  server: 212.81.47.18
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 0.89| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 11
+  server: vus2.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vus2.0bad.com
+- name: 0.88|HKwmt61477
+  server: azgy001.xiba1.xyz
+  port: 20710
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azgy001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.88|USwmt61427
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s3.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 0.87|USwmt61469
+  server: azqt001.xiba1.xyz
+  port: 20746
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azqt001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.84|美国youtube阿伟科技
   server: mixv4-26.194610.xyz
   port: 4440
   type: vmess
@@ -222,205 +328,91 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
-  ws-headers:
-    Host: mixv4-26.194610.xyz
-- name: 1.22| SG10
-  server: 104.18.152.205
-  port: 443
-  type: vmess
-  uuid: de461076-bc21-4b96-dfd4-8382fea86eb7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xx
-  ws-headers:
-    Host: nickchan.xyz
-- name: 1.22|RelayILIL49
-  server: ru1.lolvps.xyz
-  type: vmess
-  country: IL
-  port: 40047
-  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /6129CFHR
-  servername: ru1.lolvps.xyz
-  ws-headers:
-    HOST: ru1.lolvps.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
   skip-cert-verify: true
-- name: 1.17| SG9
-  server: 104.17.217.77
-  port: 443
-  type: vmess
-  uuid: de461076-bc21-4b96-dfd4-8382fea86eb7
-  alterId: 0
-  cipher: auto
-  tls: true
   network: ws
-  ws-path: /xx
-  ws-headers:
-    Host: nickchan.xyz
-- name: 0.98|DEwmt61343
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s4.hazz.win
-  skip-cert-verify: true
+  ws-opts:
+    path: /a185d5dc-c726-466c-98f2-ba494e63695f
+    headers:
+      Host: mixv4-26.194610.xyz
   udp: true
-- name: 0.97| US293
-  server: 331tw.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 331tw.fans8.xyz
-- name: 0.89|RelayUSUS67
-  server: kr01.wangxd.life
-  type: trojan
-  country: US
-  port: 3052
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-  udp: true
-- name: 0.87|RelayUSUS63
-  server: mixv4-27.194610.xyz
-  type: vmess
-  country: US
-  port: 443
-  uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
-  servername: mixv4-27.194610.xyz
-  ws-headers:
-    HOST: mixv4-27.194610.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.82| V1新加坡 多台负载均衡 中继C 15x
-  server: in03.dns220607.com
-  port: 64087
-  type: vmess
-  uuid: 4a3fd26a-6e53-3eba-b9f3-13ec92173082
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /biteb
-  ws-headers:
-    Host: sg-balancer.tencent.best
-- name: 0.73|甲骨文海得拉巴ARM2trojan
-  server: jgwhdlb4.gaox.ml
+- name: 0.84| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
   port: 443
   type: trojan
-  password: 081a4198-d664-4bc5-a7c6-e35982da964b
-  sni: jgwhdlb4.gaox.ml
-- name: 0.56| v2rayfreeeuorg  荷兰  43
-  server: ru2.lolvps.xyz
-  port: 40048
-  type: vmess
-  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /J56OYLY9
-  ws-headers:
-    Host: ru2.lolvps.xyz
-- name: 0.52|RelaySGSG53
-  server: v2ray1.udpgw.com
-  type: vmess
-  country: SG
-  port: 443
-  uuid: b6581737-539e-4b68-b853-e50c291b250d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /howdy
-  servername: v2ray1.udpgw.com
-  ws-headers:
-    HOST: v2ray1.udpgw.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.46|USwmt61268
-  server: 212.81.47.13
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: '0.83| 美国   Trojan  D  10x  青銅  AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20746
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 0.82| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
   port: 443
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 0.45|美国youtube阿伟科技 4
-  server: v2ray.wefuckgfw.ga
-  port: 2096
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: '0.81| 新加坡   Trojan  F  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20734
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '0.80| 美国   Trojan  F  10x  青銅  AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20748
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: '0.79| 新加坡   Trojan  B1  10x  青铜   AZ '
+  server: AZQT001.xiba1.xyz
+  port: 20740
+  type: trojan
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: ssl.ssl12.xyz
+- name: 0.79|香港youtube阿伟科技 7
+  server: hk5.lolvps.xyz
+  port: 46600
   type: vmess
-  uuid: 556b20c1-272e-44ec-881b-94f410ac75de
+  uuid: 836fe834-4204-460d-b586-52d9bd407e8b
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /H8VswtUJ/
+    path: /N4POVB85
     headers:
-      Host: v2ray.wefuckgfw.ga
+      Host: hk5.lolvps.xyz
   udp: true
-- name: 0.44|USwmt61353
-  server: 212.81.47.11
-  port: 443
+- name: 0.74|USwmt61471
+  server: azqt001.xiba1.xyz
+  port: 20748
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azqt001.xiba1.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.43|USwmt61354
-  server: 212.81.47.14
-  port: 443
+- name: 0.71|HKwmt61463
+  server: azhj001.xiba1.xyz
+  port: 20725
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azhj001.xiba1.xyz
   skip-cert-verify: true
   udp: true
-- name: 0.42| DE124 TGpeekfun
-  server: 212.81.47.12
+- name: 0.70| githubcomfreefq  日本  5
+  server: hk64.fans8.xyz
   port: 443
   type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 0.42| v2rayfreeeuorg  日本东京Amazon数据中心 39
-  server: gy02.20220512.cyou
-  port: 37762
+  password: bbdff6a8-2e22-4d37-a4ab-a038bc646bd9
+  sni: hk64.fans8.xyz
+- name: 0.68|USwmt61490
+  server: azqt001.xiba1.xyz
+  port: 20741
   type: trojan
-  password: 207eed47-ffdd-4bd4-91c1-719ac25c9cee
-  sni: gy02.20220512.cyou
-- name: 0.41| DE117 TGpeekfun
-  server: 212.81.47.17
-  port: 443
-  type: trojan
-  country: ' DE'
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 0.36|USwmt61243
-  server: 212.81.47.18
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
+  password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6
+  sni: azqt001.xiba1.xyz
   skip-cert-verify: true
   udp: true
