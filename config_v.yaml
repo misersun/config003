@@ -1,5 +1,38 @@
 proxies:
-- name: 2.49|美国youtube阿伟科技 2
+- name: 5.07|香港youtube阿伟科技 3
+  server: hk3.ningmengshui.xyz
+  port: 80
+  type: vmess
+  uuid: b17f9999-1608-4911-86f2-d0cf20bf1356
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube
+  udp: true
+- name: 2.82|日本youtube阿伟科技 3
+  server: bgj.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.89|美国youtube阿伟科技 2
   server: v125.v2dns.bar
   port: 80
   type: vmess
@@ -14,7 +47,7 @@ proxies:
     headers:
       Host: v125.v2dns.bar
   udp: true
-- name: 1.14|日本youtube阿伟科技 5
+- name: 1.74|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -32,19 +65,19 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- name: 0.79| githubcomfreefq  美国CloudFlare公司CDN节点 12
-  server: v47.v2dns.bar
-  port: 2052
+- name: 0.60| SSRSUB美国V05付费推荐dljtfssrsub
+  server: v05.ssrsub.com
+  port: 153
   type: vmess
-  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
+  uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /v47-unlimitndxd
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: v47.v2dns.bar
-- name: 0.50|美国youtube阿伟科技 10
+    Host: d76bb35696.laowanxiang.com
+- name: 0.58|美国youtube阿伟科技 10
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -59,15 +92,33 @@ proxies:
     headers:
       Host: aweikeji-YouTube
   udp: true
-- name: 0.50| US302
-  server: v04.ssrsub.com
-  port: 153
+- name: 0.32| githubcomfreefq  美国加利福尼亚州洛杉矶Psychz Networks 7
+  server: 104.149.154.154
+  port: 25966
   type: vmess
-  uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /api/v3/download.getFile
+  ws-path: /VTd4o3Kj/
   ws-headers:
     Host: aweikeji-YouTube
+- name: 0.20|日本youtube阿伟科技
+  server: 158.101.74.69
+  port: 31939
+  type: vmess
+  uuid: f130c826-40d9-44fb-be3d-75ebcb750d12
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.15|HU340
+  server: 185.225.69.134
+  port: 45081
+  type: vmess
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: 64
+  cipher: auto
+  tls: false
