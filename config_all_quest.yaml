@@ -1,590 +1,48 @@
 proxies:
-- name: 7.87| 香港BGP杭港BGP隧道
-  server: 36.134.116.212
-  port: 45101
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 59836db8-6e5f-4b8b-aa1e-3963f9d9c923
-- name: 6.58| 香港Azure杭港BGP隧道
-  server: 36.134.116.212
-  port: 45102
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 59836db8-6e5f-4b8b-aa1e-3963f9d9c923
 - type: trojan
-  name: 5.88|CNwmt623a7
+  name: 5.84|CNwmt624a29
   server: hn.zfnode.org
   port: 30217
   password: 63ec756d-1f6a-36c8-a9fd-025f4acfc74f
   udp: true
   skip-cert-verify: true
-- name: 4.76| v2rayfreeeuorg  澳大利亚  12
-  server: cnus.v2yyds.cc
-  port: 32913
+- name: 4.57| CN71 TGpeekfun
+  server: 120.233.186.71
+  port: 3383
   type: trojan
-  password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f
-  sni: cnus.v2yyds.cc
-- name: 3.99| v2rayfreeeuorg  澳大利亚  6
-  server: us.v2yyds.cc
-  port: 32912
-  type: trojan
-  password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f
-  sni: us.v2yyds.cc
-- name: 3.98| v2rayfreeeuorg  澳大利亚  7
-  server: us.v2yyds.cc
-  port: 32911
-  type: trojan
-  password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f
-  sni: us.v2yyds.cc
-- name: 3.55|httpsgithubcomAlvin9999newpacwiki ip3 SSR
-  server: clash11.free4444.xyz
+  country: ' CN'
+  password: ca4596fb9bc63cf2
+  skip-cert-verify: true
+  udp: true
+- name: 3.11| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: ss
-  name: 2.85|USwmt623a46
-  server: 167.88.61.50
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 2.79|RelayITUS54
-  server: c8s2.jamjams.net
-  type: ss
-  country: IT
-  port: 30162
-  password: eWh5br48eraTyoJS
-  cipher: aes-256-gcm
-- name: 2.76|US130
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 7306
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- type: ss
-  name: 2.67|USwmt623a45
-  server: 167.88.61.50
-  port: 9102
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-- type: trojan
-  name: 2.65|CNwmt623a6
-  server: cm.spacez.cloud
-  port: 30002
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  udp: true
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 3.05| TW158 TGpeekfun
+  server: 211.72.35.153
+  port: 3389
+  type: trojan
+  country: ' TW'
+  password: a170b44c2dfac9e6
   skip-cert-verify: true
-- name: 2.64|US128
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 5004
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 2.63| US268 TGpeekfun
-  server: 38.75.136.102
-  port: 5500
-  type: ss
-  country: ' US'
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 2.43| US269 TGpeekfun
-  server: 38.75.136.102
-  port: 5601
-  type: ss
-  country: ' US'
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- type: trojan
-  name: 2.38|CNwmt622a4
-  server: cm.spacez.cloud
-  port: 30003
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   udp: true
-  skip-cert-verify: true
-- name: 2.30|US122
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 7307
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: 2.27|US129
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 8119
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 2.26| US270 TGpeekfun
-  server: 38.75.136.102
-  port: 9102
-  type: ss
-  country: ' US'
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- type: trojan
-  name: 2.24|USwmt623a23
-  server: ss2.2046.gq
-  port: 4443
-  password: 794871c6-022b-4498-b816-296e8a581d86
-  udp: true
-  skip-cert-verify: true
-- name: 2.23|US123
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 3306
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 2.20|US120
+- name: 2.72|US120
   server: 167.88.61.50
   type: ss
   country: US
   port: 8091
   password: PCnnH6SQSnfoS27
   cipher: aes-256-gcm
-- type: ss
-  name: 2.06|USwmt623a20
-  server: 38.75.136.102
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 2.02| US275 TGpeekfun
-  server: 38.75.136.102
-  port: 8080
-  type: ss
-  country: ' US'
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 2.01| US273 TGpeekfun
-  server: 38.75.136.102
-  port: 8118
-  type: ss
-  country: ' US'
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 2.01| US272 TGpeekfun
-  server: 38.75.136.102
-  port: 9101
-  type: ss
-  country: ' US'
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- name: 1.97|US119
-  server: 38.68.135.18
-  type: ss
-  country: US
-  port: 5601
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 1.94| httpsgithubcomAlvin9999newpacwiki ip3洛杉矶1SSR
-  server: ss-v2ray1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.88|新加坡youtube阿伟科技
-  server: sg.v2yyds.cc
-  port: 35211
-  type: trojan
-  password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f
-  sni: sg.v2yyds.cc
-  skip-cert-verify: true
-  udp: true
-- name: 1.88| US289 TGpeekfun
-  server: 38.75.136.102
-  port: 6379
-  type: ss
-  country: ' US'
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
-- name: 1.84| httpsgithubcomAlvin9999newpacwiki 洛杉矶SSR
-  server: clash3.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: ssr
-  name: 1.82|NLwmt623a9
-  server: 213.183.59.214
-  port: 9056
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rNBfNuuANFCAk7KB
-- name: 1.74|RS93
-  server: 194.71.126.31
-  type: ss
-  country: RS
-  port: 989
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: 1.74|US124
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 2375
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 1.73|US121
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- type: ssr
-  name: 1.69|NLwmt623a35
-  server: 213.183.59.211
-  port: 9098
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-- name: 1.68|US126
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 2376
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: 1.64|LT537 2216Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9005
-  password: ZET59LF6DvCC8KVt
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.60|LT66
-  server: 213.183.53.208
-  type: ss
-  country: LT
-  port: 9025
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 1.57| NL166 TGpeekfun
-  server: 213.183.51.172
-  port: 9070
-  type: ss
-  country: ' NL'
-  password: bf7v334KKDV3YDhH
-  cipher: aes-256-cfb
-- name: 1.55|LT545 2327Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9015
-  password: ZpNDDKRu9MagNvaf
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.53|NLwmt620a85
-  server: 213.183.59.214
-  port: 9064
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-- name: 1.51| US295 TGpeekfun
-  server: 38.75.136.102
-  port: 443
-  type: ss
-  country: ' US'
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 1.51| LT135 TGpeekfun
-  server: 213.183.53.177
-  port: 9057
-  type: ssr
-  country: ' LT'
-  password: wjTugX3ZtHMB9c3Z
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.50|NLwmt622a5
-  server: 213.183.59.214
-  port: 9007
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: kSPmvwdFzGMMW5pY
-- type: ssr
-  name: 1.50|NLwmt623a22
-  server: 213.183.59.211
-  port: 9014
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: KnJGad3FqTvjqbaX
-- name: 1.50|US131
-  server: 38.68.135.18
-  type: ss
-  country: US
-  port: 9101
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- name: 1.49| NL164 TGpeekfun
-  server: 213.183.59.211
-  port: 9010
-  type: ss
-  country: ' NL'
-  password: f63gg8EruDnUrmz4
-  cipher: aes-256-cfb
 - type: trojan
-  name: 1.49|USwmt622a32
-  server: fhcamd2.gaox.ml
-  port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  udp: true
-  skip-cert-verify: true
-- name: 1.48| US327 TGpeekfun
-  server: 198.200.51.219
-  port: 26969
-  type: trojan
-  country: ' US'
-  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
-  skip-cert-verify: true
-  udp: true
-- name: 1.47| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.46| NL152 TGpeekfun
-  server: 213.183.51.172
-  port: 9000
-  type: ss
-  country: ' NL'
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 1.46| NL160 TGpeekfun
-  server: 213.183.51.172
-  port: 9025
-  type: ss
-  country: ' NL'
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 1.46|US125
-  server: 38.121.43.71
-  type: ss
-  country: US
-  port: 5004
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 1.46|ZZ155
-  server: 169.197.141.187
-  type: ss
-  country: ZZ
-  port: 8091
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 1.45| US287 TGpeekfun
-  server: 38.75.136.102
-  port: 2376
-  type: ss
-  country: ' US'
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- type: ss
-  name: 1.44|RUwmt623a27
-  server: 213.183.53.182
-  port: 9097
-  cipher: aes-256-cfb
-  password: Sn5B7jTqr76aCJT8
-- name: 1.44|LT521 2227Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9014
-  password: KnJGad3FqTvjqbaX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.43|LT518  277Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9018
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.43|US116
-  server: 38.68.135.18
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: 1.41|US127
-  server: 38.121.43.71
-  type: ss
-  country: US
-  port: 443
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 1.40|US117
-  server: 38.68.135.18
-  type: ss
-  country: US
-  port: 8090
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 1.39| NL151 TGpeekfun
-  server: 213.183.51.172
-  port: 9033
-  type: ss
-  country: ' NL'
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-- name: 1.39|LT522 2150Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9018
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: trojan
-  name: 1.38|USwmt622a26
+  name: 2.48|USwmt623a24
   server: s3.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- name: 1.38| LT140 TGpeekfun
-  server: 213.183.53.177
-  port: 9003
-  type: ssr
-  country: ' LT'
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.38|LT60
-  server: 213.183.53.177
-  type: ss
-  country: LT
-  port: 9084
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-- name: 1.38|LT539 1980Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9001
-  password: UkXRsXvR6buDMG2Y
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.38|RUwmt622a35
-  server: 213.183.53.177
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- name: 1.36| RU223 TGpeekfun
-  server: 217.30.10.63
-  port: 9059
-  type: ss
-  country: ' RU'
-  password: 9XwYyZsK8SNzQDtY
-  cipher: aes-256-cfb
-- name: 1.36|SSR
-  server: 213.183.53.177
-  port: 9093
-  type: ss
-  cipher: aes-256-cfb
-  password: wfLC2y7rzZyCmuyt
-- name: 1.35|LT517 2256Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9026
-  password: QWDDvVE9npNurQfA
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.35|LT64
-  server: 213.183.53.177
-  type: ss
-  country: LT
-  port: 9037
-  password: TN2YqghxeFDKZfLU
-  cipher: aes-256-cfb
-- name: 1.35|LT535 2344Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9073
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.34|LT531 2167Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9024
-  password: BejrQvtu9sqUeNuZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.34|RUwmt622a12
-  server: 213.183.53.177
-  port: 9041
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: U6qnYRhfyDmn8sgn
-- name: 1.33|LT532 2093Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9040
-  password: p9z5BVADH2YFs3MN
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.33|SSR 4
-  server: 213.183.53.177
-  port: 9010
-  type: ss
-  cipher: aes-256-cfb
-  password: f63gg8EruDnUrmz4
-- name: 1.32|LT513 2152Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9070
-  password: bf7v334KKDV3YDhH
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.31| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+- name: 2.42| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
   server: clash2.free4444.xyz
   port: 443
   type: ssr
@@ -594,469 +52,266 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.30| LT137 TGpeekfun
-  server: 213.183.53.200
-  port: 9038
-  type: ssr
-  country: ' LT'
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.30| NL153 TGpeekfun
-  server: 213.183.51.172
-  port: 9020
+- name: 2.09| US193 TGpeekfun
+  server: 38.114.114.67
+  port: 8009
   type: ss
-  country: ' NL'
-  password: BNmAXXxAHYpTRdzu
-  cipher: aes-256-cfb
-- name: 1.30| US274 TGpeekfun
+  country: ' US'
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 2.05| US327 TGpeekfun
+  server: 198.200.51.219
+  port: 26969
+  type: trojan
+  country: ' US'
+  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
+  skip-cert-verify: true
+  udp: true
+- name: 1.91| US274 TGpeekfun
   server: 38.75.136.102
   port: 8090
   type: ss
   country: ' US'
   password: PCnnH6SQSnfoS27
   cipher: aes-256-gcm
+- name: 1.86| TW156 TGpeekfun
+  server: 60.249.3.231
+  port: 3389
+  type: trojan
+  country: ' TW'
+  password: ca4596fb9bc63cf2
+  skip-cert-verify: true
+  udp: true
+- name: 1.84| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶2
+  server: clash-ssr3.free4444.xyz
+  port: 23456
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.81| US273 TGpeekfun
+  server: 38.75.136.102
+  port: 8118
+  type: ss
+  country: ' US'
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 1.74| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶1
+  server: clash-ssr2.free4444.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - type: ssr
-  name: 1.29|NLwmt623a16
+  name: 1.68|NLwmt620a98
   server: 213.183.59.214
-  port: 9033
+  port: 9032
   protocol: origin
   cipher: aes-256-cfb
   obfs: plain
-  password: UTJA57ypk2XKQpnm
-- name: 1.29| RU202 TGpeekfun
-  server: 217.30.10.63
-  port: 9045
-  type: ss
-  country: ' RU'
-  password: Lp27rqyJq72bZsqX
-  cipher: aes-256-cfb
-- name: 1.28| LT139 TGpeekfun
-  server: 213.183.53.200
-  port: 9084
-  type: ssr
-  country: ' LT'
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.28| US267 TGpeekfun
-  server: 38.86.135.36
-  port: 8882
+  password: UWZQeLRWnkqgkseq
+- name: 1.65| US215 TGpeekfun
+  server: 162.251.61.221
+  port: 809
   type: ss
   country: ' US'
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 1.28|甲骨文海得拉巴AMD2trojan
-  server: jgwhdlb2.gaox.ml
-  port: 443
-  type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-- name: 1.27|LT512 2311Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9011
-  password: M3t2ZEQcMGRWBjRa
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.27|LT533 2223Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9031
-  password: BwcAUZk8hUFAkDGN
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.26|LT510 2264Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.25| US266 TGpeekfun
-  server: 38.86.135.36
-  port: 5500
-  type: ss
-  country: ' US'
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 1.24| RU209 TGpeekfun
-  server: 217.30.10.67
-  port: 9025
-  type: ss
-  country: ' RU'
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 1.24| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 1.22| RU232 TGpeekfun
-  server: 217.30.10.63
-  port: 9064
-  type: ss
-  country: ' RU'
-  password: cp8pRSUAyLhTfVWH
-  cipher: aes-256-cfb
-- name: 1.22| RU205 TGpeekfun
-  server: 217.30.10.63
-  port: 9093
-  type: ss
-  country: ' RU'
-  password: wfLC2y7rzZyCmuyt
-  cipher: aes-256-cfb
-- type: ss
-  name: 1.22|RUwmt623a33
-  server: 213.183.53.208
-  port: 9079
-  cipher: aes-256-cfb
-  password: TPqX8edgbAURcAMb
-- name: 1.21| RU203 TGpeekfun
-  server: 217.30.10.63
-  port: 9088
-  type: ss
-  country: ' RU'
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-- name: 1.21|ZZ156
-  server: 169.197.141.187
-  type: ss
-  country: ZZ
-  port: 8881
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 1.21|LT527 3946Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9060
-  password: ueLXVkvh4hckhErQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.21| NL146 TGpeekfun
-  server: 37.120.192.158
-  port: 804
-  type: ss
-  country: ' NL'
   password: G!yBwPWH3Vao
   cipher: chacha20-ietf-poly1305
-- name: 1.21|LT515 2203Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9060
-  password: ueLXVkvh4hckhErQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.19| RU208 TGpeekfun
-  server: 217.30.10.67
-  port: 9001
-  type: ss
-  country: ' RU'
-  password: UkXRsXvR6buDMG2Y
-  cipher: aes-256-cfb
-- type: ssr
-  name: 1.19|NLwmt623a36
-  server: 213.183.59.211
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- name: 1.18| US262 TGpeekfun
-  server: 38.121.43.71
-  port: 7001
-  type: ss
-  country: ' US'
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- type: ss
-  name: 1.18|USwmt623a43
-  server: 167.88.61.50
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 1.18|LT523 2127Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.17|LT59
-  server: 213.183.53.179
-  type: ss
-  country: LT
+- name: 1.65| NL175 TGpeekfun
+  server: 213.183.59.206
   port: 9007
+  type: ss
+  country: ' NL'
   password: kSPmvwdFzGMMW5pY
   cipher: aes-256-cfb
-- name: 1.14|US115
-  server: 38.121.43.71
-  type: ss
-  country: US
-  port: 3306
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 1.13| LT141 TGpeekfun
-  server: 213.183.53.177
-  port: 9033
-  type: ssr
-  country: ' LT'
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.13|LT546 2418Mb
+- name: 1.63|LT531 2585Mb
   server: 213.183.53.200
   type: ssr
   country: LT
-  port: 9033
-  password: UTJA57ypk2XKQpnm
+  port: 9015
+  password: ZpNDDKRu9MagNvaf
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.12| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
+- name: 1.63| httpsgithubcomAlvin9999newpacwiki 洛杉矶SSR
+  server: clash3.free4444.xyz
   port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- type: ssr
-  name: 1.12|NLwmt621a49
-  server: 213.183.59.214
-  port: 9098
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-- type: ss
-  name: 1.12|RUwmt621a57
-  server: 213.183.53.208
-  port: 9041
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-- name: 1.12|LT534 2182Mb
-  server: 213.183.53.200
   type: ssr
-  country: LT
-  port: 9037
-  password: TN2YqghxeFDKZfLU
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.11|NLwmt623a15
-  server: 213.183.59.214
-  port: 9058
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: dML2sfhbVwvtfNPe
-- type: ssr
-  name: 1.11|NLwmt623a40
-  server: 213.183.59.211
-  port: 9079
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: TPqX8edgbAURcAMb
-- name: 1.10|US118
-  server: 167.88.61.50
-  type: ss
-  country: US
-  port: 5600
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- type: ssr
-  name: 1.10|NLwmt620a62
-  server: 213.183.59.214
-  port: 9003
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: JdmRK9gMEqFgs8nP
-- type: ssr
-  name: 1.09|NLwmt622a31
-  server: 213.183.59.214
-  port: 9011
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: M3t2ZEQcMGRWBjRa
-- name: 1.09| NL169 TGpeekfun
-  server: 213.183.51.172
-  port: 9038
-  type: ss
-  country: ' NL'
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-- name: 1.09| RU233 TGpeekfun
-  server: 217.30.10.63
-  port: 9053
-  type: ss
-  country: ' RU'
-  password: SBM7R883jBmnqe6C
-  cipher: aes-256-cfb
-- name: 1.09|LT529 2434Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9027
-  password: EXN3S3eQpjE7EJu8
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.08|RUwmt623a37
-  server: 213.183.53.177
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- name: 1.08|LT58
-  server: 213.183.53.208
-  type: ss
-  country: LT
-  port: 9098
-  password: aLpQtfEZe445QyHk
-  cipher: aes-256-cfb
-- name: 1.08| NL154 TGpeekfun
-  server: 37.120.192.158
-  port: 800
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 1.07| RU213 TGpeekfun
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.50| RU213 TGpeekfun
   server: 217.30.10.63
   port: 9032
   type: ss
   country: ' RU'
   password: UWZQeLRWnkqgkseq
   cipher: aes-256-cfb
-- type: ssr
-  name: 1.05|NLwmt622a34
-  server: 213.183.59.214
-  port: 9073
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-- name: 1.05| US281 TGpeekfun
-  server: 38.75.136.102
-  port: 7306
+- type: ss
+  name: 1.40|GBwmt624a79
+  server: 172.99.190.87
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 1.38| US209 TGpeekfun
+  server: 38.107.226.146
+  port: 3389
   type: ss
   country: ' US'
-  password: FoOiGlkAA9yPEGP
+  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 1.04| RU212 TGpeekfun
-  server: 217.30.10.67
-  port: 9057
+- name: 1.37|LT62
+  server: 213.183.53.208
   type: ss
-  country: ' RU'
-  password: wjTugX3ZtHMB9c3Z
+  country: LT
+  port: 9046
+  password: NvS8N4Vf8qAGPSCL
   cipher: aes-256-cfb
-- name: 1.04|LT520 2243Mb
+- name: 1.34| ZZ252 TGpeekfun
+  server: 134.195.196.231
+  port: 9101
+  type: ss
+  country: ' ZZ'
+  password: e4FCWrgpkji3QY
+  cipher: aes-256-gcm
+- name: 1.27|LT548 2579Mb
   server: 213.183.53.200
   type: ssr
   country: LT
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
+  port: 9014
+  password: KnJGad3FqTvjqbaX
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.04| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
+- type: ss
+  name: 1.25|FRwmt623a17
+  server: 51.38.118.42
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+- name: 1.23| RU126 TGpeekfun
+  server: 217.30.10.63
+  port: 9033
+  type: ss
+  country: ' RU'
+  password: UTJA57ypk2XKQpnm
+  cipher: aes-256-cfb
+- name: 1.20|RO92
+  server: 185.126.116.119
+  type: ss
+  country: RO
+  port: 9056
+  password: rNBfNuuANFCAk7KB
+  cipher: aes-256-cfb
+- name: 1.19| 德国0623131
+  server: 162.55.231.78
   port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 1.03|SSR 3
-  server: 213.183.53.177
-  port: 9064
+  type: ssr
+  cipher: aes-128-ctr
+  password: sEscPBiAD9K$&@79
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.18|美国youtube阿伟科技 28
+  server: 38.68.135.18
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 1.14|LT768
+  server: 213.183.53.200
+  port: 9073
   type: ss
   cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 1.02| US297 TGpeekfun
-  server: 38.86.135.36
-  port: 2376
+  password: daFYagqDdBdA6VTX
+  udp: true
+- type: ss
+  name: 1.13|JPwmt624a71
+  server: 85.208.108.94
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 1.10| ZZ250 TGpeekfun
+  server: 134.195.196.200
+  port: 5600
+  type: ss
+  country: ' ZZ'
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+- name: 1.10| US181 TGpeekfun
+  server: 38.64.138.145
+  port: 8090
   type: ss
   country: ' US'
-  password: faBAoD54k87UJG7
+  password: PCnnH6SQSnfoS27
   cipher: aes-256-gcm
-- name: 1.01| RU211 TGpeekfun
+- type: ssr
+  name: 1.07|NLwmt620a125
+  server: 213.183.59.206
+  port: 9070
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: plain
+  password: bf7v334KKDV3YDhH
+- type: ss
+  name: 1.06|JPwmt624a52
+  server: 85.208.108.94
+  port: 7306
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.05|PoolNL69
+  server: 85.208.108.60
+  type: ss
+  country: NL
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+- name: 1.02| RU211 TGpeekfun
   server: 217.30.10.63
   port: 9079
   type: ss
   country: ' RU'
   password: TPqX8edgbAURcAMb
   cipher: aes-256-cfb
-- type: trojan
-  name: 1.01|USwmt622a16
-  server: jgwdj4.gaox.ml
-  port: 443
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  udp: true
-  skip-cert-verify: true
-- name: 1.00| RU204 TGpeekfun
-  server: 217.30.10.63
-  port: 9056
+- name: 1.01|波兰youtube阿伟科技 12
+  server: 54.36.174.181
+  port: 6697
   type: ss
-  country: ' RU'
-  password: rNBfNuuANFCAk7KB
-  cipher: aes-256-cfb
-- name: 1.00|NL68
-  server: 85.208.108.18
-  type: ss
-  country: NL
-  port: 5001
-  password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: 0.99|NL73
-  server: 185.246.155.29
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- type: ss
+  name: 1.00|USwmt624a90
+  server: 38.68.135.19
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 1.00| PL123 TGpeekfun
+  server: 51.77.53.200
+  port: 7306
   type: ss
-  country: NL
-  port: 9000
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 0.98| RU198 TGpeekfun
-  server: 217.30.10.63
-  port: 9094
-  type: ss
-  country: ' RU'
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.98|NLwmt623a12
-  server: 213.183.59.214
-  port: 9061
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 4R3hUfZ2FHhDmNcP
-- name: 0.98|LT36
-  server: 213.183.53.177
-  type: ss
-  country: LT
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-- name: 0.97|LT511  822Mb
+  country: ' PL'
+  password: FoOiGlkAA9yPEGP
+  cipher: aes-256-gcm
+- type: ss
+  name: 0.96|JPwmt624a31
+  server: 85.208.108.94
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 0.94|LT533 3420Mb
   server: 213.183.53.202
   type: ssr
   country: LT
@@ -1065,150 +320,25 @@ proxies:
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 0.97| LT136 TGpeekfun
-  server: 213.183.53.200
-  port: 9041
-  type: ssr
-  country: ' LT'
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.95| NL170 TGpeekfun
-  server: 213.183.51.172
-  port: 9027
-  type: ss
-  country: ' NL'
-  password: EXN3S3eQpjE7EJu8
-  cipher: aes-256-cfb
-- name: 0.94| RU241 TGpeekfun
-  server: 217.30.10.63
-  port: 9057
-  type: ss
-  country: ' RU'
-  password: wjTugX3ZtHMB9c3Z
-  cipher: aes-256-cfb
-- name: 0.93| NL149 TGpeekfun
-  server: 37.120.192.158
-  port: 809
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.93| LT138 TGpeekfun
-  server: 213.183.53.177
-  port: 9056
-  type: ssr
-  country: ' LT'
-  password: rNBfNuuANFCAk7KB
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.93| US291 TGpeekfun
-  server: 38.86.135.36
-  port: 8118
-  type: ss
-  country: ' US'
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 0.92| RU190 TGpeekfun
-  server: 217.30.10.63
-  port: 9018
-  type: ss
-  country: ' RU'
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-- name: 0.92|LT528  650Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9045
-  password: Lp27rqyJq72bZsqX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.91| RU197 TGpeekfun
-  server: 217.30.10.63
-  port: 9037
-  type: ss
-  country: ' RU'
-  password: TN2YqghxeFDKZfLU
-  cipher: aes-256-cfb
+- name: 0.91| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
+  port: 443
+  type: trojan
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
 - type: ss
-  name: 0.90|USwmt623a26
-  server: 167.88.61.50
-  port: 7001
+  name: 0.89|JPwmt624a32
+  server: 85.208.108.94
+  port: 2375
   cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 0.90|RO90
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9031
-  password: BwcAUZk8hUFAkDGN
-  cipher: aes-256-cfb
-- name: 0.89| US280 TGpeekfun
-  server: 38.121.43.71
-  port: 5500
-  type: ss
-  country: ' US'
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 0.89| RU227 TGpeekfun
-  server: 217.30.10.63
-  port: 9010
-  type: ss
-  country: ' RU'
-  password: f63gg8EruDnUrmz4
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.88|NLwmt623a5
-  server: 213.183.59.211
-  port: 9084
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-- name: 0.88|RelayUSUS150
-  server: storage.starspace.link
-  type: trojan
-  country: US
-  port: 443
-  password: W8gVbKNAZlFzgGPn
-  skip-cert-verify: true
-  udp: true
-- name: 0.86| RU191 TGpeekfun
-  server: 217.30.10.63
-  port: 9031
-  type: ss
-  country: ' RU'
-  password: BwcAUZk8hUFAkDGN
-  cipher: aes-256-cfb
-- name: 0.86|AE03
-  server: 217.138.193.6
-  type: ss
-  country: AE
-  port: 809
-  password: G!yBwPWH3Vao
+  password: faBAoD54k87UJG7
+- type: ss
+  name: 0.86|SG新加坡5
+  server: 81.90.189.18
+  port: 812
   cipher: chacha20-ietf-poly1305
-- name: 0.86|RelayCACA16
-  server: 67us01.fans8.xyz
-  type: trojan
-  country: CA
-  port: 443
-  password: f5362b9a-812f-4d77-89a3-09f7d0851bfb
-  skip-cert-verify: true
-  udp: true
-- name: 0.85|LT538  883Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9033
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.84| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
+  password: G!yBwPWH3Vao
+- name: 0.85| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
   server: clash5.free4444.xyz
   port: 443
   type: ssr
@@ -1218,606 +348,109 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.82|PoolNL76
-  server: 85.208.108.20
-  type: ss
-  country: NL
-  port: 5601
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 0.82| RU189 TGpeekfun
-  server: 217.30.10.63
-  port: 9025
-  type: ss
-  country: ' RU'
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.81|NLwmt623a52
-  server: 213.183.59.211
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- name: 0.81| RU217 TGpeekfun
-  server: 217.30.10.63
-  port: 9084
-  type: ss
-  country: ' RU'
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-- name: 0.80| US277 TGpeekfun
-  server: 38.121.43.71
-  port: 8091
-  type: ss
-  country: ' US'
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 0.79| RU226 TGpeekfun
-  server: 217.30.10.63
-  port: 9001
-  type: ss
-  country: ' RU'
-  password: UkXRsXvR6buDMG2Y
-  cipher: aes-256-cfb
-- name: 0.79|LT516  231Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9057
-  password: wjTugX3ZtHMB9c3Z
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.78| NL147 TGpeekfun
-  server: 37.120.192.158
-  port: 802
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.77| RU199 TGpeekfun
-  server: 217.30.10.68
-  port: 9033
-  type: ss
-  country: ' RU'
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-- name: 0.77|NL78
-  server: 213.183.59.211
-  type: ss
-  country: NL
-  port: 9061
-  password: 4R3hUfZ2FHhDmNcP
-  cipher: aes-256-cfb
-- name: 0.77|LT544 2252Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9003
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ss
-  name: 0.76|NLwmt623a10
-  server: 37.120.192.158
-  port: 806
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 0.75| RU185 TGpeekfun
-  server: 217.30.10.67
-  port: 9015
-  type: ss
-  country: ' RU'
-  password: ZpNDDKRu9MagNvaf
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.75|NLwmt623a13
-  server: 213.183.59.211
-  port: 9046
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: NvS8N4Vf8qAGPSCL
-- name: 0.75| US335 TGpeekfun
-  server: rooms.starspace.link
-  port: 443
-  type: trojan
-  country: ' US'
-  password: 5HfENR8nt2PR8reH
-  skip-cert-verify: true
-  udp: true
-- name: 0.74| LU142 TGpeekfun
-  server: 172.255.248.35
-  port: 989
-  type: ss
-  country: ' LU'
-  password: f8f7aCzcPKbsF8p3
-  cipher: aes-256-cfb
-- name: 0.73|RelayUSUS151
-  server: usfree1.jiantian.xyz
-  type: trojan
-  country: US
-  port: 23425
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  skip-cert-verify: true
-  udp: true
-- name: 0.73|LT509 3316Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.72| RU192 TGpeekfun
-  server: 217.30.10.63
-  port: 9050
-  type: ss
-  country: ' RU'
-  password: FG5ddLsMPbV5CutE
-  cipher: aes-256-cfb
-- name: 0.71|US114
-  server: 38.121.43.71
-  type: ss
-  country: US
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- type: ssr
-  name: 0.69|NLwmt623a48
-  server: 213.183.59.214
-  port: 9042
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
 - type: trojan
-  name: 0.69|USwmt622a3
+  name: 0.78|USwmt624a91
   server: s1.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- type: ssr
-  name: 0.68|NLwmt621a39
-  server: 213.183.59.214
-  port: 9080
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: VP8ZPxQpJtZRCjfZ
-- type: ss
-  name: 0.68|RUwmt623a21
-  server: 213.183.53.208
-  port: 9056
-  cipher: aes-256-cfb
-  password: rNBfNuuANFCAk7KB
-- name: 0.67| NL143 TGpeekfun
-  server: 213.183.51.172
-  port: 9073
-  type: ss
-  country: ' NL'
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-- name: 0.67|LT541 2130Mb
+- name: 0.77|LT499 3540Mb
   server: 213.183.53.200
   type: ssr
   country: LT
-  port: 9050
-  password: FG5ddLsMPbV5CutE
+  port: 9033
+  password: UTJA57ypk2XKQpnm
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 0.66|RO87
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9011
-  password: M3t2ZEQcMGRWBjRa
-  cipher: aes-256-cfb
-- name: 0.66| RU210 TGpeekfun
-  server: 217.30.10.63
-  port: 9060
-  type: ss
-  country: ' RU'
-  password: ueLXVkvh4hckhErQ
-  cipher: aes-256-cfb
-- type: ss
-  name: 0.66|RUwmt620a150
-  server: 213.183.53.208
-  port: 9000
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 0.65|RelayUAUA111
-  server: v2cross.com.05.v2ce.com
-  type: trojan
-  country: UA
-  port: 443
-  password: kGrwqmB1nEKUsDwE
-  skip-cert-verify: true
-  udp: true
-- name: 0.64| NL173 TGpeekfun
-  server: 37.120.192.158
-  port: 803
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.64| NL176 TGpeekfun
-  server: 37.120.192.158
-  port: 810
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.63| 甲骨文伦敦ARM2trojan
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- type: ssr
-  name: 0.62|NLwmt620a98
-  server: 213.183.59.214
-  port: 9032
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UWZQeLRWnkqgkseq
-- name: 0.61|PoolNL69
-  server: 85.208.108.60
-  type: ss
-  country: NL
-  port: 8882
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: 0.61|AE01
-  server: 217.138.193.6
-  type: ss
-  country: AE
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.61| LT125 TGpeekfun
-  server: 213.183.63.219
-  port: 9008
-  type: ss
-  country: ' LT'
-  password: y9VURyNzJWNRYEGQ
-  cipher: aes-256-cfb
-- name: 0.60|LT547 2365Mb
-  server: 213.183.53.200
+- name: 0.76|LT507 3616Mb
+  server: 213.183.53.177
   type: ssr
   country: LT
-  port: 9020
-  password: BNmAXXxAHYpTRdzu
+  port: 9088
+  password: f8npKgNzdkss2ytn
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 0.60|AE02
-  server: 217.138.193.6
-  type: ss
-  country: AE
-  port: 803
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.60| RU234 TGpeekfun
-  server: 217.30.10.63
-  port: 9003
-  type: ss
-  country: ' RU'
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-- name: 0.59| RU221 TGpeekfun
-  server: 217.30.10.63
-  port: 9011
-  type: ss
-  country: ' RU'
-  password: M3t2ZEQcMGRWBjRa
-  cipher: aes-256-cfb
-- name: 0.59|PoolNL72
-  server: 85.208.108.20
-  type: ss
-  country: NL
-  port: 6379
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
-- type: ssr
-  name: 0.59|RUwmt622a36
-  server: 213.183.53.177
-  port: 9015
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZpNDDKRu9MagNvaf
-- name: 0.59| RU240 TGpeekfun
-  server: 217.30.10.67
-  port: 9059
-  type: ss
-  country: ' RU'
-  password: 9XwYyZsK8SNzQDtY
-  cipher: aes-256-cfb
-- name: 0.59|RU102
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9038
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-- name: 0.59| NL148 TGpeekfun
-  server: 37.120.192.158
-  port: 805
-  type: ss
-  country: ' NL'
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.58|PoolNL82
-  server: 85.208.108.20
-  type: ss
-  country: NL
-  port: 6697
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 0.58| RU206 TGpeekfun
-  server: 217.30.10.67
-  port: 9079
-  type: ss
-  country: ' RU'
-  password: TPqX8edgbAURcAMb
-  cipher: aes-256-cfb
 - type: ss
-  name: 0.58|RUwmt622a25
-  server: 213.183.53.208
-  port: 9064
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 0.56| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 0.55|RO89
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9041
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-- name: 0.55| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 0.54|RU101
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9097
-  password: Sn5B7jTqr76aCJT8
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.53|RUwmt622a27
-  server: 213.183.53.177
-  port: 9027
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: EXN3S3eQpjE7EJu8
-- name: 0.52|RO92
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9056
-  password: rNBfNuuANFCAk7KB
-  cipher: aes-256-cfb
-- name: 0.51| RU216 TGpeekfun
-  server: 217.30.10.63
-  port: 9043
-  type: ss
-  country: ' RU'
-  password: HSZuyJQcWe8dxNdF
-  cipher: aes-256-cfb
-- name: 0.49|LT548  395Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9038
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.48|LT61
-  server: 213.183.53.202
-  type: ss
-  country: LT
-  port: 9001
-  password: UkXRsXvR6buDMG2Y
-  cipher: aes-256-cfb
-- name: 0.48|NL79
-  server: 185.246.155.23
-  type: ss
-  country: NL
-  port: 9038
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-- name: 0.48| RU231 TGpeekfun
-  server: 217.30.10.63
-  port: 9014
-  type: ss
-  country: ' RU'
-  password: KnJGad3FqTvjqbaX
-  cipher: aes-256-cfb
-- name: 0.47| NL174 TGpeekfun
-  server: 213.183.51.172
-  port: 9005
-  type: ss
-  country: ' NL'
-  password: ZET59LF6DvCC8KVt
-  cipher: aes-256-cfb
-- name: 0.47|NL74
-  server: 85.208.108.18
-  type: ss
-  country: NL
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 0.47|LT62
-  server: 213.183.53.208
-  type: ss
-  country: LT
-  port: 9046
-  password: NvS8N4Vf8qAGPSCL
-  cipher: aes-256-cfb
-- name: 0.46|RelayUAUA112
-  server: v2cross.com.03.v2ce.com
-  type: trojan
-  country: UA
-  port: 443
-  password: ZD4dLSBXiMrmzdLd
-  skip-cert-verify: true
-  udp: true
-- name: 0.45|RU100
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9027
-  password: EXN3S3eQpjE7EJu8
-  cipher: aes-256-cfb
-- name: 0.45|PoolNL81
-  server: 85.208.108.20
-  type: ss
-  country: NL
+  name: 0.74|JPwmt624a40
+  server: 85.208.108.94
   port: 6679
-  password: TEzjfAYq2IjtuoS
   cipher: aes-256-gcm
-- name: 0.43|RU96
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9046
-  password: NvS8N4Vf8qAGPSCL
-  cipher: aes-256-cfb
-- name: 0.42| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 0.42|RO86
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9015
-  password: ZpNDDKRu9MagNvaf
-  cipher: aes-256-cfb
-- name: 0.40|RO88
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9058
-  password: dML2sfhbVwvtfNPe
-  cipher: aes-256-cfb
-- name: 0.39| RU238 TGpeekfun
-  server: 217.30.10.63
-  port: 9000
-  type: ss
-  country: ' RU'
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 0.39| RU201 TGpeekfun
-  server: 217.30.10.67
-  port: 9000
-  type: ss
-  country: ' RU'
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 0.38|RU95
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9073
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-- name: 0.38|LT514  867Mb
-  server: 213.183.53.202
-  type: ssr
-  country: LT
-  port: 9059
-  password: 9XwYyZsK8SNzQDtY
-  cipher: aes-256-cfb
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 0.74|JPwmt624a30
+  server: 85.208.108.94
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ssr
+  name: 0.72|NLwmt623a47
+  server: 213.183.59.214
+  port: 9031
   protocol: origin
+  cipher: aes-256-cfb
   obfs: plain
-- name: 0.37|RO91
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9025
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
-- name: 0.37|NL77
-  server: 185.246.155.35
-  type: ss
-  country: NL
-  port: 9045
-  password: Lp27rqyJq72bZsqX
-  cipher: aes-256-cfb
-- name: 0.36| RU187 TGpeekfun
-  server: 217.30.10.67
-  port: 9026
-  type: ss
-  country: ' RU'
-  password: QWDDvVE9npNurQfA
-  cipher: aes-256-cfb
-- name: 0.34|LT57
-  server: 213.183.53.202
-  type: ss
-  country: LT
-  port: 9053
-  password: SBM7R883jBmnqe6C
-  cipher: aes-256-cfb
-- name: 0.34|RelaySGSG108
-  server: w11.udpgw.com
+  password: BwcAUZk8hUFAkDGN
+- type: ss
+  name: 0.72|JPwmt624a33
+  server: 85.208.108.94
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 0.69|JPwmt624a27
+  server: 85.208.108.94
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 0.68|RelayUSUS24
+  server: usfree2.jiantian.xyz
   type: trojan
-  country: SG
-  port: 443
-  password: f64e69c0-e7b7-11ec-ab81-1239d0255272
+  country: US
+  port: 32462
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
   skip-cert-verify: true
   udp: true
-- name: 0.31|RU103
-  server: 217.30.10.68
-  type: ss
-  country: RU
-  port: 9064
-  password: cp8pRSUAyLhTfVWH
-  cipher: aes-256-cfb
-- name: 0.30| RU195 TGpeekfun
-  server: 217.30.10.63
-  port: 9042
-  type: ss
-  country: ' RU'
-  password: S7KwUu7yBy58S3Ga
-  cipher: aes-256-cfb
-- name: 0.30|RU97
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9019
-  password: GA9KzeEgvfxNrgmM
-  cipher: aes-256-cfb
-- name: 0.29|PoolNL83
-  server: 85.208.108.20
-  type: ss
-  country: NL
+- type: ss
+  name: 0.64|JPwmt624a39
+  server: 85.208.108.94
   port: 7002
-  password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
-- name: 0.29| AU15 TGpeekfun
+  password: RexnBgU7EV5ADxG
+- type: trojan
+  name: 0.61|CNwmt624a15
+  server: cm.spacez.cloud
+  port: 30002
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  udp: true
+  skip-cert-verify: true
+- type: ss
+  name: 0.61|JPwmt624a45
+  server: 85.208.108.94
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- type: ss
+  name: 0.59|NLwmt624a64
+  server: 37.120.192.158
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 0.57| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- type: ss
+  name: 0.57|JPwmt624a41
+  server: 85.208.108.94
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 0.57| AU05 TGpeekfun
   server: kr04.wangxd.life
   port: 3052
   type: trojan
@@ -1825,142 +458,102 @@ proxies:
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   udp: true
-- name: 0.26| RU237 TGpeekfun
-  server: 217.30.10.67
-  port: 9093
-  type: ss
-  country: ' RU'
-  password: wfLC2y7rzZyCmuyt
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.26|NLwmt620a94
-  server: 213.183.59.206
-  port: 9073
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-- name: 0.25|RelayCZCZ50
-  server: v2cross.com.02.v2ce.com
-  port: 443
+- type: ss
+  name: 0.56|JPwmt624a10
+  server: 85.208.108.94
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.55| v2rayfreeeuorg  美国弗吉尼亚州阿什本Oracle云计算数据中心 10
+  server: usfree1.jiantian.xyz
+  port: 23425
   type: trojan
-  password: 3gLlCYBipVwr6Y5F
-  sni: v2cross.com.02.v2ce.com
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: usfree1.jiantian.xyz
+- type: ss
+  name: 0.54|JPwmt624a28
+  server: 85.208.108.94
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
 - type: ssr
-  name: 0.24|NLwmt620a136
-  server: 213.183.59.214
-  port: 9088
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: f8npKgNzdkss2ytn
-- name: 0.24| NL175 TGpeekfun
-  server: 213.183.59.206
-  port: 9007
-  type: ss
-  country: ' NL'
-  password: kSPmvwdFzGMMW5pY
-  cipher: aes-256-cfb
-- name: 0.24| RU235 TGpeekfun
-  server: 217.30.10.67
-  port: 9032
-  type: ss
-  country: ' RU'
-  password: UWZQeLRWnkqgkseq
-  cipher: aes-256-cfb
-- name: 0.23| GB105 TGpeekfun
-  server: 88.150.137.201
-  port: 1021
-  type: ssr
-  country: ' GB'
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 0.22|LT67
-  server: 213.183.53.212
-  type: ss
-  country: LT
-  port: 9053
-  password: SBM7R883jBmnqe6C
-  cipher: aes-256-cfb
-- type: trojan
-  name: 0.22|HKwmt622a18
-  server: scloud54.jafiyun.life
-  port: 22054
-  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
-  udp: true
-  skip-cert-verify: true
-  sni: scloud54.jafiyun.life
-- type: ssr
-  name: 0.21|NLwmt620a74
+  name: 0.54|NLwmt620a74
   server: 213.183.59.206
   port: 9061
   protocol: origin
   cipher: aes-256-cfb
   obfs: plain
   password: 4R3hUfZ2FHhDmNcP
-- type: ssr
-  name: 0.20|RUwmt623a18
-  server: 213.183.53.177
-  port: 9059
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 9XwYyZsK8SNzQDtY
 - type: ss
-  name: 0.19|DEwmt620a164
-  server: 165.22.73.126
-  port: 23335
-  cipher: aes-256-cfb
-  password: 7d99ae502227454ea998d71e4b62a388
-- type: trojan
-  name: 0.19|CNwmt622a22
-  server: scloud28.jafiyun.life
-  port: 22028
-  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
-  udp: true
+  name: 0.53|JPwmt624a25
+  server: 85.208.108.94
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 0.52| 甲骨文伦敦ARM1trojan
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- name: 0.48| 甲骨文伦敦ARM2trojan
+  server: jgwld4.gaox.ml
+  port: 443
+  type: trojan
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  sni: jgwld4.gaox.ml
+- type: ss
+  name: 0.38|JPwmt624a23
+  server: 85.208.108.21
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 0.35|RelayTWTW17
+  server: tw02.170809.xyz
+  type: trojan
+  country: TW
+  port: 11170
+  password: 8a1ba481-948f-4a4d-86e7-1eda9e822091
   skip-cert-verify: true
-  sni: scloud28.jafiyun.life
-- name: 0.19|AU07
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.18|NLwmt620a147
-  server: 213.183.59.206
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- name: 0.18|NL84
-  server: 213.183.59.206
-  type: ss
-  country: NL
-  port: 9050
-  password: FG5ddLsMPbV5CutE
-  cipher: aes-256-cfb
-- type: trojan
-  name: 0.18|HKwmt622a17
-  server: scloud57.jafiyun.life
-  port: 22057
-  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
   udp: true
-  skip-cert-verify: true
-  sni: scloud57.jafiyun.life
-- type: ssr
-  name: 0.18|NLwmt620a142
-  server: 213.183.59.206
-  port: 9088
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: f8npKgNzdkss2ytn
-- name: 0.17|RelayCNCA44
+- name: 0.27| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 0.25| v2rayfreeeuorg  新加坡  14
+  server: 194.124.35.40
+  port: 807
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.24|JPwmt624a38
+  server: 85.208.108.94
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 0.24| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+- name: 0.19| CN38 TGpeekfun
+  server: 180.163.62.91
+  port: 10065
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.19| githubcomfreefq  美国惠普HP 5
+  server: tj-us02.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  sni: tj-us02.yiyodns.xyz
+- name: 0.18|RelayCNCA44
   server: scloud29.jafiyun.life
   type: trojan
   country: CN
@@ -1968,381 +561,40 @@ proxies:
   password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
   skip-cert-verify: true
   udp: true
-- type: ssr
-  name: 0.17|NLwmt620a48
-  server: 213.183.59.206
-  port: 9020
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BNmAXXxAHYpTRdzu
-- type: ssr
-  name: 0.17|NLwmt620a87
-  server: 213.183.59.206
-  port: 9030
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: GeregetR8cvQHzYr
-- name: 0.17| RU219 TGpeekfun
-  server: 217.30.10.67
-  port: 9020
+- name: 0.17| RelayJPJP504
+  server: 89.31.126.171
+  port: 800
   type: ss
-  country: ' RU'
-  password: BNmAXXxAHYpTRdzu
-  cipher: aes-256-cfb
-- name: 0.17| RU184 TGpeekfun
-  server: 217.30.10.63
-  port: 9041
-  type: ss
-  country: ' RU'
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-- name: 0.17|RU98
-  server: 217.30.10.63
-  type: ss
-  country: RU
-  port: 9040
-  password: p9z5BVADH2YFs3MN
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.17|NLwmt620a104
-  server: 213.183.59.206
-  port: 9026
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: QWDDvVE9npNurQfA
-- type: ssr
-  name: 0.17|NLwmt620a77
-  server: 213.183.59.206
-  port: 9064
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-- type: ssr
-  name: 0.17|NLwmt620a132
-  server: 213.183.59.206
-  port: 9042
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
-- name: 0.16|RelayRURU94
-  server: 185.4.65.6
-  type: ss
-  country: RU
-  port: 21247
-  password: vDS9G2p
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.16|NLwmt620a56
-  server: 213.183.59.206
-  port: 9098
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-- name: 0.16| AU13 TGpeekfun
-  server: 185.167.116.252
-  port: 9008
-  type: ss
-  country: ' AU'
-  password: y9VURyNzJWNRYEGQ
-  cipher: aes-256-cfb
-- name: 0.16|NL80
-  server: 213.183.59.206
-  type: ss
-  country: NL
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-- name: 0.15|RelayUAUA113
-  server: v2cross.com.04.v2ce.com
-  type: trojan
-  country: UA
-  port: 443
-  password: vGWCNNfBHwSY6m6M
-  skip-cert-verify: true
-  udp: true
-- name: 0.15|NL70
-  server: 213.183.59.206
-  type: ss
-  country: NL
-  port: 9031
-  password: BwcAUZk8hUFAkDGN
-  cipher: aes-256-cfb
-- name: 0.15| RU229 TGpeekfun
-  server: 217.30.10.68
-  port: 9025
-  type: ss
-  country: ' RU'
-  password: XPtzA9sCug3SPR4c
-  cipher: aes-256-cfb
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - type: trojan
-  name: 0.15|USwmt620a73
-  server: scloud55.jafiyun.life
-  port: 22055
+  name: 0.13|HKwmt622a18
+  server: scloud54.jafiyun.life
+  port: 22054
   password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
   udp: true
   skip-cert-verify: true
-  sni: scloud55.jafiyun.life
-- type: ssr
-  name: 0.15|NLwmt620a108
-  server: 213.183.59.206
-  port: 9037
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: TN2YqghxeFDKZfLU
-- name: 0.15| LT134 TGpeekfun
-  server: 213.183.53.177
-  port: 9000
-  type: ss
-  country: ' LT'
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-- name: 0.14| AU12 TGpeekfun
-  server: 185.167.116.38
-  port: 9038
-  type: ss
-  country: ' AU'
-  password: gYCYXfkUQEs2TaJQ
-  cipher: aes-256-cfb
-- name: 0.14|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
-  port: 443
+  sni: scloud54.jafiyun.life
+- name: 0.12|台湾youtube阿伟科技 4
+  server: scloud28.jafiyun.life
+  port: 22028
   type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 0.14| RelayCNHK245
-  server: 14.29.124.174
-  port: 11050
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ssr
-  name: 0.14|NLwmt623a53
-  server: 213.183.59.206
-  port: 9011
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: M3t2ZEQcMGRWBjRa
-- type: ssr
-  name: 0.14|NLwmt620a148
-  server: 213.183.59.206
-  port: 9084
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-- type: ssr
-  name: 0.14|NLwmt621a33
-  server: 213.183.59.206
-  port: 9046
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: NvS8N4Vf8qAGPSCL
-- name: 0.14| RU218 TGpeekfun
-  server: 217.30.10.68
-  port: 9046
-  type: ss
-  country: ' RU'
-  password: NvS8N4Vf8qAGPSCL
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.13|NLwmt620a155
-  server: 213.183.59.206
-  port: 9006
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: FAdUvMJUq5vDgKEq
-- type: ssr
-  name: 0.13|NLwmt620a125
-  server: 213.183.59.206
-  port: 9070
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: bf7v334KKDV3YDhH
-- name: 0.13|AU05
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9058
-  password: dML2sfhbVwvtfNPe
-  cipher: aes-256-cfb
-- name: 0.13|AU06
-  server: 185.167.116.38
-  type: ss
-  country: AU
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-- name: 0.13| AU10 TGpeekfun
-  server: 185.167.116.38
-  port: 9003
-  type: ss
-  country: ' AU'
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-- name: 0.13|AU08
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9010
-  password: f63gg8EruDnUrmz4
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.13|NLwmt620a121
-  server: 213.183.59.206
-  port: 9003
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: JdmRK9gMEqFgs8nP
-- name: 0.13| AU11 TGpeekfun
-  server: 185.167.116.38
-  port: 9006
-  type: ss
-  country: ' AU'
-  password: FAdUvMJUq5vDgKEq
-  cipher: aes-256-cfb
-- type: ssr
-  name: 0.13|NLwmt620a134
-  server: 213.183.59.206
-  port: 9056
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rNBfNuuANFCAk7KB
-- name: 0.12|AU10
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9007
-  password: kSPmvwdFzGMMW5pY
-  cipher: aes-256-cfb
-- name: 0.12| CN61 TGpeekfun
-  server: 14.29.124.174
-  port: 11018
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.12| AU07 TGpeekfun
-  server: 185.167.116.252
-  port: 9080
-  type: ss
-  country: ' AU'
-  password: VP8ZPxQpJtZRCjfZ
-  cipher: aes-256-cfb
-- name: 0.12|NL71
-  server: 213.183.59.206
-  type: ss
-  country: NL
-  port: 9024
-  password: BejrQvtu9sqUeNuZ
-  cipher: aes-256-cfb
-- name: 0.12| CN52 TGpeekfun
-  server: 14.29.124.174
-  port: 11008
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.12|RelayCNHK34
-  server: 14.29.124.174
-  type: ss
-  country: CN
-  port: 11003
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.11|英国youtube阿伟科技
-  server: gb.v2yyds.com
-  port: 32913
-  type: trojan
-  password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f
-  sni: gb.v2yyds.com
+  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
+  sni: scloud28.jafiyun.life
   skip-cert-verify: true
   udp: true
-- name: 0.11|AU13
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9020
-  password: BNmAXXxAHYpTRdzu
-  cipher: aes-256-cfb
-- name: 0.11|AU12
-  server: 185.167.116.24
-  type: ss
-  country: AU
-  port: 9008
-  password: y9VURyNzJWNRYEGQ
-  cipher: aes-256-cfb
-- name: 0.11| AU06 TGpeekfun
-  server: 185.167.116.38
-  port: 9084
-  type: ss
-  country: ' AU'
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-- name: 0.11| AU05 TGpeekfun
-  server: 185.167.116.38
-  port: 9046
-  type: ss
-  country: ' AU'
-  password: NvS8N4Vf8qAGPSCL
-  cipher: aes-256-cfb
-- name: 0.11|RelayCNHK25
-  server: 14.29.124.174
-  type: ss
-  country: CN
-  port: 11034
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.11|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
+- name: 0.10|香港youtube阿伟科技 5
+  server: scloud57.jafiyun.life
+  port: 22057
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.10| LT129 TGpeekfun
-  server: 213.183.63.221
-  port: 9073
-  type: ss
-  country: ' LT'
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-- name: 0.10|AU11
+  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
+  sni: scloud57.jafiyun.life
+  skip-cert-verify: true
+  udp: true
+- name: 0.10|AU07
   server: 185.167.116.24
   type: ss
   country: AU
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-- name: 0.10| AU09 TGpeekfun
-  server: 185.167.116.252
-  port: 9041
-  type: ss
-  country: ' AU'
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-- name: 0.10|RO85
-  server: 185.126.116.119
-  type: ss
-  country: RO
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-- name: 0.10| LT132 TGpeekfun
-  server: 213.183.63.218
-  port: 9011
-  type: ss
-  country: ' LT'
-  password: M3t2ZEQcMGRWBjRa
+  port: 9094
+  password: rpgbNnU9rDDU4aWZ
   cipher: aes-256-cfb
