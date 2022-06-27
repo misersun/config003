@@ -1,92 +1,195 @@
 proxies:
+- name: 8.65|香港youtube阿伟科技 14
+  server: ftp.cn.debian.cdnet.in
+  port: 8010
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 6.41|20
+  server: 36.139.154.17
+  port: 45392
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 438eb205-b45d-48bf-aec1-c1587b581ea0
+- name: 6.27|日本youtube阿伟科技 4
+  server: ftp.cn.debian.cdnet.in
+  port: 8030
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 5.96|2
+  server: AZHJ001.xiba1.xyz
+  port: 20726
+  type: trojan
+  password: 97808a17-2e97-3840-8a36-b7bc5203200c
+  sni: ssl.ssl12.xyz
+- name: 5.69|6
+  server: AZHJ001.xiba1.xyz
+  port: 20725
+  type: trojan
+  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
+  sni: ssl.ssl12.xyz
+- name: 4.82|韩国youtube阿伟科技 3
+  server: ftp.cn.debian.cdnet.in
+  port: 8040
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 4.68|1
+  server: AZHJ001.xiba1.xyz
+  port: 20722
+  type: trojan
+  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
+  sni: ssl.ssl12.xyz
+- name: 4.63|13
+  server: AZHJ001.xiba1.xyz
+  port: 20719
+  type: trojan
+  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
+  sni: ssl.ssl12.xyz
+- name: 4.50|新加坡youtube阿伟科技 8
+  server: ftp.cn.debian.cdnet.in
+  port: 8050
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 3.59|9
+  server: AZHJ001.xiba1.xyz
+  port: 20718
+  type: trojan
+  password: 97808a17-2e97-3840-8a36-b7bc5203200c
+  sni: ssl.ssl12.xyz
 - type: trojan
-  name: 1.60|CNwmt625a52
-  server: hn.zfnode.org
-  port: 30217
-  password: 63ec756d-1f6a-36c8-a9fd-025f4acfc74f
+  name: 3.42|CNwmt626a12
+  server: cm.spacez.cloud
+  port: 30003
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   udp: true
   skip-cert-verify: true
-- name: 1.22| TW151 TGpeekfun
-  server: 211.72.35.158
-  port: 3389
+- name: 3.37| CN44 TGpeekfun
+  server: 180.163.62.91
+  port: 10065
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.94|新西兰youtube阿伟科技
+  server: ftp.cn.debian.cdnet.in
+  port: 8070
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 2.42| 台湾 I5  IEPL限时体验8小时  0x
+  server: 120.232.132.71
+  port: 25680
   type: trojan
-  country: ' TW'
-  password: 9a27800ca7b52ee0
+  password: Mfd9ca63
+  sni: cdnt71.dt1.fun
+  skip-cert-verify: true
+- name: 2.04| US232 TGpeekfun
+  server: ss2.2046.gq
+  port: 4443
+  type: trojan
+  country: ' US'
+  password: 794871c6-022b-4498-b816-296e8a581d86
   skip-cert-verify: true
   udp: true
-- name: 1.10|httpsgithubcomAlvin9999newpacwiki ip3 SSR
-  server: clash11.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.10| 甲骨文伦敦ARM2trojan
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- type: ss
-  name: 1.10|FR法国
-  server: 51.38.118.42
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: Ultr@r00t_2017
-- type: ss
-  name: 1.03|CAwmt625a91
-  server: 138.197.166.205
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: Ultr@r00t_2017
-- name: 1.00| 甲骨文大阪ARM2trojan
+- name: 1.80| 甲骨文大阪ARM2trojan
   server: jgwdb4.gaox.ml
   port: 443
   type: trojan
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   sni: jgwdb4.gaox.ml
-- name: 0.93| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
+- name: 1.69|俄罗斯youtube阿伟科技
+  server: ftp.cn.debian.cdnet.in
+  port: 8060
+  type: ss
+  cipher: aes-128-gcm
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  udp: true
+- name: 1.67| githubcomfreefq  加拿大  5
+  server: 625us.ok365.cyou
   port: 443
   type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 0.88| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶
-  server: clash0.free4444.xyz
-  port: 40044
+  password: 2523fe1a-1295-4525-be2c-d78ff1465d2a
+  sni: 625us.ok365.cyou
+- name: 1.55| DE113 TGpeekfun
+  server: 162.55.231.78
+  port: 443
   type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
+  country: ' DE'
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+- type: ss
+  name: 1.54|US美国6
+  server: 138.68.248.130
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+- name: 1.51| 英国0626016
+  server: 88.150.137.201
+  port: 1021
+  type: ssr
+  cipher: aes-128-ctr
+  password: sEscPBiAD9K$&@79
+  protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.83| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
+- name: 1.35| 甲骨文伦敦ARM1trojan
+  server: jgwld3.gaox.ml
   port: 443
   type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 0.82| httpsgithubcomAlvin9999newpacwiki ip3洛杉矶1SSR
-  server: ss-v2ray1.free4444.xyz
-  port: 443
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- type: ss
+  name: 1.27|JPwmt625a20
+  server: 85.208.108.94
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 1.06|SG新加坡22
+  server: 217.197.161.164
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 0.96| 美国06261064
+  server: us-am32-5.eqnode.net
+  port: 8081
   type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
+  cipher: aes-256-cfb
+  password: YFVrXZgRo
+  protocol: origin
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.80| 甲骨文凤凰城AMD1trojan
+- type: ss
+  name: 0.95|GBwmt626a18
+  server: 178.62.16.161
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+- name: 0.95| 甲骨文凤凰城AMD1trojan
   server: fhcamd1.gaox.ml
   port: 443
   type: trojan
   password: e23f408a-012e-4030-8b31-02022031cb50
   sni: fhcamd1.gaox.ml
-- name: 0.69| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
+- name: 0.95|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 0.94| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
   server: clash5.free4444.xyz
   port: 443
   type: ssr
@@ -96,115 +199,139 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.56|RelayUSUS44
-  server: usfree2.jiantian.xyz
-  type: trojan
-  country: US
-  port: 32462
-  password: cb5e2135-4d64-4454-be98-5bae4f2618d1
-  skip-cert-verify: true
-  udp: true
-- name: 0.54|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 0.51| 剩余流量92949272 GB
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: edge.apple.com
-  skip-cert-verify: true
-- name: 0.47| 香港
-  server: 625hk05.ok365.cyou
-  port: 443
-  type: trojan
-  password: 2523fe1a-1295-4525-be2c-d78ff1465d2a
-  sni: 625hk05.ok365.cyou
-- name: 0.36|US33
-  server: 92.38.176.81
-  type: ss
-  country: US
-  port: 811
-  password: Ultr@r00t_2017
-  cipher: chacha20-ietf-poly1305
-- name: 0.35| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- name: 0.30| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- type: ss
-  name: 0.28|CN中国KR韩国
-  server: 180.163.62.91
-  port: 10064
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.27| GB121 TGpeekfun
-  server: 88.150.137.201
-  port: 1021
+- name: 0.92| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash0.free4444.xyz
+  port: 40044
   type: ssr
-  country: ' GB'
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
   obfs: tls1.2_ticket_auth
-- name: 0.23| 甲骨文东京ARM2trojan
-  server: jgwdj4.gaox.ml
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.89| httpsgithubcomAlvin9999newpacwiki ip3洛杉矶1SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 0.89|SG新加坡18
+  server: 217.197.161.164
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 0.85| 甲骨文伦敦ARM2trojan
+  server: jgwld4.gaox.ml
   port: 443
   type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-- type: trojan
-  name: 0.23|CNwmt626a12
-  server: cm.spacez.cloud
-  port: 30003
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  udp: true
-  skip-cert-verify: true
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  sni: jgwld4.gaox.ml
 - type: ss
-  name: 0.21|DE德国
-  server: 165.22.73.126
-  port: 23335
-  cipher: aes-256-cfb
-  password: 7d99ae502227454ea998d71e4b62a388
-- name: 0.20| 甲骨文凤凰城AMD2trojan
+  name: 0.82|FR法国
+  server: 51.38.118.42
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+- type: ss
+  name: 0.80|US美国3
+  server: 92.38.176.81
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: Ultr@r00t_2017
+- name: 0.77| 甲骨文凤凰城AMD2trojan
   server: fhcamd2.gaox.ml
   port: 443
   type: trojan
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   sni: fhcamd2.gaox.ml
 - type: ss
-  name: 0.16|DE德国
-  server: 161.35.69.20
-  port: 811
+  name: 0.76|SG新加坡21
+  server: 217.197.161.164
+  port: 803
   cipher: chacha20-ietf-poly1305
-  password: Ultr@r00t_2017
-- name: 0.15| CN37 TGpeekfun
-  server: 14.29.124.174
-  port: 11016
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.55|SG新加坡8
+  server: 81.90.189.18
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.54|SG新加坡15
+  server: 217.197.161.164
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 0.53|IT20
+  server: 92.223.93.233
+  port: 1035
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.14| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
+  password: )1N1E6v0SU_rGTpg
+  cipher: chacha20-ietf-poly1305
+- name: 0.53| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
   type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 0.13|RelayCNKR11
-  server: 180.163.62.91
-  type: ss
-  country: CN
-  port: 10065
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 0.51| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 0.50| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- type: ss
+  name: 0.49|SG新加坡6
+  server: 81.90.189.18
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.48|SG新加坡10
+  server: 81.90.189.18
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.47|SG新加坡5
+  server: 81.90.189.18
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.46|SG新加坡12
+  server: 81.90.189.18
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 0.45| RU150 TGpeekfun
+  server: ru.2046.gq
+  port: 4443
+  type: trojan
+  country: ' RU'
+  password: 794871c6-022b-4498-b816-296e8a581d86
+  skip-cert-verify: true
+  udp: true
+- name: 0.43| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- type: ss
+  name: 0.42|SG新加坡16
+  server: 81.90.189.18
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
