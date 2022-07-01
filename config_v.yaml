@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 5.85|HKwmt626a1
+  name: 6.48|HKwmt626a1
   http-opts:
     path:
     - /
@@ -13,7 +13,7 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 4.61| SG01V2直连
+- name: 4.71| SG01V2直连
   server: sg01.henet.cyou
   port: 20000
   type: vmess
@@ -25,7 +25,7 @@ proxies:
   ws-path: /live
   ws-headers:
     Host: cctv.com
-- name: 3.51| TW02V2直连
+- name: 4.52| TW02V2直连
   server: tw02.henet.cyou
   port: 20000
   type: vmess
@@ -38,35 +38,21 @@ proxies:
   ws-headers:
     Host: cctv.com
 - type: vmess
-  name: 2.85|USwmt625a15
+  name: 3.07|USwmt630a2
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 45.145.6.71
-  server: 45.145.6.71
-  port: '44056'
-  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
+      - 154.12.43.88
+  server: 154.12.43.88
+  port: '56285'
+  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
   alterId: '0'
   cipher: auto
   network: http
 - type: vmess
-  name: 2.71|USwmt630a3
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.50|USwmt625a16
+  name: 2.97|USwmt625a16
   http-opts:
     path:
     - /
@@ -80,20 +66,34 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.45|HKwmt630a8
+  name: 2.76|USwmt630a3
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 156.241.138.11
-  server: 156.241.138.11
-  port: '61800'
-  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.26|美国youtube阿伟科技 5
+- type: vmess
+  name: 2.71|USwmt625a15
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.71
+  server: 45.145.6.71
+  port: '44056'
+  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.60|美国youtube阿伟科技 5
   server: eva.marythunt.xyz
   port: 33243
   type: vmess
@@ -109,71 +109,35 @@ proxies:
       Host: YouTube-aweikeji
   udp: true
 - type: vmess
-  name: 2.09|USwmt630a2
+  name: 2.44|HKwmt630a8
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 154.12.43.88
-  server: 154.12.43.88
-  port: '56285'
-  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
+      - 156.241.138.11
+  server: 156.241.138.11
+  port: '61800'
+  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.83|lyefjvki
-  server: bpjcjapan.loseyourip.com
-  port: 30912
+- name: 1.79|越南youtube阿伟科技 3
+  server: 103.187.1.236
+  port: 80
   type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  uuid: b8a87016-f9f9-456c-b1af-77a9bb96e6e5
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- type: vmess
-  name: 1.41|HKwmt625a12
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.84.203
-  server: 8.210.84.203
-  port: '47059'
-  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.31| JP01V2直连
-  server: jp01.henet.cyou
-  port: 20000
-  type: vmess
-  uuid: 5999692f-a9c4-4744-b051-92035b988317
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: cctv.com
-- name: 1.23|US72
-  server: 198.144.183.193
-  type: vmess
-  country: US
-  port: 36113
-  uuid: 6643747e-d583-4ee2-9cc5-14abd51f43d7
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
   skip-cert-verify: true
-- name: 1.23|美国youtube阿伟科技
+  network: ws
+  ws-opts:
+    path: /zingfast/
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.62|美国youtube阿伟科技
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -188,19 +152,44 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.65|eefcichb
-  server: bpjchongkong.kozow.com
-  port: 12353
+- name: 1.56|US72
+  server: 198.144.183.193
   type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  country: US
+  port: 36113
+  uuid: 6643747e-d583-4ee2-9cc5-14abd51f43d7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.55| JP01V2直连
+  server: jp01.henet.cyou
+  port: 20000
+  type: vmess
+  uuid: 5999692f-a9c4-4744-b051-92035b988317
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /images
+  ws-path: /live
   ws-headers:
-    Host: v.qq.com
-- name: 0.52|irwgjvkk
+    Host: cctv.com
+- name: 1.53| SSRSUB美国V04付费推荐dljtfssrsub
+  server: v04.ssrsub.com
+  port: 153
+  type: vmess
+  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: d76bb35696.laowanxiang.com
+- name: 1.40|irwgjvkk
   server: bpjchongkong.kozow.com
   port: 12347
   type: vmess
@@ -212,7 +201,33 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 0.50|香港youtube阿伟科技原生 4
+- type: vmess
+  name: 1.30|HKwmt625a12
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.21|irecibk
+  server: bpjchongkong.kozow.com
+  port: 80
+  type: vmess
+  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 0.71|香港youtube阿伟科技原生 4
   server: 152.69.193.245
   port: 80
   type: vmess
@@ -227,15 +242,39 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.13|231926235ws
-  server: 23.19.26.235
-  port: 47726
+- name: 0.67| SSRSUB俄罗斯V03付费推荐dljtfssrsub
+  server: v3.ssrsub.com
+  port: 58443
   type: vmess
-  uuid: a872d65f-807b-4cc2-9488-707b4e51f9df
+  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /23wr5Etp/
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: 23.19.26.235
+    Host: d76bb35696.laowanxiang.com
+- name: 0.31| US1603
+  server: 51.81.223.32
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
+- name: 0.28|JP57
+  server: jp02.henet.cyou
+  type: vmess
+  country: JP
+  port: 20000
+  uuid: 279e0915-b0ce-49c7-a4df-39f9232d2034
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /live
+  servername: cctv.com
+  ws-headers:
+    HOST: cctv.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
