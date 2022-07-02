@@ -1,32 +1,6 @@
 proxies:
-- name: 10.56| RelayHKHK309
-  server: 10.vip341.xyz
-  port: 443
-  type: vmess
-  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ny
-  ws-headers:
-    Host: 10.vip341.xyz
 - type: vmess
-  name: 3.12|USwmt625a16
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.65
-  server: 154.12.43.65
-  port: '54380'
-  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 3.08|USwmt630a3
+  name: 3.15|USwmt630a3
   http-opts:
     path:
     - /
@@ -39,7 +13,35 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 3.01|美国youtube阿伟科技 5
+- type: vmess
+  name: 2.99|USwmt630a2
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.88
+  server: 154.12.43.88
+  port: '56285'
+  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.23|USwmt625a16
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.04|美国youtube阿伟科技 5
   server: eva.marythunt.xyz
   port: 33243
   type: vmess
@@ -54,138 +56,8 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 2.69|香港youtube阿伟科技原生 4
-  server: 152.69.193.245
-  port: 80
-  type: vmess
-  uuid: 6697776b-d009-413b-8708-822ee2e02515
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
 - type: vmess
-  name: 2.66|USwmt630a2
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.88
-  server: 154.12.43.88
-  port: '56285'
-  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.66|USwmt625a15
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.71
-  server: 45.145.6.71
-  port: '44056'
-  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.51|HKwmt630a8
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 156.241.138.11
-  server: 156.241.138.11
-  port: '61800'
-  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.08| US1661
-  server: 154.17.28.38
-  port: 49353
-  type: vmess
-  uuid: f762694a-948b-4918-a657-6ca9b10f2d32
-  alterId: 233
-  cipher: auto
-  tls: false
-- name: 1.64|美国youtube阿伟科技
-  server: 152.69.206.209
-  port: 1212
-  type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- type: vmess
-  name: 1.54|HKwmt625a12
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.84.203
-  server: 8.210.84.203
-  port: '47059'
-  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.51| 亚太香港07负载均衡 1x
-  server: bpjchongkong.kozow.com
-  port: 12350
-  type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.36| SSRSUB美国V04付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
-- name: 1.15| 实验直连日本B不限速 1x
-  server: janpanbpjcyos.loseyourip.com
-  port: 29471
-  type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- type: vmess
-  name: 1.03|HKwmt626a1
+  name: 1.52|HKwmt626a1
   http-opts:
     path:
     - /
@@ -198,43 +70,23 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.94| 免流香港01负载均衡 1x
-  server: bpjchongkong.kozow.com
-  port: 80
+- name: 1.37|RelayUSUS39
+  server: v04.ssrsub.com
   type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  country: US
+  port: 153
+  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
   alterId: 0
   cipher: auto
-  tls: false
   network: ws
-  ws-path: /images
+  ws-path: /api/v3/download.getFile
+  servername: d76bb35696.laowanxiang.com
   ws-headers:
-    Host: v.qq.com
-- name: 0.93| 亚太香港02负载均衡 1x
-  server: bpjchongkong.kozow.com
-  port: 12345
-  type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 0.91| 亚太香港10负载均衡 1x
-  server: bpjchongkong.kozow.com
-  port: 12353
-  type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 0.74|RelayUSID66
+    HOST: d76bb35696.laowanxiang.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.35|RelayUSID36
   server: lms.uin-antasari.ac.id
   type: vmess
   country: US
@@ -250,34 +102,59 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.43| SG1033
-  server: 81.90.188.59
-  port: 41657
+- type: vmess
+  name: 1.12|HKwmt625a12
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.97| 亚太香港02负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12345
   type: vmess
-  uuid: 930a425e-2fc8-4930-8735-141f6b237755
-  alterId: 64
+  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  alterId: 0
   cipher: auto
   tls: false
-- name: 0.28| US1614
-  server: 51.81.223.32
-  port: 443
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 0.52|美国youtube阿伟科技
+  server: 152.69.206.209
+  port: 1212
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.15|新加坡youtube阿伟科技 7
-  server: sg1.fuzzypn.me
-  port: 80
-  type: vmess
-  uuid: b9a1ae9a-1aad-4996-99be-924b1c0485c9
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /fuzzypn
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.38|香港youtube阿伟科技原生 4
+  server: 152.69.193.245
+  port: 80
+  type: vmess
+  uuid: 6697776b-d009-413b-8708-822ee2e02515
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: YouTube-aweikeji
   udp: true
