@@ -1,6 +1,20 @@
 proxies:
 - type: vmess
-  name: 3.15|USwmt630a3
+  name: 4.51|HKwmt625a12
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.52|USwmt630a3
   http-opts:
     path:
     - /
@@ -14,50 +28,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.99|USwmt630a2
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.88
-  server: 154.12.43.88
-  port: '56285'
-  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.23|USwmt625a16
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.65
-  server: 154.12.43.65
-  port: '54380'
-  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.04|美国youtube阿伟科技 5
-  server: eva.marythunt.xyz
-  port: 33243
-  type: vmess
-  uuid: d022f57c-484d-4a17-b405-967d7497efdb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- type: vmess
-  name: 1.52|HKwmt626a1
+  name: 2.11|HKwmt626a1
   http-opts:
     path:
     - /
@@ -70,69 +41,39 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.37|RelayUSUS39
-  server: v04.ssrsub.com
-  type: vmess
-  country: US
-  port: 153
-  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /api/v3/download.getFile
-  servername: d76bb35696.laowanxiang.com
-  ws-headers:
-    HOST: d76bb35696.laowanxiang.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.35|RelayUSID36
-  server: lms.uin-antasari.ac.id
-  type: vmess
-  country: US
-  port: 80
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /vpnneo
-  servername: exa.nextvpn.cc
-  ws-headers:
-    HOST: exa.nextvpn.cc
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
 - type: vmess
-  name: 1.12|HKwmt625a12
+  name: 1.71|USwmt625a16
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 8.210.84.203
-  server: 8.210.84.203
-  port: '47059'
-  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.97| 亚太香港02负载均衡 1x
-  server: bpjchongkong.kozow.com
-  port: 12345
-  type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
-  alterId: 0
+- type: vmess
+  name: 1.43|USwmt630a2
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.88
+  server: 154.12.43.88
+  port: '56285'
+  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
+  alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 0.52|美国youtube阿伟科技
-  server: 152.69.206.209
-  port: 1212
+  network: http
+- name: 0.81|美国youtube阿伟科技 16
+  server: 107.173.148.4
+  port: 50700
   type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  uuid: 9fc47a30-06e0-4b60-abbd-8c75b5dbcc30
   alterId: 0
   cipher: auto
   tls: false
@@ -143,7 +84,22 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.38|香港youtube阿伟科技原生 4
+- name: 0.81|美国youtube阿伟科技 17
+  server: 107.173.148.4
+  port: 21280
+  type: vmess
+  uuid: e09e894a-91aa-4db7-e9ff-e5580be70c11
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.45|香港youtube阿伟科技原生 4
   server: 152.69.193.245
   port: 80
   type: vmess
@@ -158,3 +114,15 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
+- name: 0.26| githubcomfreefq  美国Microsoft数据中心 3
+  server: 20.239.176.94
+  port: 443
+  type: vmess
+  uuid: 4adf9138-5aca-4a26-b217-335e72bb680d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.239.176.94
