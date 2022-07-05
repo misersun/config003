@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 5.75|HKwmt626a1
+  name: 9.19|HKwmt626a1
   http-opts:
     path:
     - /
@@ -14,7 +14,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 3.80|HKwmt625a12
+  name: 5.45|HKwmt625a12
   http-opts:
     path:
     - /
@@ -27,43 +27,19 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- type: vmess
-  name: 2.45|USwmt630a3
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.58| kudsihkvk
-  server: azhk.yeem.cc
-  port: 21216
+- name: 3.18|US13
+  server: 51.81.223.21
+  port: 443
   type: vmess
-  uuid: b111ef0c-4c03-426d-9954-79c10a6ea1ba
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.46|HK13
-  server: 52.139.153.69
-  type: vmess
-  country: HK
-  port: 166
-  uuid: 9838c9ee-b8b6-4ccd-aa42-30629e9cbee7
-  alterId: 0
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
   cipher: auto
   network: tcp
-  ws-path: /
   http-opts: {}
-  h2-opts: {}
+  ws-path: /
   skip-cert-verify: true
 - type: vmess
-  name: 1.19|USwmt630a2
+  name: 3.09|USwmt630a2
   http-opts:
     path:
     - /
@@ -76,9 +52,83 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.51| 免流香港01负载均衡 1x
+- type: vmess
+  name: 2.97|USwmt630a3
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.90| US1519
+  server: 51.81.223.32
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
+- name: 2.63|US12
+  server: 51.81.223.35
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /090d1f06ee93/
+  skip-cert-verify: true
+- type: vmess
+  name: 2.47|USwmt75p1
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.71
+  server: 45.145.6.71
+  port: '44056'
+  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.99|RelayTWTW58
+  server: bpjcjapan.loseyourip.com
+  type: vmess
+  country: TW
+  port: 12342
+  uuid: 546660e6-01ad-4eaa-a640-83864829f8f9
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /images
+  servername: v.qq.com
+  ws-headers:
+    HOST: v.qq.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.90|US22
+  server: 51.81.223.22
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /v1252N93nZez6Py
+  skip-cert-verify: true
+- name: 1.62| 亚太香港04负载均衡 1x
   server: hongkong.xn--z4q48lcvp.com
-  port: 80
+  port: 12347
   type: vmess
   uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   alterId: 0
@@ -88,7 +138,18 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 0.50| 亚太香港06负载均衡 1x
+- name: 1.46|US19
+  server: 51.81.223.14
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /v1252N93nZez6Py
+  skip-cert-verify: true
+- name: 1.35| 亚太香港06负载均衡 1x
   server: hongkong.xn--z4q48lcvp.com
   port: 12349
   type: vmess
@@ -100,7 +161,73 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 0.33|美国youtube阿伟科技 16
+- name: 1.12| 亚太香港03负载均衡 1x
+  server: hongkong.xn--z4q48lcvp.com
+  port: 12346
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 0.92|越南youtube阿伟科技
+  server: 103.90.220.27
+  port: 80
+  type: vmess
+  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.68|印尼youtube阿伟科技
+  server: lms.uin-antasari.ac.id
+  port: 80
+  type: vmess
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: exa.nextvpn.cc
+  udp: true
+- name: 0.67|US88
+  server: 152.69.206.209
+  type: vmess
+  country: US
+  port: 1212
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.66|US15
+  server: 51.81.223.23
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 0.55|美国youtube阿伟科技 16
   server: 107.173.148.4
   port: 50700
   type: vmess
@@ -115,7 +242,15 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.22|美国youtube阿伟科技 17
+- name: 0.45| US1517
+  server: 51.81.223.17
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
+- name: 0.38|美国youtube阿伟科技 17
   server: 107.173.148.4
   port: 21280
   type: vmess
@@ -130,18 +265,44 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.19| 亚太香港09负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12352
+- name: 0.36|US11
+  server: 51.81.223.36
+  port: 443
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /v1252N93nZez6Py
+  skip-cert-verify: true
+- name: 0.32| US1548
+  server: 51.81.223.6
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
+- name: 0.24|US10
+  server: 51.81.223.12
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 0.16| US1518
+  server: 51.81.223.0
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
 - name: 0.15| SSRSUB美国V04付费推荐dljtfssrsub
   server: v04.ssrsub.com
   port: 153
@@ -154,3 +315,32 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: d76bb35696.laowanxiang.com
+- name: 0.14|US80
+  server: 51.81.223.25
+  type: vmess
+  country: US
+  port: 443
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.11| US1546
+  server: 51.81.223.29
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
+- name: 0.10| US1522
+  server: 51.81.223.31
+  port: 443
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  alterId: 32
+  cipher: auto
+  tls: false
