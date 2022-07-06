@@ -1,30 +1,6 @@
 proxies:
-- name: '12.43| 香港  Trojan  E  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20722
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
-- name: '11.99| 香港  Trojan  I  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20726
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
-- name: '10.16| 香港  Trojan  D  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20721
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
-- name: '9.81| 香港  Trojan  F  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20723
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
 - type: vmess
-  name: 9.19|HKwmt626a1
+  name: 4.46|HKwmt626a1
   http-opts:
     path:
     - /
@@ -37,26 +13,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: '9.14| 香港  Trojan  J  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20727
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
-- name: '8.57| 香港  Trojan  A  08x  黃金  港區流媒體解鎖 '
-  server: AZHJ001.xiba1.xyz
-  port: 20718
-  type: trojan
-  password: 18ba7dd9-2b90-39e3-a738-5ab0c1633d82
-  sni: ssl.ssl12.xyz
-- name: 6.75|bvdtunnm
-  server: 626sg.ok365.cyou
-  port: 80
-  type: trojan
-  password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4
-  sni: 626sg.ok365.cyou
 - type: vmess
-  name: 5.45|HKwmt625a12
+  name: 3.82|HKwmt625a12
   http-opts:
     path:
     - /
@@ -69,19 +27,30 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 3.18|US13
-  server: 51.81.223.21
-  port: 443
+- name: 3.60| AU01
+  server: 43.129.30.122
+  port: 26456
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
+  uuid: 9b1e163d-6df7-40df-d5ca-97a54bf05c1c
+  alterId: 0
   cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
+  tls: false
 - type: vmess
-  name: 3.09|USwmt630a2
+  name: 3.02|USwmt630a3
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.98|USwmt630a2
   http-opts:
     path:
     - /
@@ -95,75 +64,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.97|USwmt630a3
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.90| US1519
-  server: 51.81.223.32
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 2.69| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 2.63|US12
-  server: 51.81.223.35
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /090d1f06ee93/
-  skip-cert-verify: true
-- name: 2.62| US254 TGpeekfun
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 2.49|bininsgyrb
-  server: 625us.ok365.cyou
-  port: 443
-  type: trojan
-  password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4
-  sni: 625us.ok365.cyou
-- name: 2.49|美国youtube阿伟科技 7
-  server: k9.v2.gay
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxusa.fovi.tk
-  udp: true
-- type: vmess
-  name: 2.47|USwmt75p1
+  name: 2.86|USwmt76a26
   http-opts:
     path:
     - /
@@ -176,337 +77,7 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.31| US1516
-  server: vus2.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vus2.0bad.com
-- name: 2.25| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.99|RelayTWTW58
-  server: bpjcjapan.loseyourip.com
-  type: vmess
-  country: TW
-  port: 12342
-  uuid: 546660e6-01ad-4eaa-a640-83864829f8f9
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /images
-  servername: v.qq.com
-  ws-headers:
-    HOST: v.qq.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.90|US22
-  server: 51.81.223.22
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /v1252N93nZez6Py
-  skip-cert-verify: true
-- type: ssr
-  name: 1.84|NLwmt75a183
-  server: 213.183.59.211
-  port: 9006
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: FAdUvMJUq5vDgKEq
-- name: 1.83|LT543 4175Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9041
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.81|NLwmt75a20
-  server: 213.183.59.211
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- name: 1.79| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- type: ssr
-  name: 1.78|NLwmt75p122
-  server: 213.183.59.211
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- type: ssr
-  name: 1.71|NLwmt75a140
-  server: 213.183.59.214
-  port: 9088
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: f8npKgNzdkss2ytn
-- name: 1.71|LT549 4375Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9018
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 1.68|NLwmt75p55
-  server: 213.183.59.211
-  port: 9030
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: GeregetR8cvQHzYr
-- name: 1.62| 亚太香港04负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12347
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- type: ssr
-  name: 1.61|NLwmt75a60
-  server: 213.183.59.206
-  port: 9032
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UWZQeLRWnkqgkseq
-- type: ssr
-  name: 1.59|NLwmt75a190
-  server: 213.183.59.190
-  port: 9005
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZET59LF6DvCC8KVt
-- type: ssr
-  name: 1.58|NLwmt75a55
-  server: 213.183.59.190
-  port: 9059
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 9XwYyZsK8SNzQDtY
-- type: ssr
-  name: 1.57|NLwmt75a100
-  server: 213.183.59.214
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- type: ssr
-  name: 1.57|NLwmt75a144
-  server: 213.183.59.214
-  port: 9042
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
-- type: ssr
-  name: 1.55|NLwmt75p31
-  server: 213.183.59.206
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- type: ssr
-  name: 1.53|NLwmt75p134
-  server: 213.183.59.190
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- type: ssr
-  name: 1.52|NLwmt75p88
-  server: 213.183.59.211
-  port: 9001
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UkXRsXvR6buDMG2Y
-- type: ssr
-  name: 1.51|NLwmt75a63
-  server: 213.183.59.190
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- type: ssr
-  name: 1.51|NLwmt75a103
-  server: 213.183.59.214
-  port: 9024
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BejrQvtu9sqUeNuZ
-- type: ssr
-  name: 1.50|NLwmt75a161
-  server: 213.183.59.214
-  port: 9060
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ueLXVkvh4hckhErQ
-- type: ssr
-  name: 1.50|NLwmt75p135
-  server: 213.183.59.206
-  port: 9015
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZpNDDKRu9MagNvaf
-- type: ssr
-  name: 1.49|NLwmt75a130
-  server: 213.183.59.211
-  port: 9043
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: HSZuyJQcWe8dxNdF
-- type: ssr
-  name: 1.48|NLwmt75a2
-  server: 213.183.59.214
-  port: 9031
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BwcAUZk8hUFAkDGN
-- type: ssr
-  name: 1.46|NLwmt75a109
-  server: 213.183.59.211
-  port: 9056
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rNBfNuuANFCAk7KB
-- type: ssr
-  name: 1.46|NLwmt75a121
-  server: 213.183.59.214
-  port: 9007
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: kSPmvwdFzGMMW5pY
-- type: ssr
-  name: 1.46|NLwmt75a126
-  server: 213.183.59.211
-  port: 9014
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: KnJGad3FqTvjqbaX
-- type: ssr
-  name: 1.46|NLwmt75p56
-  server: 213.183.59.190
-  port: 9038
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: gYCYXfkUQEs2TaJQ
-- type: ssr
-  name: 1.46|NLwmt75p50
-  server: 213.183.59.214
-  port: 9064
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-- name: 1.46|US19
-  server: 51.81.223.14
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /v1252N93nZez6Py
-  skip-cert-verify: true
-- type: ssr
-  name: 1.44|NLwmt75a199
-  server: 213.183.59.190
-  port: 9025
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: XPtzA9sCug3SPR4c
-- type: ssr
-  name: 1.44|NLwmt75a27
-  server: 213.183.59.211
-  port: 9084
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-- type: ssr
-  name: 1.39|NLwmt75a10
-  server: 213.183.59.211
-  port: 9007
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: kSPmvwdFzGMMW5pY
-- name: 1.38| 甲骨文伦敦ARM2trojan
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- type: ssr
-  name: 1.37|NLwmt75a49
-  server: 213.183.59.214
-  port: 9061
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 4R3hUfZ2FHhDmNcP
-- type: ssr
-  name: 1.36|NLwmt75p51
-  server: 213.183.59.214
-  port: 9098
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-- name: 1.35| 亚太香港06负载均衡 1x
+- name: 2.53|日本youtube阿伟科技 20
   server: hongkong.xn--z4q48lcvp.com
   port: 12349
   type: vmess
@@ -514,128 +85,133 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 2.13| 消耗日本 解流媒体 20x
+  server: 172.105.141.162
+  port: 30915
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- type: trojan
+  name: 1.93|USwmt76a155
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 1.93|LT579 3059Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9037
+  password: TN2YqghxeFDKZfLU
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.92| 亚太香港08负载均衡 1x
+  server: hongkong.xn--z4q48lcvp.com
+  port: 12351
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 1.90| ZZ143 TGpeekfun
+  server: 134.195.101.32
+  port: 3389
+  type: trojan
+  country: ' ZZ'
+  password: d66013c645b93c5c
+  skip-cert-verify: true
+  udp: true
+- type: ssr
+  name: 1.87|RUwmt75p99
+  server: 213.183.53.200
+  port: 9020
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: plain
+  password: BNmAXXxAHYpTRdzu
+- name: 1.82| 美国 G51  直连  0x
+  server: 141.98.168.251
+  port: 443
+  type: trojan
+  password: LiX1tV
+  sni: cdnu2.ft2.us
+  skip-cert-verify: true
+- name: 1.74|LT587 3042Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9073
+  password: daFYagqDdBdA6VTX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.65|LT582 3179Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9046
+  password: NvS8N4Vf8qAGPSCL
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.61|LT578 3084Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9011
+  password: M3t2ZEQcMGRWBjRa
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.57| 亚太香港02负载均衡 1x
+  server: hongkong.xn--z4q48lcvp.com
+  port: 12345
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
   network: ws
   ws-path: /images
   ws-headers:
     Host: v.qq.com
 - type: ssr
-  name: 1.31|NLwmt75p130
-  server: 213.183.59.206
-  port: 9056
+  name: 1.44|RUwmt75p81
+  server: 213.183.53.200
+  port: 9014
   protocol: origin
   cipher: aes-256-cfb
   obfs: plain
-  password: rNBfNuuANFCAk7KB
-- type: ssr
-  name: 1.30|NLwmt75p42
-  server: 213.183.59.206
-  port: 9043
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: HSZuyJQcWe8dxNdF
-- type: ssr
-  name: 1.30|NLwmt75p49
-  server: 213.183.59.211
-  port: 9060
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ueLXVkvh4hckhErQ
-- type: ssr
-  name: 1.29|NLwmt75a131
-  server: 213.183.59.214
-  port: 9073
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-- type: ssr
-  name: 1.29|NLwmt75p98
-  server: 213.183.59.211
-  port: 9032
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UWZQeLRWnkqgkseq
-- name: 1.23| 甲骨文东京ARM2trojan
-  server: jgwdj4.gaox.ml
-  port: 443
-  type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-- type: ssr
-  name: 1.23|NLwmt75p39
-  server: 213.183.59.214
-  port: 9094
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rpgbNnU9rDDU4aWZ
-- type: ssr
-  name: 1.23|NLwmt75a19
-  server: 213.183.59.211
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- type: ssr
-  name: 1.23|NLwmt75a202
-  server: 213.183.59.211
-  port: 9057
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: wjTugX3ZtHMB9c3Z
-- type: ssr
-  name: 1.20|NLwmt75p92
-  server: 213.183.59.211
-  port: 9005
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZET59LF6DvCC8KVt
-- type: ssr
-  name: 1.20|NLwmt75a73
-  server: 213.183.59.190
-  port: 9088
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: f8npKgNzdkss2ytn
-- name: 1.16| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- type: ssr
-  name: 1.15|NLwmt75a107
-  server: 213.183.59.206
-  port: 9007
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: kSPmvwdFzGMMW5pY
-- type: ssr
-  name: 1.14|NLwmt75a136
-  server: 213.183.59.214
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- name: 1.13| NL136 TGpeekfun
-  server: 213.183.59.206
-  port: 9059
+  password: KnJGad3FqTvjqbaX
+- name: 1.34|LT571 3523Mb
+  server: 213.183.53.200
   type: ssr
-  country: ' NL'
-  password: 9XwYyZsK8SNzQDtY
+  country: LT
+  port: 9024
+  password: BejrQvtu9sqUeNuZ
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.12| 亚太香港03负载均衡 1x
+- name: 1.27| 亚太香港03负载均衡 1x
   server: hongkong.xn--z4q48lcvp.com
   port: 12346
   type: vmess
@@ -647,146 +223,73 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- type: ssr
-  name: 1.11|NLwmt75p60
-  server: 213.183.59.190
-  port: 9003
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: JdmRK9gMEqFgs8nP
-- name: 1.09| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
+- name: 1.25|ljaahuob
+  server: 626sg05.ok365.cyou
+  port: 80
+  type: trojan
+  password: ab50a15b-d263-43ad-95b4-8ec176a598c8
+  sni: 626sg05.ok365.cyou
+- name: 1.24| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
   port: 443
   type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 1.09|porygvb
-  server: 625tw.ok365.cyou
-  port: 443
-  type: trojan
-  password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4
-  sni: 625tw.ok365.cyou
-- name: 1.05| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
-  port: 443
-  type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- type: ssr
-  name: 1.04|NLwmt75p90
-  server: 213.183.59.190
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- type: ssr
-  name: 1.04|NLwmt75a209
-  server: 213.183.59.206
-  port: 9006
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: FAdUvMJUq5vDgKEq
-- type: ssr
-  name: 1.03|NLwmt75p43
-  server: 213.183.59.211
-  port: 9053
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: SBM7R883jBmnqe6C
-- type: ssr
-  name: 1.02|NLwmt75a30
-  server: 213.183.59.206
-  port: 9037
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: TN2YqghxeFDKZfLU
-- type: ssr
-  name: 1.01|NLwmt75a72
-  server: 213.183.59.206
-  port: 9061
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 4R3hUfZ2FHhDmNcP
-- type: ssr
-  name: 1.00|NLwmt75a123
-  server: 213.183.59.206
-  port: 9003
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: JdmRK9gMEqFgs8nP
-- type: ssr
-  name: 0.97|NLwmt75a5
-  server: 213.183.59.206
-  port: 9079
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: TPqX8edgbAURcAMb
-- name: 0.96| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash0.free4444.xyz
-  port: 40044
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: ssr
-  name: 0.94|NLwmt75p59
-  server: 213.183.59.206
-  port: 9005
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZET59LF6DvCC8KVt
-- type: ssr
-  name: 0.94|NLwmt75p73
-  server: 213.183.59.190
-  port: 9019
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: GA9KzeEgvfxNrgmM
-- type: ssr
-  name: 0.93|NLwmt75a135
-  server: 213.183.59.206
-  port: 9031
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BwcAUZk8hUFAkDGN
-- name: 0.92|越南youtube阿伟科技
-  server: 103.90.220.27
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 1.24| 免流香港01负载均衡 1x
+  server: hongkong.xn--z4q48lcvp.com
   port: 80
   type: vmess
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 1.04|日本youtube阿伟科技 19
+  server: hongkong.xn--z4q48lcvp.com
+  port: 12348
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /images
     headers:
       Host: YouTube-aweikeji
   udp: true
-- type: ssr
-  name: 0.87|NLwmt75p101
-  server: 213.183.59.206
-  port: 9097
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: Sn5B7jTqr76aCJT8
-- name: 0.87| httpsgithubcomAlvin9999newpacwiki ip3洛杉矶1SSR
+- name: 0.98| AU01 TGpeekfun
+  server: kr04.wangxd.life
+  port: 3052
+  type: trojan
+  country: ' AU'
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: 0.92|RelayZZZZ40
+  server: zendesk3.shopee.tw
+  port: 80
+  type: vmess
+  uuid: 9202b80a-0355-447e-bbfe-27d5d92f9d20
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fastssh/notalone2/62bebc5407c98/
+  ws-headers:
+    Host: id3.v2-ray.com
+- type: trojan
+  name: 0.83|GBwmt76a164
+  server: jgwld4.gaox.ml
+  port: 443
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  udp: true
+  skip-cert-verify: true
+- name: 0.81| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
   server: ss-v2ray1.free4444.xyz
   port: 443
   type: ssr
@@ -796,226 +299,66 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- type: ssr
-  name: 0.84|NLwmt75a128
-  server: 213.183.59.206
-  port: 9045
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: Lp27rqyJq72bZsqX
-- type: ssr
-  name: 0.84|NLwmt75a28
-  server: 213.183.59.206
-  port: 9042
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: S7KwUu7yBy58S3Ga
-- name: 0.83| CZ73 TGpeekfun
-  server: v2cross.com.02.v2ce.com
-  port: 443
-  type: trojan
-  country: ' CZ'
-  password: 3gLlCYBipVwr6Y5F
-  skip-cert-verify: true
-  udp: true
-- type: ssr
-  name: 0.83|NLwmt75p16
-  server: 213.183.59.206
-  port: 9098
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-- type: ssr
-  name: 0.82|NLwmt75a9
-  server: 213.183.59.190
-  port: 9043
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: HSZuyJQcWe8dxNdF
-- type: ssr
-  name: 0.81|NLwmt75p110
-  server: 213.183.59.206
-  port: 9084
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-- type: ssr
-  name: 0.81|NLwmt75p63
-  server: 213.183.59.206
-  port: 9073
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-- type: ssr
-  name: 0.79|NLwmt75p102
-  server: 213.183.59.206
-  port: 9064
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-- type: ssr
-  name: 0.77|NLwmt75a104
-  server: 213.183.59.206
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- type: ssr
-  name: 0.76|NLwmt75p70
-  server: 213.183.59.206
-  port: 9094
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rpgbNnU9rDDU4aWZ
-- type: ssr
-  name: 0.74|NLwmt75a15
-  server: 213.183.59.206
-  port: 9070
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: bf7v334KKDV3YDhH
-- type: ssr
-  name: 0.71|NLwmt75p86
-  server: 213.183.59.206
-  port: 9033
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: UTJA57ypk2XKQpnm
-- name: 0.68|印尼youtube阿伟科技
-  server: lms.uin-antasari.ac.id
-  port: 80
+- name: 0.76|德国youtube阿伟科技
+  server: cf.fullcloud.tk
+  port: 2053
   type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpnneo
-    headers:
-      Host: exa.nextvpn.cc
-  udp: true
-- name: 0.67|US88
-  server: 152.69.206.209
-  type: vmess
-  country: US
-  port: 1212
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.66|US15
-  server: 51.81.223.23
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- type: ssr
-  name: 0.65|NLwmt75a195
-  server: 213.183.59.190
-  port: 9040
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: p9z5BVADH2YFs3MN
-- name: 0.65| AU01 TGpeekfun
-  server: kr04.wangxd.life
-  port: 3052
-  type: trojan
-  country: ' AU'
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-  udp: true
-- type: ssr
-  name: 0.64|NLwmt75p45
-  server: 213.183.59.190
-  port: 9024
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BejrQvtu9sqUeNuZ
-- type: ssr
-  name: 0.63|NLwmt75a207
-  server: 213.183.59.206
-  port: 9011
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: M3t2ZEQcMGRWBjRa
-- type: ssr
-  name: 0.60|NLwmt75p65
-  server: 213.183.59.206
-  port: 9057
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: wjTugX3ZtHMB9c3Z
-- name: 0.55|美国youtube阿伟科技 16
-  server: 107.173.148.4
-  port: 50700
-  type: vmess
-  uuid: 9fc47a30-06e0-4b60-abbd-8c75b5dbcc30
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- type: ssr
-  name: 0.49|NLwmt75a189
-  server: 213.183.59.229
-  port: 9057
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: wjTugX3ZtHMB9c3Z
-- name: 0.45| US1517
-  server: 51.81.223.17
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 0.43|defaultname2
-  ws-opts:
-    path: /ray
-    headers:
-      host: m2.v2rayfree1.xyz
-  server: 104.17.20.119
-  port: 443
-  uuid: 6dd416ed-b07e-4b12-934a-520e22f3a6f5
-  alterId: 0
-  cipher: auto
-  network: ws
   tls: true
-- name: 0.38|美国youtube阿伟科技 17
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxdeovz2.fovi.tk
+  udp: true
+- type: ssr
+  name: 0.74|GBwmt76a140
+  server: 88.150.137.201
+  port: 1021
+  protocol: auth_aes128_md5
+  cipher: aes-128-ctr
+  obfs: tls1.2_ticket_auth
+  password: sEscPBiAD9K$&@79
+- name: 0.73|LT562 3522Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9084
+  password: c3NtHJ5ujV2tGDfj
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.72|美国youtube阿伟科技 35
+  server: zzydnfw-v.bp365.cf
+  port: 443
+  type: vmess
+  uuid: 6a522b05-7182-4540-8c1a-6b15965f64b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /MDVMDGJUZI
+    headers:
+      Host: zzydnfw-v.bp365.cf
+  udp: true
+- name: 0.54| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 0.46| RelayUSUS37
+  server: ss2.2046.gq
+  port: 4443
+  type: trojan
+  password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a
+  sni: ss2.2046.gq
+- name: 0.45|美国youtube阿伟科技 42
   server: 107.173.148.4
   port: 21280
   type: vmess
@@ -1030,154 +373,56 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.36|US11
-  server: 51.81.223.36
+- name: 0.38| RelayUSUS30
+  server: 172.64.147.71
   port: 443
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
+  uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322
+  alterId: 0
   cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /v1252N93nZez6Py
-  skip-cert-verify: true
-- name: 0.32| US1548
-  server: 51.81.223.6
-  port: 443
+  tls: true
+  network: ws
+  ws-path: /xxX2
+  ws-headers:
+    Host: testgroup2.091.se
+- name: 0.35|美国youtube阿伟科技 16
+  server: 107.173.148.4
+  port: 50700
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
+  uuid: 9fc47a30-06e0-4b60-abbd-8c75b5dbcc30
+  alterId: 0
   cipher: auto
   tls: false
-- name: 0.27| LT119 TGpeekfun
-  server: 213.183.53.177
-  port: 9033
-  type: ssr
-  country: ' LT'
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 0.27|RUwmt75p52
-  server: 213.183.53.177
-  port: 9094
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: rpgbNnU9rDDU4aWZ
-- name: 0.26| LT116 TGpeekfun
-  server: 213.183.53.177
-  port: 9003
-  type: ssr
-  country: ' LT'
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 0.26|RUwmt75a134
-  server: 213.183.53.177
-  port: 9093
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: wfLC2y7rzZyCmuyt
-- name: 0.24|US10
-  server: 51.81.223.12
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
   skip-cert-verify: true
-- name: 0.22|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.34| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
   port: 443
   type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 0.22| RelayUSUS94
-  server: usfree1.jiantian.xyz
-  port: 23425
-  type: trojan
-  password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf
-  sni: usfree1.jiantian.xyz
-- name: 0.22| LT117 TGpeekfun
-  server: 213.183.53.177
-  port: 9008
-  type: ssr
-  country: ' LT'
-  password: y9VURyNzJWNRYEGQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.21|takbxnygf
-  server: 629hk.ok365.cyou
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+- name: 0.29|美国youtube阿伟科技 28
+  server: 150.230.43.106
+  port: 54829
+  type: vmess
+  uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.29| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
   port: 443
   type: trojan
-  password: 570f6916-d3ac-4f1d-95ef-4b9b859b34a4
-  sni: 629hk.ok365.cyou
-- type: ssr
-  name: 0.21|RUwmt75a25
-  server: 213.183.53.177
-  port: 9084
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: c3NtHJ5ujV2tGDfj
-- type: ssr
-  name: 0.21|RUwmt75a43
-  server: 213.183.53.177
-  port: 9059
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: 9XwYyZsK8SNzQDtY
-- type: ssr
-  name: 0.20|RUwmt75a145
-  server: 213.183.53.177
-  port: 9064
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-- name: 0.20| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- type: ssr
-  name: 0.20|RUwmt75p112
-  server: 213.183.53.177
-  port: 9010
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: f63gg8EruDnUrmz4
-- name: 0.20|LT528 4470Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9060
-  password: ueLXVkvh4hckhErQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.19| LT114 TGpeekfun
-  server: 213.183.53.177
-  port: 9056
-  type: ssr
-  country: ' LT'
-  password: rNBfNuuANFCAk7KB
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.18| US259 TGpeekfun
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 0.27| US259 TGpeekfun
   server: bai-piao-wang-zhe10.98848.xyz
   port: 50858
   type: trojan
@@ -1185,109 +430,86 @@ proxies:
   password: 685022af-2086-454c-8725-8ff6b6ab1d13
   skip-cert-verify: true
   udp: true
-- name: 0.17|甲骨文海得拉巴AMD2trojan
-  server: jgwhdlb2.gaox.ml
+- name: 0.27|香港youtube阿伟科技 9
+  server: 73hk03.fx6688.top
+  port: 443
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: 73hk03.fx6688.top
+  udp: true
+- name: 0.25|新加坡youtube阿伟科技 7
+  server: bai-piao-wang-zhe.us.567568.ml
+  port: 19568
+  type: trojan
+  password: AglrNchEnS
+  skip-cert-verify: true
+  udp: true
+- name: 0.22| RelayUSUS35
+  server: ss.2046.gq
+  port: 4443
+  type: trojan
+  password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a
+  sni: ss.2046.gq
+- name: 0.22| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
   port: 443
   type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-- name: 0.16|LT539  637Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9040
-  password: p9z5BVADH2YFs3MN
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.16|LT527 4248Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9000
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.16| US1518
-  server: 51.81.223.0
-  port: 443
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
+- name: 0.18| US142 TGpeekfun
+  server: bai-piao-wang-zhe10.98848.xyz
+  port: 48240
+  type: trojan
+  country: ' US'
+  password: 685022af-2086-454c-8725-8ff6b6ab1d13
+  skip-cert-verify: true
+  udp: true
+- name: 0.18|美国youtube阿伟科技 39
+  server: k9.v2.gay
+  port: 2053
   type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.15|LT540 4210Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9015
-  password: ZpNDDKRu9MagNvaf
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.15| SSRSUB美国V04付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   alterId: 0
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
-- name: 0.14|US80
-  server: 51.81.223.25
-  type: vmess
-  country: US
-  port: 443
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 0.13|LT542 4140Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9073
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.13|LT541 4233Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.11| US1546
-  server: 51.81.223.29
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.10| US1522
-  server: 51.81.223.31
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.10|甲骨文春川ARM1trojan
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxusa.fovi.tk
+  udp: true
+- name: 0.16|甲骨文春川ARM1trojan
   server: jgwcc3.gaox.ml
   port: 443
   type: trojan
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   sni: jgwcc3.gaox.ml
+- type: vmess
+  name: 0.13|VNwmt76a166
+  ws-opts:
+    path: /
+    headers:
+      host: 103.90.220.27
+  server: 103.90.220.27
+  port: '80'
+  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.13| RelayHKHK358
+  server: hkbn-home-a.zc20200426.club
+  port: 39999
+  type: vmess
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+  alterId: 0
+  cipher: auto
+  tls: true
