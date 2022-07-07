@@ -1,6 +1,20 @@
 proxies:
 - type: vmess
-  name: 4.46|HKwmt626a1
+  name: 4.26|HKwmt625a12
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.66|HKwmt626a1
   http-opts:
     path:
     - /
@@ -14,43 +28,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 3.82|HKwmt625a12
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.84.203
-  server: 8.210.84.203
-  port: '47059'
-  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 3.60| AU01
-  server: 43.129.30.122
-  port: 26456
-  type: vmess
-  uuid: 9b1e163d-6df7-40df-d5ca-97a54bf05c1c
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 3.02|USwmt630a3
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.98|USwmt630a2
+  name: 3.15|USwmt630a2
   http-opts:
     path:
     - /
@@ -64,7 +42,21 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.86|USwmt76a26
+  name: 2.84|USwmt630a3
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.84|USwmt76a26
   http-opts:
     path:
     - /
@@ -77,124 +69,36 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.53|日本youtube阿伟科技 20
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12349
+- name: 0.78|AU01
+  server: 43.129.30.122
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  country: AU
+  port: 26456
+  uuid: 9b1e163d-6df7-40df-d5ca-97a54bf05c1c
   alterId: 0
   cipher: auto
-  tls: false
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /images
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 2.13| 消耗日本 解流媒体 20x
-  server: 172.105.141.162
-  port: 30915
+- name: 0.71|RelayUSUS27
+  server: v04.ssrsub.com
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  country: US
+  port: 153
+  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
   alterId: 0
   cipher: auto
-  tls: false
   network: ws
-  ws-path: /images
+  ws-path: /api/v3/download.getFile
+  servername: d76bb35696.laowanxiang.com
   ws-headers:
-    Host: v.qq.com
-- name: 1.92| 亚太香港08负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12351
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.57| 亚太香港02负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12345
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.27| 亚太香港03负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12346
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.24| 免流香港01负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 80
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.04|日本youtube阿伟科技 19
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12348
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
+    HOST: d76bb35696.laowanxiang.com
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /images
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 0.92|RelayZZZZ40
-  server: zendesk3.shopee.tw
-  port: 80
-  type: vmess
-  uuid: 9202b80a-0355-447e-bbfe-27d5d92f9d20
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /fastssh/notalone2/62bebc5407c98/
-  ws-headers:
-    Host: id3.v2-ray.com
-- name: 0.45|美国youtube阿伟科技 42
-  server: 107.173.148.4
-  port: 21280
-  type: vmess
-  uuid: e09e894a-91aa-4db7-e9ff-e5580be70c11
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 0.35|美国youtube阿伟科技 16
+- name: 0.39|美国youtube阿伟科技 16
   server: 107.173.148.4
   port: 50700
   type: vmess
@@ -209,25 +113,26 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.29|美国youtube阿伟科技 28
-  server: 150.230.43.106
-  port: 54829
+- name: 0.32|美国youtube阿伟科技 42
+  server: 107.173.148.4
+  port: 21280
   type: vmess
-  uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5
+  uuid: e09e894a-91aa-4db7-e9ff-e5580be70c11
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  udp: true
-- type: vmess
-  name: 0.13|VNwmt76a166
+  network: ws
   ws-opts:
     path: /
     headers:
-      host: 103.90.220.27
-  server: 103.90.220.27
-  port: '80'
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: '0'
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.28| US1567
+  server: 150.230.99.46
+  port: 22222
+  type: vmess
+  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
+  alterId: 0
   cipher: auto
-  network: ws
+  tls: false
