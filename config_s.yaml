@@ -1,79 +1,54 @@
 proxies:
-- name: 2.72|美国youtube阿伟科技 35
-  server: zzydnfw-v.bp365.cf
-  port: 443
-  type: vmess
-  uuid: 6a522b05-7182-4540-8c1a-6b15965f64b0
+- type: vmess
+  name: 3.12|CN中国
+  server: tx-xg-2.ienai.xin
+  port: 11000
+  uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a
   alterId: 0
   cipher: auto
+  network: tcp
   tls: true
+- name: 1.74| TW81 TGpeekfun
+  server: 211.72.35.153
+  port: 3389
+  type: trojan
+  country: ' TW'
+  password: f6f2072a2e4cfc91
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /MDVMDGJUZI
-    headers:
-      Host: zzydnfw-v.bp365.cf
   udp: true
-- name: 1.55|美国youtube阿伟科技 39
-  server: k9.v2.gay
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+- type: trojan
+  name: 1.58|USwmt783
+  server: fhcamd2.gaox.ml
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.53|USwmt77a2
+  server: jgwdj4.gaox.ml
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 1.47|US美国1
+  ws-opts:
+    path: /G0DXUQOM
+    headers:
+      host: us3.lolvps.xyz
+  server: us3.lolvps.xyz
+  port: 60072
+  uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898
   alterId: 0
   cipher: auto
-  tls: true
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxusa.fovi.tk
-  udp: true
-- type: trojan
-  name: 1.49|USwmt76a155
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.98|JPwmt76a46
-  server: jgwdb4.gaox.ml
-  port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.85|GBwmt76a164
-  server: jgwld4.gaox.ml
-  port: 443
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  udp: true
-  skip-cert-verify: true
-- name: 0.83| RelayUSUS31
-  server: usfree2.jiantian.xyz
-  port: 32462
-  type: trojan
-  password: cb5e2135-4d64-4454-be98-5bae4f2618d1
-  sni: usfree2.jiantian.xyz
-- name: 0.80| RelayUSUS34
-  server: trus.moonfree.top
-  port: 443
-  type: trojan
-  password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
-  sni: trus.moonfree.top
-- name: 0.69| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 0.56|RelaySGSG21
+  tls: true
+- name: 1.14|RelaySGSG28
   server: 161.117.231.89
   type: vmess
   country: SG
   port: 443
-  uuid: 3a3b0878-2306-4930-9aba-ee411441d9f8
+  uuid: 81e1d228-6d1a-4212-b45f-2abe61fc3791
   alterId: 0
   cipher: auto
   network: ws
@@ -85,14 +60,30 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.55|USwmt77a51
-  server: uk.node.qchwnd.moe
-  port: 44613
-  password: 2971161c-46af-4ac3-b9c3-409b2750a751
-  udp: true
+- name: 1.00| AU01 TGpeekfun
+  server: kr04.wangxd.life
+  port: 3052
+  type: trojan
+  country: ' AU'
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
-- name: 0.35|德国youtube阿伟科技
+  udp: true
+- name: 0.82| TW86 TGpeekfun
+  server: 211.72.35.158
+  port: 3389
+  type: trojan
+  country: ' TW'
+  password: d66013c645b93c5c
+  skip-cert-verify: true
+  udp: true
+- name: 0.76|3
+  server: hinet.52147.top
+  port: 28443
+  type: trojan
+  password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
+  sni: download.windowsupdate1.com
+  skip-cert-verify: true
+- name: 0.74|德国youtube阿伟科技 7
   server: cf.fullcloud.tk
   port: 2053
   type: vmess
@@ -107,58 +98,126 @@ proxies:
     headers:
       Host: foxdeovz2.fovi.tk
   udp: true
-- name: 0.34| 甲骨文伦敦ARM1trojan
+- type: trojan
+  name: 0.59|USwmt77a43
+  server: bai-piao-wang-zhe10.98848.xyz
+  port: 48240
+  password: 685022af-2086-454c-8725-8ff6b6ab1d13
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.51|AUwmt7835
+  server: jgwxn4.gaox.ml
+  port: 443
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  udp: true
+  skip-cert-verify: true
+- name: 0.49|12
+  server: 203.138.98.199
+  port: 28443
+  type: trojan
+  password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
+  sni: download.windowsupdate1.com
+  skip-cert-verify: true
+- type: trojan
+  name: 0.47|USwmt77a22
+  server: jgwdj3.gaox.ml
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  udp: true
+  skip-cert-verify: true
+- name: 0.38|美国youtube阿伟科技 7
+  server: zzydnfw-v.bp365.cf
+  port: 443
+  type: vmess
+  uuid: 6a522b05-7182-4540-8c1a-6b15965f64b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /MDVMDGJUZI
+    headers:
+      Host: zzydnfw-v.bp365.cf
+  udp: true
+- name: 0.38| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- type: trojan
+  name: 0.37|USwmt77a66
+  server: fhcamd1.gaox.ml
+  port: 443
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  udp: true
+  skip-cert-verify: true
+- name: 0.26|2
+  server: 630hk99.ok365.cyou
+  port: 443
+  type: trojan
+  password: 89687f0a-bf3e-4a86-8a77-0f82d525db2d
+  sni: 630hk99.ok365.cyou
+- name: 0.24| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
+  port: 443
+  type: trojan
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
+- name: 0.23| 甲骨文伦敦ARM1trojan
   server: jgwld3.gaox.ml
   port: 443
   type: trojan
   password: 71b55a84-3fac-4458-abff-eaad79219c91
   sni: jgwld3.gaox.ml
 - type: trojan
-  name: 0.34|USwmt77a66
-  server: fhcamd1.gaox.ml
-  port: 443
-  password: e23f408a-012e-4030-8b31-02022031cb50
+  name: 0.22|USwmt77a41
+  server: bai-piao-wang-zhe10.98848.xyz
+  port: 50858
+  password: 685022af-2086-454c-8725-8ff6b6ab1d13
   udp: true
   skip-cert-verify: true
-- name: 0.22| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
+- name: 0.20| US121 TGpeekfun
+  server: tj-us02.yiyodns.xyz
   port: 443
   type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 0.19|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
-  port: 443
-  type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
+  country: ' US'
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  skip-cert-verify: true
+  udp: true
 - name: 0.18| 甲骨文首尔AMD2trojan
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   sni: jgw2.gaox.ml
-- name: 0.15|PoolFR17
-  server: 51.89.18.25
+- name: 0.16|RelayUSUS35
+  server: hd-3.ienai.xin
   type: vmess
-  country: FR
-  port: 443
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  alterId: 64
+  country: US
+  port: 11000
+  uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a
+  alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /path/350432191028
-  servername: www.98272029.xyz
-  ws-headers:
-    HOST: www.98272029.xyz
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.13|INwmt77a59
-  server: jgwhdlb2.gaox.ml
+- name: 0.15|RelayUSUS36
+  server: hd-1.ienai.xin
+  type: vmess
+  country: US
   port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  udp: true
+  uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ienai/ACOT_ddf1dcec-43e8-4e59-ae41-5382e18a7729:878047eae84dfce4b2d895aa7252421f/
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
