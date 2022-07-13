@@ -1,18 +1,6 @@
 proxies:
-- name: 4.51|ZZ163
-  server: 103.176.111.247
-  port: 80
-  type: vmess
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nkpvpn.site
-  ws-headers:
-    Host: nkpvpn.akamaized.net
 - type: vmess
-  name: 1.99|HKwmt625a12
+  name: 7.56|HKwmt625a12
   http-opts:
     path:
     - /
@@ -25,103 +13,54 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.74|RelayRURU67
-  server: v001.v2dns.bar
-  type: vmess
-  country: RU
+- name: 1.41| RelayUSZZ142
+  server: lms.uin-antasari.ac.id
   port: 80
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /a11-dCeBnloadPy
-  servername: YouTube-aweikeji
-  ws-headers:
-    HOST: YouTube-aweikeji
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.50|RelayJPJP57
-  server: hk01.henet.cyou
   type: vmess
-  country: JP
-  port: 20000
-  uuid: ad0f1f7c-590c-4bb5-ae5b-e6ac8f170cf8
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
   alterId: 0
   cipher: auto
+  tls: false
   network: ws
-  ws-path: /live
-  servername: cctv.com
+  ws-path: /vpnneo
   ws-headers:
-    HOST: cctv.com
-  http-opts: {}
-  h2-opts: {}
+    Host: exa.nextvpn.cc
+- name: 1.01|新加坡youtube阿伟科技 10
+  server: 129.150.61.170
+  port: 29493
+  type: vmess
+  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
 - type: vmess
-  name: 1.18|GBwmt711a52
+  name: 0.94|GBwmt711a52
   server: 144.24.88.101
   port: '16833'
   uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 0.97|RelayUSUS88
-  server: 20.239.179.251
-  type: vmess
-  country: US
-  port: 50045
-  uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 20.239.179.251
-  ws-headers:
-    HOST: 20.239.179.251
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.94|RelayUSUS87
-  server: hk14.bp777.buzz
-  type: vmess
-  country: US
-  port: 21665
-  uuid: 815be877-33e5-445e-ae90-276bd63b514c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: hk14.bp777.buzz
-  ws-headers:
-    HOST: hk14.bp777.buzz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
 - type: vmess
-  name: 0.83|USwmt711a74
+  name: 0.92|KRwmt713a179
   ws-opts:
     path: /
     headers:
-      host: 129.150.61.170
-  server: 129.150.61.170
-  port: '29493'
-  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+      host: 152.67.218.38
+  server: 152.67.218.38
+  port: '443'
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.60| v2rayfreeeuorg  美国内华达州拉斯维加斯BuyVM 31
-  server: su4.chaoxn.top
-  port: 80
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: su4.chaoxn.top
-- name: 0.57|JP41
+- name: 0.78|JP41
   server: 146.56.110.129
   type: vmess
   country: JP
@@ -134,19 +73,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.57| v2rayfreeeuorg  美国  33
-  server: 129.159.33.199
-  port: 45328
-  type: vmess
-  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 129.159.33.199
-- name: 0.51|US86
+- name: 0.58|US86
   server: 152.69.193.245
   type: vmess
   country: US
@@ -159,7 +86,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.41|美国youtube阿伟科技 44
+- name: 0.49|美国youtube阿伟科技 44
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -174,29 +101,39 @@ proxies:
     headers:
       Host: 152.69.206.209
   udp: true
-- name: 0.27|韩国youtube阿伟科技 3
-  server: 152.67.223.187
-  port: 13774
-  type: vmess
-  uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2
-  alterId: 0
+- type: vmess
+  name: 0.46|KRwmt713a157
+  server: 146.56.110.129
+  port: '15417'
+  uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b
+  alterId: '0'
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.21| RU865
-  server: 195.133.53.192
-  port: 43688
+  network: tcp
+- name: 0.44|SSRSUBV16付费推荐suoytssrsub
+  server: 129.159.33.199
+  port: 45328
   type: vmess
-  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
+    Host: 129.159.33.199
+- name: 0.37| RelayRURU94
+  server: v001.v2dns.bar
+  port: 80
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /a11-dCeBnloadPy
+  ws-headers:
     Host: YouTube-aweikeji
-- name: 0.21| v2rayfreeeuorg  美国CloudFlare节点 25
+- name: 0.37| v2rayfreeeuorg  美国CloudFlare节点 25
   server: v116.v2dns.bar
   port: 80
   type: vmess
@@ -208,15 +145,33 @@ proxies:
   ws-path: /v116-DtoEwAEX
   ws-headers:
     Host: v116.v2dns.bar
-- name: 0.17| 80美国6号
-  server: su6.chaoxn.top
-  port: 80
+- name: 0.35|韩国youtube阿伟科技 11
+  server: 146.56.110.129
+  port: 53702
   type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 0.35|KRwmt713a235
+  server: 152.67.223.187
+  port: '13774'
+  uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 0.25|USwmt713a296
+  ws-opts:
+    path: /
+    headers:
+      host: 20.239.179.251
+  server: 20.239.179.251
+  port: '50045'
+  uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3
+  alterId: '0'
+  cipher: auto
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: su6.chaoxn.top
