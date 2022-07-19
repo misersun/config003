@@ -1,34 +1,6 @@
 proxies:
 - type: vmess
-  name: 4.69|HKwmt717a4
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.227.118
-  server: 47.243.227.118
-  port: '46108'
-  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.91|HKwmt717a7
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.31.8
-  server: 47.243.31.8
-  port: '51657'
-  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.61|HKwmt717a9
+  name: 2.44|HKwmt718a27
   http-opts:
     path:
     - /
@@ -41,31 +13,111 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.69|SSRSUBV05付费推荐suoytssrsub
-  server: hk17.bp777.buzz
+- name: 1.76|美国youtube阿伟科技 11
+  server: us07.xiaoqi99.cf
+  port: 10229
+  type: vmess
+  uuid: fbf813bf-8df7-4729-8e94-667b17544e0f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.45|RelayJPJP37
+  server: hk09.bp777.buzz
+  type: vmess
+  country: JP
+  port: 21665
+  uuid: bc6cd945-e98e-44bf-acc6-96374f7d4d60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: hk09.bp777.buzz
+  ws-headers:
+    HOST: hk09.bp777.buzz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.44| South Korea 13
+  server: hk13.bp777.buzz
   port: 21665
   type: vmess
-  uuid: a3144d02-36f4-468c-9a2b-cbe9dc56e3ab
+  uuid: bc6cd945-e98e-44bf-acc6-96374f7d4d60
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: hk17.bp777.buzz
-- name: 0.49| v2rayfreeeuorg  美国  9
-  server: 129.159.33.199
-  port: 45328
+    Host: hk13.bp777.buzz
+- name: 1.00| US73
+  server: 152.67.223.187
+  port: 13774
   type: vmess
-  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
+  uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 0.71|HKwmt718a4
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.227.118
+  server: 47.243.227.118
+  port: '46108'
+  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.65| v2rayfreeeuorg  中国阿里云 1
+  server: 8.214.33.158
+  port: 80
+  type: vmess
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 129.159.33.199
-- name: 0.45|日本youtube阿伟科技 23
+    Host: 8.214.33.158
+- name: 0.62|日本youtube阿伟科技 6
+  server: jp01.xiaoqi99.cf
+  port: 10122
+  type: vmess
+  uuid: fbf813bf-8df7-4729-8e94-667b17544e0f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.57| South Korea 11
+  server: hk11.bp777.buzz
+  port: 21665
+  type: vmess
+  uuid: a5b66531-e930-4b5c-8d09-1b779e5c91bc
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk11.bp777.buzz
+- name: 0.51|日本youtube阿伟科技 23
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -80,7 +132,19 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.41| RelayUSUS76
+- name: 0.49| githubcomfreefq  美国  10
+  server: 129.159.33.199
+  port: 45328
+  type: vmess
+  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 129.159.33.199
+- name: 0.45| RelayUSUS76
   server: sg.guiqing.ml
   port: 43956
   type: vmess
@@ -89,36 +153,131 @@ proxies:
   cipher: auto
   tls: false
 - type: vmess
-  name: 0.31|USwmt717a37
+  name: 0.44|KRwmt718a37
+  ws-opts:
+    path: /
+    headers:
+      host: 152.67.218.38
+  server: 152.67.218.38
+  port: '443'
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.39|香港youtube阿伟科技 4
+  server: 8.218.90.90
+  port: 43806
+  type: vmess
+  uuid: 170ec275-4175-4b09-db99-71c3455fcaa9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.28|RelayUSSG61
+  server: 104.18.24.139
+  type: vmess
+  country: US
+  port: 80
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sshkit/5206194863/62c7702a0ea8b/
+  servername: sg1-v2ray.sshkit.org
+  ws-headers:
+    HOST: sg1-v2ray.sshkit.org
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- type: vmess
+  name: 0.23|HKwmt718a7
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+      - 47.243.31.8
+  server: 47.243.31.8
+  port: '51657'
+  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.19| JP375
-  server: 146.56.110.129
-  port: 53702
+- name: 0.21|日本youtube阿伟科技 8
+  server: 104.208.66.126
+  port: 10000
   type: vmess
-  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
+  uuid: 9b3a6753-2f33-4e0b-bb2e-84e5076d445c
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.13| v2rayfreeeuorg  美国CloudFlare节点 23
-  server: lms.uin-antasari.ac.id
-  port: 80
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.19| South Korea 14
+  server: hk14.bp777.buzz
+  port: 21665
   type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  uuid: 1015d5a1-443f-4549-aa96-8113aaee8c98
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vpnneo
+  ws-path: /
   ws-headers:
-    Host: exa.nextvpn.cc
+    Host: hk14.bp777.buzz
+- name: 0.19|RelayHKSG31
+  server: 104.208.66.126
+  type: vmess
+  country: HK
+  port: 10002
+  uuid: 9b3a6753-2f33-4e0b-bb2e-84e5076d445c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.16| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 36
+  server: 104.224.188.29
+  port: 38226
+  type: vmess
+  uuid: 9299fb78-290c-4aad-befb-0130c074a622
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.15|RelayJPJP36
+  server: hk07.bp777.buzz
+  type: vmess
+  country: JP
+  port: 21665
+  uuid: a4560c02-fa4b-43c3-9584-2ccdf44220f6
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: hk07.bp777.buzz
+  ws-headers:
+    HOST: hk07.bp777.buzz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.14|RelayHKUS34
+  server: 104.208.66.126
+  type: vmess
+  country: HK
+  port: 10001
+  uuid: 21f6cf3d-add5-4335-ba2a-96972a7f05bf
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
