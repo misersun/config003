@@ -1,31 +1,9 @@
 proxies:
-- name: 2.11| 美国0718027
+- type: ssr
+  name: 1.42|USwmt720a102
   server: us-am32-5.eqnode.net
   port: 8081
-  type: ssr
-  cipher: aes-256-cfb
-  password: YFVrXZgRo
   protocol: origin
+  cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.39| 德国0718015
-  server: 162.55.231.78
-  port: 443
-  type: ssr
-  cipher: aes-128-ctr
-  password: sEscPBiAD9K$&@79
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.22| 英国0718009
-  server: 88.150.137.201
-  port: 1021
-  type: ssr
-  cipher: aes-128-ctr
-  password: sEscPBiAD9K$&@79
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+  password: YFVrXZgRo
