@@ -1,114 +1,96 @@
 proxies:
-- type: vmess
-  name: 2.85|USwmt725a5
-  server: 23.224.152.24
-  port: '25609'
-  uuid: c9939714-04d7-45f9-dd33-30ec6057239b
-  alterId: '0'
+- name: 1.41| TW1121
+  server: 61.222.202.140
+  port: 15789
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
+  alterId: 0
   cipher: auto
-  network: tcp
-- type: vmess
-  name: 2.01|USwmt725a46
-  ws-opts:
-    path: /
-    headers:
-      host: 103.5.54.177
-  server: 103.5.54.177
-  port: '54723'
-  uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc
-  alterId: '0'
+  tls: false
+- name: 1.30|SSRSUBV11付费推荐suoytssrsub
+  server: 192.210.206.50
+  port: 11188
+  type: vmess
+  uuid: de0ff7f6-370e-41c9-c24a-b932c7c1ad58
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hello
+  ws-headers:
+    Host: 192.210.206.50
+- name: 0.90|US137
+  server: 168.138.161.22
+  type: vmess
+  country: US
+  port: 26039
+  uuid: 2b353530-fd72-4079-9a73-e50842f8b39d
+  alterId: 0
   cipher: auto
   network: ws
+  ws-path: /we
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.85|SSRSUBV52付费推荐suoytssrsub
+  server: 138.2.71.189
+  port: 11188
+  type: vmess
+  uuid: 923f14b3-9131-46a9-ef9b-863e8d026078
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hello
+  ws-headers:
+    Host: 138.2.71.189
+- name: 0.59| githubcomfreefq  美国  18
+  server: hk10.bp777.buzz
+  port: 21665
+  type: vmess
+  uuid: 88ffe128-dfbf-4c1a-85c9-3c543ed48bbc
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk10.bp777.buzz
 - type: vmess
-  name: 1.59|澳大利亚youtube阿伟科技1
-  server: 20.28.209.177
-  port: '30002'
-  uuid: 6bbf8be0-c2f8-4ecb-d70d-e9c2e261817d
+  name: 0.50|JPwmt726a19
+  server: 168.138.207.66
+  port: '21365'
+  uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 1.47|US25
-  server: 104.156.229.148
-  port: 36788
+- name: 0.50|TW108
+  server: 61.222.202.140
   type: vmess
+  country: TW
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.43|US134
+  server: 104.156.229.148
+  type: vmess
+  country: US
+  port: 36788
   uuid: 9fee7249-69fb-490d-e617-cfb54a249932
   alterId: 60
   cipher: auto
   network: ws
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- name: 1.38|SSRSUBV30付费推荐suoytssrsub
-  server: 140.238.42.147
-  port: 11188
-  type: vmess
-  uuid: 798550eb-c374-4113-b0d5-530e7d4ddedc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hello
-  ws-headers:
-    Host: 140.238.42.147
-- name: 1.20|IN61
-  server: 140.238.255.240
-  type: vmess
-  country: IN
-  port: 443
-  uuid: aaf9f463-876e-4bfd-ed11-1c07ad830092
-  alterId: 0
-  cipher: auto
-  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.12| RelayUSRU81
-  server: v116.v2dns.bar
-  port: 80
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v116-DtoEwAEX
-  ws-headers:
-    Host: v116.v2dns.bar
-- type: vmess
-  name: 1.06|KRwmt725a130
-  server: 146.56.103.73
-  port: '14003'
-  uuid: b294b95e-71cc-4cbb-cf4b-6b6ad8fb3d00
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.86|US97
-  server: 152.69.202.245
-  type: vmess
-  country: US
-  port: 50804
-  uuid: 7cf781da-d96d-461a-d50a-9af371693d81
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.79|SSRSUBV48付费推荐suoytssrsub
-  server: 107.173.166.160
-  port: 11188
-  type: vmess
-  uuid: d644ebef-f0e6-468f-d122-cea661ed9d09
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hello
-  ws-headers:
-    Host: 107.173.166.160
-- name: 0.76|RelayUSSG86
+- name: 0.34|RelayUSSG129
   server: 104.18.24.139
   type: vmess
   country: US
@@ -124,12 +106,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.73|US93
-  server: 47.241.220.160
+- type: vmess
+  name: 0.32|KRwmt726a26
+  server: 146.56.103.73
+  port: '14003'
+  uuid: b294b95e-71cc-4cbb-cf4b-6b6ad8fb3d00
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.30|AU01
+  server: 43.129.194.26
   type: vmess
-  country: US
-  port: 28475
-  uuid: 5b00ad6f-bc33-4946-8a32-b7e59620e935
+  country: AU
+  port: 40382
+  uuid: 154e5bad-208c-4dd4-9850-13f98042293d
   alterId: 0
   cipher: auto
   network: tcp
@@ -138,42 +128,22 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
 - type: vmess
-  name: 0.58|韩国youtube阿伟科技4
-  server: 152.67.218.38
-  port: '443'
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 0.48|SSRSUBV26付费推荐suoytssrsub
-  server: 168.138.161.22
-  port: 26039
-  type: vmess
-  uuid: 2b353530-fd72-4079-9a73-e50842f8b39d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /we
-  ws-headers:
-    Host: 168.138.161.22
-- type: vmess
-  name: 0.47|KRwmt724a129
+  name: 0.28|KRwmt726a62
   server: 146.56.110.129
   port: '53702'
   uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
   alterId: '0'
   cipher: auto
   network: tcp
-- type: vmess
-  name: 0.41|香港youtube阿伟科技6
-  server: 8.218.90.90
-  port: '43806'
-  uuid: 170ec275-4175-4b09-db99-71c3455fcaa9
-  alterId: '0'
+- name: 0.22| githubcomfreefq  中国阿里云 31
+  server: 8.219.49.108
+  port: 35829
+  type: vmess
+  uuid: aaca3cd9-db04-4668-cbfe-53c43d33ab19
+  alterId: 0
   cipher: auto
-  network: tcp
-- name: 0.38|SSRSUBV75付费推荐suoytssrsub
+  tls: false
+- name: 0.22|SSRSUBV75付费推荐suoytssrsub
   server: 129.150.51.215
   port: 30839
   type: vmess
@@ -181,39 +151,43 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.33|US180
-  server: 129.159.33.199
+- name: 0.19|RU100
+  server: 45.8.230.253
   type: vmess
-  country: US
-  port: 45328
-  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
+  country: RU
+  port: 852
+  uuid: 35b021ff-cf42-4b32-aeb7-4f634363df40
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /
-  servername: 129.159.33.199
+  ws-path: /api/v3/download.getFile
+  servername: d76bb35696.laowanxiang.com
   ws-headers:
-    HOST: 129.159.33.199
+    HOST: d76bb35696.laowanxiang.com
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.28|SSRSUBV77付费推荐suoytssrsub
-  server: 20.89.230.23
-  port: 48090
-  type: vmess
-  uuid: 6baaeb1e-5dce-49b7-d6f4-b30a9ea3b758
-  alterId: 0
-  cipher: auto
-  tls: false
 - type: vmess
-  name: 0.20|USwmt724a139
-  server: 64.112.43.180
-  port: '13674'
-  uuid: f44ce146-2d6d-4e84-dcac-3bdd8689d053
+  name: 0.18|KRwmt725a37
+  server: 152.70.247.24
+  port: '18152'
+  uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 0.16|SSRSUBV22付费推荐suoytssrsub
+- type: vmess
+  name: 0.16|USwmt726a96
+  ws-opts:
+    path: /
+    headers:
+      host: 103.5.54.177
+  server: 103.5.54.177
+  port: '54723'
+  uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.14|SSRSUBV22付费推荐suoytssrsub
   server: 129.146.133.157
   port: 51009
   type: vmess
@@ -221,16 +195,3 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.12|AU01
-  server: 43.129.158.202
-  type: vmess
-  country: AU
-  port: 38009
-  uuid: 7fe50249-0f9c-42bb-9815-842bec303691
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
