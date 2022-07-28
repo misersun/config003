@@ -1,10 +1,21 @@
 proxies:
-- name: 6.14| SG Singapore
-  server: 54.179.88.143
-  port: 443
-  type: ss
+- name: 5.78| 香港中转 湘沪BGP
+  server: hlu.bgp2.liuliangzhuanfa.xyz
+  port: 45379
+  type: trojan
+  password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088
+  sni: xg1.xianggang1.xyz
+  skip-cert-verify: true
+- type: ssr
+  name: 5.41|youtube阿伟科技4
+  server: aasg3.fdhsujj.xyz
+  port: 11197
+  protocol: auth_aes128_sha1
   cipher: aes-256-cfb
-  password: amazonskr05
+  obfs: http_simple
+  password: J3ITPq
+  obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
+  protocol-param: 286652:Ky6KOw
 - name: 5.38| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶
   server: clash26.free4444.xyz
   port: 12345
@@ -15,243 +26,139 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- type: ssr
-  name: 4.81|youtube阿伟科技9
-  server: aasg3.fdhsujj.xyz
-  port: 11198
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: http_simple
-  password: J3ITPq
-  obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
-  protocol-param: 286652:Ky6KOw
-- type: trojan
-  name: 4.28|香港youtube阿伟科技6
-  server: gz-cm1-kl.hinetwork.tw
-  port: 11174
-  password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm1-kl.hinetwork.tw
-- name: 4.19| 台湾TGnodesharing86
-  server: hinet.52147.top
-  port: 443
+- name: 5.34| 新加坡
+  server: 139.162.57.194
+  port: 994
+  type: ss
+  cipher: aes-256-gcm
+  password: 8f8ur4g
+- name: 5.27| 香港HKT广移中转  解锁流媒体
+  server: gzyd1.52147.top
+  port: 30180
   type: trojan
   password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194
   sni: download.windowsupdate1.com
-  skip-cert-verify: true
-- name: 3.62| HK New Territories
-  server: 18.140.1.222
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: trojan
-  name: 3.37|香港youtube阿伟科技3
-  server: gz-cm-kl.hinetwork.tw
-  port: 11175
-  password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm-kl.hinetwork.tw
-- type: trojan
-  name: 2.70|香港youtube阿伟科技5
-  server: gz-cm1-kl.hinetwork.tw
-  port: 11176
-  password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm1-kl.hinetwork.tw
-- type: trojan
-  name: 2.57|香港youtube阿伟科技4
-  server: sz-cm-kl.hinetwork.tw
-  port: 11189
-  password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580
-  udp: true
-  skip-cert-verify: true
-  sni: sz-cm-kl.hinetwork.tw
-- name: 2.46|US224
-  server: 38.114.114.19
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- type: trojan
-  name: 2.40|USwmt726a65
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: ss
-  name: 2.39|US美国2
-  server: 38.114.114.67
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 2.38|US272
-  server: 38.75.136.102
-  type: ss
-  country: US
-  port: 6697
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- type: ssr
-  name: 2.36|youtube阿伟科技6
-  server: 14.fdhsujj.xyz
-  port: 104
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: http_simple
-  password: J3ITPq
-  obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
-  protocol-param: 286652:Ky6KOw
-- name: 2.35|US249
-  server: 38.75.136.102
-  type: ss
-  country: US
-  port: 9102
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- type: ss
-  name: 2.31|JPwmt727a28
-  server: 85.208.108.60
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 2.27|US36
-  server: 38.114.114.67
-  port: 6697
-  type: ss
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 2.16| US291 TGpeekfun
-  server: 38.75.136.102
-  port: 6379
-  type: ss
-  country: ' US'
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
-- name: 2.15|US263
-  server: 38.114.114.49
-  type: ss
-  country: US
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 2.12|US248
-  server: 38.75.136.102
-  type: ss
-  country: US
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 2.09|US246
-  server: 38.114.114.67
-  type: ss
-  country: US
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 2.08|US252
-  server: 38.114.114.69
-  type: ss
-  country: US
-  port: 8882
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- type: ss
-  name: 2.05|USwmt727a216
-  server: 38.75.136.102
-  port: 7306
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- type: ss
-  name: 2.02|US美国9
-  server: 38.114.114.67
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 2.00|CA Vancouver
-  server: 52.79.138.77
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 1.98|US221
-  server: 38.114.114.19
-  type: ss
-  country: US
-  port: 7306
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: 1.96| US Dallas 2
+- name: 4.32| US Dallas 2
   server: 3.38.214.27
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 1.95|US287
-  server: 38.68.134.85
-  type: ss
-  country: US
-  port: 8118
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 1.93|US228
-  server: 38.86.135.27
-  type: ss
-  country: US
-  port: 8000
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 1.91|US216
-  server: 38.75.136.21
-  type: ss
-  country: US
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: 1.90|US285
-  server: 38.75.136.102
-  type: ss
-  country: US
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: 1.88|US302
-  server: 38.68.134.85
-  type: ss
-  country: US
-  port: 5600
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: 1.88|US223
-  server: 38.114.114.19
-  type: ss
-  country: US
+- name: 3.91| HK New Territories
+  server: 18.140.1.222
   port: 443
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 1.85| US415 TGpeekfun
-  server: 104.129.63.65
-  port: 8443
-  type: trojan
-  country: ' US'
-  password: cUDgjDkSfn
-  skip-cert-verify: true
-  udp: true
-- name: 1.82| SG254 TGpeekfun
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  country: ' SG'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - type: ssr
-  name: 1.82|youtube阿伟科技11
+  name: 3.88|youtube阿伟科技7
+  server: v2jp.fdhsujj.xyz
+  port: 787
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: http_simple
+  password: J3ITPq
+  obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
+  protocol-param: 286652:Ky6KOw
+- name: 3.82| KR Incheon
+  server: 13.209.18.199
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 3.17| US2
+  server: 178.157.62.49
+  port: 50500
+  type: trojan
+  password: c5d997fe-cde6-463c-a671-a296b47289a6
+  sni: jp.bw5.hyperlinkvpn.xyz
+  skip-cert-verify: true
+- name: 3.16| 台湾中转  湘沪BGP
+  server: hlu.bgp2.liuliangzhuanfa.xyz
+  port: 31097
+  type: trojan
+  password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088
+  sni: aa1.liumeit.xyz
+  skip-cert-verify: true
+- name: 3.05| HK Kowloon
+  server: 13.124.190.68
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 2.74| JP Tokyo 2
+  server: 3.39.227.103
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 2.52|JPwmt728a6
+  server: 85.208.108.94
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 2.41|JPwmt728a5
+  server: 85.208.108.94
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 2.37| httpsgithubcomAlvin9999newpacwiki ip3洛杉矶1SSR
+  server: ssr5.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.28|JPwmt728a2
+  server: 85.208.108.94
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ssr
+  name: 2.23|USwmt728a54
+  server: us-am32-5.eqnode.net
+  port: 8081
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: YFVrXZgRo
+- type: trojan
+  name: 2.22|USwmt728a39
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 2.19| RelayGBUS38
+  server: us-05.licom.ml
+  port: 12501
+  type: trojan
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: us-05.licom.ml
+- type: ssr
+  name: 1.98|youtube阿伟科技8
+  server: zj9.fdhsujj.xyz
+  port: 23557
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: http_simple
+  password: J3ITPq
+  obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
+  protocol-param: 286652:Ky6KOw
+- type: ss
+  name: 1.92|JPwmt728a4
+  server: 85.208.108.94
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ssr
+  name: 1.80|youtube阿伟科技11
   server: zj9.fdhsujj.xyz
   port: 23556
   protocol: auth_aes128_sha1
@@ -260,97 +167,180 @@ proxies:
   password: J3ITPq
   obfs-param: WkdKbE9UWXlPRFkyTlRJdWJXbGpjbTl6YjJaMExtTnZiUQ
   protocol-param: 286652:Ky6KOw
-- name: 1.80| US Houston
-  server: 3.36.99.11
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 1.79|US306
-  server: 38.68.135.18
-  type: ss
-  country: US
-  port: 5003
-  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 1.77|JPwmt728a7
+  server: 85.208.108.94
+  port: 9101
   cipher: aes-256-gcm
-- name: 1.77|US222
-  server: 38.75.136.21
+  password: e4FCWrgpkji3QY
+- name: 1.70| 日本NTT2号  解锁流媒体
+  server: 157.120.35.234
+  port: 443
+  type: trojan
+  password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194
+  sni: download.windowsupdate1.com
+- type: ss
+  name: 1.68|JPwmt728a3
+  server: 85.208.108.94
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 1.68|CAwmt728a50
+  server: 134.195.196.89
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 1.67|JPwmt727a7
+  server: 85.208.108.94
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.60| CN106 TGpeekfun
+  server: 111.45.29.75
+  port: 30003
+  type: trojan
+  country: ' CN'
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 1.59|CAwmt728a46
+  server: 134.195.198.95
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- type: ss
+  name: 1.59|CAwmt728a51
+  server: 134.195.198.95
+  port: 5004
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 1.51| 俄罗斯中转  湘沪BGP
+  server: hlu.bgp2.liuliangzhuanfa.xyz
+  port: 42167
+  type: trojan
+  password: 2e3a0c2a-9619-4f9c-b5e9-079545ed0088
+  sni: els1.eluosi1.xyz
+  skip-cert-verify: true
+- type: ss
+  name: 1.33|CAwmt728a55
+  server: 196.247.59.154
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.32|CAwmt728a44
+  server: 196.247.59.154
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.30|CAwmt728a64
+  server: 38.111.114.246
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 1.26|CAwmt728a60
+  server: 134.195.198.95
+  port: 7306
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 1.26|ZZ142
+  server: 134.195.198.95
   type: ss
-  country: US
-  port: 3306
+  country: ZZ
+  port: 3389
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
 - type: ss
-  name: 1.76|RUwmt727a347
-  server: 213.183.53.207
-  port: 9045
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-- name: 1.72|US295
-  server: 38.114.114.19
-  type: ss
-  country: US
-  port: 5601
+  name: 1.20|CAwmt728a59
+  server: 134.195.196.85
+  port: 5001
+  cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 1.16|美国youtube阿伟科技10
+  server: 38.143.66.20
+  port: 2375
   cipher: aes-256-gcm
-- name: 1.72|US225
-  server: 38.114.114.19
+  password: faBAoD54k87UJG7
+- name: 1.15|FR72
+  server: 51.195.136.209
   type: ss
-  country: US
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 1.72|US229
-  server: 38.86.135.27
+  country: FR
+  port: 50004
+  password: '4415934295'
+  cipher: aes-256-cfb
+- name: 1.06|GB75
+  server: 178.62.16.161
   type: ss
-  country: US
-  port: 8091
-  password: PCnnH6SQSnfoS27
-  cipher: aes-256-gcm
-- name: 1.72|US241
-  server: 38.114.114.67
+  country: GB
+  port: 811
+  password: Ultr@r00t_2017
+  cipher: chacha20-ietf-poly1305
+- type: ss
+  name: 1.04|CAwmt728a57
+  server: 196.247.59.154
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 1.00|ZZ133
+  server: 134.195.198.95
   type: ss
-  country: US
-  port: 6379
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
-- name: 1.71|US214
-  server: 38.114.114.67
-  type: ss
-  country: US
-  port: 443
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 1.71|US234
-  server: 38.68.134.85
-  type: ss
-  country: US
+  country: ZZ
   port: 2375
   password: faBAoD54k87UJG7
   cipher: aes-256-gcm
 - type: ss
-  name: 1.70|USwmt727a5
-  server: 38.114.114.69
-  port: 3389
+  name: 0.99|USwmt728a40
+  server: 169.197.141.5
+  port: 3306
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 1.70|US265
-  server: 38.68.135.18
+- name: 0.96| 英国0726009
+  server: 88.150.137.201
+  port: 1021
+  type: ssr
+  cipher: aes-128-ctr
+  password: sEscPBiAD9K$&@79
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: trojan
+  name: 0.96|CNwmt728a109
+  server: pp1.zhengzhongfeizhu.xyz
+  port: 34001
+  password: eb2f8154-ff58-3b99-b393-28c8eecdbe64
+  udp: true
+  skip-cert-verify: true
+- name: 0.95|ZZ144
+  server: 134.195.198.95
   type: ss
-  country: US
-  port: 8090
-  password: PCnnH6SQSnfoS27
+  country: ZZ
+  port: 5003
+  password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: 1.69|LT116
-  server: 213.183.53.179
+- name: 0.95| 香港HKT河移中转  解锁流媒体
+  server: hnyd.52147.top
+  port: 30180
+  type: trojan
+  password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194
+  sni: download.windowsupdate1.com
+- name: 0.94|CA08
+  server: 196.247.59.154
   type: ss
-  country: LT
-  port: 9018
-  password: fG2artUmHfNT2cX7
-  cipher: aes-256-cfb
-- type: ss
-  name: 1.68|RUwmt727a359
-  server: 213.183.53.179
-  port: 9057
-  cipher: aes-256-cfb
-  password: wjTugX3ZtHMB9c3Z
+  country: CA
+  port: 801
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
+- name: 0.93|CA09
+  server: 196.247.59.154
+  type: ss
+  country: CA
+  port: 803
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
