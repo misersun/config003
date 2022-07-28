@@ -1,45 +1,81 @@
 proxies:
-- name: 2.87| 台湾TGnodesharing86
+- name: 2.25| RelayGBUS38
+  server: us-05.licom.ml
+  port: 12501
+  type: trojan
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: us-05.licom.ml
+- type: trojan
+  name: 2.04|USwmt728a114
+  server: azgy001.xiba1.xyz
+  port: 20712
+  password: 7497242f-3044-3c77-bf48-14bb26c92a83
+  udp: true
+  skip-cert-verify: true
+- name: 2.00| 台湾TGnodesharing86
   server: hinet.52147.top
   port: 443
   type: trojan
   password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194
   sni: download.windowsupdate1.com
   skip-cert-verify: true
-- type: vmess
-  name: 1.51|日本youtube阿伟科技9
-  ws-opts:
-    path: /3f8d7a9ba6?ed=2048
-    headers:
-      host: azjp.gd1214b.tech
-  server: azjp.gd1214b.tech
-  port: '443'
-  uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
 - type: trojan
-  name: 1.09|USwmt726a9
-  server: azgy001.xiba1.xyz
-  port: 20710
-  password: 7497242f-3044-3c77-bf48-14bb26c92a83
+  name: 1.97|USwmt728a34
+  server: s2.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- name: 0.92| HK94
-  server: hgc.sharecentre.xyz
-  port: 120
+- type: trojan
+  name: 1.78|USwmt728a39
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 1.53|RelayUSZZ114
+  server: api.qiscus.com
   type: vmess
-  uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d
+  country: US
+  port: 443
+  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
   alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /nj
+  ws-path: /vmess-ws-makae
+  servername: bn-id01.ipv2ray.xyz
   ws-headers:
-    Host: hgc.sharecentre.xyz
+    HOST: bn-id01.ipv2ray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.48|RelayUSUS128
+  server: ifffffffuuuuuuus.qiqicdn2.cf
+  type: vmess
+  country: US
+  port: 443
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
+  servername: ifffffffuuuuuuus.qiqicdn2.cf
+  ws-headers:
+    HOST: ifffffffuuuuuuus.qiqicdn2.cf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.21|USwmt728a61
+  server: 104.129.63.65
+  port: 8443
+  password: cUDgjDkSfn
+  udp: true
+  skip-cert-verify: true
 - type: vmess
-  name: 0.63|香港youtube阿伟科技9
+  name: 1.13|香港youtube阿伟科技9
   ws-opts:
     path: /Sharecentrepro
     headers:
@@ -51,40 +87,144 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- name: 0.47| githubcomfreefq  美国CloudFlare公司CDN节点 40
+- name: 1.11|RelayUSFR121
   server: 104.16.22.247
-  port: 443
   type: vmess
+  country: US
+  port: 443
   uuid: 0d296784-00c0-4543-9b4d-6679e01ae1b0
   alterId: 0
   cipher: auto
-  tls: true
   network: ws
   ws-path: /ray
+  servername: m3.v2rayfree1.xyz
   ws-headers:
-    Host: m3.v2rayfree1.xyz
-- name: 0.26| githubcomfreefq  美国加利福尼亚州弗里蒙特市Linode公司 38
-  server: vus3.0bad.com
+    HOST: m3.v2rayfree1.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: vmess
+  name: 1.00|美国youtube阿伟科技30
+  ws-opts:
+    path: /eisasqa
+    headers:
+      host: foxusa.fovi.tk
+  server: cf.fullcloud.tk
+  port: '2053'
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 0.78|RelayUSUS113
+  server: 104.23.102.53
+  type: vmess
+  country: US
+  port: 443
+  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /Telegram@BDovo_qaq
+  servername: bissen.114514cn.me
+  ws-headers:
+    HOST: bissen.114514cn.me
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.53| US244
+  server: vfly6.xyz
   port: 443
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
+  uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+  alterId: 60
   cipher: auto
   tls: true
   network: ws
-  ws-path: /chat
+  ws-path: /myblog
   ws-headers:
-    Host: vus3.0bad.com
-- name: 0.23| RelayGBUS38
-  server: us-05.licom.ml
-  port: 12501
+    Host: vfly6.xyz
+- name: 0.48| RelayUSUS66
+  server: chess.magicefire.com
+  port: 443
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 0.45|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
   type: trojan
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  sni: us-05.licom.ml
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 0.22|RelayUSFR122
+  server: powerservice.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sshocean
+  servername: uk2.v2rayserv.com
+  ws-headers:
+    HOST: uk2.v2rayserv.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.17|CA8
+  server: usa-buffalo.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /ws
+  ws-headers:
+    HOST: usa-buffalo.lvuft.com
+  skip-cert-verify: true
+  servername: usa-buffalo.lvuft.com
+- name: 0.12|RelayUSUS126
+  server: bai-piao-wang-zhe12.98848.xyz
+  type: vmess
+  country: US
+  port: 36736
+  uuid: 50a9c98e-8c48-4680-feff-a7ea34705ae9
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ytryr6
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.11|CA2
+  server: 192.186.129.66
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /ws
+  ws-headers:
+    HOST: usa-buffalo.lvuft.com
+  skip-cert-verify: true
+  servername: usa-buffalo.lvuft.com
 - type: trojan
-  name: 0.11|USwmt726a65
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  name: 0.10|USwmt728a81
+  server: azgy001.xiba1.xyz
+  port: 20711
+  password: 7497242f-3044-3c77-bf48-14bb26c92a83
   udp: true
   skip-cert-verify: true
