@@ -1,236 +1,54 @@
 proxies:
-- name: 11.93|RelayUSUS70
-  server: jm.yd02.paopaocloud.cyou
+- name: 3.01|US76
+  server: 168.138.214.114
   type: vmess
   country: US
-  port: 10002
-  uuid: ef3e72ca-83d1-3927-bee9-1601a061008a
+  port: 443
+  uuid: e35159d7-e8fb-479c-b490-e8e9a924e0c6
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /
-  servername: paopao.v2.hk04.paopaocloud.cyou
-  ws-headers:
-    HOST: paopao.v2.hk04.paopaocloud.cyou
+  ws-path: /a9S24DC8US
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 11.22|RelayUSUS67
-  server: ah.yd01.paopaocloud.cyou
-  type: vmess
-  country: US
-  port: 10001
-  uuid: ef3e72ca-83d1-3927-bee9-1601a061008a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: paopao.v2.hk03.paopaocloud.cyou
-  ws-headers:
-    HOST: paopao.v2.hk03.paopaocloud.cyou
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 8.52| v2rayahsgp01新加坡
-  server: ah.yd01.paopaocloud.cyou
-  port: 10014
-  type: vmess
-  uuid: ef3e72ca-83d1-3927-bee9-1601a061008a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: paopao.v2.sgp01.paopaocloud.cyou
-- name: 6.77|日本youtube阿伟科技 14
-  server: azjp.gd1214b.tech
+- name: 2.07|美国youtube阿伟科技 60
+  server: 1.731808.cf
   port: 443
   type: vmess
-  uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44
+  uuid: 3ca7af1f-c4dd-41df-af7a-36a1f51ace63
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /3f8d7a9ba6?ed=2048
+    path: /2yevws
     headers:
-      Host: azjp.gd1214b.tech
+      Host: rn.1808.cf
   udp: true
-- name: 6.39| v2ray台湾02Netflix
-  server: paopao.v2.tw02.paopaocloud.cyou
-  port: 3306
-  type: vmess
-  uuid: ef3e72ca-83d1-3927-bee9-1601a061008a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: paopao.v2.tw02.paopaocloud.cyou
-- name: 5.93|RelayJPJP44
-  server: trs08.bolab.net
-  type: trojan
-  country: JP
-  port: 443
-  password: 1b753dd99c1291e87a7b239f2928fedd
-  skip-cert-verify: true
-  udp: true
-- name: 5.81|韩国youtube阿伟科技
-  server: 20.205.233.12
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 5.79|香港youtube阿伟科技 9
-  server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
-  port: 889
-  type: trojan
-  password: uDTmEAGwuCUZXZvwhWJk
-  skip-cert-verify: true
-  udp: true
-- name: 3.34| RelayJPJP374
-  server: vjp3.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp3.0bad.com
-- name: 2.53|RelayUSUS72
-  server: ben2.kuoyao.top
-  type: vmess
-  country: US
-  port: 38799
-  uuid: 5b89808f-236a-4889-ffd3-6c01a86da194
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /kuoyao
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.37| RelayGBUS38
-  server: us-05.licom.ml
-  port: 12501
-  type: trojan
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  sni: us-05.licom.ml
-- name: 2.30|RelayILIL41
-  server: ru2.lolvps.xyz
-  type: vmess
-  country: IL
-  port: 50368
-  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /J56OYLY9
-  servername: ru2.lolvps.xyz
-  ws-headers:
-    HOST: ru2.lolvps.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.16| 台湾Hinet  解锁流媒体
-  server: hinet.52147.top
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-- name: 1.92|美国youtube阿伟科技 54
-  server: us-lax-ctg-01-v2.cdn.savoy.click
-  port: 888
-  type: vmess
-  uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
+- type: vmess
+  name: 1.60|USwmt81a81
   ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
+    path: /
     headers:
-      Host: cdn.savoy.click
+      host: erqi.live
+  server: erqi.live
+  port: '443'
+  uuid: 7caa244f-37f1-4b0c-cc12-0c2d392d4f6a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 0.99|USwmt81a21
+  server: 104.129.63.65
+  port: 8443
+  password: cUDgjDkSfn
   udp: true
-- name: 1.76| v2ray新加坡01Netflix
-  server: paopao.v2.sgp01.paopaocloud.cyou
-  port: 10551
-  type: vmess
-  uuid: ef3e72ca-83d1-3927-bee9-1601a061008a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: paopao.v2.sgp01.paopaocloud.cyou
-- name: 1.69|RelayUSUS74
-  server: emby.metalink.cf
-  type: vmess
-  country: US
-  port: 8096
-  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
   skip-cert-verify: true
-- name: 1.68|RelayUSFR79
-  server: 104.17.21.154
-  type: vmess
-  country: US
-  port: 443
-  uuid: b503ef1f-aa59-4b96-8c24-8c995cba0e75
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: m3.v2rayfree1.xyz
-  ws-headers:
-    HOST: m3.v2rayfree1.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.65|RelayUSUS83
-  server: singapore.alures.xyz
-  type: vmess
-  country: US
-  port: 3389
-  uuid: a3129f57-2ee1-4937-aff0-112ebd658067
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.63|柬埔寨youtube阿伟科技
-  server: kh1.nodegz.top
-  port: 443
-  type: trojan
-  password: 7582e9d7-53ef-3814-b358-cf35264bf19b
-  sni: kh1.nodegz.top
-  skip-cert-verify: true
-  udp: true
-- name: 1.57|RelayUSUS94
+- name: 0.83|RelayUSUS94
   server: 104.23.102.53
   type: vmess
   country: US
@@ -247,114 +65,131 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.56|RelayUSFR93
-  server: powerservice.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sshocean
-  servername: uk2.v2rayserv.com
-  ws-headers:
-    HOST: uk2.v2rayserv.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.52|RelayUSZZ96
+- name: 0.82| RelayUSZZ80
   server: api.qiscus.com
-  type: vmess
-  country: US
   port: 443
+  type: vmess
   uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
   alterId: 0
   cipher: auto
+  tls: true
   network: ws
   ws-path: /vmess-ws-makae
-  servername: bn-id01.ipv2ray.xyz
   ws-headers:
-    HOST: bn-id01.ipv2ray.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.45|德国youtube阿伟科技 3
-  server: cf.fullcloud.tk
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxdeovz2.fovi.tk
-  udp: true
-- name: 0.98|香港youtube阿伟科技 7
-  server: hkt.52147.top
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.79|US78
-  server: 168.138.214.114
+    Host: bn-id01.ipv2ray.xyz
+- name: 0.58|RelayUSFR75
+  server: 104.17.21.154
   type: vmess
   country: US
   port: 443
-  uuid: e35159d7-e8fb-479c-b490-e8e9a924e0c6
+  uuid: b503ef1f-aa59-4b96-8c24-8c995cba0e75
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /a9S24DC8US
+  ws-path: /ray
+  servername: m3.v2rayfree1.xyz
+  ws-headers:
+    HOST: m3.v2rayfree1.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.73| HK112 TGpeekfun
-  server: azgy001.xiba1.xyz
-  port: 20710
-  type: trojan
-  country: ' HK'
-  password: 7497242f-3044-3c77-bf48-14bb26c92a83
-  skip-cert-verify: true
-  udp: true
-- name: 0.67|美国youtube阿伟科技 6
-  server: azgy001.xiba1.xyz
-  port: 20711
-  type: trojan
-  password: 7497242f-3044-3c77-bf48-14bb26c92a83
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 0.34|美国youtube阿伟科技 3
-  server: us-lax-ctg-01-tr.cdn.savoy.click
-  port: 889
-  type: trojan
-  password: uDTmEAGwuCUZXZvwhWJk
-  skip-cert-verify: true
-  udp: true
-- name: 0.15| RelayUSUS66
-  server: chess.magicefire.com
+- type: vmess
+  name: 0.54|USwmt81a4
+  server: lz717.aijiasu.xyz
+  port: '30803'
+  uuid: 5833a0df-fa04-446b-d6cf-00ab174097df
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 0.52| RelayUSFR84
+  server: powerservice.com
   port: 443
   type: vmess
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
   alterId: 0
   cipher: auto
   tls: true
-- name: 0.11|HK38
-  server: 42.3.19.58
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: uk2.v2rayserv.com
+- type: vmess
+  name: 0.48|USwmt81a92
+  server: da.huala.gq
+  port: '56378'
+  uuid: 1b58bedf-8878-41eb-e117-60c4ab17d6cf
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 0.44|新加坡youtube阿伟科技 20
+  server: www.fuckdbuy.xyz
+  port: 57170
   type: vmess
-  country: HK
-  port: 39999
-  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.37|RelayUSUS69
+  server: www.digitalocean.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3df66137-a428-429c-a858-8b150721b354
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /youtbue@bai-piao-wang-zhe_vws
+  servername: us23.567568.ml
+  ws-headers:
+    HOST: us23.567568.ml
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: vmess
+  name: 0.36|USwmt81a9
+  server: lz74.aijiasu.xyz
+  port: '35575'
+  uuid: d5ce3788-0311-494a-eb1d-59e6c1a90ccb
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 0.18|RelayUSUS71
+  server: guibi.ml
+  type: vmess
+  country: US
+  port: 443
+  uuid: 9d090c5f-56b9-4408-fc6b-b9316cc377c1
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: guibi.ml
+  ws-headers:
+    HOST: guibi.ml
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.17|USwmt81a24
+  server: hk01.baipiaozf.com
+  port: 5221
+  password: S2WjbZJeMU
+  udp: true
+  skip-cert-verify: true
+- name: 0.15|RelayUSUS62
+  server: emby.metalink.cf
+  type: vmess
+  country: US
+  port: 8096
+  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
   alterId: 0
   cipher: auto
   network: tcp
