@@ -1,64 +1,22 @@
 proxies:
-- type: trojan
-  name: 5.08|USwmt82a1
-  server: s1.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 4.60|222
-  server: 172.104.63.112
-  port: 443
+- name: 5.53|日本youtube阿伟科技
+  server: 178.157.58.135
+  port: 50500
   type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-- name: 2.58|越南youtube阿伟科技 2
-  server: 103.173.255.228
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
+  password: 48ae859d-455b-4908-b8e7-10b4d7a65a28
+  sni: jp.bw7.hyperlinkvpn.xyz
   skip-cert-verify: true
   udp: true
-- name: 2.55|US40
-  server: vfly9.win
-  port: 443
-  type: vmess
-  uuid: 838be9ed-d7a8-4da1-b067-b95d2a8782f5
-  alterId: 10
+- type: vmess
+  name: 1.74|USwmt83a74
+  server: emby.metalink.cf
+  port: '8096'
+  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
+  alterId: '0'
   cipher: auto
+  network: tcp
   tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /myblog
-  ws-headers:
-    HOST: vfly9.win
-  skip-cert-verify: true
-  servername: vfly9.win
-- name: 1.96|US144
-  server: us03.gogogoo.cyou
-  type: vmess
-  country: US
-  port: 443
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /go
-  servername: us03.gogogoo.cyou
-  ws-headers:
-    HOST: us03.gogogoo.cyou
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.85| 越南2号
-  server: 103.173.255.127
-  port: 443
-  type: trojan
-  password: 96d2badf-4ef7-41a9-be8b-19bb09468d28
-  sni: download.windowsupdate1.com
-- name: 1.52|美国youtube阿伟科技 31
+- name: 1.51|美国youtube阿伟科技 43
   server: cf.fullcloud.tk
   port: 2053
   type: vmess
@@ -73,73 +31,29 @@ proxies:
     headers:
       Host: foxusa.fovi.tk
   udp: true
-- name: 1.37|美国youtube阿伟科技 5
-  server: 45.82.253.234
-  port: 443
+- name: 1.00| DE89 TGpeekfun
+  server: s4.hazz.win
+  port: 12340
   type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
+  country: ' DE'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: 1.37|RelayUSUS137
-  server: www.digitalocean.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: 3df66137-a428-429c-a858-8b150721b354
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /youtbue@bai-piao-wang-zhe_vws
-  servername: us23.567568.ml
-  ws-headers:
-    HOST: us23.567568.ml
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.15|RelayUSUS125
-  server: emby.metalink.cf
-  type: vmess
-  country: US
-  port: 8096
-  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.89|新加坡youtube阿伟科技 15
-  server: vfly8.win
-  port: 443
-  type: vmess
-  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly8.win
-  udp: true
-- name: 0.88| 越南4号
-  server: 103.173.255.234
-  port: 443
+- name: 0.45| RelayJPJP46
+  server: jp-03.licom.ml
+  port: 8443
   type: trojan
-  password: 96d2badf-4ef7-41a9-be8b-19bb09468d28
-  sni: download.windowsupdate1.com
-- name: 0.87|333
-  server: 170.187.182.64
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-- name: 0.73|新加坡youtube阿伟科技 20
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: jp-03.licom.ml
+- name: 0.42| v2rayfreeeuorg  日本  3
+  server: m4.40010010.xyz
+  port: 37121
+  type: vmess
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 0.41|新加坡youtube阿伟科技 6
   server: www.fuckdbuy.xyz
   port: 57170
   type: vmess
@@ -149,61 +63,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 0.66|RelayUSUS94
-  server: 104.23.102.53
-  type: vmess
-  country: US
-  port: 443
-  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /Telegram@BDovo_qaq
-  servername: bissen.114514cn.me
-  ws-headers:
-    HOST: bissen.114514cn.me
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.57|USwmt81a21
-  server: 104.129.63.65
-  port: 8443
-  password: cUDgjDkSfn
-  udp: true
-  skip-cert-verify: true
-- name: 0.50|日本youtube阿伟科技 4
-  server: 203.138.98.199
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.37|台湾youtube阿伟科技解锁流媒体
-  server: hinet.52147.top
-  port: 443
-  type: trojan
-  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.31| RelayUSFR84
-  server: powerservice.com
+- name: 0.38| RelayUSUS66
+  server: chess.magicefire.com
   port: 443
   type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 0.20| 越南1号
-  server: 103.173.255.21
-  port: 443
-  type: trojan
-  password: 96d2badf-4ef7-41a9-be8b-19bb09468d28
-  sni: download.windowsupdate1.com
