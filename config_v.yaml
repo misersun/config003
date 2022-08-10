@@ -1,5 +1,17 @@
 proxies:
-- name: 6.09|香港youtube阿伟科技 13
+- name: 6.47| SG115
+  server: 8.214.33.158
+  port: 80
+  type: vmess
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 8.214.33.158
+- name: 5.45|香港youtube阿伟科技 13
   server: 40.83.112.144
   port: 38071
   type: vmess
@@ -17,86 +29,43 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 3.61|韩国youtube阿伟科技 4
-  server: 146.56.155.70
-  port: 18050
+- name: 3.59| githubcomfreefq  日本  45
+  server: 43.153.7.61
+  port: 58263
   type: vmess
-  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+  uuid: e274e9de-e2ae-4c10-8afa-507a6bb89500
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.03|AU07
-  server: 43.128.45.251
-  type: vmess
-  country: AU
-  port: 20010
-  uuid: 741a4372-d46b-42a6-b67f-3f8f28a43b63
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.57| githubcomfreefq  新加坡Amazon数据中心 48
-  server: 18.141.146.58
-  port: 43950
-  type: vmess
-  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
-  alterId: 4
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 18.141.146.58
-- name: 2.19| githubcomfreefq  日本  58
-  server: 146.56.184.242
-  port: 19570
-  type: vmess
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.19|韩国youtube阿伟科技 11
-  server: 146.56.161.42
-  port: 27926
-  type: vmess
-  uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 1.76|USwmt88a97
-  server: 107.173.83.214
-  port: '37541'
-  uuid: ef59a586-0532-4763-f353-948eb413f00d
+  name: 3.38|KRwmt81074
+  server: 146.56.167.119
+  port: '6666'
+  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 1.33|韩国youtube阿伟科技 10
-  server: 146.56.161.42
-  port: 80
+- name: 3.25| v2rayfreeeuorg  香港腾讯云 20
+  server: 43.128.45.251
+  port: 15292
   type: vmess
-  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
+  uuid: 7b3fe31b-98e8-4c14-acfd-c19c863c9dd1
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+- type: vmess
+  name: 2.42|HKwmt8102
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - 146.56.161.42
-  udp: true
-- name: 1.00|美国youtube阿伟科技 36
+      host: 20.205.111.107
+  server: 20.205.111.107
+  port: '59619'
+  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 1.96|美国youtube阿伟科技 11
   server: 129.146.41.37
   port: 80
   type: vmess
@@ -114,39 +83,7 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.73|美国youtube阿伟科技 29
-  server: 198.200.51.237
-  port: 51144
-  type: vmess
-  uuid: 5a3e68d5-9ee0-4eea-b4c2-436692179924
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.73| githubcomfreefq  北美地区  57
-  server: 107.173.153.147
-  port: 8765
-  type: vmess
-  uuid: d518dec3-f801-46f6-b295-63f4bf16fe12
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 107.173.153.147
-- name: 0.44|韩国youtube阿伟科技 6
-  server: 146.56.155.70
-  port: 33449
-  type: vmess
-  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.43|RelayUSZZ54
+- name: 1.02|RelayUSZZ47
   server: lms.uin-antasari.ac.id
   type: vmess
   country: US
@@ -162,54 +99,27 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- type: vmess
-  name: 0.41|CZwmt87a124
-  ws-opts:
-    path: /
-    headers:
-      host: 195.133.53.192
-  server: 195.133.53.192
-  port: '14369'
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 0.34|US62
-  server: 152.67.221.228
+- name: 0.97| TW1121
+  server: 61.222.202.140
+  port: 15789
   type: vmess
-  country: US
-  port: 58742
-  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: YouTube-aweikeji
-  ws-headers:
-    HOST: YouTube-aweikeji
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.33|韩国youtube阿伟科技 2
-  server: 146.56.118.227
-  port: 2052
-  type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /update
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 0.28|美国youtube阿伟科技 12
-  server: 158.101.14.142
+- name: 0.93| v2rayfreeeuorg  日本  4
+  server: 146.56.167.249
+  port: 41954
+  type: vmess
+  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.81|韩国youtube阿伟科技 10
+  server: 146.56.161.42
   port: 80
   type: vmess
-  uuid: 9ac4b735-40aa-4cb7-80dc-a2a39c6e47fa
+  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
   alterId: 0
   cipher: auto
   tls: false
@@ -221,17 +131,132 @@ proxies:
     - /
     headers:
       Host:
-      - YouTube-aweikeji
+      - 146.56.161.42
   udp: true
-- name: 0.23| RelayUSUS76
-  server: sg.guiqing.ml
-  port: 43956
+- name: 0.75|US45
+  server: 47.242.187.154
   type: vmess
-  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  country: US
+  port: 38838
+  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.73|韩国youtube阿伟科技 4
+  server: 146.56.161.42
+  port: 27926
+  type: vmess
+  uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.15|韩国youtube阿伟科技
+  skip-cert-verify: true
+  udp: true
+- name: 0.57| githubcomfreefq  美国Nokia 8
+  server: 192.9.249.251
+  port: 22619
+  type: vmess
+  uuid: 8d2eebd3-cddf-47ff-9d54-7040135deb50
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.51| githubcomfreefq  美国Nokia 16
+  server: 192.9.152.34
+  port: 32400
+  type: vmess
+  uuid: 7ee5928e-a5c7-49b3-eff7-2d192c38a653
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 192.9.152.34
+- name: 0.40| TW1125
+  server: 61.222.202.140
+  port: 33792
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 61.222.202.140
+- name: 0.37|日本youtube阿伟科技
+  server: 146.56.155.70
+  port: 33449
+  type: vmess
+  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 0.36|JPwmt88a114
+  server: 43.128.231.83
+  port: '55843'
+  uuid: 8fab08bb-11e7-4158-c7c6-d81257126697
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 0.35|CZwmt87a124
+  ws-opts:
+    path: /
+    headers:
+      host: 195.133.53.192
+  server: 195.133.53.192
+  port: '14369'
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.32|USwmt88a97
+  server: 107.173.83.214
+  port: '37541'
+  uuid: ef59a586-0532-4763-f353-948eb413f00d
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.28|韩国youtube阿伟科技 3
+  server: 146.56.155.70
+  port: 18050
+  type: vmess
+  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.19| githubcomfreefq  美国Microsoft数据中心 5
+  server: hk05.swty.buzz
+  port: 12155
+  type: vmess
+  uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%22hk05.swty.buzz%22%7D'
+- name: 0.18| githubcomfreefq  英国  47
+  server: 185.167.78.44
+  port: 53430
+  type: vmess
+  uuid: 1f106fea-10c7-4988-feee-3736ec6701ca
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.16|韩国youtube阿伟科技
   server: 138.2.114.151
   port: 39912
   type: vmess
