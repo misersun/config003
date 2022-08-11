@@ -1,57 +1,35 @@
 proxies:
 - type: vmess
-  name: 2.79|KRwmt8101
+  name: 13.32|KRwmt8101
   server: 146.56.184.242
   port: '19570'
   uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
   alterId: '0'
   cipher: auto
   network: tcp
-- type: vmess
-  name: 2.12|KRwmt811a206
-  server: 146.56.167.119
-  port: '6666'
-  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.26|日本youtube阿伟科技
-  server: 146.56.155.70
-  port: 33449
+- name: 2.02| TW1125
+  server: 61.222.202.140
+  port: 33792
   type: vmess
-  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.17|RelayUSZZ59
-  server: lms.uin-antasari.ac.id
-  type: vmess
-  country: US
-  port: 80
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
   network: ws
-  ws-path: /vpnneo
-  servername: biznet-s.nextvpn.cc
+  ws-path: /
   ws-headers:
-    HOST: biznet-s.nextvpn.cc
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.04|韩国youtube阿伟科技 3
-  server: 146.56.155.70
-  port: 18050
+    Host: 61.222.202.140
+- name: 1.96|美国youtube阿伟科技 2
+  server: 107.182.187.5
+  port: 35159
   type: vmess
-  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+  uuid: c6ce7985-eb44-4a91-f5b2-f36eca2a4208
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 0.83|中国香港youtube阿伟科技 5
+- name: 1.91|中国香港youtube阿伟科技 3
   server: 20.205.111.107
   port: 53
   type: vmess
@@ -66,7 +44,7 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 0.71|美国youtube阿伟科技 30
+- name: 1.56|美国youtube阿伟科技 13
   server: 158.101.14.142
   port: 80
   type: vmess
@@ -84,7 +62,39 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.71|韩国youtube阿伟科技 10
+- name: 1.00|韩国youtube阿伟科技 4
+  server: 146.56.161.42
+  port: 27926
+  type: vmess
+  uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.70|中国香港youtube阿伟科技 2
+  server: 16.162.100.9
+  port: 6688
+  type: vmess
+  uuid: 703a041f-b1f5-46e2-ca57-7329a9c62844
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 0.67|HKwmt8102
+  ws-opts:
+    path: /
+    headers:
+      host: 20.205.111.107
+  server: 20.205.111.107
+  port: '59619'
+  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.66|韩国youtube阿伟科技 10
   server: 146.56.161.42
   port: 80
   type: vmess
@@ -102,19 +112,74 @@ proxies:
       Host:
       - 146.56.161.42
   udp: true
-- type: vmess
-  name: 0.59|CZwmt87a124
+- name: 0.63|US60
+  server: 152.70.235.207
+  type: vmess
+  country: US
+  port: 35412
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: hy
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.50|日本youtube阿伟科技 3
+  server: 146.56.155.70
+  port: 33449
+  type: vmess
+  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.46| githubcomfreefq  日本  45
+  server: 146.56.167.249
+  port: 41954
+  type: vmess
+  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.45|AU08
+  server: 43.128.231.83
+  type: vmess
+  country: AU
+  port: 55843
+  uuid: 8fab08bb-11e7-4158-c7c6-d81257126697
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.38|俄罗斯youtube阿伟科技
+  server: pssrv.ru.v236p.top
+  port: 37916
+  type: vmess
+  uuid: 451fd868-008d-4d06-91d2-330642160a85
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: /
+    path: /cctv13/hd.m3u8
     headers:
-      host: 195.133.53.192
-  server: 195.133.53.192
-  port: '14369'
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
+      Host: YouTube-aweikeji
+  udp: true
+- type: vmess
+  name: 0.35|USwmt81076
+  server: 107.173.83.214
+  port: '37541'
+  uuid: ef59a586-0532-4763-f353-948eb413f00d
   alterId: '0'
   cipher: auto
-  network: ws
-- name: 0.55|美国youtube阿伟科技 11
+  network: tcp
+- name: 0.17|美国youtube阿伟科技 8
   server: 129.146.41.37
   port: 80
   type: vmess
@@ -132,82 +197,3 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.52|韩国youtube阿伟科技 4
-  server: 146.56.161.42
-  port: 27926
-  type: vmess
-  uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.50| v2rayfreeeuorg  中国阿里云 3
-  server: 8.214.33.158
-  port: 80
-  type: vmess
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 8.214.33.158
-- name: 0.42| githubcomfreefq  日本  45
-  server: 146.56.167.249
-  port: 41954
-  type: vmess
-  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.41|JP34
-  server: 146.56.103.73
-  type: vmess
-  country: JP
-  port: 36945
-  uuid: 2a51bbe1-f4e3-4bab-84b8-784e3d45a159
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.39| v2rayfreeeuorg  北美地区  57
-  server: 107.173.83.214
-  port: 37541
-  type: vmess
-  uuid: ef59a586-0532-4763-f353-948eb413f00d
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 0.31|CNwmt811a105
-  server: 43.153.7.61
-  port: '58263'
-  uuid: e274e9de-e2ae-4c10-8afa-507a6bb89500
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.26| TW1125
-  server: 61.222.202.140
-  port: 33792
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 61.222.202.140
-- name: 0.10| v2rayfreeeuorg  香港腾讯云 58
-  server: 43.128.231.83
-  port: 55843
-  type: vmess
-  uuid: 8fab08bb-11e7-4158-c7c6-d81257126697
-  alterId: 0
-  cipher: auto
-  tls: false
