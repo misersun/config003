@@ -1,68 +1,18 @@
 proxies:
-- name: 9.28|韩国youtube阿伟科技 10
-  server: 146.56.161.42
-  port: 80
+- name: 4.18|US60
+  server: 152.70.235.207
   type: vmess
-  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 146.56.161.42
-  udp: true
-- name: 8.68|AU08
-  server: 43.154.190.154
-  type: vmess
-  country: AU
-  port: 23702
-  uuid: a4d1a670-b727-4f2e-f392-9794215e54ac
+  country: US
+  port: 35412
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
   alterId: 0
   cipher: auto
   network: tcp
-  ws-path: /
+  ws-path: hy
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 8.68| v2rayfreeeuorg  美国  2
-  server: 152.70.247.24
-  port: 43947
-  type: vmess
-  uuid: 01cd3246-1506-4932-cd03-c303127cda65
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.10|RelayHKHK31
-  server: hk02.swty.buzz
-  type: vmess
-  country: HK
-  port: 12155
-  uuid: 52e240ba-608b-4a6a-9671-2a967f163842
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: hk02.swty.buzz
-  ws-headers:
-    HOST: hk02.swty.buzz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- type: vmess
-  name: 1.49|KRwmt8101
-  server: 146.56.184.242
-  port: '19570'
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.42|美国youtube阿伟科技 13
+- name: 2.02|美国youtube阿伟科技 13
   server: 158.101.14.142
   port: 80
   type: vmess
@@ -80,7 +30,193 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 1.34|美国youtube阿伟科技 8
+- name: 1.95|RelayHKHK31
+  server: hk02.swty.buzz
+  type: vmess
+  country: HK
+  port: 12155
+  uuid: 52e240ba-608b-4a6a-9671-2a967f163842
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: hk02.swty.buzz
+  ws-headers:
+    HOST: hk02.swty.buzz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.79|rcp
+  server: rcp.mjji.net
+  port: 80
+  type: vmess
+  uuid: db5e996d-2e2e-4ce7-8ead-693b7ed37c4e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: rcp.mjji.net
+- name: 1.64|中国香港youtube阿伟科技 3
+  server: 20.205.111.107
+  port: 53
+  type: vmess
+  uuid: bf5fe104-ebaa-4369-bb81-4aa62a386523
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.21|韩国youtube阿伟科技 3
+  server: 146.56.155.70
+  port: 18050
+  type: vmess
+  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.01|ccp
+  server: ccp.mjji.net
+  port: 80
+  type: vmess
+  uuid: 530b2dbc-52b4-40a1-9f80-08150f11e1e5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ccp.mjji.net
+- name: 0.98|DigitalOcean2
+  server: 104.18.243.114
+  port: 80
+  type: vmess
+  uuid: 20000000-0000-0000-0000-000000000020
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /20
+  ws-headers:
+    Host: dosg.azure.bond
+- name: 0.98|US51
+  server: 152.70.247.24
+  type: vmess
+  country: US
+  port: 43947
+  uuid: 01cd3246-1506-4932-cd03-c303127cda65
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.79|韩国youtube阿伟科技 10
+  server: 146.56.161.42
+  port: 80
+  type: vmess
+  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 146.56.161.42
+  udp: true
+- name: 0.78|DigitalOcean1
+  server: 104.18.245.229
+  port: 80
+  type: vmess
+  uuid: 20000000-0000-0000-0000-000000000020
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /20
+  ws-headers:
+    Host: dosg.azure.bond
+- name: 0.72|DigitalOcean3
+  server: 104.17.122.239
+  port: 80
+  type: vmess
+  uuid: 20000000-0000-0000-0000-000000000020
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /20
+  ws-headers:
+    Host: dosg.azure.bond
+- name: 0.64|DigitalOcean5
+  server: 104.19.20.0
+  port: 80
+  type: vmess
+  uuid: 20000000-0000-0000-0000-000000000020
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /20
+  ws-headers:
+    Host: dosg.azure.bond
+- name: 0.63|cc
+  server: cc.mjji.net
+  port: 80
+  type: vmess
+  uuid: 59979991-c6de-450c-ea22-13e5bf05023d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cc.mjji.net
+- name: 0.60|DigitalOcean4
+  server: 104.18.105.170
+  port: 80
+  type: vmess
+  uuid: 20000000-0000-0000-0000-000000000020
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /20
+  ws-headers:
+    Host: dosg.azure.bond
+- name: 0.47|日本youtube阿伟科技 3
+  server: 146.56.155.70
+  port: 33449
+  type: vmess
+  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 0.42|KRwmt8101
+  server: 146.56.184.242
+  port: '19570'
+  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.19|美国youtube阿伟科技 8
   server: 129.146.41.37
   port: 80
   type: vmess
@@ -98,60 +234,7 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.96|韩国youtube阿伟科技 3
-  server: 146.56.155.70
-  port: 18050
-  type: vmess
-  uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.93| 大萝卜鸡美国
-  server: v20.emovpn.xyz
-  port: 1256
-  type: vmess
-  uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: pull.free.video.10010.com
-- name: 0.92|日本youtube阿伟科技 3
-  server: 146.56.155.70
-  port: 33449
-  type: vmess
-  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.73|US53
-  server: 47.242.187.154
-  type: vmess
-  country: US
-  port: 38838
-  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- type: vmess
-  name: 0.37|KRwmt811a206
-  server: 146.56.167.119
-  port: '6666'
-  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.33|RelayUSZZ52
+- name: 0.18|RelayUSZZ59
   server: lms.uin-antasari.ac.id
   type: vmess
   country: US
@@ -167,86 +250,36 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.29|US60
-  server: 152.70.235.207
-  type: vmess
-  country: US
-  port: 35412
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: hy
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.28|SG49
-  server: 8.214.33.158
-  type: vmess
-  country: SG
-  port: 80
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.25|JP33
-  server: 146.56.167.249
-  type: vmess
-  country: JP
-  port: 41954
-  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.23|越南youtube阿伟科技
-  server: 103.151.238.40
+- name: 0.13|gy
+  server: gy.hope.mba
   port: 80
   type: vmess
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
+  uuid: bea6f36a-4e9e-4684-892b-b42c561da544
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nkpvpn.site
-    headers:
-      Host: 103.151.238.40
-  udp: true
-- name: 0.21|RO39
-  server: 109.166.39.216
-  type: vmess
-  country: RO
-  port: 39216
-  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /tiktok
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.12|KR35
-  server: 45.43.41.222
-  type: vmess
-  country: KR
-  port: 54541
-  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
-  alterId: 0
-  cipher: auto
   network: ws
   ws-path: /
-  servername: 45.43.41.222
   ws-headers:
-    HOST: 45.43.41.222
+    Host: gy.hope.mba
+- name: 0.13|AU08
+  server: 43.154.190.154
+  type: vmess
+  country: AU
+  port: 23702
+  uuid: a4d1a670-b727-4f2e-f392-9794215e54ac
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
+- name: 0.11| 直连V2ray05x莫斯科 GT公益
+  server: 45.136.244.204
+  port: 44368
+  type: vmess
+  uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39
+  alterId: 0
+  cipher: auto
+  tls: false
