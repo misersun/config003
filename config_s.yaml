@@ -1,73 +1,5 @@
 proxies:
-- type: vmess
-  name: 4.29|KRwmt811a1
-  server: m4.40010010.xyz
-  port: '37121'
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 2.84|RelayAUAU13
-  server: ztyz.info
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 4edd9354-ac43-4920-9bf0-d4b25266d116
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /4edd9354-ac43-4920-9bf0-d4b25266d116
-  servername: ztyz.info
-  ws-headers:
-    HOST: ztyz.info
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.13|RelayUSUS116
-  server: zero.marythunt.xyz
-  type: vmess
-  country: US
-  port: 443
-  uuid: 435b85ba-1c8f-4b54-9f85-6f5a36450c34
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: zero.marythunt.xyz
-  ws-headers:
-    HOST: zero.marythunt.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.81|RelayZAZA144
-  server: ceraus.doubledou.win
-  type: trojan
-  country: ZA
-  port: 4586
-  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  skip-cert-verify: true
-  udp: true
-- name: 1.76|RelayUSUS140
-  server: 104.23.102.53
-  type: vmess
-  country: US
-  port: 443
-  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /Telegram@BDovo_qaq
-  servername: bissen.114514cn.me
-  ws-headers:
-    HOST: bissen.114514cn.me
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.55|RelayUSFR141
+- name: 1.33|RelayUSFR140
   server: 104.17.22.121
   type: vmess
   country: US
@@ -84,31 +16,67 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.36| RelayUSFR84
-  server: powerservice.com
+- name: 1.05|RelayUSUS123
+  server: zzydnfw-v.bp365.cf
+  type: vmess
+  country: US
+  port: 443
+  uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /MDVMDGJUZI
+  servername: zzydnfw-v.bp365.cf
+  ws-headers:
+    HOST: zzydnfw-v.bp365.cf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.98|USwmt813a109
+  server: 20.247.123.5
+  port: 20711
+  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.96|USwmt812a134
+  server: 150.230.23.0
+  port: 44616
+  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.90|USwmt813a132
+  server: 20.247.123.5
+  port: 20784
+  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.74|JPwmt813a138
+  server: jgwdb3.gaox.ml
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  udp: true
+  skip-cert-verify: true
+- name: 0.73|俄罗斯youtube阿伟科技 2
+  server: sara.marythunt.xyz
   port: 443
   type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  uuid: b73c8bba-8fce-48ec-884d-d201424cdd4b
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 1.33| RelayTWTW1122
-  server: lc-hk01-direct01.lc-hk01.lc-node.com
-  port: 443
-  type: vmess
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lc-hk01-direct01.lc-hk01.lc-node.com
-- name: 1.27|美国youtube阿伟科技 31
+  ws-opts:
+    path: /
+    headers:
+      Host: sara.marythunt.xyz
+  udp: true
+- name: 0.68|美国youtube阿伟科技 31
   server: us.dreamlin.xyz
   port: 12000
   type: vmess
@@ -118,22 +86,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 1.26|印度youtube阿伟科技
-  server: india.jcnf.app
-  port: 443
-  type: vmess
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /zcjd
-    headers:
-      Host: india.jcnf.app
-  udp: true
-- name: 1.23|RelayUSUS117
+- name: 0.66|RelayUSUS136
   server: emby.metalink.cf
   type: vmess
   country: US
@@ -148,42 +101,50 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.19|RelayUSZZ138
-  server: api.qiscus.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /vmess-ws-makae
-  servername: bn-id01.ipv2ray.xyz
-  ws-headers:
-    HOST: bn-id01.ipv2ray.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.10| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
+- name: 0.60| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
   port: 443
   type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 1.09| githubcomfreefq  美国CloudFlare节点 73
-  server: zzydnfw-v.bp365.cf
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 0.56|德国youtube阿伟科技
+  server: cf.fullcloud.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxdeovz2.fovi.tk
+  udp: true
+- name: 0.52| RelayUSFR84
+  server: powerservice.com
   port: 443
   type: vmess
-  uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /MDVMDGJUZI
+  ws-path: /sshocean
   ws-headers:
-    Host: zzydnfw-v.bp365.cf
-- name: 1.08|RelayUSUS118
+    Host: uk2.v2rayserv.com
+- name: 0.51|俄罗斯youtube阿伟科技
+  server: www.fuckdbuy.xyz
+  port: 57170
+  type: vmess
+  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.42|RelayUSUS128
   server: usa.jcnf.app
   type: vmess
   country: US
@@ -200,90 +161,52 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- type: trojan
-  name: 1.03|USwmt811a247
-  server: 150.230.23.0
-  port: 44616
-  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
-  udp: true
-  skip-cert-verify: true
-- name: 0.88|俄罗斯youtube阿伟科技 2
-  server: sara.marythunt.xyz
-  port: 443
-  type: vmess
-  uuid: b73c8bba-8fce-48ec-884d-d201424cdd4b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sara.marythunt.xyz
-  udp: true
-- name: 0.68|RelayRURU75
-  server: t04.ssrsub.com
-  type: trojan
-  country: RU
-  port: 852
-  password: f1da490c-b4ea-490f-9b5e-15620751414c
-  skip-cert-verify: true
-  udp: true
-- name: 0.51|RelayUAUA82
-  server: ce.rutracker-cn.com
-  type: trojan
-  country: UA
-  port: 443
-  password: 5y8y3CwxRVYhyfSY
-  skip-cert-verify: true
-  udp: true
-- name: 0.44| githubcomfreefq  澳大利亚新南威尔士州悉尼Linode数据中心 99
-  server: vau1.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vau1.0bad.com
-- name: 0.39| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 0.33| githubcomfreefq  加拿大  77
-  server: 727tw02.ok365.cyou
-  port: 25689
-  type: trojan
-  password: 1f2008bd-bc74-4e67-be41-f1d1e55ba8a3
-  sni: 727tw02.ok365.cyou
-- name: 0.33|德国youtube阿伟科技
-  server: cf.fullcloud.tk
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxdeovz2.fovi.tk
-  udp: true
-- name: 0.30| 甲骨文伦敦ARM1trojan
+- name: 0.34| 甲骨文伦敦ARM1trojan
   server: jgwld3.gaox.ml
   port: 443
   type: trojan
   password: 71b55a84-3fac-4458-abff-eaad79219c91
   sni: jgwld3.gaox.ml
-- name: 0.29| v2rayfreeeuorg  美国CloudFlare节点 21
+- name: 0.34|RelayAUAU09
+  server: vau1.0bad.com
+  type: vmess
+  country: AU
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /chat
+  servername: vau1.0bad.com
+  ws-headers:
+    HOST: vau1.0bad.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.31|USwmt813a31
+  server: 20.247.123.5
+  port: 20710
+  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
+  udp: true
+  skip-cert-verify: true
+- name: 0.26|RelayUAUA57
+  server: v2cross.com.03.v2ce.com
+  port: 443
+  type: trojan
+  password: ZD4dLSBXiMrmzdLd
+  sni: v2cross.com.03.v2ce.com
+- type: vmess
+  name: 0.20|KRwmt812a1
+  server: m4.40010010.xyz
+  port: '37121'
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 0.19| v2rayfreeeuorg  美国CloudFlare节点 21
   server: 162.159.194.69
   port: 443
   type: vmess
@@ -295,46 +218,46 @@ proxies:
   ws-path: /xxX2
   ws-headers:
     Host: blog4.2220aa.xyz
-- name: 0.22| DE137 TGpeekfun
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  country: ' DE'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 0.17|CA9
-  server: usa-buffalo.lvuft.com
-  port: 443
+- name: 0.18|RelayRURU64
+  server: www.olaola.top
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /ws
-  ws-headers:
-    HOST: usa-buffalo.lvuft.com
-  skip-cert-verify: true
-  servername: usa-buffalo.lvuft.com
-- name: 0.14|RelayUAUA57
-  server: v2cross.com.03.v2ce.com
-  port: 443
-  type: trojan
-  password: ZD4dLSBXiMrmzdLd
-  sni: v2cross.com.03.v2ce.com
-- name: 0.13|俄罗斯youtube阿伟科技
-  server: www.fuckdbuy.xyz
-  port: 57170
-  type: vmess
-  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
+  country: RU
+  port: 48493
+  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
   alterId: 0
   cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   tls: true
   skip-cert-verify: true
+- name: 0.18|RelayRURU67
+  server: t04.ssrsub.com
+  type: trojan
+  country: RU
+  port: 852
+  password: f1da490c-b4ea-490f-9b5e-15620751414c
+  skip-cert-verify: true
   udp: true
-- name: 0.13|RelayRURU74
+- name: 0.17|RelayAUAU08
+  server: ztyz.info
+  type: vmess
+  country: AU
+  port: 443
+  uuid: 4edd9354-ac43-4920-9bf0-d4b25266d116
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /4edd9354-ac43-4920-9bf0-d4b25266d116
+  servername: ztyz.info
+  ws-headers:
+    HOST: ztyz.info
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.16|RelayRURU62
   server: www.olaola.top
   type: vmess
   country: RU
@@ -348,9 +271,20 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.12|HimarsTrojan
-  server: himarsforever.accesscam.org
+- name: 0.16|RelayUSZZ134
+  server: api.qiscus.com
+  type: vmess
+  country: US
   port: 443
-  type: trojan
-  password: f1b04cd7-e110-4fd1-930b-7ecb551caf32
-  sni: Himarsforever.accesscam.org
+  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /vmess-ws-makae
+  servername: bn-id01.ipv2ray.xyz
+  ws-headers:
+    HOST: bn-id01.ipv2ray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
