@@ -1,37 +1,6 @@
 proxies:
-- name: 1.75|美国youtube阿伟科技 8
-  server: 129.146.41.37
-  port: 80
-  type: vmess
-  uuid: 87af0939-6726-4baf-dec0-8fcf57865293
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - YouTube-aweikeji
-  udp: true
-- name: 1.19|GB30
-  server: 185.167.78.44
-  type: vmess
-  country: GB
-  port: 53430
-  uuid: 1f106fea-10c7-4988-feee-3736ec6701ca
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.14| CC2US01x
-  server: 198.211.4.60
+- name: 1.11| CCUS01x
+  server: 198.211.4.61
   port: 80
   type: vmess
   uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
@@ -41,8 +10,8 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 198.211.4.60
-- name: 1.14|韩国youtube阿伟科技 10
+    Host: 198.211.4.61
+- name: 0.62|韩国youtube阿伟科技 10
   server: 146.56.161.42
   port: 80
   type: vmess
@@ -60,78 +29,12 @@ proxies:
       Host:
       - 146.56.161.42
   udp: true
-- name: 1.09| CCUS01x
-  server: 198.211.4.61
-  port: 80
-  type: vmess
-  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 198.211.4.61
-- name: 0.98|US109
-  server: 174.137.48.51
-  type: vmess
-  country: US
-  port: 17810
-  uuid: 84e43656-ff94-43ff-90f3-fa37e837959b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.92| TW01V2直连
-  server: tw01.henet.cyou
-  port: 20000
-  type: vmess
-  uuid: fd9aa42d-ab9b-4efe-9b2e-054cadf20f0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /live
-  ws-headers:
-    Host: cctv.com
-- name: 0.64|GB29
-  server: 185.167.78.44
-  type: vmess
-  country: GB
-  port: 55055
-  uuid: 0a33e5ad-b356-4365-93ec-a800bbc6f752
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.63|JP39
-  server: 146.56.118.227
+- name: 0.60|JP26
+  server: 146.56.167.249
   type: vmess
   country: JP
-  port: 2052
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /update
-  servername: YouTube-aweikeji
-  ws-headers:
-    HOST: YouTube-aweikeji
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.60|US105
-  server: 174.137.48.51
-  type: vmess
-  country: US
-  port: 31237
-  uuid: 645c6186-3a02-4fae-ba98-d8e1c69ef548
+  port: 41954
+  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
   alterId: 0
   cipher: auto
   network: tcp
@@ -139,41 +42,12 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.59|KR42
-  server: 45.43.41.222
-  type: vmess
-  country: KR
-  port: 27121
-  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 45.43.41.222
-  ws-headers:
-    HOST: 45.43.41.222
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.55|RelayJPJP38
-  server: 123456789abcd.xn--h6q53lcvpz7l.club
-  type: vmess
-  country: JP
-  port: 20942
-  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /images
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.54|US106
-  server: 192.9.249.251
+- name: 0.48|RelayUSUS64
+  server: sg.guiqing.ml
   type: vmess
   country: US
-  port: 22619
-  uuid: 8d2eebd3-cddf-47ff-9d54-7040135deb50
+  port: 43956
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
   alterId: 0
   cipher: auto
   network: tcp
@@ -181,7 +55,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.52|RelayUSZZ132
+- name: 0.39|RelayUSZZ132
   server: lms.uin-antasari.ac.id
   type: vmess
   country: US
@@ -197,69 +71,24 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.51|RU70
-  server: 195.133.53.192
-  type: vmess
-  country: RU
-  port: 14369
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 195.133.53.192
-  ws-headers:
-    HOST: 195.133.53.192
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.42|RU68
-  server: 176.119.156.229
-  type: vmess
-  country: RU
-  port: 852
-  uuid: f1da490c-b4ea-490f-9b5e-15620751414c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /api/v3/download.getFile
-  servername: d76bb35696.laowanxiang.com
-  ws-headers:
-    HOST: d76bb35696.laowanxiang.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.36|RelayJPJP37
-  server: 123456789abcd.xn--h6q53lcvpz7l.club
-  type: vmess
-  country: JP
-  port: 20944
-  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /images
-  servername: v.qq.com
-  ws-headers:
-    HOST: v.qq.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.35|US112
-  server: 13.213.77.103
+- name: 0.23|RelayUSSG71
+  server: 104.18.105.170
   type: vmess
   country: US
   port: 80
-  uuid: d228edcd-c9b0-4942-b42a-de6c6180ae67
+  uuid: 20000000-0000-0000-0000-000000000020
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /lime
+  ws-path: /20
+  servername: dosg.azure.bond
+  ws-headers:
+    HOST: dosg.azure.bond
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.21| MicrosoftHK1x
-  server: 104.208.97.180
+- name: 0.19| CC2US01x
+  server: 198.211.4.60
   port: 80
   type: vmess
   uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
@@ -269,45 +98,20 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: 104.208.97.180
-- name: 0.17|US121
-  server: 152.70.235.207
-  type: vmess
-  country: US
-  port: 35412
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: hy
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.16|RelayUSUS110
-  server: v20.emovpn.xyz
-  type: vmess
-  country: US
-  port: 1256
-  uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: pull.free.video.10010.com
-  ws-headers:
-    HOST: pull.free.video.10010.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.14| MicrosoftJP21x
+    Host: 198.211.4.60
+- name: 0.12|US66
   server: 20.210.208.95
-  port: 80
   type: vmess
+  country: US
+  port: 80
   uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
   alterId: 0
   cipher: auto
-  tls: false
   network: ws
   ws-path: /
+  servername: 20.210.208.95
   ws-headers:
-    Host: 20.210.208.95
+    HOST: 20.210.208.95
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
