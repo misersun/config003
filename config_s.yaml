@@ -1,82 +1,25 @@
 proxies:
-- name: 1.33|RelayUSFR140
-  server: 104.17.22.121
-  type: vmess
-  country: US
-  port: 443
-  uuid: c2b41992-e8eb-40bc-9e2a-4a58c22ab98b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: m3.v2rayfree1.xyz
-  ws-headers:
-    HOST: m3.v2rayfree1.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+- name: 2.06| 圣何塞CN2
+  server: us218.hootfun.top
+  port: 32411
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: us218.hootfun.top
   skip-cert-verify: true
-- name: 1.05|RelayUSUS123
-  server: zzydnfw-v.bp365.cf
-  type: vmess
-  country: US
-  port: 443
-  uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /MDVMDGJUZI
-  servername: zzydnfw-v.bp365.cf
-  ws-headers:
-    HOST: zzydnfw-v.bp365.cf
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
+- name: 1.93| 越南4号
+  server: 103.173.255.234
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
 - type: trojan
-  name: 0.98|USwmt813a109
-  server: 20.247.123.5
-  port: 20711
-  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.96|USwmt812a134
-  server: 150.230.23.0
-  port: 44616
-  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.90|USwmt813a132
+  name: 1.93|USwmt813a132
   server: 20.247.123.5
   port: 20784
   password: e84a6030-8b82-388a-b5da-c3189eeb02d3
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.74|JPwmt813a138
-  server: jgwdb3.gaox.ml
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  udp: true
-  skip-cert-verify: true
-- name: 0.73|俄罗斯youtube阿伟科技 2
-  server: sara.marythunt.xyz
-  port: 443
-  type: vmess
-  uuid: b73c8bba-8fce-48ec-884d-d201424cdd4b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sara.marythunt.xyz
-  udp: true
-- name: 0.68|美国youtube阿伟科技 31
+- name: 1.84|美国youtube阿伟科技 31
   server: us.dreamlin.xyz
   port: 12000
   type: vmess
@@ -86,28 +29,104 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 0.66|RelayUSUS136
-  server: emby.metalink.cf
+- name: 1.81| 越南3号
+  server: 103.173.255.228
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 1.65| 德国2G口
+  server: dg.hootfun.top
+  port: 32451
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: dg.hootfun.top
+  skip-cert-verify: true
+- name: 1.42| 欢迎使用 Welink welink345233tw
+  server: tw.n.optage.moe
+  port: 44608
+  type: trojan
+  password: d0f8631c-09f5-4501-a973-fc6604719fe2
+  sni: tw.node.qchwnd.moe
+- name: 1.31| CA09 TGpeekfun
+  server: 192.186.129.66
+  port: 443
   type: vmess
-  country: US
-  port: 8096
-  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
+  country: ' CA'
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /ws
+  ws-headers:
+    HOST: usa-buffalo.lvuft.com
+  skip-cert-verify: true
+  servername: usa-buffalo.lvuft.com
+- name: 1.05| 德国G口
+  server: dg.hootfun.top
+  port: 31324
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: dg.hootfun.top
+  skip-cert-verify: true
+- name: 1.04|俄罗斯youtube阿伟科技
+  server: www.fuckdbuy.xyz
+  port: 57170
+  type: vmess
+  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /chcar
-  servername: emby.metalink.cf
-  http-opts: {}
-  h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.60| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
+  udp: true
+- name: 0.98| 越南2号
+  server: 103.173.255.127
+  port: 28443
   type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 0.56|德国youtube阿伟科技
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 0.93| 大萝卜鸡美国高速
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: static.dingtalk.com
+  skip-cert-verify: true
+- name: 0.92| RelayUSFR84
+  server: powerservice.com
+  port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: uk2.v2rayserv.com
+- type: trojan
+  name: 0.90|USwmt812a134
+  server: 150.230.23.0
+  port: 44616
+  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
+  udp: true
+  skip-cert-verify: true
+- name: 0.86| CN2
+  server: us218.hootfun.top
+  port: 42222
+  type: trojan
+  password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f
+  sni: us218.hootfun.top
+  skip-cert-verify: true
+- name: 0.79| 日本NTT1号  解锁流媒体
+  server: 203.138.98.199
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 0.74|德国youtube阿伟科技
   server: cf.fullcloud.tk
   port: 2053
   type: vmess
@@ -122,83 +141,22 @@ proxies:
     headers:
       Host: foxdeovz2.fovi.tk
   udp: true
-- name: 0.52| RelayUSFR84
-  server: powerservice.com
-  port: 443
+- name: 0.72|SE72
+  server: 138.3.208.203
   type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  country: SE
+  port: 43298
+  uuid: 42104b60-1988-4063-96ce-5c4b20b53130
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 0.51|俄罗斯youtube阿伟科技
-  server: www.fuckdbuy.xyz
-  port: 57170
-  type: vmess
-  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.42|RelayUSUS128
-  server: usa.jcnf.app
-  type: vmess
-  country: US
-  port: 443
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /zcjd
-  servername: usa.jcnf.app
-  ws-headers:
-    HOST: usa.jcnf.app
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.34| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 0.34|RelayAUAU09
-  server: vau1.0bad.com
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /chat
-  servername: vau1.0bad.com
-  ws-headers:
-    HOST: vau1.0bad.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.31|USwmt813a31
-  server: 20.247.123.5
-  port: 20710
-  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
-  udp: true
-  skip-cert-verify: true
-- name: 0.26|RelayUAUA57
-  server: v2cross.com.03.v2ce.com
-  port: 443
-  type: trojan
-  password: ZD4dLSBXiMrmzdLd
-  sni: v2cross.com.03.v2ce.com
 - type: vmess
-  name: 0.20|KRwmt812a1
+  name: 0.72|KRwmt812a1
   server: m4.40010010.xyz
   port: '37121'
   uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
@@ -206,7 +164,31 @@ proxies:
   cipher: auto
   network: tcp
   tls: true
-- name: 0.19| v2rayfreeeuorg  美国CloudFlare节点 21
+- name: 0.69|RelayUSZZ134
+  server: api.qiscus.com
+  type: vmess
+  country: US
+  port: 443
+  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /vmess-ws-makae
+  servername: bn-id01.ipv2ray.xyz
+  ws-headers:
+    HOST: bn-id01.ipv2ray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.68| 俄罗斯2电信联通优化
+  server: ru.hootfun.top
+  port: 32411
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: ru.hootfun.top
+  skip-cert-verify: true
+- name: 0.39| v2rayfreeeuorg  美国CloudFlare节点 21
   server: 162.159.194.69
   port: 443
   type: vmess
@@ -218,46 +200,37 @@ proxies:
   ws-path: /xxX2
   ws-headers:
     Host: blog4.2220aa.xyz
-- name: 0.18|RelayRURU64
-  server: www.olaola.top
+- name: 0.38|RelayJPJP41
+  server: in-04.licom.ml
+  type: trojan
+  country: JP
+  port: 40001
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
+- name: 0.36|RelayUSUS116
+  server: emby.metalink.cf
   type: vmess
-  country: RU
-  port: 48493
-  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
+  country: US
+  port: 8096
+  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
   alterId: 0
   cipher: auto
   network: tcp
-  ws-path: /
+  ws-path: /chcar
+  servername: emby.metalink.cf
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.18|RelayRURU67
-  server: t04.ssrsub.com
+- name: 0.32| VIP香港2HeBGP
+  server: h1kbgp.hootfun.top
+  port: 41511
   type: trojan
-  country: RU
-  port: 852
-  password: f1da490c-b4ea-490f-9b5e-15620751414c
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: h1kbgp.hootfun.top
   skip-cert-verify: true
-  udp: true
-- name: 0.17|RelayAUAU08
-  server: ztyz.info
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 4edd9354-ac43-4920-9bf0-d4b25266d116
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /4edd9354-ac43-4920-9bf0-d4b25266d116
-  servername: ztyz.info
-  ws-headers:
-    HOST: ztyz.info
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.16|RelayRURU62
+- name: 0.21|RelayRURU66
   server: www.olaola.top
   type: vmess
   country: RU
@@ -271,19 +244,38 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.16|RelayUSZZ134
-  server: api.qiscus.com
+- name: 0.20| 俄罗斯电信联通优化
+  server: ru.hootfun.top
+  port: 23144
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: ru.hootfun.top
+  skip-cert-verify: true
+- name: 0.19| DE106 TGpeekfun
+  server: s4.hazz.win
+  port: 12340
+  type: trojan
+  country: ' DE'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 0.18| VIP香港HeBGP
+  server: h1kbgp.hootfun.top
+  port: 23151
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: h1kbgp.hootfun.top
+  skip-cert-verify: true
+- name: 0.16|RelayRURU67
+  server: www.olaola.top
   type: vmess
-  country: US
-  port: 443
-  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
+  country: RU
+  port: 48493
+  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /vmess-ws-makae
-  servername: bn-id01.ipv2ray.xyz
-  ws-headers:
-    HOST: bn-id01.ipv2ray.xyz
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   tls: true

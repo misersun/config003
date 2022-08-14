@@ -1,31 +1,5 @@
 proxies:
-- name: 3.61|韩国youtube阿伟科技 10
-  server: 146.56.161.42
-  port: 80
-  type: vmess
-  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 146.56.161.42
-  udp: true
-- type: vmess
-  name: 3.56|HKwmt813a180
-  server: v2node6.hkss.online
-  port: '443'
-  uuid: 6ebeed01-2767-334c-ab37-33b5dfe53cb4
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 2.67|油管阿伟科技 12
+- name: 3.29|油管阿伟科技 12
   server: clash11.free4444.xyz
   port: 443
   type: ssr
@@ -36,185 +10,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 2.13|中国香港youtube阿伟科技 22
-  server: v2node-hk3.hkss.online
-  port: 553
-  type: vmess
-  uuid: 6ebeed01-2767-334c-ab37-33b5dfe53cb4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.84|美国youtube阿伟科技 13
-  server: 158.101.14.142
-  port: 80
-  type: vmess
-  uuid: 9ac4b735-40aa-4cb7-80dc-a2a39c6e47fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - YouTube-aweikeji
-  udp: true
-- name: 1.82|US130
-  server: 51.81.223.13
-  type: vmess
-  country: US
-  port: 443
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.52| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
-  server: clash26.free4444.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.43|LT580 4092Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9026
-  password: QWDDvVE9npNurQfA
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.41|LT567 4464Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.33|RelayUSFR140
-  server: 104.17.22.121
-  type: vmess
-  country: US
-  port: 443
-  uuid: c2b41992-e8eb-40bc-9e2a-4a58c22ab98b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: m3.v2rayfree1.xyz
-  ws-headers:
-    HOST: m3.v2rayfree1.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.32| LT165 TGpeekfun
-  server: 213.183.53.177
-  port: 9056
-  type: ssr
-  country: ' LT'
-  password: rNBfNuuANFCAk7KB
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: vmess
-  name: 1.25|HKwmt813a103
-  server: v2nodep-hk5.hkss.online
-  port: '553'
-  uuid: 6ebeed01-2767-334c-ab37-33b5dfe53cb4
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.19| LT163 TGpeekfun
-  server: 213.183.53.200
-  port: 9041
-  type: ssr
-  country: ' LT'
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.15|中国香港youtube阿伟科技 24
-  server: node-hk6.hkss.online
-  port: 553
-  type: vmess
-  uuid: 6ebeed01-2767-334c-ab37-33b5dfe53cb4
-  alterId: 32
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.11|中国香港youtube阿伟科技
-  server: 20.205.111.107
-  port: 59619
-  type: vmess
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 1.08| v2rayfreeeuorg  美国加利福尼亚州费利蒙IT7网络 9
-  server: 23.83.236.184
-  port: 34500
-  type: vmess
-  uuid: 11a79e9e-722c-4f66-d9db-eef9b10730a7
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.05|RelayUSUS123
-  server: zzydnfw-v.bp365.cf
-  type: vmess
-  country: US
-  port: 443
-  uuid: 6a522c05-7182-4540-8c1a-6b15965f64b0
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /MDVMDGJUZI
-  servername: zzydnfw-v.bp365.cf
-  ws-headers:
-    HOST: zzydnfw-v.bp365.cf
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.98|USwmt813a109
-  server: 20.247.123.5
-  port: 20711
-  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
-  udp: true
-  skip-cert-verify: true
-- name: 0.98|LT581 4488Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9088
-  password: f8npKgNzdkss2ytn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.97|油管阿伟科技 10
+- name: 2.39|油管阿伟科技 10
   server: 173.82.245.228
   port: 50005
   type: ssr
@@ -225,178 +21,27 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- type: trojan
-  name: 0.96|USwmt812a134
-  server: 150.230.23.0
-  port: 44616
-  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
-  udp: true
+- name: 2.06| 圣何塞CN2
+  server: us218.hootfun.top
+  port: 32411
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: us218.hootfun.top
   skip-cert-verify: true
-- name: 0.95|LT582 4119Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9003
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.93|LT569 4484Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9027
-  password: EXN3S3eQpjE7EJu8
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.91| LT166 TGpeekfun
-  server: 213.183.53.200
-  port: 9084
-  type: ssr
-  country: ' LT'
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.90|RelayUSUS124
-  server: v20.emovpn.xyz
-  type: vmess
-  country: US
-  port: 1256
-  uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: pull.free.video.10010.com
-  ws-headers:
-    HOST: pull.free.video.10010.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+- name: 1.93| 越南4号
+  server: 103.173.255.234
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
 - type: trojan
-  name: 0.90|USwmt813a132
+  name: 1.93|USwmt813a132
   server: 20.247.123.5
   port: 20784
   password: e84a6030-8b82-388a-b5da-c3189eeb02d3
   udp: true
   skip-cert-verify: true
-- type: ssr
-  name: 0.86|RUwmt813a154
-  server: 213.183.53.177
-  port: 9018
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: fG2artUmHfNT2cX7
-- name: 0.86| httpsgithubcomAlvin9999newpacwiki 洛杉矶3SSR
-  server: sss7.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.85| LT161 TGpeekfun
-  server: 213.183.53.177
-  port: 9010
-  type: ssr
-  country: ' LT'
-  password: f63gg8EruDnUrmz4
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.85| v2rayfreeeuorg  香港阿里云 16
-  server: 47.242.187.154
-  port: 38838
-  type: vmess
-  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.83|LT578 4249Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9073
-  password: daFYagqDdBdA6VTX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 0.78|RUwmt813a5
-  server: 213.183.53.200
-  port: 9005
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: ZET59LF6DvCC8KVt
-- name: 0.76| httpsgithubcomAlvin9999newpacwiki 洛杉矶4SSR
-  server: sss5.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: trojan
-  name: 0.74|JPwmt813a138
-  server: jgwdb3.gaox.ml
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  udp: true
-  skip-cert-verify: true
-- name: 0.73|俄罗斯youtube阿伟科技 2
-  server: sara.marythunt.xyz
-  port: 443
-  type: vmess
-  uuid: b73c8bba-8fce-48ec-884d-d201424cdd4b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sara.marythunt.xyz
-  udp: true
-- name: 0.72|093 httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
-  server: zjg1.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 0.71| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
-  server: zjg2.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.69|LT590 4349Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9059
-  password: 9XwYyZsK8SNzQDtY
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.68|美国youtube阿伟科技 31
+- name: 1.84|美国youtube阿伟科技 31
   server: us.dreamlin.xyz
   port: 12000
   type: vmess
@@ -406,373 +51,13 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 0.68|LT566 4148Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9064
-  password: cp8pRSUAyLhTfVWH
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.67|LT576 4109Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9041
-  password: U6qnYRhfyDmn8sgn
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.67|JP52
-  server: 146.56.161.42
-  type: vmess
-  country: JP
-  port: 27926
-  uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.66|RelayUSUS136
-  server: emby.metalink.cf
-  type: vmess
-  country: US
-  port: 8096
-  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /chcar
-  servername: emby.metalink.cf
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.63|RelayUSZZ132
-  server: lms.uin-antasari.ac.id
-  type: vmess
-  country: US
-  port: 80
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /vpnneo
-  servername: biznet-s.nextvpn.cc
-  ws-headers:
-    HOST: biznet-s.nextvpn.cc
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.60| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
+- name: 1.81| 越南3号
+  server: 103.173.255.228
+  port: 28443
   type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 0.60| LT162 TGpeekfun
-  server: 213.183.53.177
-  port: 9003
-  type: ssr
-  country: ' LT'
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.56|德国youtube阿伟科技
-  server: cf.fullcloud.tk
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxdeovz2.fovi.tk
-  udp: true
-- name: 0.52| RelayUSFR84
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 0.51|俄罗斯youtube阿伟科技
-  server: www.fuckdbuy.xyz
-  port: 57170
-  type: vmess
-  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.51|GB33
-  server: 185.167.78.44
-  type: vmess
-  country: GB
-  port: 53430
-  uuid: 1f106fea-10c7-4988-feee-3736ec6701ca
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.50|US121
-  server: 152.70.235.207
-  type: vmess
-  country: US
-  port: 35412
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: hy
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.49| LT167 TGpeekfun
-  server: 213.183.53.177
-  port: 9008
-  type: ssr
-  country: ' LT'
-  password: y9VURyNzJWNRYEGQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.48|LT573 4101Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9093
-  password: wfLC2y7rzZyCmuyt
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.48|LT651 4155Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9001
-  password: UkXRsXvR6buDMG2Y
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.47|US51
-  server: 152.70.247.24
-  type: vmess
-  country: US
-  port: 43947
-  uuid: 01cd3246-1506-4932-cd03-c303127cda65
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.47|LT564 4326Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9060
-  password: ueLXVkvh4hckhErQ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.46|LT572 4263Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.46|LT561 4270Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9020
-  password: BNmAXXxAHYpTRdzu
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.45|LT589 4129Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9050
-  password: FG5ddLsMPbV5CutE
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.45|JP49
-  server: 146.56.167.249
-  type: vmess
-  country: JP
-  port: 41954
-  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.45|LT579 4251Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9015
-  password: ZpNDDKRu9MagNvaf
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.44|LT587 4347Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9024
-  password: BejrQvtu9sqUeNuZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.44| 直连V2ray05x莫斯科 GT公益
-  server: 45.136.244.204
-  port: 44368
-  type: vmess
-  uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.44| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
-  server: sss9.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.42|RelayUSUS128
-  server: usa.jcnf.app
-  type: vmess
-  country: US
-  port: 443
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /zcjd
-  servername: usa.jcnf.app
-  ws-headers:
-    HOST: usa.jcnf.app
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.41|LT585 4209Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9037
-  password: TN2YqghxeFDKZfLU
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.41|US129
-  server: 20.213.122.245
-  type: vmess
-  country: US
-  port: 34563
-  uuid: 448e3e22-3f10-40f1-dc0f-c64b7c440f10
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /fsfsdf
-  servername: 20.213.122.245
-  ws-headers:
-    HOST: 20.213.122.245
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.41|SG72
-  server: 8.214.33.158
-  type: vmess
-  country: SG
-  port: 80
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.40|RelayJPJP38
-  server: 123456789abcd.xn--h6q53lcvpz7l.club
-  type: vmess
-  country: JP
-  port: 20942
-  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /images
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.39| LT164 TGpeekfun
-  server: 213.183.53.177
-  port: 9033
-  type: ssr
-  country: ' LT'
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.38|RU65
-  server: 176.119.156.229
-  type: vmess
-  country: RU
-  port: 852
-  uuid: d8713e9c-b73d-4179-bddf-b975847ec6f5
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /api/v3/download.getFile
-  servername: d76bb35696.laowanxiang.com
-  ws-headers:
-    HOST: d76bb35696.laowanxiang.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- type: vmess
-  name: 0.37|KRwmt8101
-  server: 146.56.184.242
-  port: '19570'
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.37|美国youtube阿伟科技 8
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 1.75|美国youtube阿伟科技 8
   server: 129.146.41.37
   port: 80
   type: vmess
@@ -790,90 +75,137 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.36| RelayUSUS76
-  server: sg.guiqing.ml
-  port: 43956
+- name: 1.73|LT644 4200Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9005
+  password: ZET59LF6DvCC8KVt
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.65| 德国2G口
+  server: dg.hootfun.top
+  port: 32451
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: dg.hootfun.top
+  skip-cert-verify: true
+- name: 1.42| 欢迎使用 Welink welink345233tw
+  server: tw.n.optage.moe
+  port: 44608
+  type: trojan
+  password: d0f8631c-09f5-4501-a973-fc6604719fe2
+  sni: tw.node.qchwnd.moe
+- name: 1.31| CA09 TGpeekfun
+  server: 192.186.129.66
+  port: 443
   type: vmess
-  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  country: ' CA'
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /ws
+  ws-headers:
+    HOST: usa-buffalo.lvuft.com
+  skip-cert-verify: true
+  servername: usa-buffalo.lvuft.com
+- name: 1.19|GB30
+  server: 185.167.78.44
+  type: vmess
+  country: GB
+  port: 53430
+  uuid: 1f106fea-10c7-4988-feee-3736ec6701ca
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.14| CC2US01x
+  server: 198.211.4.60
+  port: 80
+  type: vmess
+  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.34| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 0.34| NL197 TGpeekfun
-  server: 213.183.59.211
-  port: 9079
-  type: ssr
-  country: ' NL'
-  password: TPqX8edgbAURcAMb
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.34|RelayAUAU09
-  server: vau1.0bad.com
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 198.211.4.60
+- name: 1.14|韩国youtube阿伟科技 10
+  server: 146.56.161.42
+  port: 80
   type: vmess
-  country: AU
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad
   alterId: 0
   cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 146.56.161.42
+  udp: true
+- name: 1.09| CCUS01x
+  server: 198.211.4.61
+  port: 80
+  type: vmess
+  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  alterId: 0
+  cipher: auto
+  tls: false
   network: ws
-  ws-path: /chat
-  servername: vau1.0bad.com
+  ws-path: /
   ws-headers:
-    HOST: vau1.0bad.com
-  http-opts: {}
-  h2-opts: {}
+    Host: 198.211.4.61
+- name: 1.05| 德国G口
+  server: dg.hootfun.top
+  port: 31324
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: dg.hootfun.top
+  skip-cert-verify: true
+- name: 1.04|俄罗斯youtube阿伟科技
+  server: www.fuckdbuy.xyz
+  port: 57170
+  type: vmess
+  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.31|USwmt813a31
-  server: 20.247.123.5
-  port: 20710
-  password: e84a6030-8b82-388a-b5da-c3189eeb02d3
   udp: true
+- name: 0.98| 越南2号
+  server: 103.173.255.127
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 0.98|US109
+  server: 174.137.48.51
+  type: vmess
+  country: US
+  port: 17810
+  uuid: 84e43656-ff94-43ff-90f3-fa37e837959b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-- name: 0.30|LT568 4435Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9014
-  password: KnJGad3FqTvjqbaX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- type: ssr
-  name: 0.30|RUwmt813a95
-  server: 213.183.53.200
-  port: 9031
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: plain
-  password: BwcAUZk8hUFAkDGN
-- name: 0.29|LT565 4230Mb
-  server: 213.183.53.200
-  type: ssr
-  country: LT
-  port: 9033
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.29|LT588 4326Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9000
-  password: a3GFYt36Sm82Vys9
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.28| httpsgithubcomAlvin9999newpacwiki 洛杉矶1SSR
-  server: sss11.free4444.xyz
+- name: 0.95| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
+  server: zjg2.free4444.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -882,33 +214,127 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.27| 中国香港Aliyun
-  server: 8.210.227.61
-  port: 7777
+- name: 0.93| 大萝卜鸡美国高速
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: static.dingtalk.com
+  skip-cert-verify: true
+- name: 0.92| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
+  server: zjg1.free4444.xyz
+  port: 443
   type: ssr
-  cipher: aes-128-ctr
-  password: osttsStudio
-  protocol: auth_sha1_v4
-  obfs: plain
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.26|RelayUAUA57
-  server: v2cross.com.03.v2ce.com
+- name: 0.92| RelayUSFR84
+  server: powerservice.com
   port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: uk2.v2rayserv.com
+- name: 0.92| TW01V2直连
+  server: tw01.henet.cyou
+  port: 20000
+  type: vmess
+  uuid: fd9aa42d-ab9b-4efe-9b2e-054cadf20f0b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: cctv.com
+- type: trojan
+  name: 0.90|USwmt812a134
+  server: 150.230.23.0
+  port: 44616
+  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
+  udp: true
+  skip-cert-verify: true
+- name: 0.88| httpsgithubcomAlvin9999newpacwiki 洛杉矶3SSR
+  server: sss7.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.86| CN2
+  server: us218.hootfun.top
+  port: 42222
   type: trojan
-  password: ZD4dLSBXiMrmzdLd
-  sni: v2cross.com.03.v2ce.com
-- name: 0.24|LT577 4418Mb
+  password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f
+  sni: us218.hootfun.top
+  skip-cert-verify: true
+- name: 0.83| httpsgithubcomAlvin9999newpacwiki 洛杉矶4SSR
+  server: sss5.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.83|LT658 4476Mb
   server: 213.183.53.200
   type: ssr
   country: LT
-  port: 9040
-  password: p9z5BVADH2YFs3MN
+  port: 9015
+  password: ZpNDDKRu9MagNvaf
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
+- name: 0.79| 日本NTT1号  解锁流媒体
+  server: 203.138.98.199
+  port: 28443
+  type: trojan
+  password: 28cc373c-0da8-45b0-a423-256c72fe232d
+  sni: www.download.windowsupdate1.com
+- name: 0.74|德国youtube阿伟科技
+  server: cf.fullcloud.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxdeovz2.fovi.tk
+  udp: true
+- name: 0.72|SE72
+  server: 138.3.208.203
+  type: vmess
+  country: SE
+  port: 43298
+  uuid: 42104b60-1988-4063-96ce-5c4b20b53130
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
 - type: vmess
-  name: 0.20|KRwmt812a1
+  name: 0.72|KRwmt812a1
   server: m4.40010010.xyz
   port: '37121'
   uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
@@ -916,97 +342,7 @@ proxies:
   cipher: auto
   network: tcp
   tls: true
-- name: 0.20|LT667 4086Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9094
-  password: rpgbNnU9rDDU4aWZ
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 0.19| v2rayfreeeuorg  美国CloudFlare节点 21
-  server: 162.159.194.69
-  port: 443
-  type: vmess
-  uuid: c024672d-0509-322e-8792-1b54cb82e1ac
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xxX2
-  ws-headers:
-    Host: blog4.2220aa.xyz
-- name: 0.18|RelayRURU64
-  server: www.olaola.top
-  type: vmess
-  country: RU
-  port: 48493
-  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.18|RelayRURU67
-  server: t04.ssrsub.com
-  type: trojan
-  country: RU
-  port: 852
-  password: f1da490c-b4ea-490f-9b5e-15620751414c
-  skip-cert-verify: true
-  udp: true
-- name: 0.18|KR44
-  server: 45.43.41.222
-  type: vmess
-  country: KR
-  port: 27121
-  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 45.43.41.222
-  ws-headers:
-    HOST: 45.43.41.222
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.17|RelayAUAU08
-  server: ztyz.info
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 4edd9354-ac43-4920-9bf0-d4b25266d116
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /4edd9354-ac43-4920-9bf0-d4b25266d116
-  servername: ztyz.info
-  ws-headers:
-    HOST: ztyz.info
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.16|RelayRURU62
-  server: www.olaola.top
-  type: vmess
-  country: RU
-  port: 8090
-  uuid: 76218523-5eae-49ae-a53a-2f043d5460b9
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.16|RelayUSZZ134
+- name: 0.69|RelayUSZZ134
   server: api.qiscus.com
   type: vmess
   country: US
@@ -1023,28 +359,19 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.13|SSRSUBV09付费推荐suoytssrsub
-  server: 129.159.41.233
-  port: 32586
+- name: 0.68| 俄罗斯2电信联通优化
+  server: ru.hootfun.top
+  port: 32411
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: ru.hootfun.top
+  skip-cert-verify: true
+- name: 0.64|GB29
+  server: 185.167.78.44
   type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.12| US72
-  server: 51.81.223.14
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.10|US141
-  server: 168.138.208.145
-  type: vmess
-  country: US
-  port: 56816
-  uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9
+  country: GB
+  port: 55055
+  uuid: 0a33e5ad-b356-4365-93ec-a800bbc6f752
   alterId: 0
   cipher: auto
   network: tcp
@@ -1052,3 +379,414 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
+- name: 0.63|JP39
+  server: 146.56.118.227
+  type: vmess
+  country: JP
+  port: 2052
+  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /update
+  servername: YouTube-aweikeji
+  ws-headers:
+    HOST: YouTube-aweikeji
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.60|US105
+  server: 174.137.48.51
+  type: vmess
+  country: US
+  port: 31237
+  uuid: 645c6186-3a02-4fae-ba98-d8e1c69ef548
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.59|KR42
+  server: 45.43.41.222
+  type: vmess
+  country: KR
+  port: 27121
+  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: 45.43.41.222
+  ws-headers:
+    HOST: 45.43.41.222
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.55|RelayJPJP38
+  server: 123456789abcd.xn--h6q53lcvpz7l.club
+  type: vmess
+  country: JP
+  port: 20942
+  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /images
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.54|US106
+  server: 192.9.249.251
+  type: vmess
+  country: US
+  port: 22619
+  uuid: 8d2eebd3-cddf-47ff-9d54-7040135deb50
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.52|RelayUSZZ132
+  server: lms.uin-antasari.ac.id
+  type: vmess
+  country: US
+  port: 80
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /vpnneo
+  servername: biznet-s.nextvpn.cc
+  ws-headers:
+    HOST: biznet-s.nextvpn.cc
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.51|RU70
+  server: 195.133.53.192
+  type: vmess
+  country: RU
+  port: 14369
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: 195.133.53.192
+  ws-headers:
+    HOST: 195.133.53.192
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.45|LT641 4232Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9033
+  password: UTJA57ypk2XKQpnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.42|RU68
+  server: 176.119.156.229
+  type: vmess
+  country: RU
+  port: 852
+  uuid: f1da490c-b4ea-490f-9b5e-15620751414c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /api/v3/download.getFile
+  servername: d76bb35696.laowanxiang.com
+  ws-headers:
+    HOST: d76bb35696.laowanxiang.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.41|LT655 4376Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9027
+  password: EXN3S3eQpjE7EJu8
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.39| v2rayfreeeuorg  美国CloudFlare节点 21
+  server: 162.159.194.69
+  port: 443
+  type: vmess
+  uuid: c024672d-0509-322e-8792-1b54cb82e1ac
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /xxX2
+  ws-headers:
+    Host: blog4.2220aa.xyz
+- name: 0.38|RelayJPJP41
+  server: in-04.licom.ml
+  type: trojan
+  country: JP
+  port: 40001
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
+- name: 0.36|RelayJPJP37
+  server: 123456789abcd.xn--h6q53lcvpz7l.club
+  type: vmess
+  country: JP
+  port: 20944
+  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /images
+  servername: v.qq.com
+  ws-headers:
+    HOST: v.qq.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.36|RelayUSUS116
+  server: emby.metalink.cf
+  type: vmess
+  country: US
+  port: 8096
+  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /chcar
+  servername: emby.metalink.cf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.35|US112
+  server: 13.213.77.103
+  type: vmess
+  country: US
+  port: 80
+  uuid: d228edcd-c9b0-4942-b42a-de6c6180ae67
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /lime
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.32|LT651 4155Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9001
+  password: UkXRsXvR6buDMG2Y
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.32| VIP香港2HeBGP
+  server: h1kbgp.hootfun.top
+  port: 41511
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: h1kbgp.hootfun.top
+  skip-cert-verify: true
+- name: 0.30| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
+  server: sss9.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.22|LT589 4129Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9050
+  password: FG5ddLsMPbV5CutE
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.21| MicrosoftHK1x
+  server: 104.208.97.180
+  port: 80
+  type: vmess
+  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 104.208.97.180
+- name: 0.21|RelayRURU66
+  server: www.olaola.top
+  type: vmess
+  country: RU
+  port: 8090
+  uuid: 76218523-5eae-49ae-a53a-2f043d5460b9
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.20| 俄罗斯电信联通优化
+  server: ru.hootfun.top
+  port: 23144
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: ru.hootfun.top
+  skip-cert-verify: true
+- name: 0.19| DE106 TGpeekfun
+  server: s4.hazz.win
+  port: 12340
+  type: trojan
+  country: ' DE'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 0.18| VIP香港HeBGP
+  server: h1kbgp.hootfun.top
+  port: 23151
+  type: trojan
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  sni: h1kbgp.hootfun.top
+  skip-cert-verify: true
+- name: 0.17|US121
+  server: 152.70.235.207
+  type: vmess
+  country: US
+  port: 35412
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: hy
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.17|LT653 4318Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9020
+  password: BNmAXXxAHYpTRdzu
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.16|RelayUSUS110
+  server: v20.emovpn.xyz
+  type: vmess
+  country: US
+  port: 1256
+  uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: pull.free.video.10010.com
+  ws-headers:
+    HOST: pull.free.video.10010.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.16|RelayRURU67
+  server: www.olaola.top
+  type: vmess
+  country: RU
+  port: 48493
+  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.15|LT578 4249Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9073
+  password: daFYagqDdBdA6VTX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.15|LT654 4037Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9014
+  password: KnJGad3FqTvjqbaX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.14|LT646 4286Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9006
+  password: FAdUvMJUq5vDgKEq
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.14| MicrosoftJP21x
+  server: 20.210.208.95
+  port: 80
+  type: vmess
+  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.210.208.95
+- name: 0.13|LT636 4423Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9024
+  password: BejrQvtu9sqUeNuZ
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.12|LT650 3925Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9003
+  password: JdmRK9gMEqFgs8nP
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.12|LT637 4418Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9031
+  password: BwcAUZk8hUFAkDGN
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 0.12|LT635 4116Mb
+  server: 213.183.53.200
+  type: ssr
+  country: LT
+  port: 9088
+  password: f8npKgNzdkss2ytn
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
