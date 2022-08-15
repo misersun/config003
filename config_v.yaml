@@ -1,17 +1,5 @@
 proxies:
-- name: 1.11| CCUS01x
-  server: 198.211.4.61
-  port: 80
-  type: vmess
-  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 198.211.4.61
-- name: 0.62|韩国youtube阿伟科技 10
+- name: 4.98|韩国youtube阿伟科技 10
   server: 146.56.161.42
   port: 80
   type: vmess
@@ -29,7 +17,33 @@ proxies:
       Host:
       - 146.56.161.42
   udp: true
-- name: 0.60|JP26
+- name: 2.86|RU61
+  server: 45.154.3.100
+  type: vmess
+  country: RU
+  port: 18572
+  uuid: 1f578daf-b6c5-465b-f3b7-cf90b95d92e8
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.60|TW70
+  server: 61.222.202.140
+  type: vmess
+  country: TW
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.35|JP26
   server: 146.56.167.249
   type: vmess
   country: JP
@@ -42,12 +56,12 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.48|RelayUSUS64
-  server: sg.guiqing.ml
+- name: 1.32|US101
+  server: 198.148.127.62
   type: vmess
   country: US
-  port: 43956
-  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  port: 29571
+  uuid: ed170bc7-864a-4dc4-9dc5-ccb9123c3e8e
   alterId: 0
   cipher: auto
   network: tcp
@@ -55,7 +69,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.39|RelayUSZZ132
+- name: 0.62|US99
+  server: 47.242.187.154
+  type: vmess
+  country: US
+  port: 38838
+  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.53|RelayUSZZ132
   server: lms.uin-antasari.ac.id
   type: vmess
   country: US
@@ -71,47 +98,87 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.23|RelayUSSG71
-  server: 104.18.105.170
+- name: 0.36|RelayJPJP34
+  server: 123456789abcd.xn--h6q53lcvpz7l.club
   type: vmess
-  country: US
-  port: 80
-  uuid: 20000000-0000-0000-0000-000000000020
+  country: JP
+  port: 20942
+  uuid: e278c68f-4716-4798-a9c6-1f91d74499d8
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /20
-  servername: dosg.azure.bond
+  ws-path: /images
+  servername: v.qq.com
   ws-headers:
-    HOST: dosg.azure.bond
+    HOST: v.qq.com
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.19| CC2US01x
-  server: 198.211.4.60
-  port: 80
+- name: 0.28|JP32
+  server: 146.56.103.73
   type: vmess
-  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  country: JP
+  port: 55561
+  uuid: 94b0d978-913d-4e4e-988c-56e0bbd7defa
   alterId: 0
   cipher: auto
-  tls: false
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.25|RU60
+  server: 195.133.53.192
+  type: vmess
+  country: RU
+  port: 43688
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  alterId: 0
+  cipher: auto
   network: ws
   ws-path: /
+  servername: YouTube-aweikeji
   ws-headers:
-    Host: 198.211.4.60
-- name: 0.12|US66
-  server: 20.210.208.95
+    HOST: YouTube-aweikeji
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.24|JP33
+  server: 146.56.103.73
+  type: vmess
+  country: JP
+  port: 36945
+  uuid: 2a51bbe1-f4e3-4bab-84b8-784e3d45a159
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.22|US107
+  server: 152.70.235.207
   type: vmess
   country: US
-  port: 80
-  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  port: 35412
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
   alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
+  ws-path: hy
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.17|GB29
+  server: 144.24.92.192
+  type: vmess
+  country: GB
+  port: 80
+  uuid: 29d057f9-1600-4a18-b595-62a14073a230
+  alterId: 0
+  cipher: auto
+  network: tcp
   ws-path: /
-  servername: 20.210.208.95
-  ws-headers:
-    HOST: 20.210.208.95
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true

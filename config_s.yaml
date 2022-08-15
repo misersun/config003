@@ -1,58 +1,18 @@
 proxies:
-- name: 0.68|RelayUSCA77
-  server: 172.67.199.34
-  type: vmess
-  country: US
-  port: 443
-  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /fastssh/djdkk/62f2402db5bf7/
-  servername: sg-ovh3.v2-ray.com
-  ws-headers:
-    HOST: sg-ovh3.v2-ray.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+- name: 1.93| 专线新加坡 01 1x
+  server: singapore.bpnet.club
+  port: 30241
+  type: trojan
+  password: fcb26379-5505-432e-9ab6-e2c96e94102d
+  sni: singapore.bpnet.club
+- name: 1.22| 大萝卜鸡美国高速
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: static.dingtalk.com
   skip-cert-verify: true
-- name: 0.65|美国youtube阿伟科技 31
-  server: us.dreamlin.xyz
-  port: 12000
-  type: vmess
-  uuid: 55805bea-a238-4011-97cc-43a5126ecc49
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.62| RelayUSFR84
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 0.43|FR23
-  server: 192.248.181.2
-  type: vmess
-  country: FR
-  port: 443
-  uuid: 611bbdbb-1138-4797-8d9f-f92f595b7c7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.43|RelayUSZZ76
+- name: 0.83|RelayUSZZ76
   server: api.qiscus.com
   type: vmess
   country: US
@@ -69,49 +29,46 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.33| 德国2G口
-  server: dg.hootfun.top
-  port: 32451
+- name: 0.59|RelayUSUS114
+  server: los3.doubledou.win
   type: trojan
-  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
-  sni: dg.hootfun.top
+  country: US
+  port: 6520
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
   skip-cert-verify: true
-- name: 0.30|RelayRURU49
-  server: www.olaola.top
+  udp: true
+- name: 0.55|RelayJP06
+  server: in-01.licom.ml
+  type: trojan
+  port: 8443
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+- name: 0.55|RelayUSUS102
+  server: emby.metalink.cf
   type: vmess
-  country: RU
-  port: 48493
-  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
+  country: US
+  port: 36369
+  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ws-path: /
+  servername: emby.metalink.cf
+  ws-headers:
+    HOST: emby.metalink.cf
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.29| 大萝卜鸡美国高速
-  server: s1.hazz.win
-  port: 12340
+- name: 0.43| US227 TGpeekfun
+  server: fhcamd2.gaox.ml
+  port: 443
   type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: static.dingtalk.com
+  country: ' US'
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
-- name: 0.20| 俄罗斯电信联通优化
-  server: ru.hootfun.top
-  port: 23144
-  type: trojan
-  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
-  sni: ru.hootfun.top
-  skip-cert-verify: true
-- name: 0.15| CN2
-  server: us218.hootfun.top
-  port: 42222
-  type: trojan
-  password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f
-  sni: us218.hootfun.top
-  skip-cert-verify: true
-- name: 0.12|RelayLULU32
+  udp: true
+- name: 0.38|RelayLULU40
   server: lsb.jcnf.app
   type: vmess
   country: LU
@@ -128,3 +85,56 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
+- name: 0.32| US235 TGpeekfun
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  country: ' US'
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  skip-cert-verify: true
+  udp: true
+- name: 0.30| RelayUSFR84
+  server: powerservice.com
+  port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: uk2.v2rayserv.com
+- name: 0.29|RelayUSCA77
+  server: 172.67.199.34
+  type: vmess
+  country: US
+  port: 443
+  uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /fastssh/djdkk/62f2402db5bf7/
+  servername: sg-ovh3.v2-ray.com
+  ws-headers:
+    HOST: sg-ovh3.v2-ray.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.17|RelayUSUS113
+  server: dg.hootfun.top
+  type: trojan
+  country: US
+  port: 31324
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  skip-cert-verify: true
+  udp: true
+- name: 0.16|RelayJPJP37
+  server: in-04.licom.ml
+  type: trojan
+  country: JP
+  port: 40001
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
