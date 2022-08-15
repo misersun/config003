@@ -1,5 +1,18 @@
 proxies:
-- name: 4.98|韩国youtube阿伟科技 10
+- name: 6.04|TW70
+  server: 61.222.202.140
+  type: vmess
+  country: TW
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.12|韩国youtube阿伟科技 10
   server: 146.56.161.42
   port: 80
   type: vmess
@@ -17,7 +30,7 @@ proxies:
       Host:
       - 146.56.161.42
   udp: true
-- name: 2.86|RU61
+- name: 2.48|RU61
   server: 45.154.3.100
   type: vmess
   country: RU
@@ -30,33 +43,39 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.60|TW70
-  server: 61.222.202.140
+- name: 2.01|RelayUSUS100
+  server: us1.grpc.stream
   type: vmess
-  country: TW
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  country: US
+  port: 80
+  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /us1
+  servername: us1.grpc.stream
+  ws-headers:
+    HOST: us1.grpc.stream
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.75|US112
+  server: 47.243.134.69
+  type: vmess
+  country: US
+  port: 21860
+  uuid: f27a89ff-2b5e-4be1-c29c-08b05f56cea9
   alterId: 0
   cipher: auto
   network: ws
   ws-path: /
+  servername: 47.243.134.69
+  ws-headers:
+    HOST: 47.243.134.69
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.35|JP26
-  server: 146.56.167.249
-  type: vmess
-  country: JP
-  port: 41954
-  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.32|US101
+- name: 1.67|US98
   server: 198.148.127.62
   type: vmess
   country: US
@@ -69,12 +88,12 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.62|US99
-  server: 47.242.187.154
+- name: 1.32|US114
+  server: 168.138.201.208
   type: vmess
   country: US
-  port: 38838
-  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
+  port: 10328
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
   alterId: 0
   cipher: auto
   network: tcp
@@ -82,23 +101,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.53|RelayUSZZ132
-  server: lms.uin-antasari.ac.id
-  type: vmess
-  country: US
-  port: 80
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /vpnneo
-  servername: biznet-s.nextvpn.cc
-  ws-headers:
-    HOST: biznet-s.nextvpn.cc
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.36|RelayJPJP34
+- name: 1.31|RelayJPJP41
   server: 123456789abcd.xn--h6q53lcvpz7l.club
   type: vmess
   country: JP
@@ -114,7 +117,133 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.28|JP32
+- name: 1.26|US115
+  server: 20.194.228.239
+  type: vmess
+  country: US
+  port: 44444
+  uuid: b9ee113f-b299-4d62-e89d-d6a943fee8f8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /23564
+  servername: 20.194.228.239
+  ws-headers:
+    HOST: 20.194.228.239
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.11|08
+  server: 129.159.41.233
+  type: vmess
+  port: 32586
+  uuid: 341a9182-c423-499c-c46e-d17838b29037
+  alterId: 0
+  cipher: auto
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.09|US99
+  server: 20.219.185.167
+  type: vmess
+  country: US
+  port: 44444
+  uuid: c82c12f2-eaaf-4648-9496-04c370275e1f
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /44444
+  servername: 20.219.185.167
+  ws-headers:
+    HOST: 20.219.185.167
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.86|RelayUSZZ103
+  server: lms.uin-antasari.ac.id
+  type: vmess
+  country: US
+  port: 80
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /vpnneo
+  servername: biznet-s.nextvpn.cc
+  ws-headers:
+    HOST: biznet-s.nextvpn.cc
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.76|US109
+  server: 152.70.235.207
+  type: vmess
+  country: US
+  port: 35412
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: hy
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.66|SG77
+  server: 161.117.229.166
+  type: vmess
+  country: SG
+  port: 8888
+  uuid: 081f8acf-742b-4af5-ca99-6186c80e635b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.46|RU71
+  server: 176.119.156.229
+  type: vmess
+  country: RU
+  port: 852
+  uuid: d8713e9c-b73d-4179-bddf-b975847ec6f5
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /api/v3/download.getFile
+  servername: d76bb35696.laowanxiang.com
+  ws-headers:
+    HOST: d76bb35696.laowanxiang.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.36|AU12
+  server: 43.154.190.154
+  type: vmess
+  country: AU
+  port: 23702
+  uuid: a4d1a670-b727-4f2e-f392-9794215e54ac
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.20|JP26
+  server: 146.56.167.249
+  type: vmess
+  country: JP
+  port: 41954
+  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.19|JP32
   server: 146.56.103.73
   type: vmess
   country: JP
@@ -127,7 +256,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.25|RU60
+- name: 0.19|RU60
   server: 195.133.53.192
   type: vmess
   country: RU
@@ -143,42 +272,41 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 0.24|JP33
-  server: 146.56.103.73
-  type: vmess
-  country: JP
-  port: 36945
-  uuid: 2a51bbe1-f4e3-4bab-84b8-784e3d45a159
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.22|US107
-  server: 152.70.235.207
+- name: 0.16|US116
+  server: 138.2.114.151
   type: vmess
   country: US
-  port: 35412
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: hy
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.17|GB29
-  server: 144.24.92.192
-  type: vmess
-  country: GB
-  port: 80
-  uuid: 29d057f9-1600-4a18-b595-62a14073a230
+  port: 39912
+  uuid: 4512df87-c2de-446f-fa75-d451c3bb9d24
   alterId: 0
   cipher: auto
   network: tcp
   ws-path: /
+  servername: YouTube-aweikeji
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.15|US101
+  server: 138.2.114.151
+  type: vmess
+  country: US
+  port: 56848
+  uuid: 6d22f92e-c2d6-4941-99b8-fd74234357a5
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: YouTube-aweikeji
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.10|10
+  server: 23.230.146.254
+  type: vmess
+  port: 1258
+  uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+  alterId: 0
+  cipher: auto
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
