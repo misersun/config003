@@ -1,15 +1,69 @@
 proxies:
-- name: 5.25|中国香港youtube阿伟科技 2
-  server: 103.135.103.153
-  port: 41446
+- name: 3.56| 主力狮城1丨负载均衡4
+  server: v51.xn--6nq44r2uh9rhj7f.com
+  port: 80
   type: vmess
-  uuid: d6559d1e-36fe-46ba-f312-604724b3f03b
+  uuid: a534b80a-e674-4b9d-9778-884d60e8cc55
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.98| RelayUSUS74
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 1.57| 主力韩国1丨负载均衡2
+  server: v41.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: a534b80a-e674-4b9d-9778-884d60e8cc55
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 1.29| 主力印度1丨负载均衡2
+  server: v61.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: a534b80a-e674-4b9d-9778-884d60e8cc55
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.81| v2rayfreeeuorg  新加坡阿里云 2
+  server: 47.241.220.160
+  port: 46622
+  type: vmess
+  uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 0.42|SGwmt817a137
+  server: 161.117.229.166
+  port: '8888'
+  uuid: 081f8acf-742b-4af5-ca99-6186c80e635b
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.32| 主力香港1丨负载均衡2
+  server: v21.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: a534b80a-e674-4b9d-9778-884d60e8cc55
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.25| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 12
   server: bwg2.gushidawang.cc
   port: 57539
   type: vmess
@@ -17,106 +71,23 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+- name: 0.24| RelayUSUS76
+  server: sg.guiqing.ml
+  port: 43956
+  type: vmess
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  alterId: 0
+  cipher: auto
+  tls: false
 - type: vmess
-  name: 1.87|SGwmt817a137
-  server: 161.117.229.166
-  port: '8888'
-  uuid: 081f8acf-742b-4af5-ca99-6186c80e635b
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.28| v2rayfreeeuorg  香港环球全域电讯国际互联节点 9
-  server: v2-tcp.shop
-  port: 15027
-  type: vmess
-  uuid: f954872a-da74-44e6-a16f-25d2329962ad
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: Apple.com
-- name: 1.17|越南youtube阿伟科技
-  server: hcm.fuzzyng.com
-  port: 80
-  type: vmess
-  uuid: 7f7baf29-934e-43c5-9fb2-0b651855953f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+  name: 0.10|CZwmt817a116
   ws-opts:
-    path: /fuzzyng?ed=2048
+    path: /
     headers:
-      Host: YouTube-aweikeji
-  udp: true
-- type: vmess
-  name: 0.80|USwmt817a91
-  server: 54.163.190.148
-  port: '31468'
-  uuid: 30c9f74f-2a80-463e-b3e4-a933d996309f
+      host: 195.133.53.192
+  server: 195.133.53.192
+  port: '14369'
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
   alterId: '0'
   cipher: auto
-  network: tcp
-- name: 0.77| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 6
-  server: 64.64.229.34
-  port: 10000
-  type: vmess
-  uuid: 289e85e9-2272-46fb-85a2-6eee04005afa
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
-  ws-path: /289e85e9-2272-46fb-85a2-6eee04005afa
-  ws-headers:
-    Host: 64.64.229.34
-- name: 0.52|日本youtube阿伟科技 11
-  server: 146.56.184.242
-  port: 19570
-  type: vmess
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- type: vmess
-  name: 0.51|CNwmt817a37
-  server: 43.156.35.124
-  port: '21953'
-  uuid: 4ef2b7d6-3f58-42c2-95ad-061001b712d3
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.41| v2rayfreeeuorg  美国3COM公司企业网 23
-  server: 152.67.218.38
-  port: 443
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 0.32| githubcomfreefq  美国  2
-  server: 129.159.41.233
-  port: 32586
-  type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.12|中国香港youtube阿伟科技 12
-  server: 16.162.100.9
-  port: 6688
-  type: vmess
-  uuid: 703a041f-b1f5-46e2-ca57-7329a9c62844
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
