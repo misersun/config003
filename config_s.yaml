@@ -1,41 +1,32 @@
 proxies:
-- name: 7.03| US SJC CTG 02 TRtrojan
+- name: 13.22| US SJC CTG 02 TRtrojan
   server: us-sjc-ctg-02-tr.node.inforun.work
   port: 889
   type: trojan
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   sni: cdn.savoy.click
-- name: 4.36|印度youtube阿伟科技 2
-  server: cloudflare.catcdndev.tk
-  port: 443
-  type: vmess
-  uuid: f977588f-0890-4fd7-9c36-4f13cd20527f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vido/4k
-    headers:
-      Host: in-01-dev.lilicloud.cf
+- type: trojan
+  name: 0.88|USwmt820a12
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
-- name: 4.12|韩国youtube阿伟科技 3
-  server: v2ray10.free4444.xyz
-  port: 443
-  type: vmess
-  uuid: d3ceb960-10dd-463b-851f-923377ea9d84
-  alterId: 0
-  cipher: auto
-  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: v2ray10.free4444.xyz
+- type: trojan
+  name: 0.73|USwmt818a16
+  server: fhcamd2.gaox.ml
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   udp: true
-- name: 3.07|中国台湾youtube阿伟科技 9
+  skip-cert-verify: true
+- name: 0.44| 大萝卜鸡美国高速
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: static.dingtalk.com
+  skip-cert-verify: true
+- name: 0.31|中国台湾youtube阿伟科技 9
   server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
   port: 888
   type: vmess
@@ -50,28 +41,30 @@ proxies:
     headers:
       Host: cdn.savoy.click
   udp: true
-- name: 1.71| 大萝卜鸡美国高速
-  server: s1.hazz.win
+- name: 0.24| UA105 TGpeekfun
+  server: v2cross.com.05.v2ce.com
+  port: 443
+  type: trojan
+  country: ' UA'
+  password: kGrwqmB1nEKUsDwE
+  skip-cert-verify: true
+  udp: true
+- name: 0.21| 大萝卜鸡新加坡
+  server: s2.hazz.win
   port: 12340
   type: trojan
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   sni: static.dingtalk.com
   skip-cert-verify: true
 - type: trojan
-  name: 1.48|USwmt817a113
-  server: fhcamd2.gaox.ml
+  name: 0.21|KRwmt820a2
+  server: kr1.api-aws.com
   port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
   udp: true
   skip-cert-verify: true
-- name: '1.40| 美国  25x  簽到可免費使用  體驗節點  E2  官網  ninihaocc  体验节点不等于付费节点效果喔 '
-  server: azgy001.xiba1.xyz
-  port: 20785
-  type: trojan
-  password: 42d7815b-6f91-312f-94e4-74c3e6b53c0e
-  sni: ssl.ssl12.xyz
 - type: vmess
-  name: 1.25|KR韩国
+  name: 0.17|KR韩国
   server: m4.40010010.xyz
   port: 37121
   uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
@@ -79,32 +72,7 @@ proxies:
   cipher: auto
   network: tcp
   tls: true
-- name: 1.10|US3
-  server: 192.96.204.250
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /ws
-  ws-headers:
-    HOST: usa-washington.lvuft.com
-  skip-cert-verify: true
-  servername: usa-washington.lvuft.com
-- name: 1.05|新加坡youtube阿伟科技 5
-  server: www.fuckdbuy.xyz
-  port: 57170
-  type: vmess
-  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.49| githubcomfreefq  英国伦敦Linode数据中心 21
+- name: 0.16| v2rayfreeeuorg  英国伦敦Linode数据中心 21
   server: vuk2.0bad.com
   port: 443
   type: vmess
@@ -116,33 +84,11 @@ proxies:
   ws-path: /chat
   ws-headers:
     Host: vuk2.0bad.com
-- name: 0.27| 大萝卜鸡新加坡
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: static.dingtalk.com
-  skip-cert-verify: true
-- name: 0.12| DE70 TGpeekfun
+- name: 0.13| DE70 TGpeekfun
   server: s4.hazz.win
   port: 12340
   type: trojan
   country: ' DE'
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
-  udp: true
-- name: 0.10|中国台湾youtube阿伟科技 10
-  server: 810hk05.fx6688.top
-  port: 443
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: 810hk05.fx6688.top
   udp: true

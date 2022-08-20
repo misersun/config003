@@ -1,5 +1,56 @@
 proxies:
-- name: 1.60| githubcomfreefq  美国RF Engineering 26
+- name: 1.15| 主力韩国1丨负载均衡2
+  server: v41.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: 410279b5-b4d9-4788-b627-0b23beb56092
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.83| 主力澳大利亚
+  server: v87.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: 410279b5-b4d9-4788-b627-0b23beb56092
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.70|印尼youtube阿伟科技 2
+  server: cdn.digicertcdn.com
+  port: 80
+  type: vmess
+  uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: biznet3.nextvpn.cc
+  udp: true
+- name: 0.46| 主力香港丨流媒体丨6x扣费
+  server: v26.xn--6nq44r2uh9rhj7f.com
+  port: 80
+  type: vmess
+  uuid: 410279b5-b4d9-4788-b627-0b23beb56092
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.27| githubcomfreefq  美国RF Engineering 25
   server: blogs.microsoft.com
   port: 80
   type: vmess
@@ -11,48 +62,15 @@ proxies:
   ws-path: /
   ws-headers:
     Host: net2.xtls.my.id
-- name: 0.73| githubcomfreefq  美国  4
-  server: 137.184.118.47
-  port: 51649
-  type: vmess
-  uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.48| v2rayfreeeuorg  美国CloudFlare节点 7
-  server: lms.uin-antasari.ac.id
+- name: 0.21| 主力英国
+  server: v83.xn--6nq44r2uh9rhj7f.com
   port: 80
   type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  uuid: 410279b5-b4d9-4788-b627-0b23beb56092
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vpnneo
+  ws-path: /
   ws-headers:
-    Host: biznet-s.nextvpn.cc
-- name: 0.46|印尼youtube阿伟科技
-  server: 141.193.213.20
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpnneo
-    headers:
-      Host: sanggoro6.nextvpn.cc
-  udp: true
-- name: 0.43|中国香港youtube阿伟科技 8
-  server: 16.162.100.9
-  port: 6688
-  type: vmess
-  uuid: 703a041f-b1f5-46e2-ca57-7329a9c62844
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
+    Host: tms.dingtalk.com
