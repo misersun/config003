@@ -1,13 +1,25 @@
 proxies:
-- name: 2.78|SSRSUBV36付费推荐suoytssrsub
-  server: 47.242.187.154
-  port: 38838
+- name: 1.60| githubcomfreefq  美国RF Engineering 26
+  server: blogs.microsoft.com
+  port: 80
   type: vmess
-  uuid: 383e161c-7fff-4a6f-f8f5-08c303e5429b
+  uuid: 15df1f53-9101-404b-dd52-7774cdb3c218
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.44| githubcomfreefq  美国CloudFlare节点 12
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: net2.xtls.my.id
+- name: 0.73| githubcomfreefq  美国  4
+  server: 137.184.118.47
+  port: 51649
+  type: vmess
+  uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.48| v2rayfreeeuorg  美国CloudFlare节点 7
   server: lms.uin-antasari.ac.id
   port: 80
   type: vmess
@@ -19,3 +31,28 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: biznet-s.nextvpn.cc
+- name: 0.46|印尼youtube阿伟科技
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: sanggoro6.nextvpn.cc
+  udp: true
+- name: 0.43|中国香港youtube阿伟科技 8
+  server: 16.162.100.9
+  port: 6688
+  type: vmess
+  uuid: 703a041f-b1f5-46e2-ca57-7329a9c62844
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
