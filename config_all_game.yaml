@@ -1,15 +1,143 @@
 proxies:
-- name: 6.48| IEPL香港 普通 5  Nearoute
-  server: nk5.boom.skin
-  port: 15000
+- name: 11.36| Lv3 香港 07 20
+  server: debian10.updatensv3.com
+  port: 8765
+  type: ss
+  cipher: aes-128-gcm
+  password: 24ffe5a4c321e0b926dc335a91c2d78a
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: eb19780f3835.microsoft.com
+- name: 11.32| Lv3 香港 06 30
+  server: debian10.updatensv3.com
+  port: 8015
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: d6fa3a869c3a4a3edb8416e36a59e4aa
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: eb19780f3835.microsoft.com
+- name: 11.20| Lv3 香港 03 30
+  server: debian10.domainsv3.com
+  port: 8003
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 0a00fe526e3592521559427839020652
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: eb19780f3835.microsoft.com
+- name: 10.58| 香港
+  server: relay.wl-node1.com
+  port: 39002
+  type: ss
+  cipher: aes-128-gcm
+  password: dded6ef8-0bc4-4c84-98ec-8e74eba97b00
+- name: 8.85| Lv3 香港 09 20
+  server: centos7.websitesv3.com
+  port: 8761
+  type: ss
+  cipher: aes-128-gcm
+  password: 72aeb07ee55b1f9e331da9572e3c2261
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: eb19780f3835.microsoft.com
+- name: 7.26| Lv3 香港 08 20
+  server: centos7.websitesv3.com
+  port: 8763
+  type: ss
+  cipher: aes-128-gcm
+  password: 3e5d82b03956c907373cd5615e46704c
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: eb19780f3835.microsoft.com
+- name: 4.41| Lv2 日本 04 20
+  server: sdfwh.guaranteev2.com
+  port: 7413
+  type: ss
+  cipher: aes-128-gcm
+  password: 1197b38cb1e8a1a07b93e9269126bccd
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: a68f742ca034.microsoft.com
+- name: 3.84| Lv2 日本 01 20
+  server: sdfwh.guaranteev2.com
+  port: 7410
+  type: ss
+  cipher: aes-128-gcm
+  password: 5478031491c1d1373c959397435f2a35
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: a68f742ca034.microsoft.com
+- name: 3.71| Lv2 日本 05 20
+  server: oadht.guaranteev2.com
+  port: 7414
+  type: ss
+  cipher: aes-128-gcm
+  password: 9d7dbacfbd2d308e4ded7c6434770bc3
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: a68f742ca034.microsoft.com
+- name: 3.06| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
+  server: clash11.free4444.xyz
+  port: 443
   type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 397400:7OFQDI
-  obfs-param: download.windowsupdate.com
-- name: 2.67| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.82| CN55 TGpeekfun
+  server: 14.29.124.168
+  port: 25267
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.52| CN53 TGpeekfun
+  server: 14.29.124.168
+  port: 25241
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.50| CN45 TGpeekfun
+  server: 14.29.124.168
+  port: 25294
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.47| CN51 TGpeekfun
+  server: 14.29.124.168
+  port: 25219
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.42| CN52 TGpeekfun
+  server: 14.29.124.168
+  port: 25230
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.40| CN54 TGpeekfun
+  server: 14.29.124.168
+  port: 25233
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.37|油管0阿伟科技 8
   server: ssr5.free4444.xyz
   port: 443
   type: ssr
@@ -19,24 +147,30 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.30|台湾02
-  server: dx15.jicojs.com
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 46c027d028b4
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: dx15.jicojs.com
-    path: ''
-    tls: true
-    mux: true
-    skip-cert-verify: true
   udp: true
-- name: 2.06| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
-  server: clash26.free4444.xyz
-  port: 12345
+- name: 2.35| CN48 TGpeekfun
+  server: 14.29.124.168
+  port: 25231
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 2.15| CN49 TGpeekfun
+  server: 14.29.124.168
+  port: 25252
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 1.75| Lv2 新加坡 03 20
+  server: ersgdf.passwordv2.com
+  port: 7402
+  type: ss
+  cipher: aes-128-gcm
+  password: c0b4efb0-ab81-46f8-87af-815b62351089
+- name: 1.74|油管0阿伟科技 6
+  server: clash16.free4444.xyz
+  port: 44004
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -44,142 +178,19 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.05| CN59 TGpeekfun
-  server: 14.29.124.168
-  port: 25247
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 2.04| CN29 TGpeekfun
-  server: 14.29.124.168
-  port: 25245
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- type: ss
-  name: 2.02|CNwmt818a32
-  server: 14.29.124.168
-  port: 25210
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 1.97| CN51 TGpeekfun
-  server: 14.29.124.168
-  port: 25230
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.96| CN49 TGpeekfun
-  server: 14.29.124.168
-  port: 25252
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.96|019油管YYy
-  server: 173.82.245.228
-  port: 50005
+  udp: true
+- name: 1.55|油管0阿伟科技 7
+  server: sss5.free4444.xyz
+  port: 443
   type: ssr
   cipher: dummy
-  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
+  password: dongtaiwang.com
   protocol: auth_chain_a
-  obfs: plain
+  obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.83| CN52 TGpeekfun
-  server: 14.29.124.168
-  port: 25241
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.82| CN61 TGpeekfun
-  server: 14.29.124.168
-  port: 25272
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.78| CN34 TGpeekfun
-  server: 14.29.124.168
-  port: 25289
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.69| CN58 TGpeekfun
-  server: 14.29.124.168
-  port: 25254
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.63| CN28 TGpeekfun
-  server: 14.29.124.168
-  port: 25270
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.60| CN57 TGpeekfun
-  server: 14.29.124.168
-  port: 25280
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- type: ss
-  name: 1.45|CNwmt818a41
-  server: 14.29.124.168
-  port: 25256
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 1.44| CN70 TGpeekfun
-  server: 14.29.124.168
-  port: 25284
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.24| CN60 TGpeekfun
-  server: 14.29.124.168
-  port: 25259
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.14| CN50 TGpeekfun
-  server: 14.29.124.168
-  port: 25283
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.13| CN64 TGpeekfun
-  server: 14.29.124.168
-  port: 25266
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.12| CN35 TGpeekfun
-  server: 14.29.124.168
-  port: 25287
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.10| CN63 TGpeekfun
-  server: 14.29.124.168
-  port: 25222
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 1.07|油管阿伟科技 8
+- name: 1.51|油管阿伟科技 8
   server: zjg1.free4444.xyz
   port: 443
   type: ssr
@@ -190,17 +201,37 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.83| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶
-  server: sss10.free4444.xyz
-  port: 443
+- name: 1.49| CN44 TGpeekfun
+  server: 14.29.124.168
+  port: 25238
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- type: ss
+  name: 1.38|USwmt820a17
+  server: 38.143.66.20
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.36|019油管YYy
+  server: 173.82.245.228
+  port: 50005
   type: ssr
   cipher: dummy
-  password: dongtaiwang.com
+  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
   protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
+  obfs: plain
   protocol-param: ''
   obfs-param: ''
-- name: 0.76| httpsgithubcomAlvin9999newpacwiki 洛杉矶3SSR
+  udp: true
+- name: 1.20| Lv2 新加坡 02 15
+  server: ersgdf.passwordv2.com
+  port: 7401
+  type: ss
+  cipher: aes-128-gcm
+  password: c0b4efb0-ab81-46f8-87af-815b62351089
+- name: 1.06|油管阿伟科技 7
   server: sss7.free4444.xyz
   port: 443
   type: ssr
@@ -210,7 +241,19 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.67|油管阿伟科技 3
+  udp: true
+- name: 0.96|油管0阿伟科技
+  server: clash26.free4444.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.91|油管阿伟科技 3
   server: zjg2.free4444.xyz
   port: 443
   type: ssr
@@ -221,40 +264,53 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.58| CN67 TGpeekfun
+- name: 0.82| CN39 TGpeekfun
   server: 14.29.124.168
-  port: 25251
+  port: 25220
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.51| SG05 WangCai1
-  server: 81.90.189.41
-  port: 805
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 0.51| CN32 TGpeekfun
+- name: 0.82| CN43 TGpeekfun
   server: 14.29.124.168
-  port: 25218
+  port: 25235
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.51| SG01 WangCai1
-  server: 81.90.189.41
-  port: 801
+- name: 0.74| CN50 TGpeekfun
+  server: 14.29.124.168
+  port: 25283
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 0.49| SG00 WangCai1
-  server: 81.90.189.41
-  port: 800
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 0.49| httpsgithubcomAlvin9999newpacwiki 洛杉矶2SSR
-  server: sss9.free4444.xyz
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- type: ss
+  name: 0.73|JPwmt820a5
+  server: 85.208.108.93
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- type: ss
+  name: 0.60|JPwmt820a7
+  server: 85.208.108.93
+  port: 7306
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ss
+  name: 0.58|USwmt820a13
+  server: 38.143.66.20
+  port: 9102
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- type: ss
+  name: 0.54|JPwmt820a3
+  server: 85.208.108.93
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 0.53| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶
+  server: sss10.free4444.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -263,64 +319,143 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.43| CN54 TGpeekfun
-  server: 14.29.124.168
-  port: 25268
+- type: ss
+  name: 0.53|JPwmt820a9
+  server: 85.208.108.93
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 0.53| JP8118 WangCai1
+  server: 85.208.108.19
+  port: 8118
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.43| CN53 TGpeekfun
-  server: 14.29.124.168
-  port: 25233
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.53| JP5000 WangCai1
+  server: 85.208.108.19
+  port: 5000
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.38| CN36 TGpeekfun
-  server: 14.29.124.168
-  port: 25295
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 0.52|JPwmt820a6
+  server: 85.208.108.93
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 0.45|油管0阿伟科技 18
+  server: sss11.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.44| JP3389 WangCai1
+  server: 85.208.108.19
+  port: 3389
   type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.34| SG08 WangCai1
-  server: 81.90.189.41
-  port: 808
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 0.28| CN56 TGpeekfun
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 0.37|JPwmt820a4
+  server: 85.208.108.93
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 0.37|JPwmt820a8
+  server: 85.208.108.93
+  port: 8881
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 0.32| CN56 TGpeekfun
   server: 14.29.124.168
   port: 25261
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.15| CN62 TGpeekfun
+- name: 0.28| CN33 TGpeekfun
   server: 14.29.124.168
-  port: 25207
+  port: 25287
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.14| CN55 TGpeekfun
+- name: 0.25| CN30 TGpeekfun
   server: 14.29.124.168
-  port: 25267
+  port: 25218
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.13| CN46 TGpeekfun
+- name: 0.20|US3
+  server: 138.68.248.130
+  port: 811
+  type: ss
+  password: Ultr@r00t_2017
+  cipher: chacha20-ietf-poly1305
+- name: 0.19| CN46 TGpeekfun
   server: 14.29.124.168
   port: 25296
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.10| 中国0818215
+- name: 0.15| CN67 TGpeekfun
   server: 14.29.124.168
-  port: 24009
+  port: 25251
   type: ss
-  cipher: aes-128-cfb
+  country: ' CN'
   password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.13|油管阿伟科技 2
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.13| CN34 TGpeekfun
+  server: 14.29.124.168
+  port: 25295
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.13| CN42 TGpeekfun
+  server: 14.29.124.168
+  port: 25217
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.12| CN71 TGpeekfun
+  server: 14.29.124.168
+  port: 25284
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.11| CN65 TGpeekfun
+  server: 14.29.124.168
+  port: 25226
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.10| CN37 TGpeekfun
+  server: 14.29.124.174
+  port: 11033
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
