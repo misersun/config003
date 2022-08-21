@@ -1,70 +1,59 @@
 proxies:
-- name: 13.22| US SJC CTG 02 TRtrojan
-  server: us-sjc-ctg-02-tr.node.inforun.work
-  port: 889
-  type: trojan
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  sni: cdn.savoy.click
 - type: trojan
-  name: 0.88|USwmt820a12
+  name: 4.40|KRwmt820a2
+  server: kr1.api-aws.com
+  port: 443
+  password: 84773125-8f79-481c-a80b-e1f4aad86850
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 2.73|USwmt820a12
   server: s3.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.73|USwmt818a16
+- name: 1.18| 甲骨文凤凰城AMD2trojan
   server: fhcamd2.gaox.ml
   port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  udp: true
-  skip-cert-verify: true
-- name: 0.44| 大萝卜鸡美国高速
-  server: s1.hazz.win
-  port: 12340
   type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: static.dingtalk.com
-  skip-cert-verify: true
-- name: 0.31|中国台湾youtube阿伟科技 9
-  server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
-  port: 888
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- name: 0.85|韩国youtube阿伟科技 3
+  server: v2ray10.free4444.xyz
+  port: 443
   type: vmess
-  uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7
+  uuid: d3ceb960-10dd-463b-851f-923377ea9d84
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
+    path: /ray
     headers:
-      Host: cdn.savoy.click
+      Host: v2ray10.free4444.xyz
   udp: true
-- name: 0.24| UA105 TGpeekfun
-  server: v2cross.com.05.v2ce.com
+- name: 0.67| githubcomfreefq  美国CloudFlare公司CDN节点 27
+  server: fr0810.moonfree.top
   port: 443
+  type: vmess
+  uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: fr0810.moonfree.top
+- name: 0.53| githubcomfreefq  俄罗斯新西伯利亚JustHost 15
+  server: ru.hootfun.top
+  port: 45112
   type: trojan
-  country: ' UA'
-  password: kGrwqmB1nEKUsDwE
-  skip-cert-verify: true
-  udp: true
-- name: 0.21| 大萝卜鸡新加坡
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: static.dingtalk.com
-  skip-cert-verify: true
-- type: trojan
-  name: 0.21|KRwmt820a2
-  server: kr1.api-aws.com
-  port: 443
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  udp: true
-  skip-cert-verify: true
+  password: 935f34c1-1713-402c-bfe1-f051cf49d370
+  sni: ru.hootfun.top
 - type: vmess
-  name: 0.17|KR韩国
+  name: 0.38|KR韩国
   server: m4.40010010.xyz
   port: 37121
   uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
@@ -72,23 +61,36 @@ proxies:
   cipher: auto
   network: tcp
   tls: true
-- name: 0.16| v2rayfreeeuorg  英国伦敦Linode数据中心 21
-  server: vuk2.0bad.com
-  port: 443
+- name: 0.27|新加坡youtube阿伟科技 5
+  server: www.fuckdbuy.xyz
+  port: 57170
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vuk2.0bad.com
-- name: 0.13| DE70 TGpeekfun
-  server: s4.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 0.25| SG74 TGpeekfun
+  server: s2.hazz.win
   port: 12340
   type: trojan
-  country: ' DE'
+  country: ' SG'
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 0.18|USwmt820a11
+  server: lswjs.hootfun.top
+  port: 23313
+  password: 935f34c1-1713-402c-bfe1-f051cf49d370
+  udp: true
+  skip-cert-verify: true
+- name: 0.10| NL68 TGpeekfun
+  server: 41.216.177.41
+  port: 443
+  type: trojan
+  country: ' NL'
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
   skip-cert-verify: true
   udp: true
