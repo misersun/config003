@@ -1,60 +1,5 @@
 proxies:
-- name: 2.89|US4
-  server: 155.94.128.107
-  port: 46890
-  type: vmess
-  uuid: b638167d-18d5-447f-cd0e-6770af52a99f
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /basketball
-  skip-cert-verify: true
-- name: 1.46| v2rayfreeeuorg  日本  32
-  server: 146.56.184.242
-  port: 19570
-  type: vmess
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.17| v2rayfreeeuorg  英国  14
-  server: 185.167.78.193
-  port: 48986
-  type: vmess
-  uuid: 51e663d5-bd0b-447c-d483-d7a8e27d157a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.94| githubcomfreefq  美国  2
-  server: 137.184.118.47
-  port: 51649
-  type: vmess
-  uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 0.82|GBwmt820a25
-  server: 185.167.77.195
-  port: '29650'
-  uuid: 660dbb02-2297-466b-c7b2-1bb8a6e680e5
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.75| v2rayfreeeuorg  香港Amazon数据中心 17
-  server: 18.167.20.169
-  port: 8080
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 18.167.20.169
-- name: 0.67| githubcomfreefq  美国RF Engineering 26
+- name: 0.81| githubcomfreefq  美国RF Engineering 19
   server: blogs.microsoft.com
   port: 80
   type: vmess
@@ -66,7 +11,7 @@ proxies:
   ws-path: /
   ws-headers:
     Host: net2.xtls.my.id
-- name: 0.48|美国youtube阿伟科技 14
+- name: 0.48|githubcomfreefq  欧盟  23
   server: 45.66.157.174
   port: 49192
   type: vmess
@@ -74,42 +19,11 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /atG37YNW/
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 0.45| US71
-  server: 51.81.223.32
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.40| githubcomfreefq  日本  24
-  server: 146.56.167.119
-  port: 6666
-  type: vmess
-  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.31| githubcomfreefq  美国RF Engineering 25
-  server: 141.193.213.20
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
+  ws-path: /atG37YNW/
   ws-headers:
-    Host: sanggoro6.nextvpn.cc
-- name: 0.29| githubcomfreefq  美国CloudFlare公司CDN节点 28
+    Host: YouTube-aweikeji
+- name: 0.19| v2rayfreeeuorg  美国CloudFlare公司CDN节点 28
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -121,7 +35,19 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: sanggoro6.nextvpn.cc
-- name: 0.26| RelayUSUS76
+- name: 0.13| githubcomfreefq  美国RF Engineering 20
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpnneo
+  ws-headers:
+    Host: sanggoro6.nextvpn.cc
+- name: 0.12| RelayUSUS76
   server: sg.guiqing.ml
   port: 43956
   type: vmess
@@ -129,49 +55,3 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.25|中国香港youtube阿伟科技 8
-  server: 16.162.100.9
-  port: 6688
-  type: vmess
-  uuid: 703a041f-b1f5-46e2-ca57-7329a9c62844
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.25| githubcomfreefq  美国CloudFlare公司CDN节点 23
-  server: cdn.digicertcdn.com
-  port: 80
-  type: vmess
-  uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: biznet3.nextvpn.cc
-- name: 0.21| githubcomfreefq  新加坡Linode数据中心 11
-  server: sg1.fuzzyng.com
-  port: 80
-  type: vmess
-  uuid: 7f7baf29-934e-43c5-9fb2-0b651855953f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /fuzzyng?ed=2048
-  ws-headers:
-    Host: frontier-i18n.tiktokv.com
-- type: vmess
-  name: 0.15|CZwmt820a15
-  ws-opts:
-    path: /
-    headers:
-      host: 195.133.53.192
-  server: 195.133.53.192
-  port: '14369'
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
-  alterId: '0'
-  cipher: auto
-  network: ws

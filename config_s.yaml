@@ -1,96 +1,54 @@
 proxies:
-- type: trojan
-  name: 4.40|KRwmt820a2
-  server: kr1.api-aws.com
+- type: vmess
+  name: 2.29|KR韩国
+  ws-opts:
+    path: /ray
+    headers:
+      host: v2ray10.free4444.xyz
+  server: v2ray10.free4444.xyz
   port: 443
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 2.73|USwmt820a12
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 1.18| 甲骨文凤凰城AMD2trojan
+  uuid: d3ceb960-10dd-463b-851f-923377ea9d84
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.49| 香港7
+  server: azure.xlzlucky.ml
+  port: 24285
+  type: vmess
+  uuid: 6e0efce1-d794-40d8-ddb6-c9b9605ea0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 0.54| 甲骨文凤凰城AMD2trojan
   server: fhcamd2.gaox.ml
   port: 443
   type: trojan
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   sni: fhcamd2.gaox.ml
-- name: 0.85|韩国youtube阿伟科技 3
-  server: v2ray10.free4444.xyz
-  port: 443
-  type: vmess
-  uuid: d3ceb960-10dd-463b-851f-923377ea9d84
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: v2ray10.free4444.xyz
+- type: trojan
+  name: 0.51|USwmt820a12
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
-- name: 0.67| githubcomfreefq  美国CloudFlare公司CDN节点 27
-  server: fr0810.moonfree.top
-  port: 443
-  type: vmess
-  uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fr0810.moonfree.top
-- name: 0.53| githubcomfreefq  俄罗斯新西伯利亚JustHost 15
+  skip-cert-verify: true
+- name: 0.21| githubcomfreefq  俄罗斯新西伯利亚JustHost 13
   server: ru.hootfun.top
   port: 45112
   type: trojan
   password: 935f34c1-1713-402c-bfe1-f051cf49d370
   sni: ru.hootfun.top
-- type: vmess
-  name: 0.38|KR韩国
-  server: m4.40010010.xyz
-  port: 37121
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 0.27|新加坡youtube阿伟科技 5
-  server: www.fuckdbuy.xyz
-  port: 57170
-  type: vmess
-  uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 0.25| SG74 TGpeekfun
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  country: ' SG'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
 - type: trojan
-  name: 0.18|USwmt820a11
+  name: 0.17|USwmt820a11
   server: lswjs.hootfun.top
   port: 23313
   password: 935f34c1-1713-402c-bfe1-f051cf49d370
   udp: true
   skip-cert-verify: true
-- name: 0.10| NL68 TGpeekfun
-  server: 41.216.177.41
+- name: 0.13| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
   type: trojan
-  country: ' NL'
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  skip-cert-verify: true
-  udp: true
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
