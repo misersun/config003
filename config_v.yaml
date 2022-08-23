@@ -1,5 +1,43 @@
 proxies:
-- name: 1.47|SSRSUBV16付费推荐suoytssrsub
+- name: 9.85| v2rayfreeeuorg  日本  3
+  server: 146.56.184.242
+  port: 19570
+  type: vmess
+  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 9.24|韩国youtube阿伟科技 7
+  server: 146.56.147.165
+  port: 80
+  type: vmess
+  uuid: c2cc2aab-503d-4282-b97f-60594a862aaa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - YouTube-aweikeji
+  udp: true
+- type: vmess
+  name: 1.12|USwmt823a41
+  ws-opts:
+    path: /
+    headers:
+      host: su1.chaoxn.top
+  server: su1.chaoxn.top
+  port: '80'
+  uuid: 49d7b427-d472-47cb-8c28-015a5553092f
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.81|SSRSUBV16付费推荐suoytssrsub
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -11,47 +49,47 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: sanggoro6.nextvpn.cc
-- name: 1.00| githubcomfreefq  台湾省台湾大宽频 1
-  server: 219.87.171.115
-  port: 9990
-  type: vmess
-  uuid: c72a0fae-16cd-41c2-a932-24dc4163cc9b
-  alterId: 0
+- type: vmess
+  name: 0.76|SGwmt822a13
+  server: 47.241.220.160
+  port: '46622'
+  uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff
+  alterId: '0'
   cipher: auto
-  tls: false
-- name: 0.99| githubcomfreefq  美国CloudFlare节点 11
-  server: microsoftdebug.com
-  port: 80
+  network: tcp
+- name: 0.62| v2rayfreeeuorg  美国CloudFlare节点 14
+  server: 172.64.159.37
+  port: 2052
   type: vmess
-  uuid: cdaafbf5-ce45-4757-a83d-98990dad1599
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /msg
-  ws-headers:
-    Host: v1.hl1.microsoftdebug.com
-- name: 0.66| githubcomfreefq  美国  4
-  server: 129.146.250.54
-  port: 58899
-  type: vmess
-  uuid: bcd4ac9d-8414-4468-c099-e1df78861917
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.56| githubcomfreefq  美国RF Engineering 22
-  server: blogs.microsoft.com
-  port: 80
-  type: vmess
-  uuid: 15df1f53-9101-404b-dd52-7774cdb3c218
+  uuid: 72735294-b70e-4486-b0ac-e52e3782bc58
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: net2.xtls.my.id
-- name: 0.48|v2rayfreeeuorg  欧盟  6
+    Host: zxzz.zxzdy.buzz
+- type: vmess
+  name: 0.56|KRwmt823a13
+  server: 152.70.235.207
+  port: '35412'
+  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.52| v2rayfreeeuorg  台湾省台中市中华电信 6
+  server: ff5c0fb.rd.cloudflare.systems
+  port: 80
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
+  ws-headers:
+    Host: icloud.com
+- name: 0.44|v2rayfreeeuorg  欧盟  6
   server: 45.66.157.174
   port: 49192
   type: vmess
@@ -63,31 +101,33 @@ proxies:
   ws-path: /atG37YNW/
   ws-headers:
     Host: YouTube-aweikeji
-- type: vmess
-  name: 0.47|SGwmt822a13
-  server: 47.241.220.160
-  port: '46622'
-  uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.44| v2rayfreeeuorg  日本  3
-  server: 146.56.184.242
-  port: 19570
+- name: 0.31|韩国youtube阿伟科技 3
+  server: 152.67.218.38
+  port: 443
   type: vmess
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.38| githubcomfreefq  美国RF Engineering 20
-  server: 141.193.213.20
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.67.218.38
+  udp: true
+- name: 0.29|美国youtube阿伟科技 6
+  server: sg1.fuzzyng.com
   port: 80
   type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  uuid: 7f7baf29-934e-43c5-9fb2-0b651855953f
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: sanggoro6.nextvpn.cc
+  ws-opts:
+    path: /fuzzyng?ed=2048
+    headers:
+      Host: frontier-i18n.tiktokv.comYouTube-aweikeji
+  udp: true
