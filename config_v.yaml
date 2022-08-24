@@ -1,13 +1,5 @@
 proxies:
-- name: 9.85| v2rayfreeeuorg  日本  3
-  server: 146.56.184.242
-  port: 19570
-  type: vmess
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 9.24|韩国youtube阿伟科技 7
+- name: 6.70|韩国youtube阿伟科技 7
   server: 146.56.147.165
   port: 80
   type: vmess
@@ -25,19 +17,30 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- type: vmess
-  name: 1.12|USwmt823a41
-  ws-opts:
-    path: /
-    headers:
-      host: su1.chaoxn.top
-  server: su1.chaoxn.top
-  port: '80'
-  uuid: 49d7b427-d472-47cb-8c28-015a5553092f
-  alterId: '0'
+- name: 1.83|中国台湾youtube阿伟科技 8
+  server: ff5c0fb.rd.cloudflare.systems
+  port: 80
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
   cipher: auto
+  tls: false
+  skip-cert-verify: true
   network: ws
-- name: 0.81|SSRSUBV16付费推荐suoytssrsub
+  ws-opts:
+    path: /s/ff5c0fb.fm.icloud.com:30513
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.54| v2rayfreeeuorg  美国弗吉尼亚州阿什本Amazon数据中心 28
+  server: 54.163.190.148
+  port: 31468
+  type: vmess
+  uuid: 30c9f74f-2a80-463e-b3e4-a933d996309f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.02|SSRSUBV16付费推荐suoytssrsub
   server: 104.18.21.226
   port: 80
   type: vmess
@@ -49,47 +52,7 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: sanggoro6.nextvpn.cc
-- type: vmess
-  name: 0.76|SGwmt822a13
-  server: 47.241.220.160
-  port: '46622'
-  uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.62| v2rayfreeeuorg  美国CloudFlare节点 14
-  server: 172.64.159.37
-  port: 2052
-  type: vmess
-  uuid: 72735294-b70e-4486-b0ac-e52e3782bc58
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zxzz.zxzdy.buzz
-- type: vmess
-  name: 0.56|KRwmt823a13
-  server: 152.70.235.207
-  port: '35412'
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.52| v2rayfreeeuorg  台湾省台中市中华电信 6
-  server: ff5c0fb.rd.cloudflare.systems
-  port: 80
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /s/ff5c0fb.fm.icloud.com:30513
-  ws-headers:
-    Host: icloud.com
-- name: 0.44|v2rayfreeeuorg  欧盟  6
+- name: 0.89|v2rayfreeeuorg  欧盟  6
   server: 45.66.157.174
   port: 49192
   type: vmess
@@ -101,11 +64,19 @@ proxies:
   ws-path: /atG37YNW/
   ws-headers:
     Host: YouTube-aweikeji
-- name: 0.31|韩国youtube阿伟科技 3
-  server: 152.67.218.38
-  port: 443
+- name: 0.78| v2rayfreeeuorg  北美地区  5
+  server: 23.230.146.254
+  port: 1258
   type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.60|美国youtube阿伟科技 9
+  server: 172.64.159.37
+  port: 2052
+  type: vmess
+  uuid: 72735294-b70e-4486-b0ac-e52e3782bc58
   alterId: 0
   cipher: auto
   tls: false
@@ -114,20 +85,28 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 152.67.218.38
+      Host: zxzz.zxzdy.buzz
   udp: true
-- name: 0.29|美国youtube阿伟科技 6
-  server: sg1.fuzzyng.com
+- name: 0.33|印尼youtube阿伟科技
+  server: 141.193.213.20
   port: 80
   type: vmess
-  uuid: 7f7baf29-934e-43c5-9fb2-0b651855953f
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /fuzzyng?ed=2048
+    path: /vpnneo
     headers:
-      Host: frontier-i18n.tiktokv.comYouTube-aweikeji
+      Host: sanggoro6.nextvpn.cc
   udp: true
+- type: vmess
+  name: 0.19|KR韩国1
+  server: 146.56.184.242
+  port: 19570
+  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
+  alterId: 0
+  cipher: auto
+  network: tcp
