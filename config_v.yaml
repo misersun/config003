@@ -1,5 +1,30 @@
 proxies:
-- name: 10.06|韩国youtube阿伟科技 4
+- name: 3.24|韩国youtube阿伟科技 6
+  server: 146.56.155.70
+  port: 33449
+  type: vmess
+  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.09|中国台湾youtube阿伟科技 7
+  server: ff5c0fb.rd.cloudflare.systems
+  port: 80
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /s/ff5c0fb.fm.icloud.com:30513
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.95|韩国youtube阿伟科技 7
   server: 146.56.147.165
   port: 80
   type: vmess
@@ -15,17 +40,24 @@ proxies:
     - /
     headers:
       Host:
-      - 146.56.147.165
+      - YouTube-aweikeji
   udp: true
-- type: vmess
-  name: 5.52|KR韩国1
-  server: 146.56.184.242
-  port: 19570
-  uuid: 70a998e0-ba0b-4994-af50-8deed58cdbd9
+- name: 1.43|印尼youtube阿伟科技 4
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
   alterId: 0
   cipher: auto
-  network: tcp
-- name: 1.57|美国youtube阿伟科技 13
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: sanggoro6.nextvpn.cc
+  udp: true
+- name: 1.32|美国youtube阿伟科技 22
   server: access.zoominfo.com
   port: 80
   type: vmess
@@ -40,21 +72,6 @@ proxies:
     headers:
       Host: sanggoro6.nextvpn.cc
   udp: true
-- name: 0.84|中国台湾youtube阿伟科技 6
-  server: ff5c0fb.rd.cloudflare.systems
-  port: 80
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /s/ff5c0fb.fm.icloud.com:30513
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
 - name: 0.48|v2rayfreeeuorg  欧盟  6
   server: 45.66.157.174
   port: 49192
@@ -67,18 +84,33 @@ proxies:
   ws-path: /atG37YNW/
   ws-headers:
     Host: YouTube-aweikeji
-- name: 0.13|印尼youtube阿伟科技
-  server: 141.193.213.20
+- type: vmess
+  name: 0.21|USwmt826a7
+  ws-opts:
+    path: /
+    headers:
+      host: 198.211.4.60
+  server: 198.211.4.60
+  port: '80'
+  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.14|日本youtube阿伟科技 13
+  server: 13.230.201.102
   port: 80
   type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  uuid: 514a9758-db9a-4603-ec60-e52122baaab0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpnneo
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: sanggoro6.nextvpn.cc
+      Host:
+      - 13.230.201.102
   udp: true
