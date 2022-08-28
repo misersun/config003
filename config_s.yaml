@@ -1,81 +1,113 @@
 proxies:
-- type: vmess
-  name: 3.57|CO哥伦比亚US美国2
+- type: trojan
+  name: 8.07|CNwmt827a40
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  port: 34001
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  udp: true
+  skip-cert-verify: true
+- name: 6.00|中国香港youtube阿伟科技 2
+  server: mshk1.369boy.com
+  port: 23511
+  type: trojan
+  password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
+  sni: mshk1.369boy.com
+  skip-cert-verify: true
+  udp: true
+- name: 5.64|中国香港youtube阿伟科技 9
+  server: 825hk09.fx6688.top
+  port: 4433
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: /chcar
+    path: /ray
     headers:
-      host: v2fly.samrt.website
-  server: 188.114.97.110
+      Host: 825hk09.fx6688.top
+  udp: true
+- name: 2.57|日本youtube阿伟科技 2
+  server: vultr1.755657.xyz
   port: 443
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  type: trojan
+  password: 47bae806-9eb9-46b2-b17e-c15f63a10f86
+  sni: vultr1.755657.xyz
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 2.53|CNwmt827a44
+  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+  port: 34003
+  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  udp: true
+  skip-cert-verify: true
+- name: 1.97|日本youtube阿伟科技 9
+  server: vultr1.755657.xyz
+  port: 8443
+  type: vmess
+  uuid: 5f056baf-8322-4113-8a55-4d456a02ce93
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: grpc
+  servername: ''
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: dhtfvbhfeetti
+  udp: true
+- type: vmess
+  name: 1.87|HK香港
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      host: cdn.savoy.click
+  server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
+  port: 888
+  uuid: 763b2303-0e16-455e-926d-66d909c3e37b
   alterId: 0
   cipher: auto
   network: ws
   tls: true
 - type: vmess
-  name: 2.81|CO哥伦比亚US美国1
+  name: 1.72|US美国2
   ws-opts:
-    path: /chcar
+    path: /je5x3pBN1vez3NQudNkB
     headers:
-      host: v2fly.samrt.website
-  server: 188.114.97.113
-  port: 443
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+      host: cdn.savoy.click
+  server: us-sjc-01-v2.jd.cjhh.mom
+  port: 888
+  uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee
   alterId: 0
   cipher: auto
   network: ws
   tls: true
 - type: trojan
-  name: 2.71|USwmt825a30
+  name: 1.61|USwmt827a46
   server: s3.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- type: vmess
-  name: 1.36|wmt826a55
-  ws-opts:
-    path: /
-    headers:
-      host: fr0810.moonfree.top
-  server: fr0810.moonfree.top
-  port: '443'
-  uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.63|德国youtube阿伟科技
-  server: v3.gitvpn.eu.org
+- name: 1.08|中国香港youtube阿伟科技 8
+  server: 825hk02.fx6688.top
   port: 443
   type: vmess
-  uuid: adda96e0-1538-4313-ac44-cf9964dedead
-  alterId: 0
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  alterId: 2
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /ray
     headers:
-      Host: v3.gitvpn.eu.org
+      Host: 825hk02.fx6688.top
   udp: true
-- type: trojan
-  name: 0.27|USwmt825a77
-  server: rbobosz.tk
-  port: 23868
-  password: gMVN7PbEX2
-  udp: true
-  skip-cert-verify: true
-- name: 0.25| RelayUSUS66
-  server: chess.magicefire.com
-  port: 443
-  type: vmess
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 0.20| DE94 TGpeekfun
+- name: 0.63| DE94 TGpeekfun
   server: s4.hazz.win
   port: 12340
   type: trojan
@@ -83,3 +115,59 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
+- name: 0.63| US112 TGpeekfun
+  server: rbobosz.tk
+  port: 23868
+  type: trojan
+  country: ' US'
+  password: gMVN7PbEX2
+  skip-cert-verify: true
+  udp: true
+- name: 0.60|中国香港youtube阿伟科技 10
+  server: 825hk01.fx6688.top
+  port: 443
+  type: vmess
+  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: 825hk01.fx6688.top
+  udp: true
+- name: 0.55|保加利亚youtube阿伟科技
+  server: fdhg.755657.xyz
+  port: 8443
+  type: vmess
+  uuid: 47bae806-9eb9-46b2-b17e-c15f63a10f86
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /java/18/latest/
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.48|韩国youtube阿伟科技 4
+  server: m4.40010010.xyz
+  port: 37121
+  type: vmess
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.12| RelayUSUS66
+  server: chess.magicefire.com
+  port: 443
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  alterId: 0
+  cipher: auto
+  tls: true

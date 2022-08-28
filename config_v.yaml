@@ -1,71 +1,5 @@
 proxies:
-- name: 3.02|中国台湾youtube阿伟科技 7
-  server: ff5c0fb.rd.cloudflare.systems
-  port: 80
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /s/ff5c0fb.fm.icloud.com:30513
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- type: vmess
-  name: 1.96|USwmt826a7
-  ws-opts:
-    path: /
-    headers:
-      host: 198.211.4.60
-  server: 198.211.4.60
-  port: '80'
-  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 1.64|SSRSUBV12付费推荐suoytssrsub
-  server: 129.150.46.8
-  port: 36277
-  type: vmess
-  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 1.63|美国youtube阿伟科技 22
-  server: access.zoominfo.com
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpnneo
-    headers:
-      Host: sanggoro6.nextvpn.cc
-  udp: true
-- name: 1.52|SSRSUBV16付费推荐suoytssrsub
-  server: 104.18.21.226
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: sanggoro6.nextvpn.cc
-- name: 0.99|韩国youtube阿伟科技 7
+- name: 2.13|韩国youtube阿伟科技 7
   server: 146.56.147.165
   port: 80
   type: vmess
@@ -83,7 +17,85 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 0.52|SSRSUBV09付费推荐suoytssrsub
+- name: 1.92|波兰youtube阿伟科技
+  server: zz.jgwaad.tk
+  port: 1002
+  type: vmess
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.82|新加坡youtube阿伟科技 12
+  server: zz.jgwaad.tk
+  port: 1004
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.63|美国youtube阿伟科技 15
+  server: jgwus.jgwaad.tk
+  port: 443
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.53|德国youtube阿伟科技 3
+  server: zz.jgwaad.tk
+  port: 1007
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.35|美国youtube阿伟科技 13
+  server: mg2.tdzjing.xyz
+  port: 80
+  type: vmess
+  uuid: 00000000-1111-1111-1111-222222222222
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - YouTube-aweikeji
+  udp: true
+- name: 0.56|SSRSUBV09付费推荐suoytssrsub
   server: 123456789abcd.xn--h6q53lcvpz7l.club
   port: 20944
   type: vmess
@@ -95,30 +107,146 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 0.46| HU117 TGpeekfun
-  server: 185.225.69.134
-  port: 45081
+- name: 0.49|新加坡youtube阿伟科技 13
+  server: dozz.hgdbk.ga
+  port: 1004
   type: vmess
-  country: ' HU'
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-  alterId: 64
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- name: 0.15|中国香港youtube阿伟科技 18
-  server: 18.167.20.169
-  port: 8080
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.47|美国youtube阿伟科技 22
+  server: access.zoominfo.com
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: sanggoro6.nextvpn.cc
+  udp: true
+- name: 0.45|匈牙利youtube阿伟科技
+  server: 185.225.69.134
+  port: 45081
+  type: vmess
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.40|俄罗斯youtube阿伟科技 3
+  server: els.tdzjing.xyz
+  port: 80
+  type: vmess
+  uuid: 00000000-1111-1111-1111-222222222222
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - els.tdzjing.xyz
+  udp: true
+- name: 0.38|SSRSUBV05付费推荐suoytssrsub
+  server: ff5c0fb.rd.cloudflare.systems
+  port: 80
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
+  ws-headers:
+    Host: YouTube-aweikeji
+- type: vmess
+  name: 0.35|HKwmt828a25
+  ws-opts:
     path: /
     headers:
-      Host: 18.167.20.169
+      host: 18.167.20.169
+  server: 18.167.20.169
+  port: '8080'
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.28|中国香港youtube阿伟科技 12
+  server: 43.154.34.49
+  port: 23183
+  type: vmess
+  uuid: b402a4af-285a-463e-c3a7-53f91efdec78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
+- name: 0.27|印尼youtube阿伟科技 10
+  server: online.uc.edu
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vpnneo
+    headers:
+      Host: sanggoro6.nextvpn.cc
+  udp: true
+- name: 0.24|SSRSUBV24付费推荐suoytssrsub
+  server: 141.193.213.21
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpnneo
+  ws-headers:
+    Host: sanggoro6.nextvpn.cc
+- name: 0.18|SSRSUBV26付费推荐suoytssrsub
+  server: 141.193.213.20
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpnneo
+  ws-headers:
+    Host: sanggoro6.nextvpn.cc
+- name: 0.16|SSRSUBV25付费推荐suoytssrsub
+  server: 172.67.199.34
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpnneo
+  ws-headers:
+    Host: sanggoro6.nextvpn.cc
