@@ -1,160 +1,45 @@
 proxies:
-- name: 2.92| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 11
-  server: d200.clco.in
-  port: 53311
-  type: vmess
-  uuid: 1dbf386e-232f-4735-eb12-0aeb471504c1
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: d200.clco.in
-- name: 2.90| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 17
-  server: d200.clco.in
-  port: 54279
-  type: vmess
-  uuid: 0bbe1b09-9ff0-473a-fc00-a3ddba9e7ace
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: d200.clco.in
-- name: 2.23| 台北Hinet6
-  server: 60.249.3.126
-  port: 3389
+- name: 2.52|日本youtube阿伟科技 9
+  server: api.hostyunjp.frydipxian.top
+  port: 9018
   type: trojan
-  password: d4e41ff772c7fd45
+  password: e74fbde60f91cde4f14e336a011ef195
+  sni: api.hostyunjp.frydipxian.top
   skip-cert-verify: true
-- name: 1.66|美国youtube阿伟科技 6
+  udp: true
+- name: 1.49| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 0.70| US141 TGpeekfun
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 0.61| US150 TGpeekfun
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 0.28| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 0.21|美国youtube阿伟科技 6
   server: transfer02.kaochangonline.online
   port: 443
   type: trojan
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   sni: transfer02.kaochangonline.online
   skip-cert-verify: true
-  udp: true
-- name: 1.58| 台北Hinet7
-  server: 60.249.3.231
-  port: 3389
-  type: trojan
-  password: d02058f4f819dced
-  skip-cert-verify: true
-- name: 1.22|德国youtube阿伟科技 4
-  server: vde2.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /chat
-    headers:
-      Host: vde2.0bad.com
-  udp: true
-- name: 0.90|美国youtube阿伟科技 24
-  server: fr0810.moonfree.top
-  port: 443
-  type: vmess
-  uuid: a8ce5e05-d5c9-48c0-a082-7b39453b29c0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fr0810.moonfree.top
-  udp: true
-- name: 0.87|新加坡youtube阿伟科技 15
-  server: cf.scsevers.cf
-  port: 443
-  type: vmess
-  uuid: 71060e33-5dcf-4281-98cc-5cc8b483fde7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xNAH6GBOCyY
-    headers:
-      Host: awssg3.sharecentre.xyz
-  udp: true
-- name: 0.83| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 9
-  server: d200.clco.in
-  port: 39919
-  type: vmess
-  uuid: 6e8b515f-1de6-4461-cdd1-74102917e785
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: d200.clco.in
-- name: 0.68| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- type: vmess
-  name: 0.48|KR韩国
-  server: m4.40010010.xyz
-  port: 37121
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 0.43|德国youtube阿伟科技 2
-  server: cf.fullcloud.tk
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxdeovz2.fovi.tk
-  udp: true
-- type: vmess
-  name: 0.25|CN中国HK香港2
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      host: cdn.savoy.click
-  server: hk-hkg-hgc-a-v2.node.inforun.work
-  port: 888
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.16|新加坡youtube阿伟科技 13
-  server: 825hk02.fx6688.top
-  port: 443
-  type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: 825hk02.fx6688.top
   udp: true
