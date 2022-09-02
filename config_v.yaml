@@ -1,29 +1,69 @@
 proxies:
-- name: 12.73| githubcomfreefq  美国Microsoft数据中心 1
-  server: 20.239.195.254
-  port: 80
+- name: 7.94| githubcomfreefq  日本  46
+  server: 146.56.155.70
+  port: 33449
   type: vmess
-  uuid: 498817b2-d42e-4083-b193-ddfe22cf6887
+  uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 6.65| githubcomfreefq  美国DXC Technology 2
-  server: 20.89.43.106
-  port: 80
+- name: 3.23|美国youtube阿伟科技 23
+  server: 23.95.215.14
+  port: 63100
   type: vmess
-  uuid: f3cd0282-a0a3-47c4-9e81-87b39b46f58d
+  uuid: 23ed610e-5a78-4c48-abe9-1da1e5d57311
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.69| githubcomfreefq  美国亚利桑那州凤凰城Oracle云计算数据中心 15
+  server: 129.146.84.253
+  port: 26875
+  type: vmess
+  uuid: bb240cb0-a6d2-4b8e-ee85-a976e48ac241
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 2.41|USwmt91pa138
+  server: 192.161.164.156
+  port: '40338'
+  uuid: fe20f87d-4e11-4c2a-af6e-5b8bd9927092
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 2.39|US18
+  server: 107.173.153.147
+  port: 8765
+  type: vmess
+  uuid: d518dec3-f801-46f6-b295-63f4bf16fe12
+  alterId: 0
+  cipher: auto
   network: ws
+  http-opts: {}
   ws-path: /
   ws-headers:
-    Host: YouTube-aweikeji
-- name: 4.88| githubcomfreefq  香港阿里云 65
+    HOST: 107.173.153.147
+  skip-cert-verify: true
+  servername: 107.173.153.147
+- type: vmess
+  name: 2.25|USwmt92a8
+  server: 107.173.83.214
+  port: '37541'
+  uuid: ef59a586-0532-4763-f353-948eb413f00d
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 2.18|USwmt92a12
+  server: 107.173.250.94
+  port: '46547'
+  uuid: 03d88809-cedd-41ce-e107-7b1c0bf36420
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 1.89| githubcomfreefq  香港阿里云 65
   server: 47.240.51.89
   port: 55214
   type: vmess
@@ -35,53 +75,54 @@ proxies:
   ws-path: /
   ws-headers:
     Host: a.189.cn
-- type: vmess
-  name: 4.26|HKwmt91pa90
+- name: 1.39| githubcomfreefq  英国  30
+  server: rbobosz.tk
+  port: 40762
+  type: vmess
+  uuid: 5115f550-3f8c-44fe-a064-eb02e2fbb89b
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.30|美国youtube阿伟科技 16
+  server: 152.70.241.18
+  port: 26676
+  type: vmess
+  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.05|US17
+  server: 147.139.7.71
+  port: 888
+  type: vmess
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 147.139.7.71
+  skip-cert-verify: true
+  servername: 147.139.7.71
+- name: 0.77|香港youtube阿伟科技 2
+  server: 18.167.20.169
+  port: 8080
+  type: vmess
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
   ws-opts:
     path: /
     headers:
-      host: v3-gray.toutiaovod.comdm.toutiao.com
-  server: 18.167.94.243
-  port: '36831'
-  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 3.53| githubcomfreefq  美国惠普HP 6
-  server: zhenye.zhenyejd.net
-  port: 10004
-  type: vmess
-  uuid: e82caef1-d930-46da-8c25-79f04c47710d
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 2.75|USwmt91p21
-  ws-opts:
-    path: /
-  server: 20.211.107.37
-  port: '80'
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 2.68| githubcomfreefq  美国亚利桑那州凤凰城Oracle云计算数据中心 15
-  server: 129.146.84.253
-  port: 26875
-  type: vmess
-  uuid: bb240cb0-a6d2-4b8e-ee85-a976e48ac241
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 2.43|USwmt91p12
-  server: rbobo.tk
-  port: '26505'
-  uuid: 46eaf5f4-1c2b-45fa-e96a-2ca4ff00d05e
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 2.39|俄罗斯youtube阿伟科技
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.61|俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -99,187 +140,7 @@ proxies:
       Host:
       - els.tdzjing.xyz
   udp: true
-- type: vmess
-  name: 2.17|USwmt91p53
-  server: 192.161.164.156
-  port: '40338'
-  uuid: fe20f87d-4e11-4c2a-af6e-5b8bd9927092
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.82| githubcomfreefq  美国  30
-  server: 138.2.86.43
-  port: 32574
-  type: vmess
-  uuid: 6e0aae55-230c-45a0-8591-7fce1ec7a326
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 1.75|USwmt91pa156
-  server: 107.173.250.129
-  port: '25881'
-  uuid: 68f8ed9c-9ac3-427a-b16c-6f1d7fb7f12d
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.73| githubcomfreefq  美国Microsoft数据中心 29
-  server: 20.9.46.251
-  port: 80
-  type: vmess
-  uuid: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 1.64| githubcomfreefq  美国  46
-  server: 45.136.70.19
-  port: 24298
-  type: vmess
-  uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.63| githubcomfreefq  美国加利福尼亚州洛杉矶Dedipath 16
-  server: 45.10.153.188
-  port: 37558
-  type: vmess
-  uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.63| githubcomfreefq  美国Microsoft数据中心 32
-  server: 20.10.159.29
-  port: 80
-  type: vmess
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.10.159.29
-- name: 1.51| githubcomfreefq  荷兰北荷兰省阿姆斯特丹Microsoft数据中心 31
-  server: 52.232.66.152
-  port: 80
-  type: vmess
-  uuid: 498817b2-d42e-4083-b193-ddfe22cf6887
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 1.47| githubcomfreefq  北美地区  21
-  server: 107.173.250.129
-  port: 42713
-  type: vmess
-  uuid: 4012d932-93fe-4828-dcc9-331c871490c6
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.39| githubcomfreefq  美国DXC Technology 35
-  server: 20.90.249.210
-  port: 80
-  type: vmess
-  uuid: f3cd0282-a0a3-47c4-9e81-87b39b46f58d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 1.31| githubcomfreefq  美国DXC Technology 26
-  server: 20.104.96.194
-  port: 80
-  type: vmess
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.104.96.194
-- name: 1.12|US19
-  server: 147.139.7.71
-  port: 888
-  type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: 147.139.7.71
-  skip-cert-verify: true
-  servername: 147.139.7.71
-- name: 0.92|SSRSUBV09付费推荐suoytssrsub
-  server: 129.159.41.233
-  port: 32586
-  type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 0.71|USwmt91p15
-  ws-opts:
-    path: /
-    headers:
-      host: 20.227.152.156
-  server: 20.227.152.156
-  port: '80'
-  uuid: da45bc49-e9b5-4109-aa5f-ad02efa2f340
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 0.71|IRwmt91p60
-  server: nnv.chitacdn.xyz
-  port: '54242'
-  uuid: f2393d82-94c4-4b12-8267-293a7500e487
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.67| githubcomfreefq  美国CloudFlare节点 67
-  server: 172.67.199.34
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: sanggoro6.nextvpn.cc
-- name: 0.65|日本youtube阿伟科技 16
-  server: 155.248.170.1
-  port: 80
-  type: vmess
-  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - YouTube-aweikeji
-  udp: true
-- name: 0.63|SSRSUBV24付费推荐suoytssrsub
+- name: 0.45|SSRSUBV24付费推荐suoytssrsub
   server: 141.193.213.21
   port: 80
   type: vmess
@@ -291,19 +152,7 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: sanggoro6.nextvpn.cc
-- type: vmess
-  name: 0.52|USwmt91p36
-  ws-opts:
-    path: /
-    headers:
-      host: small.rome.tk
-  server: small.rome.tk
-  port: '19088'
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 0.51|印尼youtube阿伟科技 2
+- name: 0.41|印尼youtube阿伟科技 2
   server: cdn.digicertcdn.com
   port: 80
   type: vmess
@@ -318,58 +167,63 @@ proxies:
     headers:
       Host: sanggoro6.nextvpn.cc
   udp: true
-- type: vmess
-  name: 0.51|USwmt91p56
-  server: 51.81.223.32
-  port: '443'
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: '32'
-  cipher: auto
-  network: tcp
-- name: 0.46|匈牙利youtube阿伟科技
-  server: 185.225.69.134
-  port: 45081
+- name: 0.40| githubcomfreefq  香港Amazon数据中心 27
+  server: 18.167.94.243
+  port: 36831
   type: vmess
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.38|香港youtube阿伟科技 5
-  server: 18.167.20.169
-  port: 8080
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 0.37|韩国youtube阿伟科技 2
-  server: 144.24.88.101
-  port: 16833
+  ws-path: /
+  ws-headers:
+    Host: 18.167.94.243
+- name: 0.39| githubcomfreefq  北美地区  26
+  server: rbobo.tk
+  port: 26505
   type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  uuid: 46eaf5f4-1c2b-45fa-e96a-2ca4ff00d05e
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
+- name: 0.36| githubcomfreefq  美国CloudFlare节点 37
+  server: 172.67.199.34
+  port: 80
+  type: vmess
+  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpnneo
+  ws-headers:
+    Host: sanggoro6.nextvpn.cc
 - type: vmess
-  name: 0.32|CNwmt91p76
-  server: 43.156.47.216
-  port: '33536'
-  uuid: 05d96121-fae4-4167-dc12-1e6fe003e45a
+  name: 0.33|IRwmt91p60
+  server: nnv.chitacdn.xyz
+  port: '54242'
+  uuid: f2393d82-94c4-4b12-8267-293a7500e487
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 0.31| githubcomfreefq  美国RF Engineering 58
+- type: vmess
+  name: 0.30|FIwmt92a27
+  server: 45.136.70.19
+  port: '24298'
+  uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.29|SSRSUBV22付费推荐suoytssrsub
+  server: 139.180.140.20
+  port: 42424
+  type: vmess
+  uuid: a3d12a2a-d6b3-4248-bb5d-0c5759f9606d
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.25| githubcomfreefq  美国RF Engineering 58
   server: access.zoominfo.com
   port: 80
   type: vmess
@@ -381,47 +235,26 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: sanggoro6.nextvpn.cc
-- name: 0.26| githubcomfreefq  美国  8
-  server: 152.70.241.18
-  port: 26676
+- name: 0.22|美国youtube阿伟科技 14
+  server: small.rome.tk
+  port: 19088
   type: vmess
-  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.18| githubcomfreefq  美国DXC Technology 33
-  server: 20.104.183.100
-  port: 80
-  type: vmess
-  uuid: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
-  alterId: 0
-  cipher: auto
-  tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: YouTube-aweikeji
-- type: vmess
-  name: 0.18|HKwmt91pa63
-  server: zhenye.zhenyejd.net
-  port: '10003'
-  uuid: 2919544b-d6d6-4e15-86e3-942cbfa44c35
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 0.13|JPwmt91p16
-  server: 168.138.201.208
-  port: '10328'
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.12|SSRSUBV23付费推荐suoytssrsub
-  server: 139.59.244.143
-  port: 38941
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 0.21|githubcomfreefq  匈牙利  48
+  server: 185.225.69.134
+  port: 45081
   type: vmess
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
   alterId: 0
   cipher: auto
   tls: false
