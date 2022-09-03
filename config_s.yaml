@@ -1,69 +1,19 @@
 proxies:
-- name: 3.58|美国youtube阿伟科技 19
-  server: dls.hotfun.buzz
-  port: 2087
-  type: vmess
-  uuid: 935f34c1-1713-402c-bfe1-f051cf49d370
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hoot
-    headers:
-      Host: dls.hotfun.buzz
-  udp: true
-- name: 3.28| 台湾
-  server: 20.239.186.92
-  port: 38549
+- name: 5.34|台湾youtube阿伟科技
+  server: hinet2.52147.top
+  port: 28443
   type: trojan
-  password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9
-  sni: tw.yiyuanyun.xyz
-  skip-cert-verify: true
-- name: 2.41|美国youtube阿伟科技 18
-  server: la20cf.hotfun.buzz
-  port: 2087
-  type: vmess
-  uuid: 935f34c1-1713-402c-bfe1-f051cf49d370
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /Hot
-    headers:
-      Host: la20cf.hotfun.buzz
-  udp: true
-- name: 1.77| DE86 TGpeekfun
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  country: ' DE'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
+  sni: download.windowsupdate.lol
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: 1.69|USwmt92a23
-  server: 64.27.30.211
-  port: 14815
-  password: JDpCGXNLHq
-  udp: true
-  skip-cert-verify: true
-- name: 1.48| RelayUSFR84
-  server: powerservice.com
+- name: 4.12| githubcomfreefq  台湾省新北市中华电信 6
+  server: tw.tcpbbr.net
   port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 1.25| githubcomfreefq  美国CloudFlare节点 34
+  type: trojan
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  sni: tw.tcpbbr.net
+- name: 3.39| githubcomfreefq  美国CloudFlare节点 20
   server: arm.ptuu.gq
   port: 443
   type: vmess
@@ -75,38 +25,53 @@ proxies:
   ws-path: /123
   ws-headers:
     Host: arm.ptuu.gq
-- name: 1.12| githubcomfreefq  美国加利福尼亚州洛杉矶MULTACOM数据中心 27
-  server: free.us2.ecydy.com
+- type: vmess
+  name: 3.29|CO哥伦比亚US美国1
+  ws-opts:
+    path: /chcar
+    headers:
+      host: v2fly.samrt.website
+  server: 188.114.97.113
+  port: 443
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 3.19|CO哥伦比亚US美国2
+  ws-opts:
+    path: /chcar
+    headers:
+      host: v2fly.samrt.website
+  server: 188.114.97.110
+  port: 443
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.99| US133 TGpeekfun
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 2.22| githubcomfreefq  美国CloudFlare公司CDN节点 33
+  server: jpamd.fineyoo.ml
   port: 443
   type: vmess
-  uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ecy
+  ws-path: /123
   ws-headers:
-    Host: free.us2.ecydy.com
-- type: trojan
-  name: 1.00|HKwmt91p40
-  server: 43.229.153.148
-  port: 50418
-  password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1
-  udp: true
-  skip-cert-verify: true
-- name: 0.98| githubcomfreefq  美国内华达州拉斯维加斯BuyVM数据中心 23
-  server: qcjs.cc.freedl.heinu.cc
-  port: 8443
-  type: vmess
-  uuid: 1934cbde-3f78-46ba-a8aa-7e71ccafb9fa
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /onedrive
-  ws-headers:
-    Host: qcjs.cc.freedl.heinu.cc
-- name: 0.92|越南youtube阿伟科技
+    Host: jpamd.fineyoo.ml
+- name: 2.20|越南youtube阿伟科技
   server: 103.173.155.72
   port: 28443
   type: trojan
@@ -114,30 +79,7 @@ proxies:
   sni: download.windowsupdate.lol
   skip-cert-verify: true
   udp: true
-- name: 0.73|台湾youtube阿伟科技
-  server: hinet2.52147.top
-  port: 28443
-  type: trojan
-  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
-  sni: download.windowsupdate.lol
-  skip-cert-verify: true
-  udp: true
-- name: 0.39|卢森堡youtube阿伟科技
-  server: lsb.jcnf.app
-  port: 443
-  type: vmess
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /zcjd
-    headers:
-      Host: lsb.jcnf.app
-  udp: true
-- name: 0.31|CN8
+- name: 2.09|CN8
   server: hk-hkg-hgc-a-v2.node.inforun.work
   port: 888
   type: vmess
@@ -152,28 +94,51 @@ proxies:
     HOST: cdn.savoy.click
   skip-cert-verify: true
   servername: cdn.savoy.click
-- name: 0.28| githubcomfreefq  美国CloudFlare节点 14
-  server: la60cf.hotfun.buzz
-  port: 2087
+- name: 1.80| githubcomfreefq  美国  24
+  server: 192.96.204.250
+  port: 443
   type: vmess
-  uuid: 935f34c1-1713-402c-bfe1-f051cf49d370
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-washington.lvuft.com
+- name: 0.78| githubcomfreefq  美国内华达州拉斯维加斯BuyVM数据中心 19
+  server: qcjs.cc.freedl.heinu.cc
+  port: 8443
+  type: vmess
+  uuid: 1934cbde-3f78-46ba-a8aa-7e71ccafb9fa
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /Hot
+  ws-path: /onedrive
   ws-headers:
-    Host: la60cf.hotfun.buzz
-- name: 0.25| githubcomfreefq  日本  15
-  server: 831sg.tfzhc.top
+    Host: qcjs.cc.freedl.heinu.cc
+- name: 0.40| githubcomfreefq  美国加利福尼亚州费利蒙 42
+  server: gyyjj-1038-v2-0.sjc-d-cn2.jd.cjhh.lol
+  port: 888
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: node.inforun.work
+- name: 0.31| githubcomfreefq  香港阿里云 5
+  server: www.my-star.top
   port: 443
-  type: trojan
-  password: dc350a83-32d9-41ef-9b53-581de2af015b
-  sni: 831sg.tfzhc.top
-- name: 0.22| NL1
-  server: nlt-1.opensvr.net
-  port: 443
-  type: trojan
-  password: opentunnel.net-jp24kq02r78xxotwhkpm
-  sni: nlt-1.opensvr.net
-  skip-cert-verify: true
+  type: vmess
+  uuid: 2f4d19e3-f179-44b6-b740-89dd74e49194
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: 3bce35aa
+  ws-headers:
+    Host: www.my-star.top
