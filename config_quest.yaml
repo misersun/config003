@@ -1,51 +1,17 @@
 proxies:
-- name: 6.65| LV2原生 香港B4  中转
-  server: s1.j20xs1.xyz
-  port: 32003
-  type: trojan
-  password: d1d174f0-57b1-3500-a8bb-0d39062d228f
-  sni: ip3884414509.mobgslb.tbcache.com
-- name: 5.29| 日本
-  server: 20.239.186.92
-  port: 50904
-  type: trojan
-  password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9
-  sni: onevps.raytrack.cloud
-  skip-cert-verify: true
-- name: 4.72| LV2原生 香港B3  中转
-  server: s1.j20xs1.xyz
-  port: 32002
-  type: trojan
-  password: d1d174f0-57b1-3500-a8bb-0d39062d228f
-  sni: ip3884414509.mobgslb.tbcache.com
-- name: 4.29| LV2原生 香港B2  中转
-  server: s1.j20xs1.xyz
-  port: 32001
-  type: trojan
-  password: d1d174f0-57b1-3500-a8bb-0d39062d228f
-  sni: 111-47-215-139.nhost.00cdn.com
-- name: 4.15| LV2原生 香港03  IEPL 专线  3x
-  server: i.j20xs1.xyz
-  port: 34002
-  type: trojan
-  password: d1d174f0-57b1-3500-a8bb-0d39062d228f
-  sni: 111-47-215-139.nhost.00cdn.com
+- name: 5.99|油管阿伟科技 15
+  server: a.in.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 139242:c6YW3v
+  obfs-param: ''
+  udp: true
 - type: ss
-  name: 4.11|wmt91p83
-  server: 103.177.32.147
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8247a4cf6ed4
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: twd1000tw001.fengchiline.xyz
-- type: ss
-  name: 4.09|wmt92a1
+  name: 4.40|wmt92a1
   server: fn600mlines008.fnline.vip
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -58,12 +24,23 @@ proxies:
     path: /
     tls: true
     host: fn600mlines008.fnline.vip
+- name: 4.30|油管阿伟科技 22
+  server: a.tw.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 139242:c6YW3v
+  obfs-param: ''
+  udp: true
 - type: ss
-  name: 3.28|TWwmt92a32
-  server: fn600mlines020.fnline.info
+  name: 4.04|wmt91p83
+  server: 103.177.32.147
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 5dac918f6134
+  password: 8247a4cf6ed4
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
@@ -71,9 +48,218 @@ proxies:
     skip-cert-verify: true
     path: /
     tls: true
-    host: fn600mlines020.fnline.info
+    host: twd1000tw001.fengchiline.xyz
+- name: 3.63|油管阿伟科技 20
+  server: a.th.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 139242:c6YW3v
+  obfs-param: ''
+  udp: true
+- name: 3.34|油管阿伟科技 13
+  server: a.il.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 139242:c6YW3v
+  obfs-param: ''
+  udp: true
+- name: 3.26|越南youtube阿伟科技
+  server: 103.173.155.72
+  port: 28443
+  type: trojan
+  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
+  sni: download.windowsupdate.lol
+  skip-cert-verify: true
+  udp: true
+- name: 3.18| githubcomfreefq  北京市移动 15
+  server: gyjp3.333003.xyz
+  port: 16914
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
+- name: 3.13| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
+  server: zjg1.ssrfree2.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 3.06|油管阿伟科技 2
+  server: a.aus.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 139242:c6YW3v
+  obfs-param: ''
+  udp: true
+- name: 2.92| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
+  server: clash1-3.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - type: ss
-  name: 2.90|TWwmt91pa157
+  name: 2.85|USwmt93a20
+  server: 169.197.143.232
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.82|油管阿伟科技 40
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.81| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash4.ssrfree4.xyz
+  port: 22333
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.78| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
+  server: zjg2.ssrfree2.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.74|USwmt828a44
+  server: 38.75.136.34
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 2.70|USwmt93a15
+  server: 169.197.143.232
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- type: ss
+  name: 2.69|USwmt93a13
+  server: 169.197.143.232
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 2.68|美国youtube阿伟科技 10
+  server: 169.197.143.232
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 2.56| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1SSR
+  server: clash1.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.55|USwmt93a17
+  server: 169.197.143.232
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 2.54|美国youtube阿伟科技 7
+  server: 38.75.136.34
+  port: 8118
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 2.54|台湾youtube阿伟科技
+  server: hinet2.52147.top
+  port: 28443
+  type: trojan
+  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
+  sni: download.windowsupdate.lol
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 2.51|USwmt93a16
+  server: 169.197.143.232
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 2.49|油管阿伟科技
+  server: 173.82.245.228
+  port: 50005
+  type: ssr
+  cipher: dummy
+  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.43|油管阿伟科技 3
+  server: 38.75.136.34
+  port: 3389
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 2.39|油管阿伟科技 58
+  server: sss10.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ss
+  name: 2.38|USwmt91a78
+  server: fnhk1gline002.fnline.me
+  port: 443
+  cipher: xchacha20-ietf-poly1305
+  password: 957abf07c5a6
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fnhk1gline002.fnline.me
+- type: ss
+  name: 2.34|TWwmt91pa157
   server: fn600mliness017.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -86,12 +272,22 @@ proxies:
     path: /
     tls: true
     host: fn600mliness017.fnline.xyz
+- name: 2.33| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶
+  server: clash5.ssrfree5.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - type: ss
-  name: 2.83|TWwmt92a38
-  server: fn600mlines021.fnline.info
+  name: 2.25|USwmt91a72
+  server: fndxshk1000mline001.fnline.vip
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 0ac84efef442
+  password: 50db7fd78cdc
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
@@ -99,39 +295,15 @@ proxies:
     skip-cert-verify: true
     path: /
     tls: true
-    host: fn600mlines021.fnline.info
-- name: 2.57|油管阿伟科技 6
-  server: a.ca.hideu.tw
-  port: 10629
-  type: ssr
-  cipher: dummy
-  password: .hideu0430.
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: 258433:lUoukm
-  obfs-param: ''
-  udp: true
-- name: 2.52| DE86 TGpeekfun
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  country: ' DE'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 2.44|油管阿伟科技 26
-  server: a.usa.hideu.tw
-  port: 10629
-  type: ssr
-  cipher: dummy
-  password: .hideu0430.
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: 258433:lUoukm
-  obfs-param: ''
-  udp: true
+    host: fndxshk1000mline001.fnline.vip
 - type: ss
-  name: 2.37|USwmt91p13
+  name: 2.20|USwmt93a19
+  server: 169.197.143.232
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 2.16|USwmt91p13
   server: fnhk1gline001.fnline.xyz
   port: 443
   cipher: xchacha20-ietf-poly1305
@@ -145,38 +317,7 @@ proxies:
     tls: true
     host: fnhk1gline001.fnline.xyz
 - type: ss
-  name: 2.33|USwmt91pa82
-  server: fndxshk1000mline007.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 2fbf6ae5c0de
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fndxshk1000mline007.fnline.info
-- name: 2.31|油管阿伟科技 2
-  server: a.aus.hideu.tw
-  port: 10629
-  type: ssr
-  cipher: dummy
-  password: .hideu0430.
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: 139242:c6YW3v
-  obfs-param: ''
-  udp: true
-- name: 2.29| LV3原生 香港01  IEPL 专线  1x
-  server: i.j20xs1.xyz
-  port: 34004
-  type: trojan
-  password: d1d174f0-57b1-3500-a8bb-0d39062d228f
-  sni: 111-47-215-139.nhost.00cdn.com
-- type: ss
-  name: 2.29|USwmt91pa77
+  name: 2.16|USwmt91pa77
   server: fndxshk1000mline003.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -190,66 +331,31 @@ proxies:
     tls: true
     host: fndxshk1000mline003.fnline.xyz
 - type: ss
-  name: 2.22|USwmt91a78
-  server: fnhk1gline002.fnline.me
-  port: 443
-  cipher: xchacha20-ietf-poly1305
-  password: 957abf07c5a6
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fnhk1gline002.fnline.me
-- name: 2.15|油管阿伟科技 40
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 2.08|油管阿伟科技 60
-  server: us-am32-5.eqnode.net
-  port: 8081
-  type: ssr
-  cipher: aes-256-cfb
-  password: YFVrXZgRo
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
+  name: 2.04|USwmt93a36
+  server: 169.197.141.5
+  port: 3306
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.97|US5
+  server: 38.75.136.34
+  port: 8080
+  type: ss
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
 - type: ss
-  name: 2.04|USwmt91a72
-  server: fndxshk1000mline001.fnline.vip
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 50db7fd78cdc
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fndxshk1000mline001.fnline.vip
-- name: 2.02| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
-  server: zjg2.ssrfree2.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.99|油管阿伟科技 19
+  name: 1.96|CAwmt93a27
+  server: 134.195.196.85
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.96| DE90 TGpeekfun
+  server: 165.22.73.126
+  port: 23335
+  type: ss
+  country: ' DE'
+  password: 7d99ae502227454ea998d71e4b62a388
+  cipher: aes-256-cfb
+- name: 1.93|油管阿伟科技 19
   server: a.sp.hideu.tw
   port: 10629
   type: ssr
@@ -260,142 +366,24 @@ proxies:
   protocol-param: 139242:c6YW3v
   obfs-param: ''
   udp: true
-- name: 1.88| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
-  server: zjg1.ssrfree2.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.86| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: clash1-3.ssrfree1.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.83|油管阿伟科技 58
-  server: sss10.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.71|油管阿伟科技
-  server: 173.82.245.228
-  port: 50005
-  type: ssr
-  cipher: dummy
-  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.60| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
-  server: clash1-2.ssrfree1.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.57| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶
-  server: clash5.ssrfree5.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.52|越南youtube阿伟科技
-  server: 103.173.155.72
-  port: 28443
-  type: trojan
-  password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c
-  sni: download.windowsupdate.lol
-  skip-cert-verify: true
-  udp: true
-- name: 1.47| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
-  server: clash3.ssrfree3.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.32|油管阿伟科技 8
-  server: a.de.hideu.tw
-  port: 10629
-  type: ssr
-  cipher: dummy
-  password: .hideu0430.
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: 139242:c6YW3v
-  obfs-param: ''
-  udp: true
 - type: ss
-  name: 1.25|USwmt93a16
-  server: 169.197.143.232
+  name: 1.84|USwmt93a26
+  server: 38.91.107.72
   port: 5500
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
 - type: ss
-  name: 1.21|USwmt93a29
+  name: 1.82|USwmt93a29
   server: 38.91.106.75
   port: 3389
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
 - type: ss
-  name: 1.20|USwmt93a15
-  server: 169.197.143.232
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 1.16|荷兰youtube阿伟科技
-  server: hl.jiashumao.net
-  port: 45519
-  type: trojan
-  password: 9d846d39-2f5e-3fae-8ad7-239cedc56048
-  skip-cert-verify: true
-  udp: true
-- name: 1.07|美国youtube阿伟科技 7
-  server: 38.75.136.34
-  port: 8118
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 1.03| 台湾
-  server: 20.239.186.92
-  port: 38549
-  type: trojan
-  password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9
-  sni: tw.yiyuanyun.xyz
-  skip-cert-verify: true
-- type: ss
-  name: 0.90|TWwmt92a19
-  server: fn600mliness018.fnline.xyz
+  name: 1.81|HKwmt91pa151
+  server: fn600mliness016.fnline.info
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 55011c8548ff
+  password: bd04a7b470fb
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
@@ -403,58 +391,34 @@ proxies:
     skip-cert-verify: true
     path: /
     tls: true
-    host: fn600mliness018.fnline.xyz
-- name: 0.90| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶4SSR
-  server: sss5.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+    host: fn600mliness016.fnline.info
 - type: ss
-  name: 0.88|USwmt93a20
-  server: 169.197.143.232
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 0.87| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: sss7.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.82|油管阿伟科技 15
-  server: a.in.hideu.tw
-  port: 10629
-  type: ssr
-  cipher: dummy
-  password: .hideu0430.
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: 139242:c6YW3v
-  obfs-param: ''
-  udp: true
-- type: ss
-  name: 0.81|USwmt828a44
-  server: 38.75.136.34
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- type: ss
-  name: 0.80|USwmt828a32
+  name: 1.77|USwmt828a32
   server: 38.75.136.34
   port: 6679
   cipher: aes-256-gcm
   password: TEzjfAYq2IjtuoS
-- name: 0.79|油管阿伟科技 38
-  server: clash11.free4444.xyz
+- type: ss
+  name: 1.76|USwmt93a14
+  server: 169.197.143.232
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 1.74|美国youtube阿伟科技 30
+  server: 38.75.136.34
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- type: ss
+  name: 1.68|USwmt93a39
+  server: 38.91.107.66
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 1.66|油管阿伟科技 42
+  server: clash6.ssrfree6.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -464,25 +428,21 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- type: trojan
-  name: 0.78|SGwmt93a45
-  server: 730tw01.ok365.cyou
-  port: 443
-  password: dc350a83-32d9-41ef-9b53-581de2af015b
-  udp: true
-  skip-cert-verify: true
-  sni: 730tw01.ok365.cyou
-- name: 0.76|美国youtube阿伟科技 3
-  server: i1.go001.buzz
-  port: 32601
-  type: ss
-  cipher: aes-256-gcm
-  password: bBEXIq
-  udp: true
-- name: 0.72|英国youtube阿伟科技 3
-  server: i1.go001.buzz
-  port: 31905
-  type: ss
-  cipher: aes-256-gcm
-  password: bBEXIq
-  udp: true
+- type: ss
+  name: 1.65|CAwmt93a37
+  server: 134.195.196.143
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.51|AUwmt92a24
+  server: 185.167.116.250
+  port: 9073
+  cipher: aes-256-cfb
+  password: daFYagqDdBdA6VTX
+- type: ss
+  name: 1.44|CAwmt93a38
+  server: 134.195.196.143
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
