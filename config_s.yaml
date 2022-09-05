@@ -1,5 +1,58 @@
 proxies:
-- name: 1.10|CN8
+- name: 2.08| US105 TGpeekfun
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 1.84| US94 TGpeekfun
+  server: 104.19.3.16
+  port: 443
+  type: vmess
+  country: ' US'
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /chcar
+  ws-headers:
+    HOST: v2fly.samrt.website
+  skip-cert-verify: true
+  servername: v2fly.samrt.website
+- name: 1.76|德国youtube阿伟科技 2
+  server: cdn.linil.ml
+  port: 443
+  type: vmess
+  uuid: 2c7da08b-b0a0-4544-a4d9-fd75515cc373
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ukqzvws
+    headers:
+      Host: eu.ratx.tech
+  udp: true
+- name: 1.57|美国youtube阿伟科技 26
+  server: 45.33.109.70
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|fr8
+  server: 15.236.218.230
+  port: 443
+  type: trojan
+  password: iyinglong
+  skip-cert-verify: true
+- name: 1.46|CN8
   server: hk-hkg-hgc-a-v2.node.inforun.work
   port: 888
   type: vmess
@@ -14,44 +67,139 @@ proxies:
     HOST: cdn.savoy.click
   skip-cert-verify: true
   servername: cdn.savoy.click
-- type: vmess
-  name: 0.60|US美国3
-  ws-opts:
-    path: /baipiaob
-    headers:
-      host: baipiaob.ml
-  server: baipiaob.ml
+- name: 1.43| 韩国首尔直连Z130M
+  server: krz1.1yuanfly.live
+  port: 32399
+  type: vmess
+  uuid: 7cdfdb89-9279-3209-b322-57c76044b634
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 1.31| githubcomfreefq  美国CloudFlare公司CDN节点 27
+  server: kr.wangfuzheng.top
   port: 443
-  uuid: d7a42c5b-f6ff-448a-c1d7-f97e0c500d44
+  type: vmess
+  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr.wangfuzheng.top
+- name: 1.23| githubcomfreefq  美国CloudFlare公司CDN节点 8
+  server: cf.naixii.top
+  port: 443
+  type: vmess
+  uuid: 5e6f7d1f-ae22-48b4-9d73-88314de4d4a7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /qvFvfAfHvz
+  ws-headers:
+    Host: bvm.naixii.top
+- name: 1.15|日本youtube阿伟科技 9
+  server: jpamd.fineyoo.ml
+  port: 443
+  type: vmess
+  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: jpamd.fineyoo.ml
+  udp: true
+- name: 1.14|日本youtube阿伟科技 10
+  server: 172.105.236.208
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 1.00|CO哥伦比亚US美国1
+  ws-opts:
+    path: /chcar
+    headers:
+      host: v2fly.samrt.website
+  server: 188.114.97.113
+  port: 443
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-- name: 0.51| githubcomfreefq  美国CloudFlare公司CDN节点 25
+- name: 0.93|德国youtube阿伟科技 2
+  server: cf.fullcloud.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxdeovz2.fovi.tk
+  udp: true
+- type: vmess
+  name: 0.66|US美国2
+  ws-opts:
+    path: /123
+    headers:
+      host: arm.ptuu.gq
   server: arm.ptuu.gq
   port: 443
-  type: vmess
   uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d
   alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /123
-  ws-headers:
-    Host: arm.ptuu.gq
-- name: 0.49| RelayJPJP374
-  server: vjp3.0bad.com
+  tls: true
+- name: 0.51|美国youtube阿伟科技 4
+  server: jixu4.qiqis.ml
   port: 443
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 8ff3321a-63c5-48a5-a469-f334789102ff
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp3.0bad.com
-- name: 0.31|香港youtube阿伟科技 5
+  ws-opts:
+    path: /eb11fd03/
+    headers:
+      Host: jixu4.qiqis.ml
+  udp: true
+- name: 0.36| HK65 TGpeekfun
+  server: 103.103.245.125
+  port: 50350
+  type: trojan
+  country: ' HK'
+  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 0.29|CO哥伦比亚US美国2
+  ws-opts:
+    path: /chcar
+    headers:
+      host: v2fly.samrt.website
+  server: 188.114.97.110
+  port: 443
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 0.24|香港youtube阿伟科技 6
   server: us-nyc-ctg-04-v2.nodes.cjhh.one
   port: 888
   type: vmess
@@ -66,26 +214,31 @@ proxies:
     headers:
       Host: us-nyc-ctg-04-v2.nodes.cjhh.one
   udp: true
-- name: 0.18| US133 TGpeekfun
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 0.18|德国youtube阿伟科技 4
-  server: 60.249.92.67
-  port: 443
+- name: 0.21|SSRSUBV23付费推荐suoytssrsub
+  server: kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol
+  port: 888
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: diamonds-july-egg-sporting.trycloudflare.com
-  udp: true
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: node.inforun.work
+- name: 0.21| RelayUSUS66
+  server: chess.magicefire.com
+  port: 443
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 0.11| githubcomfreefq  美国  1
+  server: us9929.azus.ml
+  port: 20206
+  type: vmess
+  uuid: cb6b51a8-085c-4428-dc77-4fd5c05fca90
+  alterId: 0
+  cipher: auto
+  tls: true
