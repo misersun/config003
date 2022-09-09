@@ -1,84 +1,5 @@
 proxies:
-- name: 2.90| githubcomfreefq  美国亚利桑那州凤凰城Oracle云计算数据中心 29
-  server: 129.146.84.253
-  port: 26875
-  type: vmess
-  uuid: bb240cb0-a6d2-4b8e-ee85-a976e48ac241
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.95|新加坡youtube阿伟科技 2
-  server: xjp.azzhuangaping.tw
-  port: 80
-  type: vmess
-  uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /adobe
-    headers:
-      Host: xjp.azzhuangaping.tw
-  udp: true
-- name: 1.84| 英国A
-  server: 51.142.233.54
-  port: 30006
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.08|白嫖
-  server: fr.2121999.xyz
-  port: 8880
-  type: vmess
-  uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fr.2121999.xyz
-- name: 1.05|美国youtube阿伟科技 23
-  server: 152.70.136.12
-  port: 34401
-  type: vmess
-  uuid: 890a284d-5d99-45e7-a982-2c34e5616778
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.69| githubcomfreefq  美国弗吉尼亚州文特山农场OVH数据中心 12
-  server: 51.81.223.32
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- name: 0.59| 日本W3直连
-  server: 18.178.89.96
-  port: 54332
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.49|美国youtube阿伟科技 31
-  server: 129.159.41.233
-  port: 32586
-  type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.28| Hong Kong 2  Garena
+- name: 5.83| Hong Kong 2  Garena
   server: hk-2.4g.mkvn.net
   port: 80
   type: vmess
@@ -90,11 +11,66 @@ proxies:
   ws-path: /4g.mkvn.net
   ws-headers:
     Host: dl.kgvn.garenanow.com
-- name: 0.23|俄罗斯youtube阿伟科技
-  server: els.tdzjing.xyz
+- name: 2.23| githubcomfreefq  美国内华达州拉斯维加斯BuyVM 42
+  server: 205.185.121.4
   port: 80
   type: vmess
-  uuid: 00000000-1111-1111-1111-222222222222
+  uuid: 1e45ace9-8284-445b-b8fd-195b51ec8b6b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 205.185.121.4
+- name: 2.12|US3
+  server: c12s801.jamjams3.net
+  port: 12623
+  type: vmess
+  uuid: 8ff878d1-eaf8-4afd-8cbb-6d657596af64
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 1.58| 韩国A
+  server: 3.36.58.115
+  port: 43632
+  type: vmess
+  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.04| githubcomfreefq  越南  21
+  server: 103.56.161.146
+  port: 80
+  type: vmess
+  uuid: 6cbf4eda-e166-4db3-a53c-33f4c75a221c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vpngiare.net
+  ws-headers:
+    Host: 103.56.161.146
+- name: 0.66| githubcomfreefq  美国CloudFlare节点 31
+  server: fr.2121999.xyz
+  port: 8880
+  type: vmess
+  uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: fr.2121999.xyz
+- name: 0.40|日本youtube阿伟科技 7
+  server: 155.248.170.1
+  port: 80
+  type: vmess
+  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
   alterId: 0
   cipher: auto
   tls: false
@@ -106,17 +82,29 @@ proxies:
     - /
     headers:
       Host:
-      - YouTube-aweikeji
+      - 155.248.170.1
   udp: true
-- name: 0.14| githubcomfreefq  英国  26
-  server: rbobosz.tk
-  port: 40762
+- type: vmess
+  name: 0.34|美国youtube阿伟科技15
+  ws-opts:
+    path: /oooo
+    headers:
+      host: v4.heduian.online
+  server: v4.heduian.online
+  port: '30866'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: '2'
+  cipher: auto
+  network: ws
+- name: 0.28| 新加坡B
+  server: 3.0.89.76
+  port: 43632
   type: vmess
-  uuid: 5115f550-3f8c-44fe-a064-eb02e2fbb89b
+  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.13|SSRSUBV13付费推荐suoytssrsub
+- name: 0.19|SSRSUBV13付费推荐suoytssrsub
   server: nnv.chitacdn.xyz
   port: 54242
   type: vmess
@@ -124,3 +112,27 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+- name: 0.19| githubcomfreefq  美国3COM公司企业网 16
+  server: 152.67.218.38
+  port: 443
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 152.67.218.38
+- name: 0.11| githubcomfreefq  美国  15
+  server: xjp.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /adobe
+  ws-headers:
+    Host: xjp.azzhuangaping.tw
