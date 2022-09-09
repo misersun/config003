@@ -1,17 +1,6 @@
 proxies:
-- name: 4.38|油管阿伟科技 8
-  server: gzyd.120.817777.xyz
-  port: 20528
-  type: ssr
-  cipher: aes-256-cfb
-  password: zxOmdD
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 22082:tgXIaG
-  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlVUQ
-  udp: true
 - type: ss
-  name: 4.25|wmt96a7
+  name: 4.73|wmt98a9
   server: fn600mlines008.fnline.vip
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -24,14 +13,28 @@ proxies:
     path: /
     tls: true
     host: fn600mlines008.fnline.vip
-- name: 3.48| githubcomfreefq  美国  14
+- type: ss
+  name: 4.20|TWwmt91pa157
+  server: fn600mliness017.fnline.xyz
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- name: 3.76| githubcomfreefq  美国  3
   server: ty1-2.nigirocloud.com
   port: 443
   type: trojan
   password: 4V4kxVXmcg5Yn2DqF2
   sni: ty1-2.nigirocloud.com
-- name: 2.90| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
-  server: clash1-2.ssrfree1.xyz
+- name: 2.89| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
+  server: clash6-3.ssrfree6.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -40,8 +43,8 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.73| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: clash1-3.ssrfree1.xyz
+- name: 2.86| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
+  server: clash6-2.ssrfree6.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -50,8 +53,31 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+- type: ssr
+  name: 2.65|油管阿伟科技19
+  server: 43.132.194.79
+  port: 31580
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: zxOmdD
+  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlKU1h2djcw
+  protocol-param: 22082:tgXIaG
+- type: trojan
+  name: 2.64|HKwmt98a172
+  server: hk3.hktkcloud.cloud
+  port: 443
+  password: d4119dee-493a-407f-9109-a36d62153e19
+  udp: true
+  skip-cert-verify: true
 - type: ss
-  name: 2.69|TWwmt96a144
+  name: 2.62|USwmt98a84
+  server: 38.91.102.74
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 2.48|TWwmt98a177
   server: fn600mlines021.fnline.info
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -64,49 +90,20 @@ proxies:
     path: /
     tls: true
     host: fn600mlines021.fnline.info
-- name: 2.63|油管阿伟科技 4
-  server: zjg1.ssrfree2.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 2.58|US2
-  server: 156.146.38.163
-  port: 443
-  type: ss
-  password: shadowsocks
-  cipher: aes-128-cfb
-- name: 2.51| githubcomfreefq  澳大利亚  8
-  server: ttt1.swiftfalcon.app
-  port: 8443
-  type: trojan
-  password: coldwar2
-  sni: ttt1.swiftfalcon.app
 - type: ss
-  name: 2.48|USwmt96a87
+  name: 2.42|USwmt98a158
   server: 38.91.102.74
   port: 2375
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
 - type: ss
-  name: 2.46|USwmt96a85
+  name: 2.41|USwmt98a88
   server: 38.91.102.74
-  port: 9101
+  port: 8008
   cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
+  password: XKFKl2rULjIp74
 - type: ss
-  name: 2.36|USwmt96a69
-  server: 38.91.102.74
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- type: ss
-  name: 2.34|USwmt91p13
+  name: 2.40|USwmt91p13
   server: fnhk1gline001.fnline.xyz
   port: 443
   cipher: xchacha20-ietf-poly1305
@@ -120,21 +117,23 @@ proxies:
     tls: true
     host: fnhk1gline001.fnline.xyz
 - type: ss
-  name: 2.25|TWwmt91pa157
-  server: fn600mliness017.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness017.fnline.xyz
+  name: 2.38|USwmt98a80
+  server: 38.91.102.74
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 2.34| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash4.ssrfree4.xyz
+  port: 22333
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - type: ss
-  name: 2.21|USwmt91a78
+  name: 2.33|USwmt91a78
   server: fnhk1gline002.fnline.me
   port: 443
   cipher: xchacha20-ietf-poly1305
@@ -147,100 +146,57 @@ proxies:
     path: /
     tls: true
     host: fnhk1gline002.fnline.me
-- type: ss
-  name: 2.07|USwmt96a67
-  server: 38.91.102.72
-  port: 9102
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-- type: ss
-  name: 2.00|USwmt96a80
-  server: 38.91.102.74
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- type: ss
-  name: 1.97|USwmt96a93
-  server: 38.91.106.75
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 1.86|USwmt96a70
-  server: 38.91.102.74
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- type: ss
-  name: 1.86|USwmt96a76
-  server: 38.91.102.74
-  port: 8090
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- type: ss
-  name: 1.86|USwmt96a82
-  server: 38.91.102.74
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- type: ss
-  name: 1.84|USwmt96a88
-  server: 38.91.102.74
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- type: ss
-  name: 1.76|USwmt96a75
-  server: 38.91.102.74
-  port: 7306
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- type: ss
-  name: 1.69|USwmt96a72
-  server: 38.91.102.74
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- type: ss
-  name: 1.63|GBwmt97p3
-  server: 212.102.53.80
+- name: 2.28| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
+  server: sv.ssrfree7.xyz
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-- type: ss
-  name: 1.61|USwmt96a81
-  server: 38.91.107.72
-  port: 5500
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- type: ss
-  name: 1.60|NLwmt96a78
-  server: 92.38.184.228
-  port: 2097
-  cipher: chacha20-ietf-poly1305
-  password: jRKkoWqkrw2f
-- type: ss
-  name: 1.48|USwmt96a79
-  server: 38.91.102.74
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 1.47|USwmt91a72
-  server: fndxshk1000mline001.fnline.vip
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.22| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶
+  server: clash5.ssrfree5.xyz
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 50db7fd78cdc
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fndxshk1000mline001.fnline.vip
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.12|油管阿伟科技 2
+  server: sss10.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.11| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ssr
+  name: 2.02|油管阿伟科技10
+  server: clash6.ssrfree6.xyz
+  port: 443
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
 - type: ss
-  name: 1.45|TWwmt96a149
+  name: 1.83|TWwmt96a149
   server: fn600mliness018.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -254,46 +210,89 @@ proxies:
     tls: true
     host: fn600mliness018.fnline.xyz
 - type: ss
-  name: 1.33|USwmt96a91
+  name: 1.79|USwmt98a167
+  server: 38.91.102.74
+  port: 3306
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 1.72| US156 TGpeekfun
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 1.71|USwmt98a173
+  server: 156.146.38.163
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+- type: trojan
+  name: 1.70|FRwmt98a146
+  server: 52.47.99.22
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- type: ss
+  name: 1.70|USwmt98a86
+  server: 38.91.102.74
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 1.68|USwmt98a59
+  server: 38.91.102.74
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 1.67| us1
+  server: 54.165.2.244
+  port: 443
+  type: trojan
+  password: iyinglong
+  skip-cert-verify: true
+- type: ss
+  name: 1.66|USwmt98a95
+  server: 38.91.102.74
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 1.63|USwmt98a69
   server: 38.91.102.74
   port: 8119
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
 - type: ss
-  name: 1.21|HKwmt91pa151
-  server: fn600mliness016.fnline.info
-  port: 443
+  name: 1.63|CHwmt98a102
+  server: 45.12.206.177
+  port: 812
   cipher: chacha20-ietf-poly1305
-  password: bd04a7b470fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness016.fnline.info
+  password: G!yBwPWH3Vao
 - type: ss
-  name: 1.20|USwmt96a66
+  name: 1.60|USwmt98a151
   server: 38.91.102.74
-  port: 8008
+  port: 6379
   cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- type: ss
-  name: 1.18|USwmt96a65
-  server: 38.91.102.74
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 1.16| 官网地址 welink345233tw
-  server: 45.33.109.70
+  password: zDNVedRFPQexG9v
+- type: trojan
+  name: 1.58|比利时youtube阿伟科技
+  server: ty1-4.nigirocloud.com
   port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
+  password: 4V4kxVXmcg5Yn2DqF2
+  udp: true
   skip-cert-verify: true
-- name: 1.02|油管阿伟科技 7
-  server: clash6.ssrfree6.xyz
+- type: ss
+  name: 1.52|USwmt98a81
+  server: 38.91.102.74
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 1.49| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
+  server: clash1-2.ssrfree1.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -302,8 +301,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
-- name: 0.88| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
+- name: 1.48| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
   server: sv.ssrfree3.xyz
   port: 443
   type: ssr
@@ -313,83 +311,33 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- type: trojan
-  name: 0.49|USwmt96a140
-  server: purchases.freetrade.link
-  port: 443
-  password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9
-  udp: true
-  skip-cert-verify: true
-- name: 0.44| CN42 TGpeekfun
-  server: 14.29.124.174
-  port: 11001
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.44| CN51 TGpeekfun
-  server: 14.29.124.174
-  port: 11039
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.41| CN54 TGpeekfun
-  server: 14.29.124.174
-  port: 11044
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.22| CN48 TGpeekfun
-  server: 14.29.124.174
-  port: 11019
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.18| RelayCNHK10
-  server: 14.29.124.174
-  port: 11013
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.17| CN50 TGpeekfun
-  server: 14.29.124.174
-  port: 11038
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.13| NL126 TGpeekfun
-  server: 41.216.177.41
-  port: 443
-  type: trojan
-  country: ' NL'
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  skip-cert-verify: true
-  udp: true
-- name: 0.13| CN44 TGpeekfun
-  server: 14.29.124.174
-  port: 11009
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.12|githubcomfreefq  亚太地区  11
-  server: idtj-ikd.bonds.id
-  port: 443
-  type: trojan
-  password: 193ba7c0-2e7d-11ed-a396-1239d0255272
-  sni: idtj-ikd.bonds.id
-- name: 0.11| githubcomfreefq  日本  16
-  server: 93hk02.tfzhc.top
-  port: 443
-  type: trojan
-  password: d450d9fe-05fb-45ee-bb73-228d700792a0
-  sni: 93hk02.tfzhc.top
 - type: ss
-  name: 0.11|TWwmt91pa163
+  name: 1.43|USwmt96a70
+  server: 38.91.102.74
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 1.37| uk10
+  server: 3.10.180.114
+  port: 443
+  type: trojan
+  password: iyinglong
+  skip-cert-verify: true
+- name: 1.37| DE115 TGpeekfun
+  server: 193.108.118.30
+  port: 5500
+  type: ss
+  country: ' DE'
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- type: ss
+  name: 1.37|USwmt98a72
+  server: 38.91.102.74
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- type: ss
+  name: 1.37|TWwmt91pa163
   server: fn600mliness019.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -402,10 +350,68 @@ proxies:
     path: /
     tls: true
     host: fn600mliness019.fnline.xyz
-- name: 0.10| CN56 TGpeekfun
+- type: ss
+  name: 1.34|USwmt98a87
+  server: 38.91.102.74
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 1.33|USwmt91a72
+  server: fndxshk1000mline001.fnline.vip
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 50db7fd78cdc
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fndxshk1000mline001.fnline.vip
+- type: ss
+  name: 1.29|USwmt98a99
+  server: 38.91.107.72
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 1.25|USwmt98a70
+  server: 38.91.102.74
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 1.24|USwmt96a80
+  server: 38.91.102.74
+  port: 5004
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 1.21| US150 TGpeekfun
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 1.18|USwmt98a144
+  server: 38.91.102.74
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- name: 1.10| CN59 TGpeekfun
   server: 14.29.124.174
-  port: 11050
+  port: 11049
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
+- type: ss
+  name: 1.10|USwmt98a76
+  server: 38.91.102.74
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
