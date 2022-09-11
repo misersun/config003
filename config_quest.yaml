@@ -1,75 +1,50 @@
 proxies:
 - type: trojan
-  name: 11.64|USwmt910a116
-  server: 20.239.188.10
-  port: 20721
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- name: 8.14| 香港 A03 x10
-  server: 36.138.100.57
-  port: 21003
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- type: trojan
-  name: 8.12|USwmt910a2
-  server: 20.239.188.10
-  port: 20803
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 7.88|USwmt910a117
+  name: 11.49|USwmt910a117
   server: 20.239.188.10
   port: 20718
   password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
   udp: true
   skip-cert-verify: true
-- name: 7.75| 香港 A02 x10
-  server: 36.138.100.57
-  port: 21002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 7.67| 新加坡 B02 x10
-  server: 117.164.185.220
-  port: 61002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 7.64| 新加坡 IEPL01 x30
-  server: 117.164.185.222
-  port: 61001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 7.25| 新加坡 B01 x10
-  server: 117.164.185.220
-  port: 61001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
 - type: trojan
-  name: 7.24|USwmt910a121
+  name: 7.38|USwmt910a120
   server: 20.239.188.10
-  port: 20804
+  port: 20802
   password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
   udp: true
   skip-cert-verify: true
-- name: 7.07| 香港 C01 x10
-  server: 183.245.146.20
-  port: 21001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+- type: trojan
+  name: 6.72|USwmt910a116
+  server: 20.239.188.10
+  port: 20721
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  udp: true
   skip-cert-verify: true
-- name: 6.85|油管阿伟科技 8
+- type: trojan
+  name: 6.51|USwmt910a13
+  server: 20.239.188.10
+  port: 20767
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 5.93|USwmt910a8
+  server: 20.239.188.10
+  port: 20769
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  udp: true
+  skip-cert-verify: true
+- type: ssr
+  name: 5.85|油管阿伟科技19
+  server: 43.132.194.79
+  port: 31580
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: zxOmdD
+  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlKU1h2djcw
+  protocol-param: 22082:tgXIaG
+- name: 4.10|油管阿伟科技 8
   server: clash6-1.ssrfree6.xyz
   port: 443
   type: ssr
@@ -80,196 +55,15 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 6.71| 新加坡 A01 x10
-  server: 36.138.100.57
-  port: 61001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 6.40| 新加坡 A02 x10
-  server: 36.138.100.57
-  port: 61002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
 - type: trojan
-  name: 6.18|USwmt910a8
-  server: 20.239.188.10
-  port: 20769
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- name: 5.76|泰國 A01 x10
-  server: 117.164.185.220
-  port: 61022
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-- name: 5.45| 日本 B01 x10
-  server: 117.164.185.220
-  port: 11001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- type: ssr
-  name: 5.41|油管阿伟科技19
-  server: 43.132.194.79
-  port: 31580
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: zxOmdD
-  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlKU1h2djcw
-  protocol-param: 22082:tgXIaG
-- type: trojan
-  name: 5.38|USwmt910a13
-  server: 20.239.188.10
-  port: 20767
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- name: 5.28| 剩余流量2244527 GB
-  server: 117.164.185.222
-  port: 11001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 5.26| 日本 IEPL02 x30
-  server: 117.164.185.222
-  port: 11002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 5.17| 日本 B02 x10
-  server: 117.164.185.220
-  port: 11002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 5.06| 日本 C01 x10
-  server: 183.245.146.20
-  port: 11001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 4.82| 日本 C02 x10
-  server: 183.245.146.20
-  port: 11002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 4.71| 香港 IEPL04 x30
-  server: 117.164.185.222
-  port: 21004
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 4.66| 越南 A03 x10
-  server: 117.164.185.220
-  port: 61027
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-- name: 4.51| 香港 IEPL03 x30
-  server: 117.164.185.222
-  port: 21003
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 4.50| 越南 A02 x10
-  server: 117.164.185.220
-  port: 61026
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-- name: 4.45| 越南 A01 x10
-  server: 117.164.185.220
-  port: 61025
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-- name: 4.44| 香港 IEPL02 x30
-  server: 117.164.185.222
-  port: 21002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 4.43| 日本 A01 x10
-  server: 36.138.100.57
-  port: 11001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- type: trojan
-  name: 4.19|USwmt910a120
-  server: 20.239.188.10
-  port: 20802
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: ss
-  name: 3.97|TWwmt91pa157
-  server: fn600mliness017.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness017.fnline.xyz
-- type: trojan
-  name: 3.94|CNwmt910a12
-  server: 183.232.141.154
+  name: 3.94|CNwmt910a16
+  server: 36.139.166.76
   port: 19215
   password: a992be42-bed4-3037-8788-9e860cd635d3
   udp: true
   skip-cert-verify: true
 - type: ss
-  name: 3.83|TWwmt96a149
-  server: fn600mliness018.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 55011c8548ff
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness018.fnline.xyz
-- type: trojan
-  name: 3.79|CNwmt910a105
-  server: 183.232.141.154
-  port: 19211
-  password: a992be42-bed4-3037-8788-9e860cd635d3
-  udp: true
-  skip-cert-verify: true
-- name: 3.73| 新加坡 IEPL02 x30
-  server: 117.164.185.222
-  port: 61002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- type: ss
-  name: 3.68|wmt98a9
+  name: 3.56|wmt98a9
   server: fn600mlines008.fnline.vip
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -282,28 +76,15 @@ proxies:
     path: /
     tls: true
     host: fn600mlines008.fnline.vip
-- name: 3.45|台灣 A02 x10
-  server: 183.245.146.20
-  port: 41001
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
 - type: trojan
-  name: 3.31|USwmt910a119
-  server: 20.239.188.10
-  port: 20800
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  name: 3.51|CNwmt910a105
+  server: 183.232.141.154
+  port: 19211
+  password: a992be42-bed4-3037-8788-9e860cd635d3
   udp: true
   skip-cert-verify: true
-- name: 2.96| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 51
-  server: 95.169.4.174
-  port: 254
-  type: ss
-  cipher: aes-256-cfb
-  password: bwhskrskr06
-- name: 2.86| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
-  server: clash6-3.ssrfree6.xyz
+- name: 3.05| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶1SSR
+  server: jp-1.ssrfree5.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -312,22 +93,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.83| US150 TGpeekfun
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 2.77| 剩余流量100 GB
-  server: tw01.henet.cyou
-  port: 30000
-  type: trojan
-  password: 6be0a02f-941f-4f3c-b269-203aa5954bd7
-  sni: tw01.henet.cyou
-  skip-cert-verify: true
-- name: 2.75| US167 TGpeekfun
+- name: 2.96| US127 TGpeekfun
   server: s3.hazz.win
   port: 12340
   type: trojan
@@ -335,16 +101,94 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: 2.73| 香港 IEPL01 x30
-  server: 117.164.185.222
-  port: 21001
+- type: ss
+  name: 2.90|USwmt98a78
+  server: 38.91.102.72
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 2.76|USwmt98a89
+  server: 38.91.102.72
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 2.75|USwmt98a73
+  server: 38.91.102.72
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- type: ss
+  name: 2.74|USwmt98a93
+  server: 38.91.102.72
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.70|USwmt98a68
+  server: 38.91.102.72
+  port: 8881
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 2.69|USwmt98a84
+  server: 38.91.102.74
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 2.64|USwmt98a64
+  server: 38.91.102.72
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- name: 2.64| 测试CT美国0x
+  server: 45.33.57.17
+  port: 443
   type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
   skip-cert-verify: true
-- name: 2.70| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
+- type: ss
+  name: 2.63|USwmt98a71
+  server: 38.91.102.72
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- type: ss
+  name: 2.60|USwmt98a144
+  server: 38.91.102.74
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 2.59|USwmt98a151
+  server: 38.91.102.74
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- type: ss
+  name: 2.59|USwmt98a97
+  server: 38.91.102.72
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.58|USwmt98a94
+  server: 38.91.102.72
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 2.53|USwmt98a60
+  server: 38.91.102.74
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 2.48|油管阿伟科技 11
+  server: clash6-2.ssrfree6.xyz
+  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -352,23 +196,70 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.70| 日本 A02 x10
-  server: 36.138.100.57
-  port: 11002
-  type: trojan
-  password: 623e1900-473d-4b72-8d6b-c3a2e3223e3e
-  sni: 103-135-251-39.nhost.00cdn.com
-  skip-cert-verify: true
-- type: trojan
-  name: 2.70|CNwmt910a16
-  server: 36.139.166.76
-  port: 19215
-  password: a992be42-bed4-3037-8788-9e860cd635d3
   udp: true
-  skip-cert-verify: true
-- name: 2.68|油管阿伟科技 3
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
+- type: ss
+  name: 2.44|USwmt98a65
+  server: 38.91.102.72
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- type: ss
+  name: 2.44|USwmt98a75
+  server: 38.91.102.74
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.43|USwmt98a92
+  server: 38.91.102.72
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 2.42|USwmt98a116
+  server: 38.91.102.72
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ss
+  name: 2.40|USwmt98a69
+  server: 38.91.102.74
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 2.37|USwmt98a173
+  server: 156.146.38.163
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+- type: ss
+  name: 2.36|USwmt98a81
+  server: 38.91.102.74
+  port: 5500
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 2.34|USwmt98a96
+  server: 38.91.102.74
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- type: ss
+  name: 2.32|USwmt98a101
+  server: 38.91.102.72
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 2.32|USwmt98a95
+  server: 38.91.102.74
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- name: 2.31|油管阿伟科技 23
+  server: sss10.free4444.xyz
+  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -377,10 +268,84 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- type: trojan
-  name: 2.56|HKwmt910a20
-  server: 20.205.63.249
-  port: 20769
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+- name: 2.29| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
+  server: sv.ssrfree3.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.19|USwmt98a83
+  server: 38.91.102.72
+  port: 3306
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 2.19|油管阿伟科技
+  server: clash5.ssrfree5.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
   udp: true
-  skip-cert-verify: true
+- type: ss
+  name: 2.18|USwmt98a77
+  server: 38.91.102.72
+  port: 7306
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- type: ss
+  name: 2.16|USwmt98a79
+  server: 38.91.102.72
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 2.14|USwmt98a86
+  server: 38.91.102.74
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 2.11|USwmt98a74
+  server: 38.91.102.72
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.10|USwmt98a61
+  server: 38.91.102.72
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- type: ss
+  name: 2.09|USwmt98a76
+  server: 38.91.102.74
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.08|USwmt910a54
+  server: 38.86.135.34
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- type: ss
+  name: 2.08|USwmt910a61
+  server: 38.91.106.75
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 2.07|USwmt98a158
+  server: 38.91.102.74
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
