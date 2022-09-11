@@ -1,51 +1,13 @@
 proxies:
 - type: trojan
-  name: 11.49|USwmt910a117
-  server: 20.239.188.10
-  port: 20718
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 7.38|USwmt910a120
-  server: 20.239.188.10
-  port: 20802
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 6.72|USwmt910a116
+  name: 6.52|USwmt910a116
   server: 20.239.188.10
   port: 20721
   password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 6.51|USwmt910a13
-  server: 20.239.188.10
-  port: 20767
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 5.93|USwmt910a8
-  server: 20.239.188.10
-  port: 20769
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: ssr
-  name: 5.85|油管阿伟科技19
-  server: 43.132.194.79
-  port: 31580
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: zxOmdD
-  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlKU1h2djcw
-  protocol-param: 22082:tgXIaG
-- name: 4.10|油管阿伟科技 8
-  server: clash6-1.ssrfree6.xyz
+- name: 5.92|油管阿伟科技 9
+  server: clash11.free4444.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -56,14 +18,21 @@ proxies:
   obfs-param: ''
   udp: true
 - type: trojan
-  name: 3.94|CNwmt910a16
-  server: 36.139.166.76
-  port: 19215
-  password: a992be42-bed4-3037-8788-9e860cd635d3
+  name: 5.83|USwmt910a117
+  server: 20.239.188.10
+  port: 20718
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 4.88|USwmt910a13
+  server: 20.239.188.10
+  port: 20767
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
   udp: true
   skip-cert-verify: true
 - type: ss
-  name: 3.56|wmt98a9
+  name: 4.49|wmt98a9
   server: fn600mlines008.fnline.vip
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -77,13 +46,59 @@ proxies:
     tls: true
     host: fn600mlines008.fnline.vip
 - type: trojan
-  name: 3.51|CNwmt910a105
-  server: 183.232.141.154
-  port: 19211
-  password: a992be42-bed4-3037-8788-9e860cd635d3
+  name: 4.41|USwmt910a8
+  server: 20.239.188.10
+  port: 20769
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
   udp: true
   skip-cert-verify: true
-- name: 3.05| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶1SSR
+- type: ssr
+  name: 3.21|油管阿伟科技19
+  server: 43.132.194.79
+  port: 31580
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: zxOmdD
+  obfs-param: VkZWa1drMXNjSEZVV0d4T1lXdEZNRlJYYXpGa1IwWllWRzVzYVUwd05USlhiVFZTWkZacmVVOVlKU1h2djcw
+  protocol-param: 22082:tgXIaG
+- name: 3.04| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
+  server: clash6-3.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.69|USwmt98a78
+  server: 38.91.102.72
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 2.46|TWwmt98a177
+  server: fn600mlines021.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines021.fnline.info
+- type: ss
+  name: 2.43|USwmt98a116
+  server: 38.91.102.72
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 2.41| httpsgithubcomAlvin9999newpacwiki clash ip5 洛杉矶1SSR
   server: jp-1.ssrfree5.xyz
   port: 443
   type: ssr
@@ -93,100 +108,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 2.96| US127 TGpeekfun
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- type: ss
-  name: 2.90|USwmt98a78
-  server: 38.91.102.72
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- type: ss
-  name: 2.76|USwmt98a89
-  server: 38.91.102.72
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- type: ss
-  name: 2.75|USwmt98a73
-  server: 38.91.102.72
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- type: ss
-  name: 2.74|USwmt98a93
-  server: 38.91.102.72
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 2.70|USwmt98a68
-  server: 38.91.102.72
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- type: ss
-  name: 2.69|USwmt98a84
-  server: 38.91.102.74
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- type: ss
-  name: 2.64|USwmt98a64
-  server: 38.91.102.72
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 2.64| 测试CT美国0x
-  server: 45.33.57.17
+- name: 2.39| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
+  server: sv.ssrfree7.xyz
   port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-- type: ss
-  name: 2.63|USwmt98a71
-  server: 38.91.102.72
-  port: 8090
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- type: ss
-  name: 2.60|USwmt98a144
-  server: 38.91.102.74
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- type: ss
-  name: 2.59|USwmt98a151
-  server: 38.91.102.74
-  port: 6379
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- type: ss
-  name: 2.59|USwmt98a97
-  server: 38.91.102.72
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 2.58|USwmt98a94
-  server: 38.91.102.72
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-- type: ss
-  name: 2.53|USwmt98a60
-  server: 38.91.102.74
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 2.48|油管阿伟科技 11
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.36|油管阿伟科技 11
   server: clash6-2.ssrfree6.xyz
   port: 443
   type: ssr
@@ -198,77 +130,34 @@ proxies:
   obfs-param: ''
   udp: true
 - type: ss
-  name: 2.44|USwmt98a65
-  server: 38.91.102.72
-  port: 2376
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- type: ss
-  name: 2.44|USwmt98a75
-  server: 38.91.102.74
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 2.43|USwmt98a92
-  server: 38.91.102.72
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- type: ss
-  name: 2.42|USwmt98a116
-  server: 38.91.102.72
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- type: ss
-  name: 2.40|USwmt98a69
-  server: 38.91.102.74
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- type: ss
-  name: 2.37|USwmt98a173
-  server: 156.146.38.163
+  name: 2.19|USwmt91a78
+  server: fnhk1gline002.fnline.me
   port: 443
-  cipher: aes-128-cfb
-  password: shadowsocks
+  cipher: xchacha20-ietf-poly1305
+  password: 957abf07c5a6
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fnhk1gline002.fnline.me
 - type: ss
-  name: 2.36|USwmt98a81
-  server: 38.91.102.74
-  port: 5500
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- type: ss
-  name: 2.34|USwmt98a96
-  server: 38.91.102.74
-  port: 8090
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- type: ss
-  name: 2.32|USwmt98a101
-  server: 38.91.102.72
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- type: ss
-  name: 2.32|USwmt98a95
-  server: 38.91.102.74
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-- name: 2.31|油管阿伟科技 23
-  server: sss10.free4444.xyz
+  name: 2.07|TWwmt91pa157
+  server: fn600mliness017.fnline.xyz
   port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 2.29| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- name: 1.90| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
   server: sv.ssrfree3.xyz
   port: 443
   type: ssr
@@ -278,13 +167,26 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+- name: 1.87| 测试CT美国0x
+  server: 45.33.57.17
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
 - type: ss
-  name: 2.19|USwmt98a83
+  name: 1.85|USwmt98a64
   server: 38.91.102.72
-  port: 3306
+  port: 7002
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 2.19|油管阿伟科技
+  password: RexnBgU7EV5ADxG
+- type: ss
+  name: 1.82|USwmt98a61
+  server: 38.91.102.72
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 1.80|油管阿伟科技
   server: clash5.ssrfree5.xyz
   port: 443
   type: ssr
@@ -296,56 +198,186 @@ proxies:
   obfs-param: ''
   udp: true
 - type: ss
-  name: 2.18|USwmt98a77
+  name: 1.72|USwmt98a83
   server: 38.91.102.72
-  port: 7306
+  port: 3306
   cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
+  password: Y6R9pAtvxxzmGC
 - type: ss
-  name: 2.16|USwmt98a79
-  server: 38.91.102.72
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- type: ss
-  name: 2.14|USwmt98a86
-  server: 38.91.102.74
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- type: ss
-  name: 2.11|USwmt98a74
+  name: 1.72|USwmt98a74
   server: 38.91.102.72
   port: 3389
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
 - type: ss
-  name: 2.10|USwmt98a61
+  name: 1.71|USwmt98a68
   server: 38.91.102.72
-  port: 6379
+  port: 8881
   cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  password: kDWvXYZoTBcGkC4
 - type: ss
-  name: 2.09|USwmt98a76
-  server: 38.91.102.74
-  port: 5601
+  name: 1.70|USwmt98a94
+  server: 38.91.102.72
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+- type: ss
+  name: 1.70|USwmt98a97
+  server: 38.91.102.72
+  port: 5001
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
+- name: 1.68| 测试CT加拿大0x
+  server: 170.187.182.212
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
 - type: ss
-  name: 2.08|USwmt910a54
-  server: 38.86.135.34
+  name: 1.57|CHwmt98a156
+  server: 45.12.206.175
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 1.56|油管阿伟科技 23
+  server: sss10.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ss
+  name: 1.50|USwmt910a143
+  server: 38.91.107.66
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 1.48|CHwmt98a107
+  server: 45.12.206.177
+  port: 806
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.46|USwmt98a67
+  server: 38.91.102.72
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
 - type: ss
-  name: 2.08|USwmt910a61
-  server: 38.91.106.75
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  name: 1.43|CHwmt98a110
+  server: 45.12.206.177
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - type: ss
-  name: 2.07|USwmt98a158
-  server: 38.91.102.74
+  name: 1.39|CHwmt98a120
+  server: 45.12.206.178
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.37|USwmt98a89
+  server: 38.91.102.72
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 1.36|USwmt910a72
+  server: 38.91.106.75
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- type: ss
+  name: 1.30|USwmt98a73
+  server: 38.91.102.72
   port: 2375
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
+- name: 1.28| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
+  server: clash1-2.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 1.27|CHwmt98a128
+  server: 45.12.206.177
+  port: 809
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.26|CHwmt98a125
+  server: 45.12.206.175
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.23|USwmt98a93
+  server: 38.91.102.72
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- type: ss
+  name: 1.23|CHwmt98a133
+  server: 45.12.206.177
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.22|USwmt98a72
+  server: 38.91.102.74
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- type: ss
+  name: 1.20|USwmt98a101
+  server: 38.91.102.72
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 1.19|USwmt910a146
+  server: 38.91.107.66
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- type: ss
+  name: 1.18|USwmt96a70
+  server: 38.91.102.74
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+- type: ss
+  name: 1.17|CHwmt98a132
+  server: 45.12.206.178
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.17|USwmt910a107
+  server: 38.91.107.227
+  port: 8000
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- type: ss
+  name: 1.16|CHwmt98a153
+  server: 45.12.206.178
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.16|CHwmt98a111
+  server: 45.12.206.177
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
