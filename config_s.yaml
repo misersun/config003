@@ -1,63 +1,116 @@
 proxies:
-- name: 5.84| Singapore 01
-  server: sg1.turingnet.top
-  port: 50001
-  type: trojan
-  password: 0301ee5b-16e3-41ce-8c2b-b1e7fe0d5a6c
-  sni: sg1.turingnet.top
-- name: 4.19| Singapore 02
-  server: sg2.turingnet.top
-  port: 50001
-  type: trojan
-  password: 0301ee5b-16e3-41ce-8c2b-b1e7fe0d5a6c
-  sni: sg2.turingnet.top
-- name: 3.09| githubcomfreefq  美国CloudFlare节点 37
-  server: herbalserver.me
+- type: trojan
+  name: 3.04|USwmt915a11
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 2.41| githubcomfreefq  美国  16
+  server: weixin.babazhuji.com
   port: 443
   type: vmess
-  uuid: 712e3c7c-ba99-4594-a34f-c8a2e1d7c819
+  uuid: 27848739-7e62-4138-9fd3-098a63964b6b
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /herbalserver
+  ws-path: /tech
   ws-headers:
-    Host: usl-1.herbalv2ray.me
-- name: 2.85| githubcomfreefq  香港IT7网络 2
-  server: game.chaowenwan.com
-  port: 1314
-  type: trojan
-  password: gcwc1314
-  sni: game.chaowenwan.com
-- name: 2.31| 圣何塞 Trojan
-  server: san.ydnode.us
-  port: 443
-  type: trojan
-  password: d6ed263c-3f14-44db-bfee-cfcc26b234d1
-  sni: san.ydnode.us
+    Host: weixin.babazhuji.com
 - type: trojan
-  name: 0.99|USwmt915a9
+  name: 2.24|USwmt915a9
   server: s3.hass.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- type: vmess
-  name: 0.49|US美国9
-  ws-opts:
-    path: /zcjd
-    headers:
-      host: sgp.ycsfree.xyz
-  server: sgp.ycsfree.xyz
+- name: 1.88| US186 TGpeekfun
+  server: 54.218.99.141
   port: 443
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.38| githubcomfreefq  美国Microsoft数据中心 1
-  server: zz123.ml
-  port: 8087
   type: trojan
-  password: 1A6nxaKuzK
-  sni: zz123.ml
+  country: ' US'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 1.43|BRwmt915a18
+  server: 5.252.24.137
+  port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- name: 1.33| US184 TGpeekfun
+  server: 13.40.126.229
+  port: 443
+  type: trojan
+  country: ' US'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 1.27| US207 TGpeekfun
+  server: 13.38.55.14
+  port: 443
+  type: trojan
+  country: ' US'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.71| githubcomfreefq  日本  5
+  server: 99jp.tfzhc.top
+  port: 443
+  type: trojan
+  password: d0ad17a2-d7e9-4e78-89fb-71731696c440
+  sni: 99jp.tfzhc.top
+- name: 0.51| US212 TGpeekfun
+  server: 54.188.168.172
+  port: 443
+  type: trojan
+  country: ' US'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.34| githubcomfreefq  美国  19
+  server: susan.leosvps.space
+  port: 443
+  type: trojan
+  password: NGyhpgytIJ
+  sni: susan.leosvps.space
+- name: 0.18| githubcomfreefq  美国Amazon数据中心 13
+  server: uk1.turingnet.top
+  port: 50001
+  type: trojan
+  password: 5dba4451-e755-4e5b-9b3f-114865e058d6
+  sni: uk1.turingnet.top
+- name: 0.16| GB120 TGpeekfun
+  server: 3.9.175.102
+  port: 443
+  type: trojan
+  country: ' GB'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.13| US210 TGpeekfun
+  server: 52.12.10.181
+  port: 443
+  type: trojan
+  country: ' US'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.11| SG160 TGpeekfun
+  server: 18.140.67.76
+  port: 443
+  type: trojan
+  country: ' SG'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.10| JP127 TGpeekfun
+  server: 54.249.153.131
+  port: 443
+  type: trojan
+  country: ' JP'
+  password: iyinglong
+  skip-cert-verify: true
+  udp: true
