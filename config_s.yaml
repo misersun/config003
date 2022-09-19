@@ -1,45 +1,51 @@
 proxies:
-- name: 4.89| SG154 TGpeekfun
-  server: 18.140.67.76
+- name: 3.32| githubcomfreefq  美国CloudFlare节点 24
+  server: arm.ptuu.gq
   port: 443
-  type: trojan
-  country: ' SG'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: 3.21| US178 TGpeekfun
+  type: vmess
+  uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /123
+  ws-headers:
+    Host: arm.ptuu.gq
+- type: trojan
+  name: 2.80|USwmt918a82
   server: s3.hass.win
   port: 12340
-  type: trojan
-  country: ' US'
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
   udp: true
+  skip-cert-verify: true
+  sni: s3.hass.win
+- name: 2.62| githubcomfreefq  美国加利福尼亚州旧金山Amazon数据中心 21
+  server: eaws.fineyoo.tk
+  port: 443
+  type: vmess
+  uuid: 312110a5-0fb1-41df-f499-f36205a1c73f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /312110a5-0fb1-41df-f499-f36205a1c73f
+  ws-headers:
+    Host: eaws.fineyoo.tk
 - type: trojan
-  name: 2.85|USwmt916p7
-  server: scus1.ddns-pop.cyou
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  name: 2.46|KRwmt919a99
+  server: 3.38.108.94
+  port: 443
+  password: xxoo
   udp: true
   skip-cert-verify: true
-  sni: scus1.ddns-pop.cyou
-- name: 2.61| US212 TGpeekfun
-  server: 54.188.168.172
+- name: 2.29| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
   port: 443
   type: trojan
-  country: ' US'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 2.50|wmt916p16
-  server: 103.173.254.205
-  port: 443
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  udp: true
-  skip-cert-verify: true
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
 - type: vmess
-  name: 2.49|USwmt917a5
+  name: 2.13|USwmt918a20
   grpc-opts:
     grpc-service-name: los.ydnode.us
   server: los.ydnode.us
@@ -49,63 +55,154 @@ proxies:
   cipher: auto
   network: grpc
   tls: true
-- name: 2.44| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
 - type: trojan
-  name: 2.23|USwmt917a26
-  server: 34.219.183.33
+  name: 1.95|USwmt918a24
+  server: 23.94.103.146
   port: 443
-  password: iyinglong
+  password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57
   udp: true
   skip-cert-verify: true
-- name: 1.99| SG153 TGpeekfun
-  server: 52.77.243.140
+- name: 1.85| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
+  server: 190.93.246.145
   port: 443
-  type: trojan
-  country: ' SG'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 1.92|USwmt916p22
-  server: susan.leosvps.space
+  type: vmess
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: m5.v2rayfree1.xyz
+- type: vmess
+  name: 1.81|IN印度
+  ws-opts:
+    path: /0ea70e497192b88/
+    headers:
+      host: inlsjlw.com
+  server: inlsjlw.com
   port: 443
-  password: NGyhpgytIJ
-  udp: true
-  skip-cert-verify: true
+  uuid: be182928-d57c-43bc-bb8f-cd0038924943
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
 - type: trojan
-  name: 1.91|FRwmt917a3
+  name: 1.79|FRwmt918a9
   server: 13.38.24.83
   port: 443
   password: xxoo
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 1.80|GBwmt917a30
-  server: 18.130.157.11
+  name: 1.74|CAwmt918a38
+  server: cat1.sshocean.net
   port: 443
-  password: iyinglong
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 1.79|GBwmt917a20
-  server: 18.133.181.177
+  name: 1.57|IEwmt918a22
+  server: 34.248.69.233
   port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 1.55|US美国ID印度尼西亚2
+  ws-opts:
+    path: /vpnneo
+    headers:
+      host: biznet10.nextvpn.cc
+  server: blogs.microsoft.com
+  port: 443
+  uuid: 444e2f97-179c-4bff-8416-f1fbed0500ea
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.55| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN2
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: m5.v2rayfree1.xyz
+- type: vmess
+  name: 1.53|wmt919a153
+  ws-opts:
+    path: /
+    headers:
+      host: kr.wangfuzheng.top
+  server: kr.wangfuzheng.top
+  port: '443'
+  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.02| US289 TGpeekfun
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 0.87| GB238 TGpeekfun
+  server: 35.176.6.24
+  port: 443
+  type: trojan
+  country: ' GB'
   password: iyinglong
+  skip-cert-verify: true
+  udp: true
+- name: 0.71| githubcomfreefq  日本  26
+  server: 913hk.tfzhc.top
+  port: 443
+  type: trojan
+  password: 933b91c7-8499-44dd-8a84-ce6770acf55f
+  sni: 913hk.tfzhc.top
+- name: 0.54| githubcomfreefq  美国CloudFlare节点 25
+  server: 172.64.150.144
+  port: 443
+  type: vmess
+  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /d612af774b29/
+  ws-headers:
+    Host: jp.mywh.eu.org
+- name: 0.50| v2rayfreeeuorg  美国3COM公司企业网 12
+  server: wangqifei.ga
+  port: 41477
+  type: trojan
+  password: 3oquVrpxPg
+  sni: wangqifei.ga
+- type: trojan
+  name: 0.39|USwmt918a42
+  server: 138.124.183.222
+  port: 443
+  password: xxoo
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 1.76|GBwmt917a39
-  server: 13.40.126.229
+  name: 0.30|USwmt918a70
+  server: susan.leosvps.space
   port: 443
-  password: iyinglong
+  password: NGyhpgytIJ
   udp: true
   skip-cert-verify: true
-- name: 1.74| FR120 TGpeekfun
+- name: 0.29| FR120 TGpeekfun
   server: 35.180.247.162
   port: 443
   type: trojan
@@ -113,106 +210,29 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: 1.73| FR119 TGpeekfun
-  server: 52.47.99.22
-  port: 443
-  type: trojan
-  country: ' FR'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
 - type: trojan
-  name: 1.72|GBwmt917a4
+  name: 0.29|GBwmt917a4
   server: 3.10.209.85
   port: 443
   password: iyinglong
   udp: true
   skip-cert-verify: true
-- name: 1.65| githubcomfreefq  美国加利福尼亚州洛杉矶县洛杉矶市Multacom公司 11
-  server: us1.yunpan.dog
-  port: 38120
-  type: trojan
-  password: 8767cf29-2cbc-43b1-9458-933081705a55
-  sni: us1.yunpan.dog
-- type: trojan
-  name: 1.65|GBwmt916p80
-  server: 35.176.6.24
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 1.50| US192 TGpeekfun
-  server: 13.38.55.14
+- name: 0.24| US212 TGpeekfun
+  server: 54.188.168.172
   port: 443
   type: trojan
   country: ' US'
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: 1.49| US194 TGpeekfun
-  server: 54.70.120.130
-  port: 443
-  type: trojan
-  country: ' US'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: 1.39| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 1.37| githubcomfreefq  加拿大  16
-  server: 913tw.tfzhc.top
-  port: 44318
-  type: trojan
-  password: 3bfb6fba-8afd-4ec9-b6e0-1f17f97a37f2
-  sni: 913tw.tfzhc.top
 - type: trojan
-  name: 1.35|GBwmt917a8
-  server: 13.40.154.20
+  name: 0.20|GBwmt917a30
+  server: 18.130.157.11
   port: 443
   password: iyinglong
   udp: true
   skip-cert-verify: true
-- name: 1.03| githubcomfreefq  加拿大  14
-  server: 99tw02.tfzhc.top
-  port: 443
-  type: trojan
-  password: 3bfb6fba-8afd-4ec9-b6e0-1f17f97a37f2
-  sni: 99tw02.tfzhc.top
-- name: 0.96| JP132 TGpeekfun
-  server: 54.249.153.131
-  port: 443
-  type: trojan
-  country: ' JP'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 0.95|FRwmt917a32
-  server: 35.180.122.151
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.91|GBwmt917a36
-  server: 3.8.216.52
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 0.77| US190 TGpeekfun
-  server: 54.188.171.13
-  port: 443
-  type: trojan
-  country: ' US'
-  password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- name: 0.77| US187 TGpeekfun
+- name: 0.19| US283 TGpeekfun
   server: 150.230.249.42
   port: 443
   type: trojan
@@ -220,74 +240,19 @@ proxies:
   password: 0Y9gOHSdRt
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: 0.73|JPwmt916p79
-  server: 18.179.205.215
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.50|USwmt915a11
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 0.45| githubcomfreefq  美国Nokia 25
-  server: usa.jcnf.app
-  port: 443
-  type: vmess
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /zcjd
-  ws-headers:
-    Host: usa.jcnf.app
-- name: 0.37| SG150 TGpeekfun
-  server: 54.251.4.31
+- name: 0.17| FR234 TGpeekfun
+  server: 35.180.122.151
   port: 443
   type: trojan
-  country: ' SG'
+  country: ' FR'
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: 0.26| JP131 TGpeekfun
-  server: 18.179.136.120
+- name: 0.12| JP242 TGpeekfun
+  server: 54.249.153.131
   port: 443
   type: trojan
   country: ' JP'
   password: iyinglong
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 0.18|USwmt917a52
-  server: 54.218.99.141
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.17|GBwmt917a42
-  server: 3.9.175.102
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.15|USwmt917a55
-  server: 34.219.230.191
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 0.13| DE118 TGpeekfun
-  server: www.sxsy88.tk
-  port: 44150
-  type: trojan
-  country: ' DE'
-  password: zFyLKH62WN
   skip-cert-verify: true
   udp: true
