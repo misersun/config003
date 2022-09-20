@@ -1,56 +1,18 @@
 proxies:
-- name: 12.42|US66
-  server: 20.247.89.150
+- name: 12.77| Asia 香港01
+  server: 20.205.12.216
   port: 44300
   type: vmess
-  uuid: d19d4151-46b9-3041-bcef-f37cca5493fd
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /ny
-  ws-headers:
-    HOST: 20.247.89.150
-  skip-cert-verify: true
-  servername: 20.247.89.150
-- name: 11.93| 香港2
-  server: 154.3.35.243
-  port: 9999
-  type: vmess
-  uuid: 934af1f8-c55a-30a7-b48a-ca062819051f
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 7.72| Japan 日本01  电信优化
-  server: 20.24.69.15
-  port: 48000
-  type: vmess
-  uuid: d9a0b173-1f84-38d3-b3dc-822b9419742b
+  uuid: 30a0f4c7-1e3d-3b9b-afc2-b7bdbf2c5fea
   alterId: 0
   cipher: chacha20-poly1305
   tls: false
   network: ws
   ws-path: /fm
   ws-headers:
-    Host: 20.24.69.15
-- name: 6.80|套餐到期20220923
-  server: 38.47.98.74
-  port: 2561
-  type: vmess
-  uuid: e75c60d5-d4d3-4d32-abdb-4cd9990bf726
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 6.59| HK
-  server: 47.242.239.113
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
+    Host: 20.205.12.216
 - type: vmess
-  name: 5.30|HKwmt917a37
+  name: 7.63|HKwmt917a37
   http-opts:
     path:
     - /
@@ -64,75 +26,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 5.13|CNwmt916p18
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 43.154.9.57
-  server: 43.154.9.57
-  port: '42429'
-  uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 4.83|HKwmt919a116
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.236.239
-  server: 47.242.236.239
-  port: '35707'
-  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 4.30| Asia 香港03  移动优化
-  server: 16.163.56.149
-  port: 44300
-  type: vmess
-  uuid: f6158a04-ca0b-3b2d-8d52-3b5b38360f9c
-  alterId: 0
-  cipher: chacha20-poly1305
-  tls: false
-  network: ws
-  ws-path: /fm
-  ws-headers:
-    Host: 16.163.56.149
-- name: 4.29|HK65
-  server: 18.166.56.217
-  port: 44300
-  type: vmess
-  uuid: d19d4151-46b9-3041-bcef-f37cca5493fd
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /ny
-  ws-headers:
-    HOST: 18.166.56.217
-  skip-cert-verify: true
-  servername: 18.166.56.217
-- name: 4.19|HK64
-  server: 18.162.126.13
-  port: 44300
-  type: vmess
-  uuid: d19d4151-46b9-3041-bcef-f37cca5493fd
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /ny
-  ws-headers:
-    HOST: 18.162.126.13
-  skip-cert-verify: true
-  servername: 18.162.126.13
-- type: vmess
-  name: 3.58|HKwmt915a17
+  name: 7.04|HKwmt915a17
   http-opts:
     path:
     - /
@@ -146,15 +40,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 3.03|USwmt918a62
-  server: 129.159.41.233
-  port: '32586'
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 3.01|HKwmt916p75
+  name: 5.42|HKwmt916p75
   http-opts:
     path:
     - /
@@ -167,24 +53,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 3.00| githubcomfreefq  日本东京Choopa数据中心 1
-  server: 167.179.98.62
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.88| US
-  server: 165.3.122.163
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
 - type: vmess
-  name: 2.33|HKwmt918a109
+  name: 4.75|HKwmt918a109
   http-opts:
     path:
     - /
@@ -197,129 +67,96 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.18|CA
-  server: 155.138.140.189
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
+- type: vmess
+  name: 4.29|HKwmt919a53
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.124.141
+  server: 47.243.124.141
+  port: '41179'
+  uuid: a50b1dc4-03ce-44d8-a5c4-f4753c57884e
+  alterId: '0'
   cipher: auto
-  tls: false
-- name: 2.17| RU
-  server: 185.22.153.219
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
+  network: http
+- type: vmess
+  name: 4.25|CNwmt916p17
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.155.89.234
+  server: 43.155.89.234
+  port: '49513'
+  uuid: c33d0646-0088-40b1-8b98-4bdad397c607
+  alterId: '0'
   cipher: auto
-  tls: false
-- name: 1.94| githubcomfreefq  美国俄勒冈州波特兰Amazon数据中心 16
-  server: laws.fineyoo.tk
-  port: 80
+  network: http
+- name: 4.20| Asia 香港03
+  server: 16.163.56.149
+  port: 44300
   type: vmess
-  uuid: 97ed5b11-967c-40d8-851f-d9dfa7a1a428
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: laws.fineyoo.tk
-- name: 1.64| 新加坡
-  server: 20.239.162.0
-  port: 48001
-  type: vmess
-  uuid: f1b90c3c-1310-36dd-8163-3f7bf3e3cb4e
+  uuid: 30a0f4c7-1e3d-3b9b-afc2-b7bdbf2c5fea
   alterId: 0
   cipher: chacha20-poly1305
   tls: false
   network: ws
-  ws-path: /ny
+  ws-path: /fm
   ws-headers:
-    Host: 20.239.162.0
-- name: 1.41| RO
-  server: 5.181.25.81
+    Host: 16.163.56.149
+- type: vmess
+  name: 2.94|HKwmt918a49
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.18.21
+  server: 47.242.18.21
+  port: '44850'
+  uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.34|USwmt920a42
+  server: c702s801.jamjams3.net
+  port: '21237'
+  uuid: 722c4c77-b7c1-4cf4-880d-0b4843d7b33a
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 2.15|CAwmt920a39
+  server: 155.138.140.189
+  port: '21008'
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 1.80|US69
+  server: 149.28.123.123
   port: 21008
   type: vmess
   uuid: 80b5645a-86b7-48af-9252-977ba807a338
   alterId: 0
   cipher: auto
-  tls: false
-- name: 1.18|UA
-  server: 95.85.72.76
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.16|IT
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- type: vmess
+  name: 1.68|ITwmt920a62
   server: 92.223.79.25
-  port: 21008
-  type: vmess
+  port: '21008'
   uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 1.15|KRwmt918a31
-  server: 152.70.241.18
-  port: '26676'
-  uuid: ecd274c0-175d-45f7-8276-a3da93786632
   alterId: '0'
   cipher: auto
   network: tcp
-- type: vmess
-  name: 1.09|JPwmt919a74
-  server: fastoneclouddjc.hoot.cf
-  port: '20000'
-  uuid: ac0527fe-214a-4473-82b1-f3b3a3e9b27d
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 1.06|HK香港6
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.84.180
-  server: 8.210.84.180
-  port: 51529
-  uuid: 3b38d661-b5e7-485e-96af-6d4518d819d5
-  alterId: 0
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.00|HKwmt919a106
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.253.214
-  server: 8.210.253.214
-  port: '63586'
-  uuid: c83db083-ff44-4727-899f-02d501e68d05
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 0.94|CNwmt916p31
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 43.155.93.16
-  server: 43.155.93.16
-  port: '50044'
-  uuid: 27ddeff3-bf6a-4b02-9f48-4c676cdef59a
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 0.65|US67
+- name: 1.60|US68
   server: v4.heduian.online
   port: 30866
   type: vmess
@@ -333,42 +170,76 @@ proxies:
     HOST: baidu.com
   skip-cert-verify: true
   servername: baidu.com
-- name: 0.64| githubcomfreefq  日本  44
-  server: 146.56.40.117
-  port: 27675
+- name: 1.58| githubcomfreefq  美国  31
+  server: 68.183.129.197
+  port: 8080
   type: vmess
-  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /cctv13/hd.m3u8
   ws-headers:
-    Host: 146.56.40.117
+    Host: 68.183.129.197
+- name: 1.55|PL
+  server: 5.188.108.208
+  port: 21008
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.33|HU
+  server: 5.181.77.193
+  port: 21008
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: 0
+  cipher: auto
+  tls: false
 - type: vmess
-  name: 0.44|CNwmt916p17
+  name: 0.92|HKwmt919a116
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 43.155.89.234
-  server: 43.155.89.234
-  port: '49513'
-  uuid: c33d0646-0088-40b1-8b98-4bdad397c607
+      - 47.242.236.239
+  server: 47.242.236.239
+  port: '35707'
+  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.42| 测试日本甲骨文
-  server: 152.69.204.193
-  port: 33226
+- type: vmess
+  name: 0.90|CNwmt916p31
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.155.93.16
+  server: 43.155.93.16
+  port: '50044'
+  uuid: 27ddeff3-bf6a-4b02-9f48-4c676cdef59a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.70| githubcomfreefq  日本东京Linode数据中心 36
+  server: 172.104.70.195
+  port: 8080
   type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 172.104.70.195
 - type: vmess
-  name: 0.38|HKwmt918a25
+  name: 0.57|HKwmt919a43
   http-opts:
     path:
     - /
@@ -381,83 +252,22 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.36| githubcomfreefq  日本东京Linode数据中心 4
-  server: 172.104.70.195
-  port: 8080
-  type: vmess
-  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 172.104.70.195
-- name: 0.31|卢森堡youtube阿伟科技
-  server: 8.209.220.34
-  port: 80
-  type: vmess
-  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: lux.justu.ml
-  udp: true
-- name: 0.25| githubcomfreefq  美国  17
-  server: 216.238.79.208
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
 - type: vmess
-  name: 0.24|HKwmt918a49
+  name: 0.49|HK香港6
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.242.18.21
-  server: 47.242.18.21
-  port: '44850'
-  uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677
-  alterId: '0'
+      - 8.210.84.180
+  server: 8.210.84.180
+  port: 51529
+  uuid: 3b38d661-b5e7-485e-96af-6d4518d819d5
+  alterId: 0
   cipher: auto
   network: http
-- name: 0.21|SSRSUBV08付费推荐suoytssrsub
-  server: 139.59.244.143
-  port: 38941
-  type: vmess
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.20| githubcomfreefq  美国  23
-  server: hg.cycfly.xyz
-  port: 53525
-  type: vmess
-  uuid: 9c7daea1-ef4b-403d-8cb9-ceed7d526bba
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.19|日本youtube阿伟科技
-  server: 168.138.201.208
-  port: 10328
-  type: vmess
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 0.18|CNwmt918a27
+  name: 0.42|CNwmt920a67
   http-opts:
     path:
     - /
@@ -470,25 +280,91 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 0.31|香港youtube阿伟科技 7
+  server: 8.210.212.41
+  port: 22303
+  type: vmess
+  uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.212.41
+  udp: true
 - type: vmess
-  name: 0.17|HK香港8
+  name: 0.30|CNwmt916p18
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.242.104.161
-  server: 47.242.104.161
-  port: 32406
-  uuid: 4a1eaf72-a555-4737-bb09-8c388c118c5e
-  alterId: 0
+      - 43.154.9.57
+  server: 43.154.9.57
+  port: '42429'
+  uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360
+  alterId: '0'
   cipher: auto
   network: http
-- name: 0.12| AU
-  server: 139.180.175.112
-  port: 21008
+- name: 0.21| githubcomfreefq  中国阿里云 46
+  server: 8.209.220.34
+  port: 80
   type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: lux.justu.ml
+- name: 0.21| githubcomfreefq  日本  38
+  server: 146.56.40.117
+  port: 27675
+  type: vmess
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 146.56.40.117
+- type: vmess
+  name: 0.14|HKwmt919a106
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.253.214
+  server: 8.210.253.214
+  port: '63586'
+  uuid: c83db083-ff44-4727-899f-02d501e68d05
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.14|美国youtube阿伟科技 9
+  server: 47.242.104.161
+  port: 32406
+  type: vmess
+  uuid: 4a1eaf72-a555-4737-bb09-8c388c118c5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.104.161
+  udp: true
