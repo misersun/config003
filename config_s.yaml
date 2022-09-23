@@ -1,5 +1,21 @@
 proxies:
-- name: 4.19|SG 新加坡youtube阿伟科技 2
+- type: vmess
+  name: 6.97|KR韩国
+  server: m4.40010010.xyz
+  port: 37121
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: true
+- type: trojan
+  name: 6.16|KRwmt921149
+  server: kr1.api-aws.com
+  port: 443
+  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
+  udp: true
+  skip-cert-verify: true
+- name: 4.65|SG 新加坡youtube阿伟科技 4
   server: sg.vmess8.xservs.xyz
   port: 443
   type: vmess
@@ -14,7 +30,52 @@ proxies:
     headers:
       Host: sg.vmess8.xservs.xyz
   udp: true
-- name: 2.74|JP 日本youtube阿伟科技
+- type: trojan
+  name: 4.01|wmt92357
+  server: 103.173.254.43
+  port: 443
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 3.29|USwmt92113
+  server: s3.hass.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 3.26| DE190 TGpeekfun
+  server: s2.hass.win
+  port: 12340
+  type: trojan
+  country: ' DE'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 3.25|USwmt92135
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 3.13| SG244 TGpeekfun
+  server: s2.hazz.win
+  port: 12340
+  type: trojan
+  country: ' SG'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 3.00| US282 TGpeekfun
+  server: s1.hass.win
+  port: 12340
+  type: trojan
+  country: ' US'
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: 2.94|JP 日本youtube阿伟科技
   server: los1.ydnode.us
   port: 443
   type: trojan
@@ -23,30 +84,18 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: 2.63|wmt92357
-  server: 103.173.254.43
-  port: 443
+  name: 2.88|USwmt92315
+  server: scus1.ddns-pop.cyou
+  port: 24567
   password: 26e219f2-5c2a-356c-9767-9fd681cc0134
   udp: true
   skip-cert-verify: true
-- type: vmess
-  name: 1.87|CAwmt923112
-  ws-opts:
-    path: /
-    headers:
-      host: ca1.3320.top
-  server: ca1.3320.top
-  port: '443'
-  uuid: 0a303c5e-676e-446c-bc9b-1052b59a7499
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.69|IN28
-  server: in1.3320.top
+  sni: scus1.ddns-pop.cyou
+- name: 2.53|US24
+  server: dal1.3320.top
   port: 443
   type: vmess
-  uuid: 9d476be9-eca3-4561-9b56-6ff4ec1017ba
+  uuid: fa544812-dc89-4368-933d-01c7651a58bf
   alterId: 0
   cipher: auto
   tls: true
@@ -54,148 +103,25 @@ proxies:
   http-opts: {}
   ws-path: /
   ws-headers:
-    HOST: in1.3320.top
+    HOST: dal1.3320.top
   skip-cert-verify: true
-  servername: in1.3320.top
-- name: 1.46|US33
-  server: in2.3320.top
+  servername: dal1.3320.top
+- name: 2.22|JP 日本youtube阿伟科技 10
+  server: jpamd.fineyoo.ml
   port: 443
   type: vmess
-  uuid: 8c620954-3dec-42ff-92bd-873c4546a150
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: in2.3320.top
-  skip-cert-verify: true
-  servername: in2.3320.top
-- name: 1.27|GB26
-  server: uk2.3320.top
-  port: 443
-  type: vmess
-  uuid: 6cc27d4f-074c-430d-a3a1-64724db55ab5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: uk2.3320.top
-  skip-cert-verify: true
-  servername: uk2.3320.top
-- name: 1.18| v2rayfreeeuorg  美国3COM公司企业网 52
-  server: wangqifei.ga
-  port: 41477
-  type: trojan
-  password: 3oquVrpxPg
-  sni: wangqifei.ga
-- type: vmess
-  name: 1.00|US美国JP日本
-  ws-opts:
-    path: /d612af774b29/
-    headers:
-      host: jp.mywh.eu.org
-  server: 172.64.150.144
-  port: 443
-  uuid: fa94fb93-fef4-4055-bf54-244115640479
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.99|US 美国youtube阿伟科技 16
-  server: 47.242.28.250
-  port: 443
-  type: vmess
-  uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073
+  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /2yevws
+    path: /123
     headers:
-      Host: rn.1808.cf
+      Host: jpamd.fineyoo.ml
   udp: true
-- name: 0.77|US 美国youtube阿伟科技 18
-  server: 47.74.51.30
-  port: 443
-  type: vmess
-  uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /2yevws
-    headers:
-      Host: rn.1808.cf
-  udp: true
-- type: trojan
-  name: 0.68|USwmt921178
-  server: 52.12.10.181
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: vmess
-  name: 0.61|USwmt92332
-  grpc-opts:
-    grpc-service-name: los.ydnode.us
-  server: los.ydnode.us
-  port: '80'
-  uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1
-  alterId: '0'
-  cipher: auto
-  network: grpc
-  tls: true
-- name: 0.60|TUR 土耳其youtube阿伟科技
-  server: turkey.jcnf.app
-  port: 443
-  type: vmess
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /zcjd
-    headers:
-      Host: turkey.jcnf.app
-  udp: true
-- type: trojan
-  name: 0.52|JPwmt92375
-  server: 99jp.tfzhc.top
-  port: 44311
-  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
-  udp: true
-  skip-cert-verify: true
-- name: 0.49| githubcomfreefq  美国CloudFlare节点 60
-  server: 172.67.73.213
-  port: 443
-  type: vmess
-  uuid: 3da2b3d1-0fe7-4715-8463-b4ab43b8d4c3
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /mntpvws
-  ws-headers:
-    Host: 3.731808.tk
-- type: trojan
-  name: 0.48|CAwmt92366
-  server: 149.56.141.11
-  port: 443
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  udp: true
-  skip-cert-verify: true
-- name: 0.39|CA1
+- name: 1.91|CA1
   server: ca2.3320.top
   port: 443
   type: vmess
@@ -210,7 +136,81 @@ proxies:
     HOST: ca2.3320.top
   skip-cert-verify: true
   servername: ca2.3320.top
-- name: 0.37| githubcomfreefq  德国  41
+- name: 1.86| US294 TGpeekfun
+  server: susan.leosvps.space
+  port: 443
+  type: trojan
+  country: ' US'
+  password: NGyhpgytIJ
+  skip-cert-verify: true
+  udp: true
+- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
+  server: 190.93.246.145
+  port: 443
+  type: vmess
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: m5.v2rayfree1.xyz
+- name: 1.55|US27
+  server: in2.3320.top
+  port: 443
+  type: vmess
+  uuid: 8c620954-3dec-42ff-92bd-873c4546a150
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: in2.3320.top
+  skip-cert-verify: true
+  servername: in2.3320.top
+- name: 1.51| githubcomfreefq  加拿大  55
+  server: 913tw.tfzhc.top
+  port: 44318
+  type: trojan
+  password: f089ab9d-dd52-42a0-b10c-980e70a00e1a
+  sni: 913tw.tfzhc.top
+- type: vmess
+  name: 1.48|USwmt92332
+  grpc-opts:
+    grpc-service-name: los.ydnode.us
+  server: los.ydnode.us
+  port: '80'
+  uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1
+  alterId: '0'
+  cipher: auto
+  network: grpc
+  tls: true
+- name: 1.47|IN23
+  server: in1.3320.top
+  port: 443
+  type: vmess
+  uuid: 9d476be9-eca3-4561-9b56-6ff4ec1017ba
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: in1.3320.top
+  skip-cert-verify: true
+  servername: in1.3320.top
+- name: 1.45| v2rayfreeeuorg  美国3COM公司企业网 45
+  server: wangqifei.ga
+  port: 41477
+  type: trojan
+  password: 3oquVrpxPg
+  sni: wangqifei.ga
+- name: 1.43| githubcomfreefq  德国  63
   server: au1.3320.top
   port: 443
   type: vmess
@@ -223,40 +223,115 @@ proxies:
   ws-headers:
     Host: au1.3320.top
 - type: trojan
-  name: 0.31|CAwmt92389
+  name: 1.39|FRwmt92122
+  server: 13.38.55.14
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 1.37| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN2
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: m5.v2rayfree1.xyz
+- name: 1.24|DE18
+  server: de1.3320.top
+  port: 443
+  type: vmess
+  uuid: 8253d710-f3b5-4f73-9cb0-66e1dd2fef48
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: de1.3320.top
+  skip-cert-verify: true
+  servername: de1.3320.top
+- name: 1.09| githubcomfreefq  日本东京Linode数据中心 13
+  server: jp1.3320.top
+  port: 443
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jp1.3320.top
+- type: trojan
+  name: 0.95|CAwmt92366
+  server: 149.56.141.11
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  udp: true
+  skip-cert-verify: true
+- name: 0.94|US 美国youtube阿伟科技 15
+  server: vde2.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vde2.0bad.com
+  udp: true
+- type: vmess
+  name: 0.91|SG新加坡4
+  ws-opts:
+    path: /
+    headers:
+      host: sg2.3320.top
+  server: sg2.3320.top
+  port: 443
+  uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 0.66|CAwmt92389
   server: cat1.sshocean.net
   port: 443
   password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   udp: true
   skip-cert-verify: true
-- name: 0.30| githubcomfreefq  美国  65
-  server: susan.leosvps.space
+- name: 0.53| githubcomfreefq  美国CloudFlare节点 48
+  server: 172.64.150.144
+  port: 443
+  type: vmess
+  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /d612af774b29/
+  ws-headers:
+    Host: jp.mywh.eu.org
+- name: 0.50| GB198 TGpeekfun
+  server: 3.9.175.102
   port: 443
   type: trojan
-  password: NGyhpgytIJ
-  sni: susan.leosvps.space
-- type: trojan
-  name: 0.19|KRwmt921149
-  server: kr1.api-aws.com
-  port: 443
-  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
+  country: ' GB'
+  password: iyinglong
+  skip-cert-verify: true
   udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.16|USwmt921161
-  server: 150.230.249.42
-  port: 443
-  password: 0Y9gOHSdRt
-  udp: true
-  skip-cert-verify: true
-- name: 0.14| 03沪日专线2x
-  server: 921hk.tfzhc.top
-  port: 443
-  type: trojan
-  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
-  sni: 921hk.tfzhc.top
-  skip-cert-verify: true
-- name: 0.12| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 5
+- name: 0.38|US25
   server: frm1.3320.top
   port: 443
   type: vmess
@@ -265,6 +340,63 @@ proxies:
   cipher: auto
   tls: true
   network: ws
+  http-opts: {}
   ws-path: /
   ws-headers:
-    Host: frm1.3320.top
+    HOST: frm1.3320.top
+  skip-cert-verify: true
+  servername: frm1.3320.top
+- name: 0.21| githubcomfreefq  美国CloudFlare节点 69
+  server: 172.67.73.213
+  port: 443
+  type: vmess
+  uuid: 3da2b3d1-0fe7-4715-8463-b4ab43b8d4c3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /mntpvws
+  ws-headers:
+    Host: 3.731808.tk
+- name: 0.17| RelayUSUS66
+  server: chess.magicefire.com
+  port: 443
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  alterId: 0
+  cipher: auto
+  tls: true
+- type: trojan
+  name: 0.12|USwmt92188
+  server: 54.84.14.46
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 0.12|GB22
+  server: uk2.3320.top
+  port: 443
+  type: vmess
+  uuid: 6cc27d4f-074c-430d-a3a1-64724db55ab5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: uk2.3320.top
+  skip-cert-verify: true
+  servername: uk2.3320.top
+- name: 0.11| githubcomfreefq  日本东京都品川区Linode数据中心 26
+  server: jp2.3320.top
+  port: 443
+  type: vmess
+  uuid: 39829295-82d2-47e3-adca-9c9953573323
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jp2.3320.top
