@@ -1,59 +1,6 @@
 proxies:
 - type: vmess
-  name: 6.03|HKwmt92143
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.177.115
-  server: 47.242.177.115
-  port: '46675'
-  uuid: ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 5.72|HKwmt919a116
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.236.239
-  server: 47.242.236.239
-  port: '35707'
-  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 5.49|HKwmt917a37
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.48.24
-  server: 47.242.48.24
-  port: '54550'
-  uuid: 0f2d7b3f-e144-4e97-867c-d07f49f6251d
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 5.46|油管阿伟科技 37
-  server: clash6-2.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- type: vmess
-  name: 5.24|HKwmt92165
+  name: 5.49|HKwmt92350
   http-opts:
     path:
     - /
@@ -66,36 +13,44 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 4.76|油管阿伟科技 37
+  server: clash6-2.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 4.66|油管阿伟科技 38
+  server: clash6-3.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
 - type: vmess
-  name: 4.73|HKwmt92163
+  name: 4.61|HKwmt917a37
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.243.136.17
-  server: 47.243.136.17
-  port: '37205'
-  uuid: abb92d0b-5613-48ae-9564-03fda7830a96
+      - 47.242.48.24
+  server: 47.242.48.24
+  port: '54550'
+  uuid: 0f2d7b3f-e144-4e97-867c-d07f49f6251d
   alterId: '0'
   cipher: auto
   network: http
 - type: vmess
-  name: 4.67|CNwmt920a67
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 43.155.60.88
-  server: 43.155.60.88
-  port: '29882'
-  uuid: 0071947c-daab-4a02-a63c-8f52ba9429c2
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 4.52|HKwmt915a17
+  name: 4.55|HKwmt915a17
   http-opts:
     path:
     - /
@@ -109,29 +64,73 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 4.16|HKwmt92145
+  name: 4.51|HKwmt92367
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.242.203.43
-  server: 47.242.203.43
-  port: '23501'
-  uuid: 7b3f0c3e-5ba1-430f-b8e5-dcff591f93bc
+      - 47.242.177.115
+  server: 47.242.177.115
+  port: '46675'
+  uuid: ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1
   alterId: '0'
   cipher: auto
   network: http
-- type: trojan
-  name: 4.08|KRwmt921149
-  server: kr1.api-aws.com
+- name: 4.19|SG 新加坡youtube阿伟科技 2
+  server: sg.vmess8.xservs.xyz
   port: 443
-  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
-  udp: true
+  type: vmess
+  uuid: e8c7f5ce-318c-4e43-9e60-3f12f798ec33
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-- name: 4.08|油管阿伟科技 38
-  server: clash6-3.ssrfree6.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg.vmess8.xservs.xyz
+  udp: true
+- type: vmess
+  name: 3.93|HKwmt92317
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.136.17
+  server: 47.243.136.17
+  port: '37205'
+  uuid: abb92d0b-5613-48ae-9564-03fda7830a96
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.56|CNwmt92359
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.31.230
+  server: 43.154.31.230
+  port: '25916'
+  uuid: cfd98bac-dc87-4e95-a979-b481aed312ef
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.74|JP 日本youtube阿伟科技
+  server: los1.ydnode.us
   port: 443
+  type: trojan
+  password: b6a487eb-2ccf-4640-856e-4a32f974c8b1
+  sni: los1.ydnode.us
+  skip-cert-verify: true
+  udp: true
+- name: 2.72| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash4.ssrfree4.xyz
+  port: 22333
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -139,9 +138,49 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
 - type: vmess
-  name: 4.05|HK香港6
+  name: 2.71|HKwmt92318
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.131.231
+  server: 47.243.131.231
+  port: '58681'
+  uuid: df206563-b36c-4999-8764-c3e21a931b9e
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: trojan
+  name: 2.63|wmt92357
+  server: 103.173.254.43
+  port: 443
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  udp: true
+  skip-cert-verify: true
+- name: 2.57| US159 TGpeekfun
+  server: 152.69.197.60
+  port: 1069
+  type: vmess
+  country: ' US'
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 2.55| v2rayfreeeuorg  美国加州 28
+  server: 64.112.42.53
+  port: 16999
+  type: vmess
+  uuid: 48fb27a4-e6fe-42cf-95bf-103d2318ed5d
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 2.29|HK香港6
   http-opts:
     path:
     - /
@@ -154,480 +193,7 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
-- name: 3.26|US44
-  server: dal2.3320.top
-  port: 443
-  type: vmess
-  uuid: feffbcdf-40d4-49cc-a8d3-9fa8872c50c4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: dal2.3320.top
-  skip-cert-verify: true
-  servername: dal2.3320.top
-- name: 3.19| US377 TGpeekfun
-  server: s1.hass.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 3.06|USwmt92135
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 2.90|SG37
-  server: sg2.3320.top
-  port: 443
-  type: vmess
-  uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: sg2.3320.top
-  skip-cert-verify: true
-  servername: sg2.3320.top
-- type: trojan
-  name: 2.77|USwmt920a10
-  server: s3.hass.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: vmess
-  name: 2.75|CNwmt916p18
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 43.154.9.57
-  server: 43.154.9.57
-  port: '42429'
-  uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.72| githubcomfreefq  法国  9
-  server: los.ydnode.us
-  port: 1002
-  type: trojan
-  password: b6a487eb-2ccf-4640-856e-4a32f974c8b1
-  sni: los.ydnode.us
-- type: vmess
-  name: 2.64|US美国JP日本
-  ws-opts:
-    path: /d612af774b29/
-    headers:
-      host: jp.mywh.eu.org
-  server: 172.64.150.144
-  port: 443
-  uuid: fa94fb93-fef4-4055-bf54-244115640479
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 2.63|USwmt920a14
-  server: scus1.ddns-pop.cyou
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  udp: true
-  skip-cert-verify: true
-  sni: scus1.ddns-pop.cyou
-- type: ssr
-  name: 2.28|DEwmt920a32
-  server: sss10.free4444.xyz
-  port: 443
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- type: vmess
-  name: 2.14|USwmt92159
-  server: 208.72.153.94
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: trojan
-  name: 1.99|wmt920a6
-  server: 103.173.254.205
-  port: 443
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  udp: true
-  skip-cert-verify: true
-- name: 1.82| githubcomfreefq  美国纽约市DigitalOcean云公司 7
-  server: 138.197.165.31
-  port: 8080
-  type: vmess
-  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-- name: 1.77| githubcomfreefq  英国伦敦DigitalOcean数据中心 19
-  server: 165.227.231.254
-  port: 8080
-  type: vmess
-  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 165.227.231.254
-- name: 1.69|IN34
-  server: in1.3320.top
-  port: 443
-  type: vmess
-  uuid: 9d476be9-eca3-4561-9b56-6ff4ec1017ba
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: in1.3320.top
-  skip-cert-verify: true
-  servername: in1.3320.top
-- name: 1.65| githubcomfreefq  英国伦敦Linode数据中心 51
-  server: uk1.3320.top
-  port: 443
-  type: vmess
-  uuid: e8d870e3-bce3-4a4f-8166-700a9f3cac35
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: uk1.3320.top
-- name: 1.63|CA2
-  server: ca2.3320.top
-  port: 443
-  type: vmess
-  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: ca2.3320.top
-  skip-cert-verify: true
-  servername: ca2.3320.top
-- type: trojan
-  name: 1.61|GBwmt920a21
-  server: 35.176.6.24
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.57|FRwmt921137
-  server: 13.38.24.83
-  port: 443
-  password: xxoo
-  udp: true
-  skip-cert-verify: true
-- name: 1.49| githubcomfreefq  美国  1
-  server: armdj.zhdjc.me
-  port: 8080
-  type: vmess
-  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: armdj.zhdjc.me
-- name: 1.40|US40
-  server: de2.3320.top
-  port: 443
-  type: vmess
-  uuid: 32ee4c9c-ddf4-4c99-8bae-5c8edddbb25e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: de2.3320.top
-  skip-cert-verify: true
-  servername: de2.3320.top
-- name: 1.37| githubcomfreefq  美国  44
-  server: 68.183.129.197
-  port: 8080
-  type: vmess
-  uuid: d019484c-2181-4d4a-a0fb-302a55351156
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 68.183.129.197
-- name: 1.32| githubcomfreefq  加拿大  8
-  server: 99tw03.tfzhc.top
-  port: 443
-  type: trojan
-  password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
-  sni: 99tw03.tfzhc.top
-- name: 1.26|GB33
-  server: uk2.3320.top
-  port: 443
-  type: vmess
-  uuid: 6cc27d4f-074c-430d-a3a1-64724db55ab5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: uk2.3320.top
-  skip-cert-verify: true
-  servername: uk2.3320.top
-- name: 1.26| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 46
-  server: au2.3320.top
-  port: 443
-  type: vmess
-  uuid: 753780ad-c282-4d82-b49b-65ad43533e1a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: au2.3320.top
-- name: 1.25|US 美国youtube阿伟科技 38
-  server: vde2.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /chat
-    headers:
-      Host: vde2.0bad.com
-  udp: true
-- name: 1.21|CA1
-  server: ca1.3320.top
-  port: 443
-  type: vmess
-  uuid: 0a303c5e-676e-446c-bc9b-1052b59a7499
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: ca1.3320.top
-  skip-cert-verify: true
-  servername: ca1.3320.top
-- type: vmess
-  name: 1.16|USwmt921110
-  server: 70.34.217.8
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.15| githubcomfreefq  德国黑森州法兰克福DigitalOcean数据中心 12
-  server: 138.68.90.231
-  port: 8080
-  type: vmess
-  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 138.68.90.231
-- type: vmess
-  name: 1.13|FRwmt92171
-  server: 163.172.166.134
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.09| githubcomfreefq  北美地区  59
-  server: 107.173.87.208
-  port: 443
-  type: vmess
-  uuid: 564e1e01-b97b-472c-9dba-ac9d5d3182eb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.00|美国youtube阿伟科技 34
-  server: 47.242.104.161
-  port: 32406
-  type: vmess
-  uuid: 4a1eaf72-a555-4737-bb09-8c388c118c5e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.104.161
-  udp: true
-- name: 0.95|TUR 土耳其youtube阿伟科技
-  server: turkey.jcnf.app
-  port: 443
-  type: vmess
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /zcjd
-    headers:
-      Host: turkey.jcnf.app
-  udp: true
-- name: 0.94|US41
-  server: frm2.3320.top
-  port: 443
-  type: vmess
-  uuid: 4cc693c4-2f67-4637-bc98-76461fcbf09c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: frm2.3320.top
-  skip-cert-verify: true
-  servername: frm2.3320.top
-- name: 0.87|DE30
-  server: de1.3320.top
-  port: 443
-  type: vmess
-  uuid: 8253d710-f3b5-4f73-9cb0-66e1dd2fef48
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: de1.3320.top
-  skip-cert-verify: true
-  servername: de1.3320.top
-- type: vmess
-  name: 0.79|GBwmt92169
-  server: 5.252.78.134
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.73| githubcomfreefq  美国3COM公司企业网 61
-  server: wangqifei.ga
-  port: 41477
-  type: trojan
-  password: 3oquVrpxPg
-  sni: wangqifei.ga
-- name: 0.66| githubcomfreefq  美国  65
-  server: susan.leosvps.space
-  port: 443
-  type: trojan
-  password: NGyhpgytIJ
-  sni: susan.leosvps.space
-- name: 0.61|99
-  server: awssg1.yiyuanyun.xyz
-  port: 39990
-  type: trojan
-  password: 57dec1b6-08b4-492a-a535-a17968ae9c10
-  sni: do2.ddag.xyz
-  skip-cert-verify: true
-- type: vmess
-  name: 0.60|ITwmt920a62
-  server: 92.223.79.25
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 0.55| githubcomfreefq  美国弗吉尼亚州文特山农场OVH数据中心 24
-  server: 51.81.223.32
-  port: 443
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  alterId: 32
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 0.50|ESwmt92192
-  server: 92.38.171.97
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 0.48|USwmt920a41
-  ws-opts:
-    path: /
-    headers:
-      host: kr.wangfuzheng.top
-  server: kr.wangfuzheng.top
-  port: '443'
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.43| githubcomfreefq  印度卡纳塔克邦班加罗尔DigitalOcean数据中心 47
-  server: 139.59.85.231
-  port: 8080
-  type: vmess
-  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 139.59.85.231
-- name: 0.42|RU 俄罗斯youtube阿伟科技
+- name: 2.26|RU 俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -646,24 +212,404 @@ proxies:
       - YouTube-aweikeji
   udp: true
 - type: vmess
-  name: 0.39|KR韩国
-  server: m4.40010010.xyz
-  port: 37121
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  name: 2.04|CNwmt916p18
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.9.57
+  server: 43.154.9.57
+  port: '42429'
+  uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.87|CAwmt923112
+  ws-opts:
+    path: /
+    headers:
+      host: ca1.3320.top
+  server: ca1.3320.top
+  port: '443'
+  uuid: 0a303c5e-676e-446c-bc9b-1052b59a7499
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.69|IN28
+  server: in1.3320.top
+  port: 443
+  type: vmess
+  uuid: 9d476be9-eca3-4561-9b56-6ff4ec1017ba
   alterId: 0
   cipher: auto
-  network: tcp
   tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: in1.3320.top
+  skip-cert-verify: true
+  servername: in1.3320.top
+- name: 1.67| githubcomfreefq  英国伦敦DigitalOcean数据中心 9
+  server: 165.227.231.254
+  port: 8080
+  type: vmess
+  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 165.227.231.254
+- name: 1.46|US33
+  server: in2.3320.top
+  port: 443
+  type: vmess
+  uuid: 8c620954-3dec-42ff-92bd-873c4546a150
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: in2.3320.top
+  skip-cert-verify: true
+  servername: in2.3320.top
 - type: vmess
-  name: 0.38|MYwmt920a98
+  name: 1.45|ITwmt92363
+  server: 92.223.79.25
+  port: '21008'
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 1.42|USwmt92364
+  server: 138.2.86.43
+  port: '32574'
+  uuid: 6e0aae55-230c-45a0-8591-7fce1ec7a326
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 1.34| githubcomfreefq  美国纽约市DigitalOcean云公司 6
+  server: 138.197.165.31
+  port: 8080
+  type: vmess
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
+- name: 1.29| githubcomfreefq  美国  11
+  server: 68.183.129.197
+  port: 8080
+  type: vmess
+  uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 68.183.129.197
+- name: 1.27|GB26
+  server: uk2.3320.top
+  port: 443
+  type: vmess
+  uuid: 6cc27d4f-074c-430d-a3a1-64724db55ab5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: uk2.3320.top
+  skip-cert-verify: true
+  servername: uk2.3320.top
+- name: 1.18| v2rayfreeeuorg  美国3COM公司企业网 52
+  server: wangqifei.ga
+  port: 41477
+  type: trojan
+  password: 3oquVrpxPg
+  sni: wangqifei.ga
+- name: 1.12| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1SSR
+  server: clash1.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.05| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
+  server: clash6-3.ssrfree6.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: vmess
+  name: 1.00|US美国JP日本
+  ws-opts:
+    path: /d612af774b29/
+    headers:
+      host: jp.mywh.eu.org
+  server: 172.64.150.144
+  port: 443
+  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 0.99|US 美国youtube阿伟科技 16
+  server: 47.242.28.250
+  port: 443
+  type: vmess
+  uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /2yevws
+    headers:
+      Host: rn.1808.cf
+  udp: true
+- type: ssr
+  name: 0.96|DEwmt92330
+  server: sss10.free4444.xyz
+  port: 443
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- type: vmess
+  name: 0.84|HKwmt92145
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.203.43
+  server: 47.242.203.43
+  port: '23501'
+  uuid: 7b3f0c3e-5ba1-430f-b8e5-dcff591f93bc
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.80|MYwmt921155
   server: 123.253.32.50
   port: '31372'
   uuid: 678d0d7d-c651-4ae1-ced1-320783565749
   alterId: '0'
   cipher: auto
   network: tcp
+- name: 0.77|US 美国youtube阿伟科技 18
+  server: 47.74.51.30
+  port: 443
+  type: vmess
+  uuid: 2037d70b-fd46-4f17-a657-ccb04c62f073
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /2yevws
+    headers:
+      Host: rn.1808.cf
+  udp: true
+- name: 0.76| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
+  server: zjg2.ssrfree2.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.75|US 美国youtube阿伟科技 7
+  server: 23.230.146.254
+  port: 1258
+  type: vmess
+  uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 0.74| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
+  server: zjg1.ssrfree2.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: trojan
+  name: 0.68|USwmt921178
+  server: 52.12.10.181
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 0.67|油管阿伟科技 15
+  server: zjg1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
 - type: vmess
-  name: 0.37|CNwmt916p17
+  name: 0.61|USwmt92332
+  grpc-opts:
+    grpc-service-name: los.ydnode.us
+  server: los.ydnode.us
+  port: '80'
+  uuid: b6a487eb-2ccf-4640-856e-4a32f974c8b1
+  alterId: '0'
+  cipher: auto
+  network: grpc
+  tls: true
+- name: 0.60|TUR 土耳其youtube阿伟科技
+  server: turkey.jcnf.app
+  port: 443
+  type: vmess
+  uuid: c753e8a8-e180-4e76-a486-c917273d718b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zcjd
+    headers:
+      Host: turkey.jcnf.app
+  udp: true
+- type: trojan
+  name: 0.52|JPwmt92375
+  server: 99jp.tfzhc.top
+  port: 44311
+  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 0.51|ESwmt923109
+  server: 92.38.171.97
+  port: '21008'
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 0.49| githubcomfreefq  美国CloudFlare节点 60
+  server: 172.67.73.213
+  port: 443
+  type: vmess
+  uuid: 3da2b3d1-0fe7-4715-8463-b4ab43b8d4c3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /mntpvws
+  ws-headers:
+    Host: 3.731808.tk
+- type: trojan
+  name: 0.48|CAwmt92366
+  server: 149.56.141.11
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  udp: true
+  skip-cert-verify: true
+- name: 0.45| githubcomfreefq  美国  11
+  server: 152.69.204.193
+  port: 33226
+  type: vmess
+  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 0.40|HKwmt92331
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.236.239
+  server: 47.242.236.239
+  port: '35707'
+  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.39|CA1
+  server: ca2.3320.top
+  port: 443
+  type: vmess
+  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: ca2.3320.top
+  skip-cert-verify: true
+  servername: ca2.3320.top
+- name: 0.37| githubcomfreefq  德国  41
+  server: au1.3320.top
+  port: 443
+  type: vmess
+  uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: au1.3320.top
+- name: 0.34| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1SSR
+  server: clash6.ssrfree6.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: trojan
+  name: 0.31|CAwmt92389
+  server: cat1.sshocean.net
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 0.31|CNwmt92335
   http-opts:
     path:
     - /
@@ -676,36 +622,42 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.36| githubcomfreefq  美国  11
-  server: 152.69.204.193
-  port: 33226
+- name: 0.30| githubcomfreefq  美国  65
+  server: susan.leosvps.space
+  port: 443
+  type: trojan
+  password: NGyhpgytIJ
+  sni: susan.leosvps.space
+- name: 0.28| githubcomfreefq  美国加州 56
+  server: 64.112.42.72
+  port: 16999
   type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
+  uuid: b5a01f44-b981-421a-bdc0-6d9d53da07fd
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.29| githubcomfreefq  德国  36
-  server: au1.3320.top
-  port: 443
-  type: vmess
-  uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: au1.3320.top
+- name: 0.28| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
+  server: sv.ssrfree3.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.27| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
+  server: clash6-2.ssrfree6.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - type: vmess
-  name: 0.24|INwmt921116
-  server: 68.183.92.99
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 0.20|HKwmt921115
+  name: 0.22|HKwmt921115
   http-opts:
     path:
     - /
@@ -718,22 +670,73 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 0.21| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
+  server: sv.ssrfree7.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: trojan
+  name: 0.19|KRwmt921149
+  server: kr1.api-aws.com
+  port: 443
+  password: db9b6698-f01c-4fe1-93ca-d752c956c2d3
+  udp: true
+  skip-cert-verify: true
 - type: vmess
-  name: 0.18|CAwmt920a39
-  server: 155.138.140.189
+  name: 0.18|USwmt92392
+  server: 208.72.153.94
   port: '21008'
   uuid: 80b5645a-86b7-48af-9252-977ba807a338
   alterId: '0'
   cipher: auto
   network: tcp
+- name: 0.17|油管阿伟科技 3
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: trojan
+  name: 0.16|USwmt921161
+  server: 150.230.249.42
+  port: 443
+  password: 0Y9gOHSdRt
+  udp: true
+  skip-cert-verify: true
+- name: 0.16|KR 韩国youtube阿伟科技
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - type: vmess
-  name: 0.16|UAwmt920a65
-  server: 95.85.72.76
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  name: 0.15|CNwmt92394
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.155.114.162
+  server: 43.155.114.162
+  port: '34716'
+  uuid: a8d3fceb-d4c3-4fa3-a7b3-8410e57c95d8
   alterId: '0'
   cipher: auto
-  network: tcp
+  network: http
 - name: 0.14|HK 香港youtube阿伟科技 2
   server: 43.155.93.16
   port: 50044
@@ -752,49 +755,22 @@ proxies:
       Host:
       - 43.155.93.16
   udp: true
-- name: 0.14|JP35
-  server: jp2.3320.top
+- name: 0.14| 03沪日专线2x
+  server: 921hk.tfzhc.top
+  port: 443
+  type: trojan
+  password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9
+  sni: 921hk.tfzhc.top
+  skip-cert-verify: true
+- name: 0.12| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 5
+  server: frm1.3320.top
   port: 443
   type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
+  uuid: 15ebf82a-dd3a-4519-9a89-4e60858d47ab
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  http-opts: {}
   ws-path: /
   ws-headers:
-    HOST: jp2.3320.top
-  skip-cert-verify: true
-  servername: jp2.3320.top
-- name: 0.14|US46
-  server: in2.3320.top
-  port: 443
-  type: vmess
-  uuid: 8c620954-3dec-42ff-92bd-873c4546a150
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: in2.3320.top
-  skip-cert-verify: true
-  servername: in2.3320.top
-- type: vmess
-  name: 0.11|PLwmt92190
-  server: 5.188.108.208
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 0.10|ROwmt920a63
-  server: 5.181.25.81
-  port: '21008'
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: '0'
-  cipher: auto
-  network: tcp
+    Host: frm1.3320.top
