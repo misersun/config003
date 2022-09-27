@@ -1,40 +1,16 @@
 proxies:
-- type: vmess
-  name: 5.79|SGwmt92616
-  server: firstsite.auth123.email
-  port: '22318'
-  uuid: 3023195e-072d-44ce-f319-704b7fde6ad6
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  tls: true
 - type: trojan
-  name: 3.17|USwmt92528
-  server: 144.126.211.35
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 3.07| US227 TGpeekfun
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  country: ' US'
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 2.92|USwmt92527
-  server: s1.hass.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  name: 3.73|wmt92621
+  server: 103.173.254.205
+  port: 443
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 2.83|USwmt92531
-  server: s3.hass.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  name: 2.91|US美国7
+  server: 165.154.235.186
+  port: 24567
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
   udp: true
   skip-cert-verify: true
 - type: trojan
@@ -45,35 +21,47 @@ proxies:
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 2.46|US美国3
+  name: 2.55|wmt92623
+  server: 103.173.254.43
+  port: 443
+  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 2.39|US美国2
   server: s3.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- name: 2.40|US 美国youtube阿伟科技 5
-  server: us3.gmdns.net
+- name: 1.73| v2rayfreeeuorg  美国CloudFlare节点 16
+  server: cf.naixii.top
   port: 443
   type: vmess
-  uuid: 62f693e0-f3f7-11ea-93a2-d5a741458b8c
+  uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /b472f/
+  ws-headers:
+    Host: linode.sharecentre.xyz
+- name: 1.61|GB 英国youtube阿伟科技
+  server: 212.111.43.209
+  port: 443
+  type: vmess
+  uuid: e89cc331-813a-4897-8024-8415acd7e3ca
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /_ohmysocket
+    path: /
     headers:
-      Host: us3.gmdns.net
+      Host: sg1.3320.top
   udp: true
-- type: trojan
-  name: 2.10|wmt92621
-  server: 103.173.254.205
-  port: 443
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
-  udp: true
-  skip-cert-verify: true
-- name: 1.66| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
+- name: 1.58| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
   server: 190.93.246.145
   port: 443
   type: vmess
@@ -86,7 +74,22 @@ proxies:
     path: /ray
     headers:
       Host: m5.v2rayfree1.xyz
-- name: 1.60| githubcomfreefq  新加坡Amazon数据中心 22
+- name: 1.56|IN 印度youtube阿伟科技
+  server: 45.79.125.95
+  port: 443
+  type: vmess
+  uuid: e89cc331-813a-4897-8024-8415acd7e3ca
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg1.3320.top
+  udp: true
+- name: 1.46| v2rayfreeeuorg  新加坡Amazon数据中心 35
   server: secondsite.auth123.email
   port: 46933
   type: vmess
@@ -94,66 +97,38 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-- name: 1.30| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN2
-  server: 141.101.114.120
-  port: 443
+- name: 1.44|NL 荷兰youtube阿伟科技
+  server: ale.755657.xyz
+  port: 8443
   type: vmess
-  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: m5.v2rayfree1.xyz
-- name: 0.76|JP 日本youtube阿伟科技
-  server: 172.64.150.144
-  port: 443
-  type: vmess
-  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  uuid: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /d612af774b29/
+    path: /djhcbjrdvjtoepvdsj
     headers:
-      Host: jp.mywh.eu.org
+      Host: ale.755657.xyz
   udp: true
-- name: 0.75|Earth12
-  server: 188.114.97.110
+- name: 1.32|流暢雲 美國直连US 06youtube阿伟科技
+  server: lc-us06-direct01.lc-us06.lc-node.com
   port: 443
   type: vmess
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  uuid: b08e9b1f-b546-3919-b42d-88e684a12b24
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  http-opts: {}
-  ws-path: /chcar
-  ws-headers:
-    HOST: v2fly.samrt.website
-  skip-cert-verify: true
-  servername: v2fly.samrt.website
-- name: 0.49|USALas Vegas2油管阿伟科技89
-  server: 165.154.246.195
-  port: 49004
-  type: trojan
-  password: b2dd238f-11e7-43aa-84b5-8c20ab24741f
-  sni: us-c.bbbb.pw
-  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: lc-us06-direct01.lc-us06.lc-node.com
   udp: true
-- type: trojan
-  name: 0.48|KRwmt92590
-  server: kr1.api-aws.com
-  port: 443
-  password: 88452dfb-fad4-44b2-b8a1-d230d145848c
-  udp: true
-  skip-cert-verify: true
-- name: 0.35|US 美国youtube阿伟科技 10
-  server: 88.210.37.106
+- name: 1.03|RU 俄罗斯youtube阿伟科技
+  server: 80.66.64.17
   port: 41443
   type: vmess
   uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
@@ -163,31 +138,19 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: 0.32|JPwmt92636
-  server: 168.138.43.89
+  name: 0.99|USwmt92640
+  server: 138.124.183.216
   port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  password: xxoo
   udp: true
   skip-cert-verify: true
-- name: 0.30| githubcomfreefq  加拿大  12
-  server: 99tw03.tfzhc.top
+- name: 0.94| githubcomfreefq  加拿大  26
+  server: 921tw.tfzhc.top
   port: 443
   type: trojan
-  password: 8e94c4bd-6266-43e2-8c3a-dc7e3439e3be
-  sni: 99tw03.tfzhc.top
-- name: 0.21| githubcomfreefq  美国CloudFlare节点 16
-  server: cf.naixii.top
-  port: 443
-  type: vmess
-  uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /b472f/
-  ws-headers:
-    Host: linode.sharecentre.xyz
-- name: 0.16|US 美国youtube阿伟科技 15
+  password: 5125c2c4-ad7c-4d3c-8b17-73c9b8a9f8e8
+  sni: 921tw.tfzhc.top
+- name: 0.87|US 美国youtube阿伟科技 15
   server: vde2.0bad.com
   port: 443
   type: vmess
@@ -202,10 +165,129 @@ proxies:
     headers:
       Host: vde2.0bad.com
   udp: true
+- name: 0.57|JP 日本youtube阿伟科技
+  server: 172.64.150.144
+  port: 443
+  type: vmess
+  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d612af774b29/
+    headers:
+      Host: jp.mywh.eu.org
+  udp: true
+- name: 0.37|Earth11
+  server: 188.114.97.110
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /chcar
+  ws-headers:
+    HOST: v2fly.samrt.website
+  skip-cert-verify: true
+  servername: v2fly.samrt.website
+- type: vmess
+  name: 0.37|KR韩国1
+  server: m4.40010010.xyz
+  port: 37121
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 0.32|DE 德国youtube阿伟科技
+  server: cf.731808.tk
+  port: 443
+  type: vmess
+  uuid: 257709e2-d0f4-41d0-8a73-61d15cf00d51
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xpkbvws
+    headers:
+      Host: 2.731808.tk
+  udp: true
 - type: trojan
-  name: 0.13|RU俄罗斯联邦
-  server: 165.154.243.248
-  port: 24567
-  password: 26e219f2-5c2a-356c-9767-9fd681cc0134
+  name: 0.31|USwmt92528
+  server: 144.126.211.35
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 0.31| githubcomfreefq  俄罗斯新西伯利亚ADMAN网络 18
+  server: 185.173.94.213
+  port: 443
+  type: vmess
+  uuid: 8d78c2a8-acaa-467d-9234-d2606624506d
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.69296134.xyz
+- name: 0.30| githubcomfreefq  美国加利福尼亚州费里蒙Linode数据中心 4
+  server: 104.237.158.126
+  port: 443
+  type: vmess
+  uuid: e89cc331-813a-4897-8024-8415acd7e3ca
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg1.3320.top
+- type: trojan
+  name: 0.29|KRwmt92590
+  server: kr1.api-aws.com
+  port: 443
+  password: 88452dfb-fad4-44b2-b8a1-d230d145848c
+  udp: true
+  skip-cert-verify: true
+- name: 0.27| Hongkong3
+  server: 165.154.246.195
+  port: 49011
+  type: trojan
+  password: 0f3abc1b-5443-4edd-a012-886bf1a43898
+  sni: hk-b.bbbb.pw
+  skip-cert-verify: true
+- type: trojan
+  name: 0.20|USwmt92672
+  server: 138.124.183.222
+  port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- name: 0.14| githubcomfreefq  香港ADCDATA数据中心 29
+  server: tr04.kaochangonline.online
+  port: 443
+  type: trojan
+  password: 6414baac-2dc2-4a9f-bc07-86e90e3a375e
+  sni: tr04.kaochangonline.online
+- type: trojan
+  name: 0.11|USwmt92584
+  server: 150.230.249.42
+  port: 443
+  password: 0Y9gOHSdRt
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.11|USwmt92531
+  server: s3.hass.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
