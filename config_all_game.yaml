@@ -1,6 +1,185 @@
 proxies:
+- name: 10.72| Japan 01
+  server: JP-01.Leco.ml
+  port: 15620
+  type: ss
+  cipher: aes-256-gcm
+  password: deefe17d-fcb3-4602-a889-bbb5894a977f
+- name: 8.48| Singapore 01
+  server: SG-01.Leco.ml
+  port: 56132
+  type: ss
+  cipher: aes-256-gcm
+  password: deefe17d-fcb3-4602-a889-bbb5894a977f
+- name: 7.76| Japan 02
+  server: JP-02.Leco.ml
+  port: 51033
+  type: ss
+  cipher: aes-256-gcm
+  password: deefe17d-fcb3-4602-a889-bbb5894a977f
+- name: 6.39| Hong Kong 01
+  server: HK-01.Leco.ml
+  port: 21650
+  type: ss
+  cipher: aes-256-gcm
+  password: deefe17d-fcb3-4602-a889-bbb5894a977f
 - type: ss
-  name: 3.00|TWwmt92582
+  name: 2.99|TWwmt92555
+  server: fn600mliness017.fnline.xyz
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- name: 2.94| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
+  server: clash6-2.ssrfree6.xyz
+  port: 44002
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.93| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
+  server: sv.ssrfree7.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.88| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1SSR
+  server: clash6-1.ssrfree6.xyz
+  port: 44001
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.64|197油管阿伟科技 37
+  server: clash6-2.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.51|油管阿伟科技
+  server: jp-1.ssrfree5.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.49|油管阿伟科技 8
+  server: sv.ssrfree3.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ssr
+  name: 2.43|DEwmt92538
+  server: sss10.free4444.xyz
+  port: 443
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- name: 2.35| 韩国0926096
+  server: sv.ssrfree7.xyz
+  port: 44002
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.31| 韩国0926088
+  server: clash6-1.ssrfree6.xyz
+  port: 44004
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.18| 韩国0926094
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 2.14|USwmt92550
+  server: 35.87.114.40
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 2.13|CNwmt92627
+  server: wlbest.firnets.com
+  port: 49000
+  cipher: aes-256-gcm
+  password: 90f96791-cfb4-384e-b583-3b263e25eec5
+- type: ss
+  name: 2.05|JPwmt92560
+  server: 52.197.66.243
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 1.98|JPwmt92543
+  server: 18.183.231.3
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 1.77|KRwmt925118
+  server: 3.36.118.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 1.63| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
+  server: sv.ssrfree7.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 1.44|TWwmt92582
   server: fn600mlines021.fnline.info
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -13,80 +192,15 @@ proxies:
     path: /
     tls: true
     host: fn600mlines021.fnline.info
-- type: ss
-  name: 2.49|USwmt92550
-  server: 35.87.114.40
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 2.41|USwmt92534
-  server: 156.146.38.163
-  port: 443
-  cipher: aes-128-cfb
-  password: shadowsocks
-- type: ssr
-  name: 2.33|DEwmt92538
-  server: sss10.free4444.xyz
-  port: 443
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- type: ss
-  name: 2.18|JPwmt92543
-  server: 18.183.231.3
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 2.16| 韩国0926091
-  server: sv.ssrfree3.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.11| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
-  server: sv.ssrfree7.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.10| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1SSR
-  server: clash1.ssrfree1.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: ss
-  name: 2.09|JPwmt92560
-  server: 52.197.66.243
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 1.89| 韩国0926094
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.78|油管阿伟科技 8
-  server: sv.ssrfree3.xyz
+- name: 1.34| ZZ215 TGpeekfun
+  server: 134.195.196.231
+  port: 8119
+  type: ss
+  country: ' ZZ'
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 1.31| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
+  server: clash6-3.ssrfree6.xyz
   port: 44004
   type: ssr
   cipher: dummy
@@ -95,22 +209,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
-- type: ss
-  name: 1.48|TWwmt925109
-  server: fn600mliness019.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 61f301daaf4e
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness019.fnline.xyz
-- name: 1.34|油管阿伟科技 28
+- name: 1.30|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -125,27 +224,15 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- name: 1.32| ZZ215 TGpeekfun
-  server: 134.195.196.231
-  port: 8119
+- name: 1.20| RelayCNHK118
+  server: 14.29.124.174
+  port: 11035
   type: ss
-  country: ' ZZ'
-  password: cdBIDV42DCwnfIN
-  cipher: aes-256-gcm
-- name: 1.30|油管阿伟科技
-  server: jp-1.ssrfree5.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.18| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1SSR
-  server: clash6-1.ssrfree6.xyz
-  port: 44001
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 1.16| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1SSR
+  server: clash6.ssrfree6.xyz
+  port: 44004
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -154,11 +241,11 @@ proxies:
   protocol-param: ''
   obfs-param: ''
 - type: ss
-  name: 1.07|TWwmt92555
-  server: fn600mliness017.fnline.xyz
+  name: 1.16|TWwmt925109
+  server: fn600mliness019.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
+  password: 61f301daaf4e
   plugin: v2ray-plugin
   plugin-opts:
     mode: websocket
@@ -166,9 +253,9 @@ proxies:
     skip-cert-verify: true
     path: /
     tls: true
-    host: fn600mliness017.fnline.xyz
-- name: 0.98|油管阿伟科技 2
-  server: sss7.free4444.xyz
+    host: fn600mliness019.fnline.xyz
+- name: 1.15| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
+  server: clash1-2.ssrfree1.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -177,25 +264,20 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
-- name: 0.97| RelayCNHK114
+- name: 1.06| CN45 TGpeekfun
   server: 14.29.124.174
-  port: 11003
+  port: 11044
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 1.05| RelayCNHK119
+  server: 14.29.124.174
+  port: 11004
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 0.97|油管阿伟科技 4
-  server: clash3.ssrfree3.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 0.95|油管阿伟科技 15
+- name: 0.92|油管阿伟科技 15
   server: zjg1.free4444.xyz
   port: 443
   type: ssr
@@ -206,7 +288,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.93| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
+- name: 0.91| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶2
   server: zjg2.ssrfree2.xyz
   port: 443
   type: ssr
@@ -216,8 +298,8 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.91|油管阿伟科技
-  server: zjg1.ssrfree2.xyz
+- name: 0.89|油管阿伟科技 4
+  server: clash3.ssrfree3.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -227,7 +309,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.89|油管阿伟科技 17
+- name: 0.88|油管阿伟科技 17
   server: sss5.free4444.xyz
   port: 443
   type: ssr
@@ -238,49 +320,13 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.78|油管阿伟科技 9
-  server: clash6-3.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 0.73| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
-  server: clash6-2.ssrfree6.xyz
-  port: 44002
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.69|油管阿伟科技 13
-  server: clash6-1.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 0.67| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
-  server: clash6-3.ssrfree6.xyz
-  port: 44004
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.67| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
+- type: ss
+  name: 0.88|CNwmt92693
+  server: 14.29.124.174
+  port: 11009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.85| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
   server: sv.ssrfree3.xyz
   port: 44001
   type: ssr
@@ -290,7 +336,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.66|油管阿伟科技 4
+- name: 0.78| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1SSR
+  server: clash6-1.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.77|油管阿伟科技 4
   server: fndxus1000mline001.fnline.vip
   port: 443
   type: ss
@@ -305,9 +361,15 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- name: 0.59| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1SSR
-  server: clash6.ssrfree6.xyz
-  port: 44004
+- name: 0.70| RelayCNHK112
+  server: 14.29.124.174
+  port: 11043
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.61| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
+  server: zjg1.ssrfree2.xyz
+  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -315,121 +377,67 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.58| CN20 TGpeekfun
+- name: 0.60| v2rayfreeeuorg  意大利  5
+  server: 212.102.53.194
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 0.35| CN32 TGpeekfun
+  server: 14.29.124.174
+  port: 11034
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- type: ss
+  name: 0.30|USwmt92534
+  server: 156.146.38.163
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+- type: ss
+  name: 0.28|CN中国HK香港5
+  server: 14.29.124.174
+  port: 11020
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.22| CN39 TGpeekfun
+  server: 14.29.124.174
+  port: 11007
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.20| CN48 TGpeekfun
+  server: 14.29.124.174
+  port: 11050
+  type: ss
+  country: ' CN'
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: 0.16| RelayCNTW115
+  server: 14.29.124.168
+  port: 24003
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.13|USwmt92536
+  server: 35.91.237.33
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.12| CN43 TGpeekfun
   server: 14.29.124.174
   port: 11039
   type: ss
   country: ' CN'
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.42| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3SSR
-  server: sv.ssrfree7.xyz
-  port: 44004
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.41| 韩国0926096
-  server: sv.ssrfree7.xyz
-  port: 44002
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
 - type: ss
-  name: 0.35|USwmt92536
-  server: 35.91.237.33
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 0.27| 日本0926428
-  server: jp-am48-6.eqnode.net
-  port: 8081
-  type: ssr
-  cipher: aes-256-cfb
-  password: eAokbaDN6
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.21|GB16
-  server: 212.102.53.197
-  port: 443
-  type: ss
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 0.21|GB15
-  server: 212.102.53.78
-  port: 443
-  type: ss
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 0.17|GB17
-  server: 212.102.53.194
-  port: 443
-  type: ss
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 0.17| RelayCNHK117
-  server: 14.29.124.174
-  port: 11032
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.16|油管阿伟科技 26
-  server: 14.29.124.174
-  port: 11020
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-  udp: true
-- type: ss
-  name: 0.14|CN中国HK香港4
-  server: 14.29.124.174
-  port: 11036
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.14|CNwmt92693
-  server: 14.29.124.174
-  port: 11009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.14|CNwmt925114
+  name: 0.10|CNwmt925114
   server: 14.29.124.174
   port: 11038
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 0.13| CN07 TGpeekfun
-  server: 14.29.124.174
-  port: 11011
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: 0.12| RelayCNHK118
-  server: 14.29.124.174
-  port: 11035
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.11|CNwmt92678
-  server: 14.29.124.174
-  port: 11049
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.11| CN59 TGpeekfun
-  server: 14.29.124.168
-  port: 24000
-  type: ss
-  country: ' CN'
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
