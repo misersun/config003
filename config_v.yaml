@@ -1,35 +1,6 @@
 proxies:
 - type: vmess
-  name: 7.28|HKwmt9299
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.248.22
-  server: 47.243.248.22
-  port: '38120'
-  uuid: 29d435a4-b7fb-44db-9119-4ede4e22c250
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 6.92|JP 日本youtube阿伟科技 7
-  server: rben.miaoge.gay
-  port: 443
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rben.miaoge.gay
-  udp: true
-- type: vmess
-  name: 3.89|HKwmt93058
+  name: 4.74|HKwmt93058
   http-opts:
     path:
     - /
@@ -42,7 +13,15 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.30|US10
+- type: vmess
+  name: 2.45|US美国2
+  server: 198.148.116.134
+  port: 22618
+  uuid: 8b7321e5-d6aa-4d81-8156-b671a3b59067
+  alterId: 0
+  cipher: auto
+  network: tcp
+- name: 2.21|US9
   server: gaio.miaoge110.cf
   port: 443
   type: vmess
@@ -53,37 +32,52 @@ proxies:
   http-opts: {}
   ws-path: /jcnf
   ws-headers:
-    HOST: '%7B%22Host%22:%22%257B%2522Host%2522:%2522gaio.miaoge110.cf%2522%257D%22%7D'
+    HOST: gaio.miaoge110.cf
   skip-cert-verify: true
-  servername: '%7B%22Host%22:%22%257B%2522Host%2522:%2522gaio.miaoge110.cf%2522%257D%22%7D'
-- name: 2.24|US 美国youtube阿伟科技 4
+  servername: gaio.miaoge110.cf
+- name: 2.13|US11
   server: 20.14.102.120
   port: 443
   type: vmess
   uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /jcnf
-    headers:
-      Host: 20.14.102.120
-  udp: true
-- name: 1.92| githubcomfreefq  美国CloudFlare公司CDN节点 25
-  server: cdn.bootloader.cf
-  port: 80
-  type: vmess
-  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aries
+  http-opts: {}
+  ws-path: /jcnf
   ws-headers:
-    Host: lux.justu.ml
-- name: 1.40|HK 香港youtube阿伟科技 2
+    HOST: 20.14.102.120
+  skip-cert-verify: true
+  servername: 20.14.102.120
+- type: vmess
+  name: 1.64|HKwmt9299
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.248.22
+  server: 47.243.248.22
+  port: '38120'
+  uuid: 29d435a4-b7fb-44db-9119-4ede4e22c250
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.23|HKwmt10117
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.187.152
+  server: 47.243.187.152
+  port: '61847'
+  uuid: af998f95-c214-418c-9ad2-cdf55ed755b2
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.95|HK 香港youtube阿伟科技 2
   server: 20.249.92.162
   port: 443
   type: vmess
@@ -98,155 +92,11 @@ proxies:
     headers:
       Host: 20.249.92.162
   udp: true
-- name: 1.26| githubcomfreefq  美国加利福尼亚州费利蒙IT7网络 6
-  server: c702s801.jamjams3.net
-  port: 21237
+- name: 0.45| githubcomfreefq  北美地区  37
+  server: 107.173.250.129
+  port: 42713
   type: vmess
-  uuid: 722c4c77-b7c1-4cf4-880d-0b4843d7b33a
+  uuid: 4012d932-93fe-4828-dcc9-331c871490c6
   alterId: 0
   cipher: auto
   tls: false
-- type: vmess
-  name: 1.25|AUwmt93045
-  ws-opts:
-    path: /
-    headers:
-      host: au01.xiaoqi99.cf
-  server: au01.xiaoqi99.cf
-  port: '63632'
-  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 1.00| githubcomfreefq  美国加利福尼亚州费利蒙IT7网络 5
-  server: c711s801.jamjams3.net
-  port: 12788
-  type: vmess
-  uuid: a88ed91e-3dfb-4308-8bcb-d5c53e8858e0
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.00| githubcomfreefq  美国Microsoft数据中心 33
-  server: zh.miaoge.gay
-  port: 443
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zh.miaoge.gay
-- name: 0.95| githubcomfreefq  美国乔治亚州亚特兰大Linode数据中心 14
-  server: us02.xiaoqi99.cf
-  port: 63632
-  type: vmess
-  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us02.xiaoqi99.cf
-- type: vmess
-  name: 0.80|HKwmt93021
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.187.152
-  server: 47.243.187.152
-  port: '61847'
-  uuid: af998f95-c214-418c-9ad2-cdf55ed755b2
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 0.65|ES西班牙
-  server: 92.38.171.97
-  port: 21008
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 0.61|US美国7
-  server: riop.miaoge110.cf
-  port: 443
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  network: ws
-- name: 0.60| githubcomfreefq  美国Microsoft数据中心 27
-  server: 20.233.12.144
-  port: 443
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 20.233.12.144
-- name: 0.53| githubcomfreefq  美国  5
-  server: 152.69.195.171
-  port: 55555
-  type: vmess
-  uuid: b86d95da-b843-4804-8443-d849d3207076
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.47| githubcomfreefq  美国加利福尼亚州费利蒙IT7网络 4
-  server: 23.83.226.182
-  port: 12788
-  type: vmess
-  uuid: a88ed91e-3dfb-4308-8bcb-d5c53e8858e0
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.42| githubcomfreefq  美国Microsoft数据中心 13
-  server: lio.miaoge.gay
-  port: 443
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: lio.miaoge.gay
-- type: vmess
-  name: 0.34|JP日本4
-  server: 168.138.201.208
-  port: 10328
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
-  alterId: 0
-  cipher: auto
-  network: tcp
-- name: 0.29|KR 韩国youtube阿伟科技 8
-  server: 152.70.235.207
-  port: 35412
-  type: vmess
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- type: vmess
-  name: 0.16|JPwmt93047
-  ws-opts:
-    path: /
-    headers:
-      host: jp02.xiaoqi99.cf
-  server: jp02.xiaoqi99.cf
-  port: '63632'
-  uuid: 92c0cfd0-bb9f-4258-bd0c-8000aa1a1d62
-  alterId: '0'
-  cipher: auto
-  network: ws
