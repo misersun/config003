@@ -1,12 +1,5 @@
 proxies:
-- type: trojan
-  name: 6.81|HK香港1
-  server: 103.103.245.125
-  port: 50350
-  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
-  udp: true
-  skip-cert-verify: true
-- name: 3.39| githubcomfreefq  美国CloudFlare节点 14
+- name: 3.66| githubcomfreefq  美国CloudFlare节点 38
   server: usarm.ptuu.cf
   port: 443
   type: vmess
@@ -18,46 +11,20 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: usarm.ptuu.cf
-- name: 3.11| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1CDN
-  server: 141.101.115.2
-  port: 443
-  type: vmess
-  uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
+- type: vmess
+  name: 3.24|US美国youtube阿伟科技16
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: lg1.zhujicn2.com
-- name: 3.06| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶15CDN
-  server: 172.64.154.150
-  port: 443
-  type: vmess
+      host: lg5.zhujicn2.com
+  server: 141.101.115.150
+  port: '443'
   uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  tls: true
   network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg5.zhujicn2.com
-- name: 2.69| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
-  server: 172.64.154.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
   tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg4.zhujicn2.com
-- name: 2.67| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2CDN
+- name: 3.13| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2CDN
   server: 141.101.114.2
   port: 443
   type: vmess
@@ -70,34 +37,20 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: lg2.zhujicn2.com
-- type: trojan
-  name: 2.46|US美国12
-  server: 129.146.242.130
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  udp: true
-  skip-cert-verify: true
-- name: 2.42| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1CDN
-  server: 172.64.153.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
+- type: vmess
+  name: 3.05|US美国youtube阿伟科技11
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: lg4.zhujicn2.com
-- type: trojan
-  name: 2.42|US美国7
-  server: 129.146.190.42
-  port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  udp: true
-  skip-cert-verify: true
-- name: 2.38| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶22CDN
+      host: lg5.zhujicn2.com
+  server: 172.64.154.150
+  port: '443'
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 3.01| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶22CDN
   server: 198.41.212.30
   port: 443
   type: vmess
@@ -110,7 +63,181 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: lg2.zhujicn2.com
-- name: 2.31| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN
+- type: vmess
+  name: 2.96|US美国youtube阿伟科技7
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg5.zhujicn2.com
+  server: 172.64.154.155
+  port: '443'
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.94| githubcomfreefq  美国CloudFlare节点 64
+  server: 172.67.196.0
+  port: 443
+  type: vmess
+  uuid: 4db99e96-3ee3-419c-b1fb-856975801380
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: localhoster.ml
+- name: 2.84| githubcomfreefq  美国CloudFlare节点 48
+  server: sgp.kapok.buzz
+  port: 443
+  type: vmess
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /4befdd8a6/
+  ws-headers:
+    Host: sgp.kapok.buzz
+- type: trojan
+  name: 2.76|US美国16
+  server: 138.2.45.243
+  port: 443
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 2.76|US美国12
+  server: 129.146.242.130
+  port: 443
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 2.73|US美国youtube阿伟科技6
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg5.zhujicn2.com
+  server: 172.64.153.150
+  port: '443'
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.70| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1CDN
+  server: 141.101.115.2
+  port: 443
+  type: vmess
+  uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg1.zhujicn2.com
+- type: vmess
+  name: 2.69|US美国youtube阿伟科技5
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg3.zhujicn2.com
+  server: 172.64.155.100
+  port: '443'
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 2.66|US美国7
+  server: 129.146.190.42
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 2.56|HK香港2
+  server: 194.156.99.39
+  port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- name: 2.20| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶13CDN
+  server: 172.64.155.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- name: 2.20| githubcomfreefq  美国  18
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 2.19| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
+  server: 172.64.154.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- type: vmess
+  name: 2.18|US美国youtube阿伟科技9
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg3.zhujicn2.com
+  server: 172.64.153.100
+  port: '443'
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.03| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1CDN
+  server: 172.64.153.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- name: 1.96| githubcomfreefq  美国CloudFlare节点 71
+  server: 172.64.150.144
+  port: 443
+  type: vmess
+  uuid: fa94fb93-fef4-4055-bf54-244115640479
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /d612af774b29/
+  ws-headers:
+    Host: jp.mywh.eu.org
+- name: 1.89| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN
   server: 198.41.212.20
   port: 443
   type: vmess
@@ -123,27 +250,7 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: lg1.zhujicn2.com
-- name: 2.07| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
-  server: 172.64.153.150
-  port: 443
-  type: vmess
-  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg5.zhujicn2.com
-- type: trojan
-  name: 1.98|HK香港3
-  server: 103.103.245.125
-  port: 50418
-  password: a70b39d1-62ea-4d9e-b681-9c5408352234
-  udp: true
-  skip-cert-verify: true
-- name: 1.86|FR 法国youtube阿伟科技
+- name: 1.84|FR 法国youtube阿伟科技
   server: 172.64.144.154
   port: 443
   type: vmess
@@ -158,20 +265,7 @@ proxies:
     headers:
       Host: m5.v2rayfree1.xyz
   udp: true
-- name: 1.84| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶13CDN
-  server: 172.64.155.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg4.zhujicn2.com
-- name: 1.83|httpsgithubcomAlvin9999newpacwiki clash ip1
+- name: 1.80|httpsgithubcomAlvin9999newpacwiki clash ip1
   server: 141.101.114.111
   port: 443
   type: vmess
@@ -184,46 +278,47 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: kr1.zhujicn2.org
-- name: 1.74| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
-  server: 172.64.154.155
+- name: 1.77| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN3
+  server: 141.101.115.200
   port: 443
   type: vmess
-  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /dongtaiwang.com
+    path: /ray
     headers:
-      Host: lg5.zhujicn2.com
-- name: 1.69| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN12
-  server: 141.101.114.20
+      Host: m5.v2rayfree1.xyz
+- name: 1.62| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
+  server: 198.41.212.100
   port: 443
   type: vmess
-  uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /dongtaiwang.com
+    path: /ray
     headers:
-      Host: v2ray1.zhujicn2.com
-- name: 1.48|Trojan VPN Server CAO 1
-  server: cat-1.opensvr.net
-  port: 443
-  type: trojan
-  password: opentunnel.net-wd3dzt4j9yoy
-  sni: cat-1.opensvr.net
+      Host: m5.v2rayfree1.xyz
 - type: trojan
-  name: 1.48|CA加拿大1
-  server: 149.56.141.11
+  name: 1.55|GB英国2
+  server: 132.145.51.172
   port: 443
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   udp: true
   skip-cert-verify: true
-- name: 1.48| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN11
+- type: trojan
+  name: 1.54|nullnull
+  server: 146.19.230.241
+  port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- name: 1.53| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN11
   server: 198.41.212.2
   port: 443
   type: vmess
@@ -237,58 +332,53 @@ proxies:
     headers:
       Host: v2ray1.zhujicn2.com
 - type: trojan
-  name: 1.45|INwmt10142
+  name: 1.48|INwmt10142
   server: 152.67.190.183
   port: 443
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 1.40|USwmt93013
-  server: s3.hass.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  name: 1.42|IN印度2
+  server: 152.67.160.174
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
   udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 1.39|AU澳大利亚2
+  name: 1.37|AU澳大利亚2
   server: 152.67.98.30
   port: 443
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   udp: true
   skip-cert-verify: true
-- name: 1.38| 甲骨文凤凰城ARM1trojan
-  server: fhcarm1.gaox.ml
-  port: 443
-  type: trojan
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  sni: fhcarm1.gaox.ml
 - type: trojan
-  name: 1.27|IN印度1
+  name: 1.31|IN印度1
   server: 152.67.162.166
   port: 443
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   udp: true
   skip-cert-verify: true
-- name: 1.18|githubcomfreefq  挪威  24
-  server: PL.nexitally.xyz
+- type: trojan
+  name: 1.27|AU澳大利亚1
+  server: 140.238.205.173
   port: 443
-  type: vmess
-  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /a54e284cb6/
-  ws-headers:
-    Host: PL.nexitally.xyz
-- name: 0.77| Trojan VPN Server UKO 2
-  server: ukt-2.opensvr.net
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  udp: true
+  skip-cert-verify: true
+- name: 1.10| githubcomfreefq  美国纽约DigitalOcean数据中心 33
+  server: sssvip02.goumaituijian.xyz
+  port: 19587
+  type: trojan
+  password: e0945df1-4081-4fe6-9f48-adf249beda73
+  sni: sssvip02.goumaituijian.xyz
+- name: 0.93| githubcomfreefq  加拿大  6
+  server: 1002jp.tfzhc.top
   port: 443
   type: trojan
-  password: opentunnel.net-rw8uuv207taq
-  sni: ukt-2.opensvr.net
-- name: 0.60| githubcomfreefq  美国CloudFlare节点 39
+  password: 75f9d187-a9c5-4944-8a09-d1f08ceac302
+  sni: 1002jp.tfzhc.top
+- name: 0.79| githubcomfreefq  美国CloudFlare节点 69
   server: cf.naixii.top
   port: 443
   type: vmess
@@ -300,52 +390,7 @@ proxies:
   ws-path: /b472f/
   ws-headers:
     Host: linode.sharecentre.xyz
-- type: trojan
-  name: 0.54|US美国5
-  server: 150.230.217.213
-  port: 443
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  udp: true
-  skip-cert-verify: true
-- name: 0.51|甲骨文海得拉巴ARM1trojan
-  server: jgwhdlb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  sni: jgwhdlb3.gaox.ml
-- name: 0.43|US11
-  server: 168.138.171.65
-  port: 443
-  type: vmess
-  uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- type: trojan
-  name: 0.35|US美国16
-  server: 138.2.45.243
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.34|US美国14
-  server: 150.230.249.42
-  port: 443
-  password: 0Y9gOHSdRt
-  udp: true
-  skip-cert-verify: true
-- name: 0.30| v2rayfreeeuorg  美国  40
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- name: 0.29| githubcomfreefq  美国CloudFlare节点 29
+- name: 0.76| githubcomfreefq  美国CloudFlare节点 73
   server: sgamd.ptuu.tk
   port: 443
   type: vmess
@@ -357,21 +402,73 @@ proxies:
   ws-path: /123
   ws-headers:
     Host: sgamd.ptuu.tk
-- type: trojan
-  name: 0.28|IN印度2
-  server: 152.67.160.174
+- name: 0.72| githubcomfreefq  美国  58
+  server: dm-us01-direct14.dm-us01.lc-node.com
   port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
+  type: vmess
+  uuid: 49df7d03-fc17-3021-9f42-39b408411bda
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: dm-us01-direct14.dm-us01.lc-node.com
+- name: 0.57|SG13
+  server: 8.209.252.35
+  port: 443
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /down
+  ws-headers:
+    HOST: js.adbse.xyz
+  skip-cert-verify: true
+  servername: js.adbse.xyz
+- type: trojan
+  name: 0.56|CA加拿大1
+  server: 149.56.141.11
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.26|AU澳大利亚1
-  server: 140.238.205.173
+- name: 0.56|GB10
+  server: aop.ssfree.ru
   port: 443
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  type: vmess
+  uuid: 460b3e24-426b-11ed-95fe-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /getweather
+  skip-cert-verify: true
+- name: 0.54| githubcomfreefq  美国加州 19
+  server: 64.112.42.73
+  port: 443
+  type: vmess
+  uuid: 4946f776-0af3-49f3-acad-d157475d253e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /P0S5U7NK
+  ws-headers:
+    Host: www.shunxin.ml
+- type: trojan
+  name: 0.54|CAwmt102p39
+  server: cat1.sshocean.net
+  port: 443
+  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
   udp: true
   skip-cert-verify: true
-- name: 0.25| RelayUSFR84
+  sni: cat1.sshocean.net
+- name: 0.38| RelayUSFR84
   server: powerservice.com
   port: 443
   type: vmess
@@ -383,25 +480,42 @@ proxies:
   ws-path: /sshocean
   ws-headers:
     Host: uk2.v2rayserv.com
+- type: vmess
+  name: 0.31|KR韩国youtube阿伟科技1
+  ws-opts:
+    path: /nuzfvws?ed=2048
+    headers:
+      host: kr.vnklwwv.com
+  server: kr.vnklwwv.com
+  port: '443'
+  uuid: d9883c4d-2bc2-4737-be75-a65c2e63d61a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 0.29| githubcomfreefq  美国纽约DigitalOcean数据中心 32
+  server: sssvip05.goumaituijian.xyz
+  port: 29550
+  type: trojan
+  password: e0945df1-4081-4fe6-9f48-adf249beda73
+  sni: sssvip05.goumaituijian.xyz
 - type: trojan
-  name: 0.18|GB英国2
-  server: 132.145.51.172
+  name: 0.24|US美国5
+  server: 150.230.217.213
   port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  password: c09eb137-bf68-4658-84e0-102d94b74168
   udp: true
   skip-cert-verify: true
-- name: 0.15|US10
-  server: 172.67.196.0
+- type: trojan
+  name: 0.23|USwmt102p84
+  server: 150.230.249.42
   port: 443
-  type: vmess
-  uuid: 4db99e96-3ee3-419c-b1fb-856975801380
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /ray
-  ws-headers:
-    HOST: localhoster.ml
+  password: 0Y9gOHSdRt
+  udp: true
   skip-cert-verify: true
-  servername: localhoster.ml
+- name: 0.22| githubcomfreefq  美国纽约DigitalOcean数据中心 31
+  server: sssvip03.goumaituijian.xyz
+  port: 19588
+  type: trojan
+  password: e0945df1-4081-4fe6-9f48-adf249beda73
+  sni: sssvip03.goumaituijian.xyz
