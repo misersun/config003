@@ -1,12 +1,24 @@
 proxies:
 - type: ss
-  name: 6.56|CNwmt102p41
-  server: 52.81.162.162
-  port: 18952
+  name: 7.10|CNwmt10339
+  server: jp-02.bestlink.ml
+  port: 13091
   cipher: aes-256-gcm
-  password: c9e5db7a-f04a-467d-874c-7002449b3ca4
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
+- name: 5.54| Japan 02
+  server: JP-02.bestlink.ml
+  port: 13091
+  type: ss
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
+- name: 5.40| githubcomfreefq  美国Microsoft数据中心 3
+  server: 20.210.122.21
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: 233blog.com
 - type: ss
-  name: 5.23|TWwmt10151
+  name: 4.74|TWwmt10151
   server: fn600mlines021.fnline.info
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -19,85 +31,9 @@ proxies:
     path: /
     tls: true
     host: fn600mlines021.fnline.info
-- name: 3.24| githubcomfreefq  美国宾夕法尼亚州拉克万纳县克拉克斯萨密特自治区VolumeDrive股份有限公司 76
-  server: 199.115.228.30
-  port: 253
-  type: ss
-  cipher: aes-256-cfb
-  password: bwhskrskr05
-- type: ss
-  name: 2.07|USwmt10143
-  server: 169.197.141.5
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 1.97|US美国5
-  server: 169.197.141.14
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-- name: 1.92| Japan 02
-  server: JP-02.bestlink.ml
-  port: 13091
-  type: ss
-  cipher: aes-256-gcm
-  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
-- type: ss
-  name: 1.85|TWwmt10164
-  server: fn600mlines020.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 5dac918f6134
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mlines020.fnline.info
-- name: 1.84| Hong Kong 01
-  server: HK-01.bestlink.ml
-  port: 11608
-  type: ss
-  cipher: aes-256-gcm
-  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
-- name: 1.79| Japan 01
-  server: JP-01.bestlink.ml
-  port: 18952
-  type: ss
-  cipher: aes-256-gcm
-  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
-- name: 1.78| Singapore 01
-  server: SG-01.bestlink.ml
-  port: 60008
-  type: ss
-  cipher: aes-256-gcm
-  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
-- type: ssr
-  name: 1.76|044日本0926428
-  server: jp-am48-6.eqnode.net
-  port: 8081
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-- type: ss
-  name: 1.67|USwmt10154
-  server: 169.197.141.14
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 1.63| United States 01
-  server: US-01.bestlink.ml
-  port: 51032
-  type: ss
-  cipher: aes-256-gcm
-  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
-- name: 1.48| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
+- name: 2.78| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -106,31 +42,27 @@ proxies:
   protocol-param: ''
   obfs-param: ''
 - type: ss
-  name: 1.36|US美国7
-  server: 169.197.141.14
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 1.35| v2rayfreeeuorg  美国Microsoft数据中心 1
-  server: 20.210.122.21
+  name: 2.73|TWwmt10135
+  server: fn600mliness017.fnline.xyz
   port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- name: 1.82| US61
+  server: 38.68.135.18
+  port: 8009
   type: ss
   cipher: aes-256-gcm
-  password: 233blog.com
-- name: 1.06| 中转  HK 14 TGnodpai Beta
-  server: 14.29.124.174
-  port: 11039
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  password: XKFKl2rULjIp74
 - type: ss
-  name: 0.84|DE德国
-  server: 165.22.73.126
-  port: 23335
-  cipher: aes-256-cfb
-  password: 7d99ae502227454ea998d71e4b62a388
-- type: ss
-  name: 0.78|TWwmt10160
+  name: 1.42|TWwmt10160
   server: fn600mliness018.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -143,7 +75,7 @@ proxies:
     path: /
     tls: true
     host: fn600mliness018.fnline.xyz
-- name: 0.64|油管阿伟科技 28
+- name: 1.31|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -158,37 +90,44 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- name: 0.62|油管阿伟科技 4
-  server: fndxus1000mline001.fnline.vip
-  port: 443
+- name: 1.05| 中转  HK 10 TGnodpai Beta
+  server: 14.29.124.174
+  port: 11044
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 563b1dc7d669
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: fndxus1000mline001.fnline.vip
-    path: /
-    tls: true
-    mux: true
-    skip-cert-verify: true
-  udp: true
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - type: ss
-  name: 0.62|TWwmt10135
-  server: fn600mliness017.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness017.fnline.xyz
+  name: 1.05|CNwmt10352
+  server: 14.29.124.174
+  port: 11050
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 1.05| RelayCNHK119
+  server: 14.29.124.174
+  port: 11004
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - type: ss
-  name: 0.59|TWwmt92698
+  name: 0.91|CNwmt1031
+  server: sg-01.bestlink.ml
+  port: 60008
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
+- name: 0.90| Hong Kong 01
+  server: HK-01.bestlink.ml
+  port: 11608
+  type: ss
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
+- name: 0.90| Singapore 01
+  server: SG-01.bestlink.ml
+  port: 60008
+  type: ss
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
+- type: ss
+  name: 0.88|TWwmt92698
   server: fn600mliness019.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -201,45 +140,101 @@ proxies:
     path: /
     tls: true
     host: fn600mliness019.fnline.xyz
+- name: 0.86| RelayCNHK118
+  server: 14.29.124.174
+  port: 11035
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.80| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
+  server: clash4.ssrfree4.xyz
+  port: 22333
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.80| Japan 01
+  server: JP-01.bestlink.ml
+  port: 18952
+  type: ss
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
 - type: ss
-  name: 0.37|xmssvip油管阿伟科技68
-  server: mf01.xmss.vip
-  port: 18888
-  cipher: chacha20-ietf-poly1305
-  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  name: 0.79|CNwmt10315
+  server: jp-01.bestlink.ml
+  port: 18952
+  cipher: aes-256-gcm
+  password: aa72849c-e76f-4c60-8a6e-4b78010ee05d
 - type: ss
-  name: 0.29|CN中国HK香港4
-  server: 14.29.124.174
-  port: 11007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.26| 中转  HK 10 TGnodpai Beta
-  server: 14.29.124.174
-  port: 11044
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.17| RelayCNHK117
-  server: 14.29.124.174
-  port: 11032
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.15| 中转  HK 6 TGnodpai Beta
-  server: 14.29.124.174
-  port: 11015
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.13| RelayCNHK122
-  server: 14.29.124.174
-  port: 11048
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.12| RelayCNHK112
+  name: 0.76|CNwmt10334
+  server: hk-01.bestlink.ml
+  port: 11608
+  cipher: aes-256-gcm
+  password: f6f86d3f-100b-4382-9639-7b1c567ac6ee
+- name: 0.75| RelayCNHK112
   server: 14.29.124.174
   port: 11043
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- type: ss
+  name: 0.54|TWwmt10164
+  server: fn600mlines020.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 5dac918f6134
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines020.fnline.info
+- name: 0.29| 中转  HK 14 TGnodpai Beta
+  server: 14.29.124.174
+  port: 11039
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.23|githubcomfreefq  欧盟  39
+  server: mf01.xmss.vip
+  port: 18888
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+- type: ss
+  name: 0.22|CN中国HK香港4
+  server: 14.29.124.174
+  port: 11007
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.19| RelayCNHK117
+  server: 14.29.124.174
+  port: 11032
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.12| RelayCNHK114
+  server: 14.29.124.174
+  port: 11003
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.12| 中转  HK 1 TGnodpai Beta
+  server: 14.29.124.174
+  port: 11036
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ssr
+  name: 0.10|176044日本0926428
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
