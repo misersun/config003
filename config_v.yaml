@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 6.24|HKwmt9299
+  name: 6.73|HKwmt10462
   http-opts:
     path:
     - /
@@ -14,7 +14,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 3.20|HKwmt102p44
+  name: 5.92|HKwmt10430
   http-opts:
     path:
     - /
@@ -28,7 +28,21 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.01|爱沙尼亚youtube阿伟科技1油管阿伟科技3
+  name: 4.27|HKwmt10426
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.244.200
+  server: 47.243.244.200
+  port: '51535'
+  uuid: 98a2ba95-d179-4563-82be-ea5c897be747
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.92|爱沙尼亚youtube阿伟科技1油管阿伟科技3
   ws-opts:
     path: /aries
     headers:
@@ -40,56 +54,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 1.78|NLwmt10354
-  ws-opts:
-    path: /
-    headers:
-      host: 13.73.229.250
-  server: 13.73.229.250
-  port: '443'
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 1.62| githubcomfreefq  日本  48
-  server: 146.56.40.117
-  port: 27675
-  type: vmess
-  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 146.56.40.117
-- type: vmess
-  name: 1.58|HK香港youtube阿伟科技5
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-  server: ingress-i1.iivvppnn.info
-  port: '38106'
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: '1'
-  cipher: auto
-  network: ws
-- name: 0.65|HK 香港youtube阿伟科技 2
-  server: 20.249.92.162
-  port: 443
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 20.249.92.162
-  udp: true
-- type: vmess
-  name: 0.21|US美国17
+  name: 0.58|US美国17
   server: 129.146.133.157
   port: 51009
   uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b

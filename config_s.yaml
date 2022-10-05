@@ -1,47 +1,9 @@
 proxies:
-- type: vmess
-  name: 3.36|US美国4
-  ws-opts:
-    path: /myblog
-    headers:
-      host: vfly11.win
-  server: vfly11.win
-  port: 443
-  uuid: 7b8e6437-86cd-4603-99c7-531047e64da7
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 2.32|US美国16
-  server: 138.2.45.243
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  udp: true
-  skip-cert-verify: true
-- name: 2.03| githubcomfreefq  加拿大  23
-  server: 1002hk1326.tfzhc.top
-  port: 443
-  type: trojan
-  password: ea48cdda-6db7-4f34-9d42-7bd9d41b4740
-  sni: 1002hk1326.tfzhc.top
-- name: 2.01| githubcomfreefq  美国德克萨斯州达拉斯Psychz数据中心 17
-  server: dlszl.hotfun.buzz
-  port: 25231
-  type: vmess
-  uuid: 6eaf2625-6e24-4c4f-8670-440f40e3b8c9
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /hoot
-  ws-headers:
-    Host: dlszl.hotfun.buzz
-- name: 2.01|GB9
+- name: 2.03|GB8
   server: aop.ssfree.ru
   port: 443
   type: vmess
-  uuid: 6fe01f66-4334-11ed-a11b-000017022008
+  uuid: 9a537486-43fd-11ed-81cc-000017022008
   alterId: 64
   cipher: auto
   tls: true
@@ -49,118 +11,44 @@ proxies:
   http-opts: {}
   ws-path: /getweather
   skip-cert-verify: true
-- type: vmess
-  name: 1.98|JP日本youtube阿伟科技4
-  ws-opts:
-    path: /123
-    headers:
-      host: jparm.fineyoo.ml
-  server: jparm.fineyoo.ml
-  port: '443'
-  uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.63| githubcomfreefq  美国CloudFlare公司CDN节点 45
-  server: sgamd.ptuu.tk
-  port: 443
+- name: 0.83|GetAFreeNodeFrankfurt油管阿伟科技27
+  server: 81.28.13.90
+  port: 20002
   type: vmess
-  uuid: 80f1e736-4b86-4e31-80d1-aac867666095
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /123
-  ws-headers:
-    Host: sgamd.ptuu.tk
-- type: trojan
-  name: 1.61|IN印度1
-  server: 152.67.162.166
-  port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  udp: true
-  skip-cert-verify: true
-- name: 1.50|FR 法国youtube阿伟科技
-  server: 172.64.144.154
-  port: 443
-  type: vmess
-  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: m5.v2rayfree1.xyz
   udp: true
-- type: trojan
-  name: 1.37|AU澳大利亚2
-  server: 152.67.98.30
+- name: 0.65| githubcomfreefq  加拿大  8
+  server: 1002tw.tfzhc.top
   port: 443
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  udp: true
-  skip-cert-verify: true
+  type: trojan
+  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
+  sni: 1002tw.tfzhc.top
 - type: trojan
-  name: 1.32|USwmt10328
-  server: yd.jiashumao.net
-  port: 29957
-  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
-  udp: true
-  skip-cert-verify: true
-  sni: yd.jiashumao.net
-- type: trojan
-  name: 1.19|FRwmt10331
-  server: fg.jiashumao.net
-  port: 45580
-  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
-  udp: true
-  skip-cert-verify: true
-  sni: fg.jiashumao.net
-- type: trojan
-  name: 1.07|USwmt10330
-  server: hanguo.jiashumao.net
-  port: 34210
-  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
-  udp: true
-  skip-cert-verify: true
-  sni: hanguo.jiashumao.net
-- type: trojan
-  name: 1.06|阿根廷1油管阿伟科技9
-  server: agt-zf.jiashumao.net
-  port: 24549
-  password: 14be28df-1728-3015-a0f8-da275104617e
-  udp: true
-  skip-cert-verify: true
-  sni: agt.jiashumao.net
-- type: trojan
-  name: 0.83|USwmt10326
-  server: usc-zf.jiashumao.net
-  port: 26972
-  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
-  udp: true
-  skip-cert-verify: true
-  sni: ahbn.jiashumao.net
-- type: trojan
-  name: 0.28|CAwmt10332
-  server: cat1.sshocean.net
-  port: 443
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.26|HK香港2
-  server: 194.156.99.39
-  port: 443
-  password: xxoo
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.19|USwmt102p84
+  name: 0.58|USwmt10484
   server: 150.230.249.42
   port: 443
   password: 0Y9gOHSdRt
   udp: true
   skip-cert-verify: true
+- name: 0.28| githubcomfreefq  日本  33
+  server: 924hk02.tfzhc.top
+  port: 44388
+  type: trojan
+  password: 2be3639a-f4cd-4161-ba78-49842b2269f6
+  sni: 924hk02.tfzhc.top
+- name: 0.22| githubcomfreefq  美国Microsoft数据中心 47
+  server: southeast2.v2rayserv.live
+  port: 20789
+  type: vmess
+  uuid: 266d5fd4-e883-4c37-f4d8-855fb29d2d9e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ds
+  ws-headers:
+    Host: southeast2.v2rayserv.live
