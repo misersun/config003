@@ -1,11 +1,163 @@
 proxies:
-- name: 4.92| 香港01
-  server: hk1.kp1a-ls9a-426a-x45g.paolu.pics
-  port: 22031
-  type: trojan
-  password: 1904200f-3823-40a1-a1ba-5a5fe0dd01f6
-  sni: hk1.kp1a-ls9a-426a-x45g.paolu.pics
-- name: 2.86|US5
+- type: trojan
+  name: 4.40|KR韩国
+  server: 146.56.176.239
+  port: 443
+  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 2.33|US美国DE德国4
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg3.zhujicn2.com
+  server: 172.64.144.100
+  port: 443
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 2.23|JPwmt108a13
+  server: 168.138.43.89
+  port: 443
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 2.15|US美国youtube阿伟科技16
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg3.zhujicn2.com
+  server: 172.64.155.100
+  port: '443'
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶13CDN
+  server: 172.64.155.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- type: vmess
+  name: 2.02|US美国DE德国1
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg5.zhujicn2.com
+  server: 172.64.153.150
+  port: 443
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 1.98|US美国youtube阿伟科技14
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg5.zhujicn2.com
+  server: 172.64.154.150
+  port: '443'
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 1.69|IN印度youtube阿伟科技2
+  ws-opts:
+    path: /a54e284cb6/
+    headers:
+      host: PL.nexitally.xyz
+  server: PL.nexitally.xyz
+  port: '443'
+  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 1.63|US美国youtube阿伟科技15
+  ws-opts:
+    path: /ray
+    headers:
+      host: m5.v2rayfree1.xyz
+  server: 172.64.144.154
+  port: '443'
+  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.29| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
+  server: 172.64.154.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- type: vmess
+  name: 1.18|US美国youtube阿伟科技10
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg3.zhujicn2.com
+  server: 172.64.153.100
+  port: '443'
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 1.10|KRwmt1071
+  server: kr1.api-aws.com
+  port: 443
+  password: d66dccd1-90c1-4713-8972-2417a2854df2
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.99|nullwmt108a25
+  server: 146.19.230.241
+  port: 443
+  password: xxoo
+  udp: true
+  skip-cert-verify: true
+- name: 0.98| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1CDN
+  server: 172.64.153.200
+  port: 443
+  type: vmess
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: lg4.zhujicn2.com
+- name: 0.78|US5
   server: ca.0112233.xyz
   port: 8443
   type: vmess
@@ -20,15 +172,34 @@ proxies:
     HOST: ca.0112233.xyz
   skip-cert-verify: true
   servername: ca.0112233.xyz
-- type: trojan
-  name: 2.65|US美国5
-  server: 138.2.45.243
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  udp: true
-  skip-cert-verify: true
 - type: vmess
-  name: 2.14|US美国JP日本
+  name: 0.62|克罗地亚youtube阿伟科技
+  ws-opts:
+    path: /ray
+    headers:
+      host: eu.ptuu.tk
+  server: eu.ptuu.tk
+  port: '443'
+  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 0.54|US美国youtube阿伟科技20
+  ws-opts:
+    path: /b472f/
+    headers:
+      host: linode.sharecentre.xyz
+  server: cf.naixii.top
+  port: '443'
+  uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 0.51|US美国JP日本
   ws-opts:
     path: /123
     headers:
@@ -41,93 +212,15 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: 2.04|US美国youtube阿伟科技1
+  name: 0.13|DE德国youtube阿伟科技3
   ws-opts:
-    path: /123
+    path: /chat
     headers:
-      host: jparm.fineyoo.cf
-  server: 104.21.78.44
+      host: vde2.0bad.com
+  server: vde2.0bad.com
   port: '443'
-  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: '0'
   cipher: auto
   network: ws
   tls: true
-- type: trojan
-  name: 1.91|USwmt10745
-  server: 150.230.249.42
-  port: 443
-  password: 0Y9gOHSdRt
-  udp: true
-  skip-cert-verify: true
-- name: 1.88| 日本01
-  server: jp1-snxa-s56f-x84a-s41f.paolu.pics
-  port: 22031
-  type: trojan
-  password: 3715ea7f-2915-48df-af11-4063fff72cdd
-  sni: jp1-snxa-s56f-x84a-s41f.paolu.pics
-- name: 1.57| 日本02
-  server: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics
-  port: 22031
-  type: trojan
-  password: 3715ea7f-2915-48df-af11-4063fff72cdd
-  sni: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics
-- name: 1.43| 甲骨文伦敦AMD1trojan
-  server: jgwld1.gaox.ml
-  port: 443
-  type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  sni: jgwld1.gaox.ml
-- type: vmess
-  name: 1.37|defaultname5
-  ws-opts:
-    path: /ray
-    headers:
-      host: eu.ptuu.tk
-  server: 104.21.59.76
-  port: 443
-  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 1.31|IN印度youtube阿伟科技2
-  ws-opts:
-    path: /a54e284cb6/
-    headers:
-      host: PL.nexitally.xyz
-  server: PL.nexitally.xyz
-  port: '443'
-  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 1.06|KRwmt1071
-  server: kr1.api-aws.com
-  port: 443
-  password: d66dccd1-90c1-4713-8972-2417a2854df2
-  udp: true
-  skip-cert-verify: true
-- type: vmess
-  name: 0.57|克罗地亚youtube阿伟科技
-  ws-opts:
-    path: /ray
-    headers:
-      host: eu.ptuu.tk
-  server: eu.ptuu.tk
-  port: '443'
-  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 0.24|KR韩国
-  server: 146.56.176.239
-  port: 443
-  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
-  udp: true
-  skip-cert-verify: true
