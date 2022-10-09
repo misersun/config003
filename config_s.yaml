@@ -1,218 +1,44 @@
 proxies:
+- name: 4.65|套餐到期20221107
+  server: hk1.kp1a-ls9a-426a-x45g.paolu.pics
+  port: 22031
+  type: trojan
+  password: d6b10ef9-4524-4bf1-80ae-6242f0647468
+  sni: hk1.kp1a-ls9a-426a-x45g.paolu.pics
+- name: 4.41| 越南1号
+  server: 103.173.255.21
+  port: 28443
+  type: trojan
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  sni: glc.hruqoaw.cn
 - type: trojan
-  name: 4.40|KR韩国
-  server: 146.56.176.239
-  port: 443
-  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
+  name: 2.16|RU俄罗斯youtube阿伟科技
+  server: ru.p1.gay
+  port: 24114
+  password: 69a019dd-617b-449f-9af0-57762a476530
   udp: true
   skip-cert-verify: true
+  sni: ru.p1.gay
+- name: 2.00| 日本NTT1号  解锁流媒体
+  server: 202.8.9.67
+  port: 28443
+  type: trojan
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  sni: glc.hruqoaw.cn
+- name: 1.91| 日本NTT2号  解锁流媒体
+  server: 202.8.9.27
+  port: 28443
+  type: trojan
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  sni: glc.hruqoaw.cn
+- name: 1.85| 台湾Hinet2  解锁流媒体
+  server: download2tw.windowsupdate1.com
+  port: 28443
+  type: trojan
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  sni: glc.hruqoaw.cn
 - type: vmess
-  name: 2.33|US美国DE德国4
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg3.zhujicn2.com
-  server: 172.64.144.100
-  port: 443
-  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 2.23|JPwmt108a13
-  server: 168.138.43.89
-  port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  udp: true
-  skip-cert-verify: true
-- type: vmess
-  name: 2.15|US美国youtube阿伟科技16
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg3.zhujicn2.com
-  server: 172.64.155.100
-  port: '443'
-  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 2.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶13CDN
-  server: 172.64.155.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg4.zhujicn2.com
-- type: vmess
-  name: 2.02|US美国DE德国1
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg5.zhujicn2.com
-  server: 172.64.153.150
-  port: 443
-  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 1.98|US美国youtube阿伟科技14
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg5.zhujicn2.com
-  server: 172.64.154.150
-  port: '443'
-  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 1.69|IN印度youtube阿伟科技2
-  ws-opts:
-    path: /a54e284cb6/
-    headers:
-      host: PL.nexitally.xyz
-  server: PL.nexitally.xyz
-  port: '443'
-  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 1.63|US美国youtube阿伟科技15
-  ws-opts:
-    path: /ray
-    headers:
-      host: m5.v2rayfree1.xyz
-  server: 172.64.144.154
-  port: '443'
-  uuid: 94887268-f3cb-48be-ade3-87d42faae3e4
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.29| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12CDN
-  server: 172.64.154.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg4.zhujicn2.com
-- type: vmess
-  name: 1.18|US美国youtube阿伟科技10
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg3.zhujicn2.com
-  server: 172.64.153.100
-  port: '443'
-  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: 1.10|KRwmt1071
-  server: kr1.api-aws.com
-  port: 443
-  password: d66dccd1-90c1-4713-8972-2417a2854df2
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.99|nullwmt108a25
-  server: 146.19.230.241
-  port: 443
-  password: xxoo
-  udp: true
-  skip-cert-verify: true
-- name: 0.98| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1CDN
-  server: 172.64.153.200
-  port: 443
-  type: vmess
-  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: lg4.zhujicn2.com
-- name: 0.78|US5
-  server: ca.0112233.xyz
-  port: 8443
-  type: vmess
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /home
-  ws-headers:
-    HOST: ca.0112233.xyz
-  skip-cert-verify: true
-  servername: ca.0112233.xyz
-- type: vmess
-  name: 0.62|克罗地亚youtube阿伟科技
-  ws-opts:
-    path: /ray
-    headers:
-      host: eu.ptuu.tk
-  server: eu.ptuu.tk
-  port: '443'
-  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 0.54|US美国youtube阿伟科技20
-  ws-opts:
-    path: /b472f/
-    headers:
-      host: linode.sharecentre.xyz
-  server: cf.naixii.top
-  port: '443'
-  uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 0.51|US美国JP日本
-  ws-opts:
-    path: /123
-    headers:
-      host: jparm.fineyoo.cf
-  server: jparm.fineyoo.cf
-  port: 443
-  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 0.13|DE德国youtube阿伟科技3
+  name: 1.44|DE德国youtube阿伟科技3
   ws-opts:
     path: /chat
     headers:
@@ -224,3 +50,23 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+- name: 1.28| 香港M247移动网优化  解锁流媒体
+  server: 5.181.4.104
+  port: 28443
+  type: trojan
+  password: 8fe3b905-b933-4a3f-aa33-40a73ec93c69
+  sni: glc.hruqoaw.cn
+- type: trojan
+  name: 0.26|KRwmt1097
+  server: kr1.api-aws.com
+  port: 443
+  password: 545034ab-8179-46ea-a7d4-a5c992cce000
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.15|KR韩国1
+  server: 146.56.176.239
+  port: 443
+  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
+  udp: true
+  skip-cert-verify: true
