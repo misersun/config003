@@ -1,157 +1,32 @@
 proxies:
-- name: 5.16| 新加坡02
-  server: sg-02.wumaojichang.ml
-  port: 35723
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1b9f8249-b029-43c1-931f-6a58b977622b
-- name: 4.76| 新加坡 小妮妮1x
-  server: xi.kanao.xyz
-  port: 58808
-  type: trojan
-  password: 5f828b55-4967-41f3-99df-873e9eddcfca
-  sni: xi.kanao.xyz
-  skip-cert-verify: true
+- type: ss
+  name: 3.16|USwmt10116
+  server: c59s1.jamjams3.net
+  port: 7523
+  cipher: aes-256-gcm
+  password: mqDAJBC9AtqprCSS
+- type: ss
+  name: 3.11|USwmt101112
+  server: c10s2.jamjams3.net
+  port: 16522
+  cipher: aes-256-gcm
+  password: QB7rUb6qjPro24E8
 - type: trojan
-  name: 4.74|SG新加坡1
-  server: hk1.kp1a-ls9a-426a-x45g.paolu.pics
-  port: 22031
-  password: 1904200f-3823-40a1-a1ba-5a5fe0dd01f6
+  name: 2.83|USwmt10115
+  server: scus3.ddns-pop.cyou
+  port: 24567
+  password: cbc0547f-f1e8-3f4a-ac17-fb5545079ff4
   udp: true
   skip-cert-verify: true
-- name: 3.93| 越南 原生大妮妮1x
-  server: da.kanao.xyz
-  port: 58814
-  type: trojan
-  password: 5f828b55-4967-41f3-99df-873e9eddcfca
-  sni: da.kanao.xyz
-  skip-cert-verify: true
-- name: 3.86| githubcomfreefq  新加坡Linode数据中心 28
-  server: 112.fastea.top
-  port: 53316
-  type: trojan
-  password: bc65adbe-946a-4b68-b3dc-9a777af92412
-  sni: 112.fastea.top
-- name: 3.56| 香港HKT  解锁流媒体
-  server: download1hkt.windowsupdate1.com
-  port: 28443
-  type: trojan
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  sni: glc.hruqoaw.cn
-- type: ssr
-  name: 2.99|KRwmt101035
-  server: 121.0.97.25
-  port: 44002
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- name: 2.98| 新加坡 M1  流媒体  0x
-  server: 14.29.230.228
-  port: 13325
-  type: trojan
-  password: M87e36b2
-  sni: if3d.ft3.us
-  skip-cert-verify: true
-- name: 2.80| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
 - type: trojan
-  name: 2.76|JP日本2
+  name: 2.81|JP日本2
   server: 168.138.43.89
   port: 443
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   udp: true
   skip-cert-verify: true
-- name: 2.72| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.22| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 41
-  server: 198.181.56.163
-  port: 238
-  type: ss
-  cipher: aes-256-cfb
-  password: bwhskrskr05
-- type: trojan
-  name: 2.06|USwmt10107
-  server: 129.146.242.130
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  udp: true
-  skip-cert-verify: true
-- name: 2.04| 香港HGC  解锁流媒体
-  server: 210.0.158.220
-  port: 28443
-  type: trojan
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  sni: glc.hruqoaw.cn
-- name: 1.75|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
 - type: ss
-  name: 1.72|TWwmt106215
-  server: fn600mlines021.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 0ac84efef442
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mlines021.fnline.info
-- type: trojan
-  name: 1.59|USwmt101060
-  server: 138.2.113.248
-  port: 443
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  udp: true
-  skip-cert-verify: true
-- name: 1.57| 台湾Hinet  解锁流媒体
-  server: download1tw.windowsupdate1.com
-  port: 28443
-  type: trojan
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  sni: glc.hruqoaw.cn
-- type: ss
-  name: 1.31|USwmt108a54
-  server: 38.54.33.116
-  port: 50000
-  cipher: aes-256-cfb
-  password: '3135771619'
-- name: 1.15| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 5
-  server: c10s1.jamjams3.net
-  port: 16522
-  type: ss
-  cipher: aes-256-gcm
-  password: QB7rUb6qjPro24E8
-- name: 1.08|GB1
-  server: 212.102.53.78
-  port: 443
-  type: ss
-  password: shadowsocks
-  cipher: aes-128-gcm
-- type: ss
-  name: 1.08|TWwmt10160
+  name: 2.75|TWwmt10160
   server: fn600mliness018.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -164,79 +39,96 @@ proxies:
     path: /
     tls: true
     host: fn600mliness018.fnline.xyz
-- name: 1.06| RelayCNHK122
-  server: 14.29.124.174
-  port: 11048
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.97| githubcomfreefq  俄罗斯鞑靼斯坦喀山justhost 27
+- type: ss
+  name: 2.41|TWwmt106215
+  server: fn600mlines021.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines021.fnline.info
+- name: 1.94| v2rayfreeeuorg  美国  10
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 1.89| githubcomfreefq  美国  10
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 1.77| githubcomfreefq  俄罗斯鞑靼斯坦喀山justhost 17
   server: ru.p1.gay
   port: 24114
   type: trojan
   password: 69a019dd-617b-449f-9af0-57762a476530
   sni: ru.p1.gay
 - type: trojan
-  name: 0.91|CNwmt1092
-  server: 116.129.254.29
-  port: 3381
+  name: 1.75|BHwmt101118
+  server: 23.247.137.70
+  port: 3389
   password: d4e41ff772c7fd45
   udp: true
   skip-cert-verify: true
-- name: 0.74| 日本 大妮妮1x
-  server: da.kanao.xyz
-  port: 58805
+- name: 1.72|甲骨文海得拉巴AMD2trojan
+  server: jgwhdlb2.gaox.ml
+  port: 443
   type: trojan
-  password: 5f828b55-4967-41f3-99df-873e9eddcfca
-  sni: da.kanao.xyz
-  skip-cert-verify: true
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  sni: jgwhdlb2.gaox.ml
+- type: ssr
+  name: 1.68|KRwmt101156
+  server: 121.0.97.47
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- type: ss
+  name: 1.57|GBwmt101116
+  server: 212.102.53.78
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 1.32|油管阿伟科技 5
+  server: 213.183.59.218
+  port: 9037
+  type: ss
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+  udp: true
+- type: ssr
+  name: 1.20|KR韩国youtube阿伟科技2
+  server: clash6-1.ssrfree6.xyz
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- type: ssr
+  name: 1.08|KRwmt101035
+  server: 121.0.97.25
+  port: 44002
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
 - type: trojan
-  name: 0.70|CNwmt1093
+  name: 0.98|CNwmt101150
   server: 116.129.253.134
   port: 3381
-  password: d02058f4f819dced
+  password: 6222266fcd4ed224
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 0.61|nullwmt101090
-  server: 146.19.230.241
-  port: 443
-  password: xxoo
-  udp: true
-  skip-cert-verify: true
-- name: 0.57|githubcomfreefq  爱沙尼亚  40
-  server: hk-tj.superyuluo.asia
-  port: 30002
-  type: trojan
-  password: 7b30dbe2-5fd9-4f87-a733-facef379632b
-  sni: hk-tj.superyuluo.asia
-- type: ss
-  name: 0.56|NL荷兰2
-  server: 213.183.59.218
-  port: 9040
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-- type: trojan
-  name: 0.54|JP日本1
-  server: 168.138.44.176
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  udp: true
-  skip-cert-verify: true
-- name: 0.49| githubcomfreefq  美国Amazon数据中心 10
-  server: nice-uk01.tiktokcdn.buzz
-  port: 18271
-  type: trojan
-  password: ItqczFJHHy
-  sni: nice-uk01.tiktokcdn.buzz
-- name: 0.47| 印尼 原生大妮妮1x
-  server: da.kanao.xyz
-  port: 58824
-  type: trojan
-  password: 5f828b55-4967-41f3-99df-873e9eddcfca
-  sni: da.kanao.xyz
-  skip-cert-verify: true
-- name: 0.37|油管阿伟科技 28
+- name: 0.84|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -251,38 +143,94 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- name: 0.36| 甲骨文凤凰城AMD2trojan
+- type: ssr
+  name: 0.79|KRwmt101133
+  server: clash6-3.ssrfree6.xyz
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- name: 0.79| 甲骨文凤凰城AMD2trojan
   server: fhcamd2.gaox.ml
   port: 443
   type: trojan
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   sni: fhcamd2.gaox.ml
-- name: 0.23|油管阿伟科技 5
-  server: 213.183.59.218
-  port: 9037
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
+- type: trojan
+  name: 0.78|USwmt101060
+  server: 138.2.113.248
+  port: 443
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
   udp: true
-- type: ss
-  name: 0.19|AUwmt10719
-  server: 185.167.116.250
-  port: 9073
-  cipher: aes-256-cfb
-  password: daFYagqDdBdA6VTX
-- name: 0.17| 日本 M5  0x
-  server: 14.29.230.228
-  port: 13324
-  type: trojan
-  password: Mf50c428
-  sni: if3d.ft3.us
   skip-cert-verify: true
-- name: 0.15| RelayCNHK112
+- type: trojan
+  name: 0.57|JP日本1
+  server: 168.138.44.176
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  udp: true
+  skip-cert-verify: true
+- type: ss
+  name: 0.51|USwmt101168
+  server: c10s1.jamjams3.net
+  port: 16522
+  cipher: aes-256-gcm
+  password: QB7rUb6qjPro24E8
+- type: trojan
+  name: 0.43|GBwmt101130
+  server: 132.145.51.172
+  port: 443
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  udp: true
+  skip-cert-verify: true
+- name: 0.40| RelayCNHK112
   server: 14.29.124.174
   port: 11043
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 0.27| RelayCNHK118
+  server: 14.29.124.174
+  port: 11035
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.26|githubcomfreefq  爱沙尼亚  33
+  server: hk-tj.superyuluo.asia
+  port: 30002
+  type: trojan
+  password: 7b30dbe2-5fd9-4f87-a733-facef379632b
+  sni: hk-tj.superyuluo.asia
+- type: trojan
+  name: 0.20|KRwmt10111
+  server: kr1.api-aws.com
+  port: 443
+  password: da647e58-8f85-450f-b123-568c492c297c
+  udp: true
+  skip-cert-verify: true
+- name: 0.15| 新加坡1010070
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.12| RelayCNHK122
+  server: 14.29.124.174
+  port: 11048
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.12| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
 - type: ss
   name: 0.11|CNwmt10953
   server: 14.29.124.174
