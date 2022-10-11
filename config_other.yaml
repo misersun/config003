@@ -1,7 +1,23 @@
 proxies:
-- name: 1.33| 韩国1006109
+- type: ssr
+  name: 2.46|KR韩国youtube阿伟科技3
+  server: clash6-3.ssrfree6.xyz
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- type: ssr
+  name: 1.83|KR韩国youtube阿伟科技2
   server: clash6-1.ssrfree6.xyz
   port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- name: 1.64| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -9,17 +25,15 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.31| 韩国1006107
-  server: sv.ssrfree7.xyz
+- type: ssr
+  name: 1.45|KRwmt101035
+  server: 121.0.97.25
   port: 44002
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
   protocol: auth_chain_a
+  cipher: dummy
   obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.07| 韩国1006105
+  password: dongtaiwang.com
+- name: 1.31| 韩国1006105
   server: 121.0.97.47
   port: 44004
   type: ssr
@@ -29,9 +43,19 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.81| 韩国1006104
-  server: clash6-3.ssrfree6.xyz
-  port: 44004
+- name: 1.22| 日本1010191
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.15| 韩国1006107
+  server: sv.ssrfree7.xyz
+  port: 44002
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
