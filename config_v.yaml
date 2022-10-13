@@ -1,26 +1,30 @@
 proxies:
 - type: vmess
-  name: 2.63|US美国youtube阿伟科技11
+  name: 3.62|HK香港youtube阿伟科技1
   ws-opts:
-    path: /wis
+    path: /by.xbygood.xyz
     headers:
-      host: aa.houdinix.space
-  server: aa.houdinix.space
-  port: '56656'
-  uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c
+      host: youtube-aweikeji
+  server: text1.xbywwcp.us
+  port: '80'
+  uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: 2.26|JP日本youtube阿伟科技6
-  server: 152.69.195.171
-  port: '55555'
-  uuid: b86d95da-b843-4804-8443-d849d3207076
+  name: 1.74|US美国youtube阿伟科技12
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      host: a.189.cn
+  server: text7.xbywwcp.us
+  port: '80'
+  uuid: 99e2f539-700f-3947-b31a-4c9d912ff5fa
   alterId: '0'
   cipher: auto
-  network: tcp
+  network: ws
 - type: vmess
-  name: 1.11|卢森堡youtube阿伟科技2
+  name: 0.47|卢森堡youtube阿伟科技
   ws-opts:
     path: /aries
     headers:
@@ -32,34 +36,14 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 0.53|USwmt10113
-  server: 107.173.83.214
-  port: '37541'
-  uuid: ef59a586-0532-4763-f353-948eb413f00d
+  name: 0.11|US美国youtube阿伟科技32
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      host: '%7B%22host%22:%22a.189.cn%22%7D'
+  server: text2.xbywwcp.us
+  port: '80'
+  uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
   alterId: '0'
   cipher: auto
-  network: tcp
-- name: 0.30| SSRSUB俄罗斯V01付费推荐dljtfssrsub
-  server: www.digitalocean.com
-  port: 80
-  type: vmess
-  uuid: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.asuka.buzz
-- name: 0.19| SSRSUB俄罗斯V02付费推荐dljtfssrsub
-  server: 104.16.122.77
-  port: 80
-  type: vmess
-  uuid: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.asuka.buzz
