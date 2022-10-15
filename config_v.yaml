@@ -1,18 +1,18 @@
 proxies:
-- name: 3.11| githubcomfreefq  美国CloudFlare公司CDN节点 22
-  server: shopify.com
-  port: 2086
-  type: vmess
-  uuid: 147c190d-0407-4133-f2b8-47d11297d771
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: dosg.cloudflare.quest
 - type: vmess
-  name: 0.65|卢森堡youtube阿伟科技
+  name: 1.95|SG新加坡youtube阿伟科技5
+  ws-opts:
+    path: /
+    headers:
+      host: sg02.xiaoqi99.cf
+  server: sg02.xiaoqi99.cf
+  port: '63632'
+  uuid: 49166929-020e-4ef0-97e7-7989ce92fc69
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 1.52|卢森堡youtube阿伟科技
   ws-opts:
     path: /aries
     headers:
@@ -23,11 +23,15 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.17| githubcomfreefq  新加坡Amazon数据中心 1
-  server: 54.151.172.209
-  port: 443
-  type: vmess
-  uuid: 20a1e3d1-9fb0-4f09-8bc9-b75ec31a1858
-  alterId: 0
+- type: vmess
+  name: 0.24|US美国youtube阿伟科技13
+  ws-opts:
+    path: /wis
+    headers:
+      host: aa.houdinix.space
+  server: aa.houdinix.space
+  port: '56656'
+  uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c
+  alterId: '0'
   cipher: auto
-  tls: false
+  network: ws

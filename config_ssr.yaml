@@ -1,5 +1,21 @@
 proxies:
-- name: 2.74| 韩国1014092
+- type: ssr
+  name: 2.95|KRwmt101374
+  server: clash6-1.ssrfree6.xyz
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- type: ssr
+  name: 2.69|KRwmt101343
+  server: clash6-3.ssrfree6.xyz
+  port: 44004
+  protocol: auth_chain_a
+  cipher: dummy
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+- name: 2.65| 韩国1014094
   server: clash4-2.ssrfree4.xyz
   port: 12345
   type: ssr
@@ -9,32 +25,18 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- type: ssr
-  name: 1.45|油管阿伟科技11
-  server: sv.ssrfree7.xyz
-  port: 44002
-  protocol: auth_chain_a
-  cipher: dummy
+- name: 2.57| 日本1014213
+  server: 18.181.199.74
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
   obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
+  protocol-param: ''
+  obfs-param: ''
 - type: ssr
-  name: 1.31|KRwmt101343
-  server: clash6-3.ssrfree6.xyz
-  port: 44004
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- type: ssr
-  name: 0.94|KRwmt101383
-  server: 121.0.97.25
-  port: 44002
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- type: ssr
-  name: 0.80|KRwmt101377
+  name: 2.43|KRwmt101377
   server: 121.0.97.47
   port: 44004
   protocol: auth_chain_a
@@ -42,14 +44,14 @@ proxies:
   obfs: tls1.2_ticket_auth
   password: dongtaiwang.com
 - type: ssr
-  name: 0.79|KRwmt101374
-  server: clash6-1.ssrfree6.xyz
-  port: 44004
+  name: 0.95|KRwmt101383
+  server: 121.0.97.25
+  port: 44002
   protocol: auth_chain_a
   cipher: dummy
   obfs: tls1.2_ticket_auth
   password: dongtaiwang.com
-- name: 0.17| 日本1014037
+- name: 0.17| 日本1014040
   server: jp-am48-6.eqnode.net
   port: 8081
   type: ssr
@@ -59,3 +61,11 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+- type: ssr
+  name: 0.12|油管阿伟科技6
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 3g0dHlKME
