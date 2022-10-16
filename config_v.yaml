@@ -1,6 +1,22 @@
 proxies:
 - type: vmess
-  name: 1.95|SG新加坡youtube阿伟科技5
+  name: 5.05|SG新加坡youtube阿伟科技5
+  server: 13.212.118.181
+  port: '43632'
+  uuid: 1d2978ba-30ba-4b64-8699-9ba6ba3cd4e8
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 2.68|KR韩国youtube阿伟科技3
+  server: 13.125.112.5
+  port: '43632'
+  uuid: 1d2978ba-30ba-4b64-8699-9ba6ba3cd4e8
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 1.69|SG新加坡youtube阿伟科技5
   ws-opts:
     path: /
     headers:
@@ -12,7 +28,19 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 1.52|卢森堡youtube阿伟科技
+  name: 1.59|UK英国youtube阿伟科技2
+  ws-opts:
+    path: /user
+    headers:
+      host: stream.azadrah22.com
+  server: stream.azadrah22.com
+  port: '80'
+  uuid: 76e151a7-9980-4077-bd52-07ef4e9cb496
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.55|卢森堡youtube阿伟科技
   ws-opts:
     path: /aries
     headers:
@@ -24,7 +52,15 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 0.24|US美国youtube阿伟科技13
+  name: 0.33|HK香港youtube阿伟科技3
+  server: 43.155.96.151
+  port: '46945'
+  uuid: 370a5df4-0ac0-4e3d-ab1c-218891c9e638
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 0.25|US美国youtube阿伟科技13
   ws-opts:
     path: /wis
     headers:
