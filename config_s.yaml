@@ -1,38 +1,31 @@
 proxies:
-- name: 4.10| BGPGSLB香港HGC
-  server: 16.162.12.219
-  port: 2053
-  type: trojan
-  password: de39d941-eaf6-405d-958a-ebebe1315574
-  sni: wel-hgc.qchwnd.moe
+- type: trojan
+  name: 2.04|CAwmt101836
+  server: aewfhe5z1pokrkw8bi9g25.xingbayun.buzz
+  port: 10001
+  password: 862e68d2-05f3-4253-9116-819623bb7335
+  udp: true
   skip-cert-verify: true
-- type: vmess
-  name: 1.53|US美国RO罗马尼亚
-  ws-opts:
-    path: /1017.fqcloud.ga
-    headers:
-      host: 1017.fqcloud.ga
-  server: 172.64.159.18
-  port: 2053
-  uuid: 319881ad-fb36-4688-dd94-8334b0028da0
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 0.79|defaultname3
-  ws-opts:
-    path: /chat
-    headers:
-      host: vau1.0bad.com
-  server: vau1.0bad.com
+- name: 1.56| RelayJPJP373
+  server: vjp1.0bad.com
   port: 443
+  type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 0.70| v2rayfreeeuorg  美国CloudFlare节点 29
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vjp1.0bad.com
+- type: trojan
+  name: 0.68|KRwmt101758
+  server: kr1.api-aws.com
+  port: 443
+  password: 7c953fab-2d79-4320-b208-59e07b6033fd
+  udp: true
+  skip-cert-verify: true
+- name: 0.61| v2rayfreeeuorg  美国CloudFlare节点 29
   server: ca.0112233.xyz
   port: 8443
   type: vmess
@@ -45,67 +38,50 @@ proxies:
   ws-headers:
     Host: ca.0112233.xyz
 - type: vmess
-  name: 0.62|US美国youtube阿伟科技15
+  name: 0.60|US美国2
   ws-opts:
     path: /chat
     headers:
       host: vus3.0bad.com
   server: vus3.0bad.com
-  port: '443'
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 0.61|DE德国
-  ws-opts:
-    path: /chat
-    headers:
-      host: vde2.0bad.com
-  server: vde2.0bad.com
   port: 443
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-- type: trojan
-  name: 0.38|KRwmt101758
-  server: kr1.api-aws.com
-  port: 443
-  password: 7c953fab-2d79-4320-b208-59e07b6033fd
-  udp: true
-  skip-cert-verify: true
 - type: vmess
-  name: 0.30|defaultname2
+  name: 0.55|US美国1
   ws-opts:
-    path: /down
-    headers:
-      host: js.adbse.xyz
-  server: 172.105.238.164
-  port: 443
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+    path: /dengqingbo
+  server: studynew.cn
+  port: 51340
+  uuid: bb84725a-f726-4bcb-8131-44df12094005
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-- type: trojan
-  name: 0.15|CZwmt101750
-  server: 185.253.47.79
-  port: 443
-  password: ZD4dLSBXiMrmzdLd
-  udp: true
-  skip-cert-verify: true
-- name: 0.15| 免费日本01
-  server: m2.pianyijc.top
-  port: 31211
+- name: 0.52| githubcomfreefq  美国Microsoft数据中心 5
+  server: azsgtr.kctr2038.icu
+  port: 58888
   type: vmess
-  uuid: 6b855dbd-3f5a-4a8b-8338-73ab337eb8e6
+  uuid: 88939272-790a-441f-b12b-8ce531aca810
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /sometimesnaive
+  ws-path: /
   ws-headers:
-    Host: m2.pianyijc.top
+    Host: linodetr03.kaochangonline.online
+- name: 0.30| githubcomfreefq  美国Microsoft数据中心 2
+  server: azjptr.kctr2038.icu
+  port: 57777
+  type: vmess
+  uuid: 88939272-790a-441f-b12b-8ce531aca810
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: linodetr04.kaochangonline.online
