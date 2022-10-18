@@ -1,93 +1,13 @@
 proxies:
-- name: 11.07| 香港01
-  server: a01.qqddnsa.com
-  port: 22201
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d2d8cf39-5c74-405a-971e-073fade9203c
-- name: 10.63| 香港02
-  server: a06.qqddnsa.com
-  port: 22202
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d2d8cf39-5c74-405a-971e-073fade9203c
-- name: 9.49| 香港03
-  server: a07.qqddnsa.com
-  port: 22203
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d2d8cf39-5c74-405a-971e-073fade9203c
-- name: 8.37| Super 香港05   IEPL  倍率25
-  server: oracle.accessconnect.cc
-  port: 7005
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 244236:kRRY5x
-  obfs-param: 50bb5244236.www.gov.hk
-- name: 8.24| Super 香港07   IEPL  倍率23
-  server: oracle.accessconnect.cc
-  port: 7007
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 244236:kRRY5x
-  obfs-param: 50bb5244236.www.gov.hk
-- name: 6.62| Super 日本01   MIEPL  倍率2
-  server: oracle.accessconnect.cc
-  port: 1126
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 244236:kRRY5x
-  obfs-param: 50bb5244236.www.gov.hk
-- name: 6.31| Super 台湾01   MIEPL  倍率21
-  server: oracle.accessconnect.cc
-  port: 1122
-  type: ssr
-  cipher: rc4-md5
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 244236:kRRY5x
-  obfs-param: 50bb5244236.www.gov.hk
-- name: 6.09| 新加坡02
-  server: a05.qqddnsa.com
-  port: 18202
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d2d8cf39-5c74-405a-971e-073fade9203c
-- name: 4.65| 新加坡01
-  server: a05.qqddnsa.com
-  port: 18201
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d2d8cf39-5c74-405a-971e-073fade9203c
 - type: ssr
-  name: 2.94|油管阿伟科技11
+  name: 2.82|KRwmt101851
   server: 121.0.97.25
   port: 44002
   protocol: auth_chain_a
   cipher: dummy
   obfs: tls1.2_ticket_auth
   password: dongtaiwang.com
-- name: 2.76| 韩国1014093
-  server: clash4.ssrfree4.xyz
-  port: 22333
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.36| 韩国1014094
+- name: 2.30| 韩国1018099
   server: clash4-2.ssrfree4.xyz
   port: 12345
   type: ssr
@@ -97,13 +17,53 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.06| RelayCNHK118
-  server: 14.29.124.174
-  port: 11035
+- type: ss
+  name: 1.36|TWwmt10135
+  server: fn600mliness017.fnline.xyz
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- type: ss
+  name: 1.10|wmt101861
+  server: 103.172.116.5
+  port: 9041
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: 1.02|Earth6
+  server: 103.172.116.5
+  port: 9000
   type: ss
-  cipher: aes-128-cfb
+  password: a3GFYt36Sm82Vys9
+  cipher: aes-256-cfb
+- name: 0.75|CN1
+  server: 14.29.124.174
+  port: 11050
+  type: ss
   password: QazEdcTgb159@$*
-- name: 0.89|油管阿伟科技 28
+  cipher: aes-128-cfb
+- type: ss
+  name: 0.69|TWwmt106215
+  server: fn600mlines021.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines021.fnline.info
+- name: 0.53|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -118,77 +78,45 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- type: ss
-  name: 0.65|TWwmt106215
-  server: fn600mlines021.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 0ac84efef442
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mlines021.fnline.info
-- type: ss
-  name: 0.52|TWwmt10135
-  server: fn600mliness017.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness017.fnline.xyz
-- type: ss
-  name: 0.29|CNwmt101743
+- name: 0.22| RelayCNHK117
   server: 14.29.124.174
-  port: 11049
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.18|CNwmt101754
-  server: 14.29.124.174
-  port: 11015
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.14|CN3
-  server: 14.29.124.174
-  port: 11003
+  port: 11032
   type: ss
-  password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: 0.13| A应急续费使用  倍率5  到期后可用1GB
-  server: sql.accessconnect.cc
-  port: 999
-  type: ssr
-  cipher: aes-256-cfb
-  password: di15PV
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 244236:kRRY5x
-  obfs-param: 50bb5244236.www.gov.hk
-- name: 0.12| RelayCNHK122
+  password: QazEdcTgb159@$*
+- name: 0.16| RelayCNHK122
   server: 14.29.124.174
   port: 11048
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- type: ss
-  name: 0.12|CN中国HK香港7
+- name: 0.14| RelayCNHK114
   server: 14.29.124.174
-  port: 11050
+  port: 11003
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.13|CN2
+  server: 14.29.124.174
+  port: 11011
+  type: ss
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- type: ss
+  name: 0.12|CNwmt101754
+  server: 14.29.124.174
+  port: 11015
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.10|CN中国HK香港6
+  name: 0.11|CN中国HK香港6
   server: 14.29.124.174
   port: 11020
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- type: ss
+  name: 0.11|FIwmt101852
+  server: 185.77.217.217
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: qYAt85SFGV56
