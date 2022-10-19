@@ -1,120 +1,6 @@
 proxies:
-- name: 4.36| HK2
-  server: v21.idcloudhost.de
-  port: 80
-  type: vmess
-  uuid: 00974d71-032f-4f5c-941b-612fb426252a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%22v21.idcloudhost.de%22%7D'
-- name: 2.92| githubcomfreefq  美国Interland 3
-  server: v48.idcloudhost.de
-  port: 80
-  type: vmess
-  uuid: 00974d71-032f-4f5c-941b-612fb426252a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: v48.idcloudhost.de
-- name: 2.85| githubcomfreefq  日本东京Amazon数据中心 8
-  server: 35.78.197.206
-  port: 16935
-  type: vmess
-  uuid: 748adbe7-ddfd-40a4-a3e3-73673d8e0182
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 35.78.197.206
-- name: 2.37| githubcomfreefq  日本  4
-  server: v31.idcloudhost.de
-  port: 80
-  type: vmess
-  uuid: 00974d71-032f-4f5c-941b-612fb426252a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: v31.idcloudhost.de
 - type: vmess
-  name: 2.17|HKwmt10173
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.177.72
-  server: 47.243.177.72
-  port: '27991'
-  uuid: 7f25b2a0-188a-4fea-89cb-e3a4f6e3434a
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.04|HKwmt10172
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.100.254
-  server: 47.243.100.254
-  port: '20373'
-  uuid: 180c6326-6679-4192-b418-457df58e8ba9
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.00| githubcomfreefq  土耳其  11
-  server: 176.98.41.137
-  port: 80
-  type: vmess
-  uuid: 00974d71-032f-4f5c-941b-612fb426252a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 176.98.41.137
-- name: 0.81| githubcomfreefq  新加坡Amazon数据中心 1
-  server: madush.duckdns.org
-  port: 40515
-  type: vmess
-  uuid: f0e69c63-99e9-455c-a8ae-cbab068c7481
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ar.linkedin.com
-- type: vmess
-  name: 0.73|HKwmt10176
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.18.69
-  server: 47.243.18.69
-  port: '39941'
-  uuid: f2f964e9-1a9b-43f9-82a5-b80ee2ccb4f7
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 0.51|HKwmt101613
+  name: 2.82|HKwmt101613
   http-opts:
     path:
     - /
@@ -127,37 +13,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.40|HK 香港youtube阿伟科技 2
-  server: 20.239.65.134
-  port: 80
-  type: vmess
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
 - type: vmess
-  name: 0.30|HKwmt10174
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.190.110
-  server: 47.243.190.110
-  port: '33232'
-  uuid: 1a76d211-1dee-4fb2-99cc-b19b95dcbbb0
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 0.25|HKwmt10175
+  name: 0.16|HKwmt10175
   http-opts:
     path:
     - /
@@ -167,6 +24,20 @@ proxies:
   server: 47.243.134.223
   port: '36079'
   uuid: 73eb2fee-b1aa-44a6-af18-224c0ab348e6
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.13|HKwmt10173
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.177.72
+  server: 47.243.177.72
+  port: '27991'
+  uuid: 7f25b2a0-188a-4fea-89cb-e3a4f6e3434a
   alterId: '0'
   cipher: auto
   network: http

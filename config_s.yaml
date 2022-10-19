@@ -1,49 +1,133 @@
 proxies:
-- type: trojan
-  name: 2.04|CAwmt101836
-  server: aewfhe5z1pokrkw8bi9g25.xingbayun.buzz
-  port: 10001
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  udp: true
-  skip-cert-verify: true
-- name: 1.56| RelayJPJP373
-  server: vjp1.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
+- type: vmess
+  name: 3.68|US美国youtube阿伟科技1
+  ws-opts:
+    path: /guolicheng/us1?ed=2048
+    headers:
+      host: us1.meizhiyuanya.xyz
+  server: 141.101.115.116
+  port: '443'
+  uuid: 11f3465a-f0bc-4d97-98cd-6892d0ef61d5
+  alterId: '0'
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp1.0bad.com
+  tls: true
+- type: vmess
+  name: 2.68|US美国youtube阿伟科技4
+  ws-opts:
+    path: /guolicheng/us3?ed=2048
+    headers:
+      host: us3.meizhiyuanya.xyz
+  server: 198.41.209.68
+  port: '443'
+  uuid: 11f3465a-f0bc-4d97-98cd-6892d0ef61d5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 2.29|US美国youtube阿伟科技2
+  ws-opts:
+    path: /guolicheng/us2?ed=2048
+    headers:
+      host: us2.meizhiyuanya.xyz
+  server: 198.41.208.175
+  port: '443'
+  uuid: 11f3465a-f0bc-4d97-98cd-6892d0ef61d5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
 - type: trojan
-  name: 0.68|KRwmt101758
-  server: kr1.api-aws.com
-  port: 443
-  password: 7c953fab-2d79-4320-b208-59e07b6033fd
+  name: 2.12|KR韩国youtube阿伟科技2
+  server: 144.24.77.154
+  port: 28443
+  password: 11f3465a-f0bc-4d97-98cd-6892d0ef61d5
   udp: true
   skip-cert-verify: true
-- name: 0.61| v2rayfreeeuorg  美国CloudFlare节点 29
+  sni: glc.hruqoaw.cn
+- type: trojan
+  name: 1.85|UK英国youtube阿伟科技
+  server: 15.168.34.80
+  port: 2053
+  password: de39d941-eaf6-405d-958a-ebebe1315574
+  udp: true
+  skip-cert-verify: true
+  sni: wel-usgt.qchwnd.moe
+- type: vmess
+  name: 1.64|IN印度youtube阿伟科技2
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: fr1.cfcdn1.xyz
+  server: 141.101.115.200
+  port: '443'
+  uuid: fb5bbc8c-f6ec-4629-8c9e-23f02781a20d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 1.35|TW台湾youtube阿伟科技1
+  server: download2tw.windowsupdate1.com
+  port: 28443
+  password: 6248895b-4255-4f07-9479-d198bc1eb8db
+  udp: true
+  skip-cert-verify: true
+  sni: glc.hruqoaw.cn
+- type: vmess
+  name: 1.34|IN印度youtube阿伟科技3
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: fr1.cfcdn1.xyz
+  server: 172.64.148.18
+  port: '443'
+  uuid: fb5bbc8c-f6ec-4629-8c9e-23f02781a20d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 1.32|RU俄罗斯youtube阿伟科技2
+  ws-opts:
+    path: /ray
+    headers:
+      host: tzcc.eu.org
+  server: tzcc.eu.org
+  port: '57488'
+  uuid: adfd48d4-e371-478c-d908-025d26d0c117
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: 1.31|JPwmt101950
+  server: jgwdb3.gaox.ml
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 0.60|US美国3
+  ws-opts:
+    path: /home
+    headers:
+      host: ca.0112233.xyz
   server: ca.0112233.xyz
   port: 8443
-  type: vmess
   uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
   alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /home
-  ws-headers:
-    Host: ca.0112233.xyz
+  tls: true
 - type: vmess
-  name: 0.60|US美国2
+  name: 0.52|GB英国2
   ws-opts:
     path: /chat
     headers:
-      host: vus3.0bad.com
-  server: vus3.0bad.com
+      host: vuk2.0bad.com
+  server: vuk2.0bad.com
   port: 443
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
@@ -51,37 +135,35 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: 0.55|US美国1
+  name: 0.42|AU澳大利亚youtube阿伟科技1
   ws-opts:
-    path: /dengqingbo
-  server: studynew.cn
-  port: 51340
-  uuid: bb84725a-f726-4bcb-8131-44df12094005
-  alterId: 0
+    path: /chat
+    headers:
+      host: vau1.0bad.com
+  server: vau1.0bad.com
+  port: '443'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
   cipher: auto
   network: ws
   tls: true
-- name: 0.52| githubcomfreefq  美国Microsoft数据中心 5
-  server: azsgtr.kctr2038.icu
-  port: 58888
-  type: vmess
-  uuid: 88939272-790a-441f-b12b-8ce531aca810
-  alterId: 0
+- type: trojan
+  name: 0.13|KRwmt10192
+  server: kr1.api-aws.com
+  port: 443
+  password: 36443c4f-4487-48a6-8438-57bd7700b916
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 0.13|SG新加坡youtube阿伟科技1
+  ws-opts:
+    path: /chat
+    headers:
+      host: vsg1.0bad.com
+  server: vsg1.0bad.com
+  port: '443'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: linodetr03.kaochangonline.online
-- name: 0.30| githubcomfreefq  美国Microsoft数据中心 2
-  server: azjptr.kctr2038.icu
-  port: 57777
-  type: vmess
-  uuid: 88939272-790a-441f-b12b-8ce531aca810
-  alterId: 0
-  cipher: auto
   tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: linodetr04.kaochangonline.online
