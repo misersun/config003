@@ -1,17 +1,49 @@
 proxies:
-- name: 3.09| US1
-  server: 138.128.220.143
-  port: 30923
-  type: ss
-  cipher: aes-256-gcm
-  password: cP7jJCUtsFumgZAW
-- name: 3.07| US2
-  server: 45.78.10.188
-  port: 30923
-  type: ss
-  cipher: aes-256-gcm
-  password: cP7jJCUtsFumgZAW
-- name: 0.59|油管阿伟科技 28
+- name: 1.87| 韩国1020088
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- type: ss
+  name: 0.66|CNwmt101957
+  server: 14.29.124.174
+  port: 11011
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.65|TWwmt10135
+  server: fn600mliness017.fnline.xyz
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 8812c0e4e2b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mliness017.fnline.xyz
+- type: ss
+  name: 0.54|TWwmt106215
+  server: fn600mlines021.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines021.fnline.info
+- name: 0.48|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -26,55 +58,27 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- type: ss
-  name: 0.59|TWwmt106215
-  server: fn600mlines021.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 0ac84efef442
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mlines021.fnline.info
-- type: ss
-  name: 0.59|TWwmt10135
-  server: fn600mliness017.fnline.xyz
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 8812c0e4e2b0
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mliness017.fnline.xyz
-- name: 0.19| HK2
+- name: 0.15| HK2
   server: 14.29.124.174
   port: 11020
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.11|CNwmt101875
+  name: 0.14|CNwmt101956
+  server: 14.29.124.174
+  port: 11050
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.12|CNwmt101875
   server: 14.29.124.174
   port: 11044
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 0.11| RelayCNHK122
-  server: 14.29.124.174
-  port: 11048
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - type: ss
-  name: 0.10|CNwmt101957
+  name: 0.10|CNwmt101959
   server: 14.29.124.174
-  port: 11011
+  port: 11003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
