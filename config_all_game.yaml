@@ -1,7 +1,7 @@
 proxies:
-- name: 1.87| 韩国1020088
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
+- name: 2.01| 韩国1020087
+  server: clash4.ssrfree4.xyz
+  port: 22333
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -10,13 +10,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
 - type: ss
-  name: 0.66|CNwmt101957
-  server: 14.29.124.174
-  port: 11011
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.65|TWwmt10135
+  name: 1.38|TWwmt10135
   server: fn600mliness017.fnline.xyz
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -29,21 +23,7 @@ proxies:
     path: /
     tls: true
     host: fn600mliness017.fnline.xyz
-- type: ss
-  name: 0.54|TWwmt106215
-  server: fn600mlines021.fnline.info
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 0ac84efef442
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    tls: true
-    host: fn600mlines021.fnline.info
-- name: 0.48|油管阿伟科技 28
+- name: 0.36|油管阿伟科技 28
   server: fn600mliness016.fnline.info
   port: 443
   type: ss
@@ -58,27 +38,43 @@ proxies:
     mux: true
     skip-cert-verify: true
   udp: true
-- name: 0.15| HK2
+- name: 0.33| RelayCNHK112
   server: 14.29.124.174
-  port: 11020
+  port: 11043
   type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.14|CNwmt101956
-  server: 14.29.124.174
-  port: 11050
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  name: 0.32|TWwmt106215
+  server: fn600mlines021.fnline.info
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 0ac84efef442
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    tls: true
+    host: fn600mlines021.fnline.info
+- type: ssr
+  name: 0.15|SGwmt101973
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 3g0dHlKME
 - type: ss
-  name: 0.12|CNwmt101875
+  name: 0.13|CNwmt101875
   server: 14.29.124.174
   port: 11044
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- type: ss
-  name: 0.10|CNwmt101959
+- name: 0.12| RelayCNHK118
   server: 14.29.124.174
-  port: 11003
+  port: 11035
+  type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
