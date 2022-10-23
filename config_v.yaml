@@ -1,21 +1,44 @@
 proxies:
 - type: vmess
-  name: 0.73|SG新加坡youtube阿伟科技1
-  ws-opts:
-    path: /hkaa0
-    headers:
-      host: sg202.hkaa0.tk
-  server: sg202.hkaa0.tk
-  port: '1018'
-  uuid: bdf798f4-a990-4743-e9b2-9c78ba58fb04
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 0.52|MYwmt102123
+  name: 0.88|MYwmt102123
   server: 123.253.32.50
   port: '31372'
   uuid: 678d0d7d-c651-4ae1-ced1-320783565749
   alterId: '0'
   cipher: auto
   network: tcp
+- name: 0.82|US7
+  server: 154.31.48.98
+  port: 11003
+  type: vmess
+  uuid: 140b58a5-8ff9-4c49-8323-63da9309daa4
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- name: 0.42| githubcomfreefq  美国惠普公司 20
+  server: 15.235.147.186
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshkit/Ertusg86/635014638c264/
+  ws-headers:
+    Host: 15.235.147.186
+- name: 0.29| githubcomfreefq  美国惠普公司 19
+  server: sg-lb.vhax.net
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshkit/Ertusg86/635014638c264/
+  ws-headers:
+    Host: sg-lb.vhax.net
