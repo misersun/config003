@@ -1,48 +1,70 @@
 proxies:
-- type: trojan
-  name: 8.43|AUwmt10191
-  server: iplchk1.bitznet.one
-  port: 34443
-  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
-  udp: true
-  skip-cert-verify: true
-  sni: cert.bitbyte.one
-- type: trojan
-  name: 2.78|JPwmt101950
-  server: jgwdb3.gaox.ml
+- name: 2.21| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
   port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  udp: true
-  skip-cert-verify: true
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
 - type: trojan
-  name: 2.49|USwmt101911
+  name: 2.06|USwmt101911
   server: 129.146.190.42
   port: 443
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   udp: true
   skip-cert-verify: true
-- name: 2.46| githubcomfreefq  美国  10
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
 - type: trojan
-  name: 2.46|USwmt102145
+  name: 1.66|INwmt101944
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.58|GBwmt102119
+  server: 132.145.51.172
+  port: 443
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.57|FRwmt101921
+  server: 51.77.71.131
+  port: 443
+  password: Sp3eDVp
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.57|NLwmt101936
+  server: content-provider23.cdn-delivery.akamaicd.com
+  port: 443
+  password: Sp3eDVp
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.44|FRwmt102118
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  password: origin
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.41|USwmt102145
   server: 129.146.242.130
   port: 443
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   udp: true
   skip-cert-verify: true
-- name: 2.25| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
+- type: trojan
+  name: 1.17|FRwmt101925
+  server: content-provider5.cdn-delivery.akamaicd.com
   port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- name: 2.13| 韩国1020088
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
+  password: Sp3eDVp
+  udp: true
+  skip-cert-verify: true
+  sni: content-provider5.cdn-delivery.akamaicd.com
+- name: 1.09| 韩国1022083
+  server: clash4.ssrfree4.xyz
+  port: 22333
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -50,108 +72,79 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.16| 甲骨文凤凰城ARM1trojan
-  server: fhcarm1.gaox.ml
+- name: 1.06| RelayCNHK118
+  server: 14.29.124.174
+  port: 11035
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.93| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
   port: 443
   type: trojan
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  sni: fhcarm1.gaox.ml
-- type: trojan
-  name: 0.76|NLwmt101936
-  server: content-provider23.cdn-delivery.akamaicd.com
-  port: 443
-  password: Sp3eDVp
-  udp: true
-  skip-cert-verify: true
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
 - type: ss
-  name: 0.61|FIwmt101955
-  server: 185.77.217.217
+  name: 0.88|CNwmt101959
+  server: 14.29.124.174
+  port: 11003
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.87|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: qYAt85SFGV56
-- type: trojan
-  name: 0.40|FRwmt101917
-  server: content-provider12.cdn-delivery.akamaicd.com
-  port: 443
-  password: origin
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.38|USwmt102183
-  server: 138.2.113.248
-  port: 443
+  type: trojan
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.38|FRwmt101925
-  server: content-provider5.cdn-delivery.akamaicd.com
-  port: 443
-  password: Sp3eDVp
-  udp: true
-  skip-cert-verify: true
-  sni: content-provider5.cdn-delivery.akamaicd.com
-- type: trojan
-  name: 0.28|GBwmt102119
-  server: 132.145.51.172
-  port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  udp: true
-  skip-cert-verify: true
-- name: 0.28| 甲骨文伦敦AMD1trojan
+  sni: jgwcc2.gaox.ml
+- name: 0.85| 甲骨文伦敦AMD1trojan
   server: jgwld1.gaox.ml
   port: 443
   type: trojan
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   sni: jgwld1.gaox.ml
 - type: trojan
-  name: 0.28|INwmt101944
-  server: jgwhdlb2.gaox.ml
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.24|FRwmt101921
-  server: 51.77.71.131
+  name: 0.82|NLwmt101948
+  server: 185.212.200.75
   port: 443
   password: Sp3eDVp
   udp: true
   skip-cert-verify: true
-- name: 0.19| 甲骨文大阪ARM2trojan
+- type: trojan
+  name: 0.74|FRwmt101917
+  server: content-provider12.cdn-delivery.akamaicd.com
+  port: 443
+  password: origin
+  udp: true
+  skip-cert-verify: true
+- name: 0.34| 甲骨文大阪ARM2trojan
   server: jgwdb4.gaox.ml
   port: 443
   type: trojan
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   sni: jgwdb4.gaox.ml
-- type: ss
-  name: 0.19|CNwmt101957
-  server: 14.29.124.174
-  port: 11011
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - type: trojan
-  name: 0.13|INwmt102146
-  server: 152.67.160.174
+  name: 0.26|JPwmt101950
+  server: jgwdb3.gaox.ml
   port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   udp: true
   skip-cert-verify: true
-- name: 0.12| RelayCNHK112
-  server: 14.29.124.174
-  port: 11043
-  type: ss
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+- type: trojan
+  name: 0.16|KRwmt10192
+  server: kr1.api-aws.com
+  port: 443
+  password: 36443c4f-4487-48a6-8438-57bd7700b916
+  udp: true
+  skip-cert-verify: true
+- name: 0.16| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
 - type: ss
-  name: 0.12|CNwmt101956
+  name: 0.11|CNwmt101956
   server: 14.29.124.174
   port: 11050
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.11| RelayCNHK118
-  server: 14.29.124.174
-  port: 11035
-  type: ss
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
