@@ -1,18 +1,110 @@
 proxies:
-- name: 2.81| githubcomfreefq  美国Microsoft数据中心 2
-  server: ussj.iamnotagoodman.com
-  port: 443
-  type: trojan
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  sni: ussj.iamnotagoodman.com
-- name: 1.94| githubcomfreefq  新加坡Microsoft 5
-  server: de.iamnotagoodman.com
-  port: 443
-  type: trojan
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  sni: de.iamnotagoodman.com
 - type: vmess
-  name: 1.36|US美国1
+  name: 2.75|USwmt102514
+  ws-opts:
+    path: /home
+    headers:
+      host: ca.0112233.xyz
+  server: ca.0112233.xyz
+  port: '8443'
+  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 2.48|US美国youtube阿伟科技10
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash1.trump2023.net
+  server: 141.101.115.20
+  port: '443'
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 2.19|US美国youtube阿伟科技4
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash6.ssr-free.xyz
+  server: 172.64.154.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 2.19|US美国youtube阿伟科技12
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash6.ssr-free.xyz
+  server: 172.64.154.150
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.16| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶14CDN
+  server: 198.41.212.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 1.72| githubcomfreefq  美国CloudFlare节点 13
+  server: 141.101.115.120
+  port: 443
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: lg1.cfcdn3.xyz
+- name: 0.98|US 美国youtube阿伟科技 4
+  server: 172.64.154.102
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+  udp: true
+- name: 0.96| RelayJPJP373
+  server: vjp1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vjp1.0bad.com
+- type: vmess
+  name: 0.76|US美国1
   ws-opts:
     path: /chat
     headers:
@@ -24,20 +116,32 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- name: 0.90| githubcomfreefq  美国DXC Technology 3
-  server: kh.iamnotagoodman.com
+- type: trojan
+  name: 0.32|TWwmt10254
+  server: download1tw.windowsupdate.lol
+  port: 443
+  password: 6248895b-4255-4f07-9479-d198bc1eb8db
+  udp: true
+  skip-cert-verify: true
+  sni: dc1-download.windowsupdate1.com
+- type: trojan
+  name: 0.31|wmt102513
+  server: 103.176.78.153
+  port: 443
+  password: idc117okt
+  udp: true
+  skip-cert-verify: true
+- name: 0.18|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
   port: 443
   type: trojan
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  sni: kh.iamnotagoodman.com
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
 - type: vmess
-  name: 0.22|HK香港1
-  http-opts:
-    path:
-    - /
-  server: 47.242.193.213
-  port: 26605
-  uuid: 59f44d1e-c2e7-4de9-983a-4727bb861f43
-  alterId: 0
+  name: 0.11|US美国youtube阿伟科技11
+  server: 64.112.126.4
+  port: '443'
+  uuid: 8560c0b4-6f4b-45e6-9906-777650dcc310
+  alterId: '0'
   cipher: auto
-  network: http
+  network: tcp
