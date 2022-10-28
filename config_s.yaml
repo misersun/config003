@@ -1,18 +1,17 @@
 proxies:
-- name: 2.73| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶12CDN
-  server: 141.101.114.133
+- name: 6.94| RelayJPJP374
+  server: vjp3.0bad.com
   port: 443
   type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 0.98| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶13CDN
+  ws-path: /chat
+  ws-headers:
+    Host: vjp3.0bad.com
+- name: 3.02| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶13CDN
   server: 141.101.115.133
   port: 443
   type: vmess
@@ -25,8 +24,47 @@ proxies:
     path: /ray
     headers:
       Host: lg1.cfcdn1.xyz
+- name: 2.48| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶15CDN
+  server: 172.64.154.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 1.88| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶12CDN
+  server: 141.101.114.133
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
 - type: vmess
-  name: 0.42|US美国4
+  name: 1.20|DE德国
+  ws-opts:
+    path: /chat
+    headers:
+      host: vde1.0bad.com
+  server: vde1.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 0.84|US美国4
   ws-opts:
     path: /chat
     headers:
@@ -38,20 +76,85 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+- name: 0.60| RelayJPJP373
+  server: vjp1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vjp1.0bad.com
 - type: vmess
-  name: 0.28|CA加拿大youtube阿伟科技
+  name: 0.55|USwmt102514
   ws-opts:
-    path: /eisasqa
+    path: /home
     headers:
-      host: foxca2.fovi.tk
-  server: cf.fovi.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+      host: ca.0112233.xyz
+  server: ca.0112233.xyz
+  port: '8443'
+  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
   alterId: '0'
   cipher: auto
   network: ws
   tls: true
-- name: 0.21| githubcomfreefq  美国CloudFlare公司CDN节点 16
+- name: 0.41| githubcomfreefq  俄罗斯  13
+  server: pf.napsternetv.com
+  port: 34141
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 0.39|PL 波兰youtube阿伟科技
+  server: cf.fovi.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxpol.fovi.tk
+  udp: true
+- name: 0.33| githubcomfreefq  俄罗斯  16
+  server: 81.28.12.12
+  port: 443
+  type: vmess
+  uuid: 81b3ba6c-717f-4a55-9704-f6ffaac0ab34
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /100gb
+  ws-headers:
+    Host: cnonly.zhijun.ml
+- name: 0.20|KR 韩国youtube阿伟科技
+  server: pf.napsternetv.com
+  port: 34142
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.14|JP 日本youtube阿伟科技
+  server: 219.76.13.180
+  port: 443
+  type: trojan
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: true
+  udp: true
+- name: 0.10| githubcomfreefq  美国CloudFlare节点 8
   server: v149a.aagogo.cf
   port: 443
   type: vmess

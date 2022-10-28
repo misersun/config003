@@ -1,9 +1,40 @@
 proxies:
-- type: vmess
-  name: 0.11|US美国youtube阿伟科技11
-  server: 64.112.126.4
-  port: '443'
-  uuid: 8560c0b4-6f4b-45e6-9906-777650dcc310
-  alterId: '0'
+- name: 2.16|US 美国youtube阿伟科技 11
+  server: ip.skk.moe
+  port: 2086
+  type: vmess
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: 0
   cipher: auto
-  network: tcp
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: buyvm.cloudflare.quest
+  udp: true
+- name: 0.68| 香港峰值1000MNetFlix 解锁
+  server: xg1.xbywwcp.us
+  port: 15264
+  type: vmess
+  uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb
+  alterId: 0
+  cipher: chacha20-poly1305
+  tls: false
+  network: ws
+  ws-path: /by.xbygood.xyz
+  ws-headers:
+    Host: xg1.xbywwcp.us
+- name: 0.17| githubcomfreefq  日本东京都品川区Linode数据中心 19
+  server: 139.162.119.159
+  port: 80
+  type: vmess
+  uuid: f085e9a1-6af4-4806-992e-161057c0383e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: 139.162.119.159
