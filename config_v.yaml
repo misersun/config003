@@ -1,32 +1,20 @@
 proxies:
-- name: 3.23|US 美国youtube阿伟科技 16
-  server: guolicheng.cc
+- name: 2.28|US 美国youtube阿伟科技 14
+  server: ip.skk.moe
   port: 2086
   type: vmess
-  uuid: 2deba385-c19c-4f77-958e-dde0bcdddff5
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /@heinuhome
+    path: /aries
     headers:
-      Host: heinuhome-awsus.heinu.cf
+      Host: buyvm.cloudflare.quest
   udp: true
-- name: 0.63| 香港峰值1000MNetFlix 解锁
-  server: xg1.xbywwcp.us
-  port: 15264
-  type: vmess
-  uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb
-  alterId: 0
-  cipher: chacha20-poly1305
-  tls: false
-  network: ws
-  ws-path: /by.xbygood.xyz
-  ws-headers:
-    Host: xg1.xbywwcp.us
-- name: 0.23| githubcomfreefq  美国  14
+- name: 0.23| v2rayfreeeuorg  美国  17
   server: 137.184.164.233
   port: 80
   type: vmess
@@ -38,3 +26,15 @@ proxies:
   ws-path: /vmess
   ws-headers:
     Host: 137.184.164.233
+- name: 0.12| githubcomfreefq  台湾省新北市中华电信 19
+  server: tw.33yun.xyz
+  port: 80
+  type: vmess
+  uuid: 62b12463-1c73-40ed-adff-724756b9a6f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tw.33yun.xyz
