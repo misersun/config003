@@ -1,40 +1,52 @@
 proxies:
-- name: 2.28|US 美国youtube阿伟科技 14
-  server: ip.skk.moe
-  port: 2086
+- name: 2.98| 剩余流量48617 GB
+  server: 143.198.59.82
+  port: 63201
   type: vmess
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jcnf
+  ws-headers:
+    Host: 143.198.59.82
+- name: 1.13|HK 香港youtube阿伟科技 3
+  server: xg1.xbywwcp.us
+  port: 15264
+  type: vmess
+  uuid: 99e2f539-700f-3947-b31a-4c9d912ff5fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /aries
+    path: /by.xbygood.xyz
     headers:
-      Host: buyvm.cloudflare.quest
+      Host: xg1.xbywwcp.us
   udp: true
-- name: 0.23| v2rayfreeeuorg  美国  17
-  server: 137.184.164.233
+- name: 0.28| githubcomfreefq  新加坡OVH 20
+  server: sg5.v2rayserv.com
   port: 80
   type: vmess
-  uuid: 8d8a181d-c9e7-4eb5-8c0f-09c0bf10b923
+  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vmess
+  ws-path: /sshocean
   ws-headers:
-    Host: 137.184.164.233
-- name: 0.12| githubcomfreefq  台湾省新北市中华电信 19
-  server: tw.33yun.xyz
+    Host: sg5.v2rayserv.com
+- name: 0.24| githubcomfreefq  美国惠普公司 31
+  server: 15.235.147.186
   port: 80
   type: vmess
-  uuid: 62b12463-1c73-40ed-adff-724756b9a6f0
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /sshkit/Ertusg86/635014638c264/
   ws-headers:
-    Host: tw.33yun.xyz
+    Host: 15.235.147.186

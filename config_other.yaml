@@ -1,9 +1,20 @@
 proxies:
-- type: ssr
-  name: 7.82|JP日本
+- name: 7.27|782JP日本
   server: jp-am48-6.eqnode.net
   port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ssr
+  name: 6.23|SG170
+  server: sg-am3.eqsunshine.com
+  port: 32001
   protocol: origin
   cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
+  password: 3g0dHlKME
