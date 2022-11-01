@@ -1,52 +1,30 @@
 proxies:
-- name: 2.98| 剩余流量48617 GB
-  server: 143.198.59.82
-  port: 63201
+- name: 1.97|FR 法国youtube阿伟科技 4
+  server: www.gov.hk
+  port: 2086
   type: vmess
-  uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jcnf
-  ws-headers:
-    Host: 143.198.59.82
-- name: 1.13|HK 香港youtube阿伟科技 3
-  server: xg1.xbywwcp.us
-  port: 15264
-  type: vmess
-  uuid: 99e2f539-700f-3947-b31a-4c9d912ff5fa
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /by.xbygood.xyz
+    path: /aries
     headers:
-      Host: xg1.xbywwcp.us
+      Host: fr.cloudflare.quest
   udp: true
-- name: 0.28| githubcomfreefq  新加坡OVH 20
-  server: sg5.v2rayserv.com
-  port: 80
-  type: vmess
-  uuid: 02c99c32-0058-4b87-b51a-8f5d6a59bddd
-  alterId: 0
+- type: vmess
+  name: 1.11|USwmt11129
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.85.62.219
+  server: 154.85.62.219
+  port: '56924'
+  uuid: 6c086fcc-6b05-4a28-9c3d-30a949585b25
+  alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: sg5.v2rayserv.com
-- name: 0.24| githubcomfreefq  美国惠普公司 31
-  server: 15.235.147.186
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshkit/Ertusg86/635014638c264/
-  ws-headers:
-    Host: 15.235.147.186
+  network: http
