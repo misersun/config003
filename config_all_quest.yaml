@@ -1,28 +1,91 @@
 proxies:
-- name: 3.13|US2
-  server: 167.88.61.119
-  port: 8009
-  type: ss
-  password: XKFKl2rULjIp74
-  cipher: aes-256-gcm
-- name: 2.92|httpsgithubcomAlvin9999newpacwiki clash4 SSR
-  server: ssr3.ssrfree7.xyz
-  port: 22333
-  type: ssr
-  cipher: aes-256-cfb
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+- name: 5.66| CN台湾HiNet
+  server: 36.138.103.161
+  port: 13211
+  type: trojan
+  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
+  sni: wel-tw.optage.moe
+  skip-cert-verify: true
+- name: 3.76| 日本高速接入点01
+  server: jp1.sanfen001.pics
+  port: 443
+  type: trojan
+  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
+  sni: jp1.sanfen001.pics
+- name: 3.05| CN香港HGC
+  server: 124.225.25.7
+  port: 42740
+  type: trojan
+  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
+  sni: wel-hgc.optage.moe
+  skip-cert-verify: true
+- name: 2.66| githubcomfreefq  美国Microsoft数据中心 5
+  server: ussj.iamnotagoodman.com
+  port: 443
+  type: trojan
+  password: e785e5d2-a05e-486c-8b4f-78b205382b4e
+  sni: ussj.iamnotagoodman.com
 - type: trojan
-  name: 2.64|CNwmt1115
+  name: 2.61|CNwmt1115
   server: oss-cn-shanghai.westdatacloud.xyz
   port: 20048
   password: 30030B00-A596-87B4-965A-511CD7E05351
   udp: true
   skip-cert-verify: true
-- name: 0.33|ID193  819Mb
+- name: 2.51| 香港高速接入点04
+  server: hk4.sanfen001.pics
+  port: 443
+  type: trojan
+  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
+  sni: hk1.sanfen001.pics
+- name: 2.37|VN 越南youtube阿伟科技
+  server: 20007.purefast2.com
+  port: 20007
+  type: trojan
+  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
+  sni: purefast1.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.92|KR 韩国youtube阿伟科技
+  server: 20002.purefast2.com
+  port: 20002
+  type: trojan
+  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
+  sni: purefast1.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.73|UK 英国youtube阿伟科技 3
+  server: 20009.purefast2.com
+  port: 20009
+  type: trojan
+  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
+  sni: purefast1.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.44|US 美国youtube阿伟科技 9
+  server: 20003.purefast2.com
+  port: 20003
+  type: trojan
+  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
+  sni: purefast1.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.18|RelayRU03
+  server: 20012.purefast2.com
+  port: 20012
+  type: trojan
+  password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
+  sni: 20012.purefast2.com
+  skip-cert-verify: true
+  udp: true
+- name: 0.93| BGPRSV香港BGP
+  server: ap-northeast.6641634715834932.me
+  port: 443
+  type: trojan
+  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
+  sni: wel-hk.optage.moe
+  skip-cert-verify: true
+- name: 0.27|ID193  819Mb
   server: 103.226.139.201
   port: 443
   type: trojan
@@ -30,22 +93,22 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: 0.30|IDwmt11146
+  name: 0.16|IDwmt11146
   server: idc1.vpn-akcelluler.my.id
   port: 443
   password: idc117okt
   udp: true
   skip-cert-verify: true
   sni: idc1.vpn-akcelluler.my.id
-- name: 0.11|US 美国youtube阿伟科技 8
-  server: 199.48.182.229.ipssh.net
-  port: 3389
+- name: 0.12|JP 日本youtube阿伟科技 2
+  server: 219.76.13.180
+  port: 443
   type: trojan
-  password: ee4fff2a-540e-4ac7-a16a-935567dfc36b
-  sni: gongchan-t2.aiguoxiangdang.com
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: 0.11|US 美国youtube阿伟科技 7
+- name: 0.12|US 美国youtube阿伟科技 7
   server: 216.247.108.99.ipssh.net
   port: 3389
   type: trojan
