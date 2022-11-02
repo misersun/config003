@@ -1,6 +1,12 @@
 proxies:
+- name: 4.52| 日本高速接入点01
+  server: jp1.sanfen001.pics
+  port: 443
+  type: trojan
+  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
+  sni: jp1.sanfen001.pics
 - type: vmess
-  name: 4.57|JP日本1
+  name: 2.90|JP日本1
   ws-opts:
     path: /chat
     headers:
@@ -12,103 +18,78 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- name: 2.01|US 美国youtube阿伟科技 15
-  server: 172.64.154.102
+- name: 2.64| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶12CDN
+  server: 141.101.114.133
   port: 443
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-  udp: true
-- name: 1.86|US 美国youtube阿伟科技 26
-  server: 172.64.154.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-  udp: true
-- name: 1.52|US 美国youtube阿伟科技 27
-  server: 47.90.138.13
-  port: 443
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /ray
     headers:
-      Host: lg30.cfcdn3.xyz
-  udp: true
-- type: vmess
-  name: 1.16|DE德国
-  ws-opts:
-    path: /chat
-    headers:
-      host: vde1.0bad.com
-  server: vde1.0bad.com
+      Host: lg1.cfcdn1.xyz
+- name: 2.62| HK8
+  server: ussj.iamnotagoodman.com
   port: 443
+  type: trojan
+  password: e785e5d2-a05e-486c-8b4f-78b205382b4e
+  sni: ussj.iamnotagoodman.com
+  skip-cert-verify: true
+- name: 2.36|US 美国youtube阿伟科技 67
+  server: vus3.0bad.com
+  port: 443
+  type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 1.09|US 美国youtube阿伟科技 11
-  server: v159a.aagogo.cf
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vus3.0bad.com
+  udp: true
+- name: 2.34| 香港高速接入点04
+  server: hk4.sanfen001.pics
+  port: 443
+  type: trojan
+  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
+  sni: hk1.sanfen001.pics
+- name: 2.34|US 美国youtube阿伟科技 18
+  server: 172.67.184.67
   port: 443
   type: vmess
-  uuid: 8f94e733-4845-39bf-a725-7b69ceb8f30c
+  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /v159-dekDP6Otf
+    path: /live
     headers:
-      Host: v159a.aagogo.cf
+      Host: www.aoop1994.eu.org
   udp: true
-- name: 1.08| githubcomfreefq  俄罗斯  9
-  server: pf.napsternetv.com
-  port: 34141
+- name: 2.18|US 美国youtube阿伟科技 63
+  server: 172.67.115.144
+  port: 443
   type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 0.99|爱尔兰youtube阿伟科技
-  server: v2ray.wefuckgfw.ga
-  port: 2083
-  type: vmess
-  uuid: f59afc3e-78d6-4f98-8c3e-fef45c5adcfa
+  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /5coJKfAp/
+    path: /live
     headers:
-      Host: v2ray.wefuckgfw.ga
+      Host: www.aoop1994.eu.org
   udp: true
-- name: 0.72|DE 德国youtube阿伟科技 3
+- name: 1.95|DE 德国youtube阿伟科技 3
   server: v159.aagogo.cf
   port: 443
   type: vmess
@@ -123,33 +104,187 @@ proxies:
     headers:
       Host: v159.aagogo.cf
   udp: true
-- type: vmess
-  name: 0.60|defaultname1
+- name: 1.86|US 美国youtube阿伟科技 11
+  server: v159a.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: 8f94e733-4845-39bf-a725-7b69ceb8f30c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: /home
+    path: /v159-dekDP6Otf
     headers:
-      host: ca.0112233.xyz
-  server: ca.0112233.xyz
+      Host: v159a.aagogo.cf
+  udp: true
+- name: 1.75|IN 印度youtube阿伟科技 2
+  server: 8.209.118.212
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+  udp: true
+- name: 1.73|IN 印度youtube阿伟科技 4
+  server: 8.209.119.59
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+  udp: true
+- name: 1.69|百兆WGK春川 01
+  server: wg-kr.heimayun.tk
+  port: 443
+  type: vmess
+  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /m1
+  ws-headers:
+    Host: wg-kr.heimayun.tk
+- name: 1.55| githubcomfreefq  美国CloudFlare节点 20
+  server: v116.aagogo.cf
+  port: 443
+  type: vmess
+  uuid: fb620b4d-6b24-3633-a93e-0f1f8be64dc3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /v116-kDPxxx6Otf
+  ws-headers:
+    Host: v116.aagogo.cf
+- name: 1.53| githubcomfreefq  美国CloudFlare节点 16
+  server: els200.jslist.tk
   port: 8443
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+  type: vmess
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /wo.php
+  ws-headers:
+    Host: els200.jslist.tk
+- name: 1.48|US 美国youtube阿伟科技 59
+  server: 172.67.236.74
+  port: 443
+  type: vmess
+  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /live
+    headers:
+      Host: www.aoop1994.eu.org
+  udp: true
+- type: vmess
+  name: 1.46|DE德国
+  ws-opts:
+    path: /chat
+    headers:
+      host: vde1.0bad.com
+  server: vde1.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   network: ws
   tls: true
-- name: 0.46| v2rayfreeeuorg  台湾省中华电信HiNet 17
+- type: vmess
+  name: 1.41|GB英国
+  ws-opts:
+    path: /chat
+    headers:
+      host: vuk2.0bad.com
+  server: vuk2.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 1.40|US美国1
+  ws-opts:
+    path: /chat
+    headers:
+      host: vde2.0bad.com
+  server: vde2.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.30| githubcomfreefq  台湾省中华电信HiNet 17
   server: 211.72.35.110
   port: 443
   type: vmess
-  uuid: e87f326f-55ac-487f-a3d1-57c592bb663a
+  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /nishikata3
+  ws-path: /
   ws-headers:
-    Host: woidenca1.jsworld.eu.org
+    Host: ru.tzccifq.ga
+- name: 1.20| v2rayfreeeuorg  澳大利亚新南威尔士州悉尼Linode数据中心 23
+  server: vau1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vau1.0bad.com
+- name: 1.10|RU 俄罗斯youtube阿伟科技 2
+  server: pf.napsternetv.com
+  port: 34147
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.94|US 美国youtube阿伟科技 66
+  server: pf.napsternetv.com
+  port: 34145
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - type: vmess
-  name: 0.22|JP日本3
+  name: 0.67|JP日本3
   ws-opts:
     path: /chat
     headers:
@@ -160,4 +295,59 @@ proxies:
   alterId: 0
   cipher: auto
   network: ws
+  tls: true
+- name: 0.56| BGPRSV香港BGP
+  server: ap-northeast.6641634715834932.me
+  port: 443
+  type: trojan
+  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
+  sni: wel-hk.optage.moe
+  skip-cert-verify: true
+- name: 0.27|爱尔兰youtube阿伟科技
+  server: v2ray.wefuckgfw.ga
+  port: 2083
+  type: vmess
+  uuid: f59afc3e-78d6-4f98-8c3e-fef45c5adcfa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5coJKfAp/
+    headers:
+      Host: v2ray.wefuckgfw.ga
+  udp: true
+- name: 0.21|RU 俄罗斯youtube阿伟科技 3
+  server: pf.napsternetv.com
+  port: 34146
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 0.18|UK 英国youtube阿伟科技 9
+  server: cf.fovi.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxdeovz1.fovi.tk
+  udp: true
+- name: 0.12| githubcomfreefq  俄罗斯  12
+  server: pf.napsternetv.com
+  port: 34141
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
   tls: true

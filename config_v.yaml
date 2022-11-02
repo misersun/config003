@@ -1,30 +1,55 @@
 proxies:
-- name: 1.97|FR 法国youtube阿伟科技 4
-  server: www.gov.hk
-  port: 2086
+- name: 2.95| 美国峰值1000MNetFlix解锁
+  server: mg1.xbywwcp.us
+  port: 25800
   type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb
+  alterId: 0
+  cipher: chacha20-poly1305
+  tls: false
+  network: ws
+  ws-path: /by.xbygood.xyz
+  ws-headers:
+    Host: mg1.xbywwcp.us
+- name: 2.36| 香港80端口自行修改host
+  server: hk80.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /zh-cn/download
+  ws-headers:
+    Host: '%7B%22Host%22:%22a.189.cn%22%7D'
+- name: 1.64|FR 法国youtube阿伟科技 5
+  server: 57.128.45.161
+  port: 80
+  type: vmess
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /aries
+    path: /user
     headers:
-      Host: fr.cloudflare.quest
+      Host: 57.128.45.161
   udp: true
-- type: vmess
-  name: 1.11|USwmt11129
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.85.62.219
-  server: 154.85.62.219
-  port: '56924'
-  uuid: 6c086fcc-6b05-4a28-9c3d-30a949585b25
-  alterId: '0'
+- name: 1.56|US 美国youtube阿伟科技 33
+  server: mgny.xbywwcp.us
+  port: 114
+  type: vmess
+  uuid: 7c982e1d-647f-3a15-a8a4-102d73d1913d
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      Host: a.189.cn
+  udp: true
