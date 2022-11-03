@@ -1,107 +1,38 @@
 proxies:
-- name: 5.44| CN台湾HiNet
-  server: 36.138.103.161
-  port: 13211
-  type: trojan
-  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
-  sni: wel-tw.optage.moe
-  skip-cert-verify: true
 - type: trojan
-  name: 2.80|CNwmt1127
+  name: 2.16|CNwmt1127
   server: oss-cn-shanghai.westdatacloud.xyz
   port: 20048
   password: 30030B00-A596-87B4-965A-511CD7E05351
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 2.70|HKwmt1124
-  server: hk4.sanfen001.pics
-  port: 443
-  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
-  udp: true
-  skip-cert-verify: true
-  sni: hk1.sanfen001.pics
-- type: trojan
-  name: 1.92|JPwmt1128
-  server: jp1.sanfen001.pics
-  port: 443
-  password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266
-  udp: true
-  skip-cert-verify: true
-  sni: jp1.sanfen001.pics
-- name: 1.73|DE 德国youtube阿伟科技
-  server: 20013.purefast2.com
-  port: 20013
-  type: trojan
-  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
-  sni: purefast1.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.72|UK 英国youtube阿伟科技 3
-  server: 20009.purefast2.com
-  port: 20009
-  type: trojan
-  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
-  sni: purefast1.com
-  skip-cert-verify: true
-  udp: true
-- type: ss
-  name: 1.41|CAwmt11227
-  server: 134.195.198.106
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 1.24|BR 巴西youtube阿伟科技
-  server: 20012.purefast2.com
-  port: 20012
-  type: trojan
-  password: 574b7a47-ffa1-388b-88c0-64d9c10b5be2
-  sni: purefast1.com
-  skip-cert-verify: true
-  udp: true
 - type: ssr
-  name: 0.36|SGwmt11138
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: 3g0dHlKME
-- type: trojan
-  name: 0.29|IDwmt11146
-  server: idc1.vpn-akcelluler.my.id
-  port: 443
-  password: idc117okt
-  udp: true
-  skip-cert-verify: true
-  sni: idc1.vpn-akcelluler.my.id
-- type: trojan
-  name: 0.21|IDwmt11228
-  server: 103.226.139.201
-  port: 443
-  password: idc117okt
-  udp: true
-  skip-cert-verify: true
-- type: ssr
-  name: 0.19|JPwmt11236
+  name: 1.12|JPwmt11236
   server: jp-am48-6.eqnode.net
   port: 8081
   protocol: origin
   cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
-- name: 0.12|SG 新加坡youtube阿伟科技
-  server: 47.52.101.237
+- name: 0.47|JP 日本youtube阿伟科技 2
+  server: 219.76.13.180
   port: 443
   type: trojan
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  sni: httah.freetrade.link
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: 0.11| BGPRSV香港BGP
-  server: ap-northeast.6641634715834932.me
-  port: 443
-  type: trojan
-  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
-  sni: wel-hk.optage.moe
-  skip-cert-verify: true
+- name: 0.24|githubcomfreefq  海南省海口市电信 14
+  server: hnct.zzuu.tk
+  port: 23124
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aad768a4-a8a6-41fc-a067-c9995e671345
+- type: ssr
+  name: 0.14|SGwmt11138
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 3g0dHlKME
