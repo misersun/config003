@@ -1,20 +1,5 @@
 proxies:
-- name: 2.24|FR 法国youtube阿伟科技 6
-  server: www.gov.hk
-  port: 2086
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: fr.cloudflare.quest
-  udp: true
-- name: 1.09|US 美国youtube阿伟科技 24
+- name: 2.57|US 美国youtube阿伟科技 24
   server: 104.17.146.10
   port: 80
   type: vmess
@@ -29,17 +14,117 @@ proxies:
     headers:
       Host: us1.cachexy.ga
   udp: true
-- name: 0.40|BE1
+- name: 2.17|FR 法国youtube阿伟科技 6
+  server: www.gov.hk
+  port: 2086
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: fr.cloudflare.quest
+  udp: true
+- name: 1.31|SSRSUBV12付费推荐suoytssrsub
   server: 57.128.45.161
   port: 80
   type: vmess
   uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
   alterId: 0
   cipher: auto
+  tls: false
   network: ws
-  http-opts: {}
   ws-path: /user
   ws-headers:
-    HOST: 57.128.45.161
+    Host: 57.128.45.161
+- name: 0.94| githubcomfreefq  新加坡Amazon数据中心 25
+  server: hk-ii.pannode.top
+  port: 80
+  type: vmess
+  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wroot?ed=2048
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.84| githubcomfreefq  日本  24
+  server: 43.201.106.220
+  port: 10480
+  type: vmess
+  uuid: 240bc573-ebbc-4455-db0e-bbb4ad7efe82
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 43.201.106.220
+- name: 0.50| githubcomfreefq  美国Xerox 2
+  server: hk-v.pannode.top
+  port: 80
+  type: vmess
+  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wroot?ed=2048
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.33| SSRSUB俄罗斯V01付费推荐dljtfssrsub
+  server: www.digitalocean.com
+  port: 80
+  type: vmess
+  uuid: 51fa265a-31f5-44f2-b354-5b2e351e2cdf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- name: 0.28|SG 新加坡youtube阿伟科技 3
+  server: 157.245.150.105
+  port: 28256
+  type: vmess
+  uuid: 8b288b96-8351-4798-80b1-19abee46d087
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  servername: 57.128.45.161
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 157.245.150.105
+  udp: true
+- name: 0.21| githubcomfreefq  新加坡Amazon数据中心 17
+  server: hk-4.pannode.top
+  port: 80
+  type: vmess
+  uuid: 26382b4e-00f0-4f4f-90a8-3de352e2a06d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wroot?ed=2048
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 0.18| SSRSUB俄罗斯V02付费推荐dljtfssrsub
+  server: 104.21.41.120
+  port: 80
+  type: vmess
+  uuid: 51fa265a-31f5-44f2-b354-5b2e351e2cdf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
