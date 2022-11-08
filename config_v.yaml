@@ -1,60 +1,36 @@
 proxies:
-- name: 1.87|LA271
-  server: 8.218.83.148
-  port: 63239
+- name: 1.10|PL 波兰youtube阿伟科技 2
+  server: 70.34.247.139
+  port: 8081
   type: vmess
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  uuid: 4351659f-59be-4e8c-e4f8-7c0a57b42bdf
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - 8.218.83.148
+      Host: 70.34.247.139
   udp: true
-- name: 1.37|SG572
-  server: 8.218.86.226
-  port: 51616
+- name: 0.79|JP 日本youtube阿伟科技 4
+  server: jp01-vm0.entry.srthdw.art
+  port: 447
   type: vmess
-  uuid: bf6bc39e-9453-43b3-805e-7f11965981a4
-  alterId: 0
+  uuid: 10ba6e89-a1fd-3510-ab19-d59f6668f4de
+  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host:
-      - 8.218.86.226
+      Host: bf419d5f59f96a.windowsupdate.com
   udp: true
-- name: 1.29|SG571
-  server: 8.218.63.184
-  port: 20113
-  type: vmess
-  uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.218.63.184
-  udp: true
-- name: 1.16| HK10
-  server: vinaphone2.4gsinhvien.me
+- name: 0.67| HK11
+  server: vinaphone1.4gsinhvien.me
   port: 26
   type: vmess
   uuid: 8acdc72c-3501-433b-9869-3a91ae4b5d90
@@ -65,7 +41,46 @@ proxies:
   ws-path: /
   ws-headers:
     Host: static.vnpt.vn
-- name: 0.98|US1226
+- name: 0.58|JP 日本youtube阿伟科技
+  server: jp05-vm0.entry.srthdw.art
+  port: 446
+  type: vmess
+  uuid: 23979308-1291-3ab0-9fde-cf1fffad1379
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: jp05-vm0.entry.srthdw.art
+  udp: true
+- name: 0.43|SSRSUBV12付费推荐suoytssrsub
+  server: 57.128.45.161
+  port: 80
+  type: vmess
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /user
+  ws-headers:
+    Host: 57.128.45.161
+- name: 0.21| SSRSUB俄罗斯V02付费推荐dljtfssrsub
+  server: 104.21.41.120
+  port: 80
+  type: vmess
+  uuid: 51fa265a-31f5-44f2-b354-5b2e351e2cdf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- name: 0.18|US1226
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -83,23 +98,11 @@ proxies:
       Host:
       - 47.243.36.34
   udp: true
-- name: 0.56| HK16
-  server: sg.vpntransfer.xyz
-  port: 10000
+- name: 0.14|LA271
+  server: 8.218.83.148
+  port: 63239
   type: vmess
-  uuid: dac68179-449a-4f47-854c-30f0ce488fba
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: pull.free.video.10010.com
-- name: 0.23|SG567
-  server: 8.218.80.207
-  port: 58793
-  type: vmess
-  uuid: 652919af-4b0f-4211-8f06-952958d05038
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
   alterId: 0
   cipher: auto
   tls: false
@@ -111,35 +114,20 @@ proxies:
     - /
     headers:
       Host:
-      - 8.218.80.207
+      - 8.218.83.148
   udp: true
-- name: 0.13| githubcomfreefq  俄罗斯  38
-  server: 5.45.94.28
-  port: 80
+- name: 0.10|PL 波兰youtube阿伟科技
+  server: 70.34.252.176
+  port: 8081
   type: vmess
-  uuid: bd3d81c6-9d40-4e75-8a23-7c55d69bf801
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: 5.45.94.28
-- name: 0.11|US216
-  server: 47.242.243.218
-  port: 48471
-  type: vmess
-  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  uuid: 984ff24e-2bbb-4461-a761-bf8ccb77b80d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - 47.242.243.218
+      Host: 70.34.252.176
   udp: true
