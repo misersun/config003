@@ -1,19 +1,5 @@
 proxies:
-- name: 2.47|RelayCNTW25
-  server: oss-cn-shanghai.westdatacloud.xyz
-  port: 20048
-  type: trojan
-  password: 30030B00-A596-87B4-965A-511CD7E05351
-  sni: oss-cn-shanghai.westdatacloud.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.35| v2rayfreeeuorg  香港阿里云 4
-  server: tj2.dalazhi.cyou
-  port: 443
-  type: trojan
-  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
-  sni: tj2.dalazhi.cyou
-- name: 1.01|SG 新加坡youtube阿伟科技 2
+- name: 1.43|SG 新加坡youtube阿伟科技 2
   server: 219.76.13.175
   port: 443
   type: trojan
@@ -21,7 +7,15 @@ proxies:
   sni: python.protocolbuffer.com
   skip-cert-verify: true
   udp: true
-- name: 0.82|SG 新加坡youtube阿伟科技 4
+- name: 1.14|RelayCNTW25
+  server: oss-cn-shanghai.westdatacloud.xyz
+  port: 20048
+  type: trojan
+  password: 30030B00-A596-87B4-965A-511CD7E05351
+  sni: oss-cn-shanghai.westdatacloud.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 0.95|SG 新加坡youtube阿伟科技 4
   server: 219.76.13.180
   port: 443
   type: trojan
@@ -29,18 +23,30 @@ proxies:
   sni: golang.protocolbuffer.com
   skip-cert-verify: true
   udp: true
-- name: 0.71|SG 新加坡youtube阿伟科技流媒体
-  server: 47.52.101.237
+- name: 0.64|US 美国youtube阿伟科技 5
+  server: 219.76.13.181
   port: 443
   type: trojan
-  password: ZDAAFTxBNu5j9pl3Re834a3xSXwOZYeIlE30Dp86qc7yYgKaDCaROCSSnz2FCy
-  sni: csharp.protocolbuffer.com
+  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
+  sni: arbettp.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: 0.17|ID141  472Mb
-  server: 103.226.139.201
+- name: 0.38|US 美国youtube阿伟科技 3
+  server: tgunivstar.219.76.13.175.sslip.io
   port: 443
   type: trojan
-  password: idc117okt
+  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
+  sni: httah.freetrade.link
   skip-cert-verify: true
+  udp: true
+- name: 0.13|SG新加坡油管阿伟科技1
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
   udp: true
