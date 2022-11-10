@@ -1,71 +1,32 @@
 proxies:
-- name: 2.83|HK 香港youtube阿伟科技 3
-  server: hk80-2.sanfen001.pics
+- name: 0.99|VN 越南youtube阿伟科技
+  server: 103.147.126.127
   port: 80
   type: vmess
-  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
+  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /zh-cn/download
+    path: /nkpvpn.site
     headers:
-      Host: a.189.cn
+      Host: 103.147.126.127
   udp: true
-- name: 2.42|HK 香港youtube阿伟科技 5
-  server: hk80.sanfen001.pics
+- name: 0.49| githubcomfreefq  法国国际航空电讯集团公司SITA 19
+  server: 57.128.45.161
   port: 80
   type: vmess
-  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /zh-cn/download
-    headers:
-      Host: hk80.sanfen001.pics
-  udp: true
-- name: 0.57|LA271
-  server: 8.218.83.148
-  port: 63239
-  type: vmess
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.218.83.148
-  udp: true
-- name: 0.36|SG572
-  server: 8.218.86.226
-  port: 51616
-  type: vmess
-  uuid: bf6bc39e-9453-43b3-805e-7f11965981a4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.218.86.226
-  udp: true
-- name: 0.36|US1226
+  ws-path: /user
+  ws-headers:
+    Host: 57.128.45.161
+- name: 0.46|US1226
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -83,7 +44,25 @@ proxies:
       Host:
       - 47.243.36.34
   udp: true
-- name: 0.31|US216
+- name: 0.27|LA271
+  server: 8.218.83.148
+  port: 63239
+  type: vmess
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.83.148
+  udp: true
+- name: 0.24|US216
   server: 47.242.243.218
   port: 48471
   type: vmess
@@ -101,11 +80,23 @@ proxies:
       Host:
       - 47.242.243.218
   udp: true
-- name: 0.31|SG571
-  server: 8.218.63.184
-  port: 20113
+- name: 0.24| githubcomfreefq  美国弗吉尼亚州文特山农场OVH数据中心 4
+  server: us-lb.sshkit.org
+  port: 80
   type: vmess
-  uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 0.19|SG504
+  server: 8.218.85.43
+  port: 43645
+  type: vmess
+  uuid: 0cd2e2c0-ef4f-4a49-a89f-ee2552aed247
   alterId: 0
   cipher: auto
   tls: false
@@ -117,32 +108,20 @@ proxies:
     - /
     headers:
       Host:
-      - 8.218.63.184
+      - 8.218.85.43
   udp: true
-- name: 0.31| githubcomfreefq  美国弗吉尼亚州文特山农场OVH数据中心 6
-  server: us-lb.sshkit.org
+- name: 0.19| githubcomfreefq  美国惠普HP 5
+  server: hk80-2.sanfen001.pics
   port: 80
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
+  ws-path: /zh-cn/download
   ws-headers:
-    Host: zoom.us
-- name: 0.24| githubcomfreefq  英国  29
-  server: 141.94.59.200
-  port: 8080
-  type: vmess
-  uuid: 2f685138-93b0-453f-d683-9398b3a3b8a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 141.94.59.200
+    Host: a.189.cn
 - name: 0.13|SG567
   server: 8.218.80.207
   port: 58793
