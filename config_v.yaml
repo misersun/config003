@@ -1,20 +1,110 @@
 proxies:
-- name: 0.99|VN 越南youtube阿伟科技
-  server: 103.147.126.127
-  port: 80
+- type: vmess
+  name: 9.60|HKwmt1110114
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.1.44
+  server: 8.210.1.44
+  port: '63020'
+  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.80|JP 日本youtube阿伟科技 2
+  server: 43.200.181.74
+  port: 42517
   type: vmess
-  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /nkpvpn.site
+    path: /
     headers:
-      Host: 103.147.126.127
+      Host: 43.200.181.74
   udp: true
-- name: 0.49| githubcomfreefq  法国国际航空电讯集团公司SITA 19
+- type: vmess
+  name: 1.24|HKwmt1110145
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.56.3
+  server: 47.242.56.3
+  port: '37064'
+  uuid: d2a10a17-6191-472c-896b-782331f49fb9
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.00|h180破鸡
+  server: node.xn--ces488atrj.eu.org
+  port: 80
+  type: vmess
+  uuid: 461aed20-0743-4f13-ee68-43394e875e43
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: h1.800876.xyz
+- type: vmess
+  name: 0.83|SGwmt111024
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.73.227
+  server: 8.218.73.227
+  port: '58641'
+  uuid: 4821f5d8-dc31-4bb4-811c-8babcb8aec1a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.71| 日本CC
+  server: 54.238.193.140
+  port: 50236
+  type: vmess
+  uuid: ff27adfa-3f1a-412d-a1fc-6593984fe9cb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 54.238.193.140
+- name: 0.55|w80
+  server: node.xn--ces488atrj.eu.org
+  port: 2052
+  type: vmess
+  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b0f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: w.800876.xyz
+- name: 0.41| githubcomfreefq  俄罗斯  3
+  server: hk1.fuzzyng.com
+  port: 80
+  type: vmess
+  uuid: bdd756c4-fdc3-42dc-838f-006aef3f287c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fuzzyng?ed=2048
+  ws-headers:
+    Host: dl.kgvn.garenanow.com/m.tiktok.com
+- name: 0.41| githubcomfreefq  法国国际航空电讯集团公司SITA 18
   server: 57.128.45.161
   port: 80
   type: vmess
@@ -26,117 +116,127 @@ proxies:
   ws-path: /user
   ws-headers:
     Host: 57.128.45.161
-- name: 0.46|US1226
-  server: 47.243.36.34
-  port: 55986
-  type: vmess
-  uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
+- type: vmess
+  name: 0.38|HKwmt1110149
   http-opts:
-    method: GET
     path:
     - /
     headers:
       Host:
-      - 47.243.36.34
-  udp: true
-- name: 0.27|LA271
-  server: 8.218.83.148
-  port: 63239
-  type: vmess
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  alterId: 0
+      - 8.210.203.189
+  server: 8.210.203.189
+  port: '37309'
+  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
+  alterId: '0'
   cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: http
+- type: vmess
+  name: 0.32|HKwmt1110107
   http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.218.83.148
-  udp: true
-- name: 0.24|US216
-  server: 47.242.243.218
-  port: 48471
-  type: vmess
-  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
     path:
     - /
     headers:
       Host:
       - 47.242.243.218
-  udp: true
-- name: 0.24| githubcomfreefq  美国弗吉尼亚州文特山农场OVH数据中心 4
-  server: us-lb.sshkit.org
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
+  server: 47.242.243.218
+  port: '48471'
+  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshkit/Variu88/634dab7abadf1/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: 0.19|SG504
-  server: 8.218.85.43
-  port: 43645
-  type: vmess
-  uuid: 0cd2e2c0-ef4f-4a49-a89f-ee2552aed247
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: http
+- type: vmess
+  name: 0.30|HKwmt111093
   http-opts:
-    method: GET
     path:
     - /
     headers:
       Host:
-      - 8.218.85.43
-  udp: true
-- name: 0.19| githubcomfreefq  美国惠普HP 5
-  server: hk80-2.sanfen001.pics
-  port: 80
-  type: vmess
-  uuid: 66bee8fa-56a6-4108-92ec-d4a0900270cb
-  alterId: 0
+      - 47.242.205.255
+  server: 47.242.205.255
+  port: '49935'
+  uuid: 3ffddc7c-80a3-4677-ab9e-30da4190ec6a
+  alterId: '0'
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /zh-cn/download
-  ws-headers:
-    Host: a.189.cn
-- name: 0.13|SG567
-  server: 8.218.80.207
-  port: 58793
-  type: vmess
-  uuid: 652919af-4b0f-4211-8f06-952958d05038
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: http
+- type: vmess
+  name: 0.28|SGwmt1110115
   http-opts:
-    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.86.226
+  server: 8.218.86.226
+  port: '51616'
+  uuid: bf6bc39e-9453-43b3-805e-7f11965981a4
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.25|SGwmt111013
+  http-opts:
     path:
     - /
     headers:
       Host:
       - 8.218.80.207
-  udp: true
+  server: 8.218.80.207
+  port: '58793'
+  uuid: 652919af-4b0f-4211-8f06-952958d05038
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.25| SSRSUB俄罗斯V02付费推荐dljtfssrsub
+  server: 104.21.41.120
+  port: 80
+  type: vmess
+  uuid: 51fa265a-31f5-44f2-b354-5b2e351e2cdf
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- type: vmess
+  name: 0.24|LAwmt1110121
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.83.148
+  server: 8.218.83.148
+  port: '63239'
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.18|SGwmt1110148
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.63.184
+  server: 8.218.63.184
+  port: '20113'
+  uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 0.14|SGwmt111042
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.218.86.250
+  server: 8.218.86.250
+  port: '22362'
+  uuid: 72356bf7-487b-42c0-a7f2-845136b33503
+  alterId: '0'
+  cipher: auto
+  network: http
