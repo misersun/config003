@@ -1,17 +1,33 @@
 proxies:
-- name: 6.79| V0日本3
-  server: gyjp3.333003.xyz
-  port: 16914
-  type: ss
-  cipher: aes-256-gcm
-  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
 - type: ss
-  name: 4.88|SG新加坡3
+  name: 4.83|SG新加坡3
   server: 13.215.254.97
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 4.55|RelaySGSG498
+- name: 2.86|RelayCNTW25
+  server: oss-cn-shanghai.westdatacloud.xyz
+  port: 20048
+  type: trojan
+  password: 30030B00-A596-87B4-965A-511CD7E05351
+  sni: oss-cn-shanghai.westdatacloud.xyz
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 0.95|JPwmt111092
+  server: trs12.bolab.net
+  port: 443
+  password: 14bdba6dede262387ebdebaa706e1c90
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.67|USwmt111038
+  server: 20.24.192.3
+  port: 20790
+  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
+  udp: true
+  skip-cert-verify: true
+- name: 0.43|RelaySGSG498
   server: sg-am3.eqsunshine.com
   port: 32001
   type: ssr
@@ -22,68 +38,3 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 3.70| 香港⑤HE HKIX Plus X2
-  server: gy.alhttdw.cn
-  port: 52474
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7f38f982-ad3d-444c-927c-564e4f3620c1
-- type: ss
-  name: 3.69|SG新加坡2
-  server: 52.77.255.130
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 3.62| 新加坡N1丨BGP
-  server: sg2x.333003.xyz
-  port: 47813
-  type: trojan
-  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
-  sni: sg2.333003.xyz
-  skip-cert-verify: true
-- name: 3.43| 香港①HE HKIX Plus X2
-  server: hnct.cmcc.wiki
-  port: 10373
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7f38f982-ad3d-444c-927c-564e4f3620c1
-- name: 2.98|RelayCNTW25
-  server: oss-cn-shanghai.westdatacloud.xyz
-  port: 20048
-  type: trojan
-  password: 30030B00-A596-87B4-965A-511CD7E05351
-  sni: oss-cn-shanghai.westdatacloud.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 2.95| V0台湾
-  server: gytw.333003.xyz
-  port: 12839
-  type: trojan
-  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
-  sni: gminguo.333003.xyz
-  skip-cert-verify: true
-- name: 2.93| 香港②HE HKIX Plus X2
-  server: hnct.cmcc.wiki
-  port: 11367
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7f38f982-ad3d-444c-927c-564e4f3620c1
-- type: ss
-  name: 2.05|US美国2
-  server: 18.237.70.232
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 1.01|US美国1
-  server: 54.191.177.147
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: trojan
-  name: 0.52|JPwmt111092
-  server: trs12.bolab.net
-  port: 443
-  password: 14bdba6dede262387ebdebaa706e1c90
-  udp: true
-  skip-cert-verify: true
