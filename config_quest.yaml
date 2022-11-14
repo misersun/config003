@@ -1,40 +1,60 @@
 proxies:
-- type: ss
-  name: 4.83|SG新加坡3
-  server: 13.215.254.97
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 2.86|RelayCNTW25
-  server: oss-cn-shanghai.westdatacloud.xyz
-  port: 20048
+- name: 2.48| 香港 IEPL03 x30
+  server: 110.80.3.24
+  port: 21003
   type: trojan
-  password: 30030B00-A596-87B4-965A-511CD7E05351
-  sni: oss-cn-shanghai.westdatacloud.xyz
+  password: f97edc29-1c8b-49d7-80b2-c246984a6f64
+  sni: 65-108-102-32.nhost.00cdn.com
   skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 0.95|JPwmt111092
-  server: trs12.bolab.net
+- name: 2.21| githubcomfreefq  新加坡Linode数据中心 6
+  server: ca.liangyuandian.top
   port: 443
-  password: 14bdba6dede262387ebdebaa706e1c90
-  udp: true
+  type: trojan
+  password: b7bc6b1c-610d-4d39-ad29-18a0d6902348
+  sni: ca.liangyuandian.top
+- name: 1.45| 香港 IEPL04 x30
+  server: 110.80.3.24
+  port: 21004
+  type: trojan
+  password: f97edc29-1c8b-49d7-80b2-c246984a6f64
+  sni: 65-108-102-32.nhost.00cdn.com
   skip-cert-verify: true
-- type: trojan
-  name: 0.67|USwmt111038
-  server: 20.24.192.3
-  port: 20790
-  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-  udp: true
+- name: 0.53| 香港 B02 x10
+  server: 183.255.114.164
+  port: 21002
+  type: trojan
+  password: f97edc29-1c8b-49d7-80b2-c246984a6f64
+  sni: 65-108-102-32.nhost.00cdn.com
   skip-cert-verify: true
-- name: 0.43|RelaySGSG498
-  server: sg-am3.eqsunshine.com
-  port: 32001
+- name: 0.45| 越南 B01 x10
+  server: 183.255.114.164
+  port: 61004
+  type: trojan
+  password: f97edc29-1c8b-49d7-80b2-c246984a6f64
+  sni: 65-108-102-32.nhost.00cdn.com
+  skip-cert-verify: true
+- name: 0.26| 日本1114002
+  server: jp-am48-6.eqnode.net
+  port: 8081
   type: ssr
   cipher: aes-256-cfb
-  password: 3g0dHlKME
+  password: eAokbaDN6
   protocol: origin
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+- name: 0.20| 香港 IEPL02 x30
+  server: 110.80.3.24
+  port: 21002
+  type: trojan
+  password: f97edc29-1c8b-49d7-80b2-c246984a6f64
+  sni: 65-108-102-32.nhost.00cdn.com
+  skip-cert-verify: true
+- name: 0.15|US239
+  server: tj2.dalazhi.cyou
+  port: 443
+  type: trojan
+  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
+  sni: tj2.dalazhi.cyou
+  skip-cert-verify: true
   udp: true
