@@ -1,5 +1,20 @@
 proxies:
-- name: 2.27|LU 卢森堡youtube阿伟科技
+- name: 1.78|NL 荷兰youtube阿伟科技 2
+  server: Shopify.com
+  port: 2086
+  type: vmess
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: scw.cloudflare.quest
+  udp: true
+- name: 1.72|LU 卢森堡youtube阿伟科技
   server: ip.skk.moe
   port: 2086
   type: vmess
@@ -14,20 +29,34 @@ proxies:
     headers:
       Host: buyvm.cloudflare.quest
   udp: true
-- name: 0.99|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
-  port: 2086
+- type: vmess
+  name: 1.26|LA老挝
+  http-opts:
+    path:
+    - /
+  server: 8.218.83.148
+  port: 63239
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 0.46|SG651
+  server: 8.218.80.207
+  port: 58793
   type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  uuid: 652919af-4b0f-4211-8f06-952958d05038
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: scw.cloudflare.quest
+      Host:
+      - 8.218.80.207
   udp: true
 - name: 0.36|US1139
   server: 47.243.36.34
@@ -47,37 +76,7 @@ proxies:
       Host:
       - 47.243.36.34
   udp: true
-- name: 0.20| githubcomfreefq  美国CloudFlare公司CDN节点 32
-  server: uicdn.cf
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshkit/1736960111/635cb6dd4206c/
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
-- name: 0.13|SG502
-  server: 8.210.203.189
-  port: 37309
-  type: vmess
-  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.203.189
-  udp: true
-- name: 0.11|US1106
+- name: 0.20|US1106
   server: 47.242.243.218
   port: 48471
   type: vmess
