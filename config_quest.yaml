@@ -1,5 +1,15 @@
 proxies:
-- name: 0.18|US239
+- name: 5.86| 新加坡1114010
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.33|US239
   server: tj2.dalazhi.cyou
   port: 443
   type: trojan
@@ -7,3 +17,10 @@ proxies:
   sni: tj2.dalazhi.cyou
   skip-cert-verify: true
   udp: true
+- type: trojan
+  name: 0.19|JP日本
+  server: trs15.bolab.net
+  port: 443
+  password: 14bdba6dede262387ebdebaa706e1c90
+  udp: true
+  skip-cert-verify: true
