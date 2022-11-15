@@ -1,64 +1,17 @@
 proxies:
-- name: 1.78|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
+- name: 1.34|哈萨克斯坦
+  server: www.dynadot.com
   port: 2086
   type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-  udp: true
-- name: 1.72|LU 卢森堡youtube阿伟科技
-  server: ip.skk.moe
-  port: 2086
-  type: vmess
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: buyvm.cloudflare.quest
-  udp: true
-- type: vmess
-  name: 1.26|LA老挝
-  http-opts:
-    path:
-    - /
-  server: 8.218.83.148
-  port: 63239
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  alterId: 0
-  cipher: auto
-  network: http
-- name: 0.46|SG651
-  server: 8.218.80.207
-  port: 58793
-  type: vmess
-  uuid: 652919af-4b0f-4211-8f06-952958d05038
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.218.80.207
-  udp: true
-- name: 0.36|US1139
+  ws-path: /aries
+  ws-headers:
+    Host: kz.cloudflare.quest
+- name: 0.52|US1139
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -76,11 +29,34 @@ proxies:
       Host:
       - 47.243.36.34
   udp: true
-- name: 0.20|US1106
-  server: 47.242.243.218
-  port: 48471
+- type: vmess
+  name: 0.28|defaultname
+  ws-opts:
+    path: /aries
+    headers:
+      host: scw.cloudflare.quest
+  server: Shopify.com
+  port: 2086
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: 0
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.16|LA老挝
+  http-opts:
+    path:
+    - /
+  server: 8.218.83.148
+  port: 63239
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 0.12|SG502
+  server: 8.210.203.189
+  port: 37309
   type: vmess
-  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
   alterId: 0
   cipher: auto
   tls: false
@@ -92,5 +68,5 @@ proxies:
     - /
     headers:
       Host:
-      - 47.242.243.218
+      - 8.210.203.189
   udp: true
