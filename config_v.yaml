@@ -1,17 +1,85 @@
 proxies:
-- name: 1.34|哈萨克斯坦
-  server: www.dynadot.com
+- name: 1.78|LU 卢森堡youtube阿伟科技
+  server: ip.skk.moe
   port: 2086
   type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: kz.cloudflare.quest
-- name: 0.52|US1139
+  ws-opts:
+    path: /aries
+    headers:
+      Host: buyvm.cloudflare.quest
+  udp: true
+- type: vmess
+  name: 1.40|哈萨克斯坦youtube阿伟科技
+  ws-opts:
+    path: /aries
+    headers:
+      host: kz.cloudflare.quest
+  server: www.dynadot.com
+  port: '2086'
+  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.99|VN 越南youtube阿伟科技
+  server: 180.93.172.95
+  port: 80
+  type: vmess
+  uuid: edb5c3a4-069f-498e-919b-1d2cd8efbaef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /skypn.fun
+    headers:
+      Host: dl.kgvn.garenanow.com
+  udp: true
+- name: 0.95|NL 荷兰youtube阿伟科技 2
+  server: Shopify.com
+  port: 2086
+  type: vmess
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: scw.cloudflare.quest
+  udp: true
+- type: vmess
+  name: 0.82|柬埔寨youtube阿伟科技
+  ws-opts:
+    path: /sshocean
+    headers:
+      host: kh1.v2rayserv.com
+  server: kh1.v2rayserv.com
+  port: '80'
+  uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.51|LA老挝
+  http-opts:
+    path:
+    - /
+  server: 8.218.83.148
+  port: 63239
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 0.19|US1139
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -29,30 +97,7 @@ proxies:
       Host:
       - 47.243.36.34
   udp: true
-- type: vmess
-  name: 0.28|defaultname
-  ws-opts:
-    path: /aries
-    headers:
-      host: scw.cloudflare.quest
-  server: Shopify.com
-  port: 2086
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 0.16|LA老挝
-  http-opts:
-    path:
-    - /
-  server: 8.218.83.148
-  port: 63239
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  alterId: 0
-  cipher: auto
-  network: http
-- name: 0.12|SG502
+- name: 0.11|SG502
   server: 8.210.203.189
   port: 37309
   type: vmess
