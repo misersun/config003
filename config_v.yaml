@@ -1,5 +1,5 @@
 proxies:
-- name: 2.29|LU 卢森堡youtube阿伟科技
+- name: 1.93|LU 卢森堡youtube阿伟科技
   server: ip.skk.moe
   port: 2086
   type: vmess
@@ -15,7 +15,7 @@ proxies:
       Host: buyvm.cloudflare.quest
   udp: true
 - type: vmess
-  name: 1.52|哈萨克斯坦youtube阿伟科技
+  name: 1.40|哈萨克斯坦youtube阿伟科技
   ws-opts:
     path: /aries
     headers:
@@ -27,19 +27,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 1.13|柬埔寨youtube阿伟科技
-  ws-opts:
-    path: /sshocean
-    headers:
-      host: kh1.v2rayserv.com
-  server: kh1.v2rayserv.com
-  port: '80'
-  uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 0.80|LA老挝
+  name: 0.52|LA老挝
   http-opts:
     path:
     - /
@@ -49,7 +37,7 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
-- name: 0.12|US1139
+- name: 0.34|US1139
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -66,4 +54,22 @@ proxies:
     headers:
       Host:
       - 47.243.36.34
+  udp: true
+- name: 0.14|US292 4183Mb
+  server: 150.230.249.15
+  port: 46842
+  type: vmess
+  uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 150.230.249.15
   udp: true
