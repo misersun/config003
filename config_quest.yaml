@@ -1,31 +1,66 @@
 proxies:
-- name: 6.30| JP01日本SSx10
-  server: clientss.asucaeva.net
-  port: 42001
+- name: 7.68| Hong Kong  03
+  server: cos-ap-guangzhou.westdatacloud.top
+  port: 20003
+  type: trojan
+  password: 93CF63A7-8677-B072-0807-CC64680BEEA4
+  sni: v12.kwaicdn.com
+  skip-cert-verify: true
+- name: 5.30| Hong Kong  02
+  server: cos-ap-guangzhou.westdatacloud.top
+  port: 20002
+  type: trojan
+  password: 93CF63A7-8677-B072-0807-CC64680BEEA4
+  sni: v12.kwaicdn.com
+  skip-cert-verify: true
+- name: 4.97| Hong Kong  06
+  server: cos-ap-guangzhou.westdatacloud.top
+  port: 20006
+  type: trojan
+  password: 93CF63A7-8677-B072-0807-CC64680BEEA4
+  sni: v12.kwaicdn.com
+  skip-cert-verify: true
+- name: 2.65| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 2.55| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- name: 0.82| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- name: 0.23| githubcomfreefq  美国  10
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 0.18| 台湾HiNet
+  server: tw.ddns.123114.xyz
+  port: 45333
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
-- name: 4.55| HK02香港SSx10
-  server: clientss.asucaeva.net
-  port: 40002
+  cipher: aes-128-gcm
+  password: sameral
+- name: 0.17|FR129
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  sni: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  udp: true
+- name: 0.16|CN1
+  server: 125.94.215.64
+  port: 45535
   type: ss
+  password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d
   cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
-- name: 3.19| US04美国SSx10
-  server: clientss.asucaeva.net
-  port: 41006
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
-- name: 1.40| US03美国SSx10
-  server: clientss.asucaeva.net
-  port: 41003
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
-- name: 0.19| TW03台湾SSx30
-  server: clientss.asucaeva.net
-  port: 48101
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
