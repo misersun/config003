@@ -1,5 +1,5 @@
 proxies:
-- name: 1.78|LU 卢森堡youtube阿伟科技
+- name: 2.29|LU 卢森堡youtube阿伟科技
   server: ip.skk.moe
   port: 2086
   type: vmess
@@ -15,7 +15,7 @@ proxies:
       Host: buyvm.cloudflare.quest
   udp: true
 - type: vmess
-  name: 1.40|哈萨克斯坦youtube阿伟科技
+  name: 1.52|哈萨克斯坦youtube阿伟科技
   ws-opts:
     path: /aries
     headers:
@@ -26,38 +26,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.99|VN 越南youtube阿伟科技
-  server: 180.93.172.95
-  port: 80
-  type: vmess
-  uuid: edb5c3a4-069f-498e-919b-1d2cd8efbaef
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /skypn.fun
-    headers:
-      Host: dl.kgvn.garenanow.com
-  udp: true
-- name: 0.95|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-  udp: true
 - type: vmess
-  name: 0.82|柬埔寨youtube阿伟科技
+  name: 1.13|柬埔寨youtube阿伟科技
   ws-opts:
     path: /sshocean
     headers:
@@ -69,7 +39,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: 0.51|LA老挝
+  name: 0.80|LA老挝
   http-opts:
     path:
     - /
@@ -79,7 +49,7 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
-- name: 0.19|US1139
+- name: 0.12|US1139
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -96,22 +66,4 @@ proxies:
     headers:
       Host:
       - 47.243.36.34
-  udp: true
-- name: 0.11|SG502
-  server: 8.210.203.189
-  port: 37309
-  type: vmess
-  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.203.189
   udp: true
