@@ -1,43 +1,16 @@
 proxies:
-- name: 1.93|LU 卢森堡youtube阿伟科技
-  server: ip.skk.moe
-  port: 2086
-  type: vmess
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: buyvm.cloudflare.quest
-  udp: true
 - type: vmess
-  name: 1.40|哈萨克斯坦youtube阿伟科技
-  ws-opts:
-    path: /aries
-    headers:
-      host: kz.cloudflare.quest
-  server: www.dynadot.com
-  port: '2086'
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 0.52|LA老挝
+  name: 0.70|HK香港
   http-opts:
     path:
     - /
-  server: 8.218.83.148
-  port: 63239
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  server: 8.210.1.44
+  port: 63020
+  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
   alterId: 0
   cipher: auto
   network: http
-- name: 0.34|US1139
+- name: 0.55|US1139
   server: 47.243.36.34
   port: 55986
   type: vmess
@@ -54,22 +27,4 @@ proxies:
     headers:
       Host:
       - 47.243.36.34
-  udp: true
-- name: 0.14|US292 4183Mb
-  server: 150.230.249.15
-  port: 46842
-  type: vmess
-  uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 150.230.249.15
   udp: true
