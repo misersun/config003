@@ -1,30 +1,61 @@
 proxies:
 - type: vmess
-  name: 0.70|HK香港
-  http-opts:
-    path:
-    - /
-  server: 8.210.1.44
-  port: 63020
-  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
-  alterId: 0
+  name: 1.11|NL荷兰youtube阿伟科技1
+  ws-opts:
+    path: /p9Dq67Nx/
+    headers:
+      host: fr1.cachexy.ga
+  server: 104.29.64.24
+  port: '80'
+  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+  alterId: '0'
   cipher: auto
-  network: http
-- name: 0.55|US1139
-  server: 47.243.36.34
-  port: 55986
+  network: ws
+- name: 0.84| githubcomfreefq  美国CloudFlare公司CDN节点 1
+  server: ip.skk.moe
+  port: 2082
   type: vmess
-  uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
+  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: vu1.cloudflare.quest
+- type: vmess
+  name: 0.70|DE德国youtube阿伟科技2
+  ws-opts:
+    path: /?ed=2048
     headers:
-      Host:
-      - 47.243.36.34
-  udp: true
+      host: h1.800876.xyz
+  server: 138.2.122.225
+  port: '80'
+  uuid: 461aed20-0743-4f13-ee68-43394e875e42
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.22| SSRSUB俄罗斯V02付费推荐dljtfssrsub
+  server: http.download.yunzhongzhuan.com
+  port: 80
+  type: vmess
+  uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- name: 0.20| SSRSUB俄罗斯V01付费推荐dljtfssrsub
+  server: www.digitalocean.com
+  port: 80
+  type: vmess
+  uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
