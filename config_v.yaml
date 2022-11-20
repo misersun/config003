@@ -1,30 +1,61 @@
 proxies:
 - type: vmess
-  name: 1.11|NL荷兰youtube阿伟科技1
+  name: 2.18|DE德国youtube阿伟科技1
   ws-opts:
-    path: /p9Dq67Nx/
-    headers:
-      host: fr1.cachexy.ga
-  server: 104.29.64.24
-  port: '80'
-  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+    path: /m3
+  server: do-3.heicloud.cf
+  port: '7773'
+  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.84| githubcomfreefq  美国CloudFlare公司CDN节点 1
-  server: ip.skk.moe
-  port: 2082
+- name: 1.90|US 美国youtube阿伟科技 24
+  server: do-1.heicloud.cf
+  port: 7771
   type: vmess
-  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
+  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: vu1.cloudflare.quest
+  ws-opts:
+    path: /m1
+    headers:
+      Host: do-1.heicloud.cf
+  udp: true
+- name: 1.38|DE 德国youtube阿伟科技 2
+  server: 8.218.80.89
+  port: 80
+  type: vmess
+  uuid: 429b13a5-3747-493d-a5d0-de6fa67d51d1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: h2.800876.xyz
+  udp: true
+- name: 0.52|NL 荷兰youtube阿伟科技
+  server: 104.29.64.24
+  port: 80
+  type: vmess
+  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /p9Dq67Nx/
+    headers:
+      Host: fr1.cachexy.ga
+  udp: true
 - type: vmess
-  name: 0.70|DE德国youtube阿伟科技2
+  name: 0.39|DE德国youtube阿伟科技2
   ws-opts:
     path: /?ed=2048
     headers:
@@ -35,18 +66,6 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.22| SSRSUB俄罗斯V02付费推荐dljtfssrsub
-  server: http.download.yunzhongzhuan.com
-  port: 80
-  type: vmess
-  uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v01.asuka.buzz
 - name: 0.20| SSRSUB俄罗斯V01付费推荐dljtfssrsub
   server: www.digitalocean.com
   port: 80
