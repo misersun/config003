@@ -1,13 +1,5 @@
 proxies:
-- name: 2.43| githubcomfreefq  俄罗斯  1
-  server: 194.87.169.8
-  port: 65514
-  type: vmess
-  uuid: d03cccfc-9be6-43b4-88d2-3023872bd43b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.42|US 美国youtube阿伟科技 32
+- name: 1.77|US 美国youtube阿伟科技 32
   server: www.gov.hk
   port: 2086
   type: vmess
@@ -22,7 +14,7 @@ proxies:
     headers:
       Host: linus.cloudflare.quest
   udp: true
-- name: 1.85|JP 日本youtube阿伟科技 4
+- name: 1.57|JP 日本youtube阿伟科技 4
   server: RACKNERD.COM
   port: 2086
   type: vmess
@@ -37,22 +29,7 @@ proxies:
     headers:
       Host: vultrjp.cloudflare.quest
   udp: true
-- name: 1.50|VN 越南youtube阿伟科技
-  server: 103.161.112.225
-  port: 80
-  type: vmess
-  uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpndata.shop
-    headers:
-      Host: mobiedu.vn
-  udp: true
-- name: 1.08|哈萨克斯坦youtube阿伟科技
+- name: 1.41|哈萨克斯坦youtube阿伟科技
   server: ip125.com
   port: 2086
   type: vmess
@@ -67,22 +44,49 @@ proxies:
     headers:
       Host: kz.cloudflare.quest
   udp: true
-- name: 0.61|NL 荷兰youtube阿伟科技
-  server: 104.29.64.24
+- name: 0.51|VN 越南youtube阿伟科技
+  server: 103.161.112.225
   port: 80
   type: vmess
-  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+  uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /p9Dq67Nx/
+    path: /vpndata.shop
     headers:
-      Host: fr1.cachexy.ga
+      Host: mobiedu.vn
   udp: true
-- name: 0.51| githubcomfreefq  美国  15
+- name: 0.26| SSRSUB俄罗斯V02付费推荐dljtfssrsub
+  server: http.download.yunzhongzhuan.com
+  port: 80
+  type: vmess
+  uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- name: 0.23|US 美国youtube阿伟科技 3
+  server: cm.cf.cname.club
+  port: 2052
+  type: vmess
+  uuid: 6e902fde-dcb1-4d5a-9079-8c086d867954
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us.cf.cname.club
+  udp: true
+- name: 0.20| githubcomfreefq  美国  15
   server: 152.69.230.170
   port: 80
   type: vmess
@@ -94,34 +98,7 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 152.69.230.170
-- name: 0.34| githubcomfreefq  印度卡纳塔克邦班加罗尔DigitalOcean数据中心 10
-  server: 134.209.153.7
-  port: 8081
-  type: vmess
-  uuid: 9345ff7f-fab5-42d6-b903-324a2fcc509d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 134.209.153.7
-- name: 0.18|DE 德国youtube阿伟科技
-  server: 138.2.122.225
-  port: 80
-  type: vmess
-  uuid: 461aed20-0743-4f13-ee68-43394e875e42
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: h1.800876.xyz
-  udp: true
-- name: 0.13| SSRSUB俄罗斯V01付费推荐dljtfssrsub
+- name: 0.16| SSRSUB俄罗斯V01付费推荐dljtfssrsub
   server: www.digitalocean.com
   port: 80
   type: vmess
