@@ -1,44 +1,5 @@
 proxies:
-- name: 2.10| githubcomfreefq  香港电讯盈科有限公司 21
-  server: tgunivstar-119-237-43-96.sslip.io
-  port: 80
-  type: vmess
-  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vn3.thanhhaivpn.name.vn
-- name: 1.19|githubcomfreefq  亚太地区  25
-  server: 103.147.126.127
-  port: 80
-  type: vmess
-  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nkpvpn.site
-  ws-headers:
-    Host: 103.147.126.127
-- name: 1.12|哈萨克斯坦youtube阿伟科技
-  server: ip125.com
-  port: 2086
-  type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: kz.cloudflare.quest
-  udp: true
-- name: 0.80|VN 越南youtube阿伟科技
+- name: 0.73|VN 越南youtube阿伟科技
   server: 103.161.112.225
   port: 80
   type: vmess
@@ -53,3 +14,15 @@ proxies:
     headers:
       Host: mobiedu.vn
   udp: true
+- name: 0.24|githubcomfreefq  亚太地区  25
+  server: 103.147.126.127
+  port: 80
+  type: vmess
+  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nkpvpn.site
+  ws-headers:
+    Host: 103.147.126.127
