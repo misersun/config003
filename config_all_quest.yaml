@@ -1,44 +1,73 @@
 proxies:
-- type: ssr
-  name: 5.82|SG新加坡1
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: 3g0dHlKME
-- name: 3.04|KRwmt114915
-  server: kr1.api-aws.com
-  port: 443
+- name: 6.88| V1专线隧道东京
+  server: v1.nicecdns.com
+  port: 10350
   type: trojan
-  password: 7f9e51b9-928e-4076-b075-ba7577c36443
-  sni: kr1.api-aws.com
+  password: 8b5d2a44-a247-4c0c-bad4-218d890acab4
+  sni: tky1.coolduck.xyz
   skip-cert-verify: true
+- name: 3.74|油管阿伟科技6
+  server: gzyd.120.817777.xyz
+  port: 11000
+  type: ssr
+  cipher: aes-256-cfb
+  password: zxOmdD
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 22663:naiboob
+  obfs-param: ZDYyYzQyMjY2My5taWNyb3NvZnQuY29t
   udp: true
-- name: 2.87|测试4
-  server: yydsdy.top
-  port: 20000
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: yydsdy.top
+- name: 2.89|油管阿伟科技7
+  server: hnlt.817777.xyz
+  port: 11011
+  type: ssr
+  cipher: aes-256-cfb
+  password: zxOmdD
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 22663:naiboob
+  obfs-param: ZDYyYzQyMjY2My5taWNyb3NvZnQuY29t
+  udp: true
 - type: trojan
-  name: 2.76|JP日本4
+  name: 2.78|JP日本4
   server: 168.138.44.176
   port: 443
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   udp: true
   skip-cert-verify: true
-- name: 2.39| 甲骨文凤凰城ARM1trojan
-  server: fhcarm1.gaox.ml
+- name: 2.67| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
   port: 443
   type: trojan
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  sni: fhcarm1.gaox.ml
-- name: 2.05| 德国1126001
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 2.24| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- type: trojan
+  name: 1.92|CN中国JP日本
+  server: 116.129.253.134
+  port: 3389
+  password: 182228812d1e0f23
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.81|US美国2
+  server: 138.2.113.248
+  port: 443
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  udp: true
+  skip-cert-verify: true
+- name: 1.81|甲骨文海得拉巴AMD2trojan
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  sni: jgwhdlb2.gaox.ml
+- name: 1.61| 德国1128001
   server: 136.243.191.85
   port: 443
   type: ssr
@@ -48,89 +77,101 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.93| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- name: 1.92| 美国纽约002
-  server: hnt.cndns.shop
-  port: 27765
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-- name: 1.90| 美国纽约003
-  server: hnt.cndns.shop
-  port: 27764
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-- name: 1.86| 美国纽约001
-  server: hnt.cndns.shop
-  port: 27766
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-- name: 1.81| 美国纽约005
-  server: hnt.cndns.shop
-  port: 27762
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-- name: 1.80|甲骨文海得拉巴AMD2trojan
-  server: jgwhdlb2.gaox.ml
+- name: 1.36|INwmt1149215
+  server: 152.67.160.174
   port: 443
   type: trojan
   password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-- name: 1.79| 美国纽约004
-  server: hnt.cndns.shop
-  port: 27763
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 31347057-7af5-4562-b912-f1c217c4c160
-- name: 1.72| 美国纽约006
+  skip-cert-verify: true
+  udp: true
+- name: 1.23| 日本东京IPLC专线2
   server: hnt.cndns.shop
   port: 27761
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 31347057-7af5-4562-b912-f1c217c4c160
-- type: trojan
-  name: 1.53|FR法国1
-  server: 51.77.71.134
-  port: 443
-  password: origin
-  udp: true
-  skip-cert-verify: true
-- name: 1.45| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 1.43|NLwmt1149316
-  server: 185.212.200.75
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 1.41|NL荷兰1
-  server: content-provider23.cdn-delivery.akamaicd.com
-  port: 443
-  password: Sp3eDVp
-  udp: true
-  skip-cert-verify: true
-- name: 1.38|FRwmt1149122
-  server: 176.31.83.90
+- name: 1.19| 韩国首尔IPLC专线3
+  server: hnt.cndns.shop
+  port: 27763
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+- name: 1.19| 美国纽约IPLC专线6
+  server: hnt.cndns.shop
+  port: 27762
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+- name: 1.15|FRwmt1149128
+  server: content-provider26.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
   password: origin
+  sni: content-provider26.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   udp: true
-- name: 1.28|GBwmt1149279
+- type: trojan
+  name: 0.86|GB英国3
+  server: 132.145.51.172
+  port: 443
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  udp: true
+  skip-cert-verify: true
+- name: 0.77| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 0.75| githubcomfreefq  美国  10
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- type: trojan
+  name: 0.70|JP日本3
+  server: 168.138.43.89
+  port: 443
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.66|US美国3
+  server: 129.146.190.42
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 0.55|US美国2
+  server: 129.146.135.157
+  port: 443
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  udp: true
+  skip-cert-verify: true
+- name: 0.53|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 0.52|KRwmt114915
+  server: kr1.api-aws.com
+  port: 443
+  type: trojan
+  password: 7f9e51b9-928e-4076-b075-ba7577c36443
+  sni: kr1.api-aws.com
+  skip-cert-verify: true
+  udp: true
+- name: 0.48| V1专线隧道新加坡  解锁
+  server: v1.nicecdns.com
+  port: 10351
+  type: trojan
+  password: 8b5d2a44-a247-4c0c-bad4-218d890acab4
+  sni: sg1.coolduck.xyz
+  skip-cert-verify: true
+- name: 0.47|GBwmt1149279
   server: 88.150.137.201
   port: 1021
   type: ssr
@@ -141,14 +182,59 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.25|FRwmt1149205
+- name: 0.44| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- type: trojan
+  name: 0.40|US美国7
+  server: 129.146.255.158
+  port: 443
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  udp: true
+  skip-cert-verify: true
+- name: 0.36| 日本东京IPLC专线3
+  server: hnt.cndns.shop
+  port: 27764
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 31347057-7af5-4562-b912-f1c217c4c160
+- name: 0.31|FRwmt1149205
   server: 51.77.71.131
   port: 443
   type: trojan
   password: Sp3eDVp
   skip-cert-verify: true
   udp: true
-- name: 1.05|FRwmt1149198
+- type: trojan
+  name: 0.31|DE德国
+  server: bdvasxmahl.injafarvpnwebelieve.gq
+  port: 443
+  password: TvBypqQJ9b
+  udp: true
+  skip-cert-verify: true
+- name: 0.23| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- type: trojan
+  name: 0.19|FR法国4
+  server: content-provider12.cdn-delivery.akamaicd.com
+  port: 443
+  password: origin
+  udp: true
+  skip-cert-verify: true
+- name: 0.19| githubcomfreefq  法国  31
+  server: t1.samsung.bforward2.uk
+  port: 443
+  type: trojan
+  password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
+  sni: t1.samsung.bforward2.uk
+- name: 0.17|FRwmt1149198
   server: content-provider5.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
@@ -156,210 +242,43 @@ proxies:
   sni: content-provider5.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   udp: true
-- name: 1.01|USwmt1149138
-  server: 148.113.141.99
-  port: 443
-  type: trojan
-  password: HdsUZmsHQW
-  skip-cert-verify: true
-  udp: true
-- name: 0.88|FRwmt1149128
-  server: content-provider26.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: origin
-  sni: content-provider26.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  udp: true
-- name: 0.73|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 0.71| 甲骨文伦敦AMD1trojan
-  server: jgwld1.gaox.ml
-  port: 443
-  type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  sni: jgwld1.gaox.ml
-- type: trojan
-  name: 0.45|JP日本2
-  server: 168.138.43.89
-  port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.44|GB英国
-  server: 144.24.72.126
-  port: 443
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  udp: true
-  skip-cert-verify: true
-- name: 0.44| githubcomfreefq  美国  10
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- name: 0.41|INwmt1149215
-  server: 152.67.160.174
-  port: 443
-  type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: 0.34| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- type: trojan
-  name: 0.31|US美国7
-  server: 129.146.242.130
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  udp: true
-  skip-cert-verify: true
-- name: 0.28|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 0.25|NLwmt1149162
-  server: content-provider24.cdn-delivery.akamaicd.com
-  port: 443
-  type: trojan
-  password: Sp3eDVp
-  sni: content-provider24.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 0.20|US美国5
-  server: 129.146.255.158
-  port: 443
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  udp: true
-  skip-cert-verify: true
-- name: 0.19| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 0.18|wmt1149133
-  server: 103.172.116.7
-  port: 9050
-  type: ss
-  cipher: aes-256-cfb
-  password: FG5ddLsMPbV5CutE
-  udp: true
-- name: 0.17|wmt114931
+- name: 0.16|wmt114931
   server: 103.172.116.7
   port: 9010
   type: ss
   cipher: aes-256-cfb
   password: f63gg8EruDnUrmz4
   udp: true
-- name: 0.17|wmt1121135
-  server: 103.172.116.8
-  port: 9025
-  type: ss
-  cipher: aes-256-cfb
-  password: XPtzA9sCug3SPR4c
-  udp: true
-- name: 0.17|wmt1121153
-  server: 103.172.116.8
-  port: 9015
-  type: ss
-  cipher: aes-256-cfb
-  password: ZpNDDKRu9MagNvaf
-  udp: true
-- name: 0.17|wmt1121193
-  server: 103.172.116.8
-  port: 9064
-  type: ss
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-  udp: true
-- name: 0.17|wmt114928
-  server: 103.172.116.8
-  port: 9000
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-  udp: true
-- type: trojan
-  name: 0.17|US美国2
-  server: 138.2.113.248
-  port: 443
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  udp: true
-  skip-cert-verify: true
-- name: 0.17|wmt114965
+- name: 0.16|wmt1149226
   server: 103.172.116.7
-  port: 9033
+  port: 9032
   type: ss
   cipher: aes-256-cfb
-  password: UTJA57ypk2XKQpnm
+  password: UWZQeLRWnkqgkseq
   udp: true
-- name: 0.17|wmt1121138
-  server: 103.172.116.8
-  port: 9045
-  type: ss
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
-  udp: true
-- name: 0.17|wmt114989
-  server: 103.172.116.8
-  port: 9037
-  type: ss
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
-  udp: true
-- name: 0.16|wmt1121132
-  server: 103.172.116.8
-  port: 9084
-  type: ss
-  cipher: aes-256-cfb
-  password: c3NtHJ5ujV2tGDfj
-  udp: true
-- name: 0.16|wmt1149127
-  server: 103.172.116.8
-  port: 9008
-  type: ss
-  cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
-  udp: true
-- name: 0.16|wmt1149166
-  server: 103.172.116.8
-  port: 9088
-  type: ss
-  cipher: aes-256-cfb
-  password: f8npKgNzdkss2ytn
-  udp: true
-- name: 0.16|wmt1149213
+- name: 0.15|wmt1149133
   server: 103.172.116.7
-  port: 9070
+  port: 9050
   type: ss
   cipher: aes-256-cfb
-  password: bf7v334KKDV3YDhH
+  password: FG5ddLsMPbV5CutE
   udp: true
-- name: 0.15|wmt1149142
-  server: 103.172.116.8
-  port: 9007
-  type: ss
-  cipher: aes-256-cfb
-  password: kSPmvwdFzGMMW5pY
-  udp: true
-- name: 0.10|US 美国youtube阿伟科技 55
+- name: 0.12|US 美国youtube阿伟科技 55
   server: 219.76.13.181
   port: 443
   type: trojan
   password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
   sni: arbettp.freetrade.link
   skip-cert-verify: true
+  udp: true
+- name: 0.11|油管阿伟科技10
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
   udp: true
