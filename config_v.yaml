@@ -1,41 +1,20 @@
 proxies:
-- name: 5.79| V3原生IP东京  限时
-  server: tky3.nicecdns.com
-  port: 443
+- name: 2.92|HK 香港youtube阿伟科技 5
+  server: 8.218.140.111
+  port: 34193
   type: vmess
-  uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4
+  uuid: 544bf832-7df2-4ce1-aafc-9258a28b7cfb
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /CCTV6/hd.m3u8
-  ws-headers:
-    Host: tky3.nicecdns.com
-- name: 2.62| V1直连东京
-  server: tky1aws.nicecdns.com
-  port: 10020
-  type: vmess
-  uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /CCTV6/hd.m3u8
-  ws-headers:
-    Host: tky1aws.nicecdns.com
-- name: 1.19| githubcomfreefq  法国鲁贝OVH数据中心 24
-  server: 51.75.160.126
-  port: 80
-  type: vmess
-  uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: 51.75.160.126
-- name: 0.70|VN 越南youtube阿伟科技
+  ws-opts:
+    path: /hk
+    headers:
+      Host: 8.218.140.111
+  udp: true
+- name: 0.23|VN 越南youtube阿伟科技
   server: 103.147.126.127
   port: 80
   type: vmess
@@ -49,43 +28,4 @@ proxies:
     path: /nkpvpn.site
     headers:
       Host: 103.147.126.127
-  udp: true
-- name: 0.67| v2rayfreeeuorg  美国  12
-  server: tgunivstar-138-2-70-213.sslip.io
-  port: 80
-  type: vmess
-  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vn3.thanhhaivpn.name.vn
-- name: 0.47|githubcomfreefq  瑞典  18
-  server: 5.249.160.226
-  port: 80
-  type: vmess
-  uuid: c721b258-e101-41e1-9574-ad171e502ab8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: 5.249.160.226
-- name: 0.45|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
   udp: true
