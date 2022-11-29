@@ -1,5 +1,5 @@
 proxies:
-- name: 2.92|HK 香港youtube阿伟科技 5
+- name: 0.64|HK 香港youtube阿伟科技 5
   server: 8.218.140.111
   port: 34193
   type: vmess
@@ -14,7 +14,22 @@ proxies:
     headers:
       Host: 8.218.140.111
   udp: true
-- name: 0.23|VN 越南youtube阿伟科技
+- name: 0.28|DE 德国youtube阿伟科技 2
+  server: 138.2.122.225
+  port: 80
+  type: vmess
+  uuid: 461aed20-0743-4f13-ee68-43394e875e42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: h1.800876.xyz
+  udp: true
+- name: 0.19|VN 越南youtube阿伟科技
   server: 103.147.126.127
   port: 80
   type: vmess
