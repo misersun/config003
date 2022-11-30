@@ -1,46 +1,46 @@
 proxies:
-- name: 0.64|HK 香港youtube阿伟科技 5
-  server: 8.218.140.111
-  port: 34193
+- name: 1.69|RU 俄罗斯youtube阿伟科技
+  server: 194.87.248.27
+  port: 26743
   type: vmess
-  uuid: 544bf832-7df2-4ce1-aafc-9258a28b7cfb
+  uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hk
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: 8.218.140.111
+      Host:
+      - apple.com
   udp: true
-- name: 0.28|DE 德国youtube阿伟科技 2
-  server: 138.2.122.225
+- name: 0.17| githubcomfreefq  美国  8
+  server: 159.223.30.153
+  port: 8081
+  type: vmess
+  uuid: c2743f4a-9590-4406-dc78-6ac98c12004a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 159.223.30.153
+- name: 0.11|FR 法国youtube阿伟科技
+  server: 8.219.139.136
   port: 80
   type: vmess
-  uuid: 461aed20-0743-4f13-ee68-43394e875e42
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: h1.800876.xyz
-  udp: true
-- name: 0.19|VN 越南youtube阿伟科技
-  server: 103.147.126.127
-  port: 80
-  type: vmess
-  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nkpvpn.site
-    headers:
-      Host: 103.147.126.127
+      Host: w1.800876.xyz
   udp: true
