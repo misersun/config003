@@ -1,5 +1,23 @@
 proxies:
-- name: 1.69|RU 俄罗斯youtube阿伟科技
+- name: 1.20|SG 新加坡youtube阿伟科技
+  server: 138.2.83.217
+  port: 43863
+  type: vmess
+  uuid: ca984457-b017-46e5-d973-42a3c3fdc292
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - apple.com
+  udp: true
+- name: 0.79|RU 俄罗斯youtube阿伟科技
   server: 194.87.248.27
   port: 26743
   type: vmess
@@ -17,19 +35,52 @@ proxies:
       Host:
       - apple.com
   udp: true
-- name: 0.17| githubcomfreefq  美国  8
-  server: 159.223.30.153
-  port: 8081
+- name: 0.35|DE 德国youtube阿伟科技 2
+  server: 138.2.122.225
+  port: 80
   type: vmess
-  uuid: c2743f4a-9590-4406-dc78-6ac98c12004a
+  uuid: 461aed20-0743-4f13-ee68-43394e875e42
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: 159.223.30.153
-- name: 0.11|FR 法国youtube阿伟科技
+  ws-opts:
+    path: /
+    headers:
+      Host: h1.800876.xyz
+  udp: true
+- name: 0.27|US 美国youtube阿伟科技 46
+  server: 47.88.52.220
+  port: 80
+  type: vmess
+  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: w.800876.xyz
+  udp: true
+- name: 0.18|US 美国youtube阿伟科技 26
+  server: 54.218.3.181
+  port: 80
+  type: vmess
+  uuid: 7150bb4d-2016-4032-ba6b-7cc228d34eef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: shoutingtoutiao3.10010.com
+  udp: true
+- name: 0.13|FR 法国youtube阿伟科技
   server: 8.219.139.136
   port: 80
   type: vmess
