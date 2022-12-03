@@ -1,92 +1,5 @@
 proxies:
-- name: 1.97|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-  udp: true
-- name: 1.63|SG 新加坡youtube阿伟科技 4
-  server: fbi.gov
-  port: 2086
-  type: vmess
-  uuid: 929029a5-9d88-4e2f-ee35-918fea716b77
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@heinuhome
-    headers:
-      Host: heinuhome-gcore-singapore.heinu.cf
-  udp: true
-- name: 1.48|哈萨克斯坦youtube阿伟科技
-  server: www.dynadot.com
-  port: 2086
-  type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: kz.cloudflare.quest
-  udp: true
-- name: 1.12|RU 俄罗斯youtube阿伟科技
-  server: 194.87.248.27
-  port: 26743
-  type: vmess
-  uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - apple.com
-  udp: true
-- name: 0.56| v2rayfreeeuorg  美国  21
-  server: 152.69.230.170
-  port: 80
-  type: vmess
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 152.69.230.170
-- name: 0.22| v2rayfreeeuorg  日本东京Oracle云计算数据中心 3
-  server: jp.mayiyun.shop
-  port: 443
-  type: vmess
-  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: a.189.cn
-- name: 0.18|KR韩国
+- name: 4.31|KR韩国
   server: 152.70.89.67
   port: 44631
   type: vmess
@@ -104,7 +17,133 @@ proxies:
       Host:
       - 152.70.89.67
   udp: true
-- name: 0.14|SG 新加坡youtube阿伟科技 8
+- name: 2.40|ID 印尼youtube阿伟科技 4
+  server: 52.65.55.29
+  port: 8081
+  type: vmess
+  uuid: 77481f21-6a28-40cb-ecbc-0213c085ef92
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 52.65.55.29
+  udp: true
+- name: 2.14|DE 德国youtube阿伟科技
+  server: 5.161.133.65
+  port: 52317
+  type: vmess
+  uuid: e8dcd51e-098d-4155-d232-1438c4f40dc6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.161.133.65
+  udp: true
+- name: 1.85|NL 荷兰youtube阿伟科技 2
+  server: Shopify.com
+  port: 2086
+  type: vmess
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: scw.cloudflare.quest
+  udp: true
+- name: 1.45|DE 德国youtube阿伟科技 2
+  server: 35.156.177.79
+  port: 24748
+  type: vmess
+  uuid: 413f1279-4c68-4350-c731-dcac4cc693ed
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 35.156.177.79
+  udp: true
+- name: 1.35|哈萨克斯坦youtube阿伟科技
+  server: www.dynadot.com
+  port: 2086
+  type: vmess
+  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: kz.cloudflare.quest
+  udp: true
+- name: 1.27| v2rayfreeeuorg  美国CloudFlare公司CDN节点 14
+  server: http.download.yunzhongzhuan.com
+  port: 8080
+  type: vmess
+  uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v01.asuka.buzz
+- name: 0.91|SG 新加坡youtube阿伟科技 6
+  server: racknerd.com
+  port: 2086
+  type: vmess
+  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: azstu.cloudflare.quest
+  udp: true
+- name: 0.88| v2rayfreeeuorg  美国  21
+  server: 152.69.230.170
+  port: 80
+  type: vmess
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 152.69.230.170
+- name: 0.79| githubcomfreefq  日本东京Oracle云计算数据中心 22
+  server: jp.mayiyun.shop
+  port: 443
+  type: vmess
+  uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: a.189.cn
+- name: 0.26|SG 新加坡youtube阿伟科技 8
   server: 138.2.83.217
   port: 43863
   type: vmess
@@ -122,29 +161,21 @@ proxies:
       Host:
       - apple.com
   udp: true
-- name: 0.13|US 美国youtube阿伟科技 46
-  server: 47.88.52.220
-  port: 80
+- name: 0.17|RU 俄罗斯youtube阿伟科技
+  server: 194.87.248.27
+  port: 26743
   type: vmess
-  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+  uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: w.800876.xyz
-  udp: true
-- type: vmess
-  name: 0.10|HK香港1
+  network: http
   http-opts:
+    method: GET
     path:
     - /
-  server: 47.242.30.73
-  port: 57194
-  uuid: 190f9f72-0144-40c2-862b-8c7fbe7fc34a
-  alterId: 0
-  cipher: auto
-  network: http
+    headers:
+      Host:
+      - apple.com
+  udp: true
