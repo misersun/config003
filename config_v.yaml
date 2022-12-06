@@ -1,5 +1,17 @@
 proxies:
-- name: 0.88|SG 新加坡youtube阿伟科技 12
+- name: 1.63| githubcomfreefq  美国CloudFlare公司CDN节点 9
+  server: uicdn.cf
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 0.28|SG 新加坡youtube阿伟科技 12
   server: racknerd.com
   port: 2086
   type: vmess
@@ -13,70 +25,4 @@ proxies:
     path: /aries
     headers:
       Host: azstu.cloudflare.quest
-  udp: true
-- name: 0.64|KR韩国
-  server: 152.70.89.67
-  port: 44631
-  type: vmess
-  uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 152.70.89.67
-  udp: true
-- name: 0.46|新加坡youtube阿伟科技 8
-  server: 138.2.83.217
-  port: 43863
-  type: vmess
-  uuid: ca984457-b017-46e5-d973-42a3c3fdc292
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - apple.com
-  udp: true
-- name: 0.18|FR 法国youtube阿伟科技 3
-  server: 47.90.164.120
-  port: 80
-  type: vmess
-  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: w1.800876.xyz
-  udp: true
-- name: 0.14|PL 波兰youtube阿伟科技
-  server: 47.254.155.218
-  port: 80
-  type: vmess
-  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: w.800876.xyz
   udp: true
