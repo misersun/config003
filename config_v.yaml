@@ -1,17 +1,74 @@
 proxies:
-- name: 1.63| githubcomfreefq  美国CloudFlare公司CDN节点 9
-  server: uicdn.cf
-  port: 80
+- name: 2.11| githubcomfreefq  美国CloudFlare公司CDN节点 6
+  server: 104.17.191.85
+  port: 2095
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-path: /
   ws-headers:
-    Host: us-lb.sshkit.org
-- name: 0.28|SG 新加坡youtube阿伟科技 12
+    Host: dknbyn3lw16n5elj.gongyiyun.cf
+- name: 1.75|githubcomfreefq  伊朗  7
+  server: 5.161.50.211
+  port: 8081
+  type: vmess
+  uuid: 9e8c85d7-5f9f-4995-bedb-c415e26207e4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 5.161.50.211
+- name: 1.08| githubcomfreefq  日本东京Oracle云计算数据中心 33
+  server: apulnion.com
+  port: 53856
+  type: vmess
+  uuid: 71163d1e-89d9-488d-8f82-aee802f89b00
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /dldbn1h5d
+  ws-headers:
+    Host: apulnion.com
+- name: 0.63|SG 新加坡youtube阿伟科技 9
+  server: 172.104.162.207
+  port: 16322
+  type: vmess
+  uuid: f35d18fc-52a6-42cf-a7cd-345411cc9b75
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hkgzs01
+    headers:
+      Host: 172.104.162.207
+  udp: true
+- name: 0.29|新加坡youtube阿伟科技 2
+  server: 138.2.83.217
+  port: 43863
+  type: vmess
+  uuid: ca984457-b017-46e5-d973-42a3c3fdc292
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - apple.com
+  udp: true
+- name: 0.23|SG 新加坡youtube阿伟科技 13
   server: racknerd.com
   port: 2086
   type: vmess
