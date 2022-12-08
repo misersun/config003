@@ -1,29 +1,29 @@
 proxies:
-- name: 2.11| githubcomfreefq  美国CloudFlare公司CDN节点 6
-  server: 104.17.191.85
-  port: 2095
+- name: 1.04| githubcomfreefq  美国Microsoft数据中心 3
+  server: hk80.sanfen001.pics
+  port: 80
   type: vmess
-  uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /zh-cn/download
   ws-headers:
-    Host: dknbyn3lw16n5elj.gongyiyun.cf
-- name: 1.75|githubcomfreefq  伊朗  7
-  server: 5.161.50.211
-  port: 8081
+    Host: a.189.cn
+- name: 0.48| githubcomfreefq  美国CloudFlare公司CDN节点 37
+  server: racknerd.com
+  port: 2086
   type: vmess
-  uuid: 9e8c85d7-5f9f-4995-bedb-c415e26207e4
+  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /aries
   ws-headers:
-    Host: 5.161.50.211
-- name: 1.08| githubcomfreefq  日本东京Oracle云计算数据中心 33
+    Host: azstu.cloudflare.quest
+- name: 0.26| githubcomfreefq  日本东京Oracle云计算数据中心 33
   server: apulnion.com
   port: 53856
   type: vmess
@@ -35,51 +35,30 @@ proxies:
   ws-path: /dldbn1h5d
   ws-headers:
     Host: apulnion.com
-- name: 0.63|SG 新加坡youtube阿伟科技 9
-  server: 172.104.162.207
-  port: 16322
+- name: 0.16|VN 越南youtube阿伟科技 6
+  server: 47.90.164.120
+  port: 80
   type: vmess
-  uuid: f35d18fc-52a6-42cf-a7cd-345411cc9b75
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /hkgzs01
+    path: /
     headers:
-      Host: 172.104.162.207
+      Host: w1.800876.xyz
   udp: true
-- name: 0.29|新加坡youtube阿伟科技 2
-  server: 138.2.83.217
-  port: 43863
+- name: 0.13|githubcomfreefq  伊朗  5
+  server: 5.161.131.154
+  port: 58637
   type: vmess
-  uuid: ca984457-b017-46e5-d973-42a3c3fdc292
+  uuid: e741be25-c051-4009-bc12-060ddb41f6cb
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - apple.com
-  udp: true
-- name: 0.23|SG 新加坡youtube阿伟科技 13
-  server: racknerd.com
-  port: 2086
-  type: vmess
-  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: azstu.cloudflare.quest
-  udp: true
+  ws-path: /
+  ws-headers:
+    Host: 5.161.131.154
