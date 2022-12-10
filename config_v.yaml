@@ -1,64 +1,93 @@
 proxies:
-- name: 1.04| githubcomfreefq  美国Microsoft数据中心 3
-  server: hk80.sanfen001.pics
-  port: 80
-  type: vmess
-  uuid: e30fa02c-d604-4191-9b81-c550b32f82bc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /zh-cn/download
-  ws-headers:
-    Host: a.189.cn
-- name: 0.48| githubcomfreefq  美国CloudFlare公司CDN节点 37
-  server: racknerd.com
-  port: 2086
-  type: vmess
-  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: azstu.cloudflare.quest
-- name: 0.26| githubcomfreefq  日本东京Oracle云计算数据中心 33
-  server: apulnion.com
-  port: 53856
-  type: vmess
-  uuid: 71163d1e-89d9-488d-8f82-aee802f89b00
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /dldbn1h5d
-  ws-headers:
-    Host: apulnion.com
-- name: 0.16|VN 越南youtube阿伟科技 6
-  server: 47.90.164.120
-  port: 80
-  type: vmess
-  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+- type: vmess
+  name: 0.83|KR韩国1
   ws-opts:
     path: /
-    headers:
-      Host: w1.800876.xyz
-  udp: true
-- name: 0.13|githubcomfreefq  伊朗  5
-  server: 5.161.131.154
-  port: 58637
+  server: 43.200.177.138
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.58|KR韩国3
+  ws-opts:
+    path: /
+  server: 13.124.228.70
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.32|githubcomfreefq  伊朗  28
+  server: 188.34.159.186
+  port: 35855
   type: vmess
-  uuid: e741be25-c051-4009-bc12-060ddb41f6cb
+  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 5.161.131.154
+    Host: 188.34.159.186
+- name: 0.31| githubcomfreefq  美国CloudFlare公司CDN节点 7
+  server: cdn1.parshost.site
+  port: 80
+  type: vmess
+  uuid: ff2cc50d-d579-49a8-9560-cb5eaa33612f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdn1.parshost.site
+- name: 0.20| githubcomfreefq  美国CloudFlare节点 15
+  server: uicdn.cf
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+  ws-headers:
+    Host: us-lb.sshkit.org
+- name: 0.19| githubcomfreefq  美国  22
+  server: 165.22.229.248
+  port: 80
+  type: vmess
+  uuid: 6b7261aa-1dea-4ab4-8e96-fa726b5a9feb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: 165.22.229.248
+- name: 0.19| githubcomfreefq  美国惠普HP 8
+  server: 15.204.31.63
+  port: 80
+  type: vmess
+  uuid: ee9f4b3b-0bf7-4316-8b10-650a9e706aad
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: vahid-spacer.tk
+- name: '0.16|HÀ NỘI 3  '
+  server: 103.167.196.48
+  port: 80
+  type: vmess
+  uuid: 56716a96-a265-448c-8969-03e626889580
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: dl.kgvn.garenanow.com
