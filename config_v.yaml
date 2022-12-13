@@ -1,134 +1,5 @@
 proxies:
-- name: 4.10|VN 越南youtube阿伟科技 14
-  server: 103.169.35.17
-  port: 80
-  type: vmess
-  uuid: e8d608c6-3509-46bf-8f25-e35cccfce383
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpngiare.net
-    headers:
-      Host: dl.kgvn.garenanow.com
-  udp: true
-- name: 2.27| githubcomfreefq  美国CloudFlare节点 15
-  server: uicdn.cf
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
-  ws-headers:
-    Host: us-lb.sshkit.org
-- name: 2.12|HK 香港youtube阿伟科技 23
-  server: 172.64.147.8
-  port: 2086
-  type: vmess
-  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: gcorehk.cloudflare.quest
-  udp: true
-- name: 2.10|SG 新加坡youtube阿伟科技 24
-  server: fbi.gov
-  port: 2086
-  type: vmess
-  uuid: 929029a5-9d88-4e2f-ee35-918fea716b77
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@heinuhome
-    headers:
-      Host: heinuhome-gcore-singapore.heinu.cf
-  udp: true
-- name: 2.09| v2rayfreeeuorg  美国CloudFlare节点 12
-  server: cdn1.parshost.site
-  port: 80
-  type: vmess
-  uuid: ff2cc50d-d579-49a8-9560-cb5eaa33612f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdn1.parshost.site
-- name: 2.04|FI 芬兰youtube阿伟科技
-  server: 172.67.151.163
-  port: 2082
-  type: vmess
-  uuid: cf4a47e2-f2be-4121-d7f4-67f0c7789796
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: Fi.CLOUDFLARE.QUEST
-  udp: true
-- name: 1.99|FI 芬兰youtube阿伟科技 2
-  server: 172.67.194.119
-  port: 2082
-  type: vmess
-  uuid: cf4a47e2-f2be-4121-d7f4-67f0c7789796
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: Fi.CLOUDFLARE.QUEST
-  udp: true
-- name: 1.85|SG 新加坡youtube阿伟科技 12
-  server: 129.150.44.64
-  port: 46075
-  type: vmess
-  uuid: da257e73-f02b-45ab-9916-7baf154c47a3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /jhndsmlanj11223
-    headers:
-      Host: 129.150.44.64
-  udp: true
-- name: 1.59|CA 加拿大youtube阿伟科技 8
-  server: 51.79.86.85
-  port: 80
-  type: vmess
-  uuid: 911c3630-ffd3-439b-bff7-cdb07694ca9b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: 51.79.86.85
-  udp: true
-- name: 1.32|youtube阿伟科技 25
+- name: 8.85|youtube阿伟科技 25
   server: 43.129.234.80
   port: 56607
   type: vmess
@@ -146,22 +17,46 @@ proxies:
       Host:
       - 43.129.234.80
   udp: true
-- name: 1.24|DE 德国youtube阿伟科技 4
-  server: 188.40.132.112
+- name: 3.26| githubcomfreefq  日本东京Amazon数据中心 21
+  server: d2fhhdv5muwwbi.cloudfront.net
   port: 80
   type: vmess
-  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  uuid: 616a46be-7242-4392-ce9d-bcf15b5dc229
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /joodin
+  ws-headers:
+    Host: d2fhhdv5muwwbi.cloudfront.net
+- name: 2.12|SG 新加坡youtube阿伟科技 24
+  server: fbi.gov
+  port: 2086
+  type: vmess
+  uuid: 929029a5-9d88-4e2f-ee35-918fea716b77
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /p3573l6m92h1ham3q23t
+    path: /@heinuhome
     headers:
-      Host: news.microsoft.com
+      Host: heinuhome-gcore-singapore.heinu.cf
   udp: true
-- name: 1.19|FR 法国youtube阿伟科技 11
+- type: vmess
+  name: 2.02|nullnullUS美国4
+  ws-opts:
+    path: /sshkit/fdfadsfa/63848bfe228fd/
+    headers:
+      host: us-lb.sshkit.org
+  server: uicdn.cf
+  port: 80
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 1.11|FR 法国youtube阿伟科技 11
   server: 162.19.226.84
   port: 80
   type: vmess
@@ -176,72 +71,62 @@ proxies:
     headers:
       Host: 162.19.226.84
   udp: true
-- name: 0.75|US 美国youtube阿伟科技 17
-  server: 23.234.203.156
-  port: 80
+- name: 0.50| githubcomfreefq  美国CloudFlare公司CDN节点 19
+  server: 104.17.208.18
+  port: 2082
   type: vmess
-  uuid: 3f745974-2035-4b21-d13e-b3235db89a22
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /zxcvbnm7
-    headers:
-      Host: v6-ppx.ixigua.com
-  udp: true
-- name: 0.22| githubcomfreefq  德国  3
-  server: 88.214.59.197
-  port: 80
-  type: vmess
-  uuid: 0f82beff-d55a-4d26-8000-6747012ad1b4
+  uuid: 36fa45db-2d4a-4295-a1fe-223836989878
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vmess
+  ws-path: /pineapple
   ws-headers:
-    Host: 88.214.59.197
-- name: 0.16|VN 越南youtube阿伟科技 8
-  server: 103.167.196.48
-  port: 80
+    Host: PineApple.CLOUDFLARE.QUEST
+- name: 0.45|RU 俄罗斯youtube阿伟科技 7
+  server: racknerd.com
+  port: 2086
   type: vmess
-  uuid: 56716a96-a265-448c-8969-03e626889580
+  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /aries
     headers:
-      Host: 103.167.196.48
+      Host: azstu.cloudflare.quest
   udp: true
-- name: 0.14|SG 新加坡youtube阿伟科技 17
-  server: sg1021.hkaa0.tk
-  port: 8880
+- name: 0.38| v2rayfreeeuorg  德国  28
+  server: 194.99.79.238
+  port: 11222
   type: vmess
-  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  uuid: 59aef69b-a291-467e-f9d9-754cc7526469
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hkaa0
-    headers:
-      Host: sg1021.hkaa0.tk
-  udp: true
-- name: 0.14| githubcomfreefq  美国惠普HP 4
-  server: 15.204.31.63
-  port: 80
+- name: 0.30| githubcomfreefq  美国CloudFlare公司CDN节点 12
+  server: 104.17.24.142
+  port: 2086
   type: vmess
-  uuid: ee9f4b3b-0bf7-4316-8b10-650a9e706aad
+  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vmess
+  ws-path: /aries
   ws-headers:
-    Host: vahid-spacer.tk
+    Host: gcorehk.cloudflare.quest
+- name: 0.12| githubcomfreefq  美国CloudFlare公司CDN节点 13
+  server: 104.17.103.249
+  port: 2086
+  type: vmess
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: scw.cloudflare.quest
