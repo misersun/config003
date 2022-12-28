@@ -1,95 +1,136 @@
 proxies:
-- name: 5.73|HK 香港youtube阿伟科技 3
-  server: dl-hk1.efyunpan.com
+- type: ss
+  name: 3.72|SG新加坡1
+  server: 18.142.183.235
   port: 443
-  type: trojan
-  password: f95aea21-d754-4f1c-b552-f23815db88bb
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: true
-  udp: true
-- name: 5.53|HK 香港youtube阿伟科技 4
-  server: dl-hk2.efyunpan.com
-  port: 443
-  type: trojan
-  password: f95aea21-d754-4f1c-b552-f23815db88bb
-  sni: data-hk.efyunpan.com
-  skip-cert-verify: true
-  udp: true
-- name: 4.24|TW 台湾youtube阿伟科技 2
-  server: dl-tw2.efyunpan.com
-  port: 443
-  type: trojan
-  password: f95aea21-d754-4f1c-b552-f23815db88bb
-  sni: data-tw.efyunpan.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.67|youtube阿伟科技 2
-  server: 08.yun.tips
-  port: 38608
-  type: ssr
   cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 3074:yWovEI
-  obfs-param: 7af673074.microsoft.com
+  password: amazonskr05
+- name: 3.71|新加坡A04youtube阿伟科技579
+  server: hn.xiaohouzi.club
+  port: 19024
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: siga04.xiaohouzi.club
+  skip-cert-verify: true
   udp: true
-- name: 2.30|US美国youtube阿伟科技
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 18894
+- type: trojan
+  name: 2.75|新加坡A03youtube阿伟科技103
+  server: hn.xiaohouzi.club
+  port: 19023
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  udp: true
+  skip-cert-verify: true
+  sni: siga03.xiaohouzi.club
+  network: tcp
+- name: 2.60|日本ava01youtube阿伟科技575
+  server: hn.xiaohouzi.club
+  port: 18731
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: ajpn01.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 2.00|USwmt12271
+  server: oracleV2RAY.WdWmt.repl.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: E1u3UX7UsjCt
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    host: oracleV2RAY.WdWmt.repl.co
+    tls: true
+- name: 1.93|CN1
+  server: r001.baipiaoxd.com
+  port: 19198
   type: ss
-  cipher: aes-128-gcm
-  password: 305bba62-03fd-4346-aac9-b518f38c56aa
+  password: gKXJa5qK6l
+  cipher: aes-256-gcm
+- name: 1.48|菲律宾2youtube阿伟科技574
+  server: hn.xiaohouzi.club
+  port: 18835
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: feilvbin.xiaohouzi.club
+  skip-cert-verify: true
   udp: true
-- name: 2.11|youtube阿伟科技 6
-  server: 15.yun.tips
-  port: 38615
-  type: ssr
-  cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 3074:yWovEI
-  obfs-param: 7af673074.microsoft.com
-  udp: true
-- name: 1.98|AU 澳大利亚youtube阿伟科技 2
+- name: 1.47|美国youtube阿伟科技 36
   server: hnm.xiaohouzi.club
-  port: 47554
+  port: 23330
   type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: au01.xiaohouzi.club
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: freeus.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: 1.75|HK香港youtube阿伟科技 2
-  server: shct.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 45312
-  type: ss
-  cipher: aes-128-gcm
-  password: 305bba62-03fd-4346-aac9-b518f38c56aa
+- name: 0.91|美国V3youtube阿伟科技576
+  server: hn.xiaohouzi.club
+  port: 18723
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: aiyun03.xiaohouzi.club
+  skip-cert-verify: true
   udp: true
-- name: 1.68|youtube阿伟科技 14
-  server: 06.yun.tips
-  port: 38606
-  type: ssr
+- name: 0.91|AIPLC香港04youtube阿伟科技651
+  server: iplc.xiaohouzi.club
+  port: 20024
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: az-tr06.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 0.72|SGyoutube阿伟科技1
+  server: sg.swiftfalcon.app
+  port: 8444
+  password: shenmegui
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: ss
+  name: 0.44|SG新加坡2
+  server: 18.141.183.204
+  port: 443
   cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 3074:yWovEI
-  obfs-param: 7af673074.microsoft.com
+  password: amazonskr05
+- name: 0.42|AB新加坡03youtube阿伟科技589
+  server: hnm.xiaohouzi.club
+  port: 18633
+  type: trojan
+  password: 37db0893-129f-363d-bff2-4d6e276902bb
+  sni: avas03.xiaohouzi.club
+  skip-cert-verify: true
   udp: true
-- name: 1.53|youtube阿伟科技 13
-  server: 07.yun.tips
-  port: 38607
-  type: ssr
+- type: ss
+  name: 0.40|KR韩国2
+  server: 43.201.57.66
+  port: 443
   cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 3074:yWovEI
-  obfs-param: 7af673074.microsoft.com
+  password: amazonskr05
+- name: 0.37| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- name: 0.36| githubcomfreefq  日本东京Linode数据中心 3
+  server: ap-northeast-1.openssl3.com
+  port: 443
+  type: trojan
+  password: tune7jerky7HAYRICK
+  sni: ap-northeast-1.openssl3.com
+- name: 0.29|美国youtube阿伟科技 37
+  server: hnm.xiaohouzi.club
+  port: 17106
+  type: trojan
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  sni: sofia.xiaohouzi.club
+  skip-cert-verify: true
   udp: true
-- name: 1.41|HK 香港youtube阿伟科技 5
+- name: 0.28|HK 香港youtube阿伟科技 5
   server: hnm.xiaohouzi.club
   port: 19362
   type: trojan
@@ -97,30 +138,16 @@ proxies:
   sni: aws-hk03.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- name: 1.36|youtube阿伟科技 3
-  server: 13.yun.tips
-  port: 38613
-  type: ssr
-  cipher: aes-256-cfb
-  password: GjRQkK
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 3074:yWovEI
-  obfs-param: 7af673074.microsoft.com
-  udp: true
-- name: 0.84|DE 德国youtube阿伟科技
-  server: hn.xiaohouzi.club
-  port: 28389
+- name: 0.26|俄罗斯youtube阿伟科技 2
+  server: eu-east-ruo.openssl3.com
+  port: 443
   type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: ger01.xiaohouzi.club
+  password: 9KogHwaY7hVD
   skip-cert-verify: true
   udp: true
-- name: 0.25|US 美国youtube阿伟科技 3
-  server: hnn.xiaohouzi.club
-  port: 47454
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: dosig.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
+- name: 0.12| 中国1228845
+  server: 14.29.124.168
+  port: 24001
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
