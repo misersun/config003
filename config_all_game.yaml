@@ -1,57 +1,24 @@
 proxies:
-- name: 5.81|JP2
+- name: 5.72|JP 日本YouTubeaweikeji
   server: jp-am48-6.eqnode.net
   port: 8081
   type: ssr
-  password: eAokbaDN6
   cipher: aes-256-cfb
+  password: eAokbaDN6
   protocol: origin
   obfs: tls1.2_ticket_auth
-- type: ss
-  name: 5.77|KR韩国2
-  server: 43.201.31.131
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 4.77|KR韩国2
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 2.69|SG新加坡2
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 2.60|JPwmt122718
-  server: 85.208.108.60
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- type: ss
-  name: 2.57|JPwmt12276
-  server: 85.208.108.60
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 2.55|JP日本YouTubeaweikeji
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.57|JP日本YouTubeaweikeji
   server: 85.208.108.60
   port: 6697
   type: ss
   cipher: aes-256-gcm
   password: TEzjfAYq2IjtuoS
   udp: true
-- name: 2.27|CN1
-  server: r001.baipiaoxd.com
-  port: 19198
-  type: ss
-  password: gKXJa5qK6l
-  cipher: aes-256-gcm
 - type: ss
-  name: 1.93|USwmt12271
+  name: 2.26|USwmt12261
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -64,15 +31,44 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
+- name: 1.80|US 美国YouTubeaweikeji
+  server: 173.82.186.25
+  port: 50005
+  type: ssr
+  cipher: dummy
+  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
 - type: ss
-  name: 0.24|CNwmt122659
+  name: 1.47|SG新加坡1
+  server: 18.142.183.235
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.41|KR韩国1
+  server: 43.201.31.131
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.18|CNwmt122659
   server: 14.29.124.168
   port: 25295
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.23|SG新加坡1
-  server: 18.142.183.235
+  name: 0.15|KR韩国2
+  server: 43.201.57.66
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 0.12| 中国12281154
+  server: 14.29.124.168
+  port: 24005
+  type: ss
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
