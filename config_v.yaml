@@ -1,20 +1,83 @@
 proxies:
-- name: 5.37|南方新加坡6youtube阿伟科技650
-  server: 52.221.202.63
-  port: 17801
+- type: vmess
+  name: 2.87|US美国7
+  ws-opts:
+    path: /shares
+    headers:
+      host: la.awsbest.com
+  server: 162.159.135.42
+  port: 80
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 2.80| githubcomfreefq  美国CloudFlare公司CDN节点 9
+  server: get.tech
+  port: 80
   type: vmess
-  uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+- name: 2.77|US138youtube阿伟科技240
+  server: 154.37.152.120
+  port: 33440
+  type: vmess
+  uuid: 90b41a76-68c3-4d1a-f55d-e33fff885605
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /ghjsdhfjksdhfkjsdf
     headers:
-      Host: 52.221.202.63
+      Host: dm.toutiao.com
   udp: true
-- name: 1.72|US 美国YouTubeaweikeji 8
+- name: 2.45| SSRSUB美国V09付费推荐dljtfssrsub
+  server: cf.515188.xyz
+  port: 80
+  type: vmess
+  uuid: 695f885f-144b-4a6b-998a-885d9775d756
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.asuka.buzz
+- name: 2.45|US美国4youtube阿伟科技715
+  server: v47.toddns.tk
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v47-unlimitndxd
+    headers:
+      Host: v47.toddns.tk
+  udp: true
+- name: 1.85| v2rayfreeeuorg  美国CloudFlare节点 27
+  server: dns.cao.by
+  port: 80
+  type: vmess
+  uuid: cf00ee65-fa06-4472-a63f-2f841fc7bd63
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sshocean-us-1.nossl.cf
+- name: 1.75|US 美国YouTubeaweikeji 8
   server: 172.67.199.34
   port: 80
   type: vmess
@@ -29,8 +92,20 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 1.70| SSRSUB美国V09付费推荐dljtfssrsub
-  server: cf.515188.xyz
+- name: 1.62| githubcomfreefq  法国鲁贝OVH数据中心 23
+  server: 51.75.171.211
+  port: 80
+  type: vmess
+  uuid: 989b7bb6-3734-4723-bebe-2c3ff7423e46
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: 51.75.171.211
+- name: 1.61| SSRSUB美国V08付费推荐dljtfssrsub
+  server: http.download.yunzhongzhuan.com
   port: 80
   type: vmess
   uuid: 695f885f-144b-4a6b-998a-885d9775d756
@@ -41,73 +116,30 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: ssrsub.v03.asuka.buzz
-- name: 1.00|美国12201140youtube阿伟科技108
-  server: 172.67.199.34
-  port: 8880
-  type: vmess
-  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-  alterId: 0
+- type: vmess
+  name: 1.46|RU俄罗斯联邦
+  http-opts:
+    path:
+    - /
+  server: 176.119.159.245
+  port: 37672
+  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
+  alterId: '64'
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+  network: http
+- type: vmess
+  name: 1.42|US美国SG新加坡3
   ws-opts:
     path: /hkaa0
     headers:
-      Host: sg1021.hkaa0.tk
-  udp: true
-- name: 0.95| githubcomfreefq  美国CloudFlare公司CDN节点 17
-  server: 104.21.47.94
-  port: 80
-  type: vmess
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-  alterId: 0
+      host: sg1021.hkaa0.tk
+  server: 172.67.34.78
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
   cipher: auto
-  tls: false
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: 22223.daoxin.shop
-- name: 0.78| RelayDEDE37
-  server: de-v.sshmax.xyz
-  port: 80
-  type: vmess
-  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: de-v.sshmax.xyz
-- name: 0.52|白嫖04日本01youtube阿伟科技767
-  server: 43.206.228.93
-  port: 80
-  type: vmess
-  uuid: ed71c245-88af-484e-970c-29ac50637847
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 43.206.228.93
-  udp: true
-- name: 0.33| RelayRURU122
-  server: v10a.toddns.tk
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ZPKLSPJjLBEy
-  ws-headers:
-    Host: v10a.toddns.tk
-- name: 0.26|白嫖03新加坡1youtube阿伟科技907
+- name: 0.96| githubcomfreefq  新加坡Digital Ocean数据中心 7
   server: 178.128.86.198
   port: 80
   type: vmess
@@ -115,16 +147,69 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
+  ws-path: /
+  ws-headers:
+    Host: 178.128.86.198
+- name: 0.88| githubcomfreefq  俄罗斯莫斯科JustHost 11
+  server: v12a.toddns.tk
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nl-unlimitxxx
+  ws-headers:
+    Host: v12a.toddns.tk
+- type: vmess
+  name: 0.83|US美国SG新加坡2
   ws-opts:
-    path: /
+    path: /hkaa0
     headers:
-      Host: 178.128.86.198
-  udp: true
-- name: 0.19|稳定香港独享1youtube阿伟科技22
-  server: 43.154.182.177
-  port: 27643
+      host: sg1021.hkaa0.tk
+  server: 172.64.163.172
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 0.80|SG新加坡5
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+    headers:
+      host: zoom.us
+  server: sg-lb.vhax.net
+  port: 80
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.69| githubcomfreefq  台湾省中华电信HiNet数据中心 5
+  server: tw99-hinet.mynodes001.one
+  port: 554
+  type: vmess
+  uuid: c7d2d996-7159-3b34-8730-0bd396bfba7e
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 0.52|CY塞浦路斯RO罗马尼亚
+  ws-opts:
+    path: /aries
+    headers:
+      host: ro.cloudflare.quest
+  server: CSGO.COM
+  port: 2086
+  uuid: 0805caaf-bd20-45fd-c5f7-ef59756b4b6b
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.50|南方新加坡6youtube阿伟科技650
+  server: 52.221.202.63
+  port: 17801
   type: vmess
   uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
   alterId: 0
@@ -135,9 +220,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 43.154.182.177
+      Host: 52.221.202.63
   udp: true
-- name: 0.15|JP139youtube阿伟科技959
+- name: 0.47|JP139youtube阿伟科技959
   server: huclouds.ml
   port: 5505
   type: vmess
@@ -152,3 +237,64 @@ proxies:
     headers:
       Host: huclouds.ml
   udp: true
+- type: vmess
+  name: 0.42|SG新加坡3
+  ws-opts:
+    path: /hkaa0
+  server: 174.138.25.187
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.41| RelayDEDE37
+  server: de-v.sshmax.xyz
+  port: 80
+  type: vmess
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: de-v.sshmax.xyz
+- type: vmess
+  name: 0.31|RU俄罗斯联邦FR法国2
+  ws-opts:
+    path: /fr-unlimitxxx
+    headers:
+      host: v10a.toddns.tk
+  server: v10a.toddns.tk
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.19|FR 法国youtube阿伟科技
+  server: fr2.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fr2.v2rayserv.com
+  udp: true
+- name: 0.11| githubcomfreefq  日本  28
+  server: 43.206.228.93
+  port: 80
+  type: vmess
+  uuid: ed71c245-88af-484e-970c-29ac50637847
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 43.206.228.93
