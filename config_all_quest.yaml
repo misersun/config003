@@ -1,6 +1,55 @@
 proxies:
-- name: 4.95| 新加坡0102009
-  server: sg1.vfun.icu
+- type: ss
+  name: 5.14|SG新加坡2
+  server: 13.215.163.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 3.97| 香港HKTdip
+  server: 120.226.39.29
+  port: 13328
+  type: trojan
+  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
+  skip-cert-verify: true
+- name: 3.11|8
+  server: 43.207.66.188
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 2.51|JP日本7
+  server: 43.207.74.249
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 2.33|JP日本1
+  server: 43.207.1.14
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 1.94| 香港腾讯 2
+  server: 120.226.39.29
+  port: 17111
+  type: trojan
+  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
+  skip-cert-verify: true
+- name: 1.88| 香港腾讯
+  server: 120.226.39.29
+  port: 20018
+  type: trojan
+  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
+  skip-cert-verify: true
+- name: 1.60| OVH DE 001x 流媒体解锁
+  server: 141.95.61.209
+  port: 1145
+  type: trojan
+  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+  sni: wx.qq.com
+  skip-cert-verify: true
+- name: 1.58| 日本0104183
+  server: hk5.vfun.icu
   port: 443
   type: ssr
   cipher: aes-256-cfb
@@ -8,46 +57,17 @@ proxies:
   protocol: auth_aes128_sha1
   obfs: plain
   protocol-param: 16952:9bik8I
-  obfs-param: ''
-- type: ss
-  name: 4.77|SG新加坡1
-  server: 13.215.159.84
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 4.10| 香港HKTdip
-  server: 120.226.39.29
-  port: 13328
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- name: 2.79| 香港腾讯
-  server: 120.226.39.29
-  port: 20018
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- name: 2.50|US 美国YouTubeaweikeji 12
-  server: 173.82.186.25
-  port: 50005
-  type: ssr
-  cipher: dummy
-  password: IOSwgAYTREask(&1UHYTiq'&%12afSSR
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
+  obfs-param: c306116952.jd.hk
+- type: trojan
+  name: 1.44|JP日本9
+  server: jp-tk-32.fuckjdieng.uk
+  port: 50342
+  password: 14291005-87b6-4c5d-bc15-12d5c205c435
   udp: true
-- name: 2.47|HK 香港youtube阿伟科技 10
-  server: hn.xiaohouzi.club
-  port: 14185
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  sni: hktnew01.xiaohouzi.club
   skip-cert-verify: true
-  udp: true
+  network: tcp
 - type: ss
-  name: 1.97|USwmt12311
+  name: 1.43|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -60,35 +80,31 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
+- name: 1.38|Germany11youtube阿伟科技
+  server: r001.baipiaoxd.com
+  port: 22132
+  type: ss
+  cipher: aes-256-gcm
+  password: Mm9lWnREcEdxUFNISUVudVNmN3RLVlc4ZUJ3NktHTlQ=
+  udp: true
 - type: ss
-  name: 1.70|CA加拿大4
-  server: 51.161.118.38
-  port: 805
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- type: ss
-  name: 1.64|CA加拿大2
-  server: 51.161.118.38
-  port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- type: ss
-  name: 1.61|CA加拿大1
-  server: 51.161.118.38
-  port: 808
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 1.50| OVH DE 001x 流媒体解锁
-  server: 141.95.61.209
-  port: 1145
-  type: trojan
-  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-  sni: wx.qq.com
-  skip-cert-verify: true
-- type: ss
-  name: 1.24|JP日本6
-  server: 43.206.223.61
+  name: 1.06|SG新加坡3
+  server: 13.215.48.189
   port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: trojan
+  name: 1.04|JP日本12
+  server: 3.114.110.209
+  port: 50188
+  password: 7175732d-dee5-4e38-91e1-886f95c2b470
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- name: 1.02|43206223242443
+  server: 43.206.223.242
+  port: 443
+  type: ss
   cipher: aes-256-cfb
   password: amazonskr05
 - type: trojan
@@ -99,103 +115,63 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: tcp
-- name: 0.61|AU2
-  server: 43.201.51.15
+- type: trojan
+  name: 0.89|GBwmt12312
+  server: content-provider4.cdn-delivery.akamaicd.com
   port: 443
-  type: ss
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 0.57| 香港腾讯 4
-  server: 120.226.39.29
-  port: 17114
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  password: shefelnak
+  udp: true
   skip-cert-verify: true
 - type: trojan
-  name: 0.54|HK香港1
-  server: 20-255-57-225.ipv4.rush.ml
-  port: 8443
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  name: 0.84|JP日本10
+  server: jp-tk-32.fuckjdieng.uk
+  port: 50188
+  password: 7175732d-dee5-4e38-91e1-886f95c2b470
   udp: true
   skip-cert-verify: true
   network: tcp
-- name: 0.49| 香港腾讯 3
-  server: 120.226.39.29
-  port: 42541
+- name: 0.65|Singaporeyoutube阿伟科技
+  server: hnm.xiaohouzi.club
+  port: 17114
   type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  sni: azhk099.xiaohouzi.club
   skip-cert-verify: true
+  udp: true
 - type: ss
-  name: 0.39|KR韩国2
+  name: 0.43|KR韩国2
   server: 43.201.48.212
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- type: ss
-  name: 0.35|KR韩国3
-  server: 43.201.103.37
+- name: 0.33| githubcomfreefq  俄罗斯新西伯利亚justhost 5
+  server: eu-east-ruo.openssl3.com
   port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 0.33|SG新加坡3
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 0.25|43206223242443
-  server: 43.206.223.242
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 0.21|JP日本7
-  server: 43.207.74.249
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 0.18|JP日本1
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: trojan
-  name: 0.15|JP日本12
-  server: 3.114.110.209
-  port: 50188
-  password: 7175732d-dee5-4e38-91e1-886f95c2b470
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- name: 0.15| 香港腾讯 2
-  server: 120.226.39.29
-  port: 17111
   type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- type: trojan
-  name: 0.14|JP日本9
-  server: jp-tk-32.fuckjdieng.uk
-  port: 50342
-  password: 14291005-87b6-4c5d-bc15-12d5c205c435
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- name: 0.12|HK 香港youtube阿伟科技 11
-  server: hnm.xiaohouzi.club
-  port: 19355
+  password: 9KogHwaY7hVD
+  sni: eu-east-ruo.openssl3.com
+- name: 0.28|HK youtube阿伟科技 10
+  server: iplc.xiaohouzi.club
+  port: 20017
   type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  sni: a1.xiaohouzi.club
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  sni: aws-hk02.xiaohouzi.club
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: 0.11|JP日本10
-  server: jp-tk-32.fuckjdieng.uk
-  port: 50188
-  password: 7175732d-dee5-4e38-91e1-886f95c2b470
+- name: 0.27|0105新加坡162sgam3eqsunshinecom
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ====
+  obfs-param: ====
   udp: true
-  skip-cert-verify: true
-  network: tcp
+- type: ss
+  name: 0.12|KR韩国1
+  server: 43.201.57.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
