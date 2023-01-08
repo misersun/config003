@@ -1,73 +1,39 @@
 proxies:
-- type: ss
-  name: 5.14|SG新加坡2
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 3.97| 香港HKTdip
-  server: 120.226.39.29
-  port: 13328
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- name: 3.11|8
-  server: 43.207.66.188
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 2.51|JP日本7
-  server: 43.207.74.249
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 2.33|JP日本1
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 1.94| 香港腾讯 2
-  server: 120.226.39.29
-  port: 17111
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- name: 1.88| 香港腾讯
-  server: 120.226.39.29
-  port: 20018
-  type: trojan
-  password: f52e6827-d087-3fd0-9c66-ef87874c69ba
-  skip-cert-verify: true
-- name: 1.60| OVH DE 001x 流媒体解锁
-  server: 141.95.61.209
-  port: 1145
-  type: trojan
-  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-  sni: wx.qq.com
-  skip-cert-verify: true
-- name: 1.58| 日本0104183
-  server: hk5.vfun.icu
-  port: 443
+- name: 6.00|0105新加坡162sgam3eqsunshinecom
+  server: sg-am3.eqsunshine.com
+  port: 32001
   type: ssr
   cipher: aes-256-cfb
-  password: vyunme
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: 16952:9bik8I
-  obfs-param: c306116952.jd.hk
-- type: trojan
-  name: 1.44|JP日本9
-  server: jp-tk-32.fuckjdieng.uk
-  port: 50342
-  password: 14291005-87b6-4c5d-bc15-12d5c205c435
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ====
+  obfs-param: ====
   udp: true
-  skip-cert-verify: true
-  network: tcp
+- name: 3.29|RelaySingapore03youtube阿伟科技1121
+  server: 9bdc7f3764a60fb0.sanfen001.pics
+  port: 17525
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 38aefb1f-cf0d-4d10-8061-280fda1626f5
+  udp: true
+- name: 2.49|JP日本5youtube阿伟科技174
+  server: 85.208.108.60
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- type: ssr
+  name: 2.43|JPwmt123192
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  protocol: origin
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
 - type: ss
-  name: 1.43|USwmt12311
+  name: 2.24|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -80,7 +46,67 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
-- name: 1.38|Germany11youtube阿伟科技
+- type: ss
+  name: 2.16|KR韩国
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 1.71|44
+  server: 43.206.209.17
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: trojan
+  name: 1.17|GBwmt12312
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
+  password: shefelnak
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.17|NL荷兰
+  server: tj2.dalazhi.cyou
+  port: 443
+  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- name: 1.07| OVH DE 001x 流媒体解锁
+  server: 141.95.61.209
+  port: 1145
+  type: trojan
+  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+  sni: wx.qq.com
+  skip-cert-verify: true
+- name: 0.82|Poland 03youtube阿伟科技878
+  server: 51.83.186.142
+  port: 80
+  type: trojan
+  password: 555034c8-6420-45d0-893c-905c02342150
+  sni: pl1.trojanvh.xyz
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 0.62|JP日本5
+  server: 43.207.82.53
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.48|22
+  server: 13.214.210.171
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.38|JP日本4
+  server: 43.207.0.146
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.33|DEyoutube阿伟科技
   server: r001.baipiaoxd.com
   port: 22132
   type: ss
@@ -88,90 +114,26 @@ proxies:
   password: Mm9lWnREcEdxUFNISUVudVNmN3RLVlc4ZUJ3NktHTlQ=
   udp: true
 - type: ss
-  name: 1.06|SG新加坡3
-  server: 13.215.48.189
+  name: 0.31|SG新加坡3
+  server: 13.215.173.114
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- type: trojan
-  name: 1.04|JP日本12
-  server: 3.114.110.209
-  port: 50188
-  password: 7175732d-dee5-4e38-91e1-886f95c2b470
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- name: 1.02|43206223242443
-  server: 43.206.223.242
+- type: ss
+  name: 0.29|JP日本1
+  server: 43.207.1.14
   port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.23|SG新加坡1
+  server: 13.215.163.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.17|SSR 2
+  server: 14.29.124.168
+  port: 24005
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: trojan
-  name: 0.90|MN蒙古
-  server: 103.168.56.77
-  port: 443
-  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- type: trojan
-  name: 0.89|GBwmt12312
-  server: content-provider4.cdn-delivery.akamaicd.com
-  port: 443
-  password: shefelnak
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 0.84|JP日本10
-  server: jp-tk-32.fuckjdieng.uk
-  port: 50188
-  password: 7175732d-dee5-4e38-91e1-886f95c2b470
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- name: 0.65|Singaporeyoutube阿伟科技
-  server: hnm.xiaohouzi.club
-  port: 17114
-  type: trojan
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  sni: azhk099.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
-- type: ss
-  name: 0.43|KR韩国2
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 0.33| githubcomfreefq  俄罗斯新西伯利亚justhost 5
-  server: eu-east-ruo.openssl3.com
-  port: 443
-  type: trojan
-  password: 9KogHwaY7hVD
-  sni: eu-east-ruo.openssl3.com
-- name: 0.28|HK youtube阿伟科技 10
-  server: iplc.xiaohouzi.club
-  port: 20017
-  type: trojan
-  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-  sni: aws-hk02.xiaohouzi.club
-  skip-cert-verify: true
-  udp: true
-- name: 0.27|0105新加坡162sgam3eqsunshinecom
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  type: ssr
-  cipher: aes-256-cfb
-  password: 3g0dHlKME
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ====
-  obfs-param: ====
-  udp: true
-- type: ss
-  name: 0.12|KR韩国1
-  server: 43.201.57.30
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
