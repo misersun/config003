@@ -1,54 +1,78 @@
 proxies:
-- name: 3.56| 香港05
-  server: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  port: 8002
+- type: vmess
+  name: 4.96|TW台湾
+  server: hinet1261.gfwisbest.xyz
+  port: 224
+  uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 4.22|RelayHongKong04youtube阿伟科技269
+  server: hk80.sanfen001.pics
+  port: 80
   type: vmess
-  uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f
+  uuid: 38aefb1f-cf0d-4d10-8061-280fda1626f5
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: dl.delivery.mp.microsoft.com
-- name: 2.54| SSRSUB美国V07付费推荐dljtfssrsub
+  ws-opts:
+    path: /zh-cn/
+    headers:
+      Host: www.baidu.com
+  udp: true
+- name: 3.60|RelayHongKong05youtube阿伟科技272
+  server: hk80-2.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: 38aefb1f-cf0d-4d10-8061-280fda1626f5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zh-cn/
+    headers:
+      Host: www.baidu.com
+  udp: true
+- type: vmess
+  name: 3.12|HK香港1
+  http-opts:
+    path:
+    - /
+  server: 8.210.96.225
+  port: 29596
+  uuid: a8a20fa9-636e-4e4c-9739-4187beb0bb86
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.10|HK香港2
+  server: v1-hk.xtspeeder001.xyz
+  port: 18001
+  uuid: 7affa329-5e15-369e-8929-b6452cdf2616
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 3.05|US 美国youtube阿伟科技 17
   server: www.digitalocean.com
-  port: 80
-  type: vmess
-  uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.asuka.buzz
-- name: 2.38| US107
-  server: 51.81.202.62
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v47-unlimitndxd
-  ws-headers:
-    Host: 51.81.202.62
-- name: 2.16| SSRSUB美国V06付费推荐dljtfssrsub
-  server: cf.misakaf.org
   port: 8080
   type: vmess
   uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ovh.asuka.buzz
-- name: 2.04| SSRSUB美国V08付费推荐dljtfssrsub
-  server: http.download.yunzhongzhuan.com
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ssrsub.v01.asuka.buzz
+  udp: true
+- name: 2.48| githubcomfreefq  美国CloudFlare公司CDN节点 2
+  server: cf.515188.xyz
   port: 80
   type: vmess
   uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
@@ -59,62 +83,8 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: ssrsub.v03.asuka.buzz
-- name: 1.97|speednode0189youtube阿伟科技748
-  server: v47a.toddns.tk
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v47-unlimitndxd
-    headers:
-      Host: v47a.toddns.tk
-  udp: true
 - type: vmess
-  name: 1.97|KR韩国2
-  ws-opts:
-    path: /
-    headers:
-      host: 152.69.230.170
-  server: 152.69.230.170
-  port: 80
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 1.95|Romania 罗马尼亚youtube阿伟科技264
-  server: CSGO.COM
-  port: 2086
-  type: vmess
-  uuid: 0805caaf-bd20-45fd-c5f7-ef59756b4b6b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: ro.cloudflare.quest
-  udp: true
-- name: 1.93| v2rayfreeeuorg  加拿大安大略省多伦多DigitalOcean数据中心 4
-  server: 159.203.18.119
-  port: 80
-  type: vmess
-  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: 159.203.18.119
-- type: vmess
-  name: 1.91|US美国6
+  name: 1.80|US美国6
   ws-opts:
     path: /shares
     headers:
@@ -125,45 +95,7 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 1.62| RelayIRRU26
-  server: 185.143.233.215
-  port: 80
-  type: vmess
-  uuid: cf701c1b-f8a8-4c15-b50a-291eadd1a129
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /graphql
-  ws-headers:
-    Host: 41.zirogame-24.site
-- name: 1.54|US youtube阿伟科技 4
-  server: 174.138.25.187
-  port: 8880
-  type: vmess
-  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hkaa0
-    headers:
-      Host: 174.138.25.187
-  udp: true
-- type: vmess
-  name: 1.50|HK香港2
-  http-opts:
-    path:
-    - /
-  server: 47.242.174.112
-  port: 49564
-  uuid: 61a57665-7db8-424e-8cbf-b95f9dc9d799
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.30|USyoutube阿伟科技 7
+- name: 1.78|USyoutube阿伟科技 7
   server: guolicheng.cfd
   port: 2052
   type: vmess
@@ -178,31 +110,62 @@ proxies:
     headers:
       Host: us.hoox.cf
   udp: true
-- name: 1.18| SSRSUB美国V09付费推荐dljtfssrsub
-  server: cf.515188.xyz
+- name: 1.59|DE86youtube阿伟科技137
+  server: 188.40.132.112
   port: 80
   type: vmess
-  uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v03.asuka.buzz
-- name: 0.94|RelayZZPL117
-  server: visa.cn
-  port: 2086
+  ws-opts:
+    path: /p3573l6m92h1ham3q23t
+    headers:
+      Host: 188.40.132.112
+  udp: true
+- name: 1.30|JPyoutube阿伟科技 2
+  server: jp-01.legeth.tk
+  port: 80
   type: vmess
-  uuid: 00bcc99b-7dc1-4dba-a4c4-ccb46dbd72a2
+  uuid: 664be14f-1729-463b-855b-801943630c8d
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: waw.cloudflare.quest
-- name: 0.94| v2rayfreeeuorg  俄罗斯莫斯科JustHost 6
+  ws-opts:
+    path: /
+    headers:
+      Host: jp-01.legeth.tk
+  udp: true
+- type: vmess
+  name: 1.15|SG新加坡2
+  ws-opts:
+    path: /hkaa0
+  server: 174.138.25.187
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.96|US 美国youtube阿伟科技 11
+  server: 172.67.199.34
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/fdfadsfa/63848bfe228fd/
+    headers:
+      Host: us-lb.sshkit.org
+  udp: true
+- name: 0.92|SSRSUBV03付费推荐suoytssrsub
   server: v12a.toddns.tk
   port: 80
   type: vmess
@@ -214,23 +177,8 @@ proxies:
   ws-path: /nl-unlimitxxx
   ws-headers:
     Host: v12a.toddns.tk
-- name: 0.84|越南0104074youtube阿伟科技12
-  server: 103.237.145.61
-  port: 80
-  type: vmess
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 103.237.145.61
-  udp: true
 - type: vmess
-  name: 0.36|IR伊朗
+  name: 0.86|IR伊朗
   ws-opts:
     path: /websocket/
   server: 37.32.23.122
@@ -239,8 +187,71 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 0.18| SSRSUB日本V10付费推荐dljtfssrsub
+- name: 0.84| SSRSUB美国V07付费推荐dljtfssrsub
   server: www.digitalocean.com
+  port: 80
+  type: vmess
+  uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.asuka.buzz
+- name: 0.81|越南youtube阿伟科技571
+  server: vn-01.legeth.tk
+  port: 80
+  type: vmess
+  uuid: 664be14f-1729-463b-855b-801943630c8d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vn-01.legeth.tk
+  udp: true
+- type: vmess
+  name: 0.54|KR韩国2
+  ws-opts:
+    path: /
+    headers:
+      host: 152.69.230.170
+  server: 152.69.230.170
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 0.46| RelayRUFR123
+  server: 45.136.244.181
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fr-unlimitxxx
+  ws-headers:
+    Host: 45.136.244.181
+- name: 0.44| SSRSUB美国V08付费推荐dljtfssrsub
+  server: http.download.yunzhongzhuan.com
+  port: 80
+  type: vmess
+  uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v03.asuka.buzz
+- name: 0.28| SSRSUB日本V12付费推荐dljtfssrsub
+  server: cf.515188.xyz
   port: 8080
   type: vmess
   uuid: 930eaab6-5a04-48fb-9c15-7545ab3ec0bd
@@ -251,7 +262,7 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: ssrsub.v02.asuka.buzz
-- name: 0.17| SSRSUB日本V11付费推荐dljtfssrsub
+- name: 0.26| SSRSUB日本V11付费推荐dljtfssrsub
   server: http.download.yunzhongzhuan.com
   port: 8080
   type: vmess
@@ -263,15 +274,3 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: ssrsub.v02.asuka.buzz
-- name: 0.12| RelayUSNL88
-  server: fnwaubdu.marisalnc.com
-  port: 2095
-  type: vmess
-  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /funsdfrh
-  ws-headers:
-    Host: fnwaubdu.marisalnc.com
