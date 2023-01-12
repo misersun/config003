@@ -1,5 +1,5 @@
 proxies:
-- name: 4.10|新加坡youtube阿伟科技 2
+- name: 3.14|新加坡youtube阿伟科技 2
   server: sg-am3.eqsunshine.com
   port: 32001
   type: ssr
@@ -7,6 +7,17 @@ proxies:
   password: 3g0dHlKME
   protocol: origin
   obfs: tls1.2_ticket_auth
-  protocol-param: ===%%
-  obfs-param: ===%%
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 0.21|USyoutube阿伟科技
+  server: ssrfree.zhujicn2.net
+  port: 10002
+  type: ssr
+  cipher: aes-256-cfb
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ====
+  obfs-param: ====
   udp: true
