@@ -1,35 +1,24 @@
 proxies:
-- name: 10.58| HKIPLC22
-  server: yd-07.paofunlink.com
-  port: 5988
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 10.33| HKIPLC19
-  server: yd-07.paofunlink.com
-  port: 5986
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 10.22| Hongkong 100
-  server: yd-06.paofunlink.com
-  port: 5983
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 9.55| HKIPLC16
+- name: 4.56| 香港 06
+  server: dl-hk6.efyunpan.com
+  port: 443
+  type: trojan
+  password: 36b85d53-5fa7-4aca-bc92-9ed75d77e1b6
+  sni: data-hk.efyunpan.com
+- name: 3.73| Korea1韩国一
+  server: frontend.yijianlian.app
+  port: 54580
+  type: trojan
+  password: 08bd2e4c-83df-403b-a66a-1a7b08a135ac
+  sni: frontend.yijianlian.app
+  skip-cert-verify: true
+- name: 2.89| 新加坡 04
+  server: dl-sg4.efyunpan.com
+  port: 443
+  type: trojan
+  password: 36b85d53-5fa7-4aca-bc92-9ed75d77e1b6
+  sni: data-sg.efyunpan.com
+- name: 2.72| HKIPLC16
   server: yd-01.paofunlink.com
   port: 5981
   type: ss
@@ -39,9 +28,16 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- name: 9.20| Hong Kong 1
-  server: yd-01.paofunlink.com
-  port: 5982
+- name: 2.65| Singapore1新加坡VIP1
+  server: frontend.yijianlian.app
+  port: 54550
+  type: trojan
+  password: 08bd2e4c-83df-403b-a66a-1a7b08a135ac
+  sni: frontend.yijianlian.app
+  skip-cert-verify: true
+- name: 2.49| HKIPLC19
+  server: yd-07.paofunlink.com
+  port: 5986
   type: ss
   cipher: rc4-md5
   password: Paofu
@@ -49,15 +45,37 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- type: ssr
-  name: 6.30|SG新加坡2
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: 3g0dHlKME
-- name: 5.53| Taiwan 44
+- name: 2.48| 新加坡 03
+  server: dl-sg3.efyunpan.com
+  port: 443
+  type: trojan
+  password: 36b85d53-5fa7-4aca-bc92-9ed75d77e1b6
+  sni: data-sg.efyunpan.com
+- name: 2.07| Hongkong 100
+  server: yd-06.paofunlink.com
+  port: 5983
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- name: 2.06|JPyoutube阿伟科技
+  server: 85.208.108.60
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 1.82|9
+  server: 43.207.2.60
+  port: 443
+  type: trojan
+  password: hfjlmL5z
+  sni: cn.bing.com
+  skip-cert-verify: true
+- name: 1.70| Taiwan 44
   server: yd-05.paofunlink.com
   port: 1170
   type: ss
@@ -67,15 +85,8 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- name: 2.53|JPyoutube阿伟科技 4
-  server: 85.208.108.60
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
 - type: ss
-  name: 2.09|USwmt12311
+  name: 1.59|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -88,7 +99,119 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
-- name: 1.82|241usyoutube阿伟科技 2
+- name: 1.22|HK youtube阿伟科技
+  server: hk.swiftfalcon.app
+  port: 28893
+  type: trojan
+  password: shenmegui
+  sni: hk.swiftfalcon.app
+  skip-cert-verify: true
+  udp: true
+- name: 1.07|台湾TW02全中轉流媒體youtube阿伟科技
+  server: ctcc.kuaiyin.uk
+  port: 15629
+  type: trojan
+  password: 502c2e32-58dc-3ac8-8c96-4782ae88f1a0
+  sni: eplcgame.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.00| Germany 3  NF D   备用
+  server: 141.95.61.209
+  port: 1145
+  type: trojan
+  password: be9cc8d4-5fbe-42bc-8b40-5d5d3a9542fa
+  sni: wx.qq.com
+  skip-cert-verify: true
+- name: 0.99| Hongkong香港VIP
+  server: frontend.yijianlian.app
+  port: 54570
+  type: trojan
+  password: 08bd2e4c-83df-403b-a66a-1a7b08a135ac
+  sni: frontend.yijianlian.app
+  skip-cert-verify: true
+- name: 0.66| Russia俄罗斯
+  server: frontend.yijianlian.app
+  port: 54510
+  type: trojan
+  password: 08bd2e4c-83df-403b-a66a-1a7b08a135ac
+  sni: frontend.yijianlian.app
+  skip-cert-verify: true
+- name: 0.59|US美国youtube阿伟科技 5
+  server: 38.107.226.146
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  udp: true
+- type: trojan
+  name: 0.59|FR法国
+  server: www.stream.shoppingitalia.live
+  port: 1935
+  password: 392f8755-75e7-481e-927e-0f3aae34234e
+  udp: true
+  skip-cert-verify: true
+  sni: www.stream.shoppingitalia.live
+  network: tcp
+- type: trojan
+  name: 0.54|HK香港4
+  server: ahgjs-4-tr-0.hkg-01.o-two.xyz
+  port: 889
+  password: pwFXfxfdJrFWapJKBYMJRbZuijrHPOpM
+  udp: true
+  skip-cert-verify: true
+  sni: o-two.bond
+  network: tcp
+- name: 0.52| HKIPLC22
+  server: yd-07.paofunlink.com
+  port: 5988
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: trojan
+  name: 0.51|USwmt123126
+  server: ust3.sshocean.net
+  port: 443
+  password: 2b7a055e-5b0a-44bd-901b-5577e61aa832
+  udp: true
+  skip-cert-verify: true
+- name: 0.49| HKIPLC18
+  server: yd-06.paofunlink.com
+  port: 5985
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: ss
+  name: 0.47|SG新加坡3
+  server: 13.214.212.124
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.37|sg新加坡youtube阿伟科技
+  server: 9bdc7f3764a60fb0.sanfen001.pics
+  port: 17525
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 18f6956e-4340-43ba-8b0e-ca9554f4b339
+  udp: true
+- name: 0.26| Hong Kong 1
+  server: yd-01.paofunlink.com
+  port: 5982
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- name: 0.24|241usyoutube阿伟科技 2
   server: 173.82.235.124
   port: 60000
   type: ssr
@@ -100,58 +223,22 @@ proxies:
   obfs-param: ''
   udp: true
 - type: ss
-  name: 1.77|SG新加坡3
+  name: 0.18|SG新加坡3
   server: 13.215.163.54
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 1.25| Germany 3  NF D   备用
-  server: 141.95.61.209
-  port: 1145
-  type: trojan
-  password: be9cc8d4-5fbe-42bc-8b40-5d5d3a9542fa
-  sni: wx.qq.com
-  skip-cert-verify: true
-- name: 1.08|专线香港1youtube阿伟科技2
-  server: pvt-hka.ginfem.net
-  port: 10016
-  type: ssr
-  cipher: aes-256-cfb
-  password: hrkycyiepu
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5128:TFFomV
-  obfs-param: 12db25128.ikea.com
-  udp: true
-- name: 1.02|9
-  server: 43.207.2.60
+- type: ss
+  name: 0.17|KR韩国3
+  server: 43.201.72.64
   port: 443
-  type: trojan
-  password: hfjlmL5z
-  sni: cn.bing.com
-  skip-cert-verify: true
+  cipher: aes-256-cfb
+  password: amazonskr05
 - type: trojan
-  name: 0.89|SG新加坡1
+  name: 0.16|SG新加坡1
   server: f5465c4.pg.gladns.com
   port: 3389
   password: 0c6a3341e8d5ab17
   udp: true
   skip-cert-verify: true
   network: tcp
-- type: trojan
-  name: 0.84|USwmt123126
-  server: ust3.sshocean.net
-  port: 443
-  password: 2b7a055e-5b0a-44bd-901b-5577e61aa832
-  udp: true
-  skip-cert-verify: true
-- name: 0.83| HKIPLC18
-  server: yd-06.paofunlink.com
-  port: 5985
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
