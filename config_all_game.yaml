@@ -1,15 +1,12 @@
 proxies:
-- name: 10.59| Hongkong 100
-  server: yd-06.paofunlink.com
-  port: 5983
+- name: 4.58|sg新加坡youtube阿伟科技
+  server: 9bdc7f3764a60fb0.sanfen001.pics
+  port: 17525
   type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 6.92| HKIPLC19
+  cipher: chacha20-ietf-poly1305
+  password: 18f6956e-4340-43ba-8b0e-ca9554f4b339
+  udp: true
+- name: 2.97| HKIPLC19
   server: yd-07.paofunlink.com
   port: 5986
   type: ss
@@ -19,36 +16,27 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- name: 6.69| HKIPLC16
-  server: yd-01.paofunlink.com
-  port: 5981
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 6.30| Hong Kong 1
-  server: yd-01.paofunlink.com
-  port: 5982
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 4.96|sg新加坡youtube阿伟科技
-  server: 9bdc7f3764a60fb0.sanfen001.pics
-  port: 17525
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 18f6956e-4340-43ba-8b0e-ca9554f4b339
+- name: 2.82|300新加坡youtube阿伟科技 2
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
   udp: true
-- name: 4.69| HKIPLC22
-  server: yd-07.paofunlink.com
-  port: 5988
+- name: 2.17|JPyoutube阿伟科技
+  server: 85.208.108.60
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 2.03| Hongkong 100
+  server: yd-06.paofunlink.com
+  port: 5983
   type: ss
   cipher: rc4-md5
   password: Paofu
@@ -56,7 +44,32 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- name: 2.93| Taiwan 44
+- name: 2.03|241usyoutube阿伟科技 2
+  server: 173.82.235.124
+  port: 60000
+  type: ssr
+  cipher: dummy
+  password: fdsfdsnqwjhasnbwhubfabda
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ss
+  name: 2.00|USwmt12311
+  server: oracleV2RAY.WdWmt.repl.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: E1u3UX7UsjCt
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    mux: true
+    skip-cert-verify: true
+    path: /
+    host: oracleV2RAY.WdWmt.repl.co
+    tls: true
+- name: 1.03| Taiwan 44
   server: yd-05.paofunlink.com
   port: 1170
   type: ss
@@ -66,101 +79,7 @@ proxies:
   plugin-opts:
     mode: http
     host: 37f7e180722.microsoft.com
-- name: 2.62|JPyoutube阿伟科技
-  server: 85.208.108.60
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 1.86|US美国youtube阿伟科技 9
-  server: 38.107.226.146
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: 1.61|US美国youtube阿伟科技 12
-  server: 38.107.226.146
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 1.60|US美国youtube阿伟科技 4
-  server: 38.107.226.146
-  port: 3306
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 1.45|US美国youtube阿伟科技 5
-  server: 38.107.226.146
-  port: 8091
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 1.42|US美国youtube阿伟科技
-  server: 38.107.226.146
-  port: 5004
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
-- type: ss
-  name: 1.03|SG新加坡3
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: 1.00|CNwmt1231138
-  server: 14.29.124.168
-  port: 25220
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.86|CNwmt123172
-  server: 14.29.124.168
-  port: 25296
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.86|CNwmt1231132
-  server: 14.29.124.168
-  port: 25279
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.71|CN中国4
-  server: 14.29.124.168
-  port: 25217
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.69|CNwmt1231140
-  server: 14.29.124.168
-  port: 25268
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.65|CNwmt1231135
-  server: 14.29.124.168
-  port: 25261
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.60| HKIPLC18
-  server: yd-06.paofunlink.com
-  port: 5985
-  type: ss
-  cipher: rc4-md5
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 37f7e180722.microsoft.com
-- name: 0.56|专线香港1youtube阿伟科技2
+- name: 1.03|专线香港1youtube阿伟科技2
   server: pvt-hka.ginfem.net
   port: 10016
   type: ssr
@@ -172,62 +91,122 @@ proxies:
   obfs-param: 12db25128.ikea.com
   udp: true
 - type: ss
-  name: 0.42|CNwmt1231143
+  name: 1.00|CNwmt1231142
   server: 14.29.124.168
-  port: 25219
+  port: 25252
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.41|CNwmt1231145
-  server: 14.29.124.168
-  port: 25284
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.31|CNwmt1231137
+  name: 0.94|CNwmt1231137
   server: 14.29.124.168
   port: 25272
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 0.72|US美国youtube阿伟科技 4
+  server: 38.107.226.146
+  port: 3306
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 0.61|US美国youtube阿伟科技 12
+  server: 38.107.226.146
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 0.58|US美国youtube阿伟科技
+  server: 38.107.226.146
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 0.51| Hong Kong 1
+  server: yd-01.paofunlink.com
+  port: 5982
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
 - type: ss
-  name: 0.29|CNwmt123171
+  name: 0.36|CNwmt1231135
   server: 14.29.124.168
-  port: 25235
+  port: 25261
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.29| HKIPLC22
+  server: yd-07.paofunlink.com
+  port: 5988
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: ss
+  name: 0.25|KR韩国3
+  server: 43.201.72.64
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.22| HKIPLC18
+  server: yd-06.paofunlink.com
+  port: 5985
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- name: 0.20| HKIPLC16
+  server: yd-01.paofunlink.com
+  port: 5981
+  type: ss
+  cipher: rc4-md5
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: ss
+  name: 0.20|CNwmt1231136
+  server: 14.29.124.168
+  port: 25280
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.28|CNwmt1231133
+  name: 0.20|SG新加坡3
+  server: 13.215.163.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.18|JP5417822017201152023f6bc252ss
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ===%%
+  obfs-param: ===%%
+  udp: true
+- type: ss
+  name: 0.14|CNwmt1231147
   server: 14.29.124.168
-  port: 25287
+  port: 25251
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.23|CNwmt1231144
-  server: 14.29.124.168
-  port: 25270
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.19|CNwmt1231141
-  server: 14.29.124.168
-  port: 25226
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.16|CNwmt1231148
-  server: 14.29.124.168
-  port: 25233
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.13|CNwmt1231134
-  server: 14.29.124.168
-  port: 25238
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.12|CNwmt1231139
-  server: 14.29.124.168
-  port: 25210
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  name: 0.11|SG新加坡3
+  server: 13.214.212.124
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
