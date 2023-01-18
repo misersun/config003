@@ -1,130 +1,38 @@
 proxies:
-- name: 4.25| 新加坡 04
-  server: dl-sg4.efyunpan.com
-  port: 443
-  type: trojan
-  password: 36b85d53-5fa7-4aca-bc92-9ed75d77e1b6
-  sni: data-sg.efyunpan.com
-- name: 2.21| 新加坡 03
-  server: dl-sg3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 36b85d53-5fa7-4aca-bc92-9ed75d77e1b6
-  sni: data-sg.efyunpan.com
+- name: 6.36|300新加坡youtube阿伟科技 2
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
 - type: vmess
-  name: 2.09|HK香港8
+  name: 4.13|HK香港2
   http-opts:
     path:
     - /
-  server: 47.242.168.12
-  port: 35482
-  uuid: c6b5d490-5aee-49c7-bbce-699ad9e10507
+  server: 8.210.140.81
+  port: 24447
+  uuid: ef97abb8-c32a-4c36-8ffd-40dfffb8dd30
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.08| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶46
-  server: 172.67.201.14
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 2.06| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶43
-  server: ovh-3.555530.xyz
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.96| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶48
-  server: 172.67.169.131
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.85| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN
-  server: 188.114.99.9
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.83| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶411
-  server: 104.21.50.84
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.79| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶17CDN
-  server: 203.24.108.8
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
 - type: vmess
-  name: 1.78|US美国5
-  ws-opts:
-    path: /chat
-  server: vus4.0bad.com
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  name: 3.80|HK香港4
+  http-opts:
+    path:
+    - /
+  server: 8.210.126.138
+  port: 57070
+  uuid: 3727c689-134d-4b70-8962-9428225a79aa
   alterId: '0'
   cipher: auto
-  network: ws
-  tls: true
-- name: 1.77| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶19CDN
-  server: 185.162.228.228
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.75| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶19CDN
+  network: http
+- name: 3.10| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶19CDN
   server: 198.41.203.7
   port: 443
   type: vmess
@@ -137,47 +45,21 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash6.ssr-free.xyz
-- name: 1.74| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15
-  server: 172.67.164.125
+- name: 3.08| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
+  server: 141.101.115.120
   port: 443
   type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /AUIKN8AU
+    path: /dongtaiwang.com
     headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.72| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶11
-  server: 162.159.137.2
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.63| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶213CDN
-  server: 190.93.245.3
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.62| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶16CDN
-  server: 203.30.188.188
+      Host: clash6.ssr-free.xyz
+- name: 3.06| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶112CDN
+  server: 190.93.244.2
   port: 443
   type: vmess
   uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
@@ -189,49 +71,36 @@ proxies:
     path: /ECTCJ0DF
     headers:
       Host: lg1.trump2023.us
-- name: 1.62| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN15
-  server: 198.41.203.6
-  port: 443
+- name: 2.90|US youtube阿伟科技 4
+  server: 152.67.254.16
+  port: 43815
   type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-- name: 1.62| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶41
-  server: wvvww.com
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.61|US youtube阿伟科技 3
-  server: 134.195.211.174
-  port: 40551
-  type: vmess
-  uuid: e9e20e42-b06e-4c7b-b54b-c779418d373a
+  uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /abc
     headers:
-      Host: 134.195.211.174
+      Host: 152.67.254.16
   udp: true
-- name: 1.58| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶16
-  server: 172.67.164.123
+- name: 2.87| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶17CDN
+  server: 203.24.108.8
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.86| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2
+  server: cfspeed.areyouikun.com
   port: 443
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -243,20 +112,7 @@ proxies:
     path: /AUIKN8AU
     headers:
       Host: oplg1.cfcdn2.xyz
-- name: 1.57| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶410
-  server: 172.67.70.22
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.55| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶11CDN
+- name: 2.80| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶11CDN
   server: 203.30.191.191
   port: 443
   type: vmess
@@ -269,6 +125,996 @@ proxies:
     path: /ECTCJ0DF
     headers:
       Host: lg1.trump2023.us
+- name: 2.78| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶16CDN
+  server: 203.30.188.188
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.77|US youtube阿伟科技 12
+  server: blog.voewl.com
+  port: 43815
+  type: vmess
+  uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /abc
+    headers:
+      Host: blog.voewl.com
+  udp: true
+- name: 2.71| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶15CDN
+  server: 203.30.189.189
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.69|JP5417822017201152023f6bc252ss
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ===%%
+  obfs-param: ===%%
+  udp: true
+- name: 2.59| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1
+  server: 162.159.137.21
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- type: vmess
+  name: 2.57|HK香港6
+  http-opts:
+    path:
+    - /
+  server: 8.210.48.219
+  port: 26812
+  uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.54| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶412
+  server: 172.67.203.162
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.53| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶42
+  server: yjz.hk
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.48| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶18
+  server: 172.67.135.55
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.48| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶48
+  server: 172.67.169.131
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.48| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶15
+  server: 172.67.164.125
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.47| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶12CDN
+  server: 141.101.114.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 2.45| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶213CDN
+  server: 190.93.245.3
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.44| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶21CDN
+  server: 203.30.191.192
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.44| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶110CDN
+  server: 141.101.115.30
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.44| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶211CDN
+  server: 141.101.114.31
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.42| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN
+  server: 188.114.99.9
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.39| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶43
+  server: ovh-3.555530.xyz
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.38| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶44
+  server: 172.67.45.144
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.33| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶214CDN
+  server: 190.93.246.3
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- type: vmess
+  name: 2.33|US美国1
+  ws-opts:
+    path: /chat
+  server: vus2.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 2.29| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶23CDN
+  server: 23.227.38.39
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.26| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶14CDN
+  server: 203.30.190.190
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.25| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶212CDN
+  server: 190.93.244.3
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.21| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶46
+  server: 172.67.201.14
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.20| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶19CDN
+  server: 185.162.228.228
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 2.16|US youtube阿伟科技 38
+  server: cf.fastal.one
+  port: 8443
+  type: vmess
+  uuid: 3bba7cb9-20db-4604-dfdc-71dde392c50c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /https://t.me/yunjisuan888/
+    headers:
+      Host: yjs.fastal.one
+  udp: true
+- name: 2.09| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶27CDN
+  server: 203.24.108.9
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.07| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶45
+  server: 172.67.145.166
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.07| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 2.07| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶19
+  server: 104.18.3.35
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.06| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶24CDN
+  server: 203.30.190.191
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 2.06| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶41
+  server: wvvww.com
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.03| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶9
+  server: 104.29.64.36
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 2.02|越南youtube阿伟科技
+  server: 103.167.196.8
+  port: 80
+  type: vmess
+  uuid: 56716a96-a265-448c-8969-03e626889580
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.167.196.8
+  udp: true
+- name: 2.00|US youtube阿伟科技 52
+  server: trny.ballistics.top
+  port: 443
+  type: trojan
+  password: fcc3eaad-60be-42e1-86be-7b0103c13493
+  sni: trny.ballistics.top
+  skip-cert-verify: true
+  udp: true
+- name: 1.97| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶11
+  server: 162.159.137.2
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.94| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶28CDN
+  server: 66.235.200.21
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 1.88| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶114CDN
+  server: 190.93.246.2
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- type: trojan
+  name: 1.86|GBwmt12312
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
+  password: shefelnak
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 1.85|SG新加坡1
+  ws-opts:
+    path: /hkaa0
+  server: 174.138.25.187
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 1.81| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶20
+  server: 104.18.3.33
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.81| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶25CDN
+  server: 203.30.189.190
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 1.78| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶3
+  server: 104.29.64.14
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.78|US youtube阿伟科技 8
+  server: 172.67.199.34
+  port: 80
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/fdfadsfa/63848bfe228fd/
+    headers:
+      Host: us-lb.sshkit.org
+  udp: true
+- name: 1.78| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
+  server: 141.101.114.110
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 1.76|US美国youtube阿伟科技 16
+  server: guolicheng.cfd
+  port: 2052
+  type: vmess
+  uuid: c22b6896-0009-42bf-c787-cc4695261bb9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /video?ed=2048
+    headers:
+      Host: us.hoox.cf
+  udp: true
+- name: 1.73| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶16
+  server: 172.67.164.123
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.72|fr youtube阿伟科技
+  server: 172.67.127.250
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+  udp: true
+- name: 1.72|法国youtube科技
+  server: news.microsoft.com
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+  udp: true
+- name: 1.71|US youtube阿伟科技 30
+  server: 135.125.190.21
+  port: 2052
+  type: vmess
+  uuid: 5153acf2-62be-4219-f1c6-d6cfa4be45f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 135.125.190.21
+  udp: true
+- name: 1.71|SG youtube阿伟科技
+  server: xjp4h.mayaa.ml
+  port: 443
+  type: vmess
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dsadsa1dsadsa33434
+    headers:
+      Host: xjp4h.mayaa.ml
+  udp: true
+- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶5
+  server: 104.29.64.3
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.71| githubcomfreefq  美国CloudFlare公司CDN节点 28
+  server: hohm.microsoft.com
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /9JZFDTKE
+  ws-headers:
+    Host: fr1.trump2023.org
+- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶111CDN
+  server: 141.101.114.30
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 1.69| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶417
+  server: 198.41.212.12
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.69| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN115
+  server: 190.93.246.195
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.68| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶6
+  server: 104.29.64.4
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.67|RU youtube阿伟科技
+  server: els200.jslist.tk
+  port: 8443
+  type: vmess
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /wo.php
+    headers:
+      Host: els200.jslist.tk
+  udp: true
+- name: 1.65| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶14
+  server: 198.41.212.14
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.65| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1
+  server: 141.101.115.111
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+- name: 1.65| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13
+  server: 198.41.212.122
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+- name: 1.64| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12
+  server: 162.159.137.3
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.62| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶13CDN
+  server: 23.227.38.38
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 1.60|FRyoutube阿伟科技 3
+  server: v140.toddns.tk
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fr-unlimitxxx
+    headers:
+      Host: v140.toddns.tk
+  udp: true
+- name: 1.60|SG youtube阿伟科技 6
+  server: cf-lt.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: sg-gcore.sharecentre.online
+  udp: true
+- name: 1.60| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN12
+  server: 141.101.114.111
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+- name: 1.60| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶310CDN
+  server: 141.101.114.32
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.59| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN13
+  server: 141.101.115.134
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.58| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶49
+  server: 104.26.14.53
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.57| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶210CDN
+  server: 185.162.228.229
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 1.57| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶22CDN
+  server: 188.114.99.10
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 1.57|SG youtube阿伟科技 4
+  server: 141.193.213.10
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: sg-gcore.sharecentre.online
+  udp: true
+- name: 1.54| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶315CDN
+  server: 190.93.245.4
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.54| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶314CDN
+  server: 190.93.246.4
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- type: vmess
+  name: 1.52|SG新加坡2
+  ws-opts:
+    path: /hkaa0
+  server: sg1021.hkaa0.tk
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: '0'
+  cipher: auto
+  network: ws
 - name: 1.51|FR youtube阿伟科技 3
   server: main.millionaireaisle.com
   port: 443
@@ -284,284 +1130,47 @@ proxies:
     headers:
       Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 1.50| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶22CDN
-  server: 188.114.99.10
+- name: 1.51|FR youtube阿伟科技 2
+  server: cacerts.digicert.com
   port: 443
   type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.48| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶13CDN
-  server: 23.227.38.38
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.47|US youtube阿伟科技 12
-  server: blog.voewl.com
-  port: 43815
-  type: vmess
-  uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /abc
-    headers:
-      Host: blog.voewl.com
-  udp: true
-- name: 1.46| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶14
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.46| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶18
-  server: 172.67.135.55
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.44| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶44
-  server: 172.67.45.144
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- type: vmess
-  name: 1.43|HK香港6
-  http-opts:
-    path:
-    - /
-  server: 8.210.48.219
-  port: 26812
-  uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.37| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶112CDN
-  server: 190.93.244.2
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.34| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶113CDN
-  server: 190.93.245.2
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.33| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶49
-  server: 104.26.14.53
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.33| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶17
-  server: 172.67.135.57
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.31| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶21CDN
-  server: 203.30.191.192
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.29| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶14CDN
-  server: 203.30.190.190
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.29|US美国youtube阿伟科技 16
-  server: guolicheng.cfd
-  port: 2052
-  type: vmess
-  uuid: c22b6896-0009-42bf-c787-cc4695261bb9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /video?ed=2048
-    headers:
-      Host: us.hoox.cf
-  udp: true
-- name: 1.27| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶24CDN
-  server: 203.30.190.191
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.27| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶12
-  server: 162.159.137.3
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.25| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶23CDN
-  server: 23.227.38.39
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.24| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶25CDN
-  server: 203.30.189.190
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.24| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶9
-  server: 104.29.64.36
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.23| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶114CDN
-  server: 190.93.246.2
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.21|SG youtube阿伟科技
-  server: xjp4h.mayaa.ml
-  port: 443
-  type: vmess
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /dsadsa1dsadsa33434
+    path: /IYKLD53M
     headers:
-      Host: xjp4h.mayaa.ml
+      Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 1.20| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶10
+- name: 1.49| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN114
+  server: 190.93.245.170
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.46| githubcomfreefq  美国得克萨斯州 23
+  server: 34.145.145.76
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+- name: 1.46| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶10
   server: 104.29.64.37
   port: 443
   type: vmess
@@ -574,62 +1183,30 @@ proxies:
     path: /AUIKN8AU
     headers:
       Host: oplg1.cfcdn2.xyz
-- name: 1.18| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶28CDN
-  server: 66.235.200.21
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.17| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2
-  server: cfspeed.areyouikun.com
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.15| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶110CDN
-  server: 141.101.115.30
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 1.15|FRyoutube阿伟科技
-  server: 141.193.213.20
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
+- type: trojan
+  name: 1.45|HK香港4
+  server: ahgjs-4-tr-0.hkg-01.o-two.xyz
+  port: 889
+  password: pwFXfxfdJrFWapJKBYMJRbZuijrHPOpM
   udp: true
-- name: 1.14| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
-  server: 141.101.114.110
+  skip-cert-verify: true
+  sni: o-two.bond
+  network: tcp
+- name: 1.45| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN113
+  server: 190.93.244.200
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.44| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶14CDN
+  server: 198.41.212.150
   port: 443
   type: vmess
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -641,35 +1218,7 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash6.ssr-free.xyz
-- name: 1.13|US02Syoutube阿伟科技331
-  server: dns.cao.by
-  port: 80
-  type: vmess
-  uuid: b6f5617b-f3a2-40b6-b4c5-e3594f3ca948
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: sshocean-us-2.nossl.cf
-  udp: true
-- name: 1.12| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶417
-  server: 198.41.212.12
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.11| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶47
+- name: 1.44| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶47
   server: 104.20.75.49
   port: 443
   type: vmess
@@ -682,23 +1231,8 @@ proxies:
     path: /AUIKN8AU
     headers:
       Host: oplg1.cfcdn2.xyz
-- name: 1.09|fr youtube阿伟科技
-  server: 172.67.127.250
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-  udp: true
-- name: 1.08| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶19
-  server: 104.18.3.35
+- name: 1.44| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶17
+  server: 172.67.135.57
   port: 443
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -710,58 +1244,7 @@ proxies:
     path: /AUIKN8AU
     headers:
       Host: oplg1.cfcdn2.xyz
-- name: 1.05| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN115
-  server: 190.93.246.195
-  port: 443
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      Host: opfr1.v2rayfree1.xyz
-- name: 1.03| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶8
-  server: 104.29.64.6
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 1.01| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶26CDN
-  server: 203.30.188.189
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 1.00| githubcomfreefq  美国CloudFlare公司CDN节点 28
-  server: hohm.microsoft.com
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /9JZFDTKE
-  ws-headers:
-    Host: fr1.trump2023.org
-- name: 0.99|JP日本 youtube阿伟科技
+- name: 1.42|JP日本 youtube阿伟科技
   server: 162.159.128.100
   port: 2082
   type: vmess
@@ -776,250 +1259,8 @@ proxies:
     headers:
       Host: jp.gcore.cloudflare.quest
   udp: true
-- name: 0.98| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶20
-  server: 104.18.3.33
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- type: vmess
-  name: 0.97|US美国4
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      host: opfr1.v2rayfree1.xyz
-  server: 198.41.212.123
-  port: 443
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.97| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶27CDN
-  server: 203.24.108.9
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 0.96| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶214CDN
-  server: 190.93.246.3
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 0.90| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶6
-  server: 104.29.64.4
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.89| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶45
-  server: 172.67.145.166
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.88| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶15CDN
-  server: 203.30.189.189
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 0.88| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶7
-  server: 104.29.64.5
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.86| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN14
-  server: 141.101.115.100
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-- type: trojan
-  name: 0.84|USwmt123126
-  server: ust3.sshocean.net
-  port: 443
-  password: 2b7a055e-5b0a-44bd-901b-5577e61aa832
-  udp: true
-  skip-cert-verify: true
-- name: 0.81| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶211CDN
-  server: 141.101.114.31
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 0.80|FRyoutube阿伟科技 3
-  server: v140.toddns.tk
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fr-unlimitxxx
-    headers:
-      Host: v140.toddns.tk
-  udp: true
-- name: 0.77| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶1
-  server: 162.159.137.21
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.73| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶42
-  server: yjz.hk
-  port: 443
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.72| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN14
-  server: 141.101.114.134
-  port: 443
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      Host: opfr1.v2rayfree1.xyz
-- name: 0.72| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶111CDN
-  server: 141.101.114.30
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: lg1.trump2023.us
-- name: 0.72|US youtube阿伟科技 38
-  server: cf.fastal.one
-  port: 8443
-  type: vmess
-  uuid: 3bba7cb9-20db-4604-dfdc-71dde392c50c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /https://t.me/yunjisuan888/
-    headers:
-      Host: yjs.fastal.one
-  udp: true
-- name: 0.70|JPyoutube阿伟科技 3
-  server: www.kuromi.eu.org
-  port: 33421
-  type: vmess
-  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.69| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13
-  server: 198.41.212.122
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-- name: 0.69| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶36CDN
-  server: 203.30.188.190
+- name: 1.41| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶37CDN
+  server: 203.24.108.10
   port: 443
   type: vmess
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
@@ -1031,23 +1272,36 @@ proxies:
     path: /A2DJOPFT
     headers:
       Host: lg10.cfcdn1.xyz
-- name: 0.69|芬兰 youtube阿伟科技
-  server: 185.143.233.141
+- name: 1.40|githubcommehdimoghaddamcell259
+  server: 188.40.132.107
   port: 80
   type: vmess
-  uuid: 808d0839-8e47-4bc1-aa93-d9d898924a12
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ray
+    path: /p3573l6m92h1ham3q23t
     headers:
-      Host: 218.zirogame-71.site
+      Host: 188.40.132.107
   udp: true
-- name: 0.67| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶5
-  server: 104.29.64.3
+- name: 1.40| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶32CDN
+  server: 188.114.99.11
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.39| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶8
+  server: 104.29.64.6
   port: 443
   type: vmess
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -1059,210 +1313,25 @@ proxies:
     path: /AUIKN8AU
     headers:
       Host: oplg1.cfcdn2.xyz
-- name: 0.64| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶412
-  server: 172.67.203.162
+- name: 1.38| RelayZZFR289
+  server: 162.159.128.7
   port: 443
   type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      Host: oplg1.cfcdn2.xyz
-- name: 0.61| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶212CDN
-  server: 190.93.244.3
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-- name: 0.60| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN12
-  server: 198.41.203.5
-  port: 443
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      Host: opfr1.v2rayfree1.xyz
-- name: 0.59|US youtube阿伟科技 4
-  server: 152.67.254.16
-  port: 43815
-  type: vmess
-  uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /abc
-    headers:
-      Host: 152.67.254.16
-  udp: true
-- name: 0.57| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶16CDN
-  server: 141.101.114.120
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- type: trojan
-  name: 0.54|HK香港4
-  server: ahgjs-4-tr-0.hkg-01.o-two.xyz
-  port: 889
-  password: pwFXfxfdJrFWapJKBYMJRbZuijrHPOpM
-  udp: true
-  skip-cert-verify: true
-  sni: o-two.bond
-  network: tcp
-- type: trojan
-  name: 0.54|FR法国
-  server: www.stream.shoppingitalia.live
-  port: 1935
-  password: 392f8755-75e7-481e-927e-0f3aae34234e
-  udp: true
-  skip-cert-verify: true
-  sni: www.stream.shoppingitalia.live
-  network: tcp
-- name: 0.52| githubcomfreefq  美国  16
-  server: cdn.decli.6641634715834932.me
-  port: 80
-  type: vmess
-  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aln/15
+  ws-path: /A2DJOPFT
   ws-headers:
-    Host: wangsu.com
-- name: 0.52| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶12CDN
-  server: 141.101.114.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 0.50| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶13CDN
-  server: 141.101.115.120
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 0.50|US 美国youtube阿伟科技 11
-  server: 170.187.190.16
+    Host: lg10.cfcdn1.xyz
+- name: 1.38| githubcomfreefq  英国社会保险安全部 20
+  server: uk1.trojanvh.xyz
   port: 80
-  type: vmess
-  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aln/15
-    headers:
-      Host: 170.187.190.16
-  udp: true
-- type: vmess
-  name: 0.50|US美国1
-  ws-opts:
-    path: /chat
-  server: vus2.0bad.com
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 0.48|FR youtube阿伟科技
-  server: 176.32.35.22
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fr-unlimitxxx
-    headers:
-      Host: 176.32.35.22
-  udp: true
-- name: 0.47| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶14CDN
-  server: 198.41.212.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 0.43|FRyoutube阿伟科技 3
-  server: 172.67.199.34
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-  udp: true
-- type: vmess
-  name: 0.40|HK香港3
-  http-opts:
-    path:
-    - /
-  server: 47.242.167.107
-  port: 41280
-  uuid: ba679005-db91-4411-ab60-a2642346a9cd
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 0.40|AU澳洲youtube阿伟科技
+  type: trojan
+  password: b640d791-ff83-4300-b509-c2a02f97f167
+  sni: uk1.trojanvh.xyz
+- name: 1.37|AU澳洲youtube阿伟科技
   server: cdn.ausli.6641634715834932.me
   port: 80
   type: vmess
@@ -1277,31 +1346,279 @@ proxies:
     headers:
       Host: cdn.ausli.6641634715834932.me
   udp: true
-- name: 0.38|12
-  server: ovh-3.555530.xyz
+- name: 1.35|芬兰 youtube阿伟科技
+  server: 185.143.233.141
   port: 80
   type: vmess
-  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  uuid: 808d0839-8e47-4bc1-aa93-d9d898924a12
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: 218.zirogame-71.site
+  udp: true
+- name: 1.32| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶31CDN
+  server: 203.30.191.193
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.28| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN14
+  server: 141.101.115.100
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+- name: 1.26|FRyoutube阿伟科技 3
+  server: 172.67.199.34
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+  udp: true
+- name: 1.23| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶26CDN
+  server: 203.30.188.189
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+- name: 1.23| githubcomfreefq  俄罗斯莫斯科JustHost 3
+  server: v10a.toddns.tk
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /happy
+  ws-path: /fr-unlimitxxx
   ws-headers:
-    Host: ovh-3.555530.xyz
+    Host: v10a.toddns.tk
+- name: 1.22| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶36CDN
+  server: 203.30.188.190
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.22| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶39CDN
+  server: 185.162.228.230
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.21|FR youtube阿伟科技
+  server: 176.32.35.22
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fr-unlimitxxx
+    headers:
+      Host: 176.32.35.22
+  udp: true
+- name: 1.19| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶35CDN
+  server: 203.30.189.191
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.18| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN14
+  server: 141.101.114.134
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.18| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶410
+  server: 172.67.70.22
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 1.16| githubcomfreefq  美国CloudFlare公司CDN节点 31
+  server: powerservice.com
+  port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: uk2.v2rayserv.com
+- name: 1.13| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶312CDN
+  server: 141.101.115.32
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.08| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶113CDN
+  server: 190.93.245.2
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: lg1.trump2023.us
+- name: 1.08|JPyoutube阿伟科技 3
+  server: www.kuromi.eu.org
+  port: 33421
+  type: vmess
+  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - type: vmess
-  name: 0.36|HK香港2
+  name: 1.08|HK香港8
   http-opts:
     path:
     - /
-  server: 8.210.140.81
-  port: 24447
-  uuid: ef97abb8-c32a-4c36-8ffd-40dfffb8dd30
+  server: 47.242.168.12
+  port: 35482
+  uuid: c6b5d490-5aee-49c7-bbce-699ad9e10507
   alterId: '0'
   cipher: auto
   network: http
-- name: 0.32|JP日本youtube阿伟科技
-  server: vjp1.0bad.com
+- name: 1.02| httpsgithubcomAlvin9999newpacwiki clash ip2 法国CDN12
+  server: 198.41.203.5
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+- name: 1.02| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶33CDN
+  server: 23.227.38.40
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 1.01| githubcomfreefq  美国  16
+  server: cdn.decli.6641634715834932.me
+  port: 80
+  type: vmess
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /aln/15
+  ws-headers:
+    Host: wangsu.com
+- name: 0.98| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶313CDN
+  server: 190.93.244.4
+  port: 443
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+    headers:
+      Host: lg10.cfcdn1.xyz
+- name: 0.88|vsg10badcom443927094d3d67847638591e240d0bcae87
+  server: vsg1.0bad.com
   port: 443
   type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -1313,9 +1630,119 @@ proxies:
   ws-opts:
     path: /chat
     headers:
-      Host: vjp1.0bad.com
+      Host: vsg1.0bad.com
   udp: true
-- name: 0.31|US youtube阿伟科技 5
+- type: vmess
+  name: 0.83|HK香港3
+  http-opts:
+    path:
+    - /
+  server: 47.242.167.107
+  port: 41280
+  uuid: ba679005-db91-4411-ab60-a2642346a9cd
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.82|US02Syoutube阿伟科技331
+  server: dns.cao.by
+  port: 80
+  type: vmess
+  uuid: b6f5617b-f3a2-40b6-b4c5-e3594f3ca948
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: sshocean-us-2.nossl.cf
+  udp: true
+- name: 0.82| githubcomfreefq  美国CloudFlare节点 17
+  server: cf-lt-dns.sharecentre.online
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /shirker
+  ws-headers:
+    Host: us-dp.sharecentre.online
+- name: 0.81|HK youtube阿伟科技
+  server: 47.242.66.90
+  port: 35317
+  type: vmess
+  uuid: 3d5d3753-4d33-4dd0-847a-65aa17f3e845
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.66.90
+  udp: true
+- name: 0.78| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶7
+  server: 104.29.64.5
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 0.77|HK youtube阿伟科技 2
+  server: 47.242.52.13
+  port: 31152
+  type: vmess
+  uuid: 59cf21e6-d029-47d8-9c37-7ef34280b9d1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.52.13
+  udp: true
+- type: vmess
+  name: 0.76|HK香港3
+  http-opts:
+    path:
+    - /
+  server: 8.210.153.242
+  port: 48577
+  uuid: dd3c5ce4-6741-4cdb-a54d-bf43475969e5
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 0.69|SSRSUBV06付费推荐suoytssrsub
+  server: get.tech
+  port: 80
+  type: vmess
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /shared
+  ws-headers:
+    Host: lv.awsbest.com
+- name: 0.66|US youtube阿伟科技 5
   server: 152.69.230.170
   port: 80
   type: vmess
@@ -1330,57 +1757,76 @@ proxies:
     headers:
       Host: 152.69.230.170
   udp: true
-- name: 0.27|RU youtube阿伟科技
-  server: els200.jslist.tk
-  port: 8443
+- name: 0.59|US 美国youtube阿伟科技 11
+  server: 170.187.190.16
+  port: 80
   type: vmess
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aln/15
+    headers:
+      Host: 170.187.190.16
+  udp: true
+- type: trojan
+  name: 0.55|USwmt123126
+  server: ust3.sshocean.net
+  port: 443
+  password: 2b7a055e-5b0a-44bd-901b-5577e61aa832
+  udp: true
+  skip-cert-verify: true
+- name: 0.54| githubcomfreefq  美国CloudFlare节点 38
+  server: cvywfavasdc.cymlr.xyz
+  port: 443
+  type: vmess
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ksebupo
+  ws-headers:
+    Host: cvywfavasdc.cymlr.xyz
+- name: 0.53|HK youtube阿伟科技
+  server: hk.swiftfalcon.app
+  port: 28893
+  type: trojan
+  password: shenmegui
+  sni: hk.swiftfalcon.app
+  skip-cert-verify: true
+  udp: true
+- name: 0.51|12
+  server: ovh-3.555530.xyz
+  port: 80
+  type: vmess
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /happy
+  ws-headers:
+    Host: ovh-3.555530.xyz
+- name: 0.49|JP日本youtube阿伟科技
+  server: vjp1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /wo.php
+    path: /chat
     headers:
-      Host: els200.jslist.tk
+      Host: vjp1.0bad.com
   udp: true
-- name: 0.25| githubcomfreefq  美国CloudFlare节点 31
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- type: vmess
-  name: 0.17|HK香港4
-  http-opts:
-    path:
-    - /
-  server: 8.210.126.138
-  port: 57070
-  uuid: 3727c689-134d-4b70-8962-9428225a79aa
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 0.14| v2rayfreeeuorg  美国Microsoft数据中心 38
-  server: azhk.evaelfiedamngmail.xyz
-  port: 80
-  type: vmess
-  uuid: 07c13c62-2dc1-4871-8aa0-c3d21568cd5a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: gw.alicdn.com
-- name: 0.12|芬兰 youtube阿伟科技 2
+- name: 0.49|芬兰 youtube阿伟科技 2
   server: 185.143.233.144
   port: 80
   type: vmess
@@ -1395,15 +1841,87 @@ proxies:
     headers:
       Host: 244.zirogame-86.site
   udp: true
-- name: 0.11| githubcomfreefq  美国CloudFlare节点 17
-  server: cf-lt-dns.sharecentre.online
-  port: 443
+- name: 0.43|SG youtube阿伟科技 5
+  server: 146.190.202.9
+  port: 57711
   type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: fc912850-b6da-4ec6-9348-f3d1d7471906
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /shirker
+  ws-opts:
+    path: /
+    headers:
+      Host: 146.190.202.9
+  udp: true
+- name: 0.29| githubcomfreefq  俄罗斯莫斯科JustHost 18
+  server: 45.136.244.181
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fr-unlimitxxx
   ws-headers:
-    Host: us-dp.sharecentre.online
+    Host: 45.136.244.181
+- name: 0.25|IR5
+  server: 37.32.23.122
+  port: 443
+  type: vmess
+  uuid: d12bc882-43c7-415e-87c5-2a7fdc8371c0
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /websocket/
+  skip-cert-verify: true
+- name: 0.24| v2rayfreeeuorg  美国Microsoft数据中心 38
+  server: azhk.evaelfiedamngmail.xyz
+  port: 80
+  type: vmess
+  uuid: 07c13c62-2dc1-4871-8aa0-c3d21568cd5a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: gw.alicdn.com
+- name: 0.20| githubcomfreefq  新加坡OVH 2
+  server: 139.99.61.154
+  port: 80
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: 139.99.61.154
+- name: 0.15| githubcomfreefq  美国  11
+  server: 162.19.224.175
+  port: 80
+  type: vmess
+  uuid: 42ba278d-65e0-4743-8707-e18ed98cfed5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: 162.19.224.175
+- type: vmess
+  name: 0.14|DE德国1
+  ws-opts:
+    path: /vmess
+  server: 89.163.213.20
+  port: 80
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: '0'
+  cipher: auto
+  network: ws
