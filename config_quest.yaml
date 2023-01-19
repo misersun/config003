@@ -1,5 +1,5 @@
 proxies:
-- name: 7.77| 中国01183542
+- name: 6.47| 中国01183542
   server: pvt-hka.ginfem.net
   port: 10016
   type: ssr
@@ -9,144 +9,78 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5128:TFFomV
   obfs-param: 12db25128.ikea.com
-- name: 7.71| IPLCAPSHK1ss
-  server: h649960.waihuizhibiaowang.com
-  port: 15543
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c
-- name: 7.60| IPLCAPSHK1trojan
-  server: h649960.waihuizhibiaowang.com
-  port: 13543
-  type: trojan
-  password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c
-  sni: h649960.waihuizhibiaowang.com
-- name: 5.19| 新加坡 03
-  server: dl-sg3.efyunpan.com
-  port: 443
-  type: trojan
-  password: 842c7bab-b5d0-49ce-8359-81b16d808164
-  sni: data-sg.efyunpan.com
-- name: 5.16| 香港 02
-  server: dl-hk2.efyunpan.com
-  port: 443
-  type: trojan
-  password: 842c7bab-b5d0-49ce-8359-81b16d808164
-  sni: data-hk.efyunpan.com
-- name: 4.53| 香港 06
-  server: dl-hk6.efyunpan.com
-  port: 443
-  type: trojan
-  password: 842c7bab-b5d0-49ce-8359-81b16d808164
-  sni: data-hk.efyunpan.com
-- name: 3.56|HK youtube阿伟科技
-  server: hk.swiftfalcon.app
-  port: 28893
-  type: trojan
-  password: shenmegui
-  sni: hk.swiftfalcon.app
-  skip-cert-verify: true
+- name: 4.71|SG新加坡2115 youtube阿伟科技1
+  server: sg-am3.eqsunshine.com
+  port: 32001
+  type: ssr
+  cipher: aes-256-cfb
+  password: 3g0dHlKME
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
   udp: true
-- name: 2.46|JPyoutube阿伟科技
+- name: 3.03|JP5417822017201152023f6bc252ss
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ===%%
+  obfs-param: ===%%
+  udp: true
+- name: 2.59|JPyoutube阿伟科技
   server: 85.208.108.60
   port: 4444
   type: ss
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
   udp: true
-- name: 2.17|SG youtube阿伟科技 3
-  server: 19223tj.matrixxx888.com
-  port: 19223
-  type: trojan
-  password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b
-  sni: eplcgame.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.14|US4
-  server: 167.88.63.79
-  port: 3306
-  type: ss
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- type: ss
-  name: 2.07|USwmt12311
-  server: oracleV2RAY.WdWmt.repl.co
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: E1u3UX7UsjCt
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    mux: true
-    skip-cert-verify: true
-    path: /
-    host: oracleV2RAY.WdWmt.repl.co
-    tls: true
-- name: 2.03|SG youtube阿伟科技 4
-  server: 19224tj.matrixxx888.com
-  port: 19224
-  type: trojan
-  password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b
-  sni: eplcgame.com
-  skip-cert-verify: true
-  udp: true
 - type: trojan
-  name: 1.90|USwmt123126
+  name: 1.94|USwmt123126
   server: ust3.sshocean.net
   port: 443
   password: 2b7a055e-5b0a-44bd-901b-5577e61aa832
   udp: true
   skip-cert-verify: true
-- name: 1.83|KR韩国3
-  type: ss
-  server: 43.201.72.64
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 1.38| Germany 3  NF D   备用
-  server: 141.95.61.209
-  port: 1145
-  type: trojan
-  password: be9cc8d4-5fbe-42bc-8b40-5d5d3a9542fa
-  sni: wx.qq.com
-  skip-cert-verify: true
-- name: 1.37|US美国youtube阿伟科技 10
-  server: 38.91.107.37
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 1.31|US美国youtube阿伟科技 2
-  server: 38.91.107.37
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 1.27|US youtube阿伟科技 6
-  server: 19234tj.matrixxx888.com
-  port: 19234
+- name: 1.22|US youtube阿伟科技 5
+  server: 19232tj.matrixxx888.com
+  port: 19232
   type: trojan
   password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b
   sni: eplcgame.com
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: 1.22|GBwmt12312
-  server: content-provider4.cdn-delivery.akamaicd.com
-  port: 443
-  password: shefelnak
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.09|SG新加坡1
+  name: 0.90|SG新加坡1
   server: f5465c4.pg.gladns.com
   port: 3389
   password: 0c6a3341e8d5ab17
   udp: true
   skip-cert-verify: true
   network: tcp
+- name: 0.89| Germany 3  NF D   备用
+  server: 141.95.61.209
+  port: 1145
+  type: trojan
+  password: be9cc8d4-5fbe-42bc-8b40-5d5d3a9542fa
+  sni: wx.qq.com
+  skip-cert-verify: true
+- type: trojan
+  name: 0.79|GBwmt12312
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
+  password: shefelnak
+  udp: true
+  skip-cert-verify: true
+- name: 0.54|KR韩国1
+  type: ss
+  server: 43.200.2.173
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
 - name: 0.54|US youtube阿伟科技
   server: 104.149.139.189
   port: 10002
@@ -158,33 +92,16 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 0.38|US youtube阿伟科技 2
-  server: 173.82.235.124
-  port: 60000
-  type: ssr
-  cipher: dummy
-  password: fdsfdsnqwjhasnbwhubfabda
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- type: ss
-  name: 0.34|SG新加坡3
-  server: 13.214.212.124
+- name: 0.25|KR韩国3
+  type: ss
+  server: 43.201.72.64
   port: 443
-  cipher: aes-256-cfb
   password: amazonskr05
-- name: 0.26|9
+  cipher: aes-256-cfb
+- name: 0.14|9
   server: 43.207.2.60
   port: 443
   type: trojan
   password: hfjlmL5z
   sni: cn.bing.com
   skip-cert-verify: true
-- name: 0.12|KR韩国1
-  type: ss
-  server: 43.200.2.173
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
