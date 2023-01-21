@@ -1,75 +1,28 @@
 proxies:
-- name: 5.90| 新加坡01  专线
-  server: sg1.v2pn.live
-  port: 80
+- name: 11.25|JP youtube阿伟科技 22
+  server: 141.147.182.252
+  port: 46018
   type: vmess
-  uuid: b4ef7c7e-8ee9-480c-b920-20378ff17cbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-  ws-headers:
-    Host: tlu.dl.delivery.mp.microsoft.com
-- name: 4.42| 香港01  专线
-  server: hk1.v2pn.live
-  port: 443
-  type: vmess
-  uuid: b4ef7c7e-8ee9-480c-b920-20378ff17cbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-  ws-headers:
-    Host: tlu.dl.delivery.mp.microsoft.com
-- name: 2.95|US youtube阿伟科技 33
-  server: 162.159.135.42
-  port: 80
-  type: vmess
-  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  uuid: e0573e4c-2cd3-4cb1-81d5-8e7cf4d8e799
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shares
-    headers:
-      Host: la.awsbest.com
   udp: true
-- name: 2.76|JP youtube阿伟科技 11
-  server: adly.cctvvip.ml
-  port: 80
+- name: 6.78|HK香港5
   type: vmess
-  uuid: 8700cfbd-71dc-42b0-84f2-53cd7fe5645a
-  alterId: 0
+  server: 47.242.68.220
+  port: 33319
   cipher: auto
+  uuid: cf8134d2-f65b-4aef-8078-d84ebafd4c65
+  alterId: 0
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: adly03.cctvvip.gq
-  udp: true
-- name: 2.57|US youtube阿伟科技 56
-  server: cacerts.digicert.com
-  port: 80
-  type: vmess
-  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shares
-    headers:
-      Host: la.awsbest.com
-  udp: true
+  servername: 47.242.68.220
+  network: http
+  http-opts: {}
 - type: vmess
-  name: 2.53|HK香港2
+  name: 6.63|HK香港2
   http-opts:
     path:
     - /
@@ -79,22 +32,94 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.32|US youtube阿伟科技 43
-  server: us09.cctvvip.ml
-  port: 43121
+- name: 6.29|SG youtube阿伟科技 8
+  server: fls-na-sg3.amazonwebservicess.com
+  port: 80
   type: vmess
-  uuid: d53b39e2-925e-45b6-9389-46b9fa95878b
+  uuid: 2bc47952-6b4f-4e54-9983-0d30343c4866
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
     headers:
-      Host: us09.cctvvip.ml
+      Host: fls-na-sg3.amazonwebservicess.com
   udp: true
-- name: 2.01|US youtube阿伟科技 52
+- name: 4.21|HK youtube阿伟科技
+  server: s3-ap-northeast-hk2.amazonwebservicess.com
+  port: 80
+  type: vmess
+  uuid: 2bc47952-6b4f-4e54-9983-0d30343c4866
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+    headers:
+      Host: s3-ap-northeast-hk2.amazonwebservicess.com
+  udp: true
+- name: 3.96|HK youtube阿伟科技 36
+  server: 16.163.95.127
+  port: 32825
+  type: vmess
+  uuid: 4cd69f52-4441-44eb-d4f4-faa977d6d476
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.61|US youtube阿伟科技 37
+  server: 43.153.57.62
+  port: 58664
+  type: vmess
+  uuid: 0486bd3f-9f2f-48c6-8593-ad639d032f90
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.44|US youtube阿伟科技 28
+  server: 43.153.54.241
+  port: 23891
+  type: vmess
+  uuid: 384c4c51-593d-4d4c-9e15-210c2003380d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.19|SG youtube阿伟科技 13
+  server: 18.143.93.210
+  port: 80
+  type: vmess
+  uuid: a2c73623-e7bb-4314-a684-0429c92ae81a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vvv/786043998886145822
+    headers:
+      Host: www.bing.com
+  udp: true
+- name: 2.86| 美国80端口03
+  server: us80-3.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /zh-cn/
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.86|US youtube阿伟科技 52
   server: get.tech
   port: 80
   type: vmess
@@ -109,81 +134,26 @@ proxies:
     headers:
       Host: lv.awsbest.com
   udp: true
-- name: 1.92|AU 澳洲 youtube阿伟科技
-  server: 162.159.128.100
-  port: 2086
-  type: vmess
-  uuid: 2ab46798-379c-47f0-84e9-998d3b9814e7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: au.gcore.cloudflare.quest
-  udp: true
-- name: 1.91|SG youtube阿伟科技 14
-  server: uicdn.cf
+- name: 2.81|JP youtube阿伟科技 23
+  server: 140.83.87.4
   port: 80
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 04852071-6116-41ed-8455-2b04543f3c8a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sshkit/1736960111/63b1af7a5f43f/
+    path: /6546
     headers:
-      Host: sg3-v2ray.sshkit.org
+      Host: 140.83.87.4
   udp: true
-- name: 1.88|FRyoutube阿伟科技 3
-  server: v140.toddns.tk
-  port: 80
+- name: 2.80|JP youtube阿伟科技 9
+  server: jp07.cctvvip.ml
+  port: 24429
   type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fr-unlimitxxx
-    headers:
-      Host: v140.toddns.tk
-  udp: true
-- name: 1.87|US youtube阿伟科技 36
-  server: 172.67.199.34
-  port: 80
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sshkit/fdfadsfa/63848bfe228fd/
-    headers:
-      Host: us-lb.sshkit.org
-  udp: true
-- name: 1.85|US youtube阿伟科技 41
-  server: 43.153.104.184
-  port: 39904
-  type: vmess
-  uuid: 74a7311a-b0f1-499b-e594-08618a8fecf8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.84|UK 英国 youtube阿伟科技
-  server: v4.583181.xyz
-  port: 126
-  type: vmess
-  uuid: 7ee04e1e-3bf8-44a0-9932-9e1d4333b41a
+  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a
   alterId: 0
   cipher: auto
   tls: false
@@ -192,92 +162,69 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: v4.583181.xyz
+      Host: jp07.cctvvip.ml
   udp: true
-- name: 1.82|UK youtube阿伟科技 2
-  server: 162.159.152.100
-  port: 2082
-  type: vmess
-  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: UK.CLOUDFLARE.QUEST
-  udp: true
-- name: 1.73|FR youtube阿伟科技 3
-  server: 162.159.152.100
-  port: 2086
-  type: vmess
-  uuid: 996edcff-02d0-4d12-bfd8-72c884c841b1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      Host: FRANCE.CLOUDFLARE.QUEST
-  udp: true
-- name: 1.59|CA加拿大 youtube阿伟科技
-  server: 198.41.208.200
+- name: 2.79|JP youtube阿伟科技 11
+  server: jp05.cctvvip.ml
   port: 80
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c48
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sshkit/1736960111/63b1af7a5f43f/
+    path: /
     headers:
-      Host: sg3-v2ray.sshkit.org
+      Host: qq.com
   udp: true
-- name: 1.56|芬兰youtube阿伟科技
-  server: 185.143.233.114
+- name: 2.74|JP youtube阿伟科技 27
+  server: 138.2.39.67
   port: 80
   type: vmess
-  uuid: cf7f2d7c-d4f8-469a-bfd5-97484bb98d2c
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c48
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ray
+    path: /
     headers:
-      Host: 214.zirogame-79.site
+      Host: 138.2.39.67
   udp: true
-- type: vmess
-  name: 1.54|JP日本3
-  server: www.kuromi.eu.org
-  port: 33421
-  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-  alterId: 0
-  cipher: auto
-  network: tcp
-- name: 1.45|芬兰youtube阿伟科技 2
-  server: 185.143.233.141
+- name: 2.66|JP youtube阿伟科技 8
+  server: jp10.cctvvip.ml
   port: 80
   type: vmess
-  uuid: 808d0839-8e47-4bc1-aa93-d9d898924a12
+  uuid: c287c071-d7f5-4f3a-db0e-0fb647186ae1
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ray
+    path: /
     headers:
-      Host: 218.zirogame-71.site
+      Host: jp10.cctvvip.ml
   udp: true
-- name: 1.30|US youtube阿伟科技 41
+- name: 2.66|JP youtube阿伟科技 3
+  server: jp80-4.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: 8ac2b0db-3cd5-4256-bd67-44f8731dd7f7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: jp80-4.sanfen001.pics
+  udp: true
+- name: 2.66|US youtube阿伟科技 41
   server: ovh-3.555530.xyz
   port: 80
   type: vmess
@@ -292,7 +239,288 @@ proxies:
     headers:
       Host: ovh-3.555530.xyz
   udp: true
-- name: 1.18|US youtube阿伟科技 82
+- name: 2.65|JP youtube阿伟科技
+  server: 140.83.82.156
+  port: 80
+  type: vmess
+  uuid: c287c071-d7f5-4f3a-db0e-0fb647186ae1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 140.83.82.156
+  udp: true
+- name: 2.57|JP youtube阿伟科技 6
+  server: jp15.cctvvip.ml
+  port: 80
+  type: vmess
+  uuid: 04852071-6116-41ed-8455-2b04543f3c8a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /6546
+    headers:
+      Host: jp15.cctvvip.ml
+  udp: true
+- name: 2.56|JP youtube阿伟科技 26
+  server: 138.2.52.176
+  port: 24429
+  type: vmess
+  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 138.2.52.176
+  udp: true
+- name: 2.33|JP youtube阿伟科技 12
+  server: jp03.cctvvip.ml
+  port: 80
+  type: vmess
+  uuid: a0733fc9-457e-498d-c363-9ec774a74946
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jun
+    headers:
+      Host: jp03.cctvvip.ml
+  udp: true
+- name: 2.28|JP youtube阿伟科技 28
+  server: 138.2.35.81
+  port: 80
+  type: vmess
+  uuid: a0733fc9-457e-498d-c363-9ec774a74946
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /jun
+    headers:
+      Host: 138.2.35.81
+  udp: true
+- name: 2.09|FRyoutube阿伟科技 3
+  server: v140.toddns.tk
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fr-unlimitxxx
+    headers:
+      Host: v140.toddns.tk
+  udp: true
+- name: 2.08|NL荷兰 youtube阿伟科技
+  server: c26s5.jamjams3.net
+  port: 7058
+  type: vmess
+  uuid: 147591bc-585a-423f-877e-41f89c9601b6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.92|UK youtube阿伟科技 2
+  server: 162.159.152.100
+  port: 2082
+  type: vmess
+  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: UK.CLOUDFLARE.QUEST
+  udp: true
+- name: 1.92|SG youtube阿伟科技 14
+  server: uicdn.cf
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/63b1af7a5f43f/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+  udp: true
+- name: 1.89|FR youtube阿伟科技 3
+  server: 162.159.152.100
+  port: 2086
+  type: vmess
+  uuid: 996edcff-02d0-4d12-bfd8-72c884c841b1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: FRANCE.CLOUDFLARE.QUEST
+  udp: true
+- name: 1.87|US美国 youtube阿伟科技
+  server: 34.214.47.22
+  port: 80
+  type: vmess
+  uuid: 9b643974-d963-4493-a4e0-d2640502007c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vvv/089961193038722238
+    headers:
+      Host: www.bing.com
+  udp: true
+- name: 1.81|CA加拿大 youtube阿伟科技
+  server: 198.41.208.200
+  port: 80
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/1736960111/63b1af7a5f43f/
+    headers:
+      Host: sg3-v2ray.sshkit.org
+  udp: true
+- name: 1.79|LV拉脱维亚 youtube阿伟科技
+  server: chat.openai.com
+  port: 2082
+  type: vmess
+  uuid: 60e08800-7b9a-460c-c0c3-6ccff6d1777a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: lv.cloudflare.quest
+  udp: true
+- name: 1.65|AU 澳洲 youtube阿伟科技
+  server: 162.159.128.100
+  port: 2086
+  type: vmess
+  uuid: 2ab46798-379c-47f0-84e9-998d3b9814e7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries?ed=2048
+    headers:
+      Host: au.gcore.cloudflare.quest
+  udp: true
+- name: 1.65| githubcomfreefq  俄罗斯莫斯科JustHost 18
+  server: 45.136.244.181
+  port: 80
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fr-unlimitxxx
+  ws-headers:
+    Host: 45.136.244.181
+- name: 1.58|IR伊朗FI芬兰2
+  type: vmess
+  server: 185.143.233.144
+  port: 80
+  cipher: auto
+  uuid: 74830129-a56c-4362-a741-a95e338107fe
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      host: 244.zirogame-86.site
+- name: 1.46|芬兰youtube阿伟科技
+  server: 185.143.233.114
+  port: 80
+  type: vmess
+  uuid: cf7f2d7c-d4f8-469a-bfd5-97484bb98d2c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: 214.zirogame-79.site
+  udp: true
+- name: 1.43|US youtube阿伟科技 25
+  server: 43.153.61.71
+  port: 13463
+  type: vmess
+  uuid: ba36e965-74b3-4705-eaaa-6be8e89ba9ba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.30|爱尔兰 youtube阿伟科技
+  server: iran.numallas.shop
+  port: 8080
+  type: vmess
+  uuid: abb84ba4-ef38-46ee-ee4e-5f4224ba7a1a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: iran.numallas.shop
+  udp: true
+- type: vmess
+  name: 1.18|SG新加坡1
+  ws-opts:
+    path: /hkaa0
+  server: sg1021.hkaa0.tk
+  port: 8880
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  alterId: 0
+  cipher: auto
+  network: ws
+- name: 1.16|US youtube阿伟科技 82
   server: us-01.legeth.tk
   port: 80
   type: vmess
@@ -307,22 +535,7 @@ proxies:
     headers:
       Host: us-01.legeth.tk
   udp: true
-- name: 1.17|SG youtube阿伟科技 18
-  server: sg-01.legeth.tk
-  port: 80
-  type: vmess
-  uuid: 4462d7fc-4443-44ab-8ade-65109600b284
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg-01.legeth.tk
-  udp: true
-- name: 1.16|AU youtube阿伟科技
+- name: 1.13|AU youtube阿伟科技
   server: au-01.legeth.tk
   port: 80
   type: vmess
@@ -337,7 +550,7 @@ proxies:
     headers:
       Host: au-01.legeth.tk
   udp: true
-- name: 1.15|VN越南 youtube阿伟科技
+- name: 1.09|VN越南 youtube阿伟科技
   server: vn-01.legeth.tk
   port: 80
   type: vmess
@@ -352,142 +565,44 @@ proxies:
     headers:
       Host: vn-01.legeth.tk
   udp: true
-- name: 1.12|KR youtube阿伟科技
-  server: 146.56.40.195
-  port: 21875
+- name: 1.02|JP youtube阿伟科技 5
+  server: jp21.cctvvip.ml
+  port: 46018
   type: vmess
-  uuid: 3462409a-61c9-4fd2-ed4b-fa929217b282
+  uuid: e0573e4c-2cd3-4cb1-81d5-8e7cf4d8e799
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 146.56.40.195
   udp: true
-- name: 1.11|SG youtube阿伟科技 5
-  server: 146.190.202.9
-  port: 57711
-  type: vmess
-  uuid: fc912850-b6da-4ec6-9348-f3d1d7471906
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 146.190.202.9
-  udp: true
-- name: 1.05|FRyoutube阿伟科技 2
-  server: 176.32.35.22
+- name: 1.02| githubcomfreefq  美国  16
+  server: cdn.decli.6641634715834932.me
   port: 80
   type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /fr-unlimitxxx
-    headers:
-      Host: 176.32.35.22
-  udp: true
-- name: 0.95|JP youtube阿伟科技 9
-  server: jp-01.legeth.tk
+  ws-path: /aln/15
+  ws-headers:
+    Host: wangsu.com
+- name: 0.95|US youtube阿伟科技 56
+  server: cacerts.digicert.com
   port: 80
   type: vmess
-  uuid: 4462d7fc-4443-44ab-8ade-65109600b284
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /shares
     headers:
-      Host: jp-01.legeth.tk
+      Host: la.awsbest.com
   udp: true
-- name: 0.89|US youtube阿伟科技 5
-  server: 152.69.230.170
-  port: 80
-  type: vmess
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.230.170
-  udp: true
-- name: 0.75|KR youtube阿伟科技 5
-  server: 34.64.248.150
-  port: 443
-  type: vmess
-  uuid: a746e521-f38a-4475-9bfc-e5e71972a825
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 34.64.248.150
-  udp: true
-- name: 0.70|US youtube阿伟科技 37
-  server: 43.153.57.62
-  port: 58664
-  type: vmess
-  uuid: 0486bd3f-9f2f-48c6-8593-ad639d032f90
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.67|JP youtube阿伟科技 4
-  server: 13.230.18.124
-  port: 80
-  type: vmess
-  uuid: 4a4047c4-086a-4861-b5f3-53bfe49d7ff8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vvv/606014706476646540
-    headers:
-      Host: www.bing.com
-  udp: true
-- name: 0.57|US youtube阿伟科技 33
-  server: 43.153.87.195
-  port: 47788
-  type: vmess
-  uuid: 724a2382-5929-480c-ba65-4a434c46b263
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.53|HK youtube阿伟科技 36
-  server: 16.163.95.127
-  port: 32825
-  type: vmess
-  uuid: 4cd69f52-4441-44eb-d4f4-faa977d6d476
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 0.51|US youtube阿伟科技 44
+- name: 0.89|US youtube阿伟科技 44
   server: us-02.legeth.tk
   port: 80
   type: vmess
@@ -502,23 +617,68 @@ proxies:
     headers:
       Host: us-02.legeth.tk
   udp: true
-- name: 0.49|芬兰youtube阿伟科技 3
-  server: 185.143.233.144
+- name: 0.81|FR youtube阿伟科技 6
+  server: fr-01.legeth.tk
   port: 80
   type: vmess
-  uuid: 74830129-a56c-4362-a741-a95e338107fe
+  uuid: 4462d7fc-4443-44ab-8ade-65109600b284
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ray
+    path: /
     headers:
-      Host: 244.zirogame-86.site
+      Host: fr-01.legeth.tk
   udp: true
-- name: 0.44|FR法国 youtube阿伟科技
-  server: v10a.toddns.tk
+- name: 0.68|JP youtube阿伟科技 4
+  server: 13.230.18.124
+  port: 80
+  type: vmess
+  uuid: 4a4047c4-086a-4861-b5f3-53bfe49d7ff8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vvv/606014706476646540
+    headers:
+      Host: www.bing.com
+  udp: true
+- name: 0.64|US youtube阿伟科技 33
+  server: 162.159.135.42
+  port: 80
+  type: vmess
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shares
+    headers:
+      Host: la.awsbest.com
+  udp: true
+- name: 0.46|JP youtube阿伟科技 9
+  server: jp-01.legeth.tk
+  port: 80
+  type: vmess
+  uuid: 4462d7fc-4443-44ab-8ade-65109600b284
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp-01.legeth.tk
+  udp: true
+- name: 0.40|FRyoutube阿伟科技 2
+  server: 176.32.35.22
   port: 80
   type: vmess
   uuid: a25881f3-967f-3265-bc7f-9e66857b016b
@@ -530,97 +690,5 @@ proxies:
   ws-opts:
     path: /fr-unlimitxxx
     headers:
-      Host: v10a.toddns.tk
+      Host: 176.32.35.22
   udp: true
-- type: vmess
-  name: 0.42|SG新加坡1
-  ws-opts:
-    path: /hkaa0
-  server: sg1021.hkaa0.tk
-  port: 8880
-  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
-  alterId: 0
-  cipher: auto
-  network: ws
-- name: 0.40| githubcomfreefq  俄罗斯莫斯科JustHost 18
-  server: 45.136.244.181
-  port: 80
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /fr-unlimitxxx
-  ws-headers:
-    Host: 45.136.244.181
-- name: 0.38|HK香港 youtube阿伟科技 2
-  server: 8.210.48.219
-  port: 26812
-  type: vmess
-  uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.48.219
-  udp: true
-- name: 0.33|HK香港 youtube阿伟科技 5
-  server: 8.210.126.138
-  port: 57070
-  type: vmess
-  uuid: 3727c689-134d-4b70-8962-9428225a79aa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.126.138
-  udp: true
-- name: 0.16| 日本01  专线
-  server: jp1.v2pn.live
-  port: 80
-  type: vmess
-  uuid: b4ef7c7e-8ee9-480c-b920-20378ff17cbb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-  ws-headers:
-    Host: tlu.dl.delivery.mp.microsoft.com
-- name: 0.14|IR3
-  server: 37.32.23.122
-  port: 443
-  type: vmess
-  uuid: d12bc882-43c7-415e-87c5-2a7fdc8371c0
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /websocket/
-  skip-cert-verify: true
-- type: vmess
-  name: 0.11|HK香港2
-  http-opts:
-    path:
-    - /
-  server: 8.210.206.163
-  port: 45719
-  uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
-  alterId: 0
-  cipher: auto
-  network: http
