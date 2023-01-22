@@ -1,16 +1,5 @@
 proxies:
-- name: 7.03|HK youtube阿伟科技 17
-  server: pvt-hka.ginfem.net
-  port: 10016
-  type: ssr
-  cipher: aes-256-cfb
-  password: hrkycyiepu
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5128:TFFomV
-  obfs-param: 12db25128.ikea.com
-  udp: true
-- name: 4.91|049SG新加坡2115 youtube阿伟科技1
+- name: 4.82|049SG新加坡2115 youtube阿伟科技1
   server: sg-am3.eqsunshine.com
   port: 32001
   type: ssr
@@ -21,37 +10,43 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 4.86|SG新加坡2
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
 - type: ss
-  name: 3.72|SG新加坡3
-  server: 13.214.212.124
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 2.88|US youtube阿伟科技 2
-  server: 173.82.235.124
-  port: 60000
-  type: ssr
-  cipher: dummy
-  password: fdsfdsnqwjhasnbwhubfabda
-  protocol: auth_chain_a
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 2.84|JP日本1
-  type: ss
+  name: 2.63|JP日本3
   server: 85.208.108.60
   port: 4444
-  password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 2.57|HK youtube阿伟科技 17
+  server: pvt-hka.ginfem.net
+  port: 10016
+  type: ssr
+  cipher: aes-256-cfb
+  password: hrkycyiepu
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5128:TFFomV
+  obfs-param: 12db25128.ikea.com
+  udp: true
+- name: 2.27|KR韩国3
+  type: ss
+  server: 43.201.72.64
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: 1.62|CA加拿大3
+  type: ss
+  server: ak1416.free.www.outline.network
+  port: 812
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
+- name: 1.59|CA加拿大1
+  type: ss
+  server: 51.161.118.38
+  port: 812
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
 - type: ss
-  name: 2.67|USwmt12311
+  name: 1.35|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -64,54 +59,31 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
-- name: 2.05|KR韩国3
-  type: ss
-  server: 43.201.72.64
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 0.86|CA加拿大3
-  type: ss
-  server: ak1416.free.www.outline.network
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
 - type: ss
-  name: 0.83|CNwmt1231140
+  name: 1.18|CA加拿大
+  server: 51.161.118.38
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 0.93|NL荷兰1
+  server: 172.99.188.99
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- type: ss
+  name: 0.86|NL荷兰2
+  server: 172.99.188.99
+  port: 5004
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- type: ss
+  name: 0.75|CNwmt1231135
   server: 14.29.124.168
-  port: 25268
+  port: 25261
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 0.81|CA加拿大2
-  type: ss
-  server: 51.161.118.38
-  port: 801
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.78|CA加拿大1
-  type: ss
-  server: 51.161.118.38
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 0.53|US youtube阿伟科技
-  server: 104.149.139.189
-  port: 10002
-  type: ssr
-  cipher: aes-256-cfb
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- type: ss
-  name: 0.29|CNwmt1231144
-  server: 14.29.124.168
-  port: 25270
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 0.21|HK youtube阿伟科技 20
+- name: 0.65|HK youtube阿伟科技 20
   server: 116.162.9.19
   port: 10016
   type: ssr
@@ -122,21 +94,38 @@ proxies:
   protocol-param: 5128:TFFomV
   obfs-param: 12db25128.ikea.com
   udp: true
-- name: 0.15|SSR
+- type: ss
+  name: 0.57|CNwmt1231136
   server: 14.29.124.168
-  port: 24000
-  type: ss
+  port: 25280
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.14|CN中国2
+  name: 0.21|CNwmt1231137
   server: 14.29.124.168
-  port: 25230
+  port: 25272
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.21|US  youtube阿伟科技 4
+  server: 185.199.225.45
+  port: 10002
+  type: ssr
+  cipher: aes-256-cfb
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: ss
+  name: 0.16|CNwmt1231138
+  server: 14.29.124.168
+  port: 25220
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.12|CNwmt1231141
+  name: 0.12|CN中国6
   server: 14.29.124.168
-  port: 25226
+  port: 25266
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
