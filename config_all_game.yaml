@@ -1,22 +1,16 @@
 proxies:
-- name: 4.82|049SG新加坡2115 youtube阿伟科技1
-  server: sg-am3.eqsunshine.com
-  port: 32001
+- name: 8.43|HK youtube阿伟科技 20
+  server: 116.162.9.19
+  port: 10016
   type: ssr
   cipher: aes-256-cfb
-  password: 3g0dHlKME
-  protocol: origin
+  password: hrkycyiepu
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+  protocol-param: 5128:TFFomV
+  obfs-param: 12db25128.ikea.com
   udp: true
-- type: ss
-  name: 2.63|JP日本3
-  server: 85.208.108.60
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 2.57|HK youtube阿伟科技 17
+- name: 3.88|HK youtube阿伟科技 17
   server: pvt-hka.ginfem.net
   port: 10016
   type: ssr
@@ -27,26 +21,96 @@ proxies:
   protocol-param: 5128:TFFomV
   obfs-param: 12db25128.ikea.com
   udp: true
-- name: 2.27|KR韩国3
-  type: ss
-  server: 43.201.72.64
-  port: 443
-  password: amazonskr05
+- name: 2.91|JP youtube阿伟科技
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
   cipher: aes-256-cfb
-- name: 1.62|CA加拿大3
+  password: eAokbaDN6
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: PT09JSU=
+  obfs-param: PT09JSU=
+  udp: true
+- name: 2.85|US  youtube阿伟科技 2
+  server: 173.82.186.25
+  port: 50006
+  type: ssr
+  cipher: dummy
+  password: IOSwgAYTREask(&1UHYTiq'&%12igsasamafSSR
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 2.67|NL4
+  server: 85.208.108.60
+  port: 8119
+  type: ss
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- name: 2.66|NL3
+  server: 85.208.108.60
+  port: 8009
+  type: ss
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 2.66|NL5
+  server: 85.208.108.60
+  port: 5500
+  type: ss
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- type: ss
+  name: 2.61|JP日本3
+  server: 85.208.108.60
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- type: ss
+  name: 2.04|US美国3
+  server: 167.88.63.79
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+- type: ss
+  name: 2.03|US美国4
+  server: 167.88.63.79
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- type: ss
+  name: 2.02|CN中国1
+  server: 14.29.124.168
+  port: 25222
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 1.92|US美国1
+  server: 167.88.63.79
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- type: ss
+  name: 1.88|US美国5
+  server: 38.91.102.123
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+- name: 1.64|CA加拿大3
   type: ss
   server: ak1416.free.www.outline.network
   port: 812
   password: G!yBwPWH3Vao
   cipher: chacha20-ietf-poly1305
-- name: 1.59|CA加拿大1
-  type: ss
-  server: 51.161.118.38
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
 - type: ss
-  name: 1.35|USwmt12311
+  name: 1.58|CA加拿大
+  server: 51.161.118.38
+  port: 810
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- type: ss
+  name: 1.55|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -60,50 +124,80 @@ proxies:
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
 - type: ss
-  name: 1.18|CA加拿大
+  name: 1.55|CA加拿大
   server: 51.161.118.38
   port: 805
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
+- name: 1.16|CA加拿大1
+  type: ss
+  server: 51.161.118.38
+  port: 812
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
 - type: ss
-  name: 0.93|NL荷兰1
-  server: 172.99.188.99
+  name: 0.99|CN中国7
+  server: 14.29.124.168
+  port: 25218
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.85|JP日本2
+  server: 43.207.82.53
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.81|CN中国2
+  server: 14.29.124.168
+  port: 25297
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.60|US美国2
+  server: 38.91.107.37
   port: 4444
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
 - type: ss
-  name: 0.86|NL荷兰2
-  server: 172.99.188.99
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- type: ss
-  name: 0.75|CNwmt1231135
+  name: 0.55|CN中国10
   server: 14.29.124.168
-  port: 25261
+  port: 25266
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 0.65|HK youtube阿伟科技 20
-  server: 116.162.9.19
-  port: 10016
+- type: ss
+  name: 0.53|CNwmt1231133
+  server: 14.29.124.168
+  port: 25287
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.46|CN中国9
+  server: 14.29.124.168
+  port: 25247
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.43|CN中国5
+  server: 14.29.124.168
+  port: 25286
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 0.42|US  youtube阿伟科技 3
+  server: 173.82.235.124
+  port: 60000
   type: ssr
-  cipher: aes-256-cfb
-  password: hrkycyiepu
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5128:TFFomV
-  obfs-param: 12db25128.ikea.com
+  cipher: dummy
+  password: fdsfdsnqwjhasnbwhubfabda
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
   udp: true
 - type: ss
-  name: 0.57|CNwmt1231136
+  name: 0.39|CNwmt1231132
   server: 14.29.124.168
-  port: 25280
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: 0.21|CNwmt1231137
-  server: 14.29.124.168
-  port: 25272
+  port: 25279
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 0.21|US  youtube阿伟科技 4
@@ -118,14 +212,56 @@ proxies:
   obfs-param: ''
   udp: true
 - type: ss
-  name: 0.16|CNwmt1231138
+  name: 0.21|SG新加坡1
+  server: 13.215.205.229
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: 0.20|KR韩国1
+  server: 43.201.5.75
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 0.17|KR韩国3
+  type: ss
+  server: 43.201.72.64
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- type: ss
+  name: 0.14|CNwmt1231135
+  server: 14.29.124.168
+  port: 25261
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.13|CNwmt1231138
   server: 14.29.124.168
   port: 25220
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - type: ss
-  name: 0.12|CN中国6
+  name: 0.12|CNwmt1231140
   server: 14.29.124.168
-  port: 25266
+  port: 25268
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.12|CNwmt1231137
+  server: 14.29.124.168
+  port: 25272
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.12|CNwmt1231139
+  server: 14.29.124.168
+  port: 25210
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: 0.11|CNwmt1231142
+  server: 14.29.124.168
+  port: 25252
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
