@@ -1,45 +1,21 @@
 proxies:
-- type: ss
-  name: 3.27|SG新加坡2
-  server: 13.215.173.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 2.93| Australia澳大利亚
-  server: frontend.yijianlian.app
-  port: 54590
+- name: 4.48|HK youtube阿伟科技 18
+  server: iplc.xiaohouzi.club
+  port: 20011
   type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: iplc.xiaohouzi.club
   skip-cert-verify: true
-- type: ss
-  name: 2.88|JP日本2
-  server: 43.206.236.83
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  udp: true
 - type: trojan
-  name: 2.83|US美国5
+  name: 3.10|US美国5
   server: 155.248.193.254
   port: 31853
   password: jKRJgS7uvI
   udp: true
   skip-cert-verify: true
   network: tcp
-- name: 2.65|JP日本1
-  type: ss
-  server: 85.208.108.60
-  port: 4444
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 2.63|距离下次重置剩余30 天
-  server: frontend.yijianlian.app
-  port: 54430
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
-  skip-cert-verify: true
-- name: 2.59|JP youtube阿伟科技
+- name: 3.04|JP youtube阿伟科技
   server: jp-am48-6.eqnode.net
   port: 8081
   type: ssr
@@ -50,54 +26,94 @@ proxies:
   protocol-param: PT09JSU=
   obfs-param: PT09JSU=
   udp: true
-- name: 2.51|JP日本3
-  type: ss
-  server: 43.206.224.222
+- type: ss
+  name: 2.87|JP日本2
+  server: 43.206.236.83
   port: 443
-  password: amazonskr05
   cipher: aes-256-cfb
-- name: 2.48|KR韩国1
+  password: amazonskr05
+- name: 2.87|KR youtube阿伟科技 5
+  server: hn.xiaohouzi.club
+  port: 16015
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: hn.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: 2.65|NL4
+  server: 85.208.108.60
+  port: 8119
+  type: ss
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+- type: ss
+  name: 2.60|JP日本3
+  server: 85.208.108.60
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 2.58|NL5
+  server: 85.208.108.60
+  port: 5500
+  type: ss
+  password: KixLvKzwjekG00rm
+  cipher: aes-256-gcm
+- name: 2.47|KR韩国1
   type: ss
   server: 43.200.2.173
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 2.37| Russia俄罗斯
-  server: frontend.yijianlian.app
-  port: 54510
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
-  skip-cert-verify: true
-- name: 2.29| Germany德国
-  server: frontend.yijianlian.app
-  port: 54490
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
-  skip-cert-verify: true
-- name: 2.27|Spain西班牙
-  server: frontend.yijianlian.app
-  port: 54470
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
-  skip-cert-verify: true
-- name: 2.02|KR韩国3
+- name: 2.33|NL3
+  server: 85.208.108.60
+  port: 8009
   type: ss
-  server: 43.201.72.64
+  password: XKFKl2rULjIp74
+  cipher: aes-256-gcm
+- name: 1.90|US youtube阿伟科技 3
+  server: trny.ballistics.top
   port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- type: trojan
-  name: 1.90|GBwmt12312
-  server: content-provider4.cdn-delivery.akamaicd.com
-  port: 443
-  password: shefelnak
-  udp: true
+  type: trojan
+  password: 2aecd807-bbff-4afe-8459-81b0a390fc50
+  sni: trny.ballistics.top
   skip-cert-verify: true
+  udp: true
+- name: 1.71|CA加拿大1
+  type: ss
+  server: 51.161.118.38
+  port: 812
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
 - type: ss
-  name: 1.88|USwmt12311
+  name: 1.64|CA加拿大
+  server: 51.161.118.38
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 1.46|UK youtube阿伟科技 2
+  server: hnm.xiaohouzi.club
+  port: 47552
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: hnm.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: 1.42|土耳其youtube阿伟科技 2
+  server: hnm.xiaohouzi.club
+  port: 17105
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: hnm.xiaohouzi.club
+  skip-cert-verify: true
+  udp: true
+- name: 1.40|CA加拿大3
+  type: ss
+  server: ak1416.free.www.outline.network
+  port: 812
+  password: G!yBwPWH3Vao
+  cipher: chacha20-ietf-poly1305
+- type: ss
+  name: 1.40|USwmt12311
   server: oracleV2RAY.WdWmt.repl.co
   port: 443
   cipher: chacha20-ietf-poly1305
@@ -110,41 +126,14 @@ proxies:
     path: /
     host: oracleV2RAY.WdWmt.repl.co
     tls: true
-- name: 1.85|US youtube阿伟科技 3
-  server: trny.ballistics.top
+- type: trojan
+  name: 1.35|GBwmt12312
+  server: content-provider4.cdn-delivery.akamaicd.com
   port: 443
-  type: trojan
-  password: 2aecd807-bbff-4afe-8459-81b0a390fc50
-  sni: trny.ballistics.top
-  skip-cert-verify: true
+  password: shefelnak
   udp: true
-- name: 1.83|Poland波兰
-  server: frontend.yijianlian.app
-  port: 54410
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
   skip-cert-verify: true
-- name: 1.68| Italy意大利
-  server: frontend.yijianlian.app
-  port: 54450
-  type: trojan
-  password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d
-  sni: frontend.yijianlian.app
-  skip-cert-verify: true
-- name: 1.64|CA加拿大3
-  type: ss
-  server: ak1416.free.www.outline.network
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 1.59|CA加拿大1
-  type: ss
-  server: 51.161.118.38
-  port: 812
-  password: G!yBwPWH3Vao
-  cipher: chacha20-ietf-poly1305
-- name: 1.11|AU澳大利亚 youtube阿伟科技
+- name: 1.25|AU澳大利亚 youtube阿伟科技
   server: trxn.ballistics.top
   port: 443
   type: trojan
@@ -152,25 +141,34 @@ proxies:
   sni: trxn.ballistics.top
   skip-cert-verify: true
   udp: true
+- name: 1.16|US youtube阿伟科技 2
+  server: azgy001.xibai6.top
+  port: 20789
+  type: trojan
+  password: f23a8308-7cf3-3e69-976a-de7246b02a2d
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 0.82|SG新加坡2
+  server: 13.215.173.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - type: trojan
-  name: 1.10|SG新加坡1
+  name: 0.74|SG新加坡1
   server: f5465c4.pg.gladns.com
   port: 3389
   password: 0c6a3341e8d5ab17
   udp: true
   skip-cert-verify: true
   network: tcp
-- name: 0.57|HK youtube阿伟科技 17
-  server: pvt-hka.ginfem.net
-  port: 10016
-  type: ssr
+- name: 0.46|KR韩国3
+  type: ss
+  server: 43.201.72.64
+  port: 443
+  password: amazonskr05
   cipher: aes-256-cfb
-  password: hrkycyiepu
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5128:TFFomV
-  obfs-param: 12db25128.ikea.com
-  udp: true
 - name: 0.21|US  youtube阿伟科技 4
   server: 185.199.225.45
   port: 10002
@@ -182,3 +180,9 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
+- name: 0.20|JP日本3
+  type: ss
+  server: 43.206.224.222
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
