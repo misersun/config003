@@ -1,5 +1,5 @@
 proxies:
-- name: 0.16|SSR
+- name: 1.07|SSR
   server: z00041.security-cloudfront-cdn.com
   port: 42833
   type: ssr
@@ -9,3 +9,21 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: ''
+- name: 0.75| 澳大利亚0208005
+  server: z0113.security-cloudfront-cdn.com
+  port: 42833
+  type: ssr
+  cipher: aes-256-cfb
+  password: YpX2opBbrfqJzzMs
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.46|SE瑞典
+  type: ssr
+  server: z0117.security-cloudfront-cdn.com
+  port: 42833
+  password: YpX2opBbrfqJzzMs
+  cipher: aes-256-cfb
+  obfs: http_simple
+  protocol: origin
